@@ -1,0 +1,2460 @@
+<prefabs>
+	<game_entity old_prefab_name="" name="castle_wall_roof_vlandia">
+		<children>
+			<game_entity old_prefab_name="" name="castle_wall_roof_vlandia_09">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_vlandia_09"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_vlandia_09">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="0.044, 0.960, 0.446"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_vlandia_08">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_vlandia_08"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_vlandia_08">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="0.029, 1.060, 0.371"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_vlandia_07">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_vlandia_07"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_vlandia_07">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="0.580, 0.530, 0.327"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_vlandia_06">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_vlandia_06"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_vlandia_06">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="-0.953, 0.545, 0.284"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_vlandia_05">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_vlandia_05"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_vlandia_05">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="0.289, 0.280, 0.044"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_vlandia_04">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_vlandia_04"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_vlandia_04">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="-0.191, -0.180, -0.036"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_vlandia_03">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_vlandia_03"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_vlandia_03">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="0.119, -0.290, -0.156"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_vlandia_02">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_vlandia_02"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_vlandia_02">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="0.789, -0.520, -0.156"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_vlandia_01">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_vlandia_01"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_vlandia_01">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="-0.261, -0.870, -0.286"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_vlandia_00">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_vlandia_00"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_vlandia_00">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="-0.051, -1.080, -0.446"/>
+			</game_entity>
+		</children>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable value="Sphere" name="Trigger Shape"/>
+					<variable value="false" name="Is Triggered"/>
+					<variable value="false" name="Send Mood Parameter"/>
+					<variable value="false" name="Send Snowfall Parameter"/>
+					<variable value="false" name="Send Rainfall Parameter"/>
+					<variable value="false" name="Send Daytime Parameter"/>
+					<variable value="" name="Overrided Event Path (Winter)"/>
+					<variable value="" name="Overrided Event Path (Fall)"/>
+					<variable value="" name="Overrided Event Path (Summer)"/>
+					<variable value="" name="Overrided Event Path (Spring)"/>
+					<variable value="1.000000" name="Overrided Pitch"/>
+					<variable value="0.000000" name="Overrided Volume"/>
+					<variable value="1.500000" name="Overrided Min Distance"/>
+					<variable value="500.000000" name="Overrided Max Distance"/>
+					<variable value="true" name="Play On Startup"/>
+					<variable value="false" name="Overrided Parameters"/>
+					<variable value="event:/mission/siege/merlon/stone_destroy" name="Event Path"/>
+				</variables>
+			</script>
+		</scripts>
+		<components>
+			<particle_system_instanced_component>
+				<effect_ref base_effect="{93F16366-32CE-4AE2-B527-B3CCC04222F6}"/>
+			</particle_system_instanced_component>
+		</components>
+		<physics mass="1.000"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity old_prefab_name="" name="castle_wall_roof_empire">
+		<children>
+			<game_entity old_prefab_name="" name="castle_wall_roof_empire_09">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_empire_09"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_empire_09">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="0.044, 0.960, 0.446"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_empire_08">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_empire_08"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_empire_08">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="0.029, 1.060, 0.371"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_empire_07">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_empire_07"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_empire_07">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="0.580, 0.530, 0.327"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_empire_06">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_empire_06"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_empire_06">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="-0.953, 0.545, 0.284"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_empire_05">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_empire_05"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_empire_05">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="0.289, 0.280, 0.044"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_empire_04">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_empire_04"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_empire_04">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="-0.191, -0.180, -0.036"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_empire_03">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_empire_03"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_empire_03">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="0.119, -0.290, -0.156"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_empire_02">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_empire_02"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_empire_02">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="0.789, -0.520, -0.156"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_empire_01">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_empire_01"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_empire_01">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="-0.261, -0.870, -0.286"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_empire_00">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_empire_00"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_empire_00">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="-0.051, -1.080, -0.446"/>
+			</game_entity>
+		</children>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable value="Sphere" name="Trigger Shape"/>
+					<variable value="false" name="Is Triggered"/>
+					<variable value="false" name="Send Mood Parameter"/>
+					<variable value="false" name="Send Snowfall Parameter"/>
+					<variable value="false" name="Send Rainfall Parameter"/>
+					<variable value="false" name="Send Daytime Parameter"/>
+					<variable value="" name="Overrided Event Path (Winter)"/>
+					<variable value="" name="Overrided Event Path (Fall)"/>
+					<variable value="" name="Overrided Event Path (Summer)"/>
+					<variable value="" name="Overrided Event Path (Spring)"/>
+					<variable value="1.000000" name="Overrided Pitch"/>
+					<variable value="0.000000" name="Overrided Volume"/>
+					<variable value="1.500000" name="Overrided Min Distance"/>
+					<variable value="500.000000" name="Overrided Max Distance"/>
+					<variable value="true" name="Play On Startup"/>
+					<variable value="false" name="Overrided Parameters"/>
+					<variable value="event:/mission/siege/merlon/stone_destroy" name="Event Path"/>
+				</variables>
+			</script>
+		</scripts>
+		<components>
+			<particle_system_instanced_component>
+				<effect_ref base_effect="{93F16366-32CE-4AE2-B527-B3CCC04222F6}"/>
+			</particle_system_instanced_component>
+		</components>
+		<physics mass="1.000"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity name="castle_wall_roof_battania" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<particle_system_instanced_component>
+				<effect_ref base_effect="{02FAB7FC-8C92-4890-804F-D45D273CAB42}"/>
+			</particle_system_instanced_component>
+		</components>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/siege/merlon/stone_destroy"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="500.000000"/>
+					<variable name="Overrided Min Distance" value="2.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="castle_wall_roof_battania_07" old_prefab_name="">
+				<transform position="0.580, 0.530, 0.327"/>
+				<physics shape="bo_castle_wall_roof_battania_07" mass="1.000">
+					<body_flags>
+						<body_flag name="dynamic"/>
+						<body_flag name="dynamic_convex_hull"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="castle_wall_roof_battania_07"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_wall_roof_battania_06" old_prefab_name="">
+				<transform position="-0.953, 0.545, 0.284"/>
+				<physics shape="bo_castle_wall_roof_battania_06" mass="1.000">
+					<body_flags>
+						<body_flag name="dynamic"/>
+						<body_flag name="dynamic_convex_hull"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="castle_wall_roof_battania_06"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_wall_roof_battania_05" old_prefab_name="">
+				<transform position="0.289, 0.280, 0.044"/>
+				<physics shape="bo_castle_wall_roof_battania_05" mass="1.000">
+					<body_flags>
+						<body_flag name="dynamic"/>
+						<body_flag name="dynamic_convex_hull"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="castle_wall_roof_battania_05"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_wall_roof_battania_04" old_prefab_name="">
+				<transform position="-0.191, -0.180, -0.036"/>
+				<physics shape="bo_castle_wall_roof_battania_04" mass="1.000">
+					<body_flags>
+						<body_flag name="dynamic"/>
+						<body_flag name="dynamic_convex_hull"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="castle_wall_roof_battania_04"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_wall_roof_battania_03" old_prefab_name="">
+				<transform position="0.119, -0.290, -0.156"/>
+				<physics shape="bo_castle_wall_roof_battania_03" mass="1.000">
+					<body_flags>
+						<body_flag name="dynamic"/>
+						<body_flag name="dynamic_convex_hull"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="castle_wall_roof_battania_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_wall_roof_battania_02" old_prefab_name="">
+				<transform position="0.789, -0.520, -0.156"/>
+				<physics shape="bo_castle_wall_roof_battania_02" mass="1.000">
+					<body_flags>
+						<body_flag name="dynamic"/>
+						<body_flag name="dynamic_convex_hull"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="castle_wall_roof_battania_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_wall_roof_battania_01" old_prefab_name="">
+				<transform position="-0.261, -0.870, -0.286"/>
+				<physics shape="bo_castle_wall_roof_battania_01" mass="1.000">
+					<body_flags>
+						<body_flag name="dynamic"/>
+						<body_flag name="dynamic_convex_hull"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="castle_wall_roof_battania_01"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_wall_roof_battania_00" old_prefab_name="">
+				<transform position="-0.051, -1.080, -0.446"/>
+				<physics shape="bo_castle_wall_roof_battania_00" mass="1.000">
+					<body_flags>
+						<body_flag name="dynamic"/>
+						<body_flag name="dynamic_convex_hull"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="castle_wall_roof_battania_00"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity old_prefab_name="" name="castle_wall_roof_aserai">
+		<children>
+			<game_entity old_prefab_name="" name="castle_wall_roof_aserai_04">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_aserai_04"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_aserai_04">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="0.053, 1.677, 1.468"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_aserai_03">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_aserai_03"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_aserai_03">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="1.107, 0.029, 1.020"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_aserai_02">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_aserai_02"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_aserai_02">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="-0.414, 0.097, 0.856"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_aserai_01">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_aserai_01"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_aserai_01">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="-1.086, 0.020, 1.020"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="castle_wall_roof_aserai_00">
+				<components>
+					<meta_mesh_component name="castle_wall_roof_aserai_00"/>
+				</components>
+				<physics mass="1.000" shape="bo_castle_wall_roof_aserai_00">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<transform position="-0.001, -1.564, 0.267"/>
+			</game_entity>
+		</children>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable value="Sphere" name="Trigger Shape"/>
+					<variable value="false" name="Is Triggered"/>
+					<variable value="false" name="Send Mood Parameter"/>
+					<variable value="false" name="Send Snowfall Parameter"/>
+					<variable value="false" name="Send Rainfall Parameter"/>
+					<variable value="false" name="Send Daytime Parameter"/>
+					<variable value="" name="Overrided Event Path (Winter)"/>
+					<variable value="" name="Overrided Event Path (Fall)"/>
+					<variable value="" name="Overrided Event Path (Summer)"/>
+					<variable value="" name="Overrided Event Path (Spring)"/>
+					<variable value="1.000000" name="Overrided Pitch"/>
+					<variable value="0.000000" name="Overrided Volume"/>
+					<variable value="1.500000" name="Overrided Min Distance"/>
+					<variable value="500.000000" name="Overrided Max Distance"/>
+					<variable value="true" name="Play On Startup"/>
+					<variable value="false" name="Overrided Parameters"/>
+					<variable value="event:/mission/siege/merlon/stone_destroy" name="Event Path"/>
+				</variables>
+			</script>
+		</scripts>
+		<components>
+			<particle_system_instanced_component>
+				<effect_ref base_effect="{93F16366-32CE-4AE2-B527-B3CCC04222F6}"/>
+			</particle_system_instanced_component>
+		</components>
+		<physics mass="1.000"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity old_prefab_name="" name="european_castle_wall_a_roof">
+		<children>
+			<game_entity old_prefab_name="" name="merlon_7">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="10.027, -0.140, 1.370"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_vlandia" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="european_castle_wall_a_roof_7"/>
+				</components>
+				<physics mass="1.000" shape="bo_european_castle_wall_a_roof_7"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_6">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="6.726, -0.074, 1.348"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_vlandia" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="european_castle_wall_a_roof_6"/>
+				</components>
+				<physics mass="1.000" shape="bo_european_castle_wall_a_roof_6"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_5">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="3.847, -0.192, 1.424"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_vlandia" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="european_castle_wall_a_roof_5"/>
+				</components>
+				<physics mass="1.000" shape="bo_european_castle_wall_a_roof_5"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_4">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="0.601, -0.031, 1.446"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_vlandia" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="european_castle_wall_a_roof_4"/>
+				</components>
+				<physics mass="1.000" shape="bo_european_castle_wall_a_roof_4"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_3">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-2.512, -0.009, 1.402"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_vlandia" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="european_castle_wall_a_roof_3"/>
+				</components>
+				<physics mass="1.000" shape="bo_european_castle_wall_a_roof_3"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_2">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-5.811, -0.081, 1.325"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_vlandia" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="european_castle_wall_a_roof_2"/>
+				</components>
+				<physics mass="1.000" shape="bo_european_castle_wall_a_roof_2"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_1">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-9.621, 0.086, 1.348"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_vlandia" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="european_castle_wall_a_roof_1"/>
+				</components>
+				<physics mass="1.000" shape="bo_european_castle_wall_a_roof_1"/>
+			</game_entity>
+		</children>
+		<physics mass="1.000"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity old_prefab_name="" name="european_castle_wall_d_roof">
+		<children>
+			<game_entity old_prefab_name="" name="merlon_1">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-4.123, 0.086, 1.488"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_vlandia" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="european_castle_wall_d_roof_1"/>
+				</components>
+				<physics mass="1.000" shape="bo_european_castle_wall_d_roof_1"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_2">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-0.922, -0.081, 1.507"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_vlandia" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="european_castle_wall_d_roof_2"/>
+				</components>
+				<physics mass="1.000" shape="bo_european_castle_wall_d_roof_2"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_3">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="2.308, -0.009, 1.568"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_vlandia" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="european_castle_wall_d_roof_3"/>
+				</components>
+				<physics mass="1.000" shape="bo_european_castle_wall_d_roof_3"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_4">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="5.287, -0.031, 1.446"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_vlandia" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="european_castle_wall_d_roof_4"/>
+				</components>
+				<physics mass="1.000" shape="bo_european_castle_wall_d_roof_4"/>
+			</game_entity>
+		</children>
+		<physics mass="1.000"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity old_prefab_name="" name="european_castle_wall_c_roof">
+		<children>
+			<game_entity old_prefab_name="" name="merlon_1">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform rotation_euler="0.000, -0.228, 0.000" position="-4.423, 0.338, 0.833"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_vlandia" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="european_castle_wall_c_roof_1"/>
+				</components>
+				<physics mass="1.000" shape="bo_european_castle_wall_c_roof_1"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_2">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform rotation_euler="0.000, -0.194, 0.000" position="-1.127, 0.171, 1.437"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_vlandia" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="european_castle_wall_c_roof_2"/>
+				</components>
+				<physics mass="1.000" shape="bo_european_castle_wall_c_roof_2"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_3">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform rotation_euler="0.000, -0.203, 0.000" position="2.214, 0.243, 2.044"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_vlandia" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="european_castle_wall_c_roof_3"/>
+				</components>
+				<physics mass="1.000" shape="bo_european_castle_wall_c_roof_3"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_4">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform rotation_euler="0.000, -0.157, 0.000" position="5.051, 0.221, 2.343"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_vlandia" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="european_castle_wall_c_roof_4"/>
+				</components>
+				<physics mass="1.000" shape="bo_european_castle_wall_c_roof_4"/>
+			</game_entity>
+		</children>
+		<physics mass="1.000"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity old_prefab_name="" name="empire_castle_wall_a_roof">
+		<children>
+			<game_entity old_prefab_name="" name="merlon_1">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-9.621, 0.086, 1.213"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_empire" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="empire_castle_wall_a_roof_1"/>
+				</components>
+				<physics mass="1.000" shape="bo_empire_castle_wall_a_roof_1"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_2">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-5.811, -0.081, 1.190"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_empire" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="empire_castle_wall_a_roof_2"/>
+				</components>
+				<physics mass="1.000" shape="bo_empire_castle_wall_a_roof_2"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_3">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-2.512, -0.009, 1.267"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_empire" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="empire_castle_wall_a_roof_3"/>
+				</components>
+				<physics mass="1.000" shape="bo_empire_castle_wall_a_roof_3"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_4">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="0.601, -0.031, 1.311"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_empire" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="empire_castle_wall_a_roof_4"/>
+				</components>
+				<physics mass="1.000" shape="bo_empire_castle_wall_a_roof_4"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_5">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="3.847, -0.192, 1.289"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_empire" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="empire_castle_wall_a_roof_5"/>
+				</components>
+				<physics mass="1.000" shape="bo_empire_castle_wall_a_roof_5"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_6">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="6.726, -0.074, 1.213"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_empire" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="empire_castle_wall_a_roof_6"/>
+				</components>
+				<physics mass="1.000" shape="bo_empire_castle_wall_a_roof_6"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_7">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="10.027, -0.140, 1.235"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_empire" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="empire_castle_wall_a_roof_7"/>
+				</components>
+				<physics mass="1.000" shape="bo_empire_castle_wall_a_roof_7"/>
+			</game_entity>
+		</children>
+		<physics mass="1.000"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity old_prefab_name="" name="empire_castle_wall_d_roof">
+		<children>
+			<game_entity old_prefab_name="" name="merlon_4">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="5.287, -0.031, 1.276"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_empire" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="empire_castle_wall_d_roof_4"/>
+				</components>
+				<physics mass="1.000" shape="bo_empire_castle_wall_d_roof_4"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_3">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="2.308, -0.009, 1.298"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_empire" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="empire_castle_wall_d_roof_3"/>
+				</components>
+				<physics mass="1.000" shape="bo_empire_castle_wall_d_roof_3"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_2">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-0.922, -0.081, 1.337"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_empire" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="empire_castle_wall_d_roof_2"/>
+				</components>
+				<physics mass="1.000" shape="bo_empire_castle_wall_d_roof_2"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_1">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-4.123, 0.086, 1.318"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_empire" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="empire_castle_wall_d_roof_1"/>
+				</components>
+				<physics mass="1.000" shape="bo_empire_castle_wall_d_roof_1"/>
+			</game_entity>
+		</children>
+		<physics mass="1.000"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity old_prefab_name="" name="empire_castle_wall_c_roof">
+		<children>
+			<game_entity old_prefab_name="" name="merlon_4">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform rotation_euler="0.000, -0.157, 0.000" position="5.061, 0.221, 2.191"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_empire" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="empire_castle_wall_c_roof_4"/>
+				</components>
+				<physics mass="1.000" shape="bo_empire_castle_wall_c_roof_4"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_3">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform rotation_euler="0.000, -0.203, 0.000" position="2.252, 0.243, 1.772"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_empire" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="empire_castle_wall_c_roof_3"/>
+				</components>
+				<physics mass="1.000" shape="bo_empire_castle_wall_c_roof_3"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_2">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform rotation_euler="0.000, -0.194, 0.000" position="-1.102, 0.171, 1.221"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_empire" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="empire_castle_wall_c_roof_2"/>
+				</components>
+				<physics mass="1.000" shape="bo_empire_castle_wall_c_roof_2"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_1">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform rotation_euler="0.000, -0.228, 0.000" position="-4.423, 0.338, 0.745"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_vlandia" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="empire_castle_wall_c_roof_1"/>
+				</components>
+				<physics mass="1.000" shape="bo_empire_castle_wall_c_roof_1"/>
+			</game_entity>
+		</children>
+		<physics mass="1.000"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity old_prefab_name="" name="battania_castle_wall_a_roof">
+		<children>
+			<game_entity old_prefab_name="" name="merlon_1">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-9.621, 0.086, 1.213"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_battania" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="battania_castle_wall_a_roof_1"/>
+				</components>
+				<physics mass="1.000" shape="bo_battania_castle_wall_a_roof_1"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_2">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-5.811, -0.081, 1.190"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_battania" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="battania_castle_wall_a_roof_2"/>
+				</components>
+				<physics mass="1.000" shape="bo_battania_castle_wall_a_roof_2"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_3">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-2.512, -0.009, 1.267"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_battania" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="battania_castle_wall_a_roof_3"/>
+				</components>
+				<physics mass="1.000" shape="bo_battania_castle_wall_a_roof_3"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_4">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="0.601, -0.031, 1.311"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_battania" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="battania_castle_wall_a_roof_4"/>
+				</components>
+				<physics mass="1.000" shape="bo_battania_castle_wall_a_roof_4"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_5">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="3.847, -0.192, 1.289"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_battania" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="battania_castle_wall_a_roof_5"/>
+				</components>
+				<physics mass="1.000" shape="bo_battania_castle_wall_a_roof_5"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_6">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="6.726, -0.074, 1.213"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_battania" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="battania_castle_wall_a_roof_6"/>
+				</components>
+				<physics mass="1.000" shape="bo_battania_castle_wall_a_roof_6"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_7">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="10.027, -0.140, 1.235"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_battania" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="battania_castle_wall_a_roof_7"/>
+				</components>
+				<physics mass="1.000" shape="bo_battania_castle_wall_a_roof_7"/>
+			</game_entity>
+		</children>
+		<physics mass="1.000"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity old_prefab_name="" name="battania_castle_wall_d_roof">
+		<children>
+			<game_entity old_prefab_name="" name="merlon_4">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="5.287, -0.031, 1.276"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_battania" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="battania_castle_wall_d_roof_4"/>
+				</components>
+				<physics mass="1.000" shape="bo_battania_castle_wall_d_roof_4"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_3">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="2.308, -0.009, 1.298"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_battania" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="battania_castle_wall_d_roof_3"/>
+				</components>
+				<physics mass="1.000" shape="bo_battania_castle_wall_d_roof_3"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_2">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-0.922, -0.081, 1.337"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_battania" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="battania_castle_wall_d_roof_2"/>
+				</components>
+				<physics mass="1.000" shape="bo_battania_castle_wall_d_roof_2"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_1">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-4.123, 0.086, 1.318"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_battania" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="battania_castle_wall_d_roof_1"/>
+				</components>
+				<physics mass="1.000" shape="bo_battania_castle_wall_d_roof_1"/>
+			</game_entity>
+		</children>
+		<physics mass="1.000"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity old_prefab_name="" name="battania_castle_wall_c_roof">
+		<children>
+			<game_entity old_prefab_name="" name="merlon_4">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform rotation_euler="0.000, -0.157, 0.000" position="5.061, 0.221, 2.191"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_battania" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="battania_castle_wall_c_roof_4"/>
+				</components>
+				<physics mass="1.000" shape="bo_battania_castle_wall_c_roof_4"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_3">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform rotation_euler="0.000, -0.203, 0.000" position="2.252, 0.243, 1.772"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_battania" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="battania_castle_wall_c_roof_3"/>
+				</components>
+				<physics mass="1.000" shape="bo_battania_castle_wall_c_roof_3"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_2">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform rotation_euler="0.000, -0.194, 0.000" position="-1.102, 0.171, 1.221"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_battania" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="battania_castle_wall_c_roof_2"/>
+				</components>
+				<physics mass="1.000" shape="bo_battania_castle_wall_c_roof_2"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_1">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform rotation_euler="0.000, -0.228, 0.000" position="-4.423, 0.338, 0.745"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_vlandia" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="battania_castle_wall_c_roof_1"/>
+				</components>
+				<physics mass="1.000" shape="bo_battania_castle_wall_c_roof_1"/>
+			</game_entity>
+		</children>
+		<physics mass="1.000"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity old_prefab_name="" name="aserai_castle_wall_a_roof">
+		<children>
+			<game_entity old_prefab_name="" name="merlon_1">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-9.621, 0.086, 1.213"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_aserai" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="aserai_castle_wall_a_roof_1"/>
+				</components>
+				<physics mass="1.000" shape="bo_aserai_castle_wall_a_roof_1"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_2">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-5.811, -0.081, 1.190"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_aserai" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="aserai_castle_wall_a_roof_2"/>
+				</components>
+				<physics mass="1.000" shape="bo_aserai_castle_wall_a_roof_2"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_3">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-2.512, -0.009, 1.267"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_aserai" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="aserai_castle_wall_a_roof_3"/>
+				</components>
+				<physics mass="1.000" shape="bo_aserai_castle_wall_a_roof_3"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_4">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="0.601, -0.031, 1.311"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_aserai" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="aserai_castle_wall_a_roof_4"/>
+				</components>
+				<physics mass="1.000" shape="bo_aserai_castle_wall_a_roof_4"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_5">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="3.847, -0.192, 1.289"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_aserai" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="aserai_castle_wall_a_roof_5"/>
+				</components>
+				<physics mass="1.000" shape="bo_aserai_castle_wall_a_roof_5"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_6">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="6.726, -0.074, 1.213"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_aserai" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="aserai_castle_wall_a_roof_6"/>
+				</components>
+				<physics mass="1.000" shape="bo_aserai_castle_wall_a_roof_6"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_7">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="10.027, -0.140, 1.235"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_aserai" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="aserai_castle_wall_a_roof_7"/>
+				</components>
+				<physics mass="1.000" shape="bo_aserai_castle_wall_a_roof_7"/>
+			</game_entity>
+		</children>
+		<physics mass="1.000"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity old_prefab_name="" name="aserai_castle_wall_d_roof">
+		<children>
+			<game_entity old_prefab_name="" name="merlon_4">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="5.287, -0.031, 1.276"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_aserai" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="aserai_castle_wall_d_roof_4"/>
+				</components>
+				<physics mass="1.000" shape="bo_aserai_castle_wall_d_roof_4"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_3">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="2.308, -0.009, 1.298"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_aserai" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="aserai_castle_wall_d_roof_3"/>
+				</components>
+				<physics mass="1.000" shape="bo_aserai_castle_wall_d_roof_3"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_2">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-0.922, -0.081, 1.337"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_aserai" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="aserai_castle_wall_d_roof_2"/>
+				</components>
+				<physics mass="1.000" shape="bo_aserai_castle_wall_d_roof_2"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_1">
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<physics mass="1.000"/>
+						<transform position="-4.123, 0.086, 1.318"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_aserai" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="aserai_castle_wall_d_roof_1"/>
+				</components>
+				<physics mass="1.000" shape="bo_aserai_castle_wall_d_roof_1"/>
+			</game_entity>
+		</children>
+		<physics mass="1.000"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity old_prefab_name="" name="aserai_castle_wall_c_roof">
+		<levels>
+			<level name="level_3"/>
+			<level name="level_2"/>
+			<level name="level_1"/>
+			<level name="base"/>
+		</levels>
+		<children>
+			<game_entity old_prefab_name="" name="merlon_1">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<physics mass="1.000"/>
+						<transform rotation_euler="0.000, -0.228, 0.000" position="-4.423, 0.338, -0.206"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_vlandia" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="aserai_castle_wall_c_roof_1"/>
+				</components>
+				<physics mass="1.000" shape="bo_aserai_castle_wall_c_roof_1"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_2">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<physics mass="1.000"/>
+						<transform rotation_euler="0.000, -0.194, 0.000" position="-1.102, 0.171, 0.270"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_aserai" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="aserai_castle_wall_c_roof_2"/>
+				</components>
+				<physics mass="1.000" shape="bo_aserai_castle_wall_c_roof_2"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_3">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<physics mass="1.000"/>
+						<transform rotation_euler="0.000, -0.203, 0.000" position="2.252, 0.243, 0.821"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_aserai" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="aserai_castle_wall_c_roof_3"/>
+				</components>
+				<physics mass="1.000" shape="bo_aserai_castle_wall_c_roof_3"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="merlon_4">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<children>
+					<game_entity old_prefab_name="" name="debris_holder">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<physics mass="1.000"/>
+						<transform rotation_euler="0.000, -0.157, 0.000" position="5.061, 0.221, 1.240"/>
+						<tags>
+							<tag name="reference"/>
+						</tags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+							<variable value="" name="HeavyHitParticlesTag"/>
+							<variable value="" name="OriginalStateTag"/>
+							<variable value="reference" name="ReferenceEntityTag"/>
+							<variable value="false" name="PassHitOnToParent"/>
+							<variable value="1.000" name="MaxHitPoint"/>
+							<variable value="true" name="CanBeDestroyedInitially"/>
+							<variable value="true" name="DestroyedByStoneOnly"/>
+							<variable value="castle_wall_roof_aserai" name="DestructionStates"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="aserai_castle_wall_c_roof_4"/>
+				</components>
+				<physics mass="1.000" shape="bo_aserai_castle_wall_c_roof_4"/>
+			</game_entity>
+		</children>
+		<physics mass="1.000"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+</prefabs>
+

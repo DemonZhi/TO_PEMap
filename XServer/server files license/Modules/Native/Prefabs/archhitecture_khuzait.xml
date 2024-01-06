@@ -1,0 +1,1239 @@
+<prefabs>
+	<game_entity name="khuzait_house_a" old_prefab_name="" occlusion_body_name="bo_occ_mongol_house_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_mongol_house_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mongol_house_a"/>
+		</components>
+		<children>
+			<game_entity name="scene: khuzait_house_a_interior" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-4.288, -5.066, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="khuzait_house_b" old_prefab_name="" occlusion_body_name="bo_occ_mongol_house_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_mongol_house_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mongol_house_b"/>
+		</components>
+		<children>
+			<game_entity name="scene: khuzait_house_b_interior_b" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="4.335, 9.234, 5.350"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="scene: khuzait_house_b_interior_a" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-16.067, 12.392, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="scene: khuzait_house_b_interior_a" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="0.256, -7.938, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="scene: khuzait_house_b_interior_b" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="1.861, -3.422, 5.350"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="khuzait_house_b_stairs" old_prefab_name="">
+				
+				<physics mass="1.000" shape="bo_2_mongol_house_b">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>	
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>			
+		</children>
+	</game_entity>
+	<game_entity name="khuzait_house_c" old_prefab_name="" occlusion_body_name="bo_occ_mongol_house_c">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.003"/>
+		<physics shape="bo_mongol_house_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mongol_house_c"/>
+		</components>
+		<children>
+			<game_entity name="scene: khuzait_house_c_interior_a" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-10.924, -4.826, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="scene: khuzait_house_c_interior_a" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="1.768, -9.374, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="scene: khuzait_house_c_interior_b" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="0.401, -4.920, 5.495"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="scene: khuzait_house_c_interior_b" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="2.099, -2.790, 5.495"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>			
+			<game_entity name="khuzait_house_c_stairs" old_prefab_name="">
+				
+				<physics mass="1.000" shape="bo_2_mongol_house_c">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>	
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>							
+		</children>
+	</game_entity>
+	<game_entity name="khuzait_house_d" old_prefab_name="" occlusion_body_name="bo_occ_mongol_house_d">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_mongol_house_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mongol_house_d"/>
+		</components>
+		<children>
+			<game_entity name="scene: khuzait_house_d_interior_a" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="3.996, -8.997, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="scene: khuzait_house_d_interior_a" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-12.219, 2.407, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="scene: khuzait_house_d_interior_b" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="8.210, -4.451, 5.423"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="khuzait_house_d_stairs" old_prefab_name="">				
+				<physics mass="1.000" shape="bo_2_mongol_house_d">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>	
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>							
+		</children>
+	</game_entity>
+	<game_entity name="khuzait_house_e2" old_prefab_name="" occlusion_body_name="bo_occ_mongol_house_e2">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_mongol_house_e2" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mongol_house_e2"/>
+		</components>
+		<children>
+			<game_entity name="scene: khuzait_house_e_interior_a" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-5.785, -13.557, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="scene: khuzait_house_e_interior_a" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-8.247, 1.011, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="scene: khuzait_house_e_interior_b" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-0.288, -1.755, 4.913"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="scene: khuzait_house_e_interior_a" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="11.742, -0.331, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="khuzait_house_e2_stairs" old_prefab_name="">
+				
+				<physics mass="1.000" shape="bo_2_mongol_house_e2">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>	
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>				
+		</children>
+	</game_entity>
+	<game_entity name="khuzait_house_f2" old_prefab_name="" occlusion_body_name="bo_occ_mongol_house_f2">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_mongol_house_f2" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mongol_house_f2"/>
+		</components>
+		<children>
+			<game_entity name="scene: khuzait_house_f_interior" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="11.363, 11.750, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="scene: khuzait_house_f_interior" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="1.437, -1.145, 5.187"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="scene: khuzait_house_f_interior" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-4.117, -1.505, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>	
+			<game_entity name="khuzait_house_f2_stairs" old_prefab_name="">
+				
+				<physics mass="1.000" shape="bo_2_mongol_house_f2">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>	
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>				
+		</children>
+	</game_entity>
+	<game_entity name="khuzait_house_g" old_prefab_name="" occlusion_body_name="bo_occ_mongol_house_g">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_mongol_house_g" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mongol_house_g"/>
+		</components>
+		<children>
+			<game_entity name="scene: khuzait_house_g_interior_a" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-0.111, 12.155, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="scene: khuzait_house_g_interior_a" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-7.905, -11.775, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="scene: khuzait_house_g_interior_b" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-6.138, -0.289, 5.318"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="khuzait_house_g_stairs" old_prefab_name="">
+				
+				<physics mass="1.000" shape="bo_2_mongol_house_g">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>	
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>				
+		</children>
+	</game_entity>
+	<game_entity name="khuzait_house_a_interior" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_house_a_interior" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_house_a_interior"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_house_b_interior_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_house_b_interior_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_house_b_interior_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_house_b_interior_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_house_b_interior_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_house_b_interior_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_house_c_interior_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_house_c_interior_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_house_c_interior_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_house_c_interior_b">
+		<physics shape="bo_khuzait_house_c_interior_b"/>
+		<components>
+			<meta_mesh_component name="khuzait_house_c_interior_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_house_d_interior_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_house_d_interior_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_house_d_interior_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_house_d_interior_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_house_d_interior_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_house_d_interior_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_house_g_interior_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_house_g_interior_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_house_g_interior_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_house_g_interior_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_house_g_interior_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_house_g_interior_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_house_f_interior" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_house_f_interior" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_house_f_interior"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_house_e_interior_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_house_e_interior_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_house_e_interior_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_house_e_interior_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_house_e_interior_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_house_e_interior_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_thatched_shade_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_mongol_thatched_shade_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mongol_thatched_shade_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_tent_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_tent_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_tent_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_tent_interior_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_tent_interior_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_tent_interior_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_tent_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_tent_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_tent_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_tent_interior_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_tent_interior_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_tent_interior_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_pit_a">
+		<physics shape="bo_khuzait_pit_a"/>
+		<components>
+			<meta_mesh_component name="khuzait_pit_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_pit_b" occlusion_body_name="bo_occ_khuzait_pit_b">
+		<physics shape="bo_khuzait_pit_b"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="khuzait_pit_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_ladder_wood_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_ladder_wood_b" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_ladder_wood_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_towerdoor_b" old_prefab_name="">
+		<tags>
+			<tag name="closable"/>
+			<tag name="khuzait_towerdoor_a"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_towerdoor_b" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_towerdoor_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_battlement_a_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_battlement_a_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_battlement_a_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_corner_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_corner_b" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_corner_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_battlement_e_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_battlement_e_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_battlement_e_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_battlement_e_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_battlement_e_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_battlement_e_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_towerdoor_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_towerdoor_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_towerdoor_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_tower_tent_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_tower_tent_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_tower_tent_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_gatehouse_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_gatehouse_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_gatehouse_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_corner_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_corner_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_corner_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_corner_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_corner_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_corner_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_platform_wooden_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_platform_wooden_c" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_platform_wooden_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_gate_stone_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_gate_stone_c" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_gate_stone_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_battlement_d_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_battlement_d_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_battlement_d_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_battlement_d_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_battlement_d_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_battlement_d_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_ladder_wood_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_ladder_wood_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_ladder_wood_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_platform_wooden_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_platform_wooden_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_platform_wooden_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_square_keep_new_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_square_keep_new_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_square_keep_new_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_arena_stadium_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_arena_stadium_a" mass="1.000">
+			<body_flags>
+				<body_flag name="has_steps"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="khuzait_arena_stadium_a"/>
+		</components>
+	</game_entity>
+
+	<game_entity name="khuzait_arena_stadium_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_arena_stadium_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_arena_stadium_b"/>
+		</components>
+		<children>
+			<game_entity name="khuzait_arena_stadium_b_stairs" old_prefab_name="">
+				
+		<physics mass="1.000" shape="bo_khuzait_arena_stadium_b_stairs">
+			<body_flags>
+				<body_flag name="has_steps"/>
+			</body_flags>
+		</physics>	
+				<components>
+					<meta_mesh_component name="khuzait_arena_stadium_b_stairs"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<levels>
+			<level name="base"/>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+		</levels>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>	
+	
+	<game_entity name="khuzait_arena_fence_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_arena_fence_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_arena_fence_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_arena_fence_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_arena_fence_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_arena_fence_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_arena_fence_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_arena_fence_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_arena_fence_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_arena_fence_door_a_open" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_arena_fence_door_a_open" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_arena_fence_door_a_open"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_arena_fence_door_a_closed" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_arena_fence_door_a_closed" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_arena_fence_door_a_closed"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_dungeon_entrance_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_dungeon_entrance_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_dungeon_entrance_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_dungeon_entrance_b">
+		<physics shape="bo_khuzait_dungeon_entrance_b"/>
+		<components>
+			<meta_mesh_component name="khuzait_dungeon_entrance_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_dungeon_room_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_dungeon_room_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_dungeon_room_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_dungeon_room_b">
+		<physics shape="bo_khuzait_dungeon_room_b"/>
+		<components>
+			<meta_mesh_component name="khuzait_dungeon_room_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_dungeon_room_c">
+		<physics shape="bo_khuzait_dungeon_room_c"/>
+		<components>
+			<meta_mesh_component name="khuzait_dungeon_room_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_dungeon_door_a_opened" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_dungeon_door_a_opened" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_dungeon_door_a_opened"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_dungeon_door_a_closed" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_dungeon_door_a_closed" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_dungeon_door_a_closed"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_dungeon_door_a_empty" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_dungeon_door_a_empty" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_dungeon_door_a_empty"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_dungeon_corridor_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_dungeon_corridor_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_dungeon_corridor_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_dungeon_corridor_b">
+		<physics shape="bo_khuzait_dungeon_corridor_b"/>
+		<components>
+			<meta_mesh_component name="khuzait_dungeon_corridor_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_dungeon_corridor_c">
+		<physics shape="bo_khuzait_dungeon_corridor_c"/>
+		<components>
+			<meta_mesh_component name="khuzait_dungeon_corridor_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_dungeon_corridor_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_dungeon_corridor_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_dungeon_corridor_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_dungeon_corridor_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_dungeon_corridor_e" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_dungeon_corridor_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_dungeon_stair_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_dungeon_stair_a" mass="1.000">
+			<body_flags>
+				<body_flag name="has_steps"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="khuzait_dungeon_stair_a"/>
+		</components>
+		<children>
+			<game_entity name="khuzait_dungeon_stair_a_wall" old_prefab_name="">
+				<physics shape="bo_khuzait_dungeon_stair_a_wall" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="khuzait_dungeon_stair_a_wall"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="khuzait_dungeon_stair_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_dungeon_stair_b" mass="1.000">
+			<body_flags>
+				<body_flag name="has_steps"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="khuzait_dungeon_stair_b"/>
+		</components>
+		<children>
+			<game_entity name="khuzait_dungeon_stair_b_wall" old_prefab_name="">
+				<physics shape="bo_khuzait_dungeon_stair_b_wall" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="khuzait_dungeon_stair_b_wall"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="khuzait_dungeon_cells_a">
+		<physics shape="bo_khuzait_dungeon_cells_a"/>
+		<components>
+			<meta_mesh_component name="khuzait_dungeon_cells_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_dungeon_cells_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_dungeon_cells_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_dungeon_cells_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_dungeon_cells_door_closed" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_dungeon_cells_door_closed" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_dungeon_cells_door_closed"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_dungeon_cells_door_opened" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_dungeon_cells_door_opened" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_dungeon_cells_door_opened"/>
+		</components>
+	</game_entity>
+	<game_entity name="tavern_khuzait_table_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tavern_khuzait_table_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tavern_khuzait_table_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="tavern_khuzait_table_b">
+		<physics shape="bo_tavern_khuzait_table_b"/>
+		<components>
+			<meta_mesh_component name="tavern_khuzait_table_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="tavern_khuzait_table_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tavern_khuzait_table_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tavern_khuzait_table_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="tavern_khuzait_table_shelf" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tavern_khuzait_table_shelf" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tavern_khuzait_table_shelf"/>
+		</components>
+	</game_entity>
+	<game_entity name="tavern_khuzait_stove_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tavern_khuzait_stove_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tavern_khuzait_stove_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="tavern_khuzait_stove_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tavern_khuzait_stove_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tavern_khuzait_stove_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_barn_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_barn_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_barn_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_village_house_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_village_house_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_village_house_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_village_house_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_village_house_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_village_house_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_village_house_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_village_house_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_village_house_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_village_house_g" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_village_house_g" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_village_house_g"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_village_house_h" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_village_house_h" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_village_house_h"/>
+		</components>
+	</game_entity>
+	<game_entity old_prefab_name="" name="hideout_forest_1">
+		<levels>
+			<level name="looted"/>
+			<level name="siege"/>
+			<level name="civilian"/>
+			<level name="level_3"/>
+			<level name="level_2"/>
+			<level name="level_1"/>
+			<level name="base"/>
+		</levels>
+		<components>
+			<meta_mesh_component name="map_icon_bandit_hideout_b"/>
+		</components>
+		<physics mass="1.000" shape="bo_hideouts"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity name="river_crossing_brown" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="map_rock_groups_b" old_prefab_name="">
+				<transform position="-0.565, 0.157, -0.072" rotation_euler="0.000, 0.000, 0.006" scale="1.136, 1.136, 1.136"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="map_rock_groups_b">
+						<mesh name="map_rock_groups_b" factor="4292192911"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="map_rock_groups_a_snow" old_prefab_name="">
+				<transform position="0.192, 0.492, -0.107" rotation_euler="-0.100, -0.079, 0.726" scale="1.186, 1.186, 1.186"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="map_rock_groups_a_snow">
+						<mesh name="map_rock_groups_a_snow" factor="4292192911"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="map_rock_a_snow" old_prefab_name="">
+				<transform position="0.619, -0.151, -0.146" rotation_euler="-0.156, -0.368, 1.418"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="map_rock_a_snow">
+						<mesh name="map_rock_a_snow" factor="4292192911"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="map_rock_b_snow" old_prefab_name="">
+				<transform position="-0.356, -0.625, -0.035" rotation_euler="1.074, -0.144, 0.276"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="map_rock_b_snow">
+						<mesh name="map_rock_b_snow" factor="4292192911"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="map_rock_a_snow" old_prefab_name="">
+				<transform position="-0.049, -0.312, -0.146" rotation_euler="0.282, -0.285, 0.276" scale="0.884, 0.884, 0.884"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="map_rock_a_snow">
+						<mesh name="map_rock_a_snow" factor="4292192911"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="khuzait_grandbazaar_tent_a" old_prefab_name="" occlusion_body_name="bo_occ_khuzait_grandbazaar_tent_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_grandbazaar_tent_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="khuzait_grandbazaar_tent_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_grandbazaar_shop_a" old_prefab_name="" occlusion_body_name="bo_occ_khuzait_grandbazaar_shop_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_grandbazaar_shop_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="khuzait_grandbazaar_shop_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_grandbazaar_shop_b" old_prefab_name="" occlusion_body_name="bo_occ_khuzait_grandbazaar_shop_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_grandbazaar_shop_b" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="khuzait_grandbazaar_shop_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_grandbazaar_shop_c" old_prefab_name="" occlusion_body_name="bo_occ_khuzait_grandbazaar_shop_c">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_grandbazaar_shop_c" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="khuzait_grandbazaar_shop_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_grandbazaar_stairs_a" old_prefab_name="">
+		<physics mass="1.000" shape="bo_khuzait_grandbazaar_stairs_a">
+			<body_flags>
+				<body_flag name="has_steps"/>
+			</body_flags>
+		</physics>	
+		<components>
+			<meta_mesh_component name="khuzait_grandbazaar_stairs_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_grandbazaar_ground_a" old_prefab_name="" occlusion_body_name="bo_occ_khuzait_grandbazaar_ground_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_grandbazaar_ground_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_grandbazaar_ground_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_grandbazaar_ground_b" old_prefab_name="" occlusion_body_name="bo_occ_khuzait_grandbazaar_ground_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_grandbazaar_ground_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_grandbazaar_ground_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_grandbazaar_stone_fence_a" old_prefab_name="">
+		<physics shape="bo_khuzait_grandbazaar_stone_fence_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_grandbazaar_stone_fence_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_grandbazaar_stone_fence_b" old_prefab_name="">
+		<physics shape="bo_khuzait_grandbazaar_stone_fence_b" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_grandbazaar_stone_fence_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_grandbazaar_gate" old_prefab_name="" occlusion_body_name="bo_occ_khuzait_grandbazaar_gate">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_grandbazaar_gate" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="khuzait_grandbazaar_gate"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_grandbazaar_big_wall_a" old_prefab_name="" occlusion_body_name="bo_occ_khuzait_grandbazaar_big_wall_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_grandbazaar_big_wall_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="khuzait_grandbazaar_big_wall_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_grandbazaar_big_wall_b" old_prefab_name="" occlusion_body_name="bo_occ_khuzait_grandbazaar_big_wall_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_grandbazaar_big_wall_b" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="khuzait_grandbazaar_big_wall_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_grandbazaar_wall_detail_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="wall_adobe_detail_b">
+				<mesh name="wall_adobe_detail_b.2" material="adobe_wall_white"/>
+			</meta_mesh_component>
+		</components>
+		<levels>
+			<level name="base"/>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+		</levels>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="khuzait_grandbazaar_awning_a" old_prefab_name="">
+		<physics shape="bo_khuzait_grandbazaar_awning_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_grandbazaar_awning_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_grandbazaar_gate_door_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_grandbazaar_gate_door_a"  mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_grandbazaar_gate_door_a"/>
+		</components>
+		<children>
+			<game_entity name="khuzait_grandbazaar_gate_door_b" old_prefab_name="">
+				<transform position="-1.548, 0.182, 0.000"/>
+				<physics shape="bo_khuzait_grandbazaar_gate_door_b" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="khuzait_grandbazaar_gate_door_b"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="khuzait_grandbazaar_gate_door_b" old_prefab_name="">
+				<transform position="1.558, 0.182, 0.000" rotation_mat="1.000000, -0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000" scale="-1.000, 1.000, 1.000"/>
+				<physics shape="bo_khuzait_grandbazaar_gate_door_b" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="khuzait_grandbazaar_gate_door_b"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<levels>
+			<level name="base"/>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+		</levels>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="khuzait_grandbazaar_gate_door_b" old_prefab_name="">
+		<physics shape="bo_khuzait_grandbazaar_gate_door_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_grandbazaar_gate_door_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="khuzait_grandbazaar_shop_door_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_grandbazaar_shop_door_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_grandbazaar_shop_door_a"/>
+		</components>
+		<children>
+			<game_entity name="khuzait_grandbazaar_shop_door_b" old_prefab_name="">
+				<transform position="-0.108, -0.874, 0.000"/>
+				<physics shape="bo_khuzait_grandbazaar_shop_door_b"  mass="1.000"/>
+				<components>
+					<meta_mesh_component name="khuzait_grandbazaar_shop_door_b"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<levels>
+			<level name="base"/>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+		</levels>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="khuzait_grandbazaar_shop_door_b" old_prefab_name="">
+		<physics shape="bo_khuzait_grandbazaar_shop_door_b"  mass="1.000"/>
+		<components>
+			<meta_mesh_component name="khuzait_grandbazaar_shop_door_b"/>
+		</components>
+	</game_entity>
+</prefabs>
+

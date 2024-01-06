@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="0MDEP0jy" text="본인을 초대할 수 없습니다." />
+    <string id="0XY1VKVB" text="소속된 파티가 클랜 게임에 참여할 수 없습니다." />
+    <string id="1CO3GGEk" text="제출한 ID가 너무 짧습니다." />
+    <string id="2BtJYizu" text="이 행동을 하려면 파티에 소속되어 있어야 합니다." />
+    <string id="2KsbeJHa" text="인장 설정을 업데이트했습니다." />
+    <string id="3cWg0cWt" text="서버에 연결할 수 없습니다." />
+    <string id="3lNHtNWa" text="{ARG1}님의 간부 역할을 제거했습니다." />
+    <string id="3NwGpJwe" text="친구 요청을 수락했습니다." />
+    <string id="3NxaSDgg" text="당신은 간부가 아닙니다." />
+    <string id="4HQNKMUZ" text="선택한 치장 아이템을 보유하고 있지 않습니다." />
+    <string id="4lNl8zS2" text="누군가를 파티에 추천할 때는 파티장으로 추천할 수 없습니다." />
+    <string id="4XDu4Qcd" text="파티장만 파티원을 추방할 수 있습니다." />
+    <string id="4YuWC1Jg" text="비활성화된 게임 유형이 선택됐습니다." />
+    <string id="63X8LERm" text="서버로부터 로그인 결과를 받지 못했습니다." />
+    <string id="6cMSAe2Z" text="플레이어를 신고하지 못했습니다. 플레이어를 찾을 수 없습니다." />
+    <string id="6doiovtH" text="명확화: {CHATROOMS}" />
+    <string id="6PcEQ5dq" text="치트 방지에 의해 추방되었습니다. 사유: {ARG1}" />
+    <string id="7cEXe02I" text="{ARG1}님이 클랜 초대를 거절했습니다." />
+    <string id="8UmHXSnO" text="플레이어가 클랜 기능에 액세스할 수 없습니다." />
+    <string id="96e2tZea" text="여러 개의 치장 아이템을 같은 아이템 변경에 사용할 수 없습니다." />
+    <string id="9kzik0vP" text="파티에 {ARG1}님을 추천했습니다." />
+    <string id="9TxM5UQS" text="표시된 배지를 업데이트할 수 없습니다." />
+    <string id="a1RXhy6A" text="파티 초대가 더는 유효하지 않습니다." />
+    <string id="AAnoAhox" text="선택한 게임 모드를 변경할 수 없습니다." />
+    <string id="aId8kA8r" text="텍스트가 제한 길이를 넘습니다." />
+    <string id="AIgw3aFG" text="일부 플레이어가 매치메이킹에서 차단되어 전투 대기열에 등록할 수 없습니다." />
+    <string id="Ajw0d4dW" text="잘못된 비밀번호입니다." />
+    <string id="APQ0kNVj" text="유효하지 않은 클랜 태그입니다." />
+    <string id="ASgVFGs1" text="친구 요청이 거절당했습니다." />
+    <string id="b72mIrOl" text="클랜을 창설하려면 클랜에 속해야 합니다." />
+    <string id="ba4CJpja" text="해당 플레이어는 이미 클랜에 속해 있습니다." />
+    <string id="baHOuMTb" text="공지를 추가했습니다." />
+    <string id="bB5p8KpK" text="유효하지 않은 클랜 인장입니다." />
+    <string id="bFSVAiel" text="Bannerlord ID가 업데이트되었습니다." />
+    <string id="bivF3RXY" text="본인을 승급시킬 수 없습니다." />
+    <string id="bl2dNFmT" text="유효하지 않은 배지입니다." />
+    <string id="bMLqfPRv" text="클랜에 속하지 않았습니다." />
+    <string id="BpwNljJF" text="Bannerlord ID에는 비속어가 들어갈 수 없습니다." />
+    <string id="bvWo9N6k" text="클랜 간부 수 제한 수치에 도달했습니다." />
+    <string id="BwBR7TJB" text="남은 인원이 없으므로 파티가 해산되었습니다!" />
+    <string id="bzcI3ei2" text="이미 {ARG1}님에게 요청을 보낸 상태입니다." />
+    <string id="caMylVF7" text="선택한 활성 게임 유형이 없으므로 전투 대기열에 등록할 수 없습니다." />
+    <string id="cwF03dOR" text="무료 치장 아이템은 구매할 수 없습니다." />
+    <string id="CyeaniWe" text="{ARG1}님께 친구 초대를 보냈습니다." />
+    <string id="CyrOnYI2" text="전리품이 부족합니다." />
+    <string id="dabogDDj" text="이미 친구입니다." />
+    <string id="DcbVwkit" text="{ARG1}님은 이미 클랜에 속해 있습니다." />
+    <string id="dHlxVbMw" text="이미 클랜에 속해 있습니다." />
+    <string id="DJFaYeWm" text="이 행동을 하려면 로비에 있어야 합니다." />
+    <string id="DMPzhEK0" text="채팅방과 연결이 끊겼습니다: /{ARG1}" />
+    <string id="Dmz3JLyp" text="플레이어를 클랜에 초대했습니다." />
+    <string id="dnKQbXIZ" text="플레이어를 신고하지 못했습니다. 게임이 존재하지 않습니다." />
+    <string id="DOkblbrz" text="파티에 플레이어를 추천했습니다." />
+    <string id="Ds01FoSn" text="{ARG1}님이 친구 요청을 거절했습니다." />
+    <string id="E2ILp86t" text="이용 가능한 지역이 없으므로 전투 대기열에 등록할 수 없습니다." />
+    <string id="e9LrrgAH" text="공지가 존재하지 않습니다." />
+    <string id="Ebp5T7vh" text="포기한 게임에 다시 들어갈 수 없습니다." />
+    <string id="emx7txM9" text="파티장만 파티원을 승급시킬 수 있습니다." />
+    <string id="eozBcVaB" text="본인을 클랜 간부로 승격할 수 없습니다." />
+    <string id="fD2SyeA7" text="본인을 파티에 초대할 수 없습니다." />
+    <string id="FEeVGSO6" text="클랜 지도자는 클랜을 탈퇴할 수 없습니다." />
+    <string id="FFPyGnZg" text="{ARG1}님을 클랜 간부로 승격했습니다." />
+    <string id="fQCaY3da" text="제출한 캐릭터에 유효하지 않은 문자가 있습니다." />
+    <string id="fZC7pBba" text="치트 방지로 게임을 실행하는 플레이어만 추천할 수 있습니다." />
+    <string id="gAeQdLU5" text="플랫폼에서 접속 데이터를 받는 데 실패했습니다" />
+    <string id="GIiGZOxP" text="친구를 추가할 수 없습니다. 개인 정보 설정에 실패했습니다." />
+    <string id="gQ8deZ17" text="{ARG1}님이 온라인 상태가 아닙니다." />
+    <string id="h84jSMrT" text="{ARG1}까지 음성 차단되었습니다. 사유: {ARG2}" />
+    <string id="hav7yZyB" text="입력한 텍스트가 없습니다." />
+    <string id="hcJumPEg" text="{ARG1}님이 이미 파티에 있습니다." />
+    <string id="hhUKkNR6" text="이미 선택한 치장 아이템을 보유하고 있습니다." />
+    <string id="hqK9565f" text="유효하지 않은 게임 유형입니다." />
+    <string id="HTFNfODt" text="획득하지 못한 배지는 선택할 수 없습니다." />
+    <string id="i4MNr0bo" text="로비와의 연결이 끊겼습니다." />
+    <string id="iG72AMy8" text="정보 텍스트를 변경했습니다." />
+    <string id="InUAmnX4" text="아군을 공격하여 추방되었습니다." />
+    <string id="IRWReNWu" text="이 행동을 하려면 파티 리더여야 합니다." />
+    <string id="ivKntfNA" text="이미 참여 요청을 했습니다. 서버 응답을 기다리고 있습니다." />
+    <string id="IWr2ZmWX" text="{ARG1}님이 파티장으로 승급되었습니다." />
+    <string id="J3dazru7" text="게임에 {ARG1}님 초대하기" />
+    <string id="jbaOH6qf" text="{ARG1}님을 클랜 지도자로 승격했습니다." />
+    <string id="JO37PkfW" text="플랫폼 서비스가 초기화되지 않았습니다." />
+    <string id="K0mSh8Hw" text="파티원이 부족하여 클랜을 창설할 수 없습니다." />
+    <string id="KPMxDIgb" text="클랜 문화가 변경되었습니다." />
+    <string id="kuM16dg2" text="{ARG1}님 신고를 마쳤습니다." />
+    <string id="kVcDXjUx" text="유효하지 않은 부대입니다." />
+    <string id="l1YfVXF3" text="모드를 쓰는 플레이어는 초대할 수 없습니다!" />
+    <string id="l6a9vI9z" text="파티장만 다른 플레이어를 초대할 수 있습니다." />
+    <string id="lcq2bKRk" text="전투에 다시 합류합니다." />
+    <string id="M0Cgjgb0" text="{ARG1}님을 친구에서 삭제했습니다." />
+    <string id="M8x38ZZZ" text="플레이어가 같은 클랜 소속이 아닙니다." />
+    <string id="mdH4S8Kx" text="누군가를 파티에 추천하려면 파티에 소속되어 있어야 합니다." />
+    <string id="MgGvnobq" text="선택한 지도를 사용할 수 없습니다." />
+    <string id="MowSn4ch" text="게임을 찾을 수 없습니다." />
+    <string id="mvQKpHXH" text="파티가 가득 찼습니다." />
+    <string id="NaTaGiB1" text="성공했습니다." />
+    <string id="ND2abg9k" text="매치메이킹에서 {ARG1}초간 차단되었습니다." />
+    <string id="nlYK3i5a" text="유효하지 않은 클랜 이름입니다." />
+    <string id="Np8V0jcX" text="해당 플레이어는 이미 다른 클랜에 초대받았습니다." />
+    <string id="nZlu3Moe" text="클랜을 떠났습니다." />
+    <string id="o76rZw0U" text="현재 서비스를 이용할 수 없습니다." />
+    <string id="OByu0fjQ" text="파티의 일부 플레이어가 준비를 하지 않아 전투 대기열에 등록할 수 없습니다." />
+    <string id="OfCk5NMA" text="유효하지 않은 클랜 세력입니다." />
+    <string id="oFfMEy1S" text="친구 요청을 찾을 수 없습니다." />
+    <string id="olLwOWf8" text="파티의 일부 플레이어가 치트 방지를 사용하지 않아 전투 대기열에 등록할 수 없습니다." />
+    <string id="P0aRStg4" text="매치메이킹에서 차단되어 전투 대기열에 등록할 수 없습니다." />
+    <string id="P3JTNI9P" text="본인을 클랜 지도자로 승격할 수 있습니다." />
+    <string id="Pn13ZKwI" text="파티가 해산되었습니다!" />
+    <string id="PzUrwWnO" text="클랜 지도자가 아닙니다." />
+    <string id="qHGkxNWJ" text="잘못된 클랜 인장입니다." />
+    <string id="R7z6X8bT" text="Bannerlord ID를 업데이트할 수 없습니다." />
+    <string id="rfaIXasP" text="클랜 인장이 변경되었습니다." />
+    <string id="rI8gE2Qh" text="공지를 삭제했습니다." />
+    <string id="RKioOKi4" text="Bannerlord ID는 공란으로 둘 수 없습니다." />
+    <string id="rkxTEFGp" text="플레이어가 온라인 상태가 아닙니다." />
+    <string id="ruC5qF1H" text="친구 요청을 거절했습니다." />
+    <string id="RuKlb0Li" text="제출한 ID가 너무 깁니다." />
+    <string id="rwcA5RMK" text="이미 이 플레이어에게 요청을 보낸 상태입니다." />
+    <string id="S7Y5Suho" text="본인을 파티에 추천할 수 없습니다." />
+    <string id="sa138Btz" text="클랜 게임을 생성한 경우에만 취소가 가능합니다." />
+    <string id="shIV99LZ" text="{ARG1}님이 친구 초대를 보냈습니다." />
+    <string id="SIT1tREw" text="본인을 친구로 추가할 수 없습니다." />
+    <string id="SsCPw38T" text="선택한 치장 아이템은 존재하지 않습니다." />
+    <string id="SvHP9TXr" text="일부 플레이어가 준비되지 않았습니다." />
+    <string id="SWZaqPx4" text="{ARG1}님이 로비에 없습니다." />
+    <string id="T2Q35w3d" text="{ARG1}님이 클랜 초대를 수락했습니다." />
+    <string id="T5gR6XCJ" text="사전 설정 게임이 이제 존재하지 않습니다." />
+    <string id="t8K21Vmc" text="플레이어를 신고하지 못했습니다. 비공식 서버입니다." />
+    <string id="TaLNjfao" text="{ARG1}님과 친구가 되었습니다." />
+    <string id="tam7tCdb" text="{ARG1}님이 같은 클랜 소속이 아닙니다." />
+    <string id="taPBAd4c" text="주어진 명령이 /로 시작하지 않음" />
+    <string id="tKlQbZaJ" text="{ARG1}님을 클랜에서 내보냈습니다." />
+    <string id="TuORvMMq" text="간부 역할을 포기했습니다." />
+    <string id="UcUqJcr9" text="온라인 플레이어는 게임으로 초대할 수 없습니다." />
+    <string id="uDbGN6fp" text="플레이어가 로비에 없습니다." />
+    <string id="uJ7527FB" text="{ARG1}님이 이미 다른 클랜에 초대받았습니다." />
+    <string id="uqqqWl6f" text="파티가 클랜 게임에 참여할 수 없습니다." />
+    <string id="vd8dEfvZ" text="모드를 쓰는 동안에는 파티를 생성할 수 없습니다!" />
+    <string id="VDDm5bqb" text="치트 방지로 게임을 실행하는 플레이어만 초대할 수 있습니다." />
+    <string id="VdyJtjSG" text="{ARG1}님이 같은 파티 소속이 아닙니다!" />
+    <string id="vfsaTZKg" text="{ARG1}님을 파티에 초대했습니다." />
+    <string id="vi3lFSBW" text="{ARG1}의 파티는 파티 대기열에 등록할 수 없습니다." />
+    <string id="w0FSTU2h" text="낮은 등급의 배지는 선택할 수 없습니다." />
+    <string id="w8WiqZT3" text="파티를 생성하거나 참여하려면 치트 방지로 게임을 실행해야 합니다!" />
+    <string id="wJsR1aGI" text="{ARG1}님은 파티원이 아닙니다." />
+    <string id="wNubP2BF" text="파티장만 게임 대기열에 등록할 수 있습니다." />
+    <string id="x5vn4FPi" text="해당 플레이어를 파티에 초대했습니다." />
+    <string id="XgQQPZsn" text="본인을 초대할 수 없습니다." />
+    <string id="xHqjCamt" text="플레이어를 신고하지 못했습니다. 게임을 찾을 수 없습니다." />
+    <string id="y0dKQ8pL" text="공지를 변경했습니다." />
+    <string id="Y7wWhSsO" text="소속 클랜의 특권 멤버가 아닙니다." />
+    <string id="YGfHWmNS" text="지역을 찾을 수 없습니다." />
+    <string id="YOYvBVu1" text="{COMMAND}에 맞는 대화방 없음" />
+    <string id="yQyozBBX" text="소속된 파티가 클랜 게임을 생성할 수 없습니다." />
+    <string id="yR7avbUg" text="{ARG1}님은 간부가 아닙니다." />
+    <string id="yrCBeRMf" text="클랜 창설 중에는 부대장을 변경할 수 없습니다." />
+    <string id="ysfEQO6c" text="플레이어를 찾을 수 없습니다." />
+    <string id="yvT1gK1g" text="친구 초대를 보냈습니다." />
+    <string id="ZB6cxznt" text="{ARG1}님을 클랜에 초대했습니다." />
+    <string id="zKK3LDbF" text="사전 설정 게임 생성이 취소되었습니다." />
+    <string id="zPvuvrBe" text="{ARG1}님이 파티장이 되었습니다." />
+  </strings>
+</base>

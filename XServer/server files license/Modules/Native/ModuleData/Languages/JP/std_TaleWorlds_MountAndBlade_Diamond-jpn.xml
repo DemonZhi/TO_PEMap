@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+    <string id="0MDEP0jy" text="自分自身は招待できません。" />
+    <string id="0XY1VKVB" text="あなたのパーティーはクランゲーム参加の資格がありません。" />
+    <string id="1CO3GGEk" text="入力したIDが短すぎます。" />
+    <string id="2BtJYizu" text="このアクションを行うにはパーティーに所属する必要があります。" />
+    <string id="2KsbeJHa" text="紋章効果のアップデートに成功しました" />
+    <string id="3cWg0cWt" text="サーバーに接続できません。" />
+    <string id="3lNHtNWa" text="{ARG1}の将校の役割が削除されました。" />
+    <string id="3NwGpJwe" text="フレンド申請が承認されました。" />
+    <string id="3NxaSDgg" text="あなたは将校ではありません。" />
+    <string id="4HQNKMUZ" text="選択したコスメティックアイテムは所持していません" />
+    <string id="4lNl8zS2" text="パーティーリーダーはパーティーを勧めることはできません。" />
+    <string id="4XDu4Qcd" text="パーティーリーダーのみが、プレイヤーをパーティーからキックすることができます。" />
+    <string id="4YuWC1Jg" text="無効なゲームタイプが選択されました。" />
+    <string id="63X8LERm" text="サーバーからログイン情報を受け取れませんでした。" />
+    <string id="6cMSAe2Z" text="プレイヤーを報告できませんでした。プレイヤーが見つかりませんでした。" />
+    <string id="6doiovtH" text="曖昧さの回避：{CHATROOMS}" />
+    <string id="6PcEQ5dq" text="アンチチートによってキックされました。理由：{ARG1}" />
+    <string id="7cEXe02I" text="{ARG1}がクラン招待を拒否しました。" />
+    <string id="8UmHXSnO" text="利用できるクラン機能がありません。" />
+    <string id="96e2tZea" text="同様のアイテムを変更する複数のコスメティックアイテムを使用することはできません" />
+    <string id="9kzik0vP" text="{ARG1}があなたのパーティーに推奨されました。" />
+    <string id="9TxM5UQS" text="表示されたバッジはアップデートできませんでした" />
+    <string id="a1RXhy6A" text="パーティーへの招待状は無効になりました。" />
+    <string id="AAnoAhox" text="選択したゲームモードを変更できませんでした。" />
+    <string id="aId8kA8r" text="文字数が制限を超えています。" />
+    <string id="AIgw3aFG" text="一部のプレイヤーがマッチメイクからブロックされているため、バトルをキューに追加できませんでした。" />
+    <string id="Ajw0d4dW" text="パスワードが間違っています。" />
+    <string id="APQ0kNVj" text="クランタグは無効です。" />
+    <string id="ASgVFGs1" text="フレンド申請が拒否されました。" />
+    <string id="b72mIrOl" text="クランを作成するには、パーティーに参加する必要があります。" />
+    <string id="ba4CJpja" text="プレイヤーはすでにクランに所属しています。" />
+    <string id="baHOuMTb" text="通知が追加されました。" />
+    <string id="bB5p8KpK" text="クランの紋章は無効です。" />
+    <string id="bFSVAiel" text="Bannerlord IDのアップデートが完了しました。" />
+    <string id="bivF3RXY" text="自分自身を昇格することはできません" />
+    <string id="bl2dNFmT" text="無効なバッジです。" />
+    <string id="bMLqfPRv" text="クランに所属していません。" />
+    <string id="BpwNljJF" text="Bannerlord IDには、罵詈雑言や卑猥な言葉を含めることはできません。" />
+    <string id="bvWo9N6k" text="クランに存在可能な将校の上限に達しました。" />
+    <string id="BwBR7TJB" text="パーティーに誰もいなくなったため解散しました！" />
+    <string id="bzcI3ei2" text="{ARG1}にはすでにリクエストを送っています。" />
+    <string id="caMylVF7" text="使用可能なゲームタイプが選択されていないため、バトルをキューに追加できませんでした。" />
+    <string id="cwF03dOR" text="無料のコスメティックアイテムを購入することはできません" />
+    <string id="CyeaniWe" text="フレンドリクエストが{ARG1}に送信されました。" />
+    <string id="CyrOnYI2" text="戦利品が足りません" />
+    <string id="dabogDDj" text="すでにフレンド同士です" />
+    <string id="DcbVwkit" text="{ARG1}はすでにクランに所属しています。" />
+    <string id="dHlxVbMw" text="すでにクランに所属しています。" />
+    <string id="DJFaYeWm" text="このアクションを行うにはロビー内にいる必要があります。" />
+    <string id="DMPzhEK0" text="チャットルームから切断されました: /{ARG1}" />
+    <string id="Dmz3JLyp" text="プレイヤーがクランに招待されました。" />
+    <string id="dnKQbXIZ" text="プレイヤーを報告できませんでした: ゲームが存在しません。" />
+    <string id="DOkblbrz" text="プレイヤーがあなたのパーティーに推奨されました。" />
+    <string id="Ds01FoSn" text="{ARG1}があなたのフレンド申請を拒否しました" />
+    <string id="E2ILp86t" text="対応していない地域のため、バトルをキューに追加できませんでした。" />
+    <string id="e9LrrgAH" text="通知はありません。" />
+    <string id="Ebp5T7vh" text="放棄したゲームへの再参加はできません。" />
+    <string id="emx7txM9" text="メンバーの昇格は、パーティーリーダーのみ行うことができます。" />
+    <string id="eozBcVaB" text="自分自身をクラン将校に昇格させることはできません。" />
+    <string id="fD2SyeA7" text="自分自身をパーティーに招待することはできません。" />
+    <string id="FEeVGSO6" text="クランリーダーはクランを離脱することはできません。" />
+    <string id="FFPyGnZg" text="{ARG1}がクラン将校に昇格しました。" />
+    <string id="fQCaY3da" text="入力したIDに無効な文字が含まれています。" />
+    <string id="fZC7pBba" text="アンチチートでゲームを起動しているプレイヤーのみ推奨できます。" />
+    <string id="gAeQdLU5" text="プラットフォームからアクセスデータを取得できませんでした" />
+    <string id="GIiGZOxP" text="フレンドを追加することができません。プライバシー設定に失敗しました。" />
+    <string id="gQ8deZ17" text="{ARG1}はオンラインではありません。" />
+    <string id="h84jSMrT" text="{ARG1}までミュートされます。理由: {ARG2}" />
+    <string id="hav7yZyB" text="文字が入力されていません。" />
+    <string id="hcJumPEg" text="{ARG1}はすでにパーティーに所属しています。" />
+    <string id="hhUKkNR6" text="選択したコスメティックアイテムはすでに所持しています" />
+    <string id="hqK9565f" text="無効なゲームタイプです。" />
+    <string id="HTFNfODt" text="所持していないバッジを選ぶことはできません。" />
+    <string id="i4MNr0bo" text="ロビーから切断されました。" />
+    <string id="iG72AMy8" text="情報が変更されました。" />
+    <string id="InUAmnX4" text="味方にダメージを与えたため、キックされました" />
+    <string id="IRWReNWu" text="このアクションを実行するには、パーティーリーダーである必要があります。" />
+    <string id="ivKntfNA" text="すでに参加リクエストを送っています。サーバーからの応答を待っています。" />
+    <string id="IWr2ZmWX" text="{ARG1}がパーティーリーダーに昇格しました。" />
+    <string id="J3dazru7" text="{ARG1}をゲームに招待しました" />
+    <string id="jbaOH6qf" text="{ARG1}がクランリーダーに昇格しました。" />
+    <string id="JO37PkfW" text="プラットフォームサービスが初期化されていません。" />
+    <string id="K0mSh8Hw" text="あなたのパーティーはクラン作成に必要なプレイヤーの人数が足りません。" />
+    <string id="KPMxDIgb" text="クランの文化が変更されました。" />
+    <string id="kuM16dg2" text="{ARG1}を報告しました。" />
+    <string id="kVcDXjUx" text="無効な中隊です" />
+    <string id="l1YfVXF3" text="MOD版を所持しているプレイヤーは招待できません！" />
+    <string id="l6a9vI9z" text="パーティーリーダーのみが、他のプレイヤーをパーティーに招待することができます。" />
+    <string id="lcq2bKRk" text="戦闘への再参加を試みています。" />
+    <string id="M0Cgjgb0" text="{ARG1}がフレンドから削除されました。" />
+    <string id="M8x38ZZZ" text="プレイヤーはあなたのクランに所属していません。" />
+    <string id="mdH4S8Kx" text="誰かをパーティーに推奨するには、パーティーに所属する必要があります。" />
+    <string id="MgGvnobq" text="選択したマップは使用できません。" />
+    <string id="MowSn4ch" text="ゲームが見つかりませんでした。" />
+    <string id="mvQKpHXH" text="パーティーが満員です。" />
+    <string id="NaTaGiB1" text="成功。" />
+    <string id="ND2abg9k" text="{ARG1}秒の間、マッチメイクからブロックされます。" />
+    <string id="nlYK3i5a" text="クラン名は無効です。" />
+    <string id="Np8V0jcX" text="プレイヤーはすでに別のクランに招待されています。" />
+    <string id="nZlu3Moe" text="クランを離脱しました。" />
+    <string id="o76rZw0U" text="現在サービスは利用できません" />
+    <string id="OByu0fjQ" text="パーティーのプレイヤー全員の準備ができていないため、バトルをキューに追加できませんでした。" />
+    <string id="OfCk5NMA" text="クランの勢力は無効です。" />
+    <string id="oFfMEy1S" text="フレンド申請が見つかりません" />
+    <string id="olLwOWf8" text="パーティーのプレイヤー全員がアンチチートを使用していないため、バトルをキューに追加できませんでした。" />
+    <string id="P0aRStg4" text="マッチメイクからブロックされているため、、バトルをキューに追加できませんでした。" />
+    <string id="P3JTNI9P" text="自分自身をクランリーダーに昇格させることはできません。" />
+    <string id="Pn13ZKwI" text="あなたのパーティーは解散しました！" />
+    <string id="PzUrwWnO" text="あなたはクランリーダーではありません。" />
+    <string id="qHGkxNWJ" text="無効なクランの紋章です。" />
+    <string id="R7z6X8bT" text="Bannerlord IDをアップデートできませんでした。" />
+    <string id="rfaIXasP" text="クランの紋章が変更されました。" />
+    <string id="rI8gE2Qh" text="通知が削除されました。" />
+    <string id="RKioOKi4" text="Bannerlord IDは、空白のままにはできません。" />
+    <string id="rkxTEFGp" text="プレイヤーはオンラインではありません。" />
+    <string id="ruC5qF1H" text="フレンド申請が拒否されました。" />
+    <string id="RuKlb0Li" text="入力したIDが長すぎます。" />
+    <string id="rwcA5RMK" text="このプレイヤーにはすでにリクエストを送っています。" />
+    <string id="S7Y5Suho" text="自分自身をパーティーに推奨することはできません。" />
+    <string id="sa138Btz" text="クランゲームをキャンセルするには、クランゲームを作成する必要があります。" />
+    <string id="shIV99LZ" text="{ARG1}からフレンドリクエストを受け取りました。" />
+    <string id="SIT1tREw" text="自分自身をフレンドに追加することはできません" />
+    <string id="SsCPw38T" text="選択したコスメティックアイテムは存在しません" />
+    <string id="SvHP9TXr" text="準備ができていないプレイヤーがいます。" />
+    <string id="SWZaqPx4" text="{ARG1}はロビーにいません。" />
+    <string id="T2Q35w3d" text="{ARG1}がクラン招待を承諾しました。" />
+    <string id="T5gR6XCJ" text="準備されたゲーム作成が存在しません。" />
+    <string id="t8K21Vmc" text="プレイヤーを報告できませんでした。サーバーが非公式です。" />
+    <string id="TaLNjfao" text="{ARG1}とフレンドになりました" />
+    <string id="tam7tCdb" text="{ARG1}はあなたのクランに所属していません。" />
+    <string id="taPBAd4c" text="入力したコマンドが、「/」から始まるものではありません" />
+    <string id="tKlQbZaJ" text="{ARG1}はクランから除外されました。" />
+    <string id="TuORvMMq" text="将校の役割を退きました。" />
+    <string id="UcUqJcr9" text="あなたはオンラインのプレイヤーをゲームに招待できません。" />
+    <string id="uDbGN6fp" text="プレイヤーがロビーにいません。" />
+    <string id="uJ7527FB" text="{ARG1}はすでに別のクランに招待されています。" />
+    <string id="uqqqWl6f" text="パーティーはクランゲーム参加の資格がありません。" />
+    <string id="vd8dEfvZ" text="MOD版を所持した状態でパーティーを作成することはできません！" />
+    <string id="VDDm5bqb" text="アンチチートでゲームを起動しているプレイヤーのみ招待できます。" />
+    <string id="VdyJtjSG" text="{ARG1}はあなたのパーティーにいません！" />
+    <string id="vfsaTZKg" text="{ARG1}があなたのパーティーに招待されました。" />
+    <string id="vi3lFSBW" text="{ARG1}のパーティーはパーティーキューに追加できません。" />
+    <string id="w0FSTU2h" text="低いTierのバッジは選択できません。" />
+    <string id="w8WiqZT3" text="パーティーを作成したり参加したりするには、アンチチートでゲームを起動する必要があります！" />
+    <string id="wJsR1aGI" text="{ARG1}はパーティーのメンバーではありません。" />
+    <string id="wNubP2BF" text="パーティーリーダーのみが、ゲームをキューすることができます。" />
+    <string id="x5vn4FPi" text="プレイヤーがあなたのパーティーに招待されました。" />
+    <string id="XgQQPZsn" text="自分自身は招待できません。" />
+    <string id="xHqjCamt" text="プレイヤーを報告できませんでした。ゲームが見つかりませんでした。" />
+    <string id="y0dKQ8pL" text="通知が変更されました。" />
+    <string id="Y7wWhSsO" text="あなたは特権を持つクランメンバーではありません。" />
+    <string id="YGfHWmNS" text="地域を変更できませんでした。" />
+    <string id="YOYvBVu1" text="{COMMAND}に一致するチャットルームは、見つかりませんでした" />
+    <string id="yQyozBBX" text="あなたのパーティーはクランゲーム作成の資格がありません。" />
+    <string id="yR7avbUg" text="{ARG1}は将校ではありません。" />
+    <string id="yrCBeRMf" text="クランの制作途中にパーティーリーダーを変更することはできません。" />
+    <string id="ysfEQO6c" text="プレイヤーが見つかりませんでした" />
+    <string id="yvT1gK1g" text="フレンドリクエストが送信されました。" />
+    <string id="ZB6cxznt" text="{ARG1}がクランに招待されました。" />
+    <string id="zKK3LDbF" text="準備されたゲーム作成がキャンセルされました。" />
+    <string id="zPvuvrBe" text="{ARG1} がパーティーリーダーに選ばれました。" />
+  </strings>
+</base>

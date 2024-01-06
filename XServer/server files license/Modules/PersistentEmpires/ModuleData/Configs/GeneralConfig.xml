@@ -1,0 +1,5 @@
+<GeneralConfig>
+    <VoiceChatEnabled>true</VoiceChatEnabled>
+    <StartingGold>10000000</StartingGold>
+	<BehadingChance>100</BehadingChance>
+</GeneralConfig>

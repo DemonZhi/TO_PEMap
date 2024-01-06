@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="0B27RrYJ" text="{.FI}Баттания" />
+    <string id="1cnJtNTt" text="{KEY} Потянуть" />
+    <string id="1CPdu9K0" text="Камни" />
+    <string id="1nKa4pQX" text="Остальные материалы игры загружены." />
+    <string id="2zcrC0h1" text="Игровой процесс" />
+    <string id="3PP01vFv" text="Держитесь подальше от этого оружия." />
+    <string id="4FVIuqsl" text="{ALIVE}/{TOTAL}" />
+    <string id="4Skg9QhO" text="Требушет" />
+    <string id="5oozsaIb" text="{KEY} Открыть" />
+    <string id="5wx4BF5h" text="{KEY} Повернуть" />
+    <string id="6wZUG0ev" text="Ворота" />
+    <string id="8OkPHu4f" text="Нет" />
+    <string id="abbALYlp" text="Баллиста" />
+    <string id="aeouhelq" text="Да" />
+    <string id="aseraifaction" text="{.MA}Асерай{.nnp}" />
+    <string id="aXjlMBiE" text="Осадная башня" />
+    <string id="BFhMw4bl" text="Остальные материалы игры загружены. Вернуться в главное меню?" />
+    <string id="bNYm3K6b" text="{KEY} Подобрать" />
+    <string id="bWi4aMO9" text="Бочка со стрелами" />
+    <string id="CaSafuAH" text="Загрузка материалов завершена" />
+    <string id="cS0Hafjl" text="У игрока нет доступа к сетевой игре." />
+    <string id="DRNDtkP2" text="Отдать предпочтение воинам более высоких классов" />
+    <string id="DWWa3aIb" text="Отдать предпочтение воинам с метательным оружием" />
+    <string id="DzAkCzwd" text="Высокий класс" />
+    <string id="Ea3K1PVR" text="Метательное оружие" />
+    <string id="EgTUzWUz" text="Строка имени не может быть пустой!" />
+    <string id="empirefaction" text="{.MA}Имперцы{.nnp}" />
+    <string id="f83FU4X6" text="Древковое оружие" />
+    <string id="F9AQxCax" text="Рогатина" />
+    <string id="fEQAPJ2e" text="{KEY} Использовать" />
+    <string id="FjwRsf1C" text="{.FI}Вландия" />
+    <string id="FNLfNWH3" text="Всадники и конные лучники" />
+    <string id="G0AWk1rX" text="Лестница" />
+    <string id="gAfbULHM" text="Камера" />
+    <string id="gqQPSAQZ" text="{KEY} Покинуть местность" />
+    <string id="H5tiRTya" text="Тренировка" />
+    <string id="hvQSOi79" text="Бот" />
+    <string id="ibC4xPoo" text="{KEY} Зарядить" />
+    <string id="j4F7tTzy" text="Клан" />
+    <string id="jfcceEoE" text="Груда {._}{PILE_TYPE}{.g}" />
+    <string id="Jw0GMgzv" text="Тяжелые войска" />
+    <string id="K3Cr70PY" text="Отдать предпочтение воинам с древковым оружием" />
+    <string id="kbNcm68J" text="{KEY} Поднять" />
+    <string id="L91XKoMD" text="{TEAM_LEADER}: {PLAYER_NAME}, {._} {BEHAVIOR}" />
+    <string id="ljHPjjmX" text="Не удалось пригласить игрока в игру" />
+    <string id="lVfmVHbz" text="Ошибка входа" />
+    <string id="m9KoYCv5" text="Управление" />
+    <string id="MaBSSg7I" text="Таран" />
+    <string id="mBDj5uG5" text="Пешие воины и воины дальнего боя" />
+    <string id="MbXatV1Q" text="Соединение разорвано" />
+    <string id="MdQJxiGz" text="{KEY} Нажать" />
+    <string id="MVOPbhNj" text="Отдать предпочтение воинам со щитами" />
+    <string id="Na81xuXn" text="{KEY} Перезарядить" />
+    <string id="NbpcDXtJ" text="Мангонель" />
+    <string id="oPOa77dI" text="Вход на платформе не выполнен" />
+    <string id="oZrVNUOk" text="Ошибка" />
+    <string id="PfnS8HUd" text="Неправильный режим заранее согласованной игры!" />
+    <string id="pgw7LMRo" text="Сервер заполнен." />
+    <string id="PjO7oY16" text="{.FI}Стургия" />
+    <string id="PSN8IaIg" text="Щиты" />
+    <string id="pzfbPbWW" text="Булыжник" />
+    <string id="Q1Ga032B" text="Не отдавать предпочтение ни одному типу воинов." />
+    <string id="qaPgbwZv" text="Низкий класс" />
+    <string id="RN6zHak0" text="Игрок" />
+    <string id="rwZAZSvX" text="{KEY} Двигать" />
+    <string id="sRTd3RI5" text="Графика" />
+    <string id="sZLd6VHi" text="{.NI}Хузаитский{.aj} {.NI}ханство{.nn}" />
+    <string id="TJj71hPO" text="{KEY} Закрыть" />
+    <string id="uNrXwGzr" text="Вашему отряду доступны только тренировочные игры. Для участия в клановой игре все члены отряда должны состоять в одном клане." />
+    <string id="ush8OHIw" text="Отдать предпочтение воинам с тяжелой броней" />
+    <string id="uZ6q4Qs2" text="Визуальное оформление" />
+    <string id="v5EqMSlD" text="Во время дуэли нельзя изменить предпочитаемые арены." />
+    <string id="vBkrw5VV" text="Случайно" />
+    <string id="vDMe8SCV" text="Масштабирование разрешения" />
+    <string id="w7Yrbi5t" text="Отменить" />
+    <string id="WRMyiiYJ" text="Пользовательский интерфейс" />
+    <string id="wY1qP2qj" text="{KEY} Выбрать" />
+    <string id="xebFLnH2" text="Звук" />
+    <string id="XvSRoOzM" text="Игроки, с которыми вы недавно играли" />
+    <string id="YNkPy4ta" text="Клановая игра" />
+    <string id="yS7PvrTD" text="ОК" />
+    <string id="ys9baYiQ" text="Кампания" />
+    <string id="zbpCRmuJ" text="Отдать предпочтение воинам более низких классов" />
+  </strings>
+</base>

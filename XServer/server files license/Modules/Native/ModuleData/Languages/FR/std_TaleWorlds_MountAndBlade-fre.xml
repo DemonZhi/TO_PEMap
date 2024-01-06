@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Français" />
+  </tags>
+  <strings>
+    <string id="0B27RrYJ" text="{.F}{.S}Battania" />
+    <string id="1cnJtNTt" text="{KEY} Tirer" />
+    <string id="1CPdu9K0" text="{.F}{.S}Pierre" />
+    <string id="1nKa4pQX" text="Le reste du contenu du jeu a été téléchargé." />
+    <string id="2zcrC0h1" text="Jouabilité" />
+    <string id="3PP01vFv" text="Tenez-vous à distance de cette arme." />
+    <string id="4FVIuqsl" text="{ALIVE}/{TOTAL}" />
+    <string id="4Skg9QhO" text="{.M}{.S}Trébuchet" />
+    <string id="5oozsaIb" text="{KEY} Ouvrir" />
+    <string id="5wx4BF5h" text="{KEY} Tourner" />
+    <string id="6wZUG0ev" text="Porte" />
+    <string id="8OkPHu4f" text="Non" />
+    <string id="abbALYlp" text="{.F}{.S}Baliste" />
+    <string id="aeouhelq" text="Oui" />
+    <string id="aseraifaction" text="{?ADJECTIVE.GENDER}aseraï{?}aseraï{\?}{?ISPLURAL}s{?}{\?}" />
+    <string id="aXjlMBiE" text="{.F}{.S}Tour de siège" />
+    <string id="BFhMw4bl" text="Le reste du contenu du jeu a été téléchargé. Voulez-vous retourner au menu principal ?" />
+    <string id="bNYm3K6b" text="{KEY} Ramasser" />
+    <string id="bWi4aMO9" text="Carquois" />
+    <string id="CaSafuAH" text="Téléchargement du contenu terminé" />
+    <string id="cS0Hafjl" text="Le joueur n&apos;a pas accès au multijoueur." />
+    <string id="DRNDtkP2" text="Privilégier les troupes de haut rang" />
+    <string id="DWWa3aIb" text="Privilégier les troupes avec des armes de jet" />
+    <string id="DzAkCzwd" text="Haut rang" />
+    <string id="Ea3K1PVR" text="Armes de jet" />
+    <string id="EgTUzWUz" text="Le nom ne peut être vide !" />
+    <string id="empirefaction" text="{.M}{.S}Empire" />
+    <string id="f83FU4X6" text="Armes d&apos;hast" />
+    <string id="F9AQxCax" text="Fourche" />
+    <string id="fEQAPJ2e" text="{KEY} Utiliser" />
+    <string id="FjwRsf1C" text="{.F}{.S}Vlande" />
+    <string id="FNLfNWH3" text="Cavalerie et archer à cheval" />
+    <string id="G0AWk1rX" text="{.F}{.S}Échelle" />
+    <string id="gAfbULHM" text="Caméra" />
+    <string id="gqQPSAQZ" text="{KEY} Quitter la zone" />
+    <string id="H5tiRTya" text="Entraînement" />
+    <string id="hvQSOi79" text="IA" />
+    <string id="ibC4xPoo" text="{KEY} Recharger" />
+    <string id="j4F7tTzy" text="Clan" />
+    <string id="jfcceEoE" text="Tas de {PILE_TYPE}" />
+    <string id="Jw0GMgzv" text="{.F}{.P}Armures lourdes" />
+    <string id="K3Cr70PY" text="Privilégier les troupes avec des armes d&apos;hast" />
+    <string id="kbNcm68J" text="{KEY} Soulever" />
+    <string id="L91XKoMD" text="{TEAM_LEADER} : {PLAYER_NAME}, {BEHAVIOR} !" />
+    <string id="ljHPjjmX" text="Échec de l&apos;invitation du joueur dans la partie" />
+    <string id="lVfmVHbz" text="La connexion a échoué" />
+    <string id="m9KoYCv5" text="Contrôles" />
+    <string id="MaBSSg7I" text="{.M}{.S}Bélier" />
+    <string id="mBDj5uG5" text="Infanterie et unités à distance" />
+    <string id="MbXatV1Q" text="Déconnecté" />
+    <string id="MdQJxiGz" text="{KEY} Pousser" />
+    <string id="MVOPbhNj" text="Privilégier les troupes avec des boucliers" />
+    <string id="Na81xuXn" text="{KEY} Réarmer" />
+    <string id="NbpcDXtJ" text="Mangonneau" />
+    <string id="oPOa77dI" text="Déconnecté de la plateforme" />
+    <string id="oZrVNUOk" text="Erreur" />
+    <string id="PfnS8HUd" text="Le type de partie préconçue est invalide !" />
+    <string id="pgw7LMRo" text="Serveur surchargé." />
+    <string id="PjO7oY16" text="{.F}{.S}Sturgie" />
+    <string id="PSN8IaIg" text="Boucliers" />
+    <string id="pzfbPbWW" text="{.M}{.S}Rocher" />
+    <string id="Q1Ga032B" text="Ne pas indiquer de type de troupe favorite." />
+    <string id="qaPgbwZv" text="Bas rang" />
+    <string id="RN6zHak0" text="Joueur" />
+    <string id="rwZAZSvX" text="{KEY} Déplacer" />
+    <string id="sRTd3RI5" text="Graphismes" />
+    <string id="sZLd6VHi" text="{?ADJECTIVE.GENDER}khuzaïte{?}khuzaïte{\?}{?ISPLURAL}s{?}{\?}" />
+    <string id="TJj71hPO" text="{KEY} Fermer" />
+    <string id="uNrXwGzr" text="Seules les parties d&apos;entraînement sont autorisées avec votre groupe actuel. Tous les membres doivent appartenir au même clan pour une partie de clan." />
+    <string id="ush8OHIw" text="Privilégier les troupes avec des armures lourdes" />
+    <string id="uZ6q4Qs2" text="Graphismes" />
+    <string id="v5EqMSlD" text="Vous ne pouvez pas modifier les préférences d&apos;arène en duel." />
+    <string id="vBkrw5VV" text="Aléatoire" />
+    <string id="vDMe8SCV" text="Échelle de résolution" />
+    <string id="w7Yrbi5t" text="Désactivé" />
+    <string id="WRMyiiYJ" text="Interface utilisateur" />
+    <string id="wY1qP2qj" text="{KEY} Sélectionner" />
+    <string id="xebFLnH2" text="Audio" />
+    <string id="XvSRoOzM" text="Joueurs ayant joué récemment" />
+    <string id="YNkPy4ta" text="Partie de clan" />
+    <string id="yS7PvrTD" text="OK" />
+    <string id="ys9baYiQ" text="Campagne" />
+    <string id="zbpCRmuJ" text="Privilégier les troupes de bas rang" />
+  </strings>
+</base>

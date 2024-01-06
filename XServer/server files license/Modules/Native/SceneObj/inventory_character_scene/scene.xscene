@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<scene name="inventory_character_scene" version="2">
+	<flora_bounding_rect min="0.000, 0.000" max="0.000, 0.000"/>
+	<levels>
+		<level name="base" mask="1"/>
+		<level name="level_1" mask="2"/>
+		<level name="level_2" mask="4"/>
+		<level name="level_3" mask="8"/>
+	</levels>
+	<environment_properties>
+		<property name="nav_mesh_auto_generated_" value="false"/>
+		<property name="physics_world_min" value="-4.022, 0.000"/>
+		<property name="physics_world_max_" value="22.660, 34.337"/>
+		<property name="north_angle" value="0.000"/>
+		<property name="is_indoors" value="false"/>
+		<property name="disable_flora_billboards" value="false"/>
+		<property name="ground_color" value="0.000, 0.000, 0.000"/>
+		<property name="prt_multiplier" value="1.000"/>
+		<property name="prt_point_light_multiplier" value="1.000"/>
+		<property name="fog_start_distance" value="50.000"/>
+		<property name="prt_color_contrast" value="1.000"/>
+		<property name="scene_scale_multiplier" value="1.000"/>
+		<property name="prt_intensity_contrast" value="1.000"/>
+		<property name="prt_fallback_probe_index" value="-1, -1, -1"/>
+		<property name="enforced_color_grade" value=""/>
+		<property name="gi_data_exists" value="false"/>
+		<atmosphere_properties>
+			<property name="atmosphere_name" value="scene_atmosphere"/>
+			<property name="wind" value="0.000, 0.000"/>
+			<property name="scene_fog_falloff_offset" value="0.000"/>
+		</atmosphere_properties>
+		<water_properties version="1">
+			<property name="water_level" value="-100.000"/>
+			<property name="water_strength" value="5.000"/>
+			<property name="water_wind_dependency" value="1.000"/>
+			<property name="water_material" value="water_default"/>
+			<property name="water_shallow_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_deep_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_exists" value="false"/>
+			<property name="place_water_probe" value="true"/>
+		</water_properties>
+		<out_of_bounds_effects_properties>
+			<property name="vignette_color" value="0.000, 0.500, 1.000"/>
+			<property name="vignette_alpha" value="0.000"/>
+		</out_of_bounds_effects_properties>
+	</environment_properties>
+	<entities>
+		<game_entity name="rim_light" old_prefab_name="">
+			<transform position="9.319, 20.121, 1.850" rotation_euler="1.021, -1.212, 0.465"/>
+			<components>
+				<light_component flags="128" color="0.796, 0.843, 1.000" intensity="20.000" radius="8.000" local_frame_rot="8.519135, 0.000000, 0.000000, 0.000000, 8.519135, 0.000000, 0.000000, 0.000000, 8.000000" hotspot_angle="5.000" falloff_angle="46.800" shadow="2" mobility="1" shadow_size_multiplier="2" shadow_radius="3.400"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="aserai_courtyard_floor_a">
+			<transform position="9.890, 21.710, -0.200" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="aserai_courtyard_floor_a.22" material="matte_shadow" argument="220.000, 0.000, 0.000, 0.000"/>
+					<mesh name="aserai_courtyard_floor_a.lod2.22" material="matte_shadow" argument="220.000, 0.000, 0.000, 0.000"/>
+					<mesh name="aserai_courtyard_floor_a.lod4.22" material="matte_shadow" argument="220.000, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="camera_instance">
+			<transform position="14.707, 22.009, 1.104" rotation_euler="1.571, -1.571, -3.142"/>
+			<scripts>
+				<script name="camera_instance">
+					<variables>
+						<variable name="FOV(Degrees)" value="90.000000"/>
+						<variable name="Far" value="500.000000"/>
+						<variable name="Render Skybox" value="true"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity name="orange_light" old_prefab_name="">
+			<transform position="11.605, 22.483, 1.351" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<light_component color="1.000, 0.812, 0.643" intensity="8.000" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="2" shadow_size_multiplier="1" shadow_radius="2.000"/>
+			</components>
+		</game_entity>
+		<game_entity name="blue_light" old_prefab_name="">
+			<transform position="11.785, 21.529, 1.362" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<light_component color="0.573, 0.816, 1.000" intensity="10.000" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="1" shadow_radius="2.000"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="a_spr_light">
+			<transform position="9.623, 23.327, 1.030" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<light_component intensity="6.000" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" shadow="2" shadow_radius="2.000"/>
+			</components>
+		</game_entity>
+		<game_entity name="Horse" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="horse_inv"/>
+			</tags>
+			<transform position="8.160, 22.590, 0.000" rotation_euler="0.000, 0.000, -1.272" scale="0.700, 0.700, 0.700"/>
+			<components>
+				<cloth_simulator>
+					<meta_mesh_component name="horse_e"/>
+				</cloth_simulator>
+			</components>
+		</game_entity>
+		<game_entity name="Banner" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="banner_inv"/>
+			</tags>
+			<transform position="9.633, 21.421, 0.000" rotation_euler="0.000, 0.000, -1.571" scale="0.700, 0.700, 0.700"/>
+			<components>
+				<cloth_simulator>
+					<meta_mesh_component name="dragon_banner_weapon"/>
+				</cloth_simulator>
+			</components>
+		</game_entity>
+		<game_entity name="blue_light" old_prefab_name="">
+			<transform position="9.488, 21.483, 0.813" rotation_euler="1.256, -2.217, 2.984"/>
+			<components>
+				<light_component flags="128" color="0.584, 0.682, 1.000" intensity="10.000" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="1" shadow_radius="1.600"/>
+			</components>
+		</game_entity>
+		<game_entity name="Character" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="agent_inv"/>
+			</tags>
+			<transform position="10.719, 22.014, -0.018" rotation_euler="0.000, 0.000, -1.663"/>
+			<components>
+				<meta_mesh_component name="head_male_a"/>
+				<meta_mesh_component name="hands_male_a" _index_="1"/>
+				<meta_mesh_component name="feet_male_a" _index_="2"/>
+				<meta_mesh_component name="armor_merchant_helmet_c" position="0.000, 0.010, 0.000" rotation="0.290, 0.000, 3.110" scale="0.870, 0.870, 0.870" _index_="3"/>
+				<cloth_simulator>
+					<meta_mesh_component name="imperial_lamellar_a" _index_="4"/>
+				</cloth_simulator>
+			</components>
+		</game_entity>
+		<game_entity prefab="envmap_prop">
+			<transform position="11.205, 20.309, 0.846" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+	</entities>
+	<terrain enabled="false"/>
+	<editor_data editor_camera_position="12.839, 21.573, 2.915" editor_camera_elevation="-0.220" editor_camera_bearing="-0.208" editor_camera_forward="-0.899, 0.076, -0.431" author="" comment=""/>
+	<camera_data near_plane="0.100" far_plane="5000.000"/>
+	<Paths/>
+</scene>
+

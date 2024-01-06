@@ -1,0 +1,3050 @@
+<prefabs>
+	<game_entity name="sp_player" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="spawnpoint_player"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="animation_stand_arrow_green"/>
+		</components>
+		<levels>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+			<level name="civilian"/>
+		</levels>
+	</game_entity>
+	<game_entity name="sp_attacker_infantry" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="attacker_infantry"/>
+			<tag name="battle"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="arrow_new_icon"/>
+		</components>
+	</game_entity>
+	<game_entity name="sp_attacker_archer" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="attacker_archer"/>
+			<tag name="attacker_ranged"/>
+			<tag name="battle"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="arrow_new_icon"/>
+		</components>
+	</game_entity>
+	<game_entity name="sp_attacker_cavalry" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="attacker_cavalry"/>
+			<tag name="battle"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="arrow_new_icon"/>
+		</components>
+	</game_entity>
+	<game_entity name="sp_attacker_horsearcher" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="attacker_horsearcher"/>
+			<tag name="battle"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="arrow_new_icon"/>
+		</components>
+	</game_entity>
+	<game_entity name="sp_defender_infantry" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="defender_infantry"/>
+			<tag name="battle"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="arrow_new_icon"/>
+		</components>
+	</game_entity>
+	<game_entity name="sp_defender_archer" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="defender_archer"/>
+			<tag name="defender_ranged"/>
+			<tag name="battle"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="arrow_new_icon"/>
+		</components>
+	</game_entity>
+	<game_entity name="sp_defender_cavalry" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="defender_cavalry"/>
+			<tag name="battle"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="arrow_new_icon"/>
+		</components>
+	</game_entity>
+	<game_entity name="sp_defender_horsearcher" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="defender_horsearcher"/>
+			<tag name="battle"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="arrow_new_icon"/>
+		</components>
+	</game_entity>
+	<game_entity name="sp_horse_desert_war_horse" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="sp_horse"/>
+			<tag name="aserai_horse"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="animation_stand_arrow_yellow"/>
+		</components>
+		<scripts>
+			<script name="AnimalSpawnSettings"/>
+		</scripts>
+		<levels>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+			<level name="civilian"/>
+		</levels>
+	</game_entity>
+	<game_entity name="sp_horse_steppe_charger" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="sp_horse"/>
+			<tag name="khuzait_horse"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="animation_stand_arrow_yellow"/>
+		</components>
+		<scripts>
+			<script name="AnimalSpawnSettings"/>
+		</scripts>
+		<levels>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+			<level name="civilian"/>
+		</levels>
+	</game_entity>
+	<game_entity name="sp_horse_war_horse" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="sp_horse"/>
+			<tag name="empire_horse"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="animation_stand_arrow_yellow"/>
+		</components>
+		<scripts>
+			<script name="AnimalSpawnSettings"/>
+		</scripts>
+		<levels>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+			<level name="civilian"/>
+		</levels>
+	</game_entity>
+	<game_entity name="sp_horse_charger" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="sp_horse"/>
+			<tag name="vlandia_horse"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="animation_stand_arrow_yellow"/>
+		</components>
+		<scripts>
+			<script name="AnimalSpawnSettings"/>
+		</scripts>
+		<levels>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+			<level name="civilian"/>
+		</levels>
+	</game_entity>
+	<game_entity name="sp_horse_desert_horse" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="sp_horse"/>
+			<tag name="aserai_horse"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="animation_stand_arrow_yellow"/>
+		</components>
+		<scripts>
+			<script name="AnimalSpawnSettings"/>
+		</scripts>
+		<levels>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+			<level name="civilian"/>
+		</levels>
+	</game_entity>
+	<game_entity name="sp_horse_battania" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="sp_horse"/>
+			<tag name="battania_horse"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="animation_stand_arrow_yellow"/>
+		</components>
+		<scripts>
+			<script name="AnimalSpawnSettings"/>
+		</scripts>
+		<levels>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+			<level name="civilian"/>
+		</levels>
+	</game_entity>
+	<game_entity name="sp_horse_hunter" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="sp_horse"/>
+			<tag name="sturgia_horse"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="animation_stand_arrow_yellow"/>
+		</components>
+		<scripts>
+			<script name="AnimalSpawnSettings"/>
+		</scripts>
+		<levels>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+			<level name="civilian"/>
+		</levels>
+	</game_entity>
+	<game_entity name="sp_sheep" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="sp_sheep"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="animation_stand_arrow_yellow"/>
+		</components>
+		<scripts>
+			<script name="AnimalSpawnSettings"/>
+		</scripts>
+	</game_entity>
+	<game_entity name="sp_cow" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="sp_cow"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="animation_stand_arrow_yellow"/>
+		</components>
+		<scripts>
+			<script name="AnimalSpawnSettings"/>
+		</scripts>
+		<levels>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+			<level name="civilian"/>
+		</levels>
+	</game_entity>
+	<game_entity name="sp_goose" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="sp_goose"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="animation_stand_arrow_yellow"/>
+		</components>
+		<scripts>
+			<script name="AnimalSpawnSettings"/>
+		</scripts>
+		<levels>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+			<level name="civilian"/>
+		</levels>
+	</game_entity>
+	<game_entity name="sp_chicken" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="sp_chicken"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="animation_stand_arrow_yellow"/>
+		</components>
+		<scripts>
+			<script name="AnimalSpawnSettings"/>
+		</scripts>
+		<levels>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+			<level name="civilian"/>
+		</levels>
+	</game_entity>
+	<game_entity name="sp_hog" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="sp_hog"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="animation_stand_arrow_yellow"/>
+		</components>
+		<scripts>
+			<script name="AnimalSpawnSettings"/>
+		</scripts>
+		<levels>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+			<level name="civilian"/>
+		</levels>
+	</game_entity>
+	<game_entity name="sp_cat" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="sp_cat"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="animation_stand_arrow_yellow"/>
+		</components>
+		<scripts>
+			<script name="AnimalSpawnSettings"/>
+		</scripts>
+	</game_entity>
+	<game_entity name="sp_dog" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="sp_dog"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="animation_stand_arrow_yellow"/>
+		</components>
+		<scripts>
+			<script name="AnimalSpawnSettings"/>
+		</scripts>
+	</game_entity>
+	<game_entity name="crow" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -2.017"/>
+		<physics override_material="default" mass="1.000"/>
+		<skeleton skeleton_model="bird_skeleton">
+			<components>
+				<meta_mesh_component name="crow_mesh"/>
+			</components>
+		</skeleton>
+		<scripts>
+			<script name="Bird">
+				<variables>
+					<variable name="CanFly" value="true"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="hawk" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.703"/>
+		<physics mass="1.000"/>
+		<skeleton skeleton_model="bird_skeleton">
+			<components>
+				<meta_mesh_component name="hawk_mesh"/>
+			</components>
+		</skeleton>
+		<scripts>
+			<script name="Bird">
+				<variables>
+					<variable name="CanFly" value="true"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="hawk_with_mask" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.703"/>
+		<physics mass="1.000"/>
+		<skeleton skeleton_model="bird_skeleton">
+			<components>
+				<meta_mesh_component name="hawk_with_mask_mesh"/>
+			</components>
+		</skeleton>
+		<scripts>
+			<script name="Bird">
+				<variables>
+					<variable name="CanFly" value="false"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="sp_battle_set" old_prefab_name="">
+		<tags>
+			<tag name="battle_set"/>
+			<tag name="spawnpoint_set"/>
+		</tags>
+		<transform position="103.635, 125.515, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="sp_attacker_archer_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_archer_reinforcement"/>
+					<tag name="attacker_ranged_reinforcement"/>
+				</tags>
+				<transform position="-2.209, -4.365, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_cavalry_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_cavalry_reinforcement"/>
+				</tags>
+				<transform position="-0.775, -4.391, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_horsearcher_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_horsearcher_reinforcement"/>
+				</tags>
+				<transform position="0.782, -4.382, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_infantry_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_infantry_reinforcement"/>
+				</tags>
+				<transform position="2.215, -4.375, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_archer_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_archer_reinforcement"/>
+					<tag name="defender_ranged_reinforcement"/>
+				</tags>
+				<transform position="2.435, 4.406, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_cavalry_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_cavalry_reinforcement"/>
+				</tags>
+				<transform position="0.922, 4.442, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_horsearcher_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_horsearcher_reinforcement"/>
+				</tags>
+				<transform position="-0.620, 4.510, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_infantry_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_infantry_reinforcement"/>
+				</tags>
+				<transform position="-2.197, 4.559, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_archer" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_archer"/>
+					<tag name="attacker_ranged"/>
+				</tags>
+				<transform position="-2.209, -1.956, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_cavalry" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_cavalry"/>
+				</tags>
+				<transform position="-0.775, -1.983, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_horsearcher" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_horsearcher"/>
+				</tags>
+				<transform position="0.782, -1.974, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_infantry" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_infantry"/>
+				</tags>
+				<transform position="2.215, -1.967, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_infantry" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_infantry"/>
+				</tags>
+				<transform position="-2.197, 2.481, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_horsearcher" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_horsearcher"/>
+				</tags>
+				<transform position="-0.620, 2.432, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_cavalry" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_cavalry"/>
+				</tags>
+				<transform position="0.922, 2.364, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_archer" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_archer"/>
+					<tag name="defender_ranged"/>
+				</tags>
+				<transform position="2.435, 2.328, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sp_sally_out_set" old_prefab_name="">
+		<tags>
+			<tag name="sally_out_set"/>
+			<tag name="spawnpoint_set"/>
+		</tags>
+		<transform position="103.635, 125.515, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="sp_attacker_archer_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_archer_reinforcement"/>
+					<tag name="attacker_ranged_reinforcement"/>
+				</tags>
+				<transform position="-2.209, -4.365, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_cavalry_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_cavalry_reinforcement"/>
+				</tags>
+				<transform position="-0.775, -4.391, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_horsearcher_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_horsearcher_reinforcement"/>
+				</tags>
+				<transform position="0.782, -4.382, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_infantry_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_infantry_reinforcement"/>
+				</tags>
+				<transform position="2.215, -4.375, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_archer_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_archer_reinforcement"/>
+					<tag name="defender_ranged_reinforcement"/>
+				</tags>
+				<transform position="2.435, 4.406, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_cavalry_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_cavalry_reinforcement"/>
+				</tags>
+				<transform position="0.922, 4.442, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_horsearcher_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_horsearcher_reinforcement"/>
+				</tags>
+				<transform position="-0.620, 4.510, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_infantry_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_infantry_reinforcement"/>
+				</tags>
+				<transform position="-2.197, 4.559, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_archer" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_archer"/>
+					<tag name="attacker_ranged"/>
+				</tags>
+				<transform position="-2.209, -1.956, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_cavalry" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_cavalry"/>
+				</tags>
+				<transform position="-0.775, -1.983, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_horsearcher" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_horsearcher"/>
+				</tags>
+				<transform position="0.782, -1.974, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_infantry" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_infantry"/>
+				</tags>
+				<transform position="2.215, -1.967, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_infantry" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_infantry"/>
+				</tags>
+				<transform position="-2.197, 2.481, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_horsearcher" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_horsearcher"/>
+				</tags>
+				<transform position="-0.620, 2.432, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_cavalry" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_cavalry"/>
+				</tags>
+				<transform position="0.922, 2.364, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_archer" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_archer"/>
+					<tag name="defender_ranged"/>
+				</tags>
+				<transform position="2.435, 2.328, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sp_relief_force_attack_set" old_prefab_name="">
+		<tags>
+			<tag name="sp_relief_force_attack_set"/>
+			<tag name="spawnpoint_set"/>
+		</tags>
+		<transform position="103.635, 125.515, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="sp_attacker_archer_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_archer_reinforcement"/>
+					<tag name="attacker_ranged_reinforcement"/>
+				</tags>
+				<transform position="-2.209, -4.365, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_cavalry_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_cavalry_reinforcement"/>
+				</tags>
+				<transform position="-0.775, -4.391, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_horsearcher_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_horsearcher_reinforcement"/>
+				</tags>
+				<transform position="0.782, -4.382, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_infantry_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_infantry_reinforcement"/>
+				</tags>
+				<transform position="2.215, -4.375, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_archer_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_archer_reinforcement"/>
+					<tag name="defender_ranged_reinforcement"/>
+				</tags>
+				<transform position="2.435, 4.406, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_cavalry_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_cavalry_reinforcement"/>
+				</tags>
+				<transform position="0.922, 4.442, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_horsearcher_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_horsearcher_reinforcement"/>
+				</tags>
+				<transform position="-0.620, 4.510, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_infantry_reinforcement" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_infantry_reinforcement"/>
+				</tags>
+				<transform position="-2.197, 4.559, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_archer" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_archer"/>
+					<tag name="attacker_ranged"/>
+				</tags>
+				<transform position="-2.209, -1.956, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_cavalry" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_cavalry"/>
+				</tags>
+				<transform position="-0.775, -1.983, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_horsearcher" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_horsearcher"/>
+				</tags>
+				<transform position="0.782, -1.974, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_attacker_infantry" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_infantry"/>
+				</tags>
+				<transform position="2.215, -1.967, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_infantry" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_infantry"/>
+				</tags>
+				<transform position="-2.197, 2.481, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_horsearcher" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_horsearcher"/>
+				</tags>
+				<transform position="-0.620, 2.432, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_cavalry" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_cavalry"/>
+				</tags>
+				<transform position="0.922, 2.364, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_defender_archer" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_archer"/>
+					<tag name="defender_ranged"/>
+				</tags>
+				<transform position="2.435, 2.328, 0.000" rotation_euler="0.000, 0.000, 3.121" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sp_duel_set" old_prefab_name="">
+		<transform position="58.558, 59.710, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="sp_duel_defender" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="duel_defender"/>
+				</tags>
+				<transform position="0.035, 2.666, 0.000" rotation_euler="0.000, 0.000, 3.083" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_duel_attacker" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="duel_attacker"/>
+				</tags>
+				<transform position="0.130, -2.508, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="skirmish_start_spawn" old_prefab_name="">
+		<tags>
+			<tag name="starting"/>
+			<tag name="spawn_zone"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender"/>
+					<tag name="spawnpoint"/>
+				</tags>
+				<transform position="4.900, -8.029, 0.000" rotation_euler="0.000, 0.000, -1.621"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender"/>
+					<tag name="spawnpoint"/>
+				</tags>
+				<transform position="5.015, -1.149, 0.000" rotation_euler="0.000, 0.000, -1.621"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender"/>
+					<tag name="spawnpoint"/>
+				</tags>
+				<transform position="4.745, 5.728, 0.000" rotation_euler="0.000, 0.000, -1.621"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender"/>
+					<tag name="spawnpoint"/>
+				</tags>
+				<transform position="4.331, 12.398, 0.000" rotation_euler="0.000, 0.000, -1.621"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender"/>
+					<tag name="spawnpoint"/>
+				</tags>
+				<transform position="9.325, -10.857, 0.000" rotation_euler="0.000, 0.000, -1.621"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender"/>
+					<tag name="spawnpoint"/>
+				</tags>
+				<transform position="9.618, -4.021, 0.000" rotation_euler="0.000, 0.000, -1.621"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender"/>
+					<tag name="spawnpoint"/>
+				</tags>
+				<transform position="9.629, 3.156, 0.000" rotation_euler="0.000, 0.000, -1.621"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender"/>
+					<tag name="spawnpoint"/>
+				</tags>
+				<transform position="9.604, 9.183, 0.000" rotation_euler="0.000, 0.000, -1.621"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender"/>
+					<tag name="spawnpoint"/>
+				</tags>
+				<transform position="9.447, 15.611, 0.000" rotation_euler="0.000, 0.000, -1.621"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="skirmish_respawn" old_prefab_name="">
+		<tags>
+			<tag name="spawn_zone"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="mp_spawnpoint_attacker" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker"/>
+					<tag name="spawnpoint"/>
+				</tags>
+				<transform position="-3.080, -4.820, 0.000" rotation_euler="0.000, 0.000, -1.779"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint_attacker" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker"/>
+					<tag name="spawnpoint"/>
+				</tags>
+				<transform position="-3.381, 0.073, 0.000" rotation_euler="0.000, 0.000, -1.779"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint_attacker" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker"/>
+					<tag name="spawnpoint"/>
+				</tags>
+				<transform position="-0.332, 5.876, 0.000" rotation_euler="0.000, 0.000, -1.779"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sergeant_defender_spawn" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_heavycavalry"/>
+				</tags>
+				<transform position="-16.921, -7.261, -0.750" rotation_euler="0.000, 0.000, -1.622"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_skirmisher"/>
+				</tags>
+				<transform position="-4.485, -10.091, -1.364" rotation_euler="0.000, 0.000, -1.622"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_cavalry"/>
+				</tags>
+				<transform position="7.311, -17.947, -1.876" rotation_euler="0.000, 0.000, -1.622"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_ranged"/>
+				</tags>
+				<transform position="17.977, -5.611, -1.282" rotation_euler="0.000, 0.000, -1.622"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_horsearcher"/>
+				</tags>
+				<transform position="3.349, 3.093, -0.828" rotation_euler="0.000, 0.000, -1.622"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_lightcavalry"/>
+				</tags>
+				<transform position="-11.420, 11.310, 0.998" rotation_euler="0.000, 0.000, -1.622"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_heavyinfantry"/>
+				</tags>
+				<transform position="-2.474, 19.191, 1.076" rotation_euler="0.000, 0.000, -1.622"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_infantry"/>
+				</tags>
+				<transform position="13.669, 19.184, -0.005" rotation_euler="0.000, 0.000, -1.622"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sergeant_attack_spawn" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_lightcavalry"/>
+				</tags>
+				<transform position="12.180, 12.991, 2.851" rotation_euler="0.000, 0.000, 1.514"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_skirmisher"/>
+				</tags>
+				<transform position="2.433, 18.099, 1.885" rotation_euler="0.000, 0.000, 1.419"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_ranged"/>
+				</tags>
+				<transform position="-7.405, 12.387, 0.608" rotation_euler="0.000, 0.000, 1.497"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_heavyinfantry"/>
+				</tags>
+				<transform position="2.313, -0.180, 0.217" rotation_euler="0.000, 0.000, 1.653"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_heavycavalry"/>
+				</tags>
+				<transform position="12.570, -6.253, 1.367" rotation_euler="0.000, 0.000, 1.456"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_infantry"/>
+				</tags>
+				<transform position="-7.444, -7.270, -0.814" rotation_euler="0.000, 0.000, 1.419"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_cavalry"/>
+				</tags>
+				<transform position="1.100, -21.103, -0.985" rotation_euler="0.000, 0.000, 1.521"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_horsearcher"/>
+				</tags>
+				<transform position="10.045, -20.934, -0.236" rotation_euler="0.000, 0.000, 1.419"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="spawn_visual" old_prefab_name="">
+		<tags>
+			<tag name="visual_spawn_debug_check"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="attacker_spawn_visual" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker"/>
+					<tag name="sp_visual_3"/>
+				</tags>
+				<transform position="-3.969, -1.182, 0.998" rotation_euler="0.000, 0.000, -1.472" scale="0.585, 0.585, 1.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="attacker_spawn_visual" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker"/>
+					<tag name="sp_visual_5"/>
+				</tags>
+				<transform position="-2.468, 2.268, 0.511" rotation_euler="0.000, 0.000, -1.780" scale="0.585, 0.585, 1.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="attacker_spawn_visual" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="sp_visual_0"/>
+					<tag name="attacker"/>
+				</tags>
+				<transform position="2.622, -0.157, -0.525" rotation_euler="0.000, 0.000, -1.569" scale="0.585, 0.585, 1.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="attacker_spawn_visual" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker"/>
+					<tag name="sp_visual_2"/>
+				</tags>
+				<transform position="-2.180, -1.822, 0.552" rotation_euler="0.000, 0.000, -1.235" scale="0.585, 0.585, 1.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="attacker_spawn_visual" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker"/>
+					<tag name="sp_visual_1"/>
+				</tags>
+				<transform position="-2.824, -3.409, 0.755" rotation_euler="0.000, 0.000, -1.102" scale="0.585, 0.585, 1.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="attacker_spawn_visual" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker"/>
+					<tag name="sp_visual_4"/>
+				</tags>
+				<transform position="-4.053, 1.637, 0.874" rotation_euler="0.000, 0.000, -1.712" scale="0.585, 0.585, 1.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<levels>
+			<level name="base"/>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+		</levels>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="captain_defender_spawn" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_heavycavalry"/>
+				</tags>
+				<transform position="-16.921, -7.261, -0.750" rotation_euler="0.000, 0.000, -1.622"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_skirmisher"/>
+				</tags>
+				<transform position="-4.485, -10.091, -1.364" rotation_euler="0.000, 0.000, -1.622"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_cavalry"/>
+				</tags>
+				<transform position="7.311, -17.947, -1.876" rotation_euler="0.000, 0.000, -1.622"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_ranged"/>
+				</tags>
+				<transform position="17.977, -5.611, -1.282" rotation_euler="0.000, 0.000, -1.622"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_horsearcher"/>
+				</tags>
+				<transform position="3.349, 3.093, -0.828" rotation_euler="0.000, 0.000, -1.622"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_lightcavalry"/>
+				</tags>
+				<transform position="-11.420, 11.310, 0.998" rotation_euler="0.000, 0.000, -1.622"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_heavyinfantry"/>
+				</tags>
+				<transform position="-2.474, 19.191, 1.076" rotation_euler="0.000, 0.000, -1.622"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender_infantry"/>
+				</tags>
+				<transform position="13.669, 19.184, -0.005" rotation_euler="0.000, 0.000, -1.622"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<levels>
+			<level name="base"/>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+		</levels>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="captain_attack_spawn" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_lightcavalry"/>
+				</tags>
+				<transform position="12.180, 12.991, 2.851" rotation_euler="0.000, 0.000, 1.514"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_skirmisher"/>
+				</tags>
+				<transform position="2.433, 18.099, 1.885" rotation_euler="0.000, 0.000, 1.419"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_ranged"/>
+				</tags>
+				<transform position="-7.405, 12.387, 0.608" rotation_euler="0.000, 0.000, 1.497"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_heavyinfantry"/>
+				</tags>
+				<transform position="2.313, -0.180, 0.217" rotation_euler="0.000, 0.000, 1.653"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_heavycavalry"/>
+				</tags>
+				<transform position="12.570, -6.253, 1.367" rotation_euler="0.000, 0.000, 1.456"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_infantry"/>
+				</tags>
+				<transform position="-7.444, -7.270, -0.814" rotation_euler="0.000, 0.000, 1.419"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_cavalry"/>
+				</tags>
+				<transform position="1.100, -21.103, -0.985" rotation_euler="0.000, 0.000, 1.521"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="mp_spawnpoint" old_prefab_name="">
+				<flags>
+					<flag name="align_to_terrain" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="attacker_horsearcher"/>
+				</tags>
+				<transform position="10.045, -20.934, -0.236" rotation_euler="0.000, 0.000, 1.419"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<levels>
+			<level name="base"/>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+		</levels>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="mp_camera_start_pos" old_prefab_name="">
+		<tags>
+			<tag name="mp_camera_start_pos"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<levels>
+			<level name="base"/>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+		</levels>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="sp_conversation_dialog_spawn" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="binary_conversation_point"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="animation_stand_arrow_green"/>
+		</components>
+		<children>
+			<game_entity name="player_conversation" old_prefab_name="">
+				<tags>
+					<tag name="camera_parent"/>
+				</tags>
+				<transform rotation_euler="0.000, 0.000, 0.000" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<children>
+					<game_entity name="player_cavalry_to_infantry_camera" old_prefab_name="">
+						<tags>
+							<tag name="camera_instance"/>
+							<tag name="troop_cavalry_lance_cam_small"/>
+							<tag name="player_cavalry_to_infantry"/>
+						</tags>
+						<transform position="4.074, 4.444, 2.378" rotation_euler="1.448, 0.140, 2.301"/>
+						<physics mass="1.000"/>
+						<scripts>
+							<script name="camera_instance">
+								<variables>
+									<variable name="FOV(Degrees)" value="8.000000"/>
+									<variable name="Width" value="1280"/>
+									<variable name="Height" value="720"/>
+									<variable name="Downscale Width" value="480"/>
+									<variable name="Near" value="0.010000"/>
+									<variable name="Far" value="1500.000000"/>
+									<variable name="DOF Focus Start" value="0.000000"/>
+									<variable name="DOF Focus" value="6.000000"/>
+									<variable name="DOF Focus End" value="15.000000"/>
+									<variable name="Background Color" value="0.243, 0.212, 0.169, 0.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="camera_icon" old_prefab_name="">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.000, 0.000, 1.000" rotation_euler="-1.571, -3.142, 3.142"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_camera"/>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+						</children>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="player_infantry_to_infantry_camera" old_prefab_name="">
+						<tags>
+							<tag name="sword_cam"/>
+							<tag name="player_infantry_to_infantry"/>
+						</tags>
+						<transform position="3.753, 4.635, 1.612" rotation_euler="1.546, -0.663, -3.128"/>
+						<physics mass="1.000"/>
+						<scripts>
+							<script name="camera_instance">
+								<variables>
+									<variable name="FOV(Degrees)" value="8.000000"/>
+									<variable name="Width" value="1280"/>
+									<variable name="Height" value="720"/>
+									<variable name="Downscale Width" value="480"/>
+									<variable name="Near" value="0.100000"/>
+									<variable name="Far" value="1500.000000"/>
+									<variable name="DOF Focus Start" value="0.000000"/>
+									<variable name="DOF Focus" value="6.000000"/>
+									<variable name="DOF Focus End" value="10.000000"/>
+									<variable name="Background Color" value="0.710, 0.898, 1.000, 0.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="camera_icon" old_prefab_name="">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.000, 0.000, 1.000" rotation_euler="-1.571, 0.000, 0.000"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_camera"/>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+						</children>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="opponent_infantry_to_cavalry_camera" old_prefab_name="">
+						<tags>
+							<tag name="camera_instance"/>
+							<tag name="troop_cavalry_lance_cam"/>
+							<tag name="opponent_infantry_to_cavalry"/>
+						</tags>
+						<transform position="0.139, 0.616, 1.629" rotation_euler="1.489, -3.098, 2.356"/>
+						<physics mass="1.000"/>
+						<scripts>
+							<script name="camera_instance">
+								<variables>
+									<variable name="FOV(Degrees)" value="12.000000"/>
+									<variable name="Width" value="1280"/>
+									<variable name="Height" value="720"/>
+									<variable name="Downscale Width" value="480"/>
+									<variable name="Near" value="0.010000"/>
+									<variable name="Far" value="1500.000000"/>
+									<variable name="DOF Focus Start" value="0.000000"/>
+									<variable name="DOF Focus" value="6.000000"/>
+									<variable name="DOF Focus End" value="10.000000"/>
+									<variable name="Background Color" value="0.243, 0.212, 0.169, 0.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="camera_icon" old_prefab_name="">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.000, 0.000, 1.000" rotation_euler="-1.571, -3.142, 3.142"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_camera"/>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+						</children>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="opponent_infantry_to_infantry_camera" old_prefab_name="">
+						<tags>
+							<tag name="sword_cam"/>
+							<tag name="opponent_infantry_to_infantry"/>
+						</tags>
+						<transform position="0.149, 0.634, 1.581" rotation_euler="1.549, -1.106, 0.373"/>
+						<physics mass="1.000"/>
+						<scripts>
+							<script name="camera_instance">
+								<variables>
+									<variable name="FOV(Degrees)" value="8.000000"/>
+									<variable name="Width" value="1280"/>
+									<variable name="Height" value="720"/>
+									<variable name="Downscale Width" value="480"/>
+									<variable name="Near" value="0.100000"/>
+									<variable name="Far" value="1500.000000"/>
+									<variable name="DOF Focus Start" value="0.000000"/>
+									<variable name="DOF Focus" value="6.000000"/>
+									<variable name="DOF Focus End" value="10.000000"/>
+									<variable name="Background Color" value="0.329, 0.337, 0.290, 0.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="camera_icon" old_prefab_name="">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.000, 0.000, 1.000" rotation_euler="-1.571, 0.000, 0.000"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_camera"/>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+						</children>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="opponent_cavalry_to_infantry_camera" old_prefab_name="">
+						<tags>
+							<tag name="camera_instance"/>
+							<tag name="troop_cavalry_sword_cam_small"/>
+							<tag name="opponent_cavalry_to_infantry"/>
+						</tags>
+						<transform position="0.138, 0.248, 2.296" rotation_euler="1.463, 0.033, -0.726"/>
+						<physics mass="1.000"/>
+						<scripts>
+							<script name="camera_instance">
+								<variables>
+									<variable name="FOV(Degrees)" value="8.000000"/>
+									<variable name="Width" value="1280"/>
+									<variable name="Height" value="720"/>
+									<variable name="Downscale Width" value="480"/>
+									<variable name="Near" value="0.010000"/>
+									<variable name="Far" value="1500.000000"/>
+									<variable name="DOF Focus Start" value="0.000000"/>
+									<variable name="DOF Focus" value="6.000000"/>
+									<variable name="DOF Focus End" value="15.000000"/>
+									<variable name="Background Color" value="0.243, 0.212, 0.169, 0.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="camera_icon" old_prefab_name="">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.000, 0.000, 1.000" rotation_euler="-1.571, -3.142, 3.142"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_camera"/>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+						</children>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="player_infantry_to_cavalry_camera" old_prefab_name="">
+						<tags>
+							<tag name="camera_instance"/>
+							<tag name="troop_cavalry_sword_cam"/>
+							<tag name="player_infantry_to_cavalry"/>
+						</tags>
+						<transform position="3.742, 3.448, 1.336" rotation_euler="1.444, 2.867, -0.517"/>
+						<physics mass="1.000"/>
+						<scripts>
+							<script name="camera_instance">
+								<variables>
+									<variable name="FOV(Degrees)" value="10.000000"/>
+									<variable name="Width" value="1280"/>
+									<variable name="Height" value="720"/>
+									<variable name="Downscale Width" value="480"/>
+									<variable name="Near" value="0.100000"/>
+									<variable name="Far" value="1500.000000"/>
+									<variable name="DOF Focus Start" value="0.000000"/>
+									<variable name="DOF Focus" value="6.000000"/>
+									<variable name="DOF Focus End" value="15.000000"/>
+									<variable name="Background Color" value="0.243, 0.212, 0.169, 0.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="camera_icon" old_prefab_name="">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.000, 0.000, 1.000" rotation_euler="-1.571, -3.142, 3.142"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_camera"/>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+						</children>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="player_cavalry_to_cavalry" old_prefab_name="">
+						<tags>
+							<tag name="sword_cam"/>
+							<tag name="player_cavalry_to_cavalry"/>
+						</tags>
+						<transform position="4.034, 4.436, 2.294" rotation_euler="1.551, -0.256, 2.661"/>
+						<physics mass="1.000"/>
+						<scripts>
+							<script name="camera_instance">
+								<variables>
+									<variable name="FOV(Degrees)" value="11.000000"/>
+									<variable name="Width" value="1280"/>
+									<variable name="Height" value="720"/>
+									<variable name="Downscale Width" value="1280"/>
+									<variable name="Near" value="0.100000"/>
+									<variable name="Far" value="1500.000000"/>
+									<variable name="DOF Focus Start" value="0.000000"/>
+									<variable name="DOF Focus" value="6.300000"/>
+									<variable name="DOF Focus End" value="15.000000"/>
+									<variable name="Background Color" value="0.329, 0.337, 0.290, 0.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="camera_icon" old_prefab_name="">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.000, 0.000, 1.000" rotation_euler="-1.571, 0.000, 0.000"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_camera"/>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+						</children>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="opponent_cavalry_to_cavalry" old_prefab_name="">
+						<tags>
+							<tag name="sword_cam"/>
+							<tag name="opponent_cavalry_to_cavalry"/>
+						</tags>
+						<transform position="0.138, 0.248, 2.296" rotation_euler="1.544, 1.080, -1.804"/>
+						<physics mass="1.000"/>
+						<scripts>
+							<script name="camera_instance">
+								<variables>
+									<variable name="FOV(Degrees)" value="12.000000"/>
+									<variable name="Width" value="1280"/>
+									<variable name="Height" value="720"/>
+									<variable name="Downscale Width" value="1280"/>
+									<variable name="Near" value="0.100000"/>
+									<variable name="Far" value="1500.000000"/>
+									<variable name="DOF Focus Start" value="0.000000"/>
+									<variable name="DOF Focus" value="6.000000"/>
+									<variable name="DOF Focus End" value="15.000000"/>
+									<variable name="Background Color" value="0.329, 0.337, 0.290, 0.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="camera_icon" old_prefab_name="">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.000, 0.000, 1.000" rotation_euler="-1.571, 0.000, 0.000"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_camera"/>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+						</children>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+				</children>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="player_infantry_spawn" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="player_infantry_spawn"/>
+				</tags>
+				<transform position="-0.087, -0.167, 0.000" rotation_euler="0.000, 0.000, -0.636" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="CharacterSpawner">
+						<variables>
+							<variable name="Enabled" value="false"/>
+							<variable name="PoseAction" value="act_bandit_thumbnail_pose"/>
+							<variable name="LordName" value="prison_guard_battania"/>
+							<variable name="ActionSetSuffix" value="_villain"/>
+							<variable name="PoseActionForHorse" value="horse_stand_3"/>
+							<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+							<variable name="IsWeaponWielded" value="false"/>
+							<variable name="HasMount" value="false"/>
+							<variable name="WieldOffHand" value="false"/>
+							<variable name="AnimationProgress" value="1.000"/>
+							<variable name="HorseAnimationProgress" value="0.000"/>
+							<variable name="Active" value="true"/>
+						</variables>
+					</script>
+				</scripts>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="player_bodyguard_infantry_spawn_0" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="player_bodyguard_infantry_spawn"/>
+				</tags>
+				<transform position="-1.028, -2.762, -0.015" rotation_euler="0.000, 0.000, -0.170" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="CharacterSpawner">
+						<variables>
+							<variable name="Enabled" value="false"/>
+							<variable name="PoseAction" value="act_bandit_thumbnail_pose"/>
+							<variable name="LordName" value="prison_guard_battania"/>
+							<variable name="ActionSetSuffix" value="_villain"/>
+							<variable name="PoseActionForHorse" value="horse_stand_3"/>
+							<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+							<variable name="IsWeaponWielded" value="false"/>
+							<variable name="HasMount" value="false"/>
+							<variable name="WieldOffHand" value="false"/>
+							<variable name="AnimationProgress" value="1.000"/>
+							<variable name="HorseAnimationProgress" value="0.000"/>
+							<variable name="Active" value="true"/>
+						</variables>
+					</script>
+				</scripts>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="player_bodyguard_infantry_spawn_1" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="player_bodyguard_infantry_spawn"/>
+					<tag name="player_bannerbearer_infantry_spawn"/>
+				</tags>
+				<transform position="-1.637, -0.706, 0.003" rotation_euler="0.000, 0.000, -1.007" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="CharacterSpawner">
+						<variables>
+							<variable name="Enabled" value="false"/>
+							<variable name="PoseAction" value="act_bandit_thumbnail_pose"/>
+							<variable name="LordName" value="prison_guard_battania"/>
+							<variable name="ActionSetSuffix" value="_villain"/>
+							<variable name="PoseActionForHorse" value="horse_stand_3"/>
+							<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+							<variable name="IsWeaponWielded" value="false"/>
+							<variable name="HasMount" value="false"/>
+							<variable name="WieldOffHand" value="false"/>
+							<variable name="AnimationProgress" value="1.000"/>
+							<variable name="HorseAnimationProgress" value="0.000"/>
+							<variable name="Active" value="true"/>
+						</variables>
+					</script>
+				</scripts>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="player_cavalry_spawn" old_prefab_name="" visible="false">
+				<tags>
+					<tag name="troop_cavalry_sword_pose"/>
+					<tag name="player_cavalry_spawn"/>
+				</tags>
+				<transform position="-0.275, 0.024, 0.000" rotation_euler="0.000, 0.000, -0.368" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="CharacterSpawner">
+						<variables>
+							<variable name="Enabled" value="false"/>
+							<variable name="PoseAction" value="act_conversation_normal_trivial_horseback"/>
+							<variable name="LordName" value="commander_6"/>
+							<variable name="ActionSetSuffix" value="_warrior"/>
+							<variable name="PoseActionForHorse" value="act_horse_jump_start"/>
+							<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+							<variable name="IsWeaponWielded" value="false"/>
+							<variable name="HasMount" value="true"/>
+							<variable name="WieldOffHand" value="false"/>
+							<variable name="AnimationProgress" value="1.060"/>
+							<variable name="HorseAnimationProgress" value="1.000"/>
+							<variable name="Active" value="false"/>
+						</variables>
+					</script>
+				</scripts>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="player_bodyguard_cavalry_spawn_0" old_prefab_name="" visible="false">
+				<tags>
+					<tag name="player_bodyguard_cavalry_spawn"/>
+				</tags>
+				<transform position="-2.843, -0.740, -0.007" rotation_euler="0.000, 0.000, -0.553" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="CharacterSpawner">
+						<variables>
+							<variable name="Enabled" value="false"/>
+							<variable name="PoseAction" value="act_conversation_normal_trivial_horseback"/>
+							<variable name="LordName" value="commander_6"/>
+							<variable name="ActionSetSuffix" value="_warrior"/>
+							<variable name="PoseActionForHorse" value="act_horse_jump_start"/>
+							<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+							<variable name="IsWeaponWielded" value="true"/>
+							<variable name="HasMount" value="true"/>
+							<variable name="WieldOffHand" value="false"/>
+							<variable name="AnimationProgress" value="9.000"/>
+							<variable name="HorseAnimationProgress" value="1.000"/>
+							<variable name="Active" value="false"/>
+						</variables>
+					</script>
+				</scripts>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="player_bodyguard_cavalry_spawn_1" old_prefab_name="" visible="false">
+				<tags>
+					<tag name="player_bodyguard_cavalry_spawn"/>
+				</tags>
+				<transform position="-1.934, -3.445, -0.007" rotation_euler="0.000, 0.000, -0.907" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="CharacterSpawner">
+						<variables>
+							<variable name="Enabled" value="false"/>
+							<variable name="PoseAction" value="act_conversation_normal_trivial_horseback"/>
+							<variable name="LordName" value="commander_6"/>
+							<variable name="ActionSetSuffix" value="_warrior"/>
+							<variable name="PoseActionForHorse" value="act_horse_jump_start"/>
+							<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+							<variable name="IsWeaponWielded" value="true"/>
+							<variable name="HasMount" value="true"/>
+							<variable name="WieldOffHand" value="false"/>
+							<variable name="AnimationProgress" value="0.200"/>
+							<variable name="HorseAnimationProgress" value="1.000"/>
+							<variable name="Active" value="false"/>
+						</variables>
+					</script>
+				</scripts>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="opponent_infantry_spawn" old_prefab_name="">
+				<tags>
+					<tag name="opponent_infantry_spawn"/>
+				</tags>
+				<transform position="5.534, 6.488, 0.000" rotation_euler="0.000, 0.000, 2.717" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="CharacterSpawner">
+						<variables>
+							<variable name="Enabled" value="false"/>
+							<variable name="PoseAction" value="act_tableau_pose_7"/>
+							<variable name="LordName" value="commander_6"/>
+							<variable name="ActionSetSuffix" value="_facegen"/>
+							<variable name="PoseActionForHorse" value="horse_stand_3"/>
+							<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+							<variable name="IsWeaponWielded" value="false"/>
+							<variable name="HasMount" value="false"/>
+							<variable name="WieldOffHand" value="false"/>
+							<variable name="AnimationProgress" value="0.000"/>
+							<variable name="HorseAnimationProgress" value="0.000"/>
+							<variable name="Active" value="true"/>
+						</variables>
+					</script>
+				</scripts>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="opponent_bodyguard_infantry_spawn_0" old_prefab_name="">
+				<tags>
+					<tag name="opponent_bodyguard_infantry_spawn"/>
+				</tags>
+				<transform position="7.665, 10.917, 0.005" rotation_euler="0.000, 0.000, -2.257" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="CharacterSpawner">
+						<variables>
+							<variable name="Enabled" value="false"/>
+							<variable name="PoseAction" value="act_tableau_pose_7"/>
+							<variable name="LordName" value="commander_6"/>
+							<variable name="ActionSetSuffix" value="_facegen"/>
+							<variable name="PoseActionForHorse" value="horse_stand_3"/>
+							<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+							<variable name="IsWeaponWielded" value="false"/>
+							<variable name="HasMount" value="false"/>
+							<variable name="WieldOffHand" value="false"/>
+							<variable name="AnimationProgress" value="0.000"/>
+							<variable name="HorseAnimationProgress" value="0.000"/>
+							<variable name="Active" value="true"/>
+						</variables>
+					</script>
+				</scripts>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="opponent_bodyguard_infantry_spawn_1" old_prefab_name="">
+				<tags>
+					<tag name="opponent_bodyguard_infantry_spawn"/>
+					<tag name="opponent_bannerbearer_infantry_spawn"/>
+				</tags>
+				<transform position="8.961, 7.797, 0.004" rotation_euler="0.000, 0.000, 2.247" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="CharacterSpawner">
+						<variables>
+							<variable name="Enabled" value="false"/>
+							<variable name="PoseAction" value="act_tableau_pose_7"/>
+							<variable name="LordName" value="commander_6"/>
+							<variable name="ActionSetSuffix" value="_facegen"/>
+							<variable name="PoseActionForHorse" value="horse_stand_3"/>
+							<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+							<variable name="IsWeaponWielded" value="false"/>
+							<variable name="HasMount" value="false"/>
+							<variable name="WieldOffHand" value="false"/>
+							<variable name="AnimationProgress" value="0.000"/>
+							<variable name="HorseAnimationProgress" value="0.000"/>
+							<variable name="Active" value="true"/>
+						</variables>
+					</script>
+				</scripts>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="opponent_cavalry_spawn" old_prefab_name="" visible="false">
+				<tags>
+					<tag name="opponent_cavalry_spawn"/>
+				</tags>
+				<transform position="6.440, 6.560, 0.000" rotation_euler="0.000, 0.000, 1.930" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="CharacterSpawner">
+						<variables>
+							<variable name="Enabled" value="false"/>
+							<variable name="PoseAction" value="act_conversation_normal_trivial_horseback"/>
+							<variable name="LordName" value="vlandian_armored_squire"/>
+							<variable name="ActionSetSuffix" value="_warrior"/>
+							<variable name="PoseActionForHorse" value="act_horse_jump_start"/>
+							<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+							<variable name="IsWeaponWielded" value="false"/>
+							<variable name="HasMount" value="true"/>
+							<variable name="WieldOffHand" value="false"/>
+							<variable name="AnimationProgress" value="1.000"/>
+							<variable name="HorseAnimationProgress" value="1.000"/>
+							<variable name="Active" value="false"/>
+						</variables>
+					</script>
+				</scripts>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="opponent_bodyguard_cavalry_spawn_0" old_prefab_name="" visible="false">
+				<tags>
+					<tag name="opponent_bodyguard_cavalry_spawn"/>
+				</tags>
+				<transform position="6.321, 9.611, 0.004" rotation_euler="0.000, 0.000, 2.630" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="CharacterSpawner">
+						<variables>
+							<variable name="Enabled" value="false"/>
+							<variable name="PoseAction" value="act_conversation_normal_trivial_horseback"/>
+							<variable name="LordName" value="vlandian_armored_squire"/>
+							<variable name="ActionSetSuffix" value="_warrior"/>
+							<variable name="PoseActionForHorse" value="act_horse_jump_start"/>
+							<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+							<variable name="IsWeaponWielded" value="false"/>
+							<variable name="HasMount" value="true"/>
+							<variable name="WieldOffHand" value="false"/>
+							<variable name="AnimationProgress" value="1.000"/>
+							<variable name="HorseAnimationProgress" value="1.000"/>
+							<variable name="Active" value="false"/>
+						</variables>
+					</script>
+				</scripts>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="opponent_bodyguard_cavalry_spawn_1" old_prefab_name="" visible="false">
+				<tags>
+					<tag name="opponent_bodyguard_cavalry_spawn"/>
+				</tags>
+				<transform position="9.734, 8.379, 0.004" rotation_euler="0.000, 0.000, 2.659" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="CharacterSpawner">
+						<variables>
+							<variable name="Enabled" value="false"/>
+							<variable name="PoseAction" value="act_conversation_normal_trivial_horseback"/>
+							<variable name="LordName" value="vlandian_armored_squire"/>
+							<variable name="ActionSetSuffix" value="_warrior"/>
+							<variable name="PoseActionForHorse" value="act_horse_jump_start"/>
+							<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+							<variable name="IsWeaponWielded" value="false"/>
+							<variable name="HasMount" value="true"/>
+							<variable name="WieldOffHand" value="false"/>
+							<variable name="AnimationProgress" value="1.000"/>
+							<variable name="HorseAnimationProgress" value="1.000"/>
+							<variable name="Active" value="false"/>
+						</variables>
+					</script>
+				</scripts>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="sp_outside_near_town_main_gate" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="sp_outside_near_town_main_gate"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sp_maingate"/>
+		</components>
+	</game_entity>
+	<game_entity name="sp_sally_out_ambush_battle_set" old_prefab_name="">
+		<tags>
+			<tag name="sally_out_ambush_battle_set"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<children>
+			<game_entity name="sp_sally_out_ambush_player" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="sally_out_ambush_player"/>
+				</tags>
+				<transform rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_sally_out_ambush_infantry" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="sally_out_ambush_infantry"/>
+				</tags>
+				<transform position="0.000, -1.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_sally_out_ambush_archer" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="sally_out_ambush_archer"/>
+				</tags>
+				<transform position="0.000, -2.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_sally_out_ambush_cavalry" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="sally_out_ambush_cavalry"/>
+				</tags>
+				<transform position="0.000, -3.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>	
+</prefabs>
+

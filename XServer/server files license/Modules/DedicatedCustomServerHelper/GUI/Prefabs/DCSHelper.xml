@@ -1,0 +1,174 @@
+<Prefab>
+  <Constants>
+    <Constant Name="Divider.Width" BrushName="MPEscapeMenu.Divider" BrushLayer="Default" BrushValueType="Width"/>
+    <Constant Name="Divider.Height" BrushName="MPEscapeMenu.Divider" BrushLayer="Default" BrushValueType="Height"/>
+  </Constants>
+  <Window>
+    <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Sprite="BlankWhiteSquare_9" Color="#000000FF" AlphaFactor="0.9">
+      <Children>
+        <Widget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="382" Sprite="escape_menu_gradient_9" />
+        <Widget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="382" HorizontalAlignment="Right" Sprite="escape_menu_gradient_9" HorizontalFlip="true" />
+
+        <Widget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="632" HorizontalAlignment="Center" VerticalAlignment="Center" Sprite="flat_panel_9" >
+          <Children>
+
+            <Widget ClipContents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="533" MarginLeft="60" MarginRight="60" VerticalAlignment="Bottom">
+              <Children>
+                <Widget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="1377" Sprite="StdAssets\flat_panel_texture" />
+              </Children>
+            </Widget>
+
+            <ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginTop="30" VerticalAlignment="Top" StackLayout.LayoutMethod="VerticalBottomToTop" IsHidden="@IsLoading">
+              <Children>
+                <!-- Title -->
+                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="50" Brush="MPLobby.Profile.Popup.Title" Text="@PanelTitleText"/>
+                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="50" Brush="DCSHelper.MapPanel.SubText" MarginBottom="15" Text="@HostAddressText"/>
+
+                <!-- Separator -->
+                <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="20" Sprite="MPLobby\Matchmaking\information_panel_header" MarginLeft="60" MarginRight="60" MarginBottom="20"/>
+
+                <!-- Toggle Selection Button -->
+                <ButtonWidget IsDisabled="@IsDownloading" DoNotPassEventsToChildren="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" Command.Click="ToggleSelection" HorizontalAlignment="Right" MarginRight="80" UpdateChildrenStates="true">
+                  <Children>
+                    <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" Text="@ToggleSelectionButtonText" Brush="DCSHelper.MapList.ItemText" />
+                  </Children>
+                </ButtonWidget>
+
+                <!-- Map Selection -->
+                <Widget Id="InnerPanel" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="500" SuggestedHeight="550" MarginBottom="20" HorizontalAlignment="Center">
+                  <Children>
+
+                    <ScrollablePanel Id="ScrollablePanel" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" AutoHideScrollBars="true" ClipRect="ClipRect" InnerPanel="ClipRect\MapListPanel" VerticalScrollbar="..\VerticalScrollbar">
+                      <Children>
+
+                        <Widget Id="ClipRect" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" ClipContents="true">
+                          <Children>
+
+                            <ListPanel DataSource="{MapList}" Id="MapListPanel" StackLayout.LayoutMethod="VerticalBottomToTop" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center">
+                              <ItemTemplate>
+                                <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="450" SuggestedHeight="40">
+                                  <Children>
+                                    <ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent">
+                                      <Children>
+                                        <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="28" SuggestedHeight="28" VerticalAlignment="Center" Sprite="MapMenuUnread@2x" Color="#5E1107FF" IsVisible="@IsCautionSpriteVisible" MarginRight="5">
+                                          <Children>
+                                            <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" HorizontalAlignment="Center" VerticalAlignment="Center" Brush.FontSize="22" Text="@ExclamationMark" />
+                                          </Children>
+                                        </Widget>
+                                        <ButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.Click="ExecuteToggleSelection" IsSelected="@IsSelected" UpdateChildrenStates="true">
+                                          <Children>
+                                            <HintWidget DataSource="{LocalMapHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" IsEnabled="false" />
+                                            <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="StretchToParent" Text="@MapName" Brush="DCSHelper.MapList.ItemText" />
+                                            <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Text="@CurrentlyPlayingText" IsVisible="@CurrentlyPlaying" Brush="DCSHelper.MapList.CurrentlyPlayingText" />
+                                          </Children>
+                                        </ButtonWidget>
+                                      </Children>
+                                    </ListPanel>
+                                  </Children>
+                                </Widget>
+                              </ItemTemplate>
+                            </ListPanel>
+
+                          </Children>
+                        </Widget>
+
+                      </Children>
+                    </ScrollablePanel>
+
+                    <ScrollbarWidget Id="VerticalScrollbar" WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="8" HorizontalAlignment="Right" VerticalAlignment="Top" MarginTop="6" MarginBottom="5" AlignmentAxis="Vertical" Handle="VerticalScrollbarHandle" MaxValue="100" MinValue="0" >
+                      <Children>
+                        <Widget WidthSizePolicy="Fixed" HeightSizePolicy="StretchToParent" SuggestedWidth="4" HorizontalAlignment="Center" Sprite="BlankWhiteSquare_9" Color="#5a4033FF" AlphaFactor="0.2" />
+                        <ImageWidget Id="VerticalScrollbarHandle" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="10" SuggestedWidth="8" HorizontalAlignment="Center" Brush="FaceGen.Scrollbar.Handle" />
+                      </Children>
+                    </ScrollbarWidget>
+
+                  </Children>
+                </Widget>
+
+                <!-- Bottom Items -->
+                <ListPanel WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" StackLayout.LayoutMethod="VerticalBottomToTop">
+                  <Children>
+
+                    <!-- Progress Indicator -->
+                    <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="80">
+                      <Children>
+                        <ListPanel IsVisible="@ShowProgress" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" HorizontalAlignment="Left" VerticalAlignment="Top" StackLayout.LayoutMethod="VerticalBottomToTop">
+                          <Children>
+                            <RichTextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" Brush="DCSHelper.MapPanel.SubText" IsEnabled="false" Text="@ProgressCounterText" />
+
+                            <FillBarWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="321" SuggestedHeight="27" HorizontalAlignment="Center" VerticalAlignment="Center" ContainerWidget="ContainerWidget" FillWidget="FillBarParent\FillWidget"  MaxAmountAsFloat="1" InitialAmountAsFloat="@DownloadRatio">
+                              <Children>
+
+                                <Widget Id="FillBarParent" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="300" SuggestedHeight="14" HorizontalAlignment="Center" VerticalAlignment="Center" MarginLeft="13" MarginRight="14">
+                                  <Children>
+
+                                    <!--Fill-->
+                                    <Widget Id="FillWidget" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="300" SuggestedHeight="14" Sprite="options_memory_progress_bar">
+                                      <Children>
+                                        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" HorizontalAlignment="Right" Sprite="options_memory_progress_bar_glow" ColorFactor="0.8"/>
+                                      </Children>
+                                    </Widget>
+
+                                  </Children>
+                                </Widget>
+
+                                <!--Container-->
+                                <Widget Id="ContainerWidget" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Sprite="options_memory_progress_frame" />
+
+                              </Children>
+                            </FillBarWidget>
+
+                            <RichTextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" Brush="DCSHelper.MapPanel.SubText" IsEnabled="false" Text="@ProgressText" />
+                          </Children>
+                        </ListPanel>
+                      </Children>
+                    </Widget>
+
+
+                    <!-- Download -->
+                    <ButtonWidget DoNotPassEventsToChildren="true" UpdateChildrenStates="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="342" SuggestedHeight="69" MarginTop="20" HorizontalAlignment="Center" Brush="WideButton.Flat" Command.Click="ExecuteDownloadMap" IsEnabled="@ReadyToDownload">
+                      <Children>
+                        <!-- Download Text -->
+                        <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" VerticalAlignment="Center" Brush="MPLobby.PlayButton.Text" Brush.FontSize="28" Brush.TextVerticalAlignment="Center" Text="@DownloadButtonText" />
+                      </Children>
+                    </ButtonWidget>
+
+                    <!-- Close/Cancel -->
+                    <ButtonWidget DoNotPassEventsToChildren="true" UpdateChildrenStates="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="342" SuggestedHeight="69" MarginTop="5" HorizontalAlignment="Center" Brush="WideButton.Flat" Command.Click="ExecuteCloseOrCancel">
+                      <Children>
+                        <!-- Close/Cancel Text -->
+                        <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" VerticalAlignment="Center" Brush="MPLobby.PlayButton.Text" Brush.FontSize="28" Brush.TextVerticalAlignment="Center" Text="@CloseButtonText" />
+                      </Children>
+                    </ButtonWidget>
+
+                  </Children>
+                </ListPanel>
+
+              </Children>
+            </ListPanel>
+
+            <CircleLoadingAnimWidget Id="LoadingAnimation" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Center" MarginBottom="40" CircleRadius="16" NumOfCirclesInASecond="0.5" StaySeconds="-1" IsVisible="@IsLoading">
+              <Children>
+                <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="12" SuggestedHeight="12" Sprite="MapMenuUnread@2x" AlphaFactor="0.6" Color="#F2AF48FF" />
+                <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="12" SuggestedHeight="12" Sprite="MapMenuUnread@2x" AlphaFactor="0.6" />
+                <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="12" SuggestedHeight="12" Sprite="MapMenuUnread@2x" AlphaFactor="0.6" />
+                <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="12" SuggestedHeight="12" Sprite="MapMenuUnread@2x" AlphaFactor="0.6" />
+                <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="12" SuggestedHeight="12" Sprite="MapMenuUnread@2x" AlphaFactor="0.6" />
+                <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="12" SuggestedHeight="12" Sprite="MapMenuUnread@2x" AlphaFactor="0.6" />
+                <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="12" SuggestedHeight="12" Sprite="MapMenuUnread@2x" AlphaFactor="0.6" />
+              </Children>
+            </CircleLoadingAnimWidget>
+
+            <Widget ClipContents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" MarginTop="120" MarginLeft="60" MarginRight="60" VerticalAlignment="Top">
+              <Children>
+                <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Divider.Width" SuggestedHeight="!Divider.Height" HorizontalAlignment="Center" Sprite="MPTeamSelection\divider_notched" />
+              </Children>
+            </Widget>
+
+          </Children>
+        </Widget>
+
+      </Children>
+    </Widget>
+  </Window>
+</Prefab>

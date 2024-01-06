@@ -1,0 +1,1932 @@
+<?xml version="1.0"?>
+<scene name="character_menu_a" version="2">
+	<environment_properties>
+		<property name="physics_world_min" value="-3259.542, -3409.120"/>
+		<property name="physics_world_max_" value="3301.455, 3187.996"/>
+		<property name="north_angle" value="0.100"/>
+		<property name="is_indoors" value="false"/>
+		<property name="is_fixed_atmosphere" value="false"/>
+		<property name="disable_flora_billboards" value="false"/>
+		<property name="horizon_material_name" value=""/>
+		<property name="ground_color" value="0.000, 0.000, 0.000"/>
+		<atmosphere_properties>
+			<property name="atmosphere_name" value="photo_sunset_clear"/>
+			<property name="wind" value="0.300, 0.300"/>
+			<property name="scene_fog_falloff_offset" value="0.000"/>
+		</atmosphere_properties>
+		<water_properties>
+			<property name="water_level" value="-100.000"/>
+			<property name="water_material" value="water_default"/>
+			<property name="water_shallow_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_deep_color" value="0.000, 0.000, 0.000"/>
+		</water_properties>
+	</environment_properties>
+	<entities>
+		<game_entity name="menu_village_01" prefab="menu_village">
+			<transform position="39.615, 43.332, 0.000" rotation_euler="0.000, 0.000, 1.598"/>
+			<edit_mode_data locked_for_selection="true" selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flagpole_intro_01" prefab="flagpole_intro">
+			<transform position="40.236, 41.366, 0.020" rotation_euler="-0.210, 0.160, 2.363"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="animated_flag_01" old_prefab_name="">
+			<tags>
+				<tag name="banner"/>
+			</tags>
+			<transform position="39.692, 42.724, 2.491" rotation_euler="0.000, 0.000, 2.061" scale="0.910, 0.910, 0.910"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<physics mass="1.000"/>
+			<components>
+				<meta_mesh_component name="intro_flag"/>
+			</components>
+			<scripts>
+				<script name="VertexAnimator">
+					<variables>
+						<variable name="Speed" value="18.000"/>
+						<variable name="BeginKey" value="0"/>
+						<variable name="EndKey" value="255"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity name="bd_straw_a_01" prefab="bd_straw_a">
+			<transform position="27.184, 48.460, 0.071" rotation_euler="0.000, 0.000, 1.756" scale="0.656, 0.926, 0.444"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_straw_a_02" prefab="bd_straw_a">
+			<transform position="26.702, 50.034, 0.071" rotation_euler="0.000, 0.000, 0.352" scale="0.656, 0.926, 0.444"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_heap_a_01" prefab="bd_heap_a">
+			<transform position="22.863, 41.779, 0.071" rotation_euler="0.000, 0.000, 1.792"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<children>
+				<game_entity _index_="0">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="2">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="3">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="4">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="5">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="6">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="7">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="8">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="bd_heap_b_01" prefab="bd_heap_b">
+			<transform position="21.983, 46.519, 0.071" rotation_euler="0.000, 0.000, 1.677"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<children>
+				<game_entity _index_="0">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="2">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="3">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="4">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="5">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="6">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="7">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="8">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="bd_cart_heap_b_01" prefab="bd_cart_heap_b">
+			<transform position="25.450, 45.794, 0.063" rotation_euler="0.000, 0.000, 2.180"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<children>
+				<game_entity _index_="0">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="2">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="3">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="4">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="bd_cart_heap_a_01" prefab="bd_cart_heap_a">
+			<transform position="29.192, 50.854, 0.071" rotation_euler="0.000, 0.000, -2.288"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<children>
+				<game_entity _index_="0">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="2">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="3">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="bd_waterwell_a_01" prefab="bd_waterwell_a">
+			<transform position="47.285, 51.839, 0.071" rotation_euler="0.000, 0.000, -0.379"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_plough_a_01" prefab="bd_plough_a">
+			<transform position="52.121, 50.181, 0.138" rotation_euler="0.000, 0.000, 0.254"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_basket_heap_a2_01" prefab="bd_basket_heap_a2">
+			<transform position="29.532, 41.408, 0.071" rotation_euler="0.000, 0.000, -2.239"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<children>
+				<game_entity _index_="0">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="2">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="3">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="4">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="5">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="6">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_01" prefab="flora_grass_terrain_a">
+			<transform position="30.483, 36.605, 0.071" rotation_euler="0.000, 0.000, 2.518"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_02" prefab="flora_grass_terrain_a">
+			<transform position="30.597, 37.302, 0.071" rotation_euler="0.000, 0.000, 2.518"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_03" prefab="flora_grass_terrain_a">
+			<transform position="31.278, 37.048, 0.071" rotation_euler="0.000, 0.000, 1.600"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_04" prefab="flora_grass_terrain_a">
+			<transform position="30.615, 38.152, 0.071" rotation_euler="0.000, 0.000, 1.600"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_05" prefab="flora_grass_terrain_a">
+			<transform position="30.024, 39.220, 0.071" rotation_euler="0.000, 0.000, 1.600"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_06" prefab="flora_grass_terrain_a">
+			<transform position="30.645, 38.889, 0.069" rotation_euler="0.000, 0.000, 0.578" scale="0.668, 0.668, 0.668"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_07" prefab="flora_grass_terrain_a">
+			<transform position="29.968, 40.528, 0.019" rotation_euler="0.000, 0.000, 0.578"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_08" prefab="flora_grass_terrain_a">
+			<transform position="30.193, 39.839, 0.040" rotation_euler="0.000, 0.000, -0.440"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_09" prefab="flora_grass_terrain_a">
+			<transform position="34.030, 33.795, 0.071" rotation_euler="0.000, 0.000, -0.440"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_10" prefab="flora_grass_terrain_a">
+			<transform position="33.399, 33.779, 0.071" rotation_euler="0.000, 0.000, -0.473"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_11" prefab="flora_grass_terrain_a">
+			<transform position="32.734, 33.254, 0.071" rotation_euler="0.000, 0.000, -1.634"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_12" prefab="flora_grass_terrain_a">
+			<transform position="32.818, 32.072, 0.071" rotation_euler="0.000, 0.000, -1.634"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_13" prefab="flora_grass_terrain_a">
+			<transform position="34.120, 34.556, 0.071" rotation_euler="0.000, 0.000, -1.634"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_14" prefab="flora_grass_terrain_a">
+			<transform position="34.567, 36.283, 0.071" rotation_euler="0.000, 0.000, -1.634"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_15" prefab="flora_grass_terrain_a">
+			<transform position="35.248, 36.677, 0.071" rotation_euler="0.000, 0.000, -0.350" scale="0.673, 0.673, 0.673"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_16" prefab="flora_grass_terrain_a">
+			<transform position="36.053, 36.628, 0.071" rotation_euler="0.000, 0.000, 0.618" scale="0.806, 0.806, 0.806"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_17" prefab="flora_grass_terrain_a">
+			<transform position="37.519, 36.635, 0.071" rotation_euler="0.000, 0.000, 1.399" scale="0.727, 0.727, 0.727"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_18" prefab="flora_grass_terrain_a">
+			<transform position="39.137, 36.763, 0.071" rotation_euler="0.000, 0.000, 1.171" scale="0.606, 0.606, 0.606"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_19" prefab="flora_grass_terrain_a">
+			<transform position="38.575, 36.710, 0.071" rotation_euler="0.000, 0.000, 0.665"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_20" prefab="flora_grass_terrain_a">
+			<transform position="38.895, 52.876, 0.070" rotation_euler="0.000, 0.000, 0.665"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_21" prefab="flora_grass_terrain_a">
+			<transform position="38.183, 52.831, 0.071" rotation_euler="0.000, 0.000, 0.665"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_22" prefab="flora_grass_terrain_a">
+			<transform position="37.335, 52.717, 0.071" rotation_euler="0.000, 0.000, 0.665"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_23" prefab="flora_grass_terrain_a">
+			<transform position="38.508, 52.393, 0.071" rotation_euler="0.000, 0.000, 0.665"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_24" prefab="flora_grass_terrain_a">
+			<transform position="37.788, 52.236, 0.071" rotation_euler="0.000, 0.000, 0.665"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_25" prefab="flora_grass_terrain_a">
+			<transform position="36.587, 52.600, 0.071" rotation_euler="0.000, 0.000, 0.665"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_26" prefab="flora_grass_terrain_a">
+			<transform position="33.958, 51.995, 0.071" rotation_euler="0.000, 0.000, -0.253"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_27" prefab="flora_grass_terrain_a">
+			<transform position="34.371, 52.832, 0.071" rotation_euler="0.000, 0.000, -0.253" scale="0.711, 0.711, 0.711"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_28" prefab="flora_grass_terrain_a">
+			<transform position="34.948, 52.618, 0.071" rotation_euler="0.000, 0.000, -0.253"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_29" prefab="flora_grass_terrain_a">
+			<transform position="32.489, 53.840, 0.071" rotation_euler="0.000, 0.000, -1.246"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_30" prefab="flora_grass_terrain_a">
+			<transform position="33.174, 53.219, 0.071" rotation_euler="0.000, 0.000, -1.246"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_31" prefab="flora_grass_terrain_a">
+			<transform position="32.192, 53.062, 0.071" rotation_euler="0.000, 0.000, -1.246"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_32" prefab="flora_grass_terrain_a">
+			<transform position="33.864, 52.732, 0.071" rotation_euler="0.000, 0.000, -1.246"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_33" prefab="flora_grass_terrain_a">
+			<transform position="32.741, 52.475, 0.071" rotation_euler="0.000, 0.000, -1.246"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_34" prefab="flora_grass_terrain_a">
+			<transform position="31.471, 54.089, 0.071" rotation_euler="0.000, 0.000, -2.219"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_35" prefab="flora_grass_terrain_a">
+			<transform position="30.417, 54.073, 0.071" rotation_euler="0.000, 0.000, -2.219"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_36" prefab="flora_grass_terrain_a">
+			<transform position="29.383, 53.950, 0.071" rotation_euler="0.000, 0.000, -2.219"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_37" prefab="flora_grass_terrain_a">
+			<transform position="30.361, 53.106, 0.375" rotation_euler="0.000, 0.000, -2.965"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_38" prefab="flora_grass_terrain_a">
+			<transform position="31.019, 53.653, 0.071" rotation_euler="0.000, 0.000, -2.965"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_39" prefab="flora_grass_terrain_a">
+			<transform position="32.137, 54.463, 0.071" rotation_euler="0.000, 0.000, -2.965"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_40" prefab="flora_grass_terrain_a">
+			<transform position="24.808, 51.403, 0.071" rotation_euler="0.000, 0.000, -2.965"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_41" prefab="flora_grass_terrain_a">
+			<transform position="25.227, 52.352, 0.071" rotation_euler="0.000, 0.000, -2.965"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_42" prefab="flora_grass_terrain_a">
+			<transform position="26.090, 52.983, 0.071" rotation_euler="0.000, 0.000, -2.965"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_43" prefab="flora_grass_terrain_a">
+			<transform position="26.992, 53.308, 0.071" rotation_euler="0.000, 0.000, -2.965"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_44" prefab="flora_grass_terrain_a">
+			<transform position="27.892, 53.501, 0.071" rotation_euler="0.000, 0.000, -2.965"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_45" prefab="flora_grass_terrain_a">
+			<transform position="27.485, 52.927, 0.071" rotation_euler="0.000, 0.000, 2.307"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_46" prefab="flora_grass_terrain_a">
+			<transform position="26.671, 52.548, 0.071" rotation_euler="0.000, 0.000, 2.307"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_47" prefab="flora_grass_terrain_a">
+			<transform position="25.801, 51.858, 0.071" rotation_euler="0.000, 0.000, 2.307"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_48" prefab="flora_grass_terrain_a">
+			<transform position="25.389, 51.232, 0.071" rotation_euler="0.000, 0.000, 2.307"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_49" prefab="flora_grass_terrain_a">
+			<transform position="26.609, 51.810, 0.071" rotation_euler="0.000, 0.000, 1.327"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_50" prefab="flora_grass_terrain_a">
+			<transform position="28.601, 53.532, 0.071" rotation_euler="0.000, 0.000, 1.327"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_51" prefab="flora_grass_terrain_a">
+			<transform position="29.145, 34.470, 0.071" rotation_euler="0.000, 0.000, 1.327"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_52" prefab="flora_grass_terrain_a">
+			<transform position="29.836, 33.825, 0.071" rotation_euler="0.000, 0.000, 1.327"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_53" prefab="flora_grass_terrain_a">
+			<transform position="29.881, 34.279, 0.071" rotation_euler="0.000, 0.000, 0.202"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_54" prefab="flora_grass_terrain_a">
+			<transform position="31.944, 32.818, 0.071" rotation_euler="0.000, 0.000, 0.202"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_55" prefab="flora_grass_terrain_a">
+			<transform position="30.839, 33.054, 0.071" rotation_euler="0.000, 0.000, 0.202"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_56" prefab="flora_grass_terrain_a">
+			<transform position="42.242, 56.339, 0.061" rotation_euler="0.000, 0.000, 0.202" scale="0.840, 0.840, 0.840"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_57" prefab="flora_grass_terrain_a">
+			<transform position="43.231, 57.423, 0.071" rotation_euler="0.000, 0.000, 0.202" scale="0.739, 0.739, 0.739"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_58" prefab="flora_grass_terrain_a">
+			<transform position="43.226, 56.369, 0.071" rotation_euler="0.000, 0.000, -0.840" scale="0.620, 0.620, 0.620"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_59" prefab="flora_grass_terrain_a">
+			<transform position="45.612, 57.410, 0.071" rotation_euler="0.000, 0.000, -0.840"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_60" prefab="flora_grass_terrain_a">
+			<transform position="45.852, 56.328, 0.071" rotation_euler="0.000, 0.000, -0.840"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_61" prefab="flora_grass_terrain_a">
+			<transform position="44.555, 56.899, 0.071" rotation_euler="0.000, 0.000, -0.840" scale="0.754, 0.754, 0.754"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_62" prefab="flora_grass_terrain_a">
+			<transform position="45.373, 56.860, 0.071" rotation_euler="0.000, 0.000, -0.840" scale="0.682, 0.682, 0.682"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_63" prefab="flora_grass_terrain_a">
+			<transform position="47.285, 57.074, 0.071" rotation_euler="0.000, 0.000, -0.840"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_64" prefab="flora_grass_terrain_a">
+			<transform position="48.397, 56.534, 0.071" rotation_euler="0.000, 0.000, -0.840"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_65" prefab="flora_grass_terrain_a">
+			<transform position="46.980, 56.364, 0.071" rotation_euler="0.000, 0.000, -0.840"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_66" prefab="flora_grass_terrain_a">
+			<transform position="46.987, 55.618, 0.071" rotation_euler="0.000, 0.000, -0.840"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_67" prefab="flora_grass_terrain_a">
+			<transform position="45.866, 51.086, 0.071" rotation_euler="0.000, 0.000, -0.840"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_68" prefab="flora_grass_terrain_a">
+			<transform position="46.605, 50.745, 0.071" rotation_euler="0.000, 0.000, -0.840"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_69" prefab="flora_grass_terrain_a">
+			<transform position="47.183, 50.672, 0.071" rotation_euler="0.000, 0.000, -0.840"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_70" prefab="flora_grass_terrain_a">
+			<transform position="48.157, 50.884, 0.071" rotation_euler="0.000, 0.000, -0.840"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_71" prefab="flora_grass_terrain_a">
+			<transform position="42.921, 48.770, -0.030" rotation_euler="0.000, 0.000, -1.670"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_72" prefab="flora_grass_terrain_a">
+			<transform position="55.411, 46.482, 0.053" rotation_euler="0.000, 0.000, -1.670"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_73" prefab="flora_grass_terrain_a">
+			<transform position="49.214, 49.044, 0.071" rotation_euler="0.000, 0.000, -2.624"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_74" prefab="flora_grass_terrain_a">
+			<transform position="54.777, 47.803, 0.071" rotation_euler="0.000, 0.000, -1.670"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_75" prefab="flora_grass_terrain_a">
+			<transform position="52.473, 48.650, 0.071" rotation_euler="0.000, 0.000, -1.670"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_76" prefab="flora_grass_terrain_a">
+			<transform position="53.953, 48.909, 0.071" rotation_euler="0.000, 0.000, -1.670"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_77" prefab="flora_grass_terrain_a">
+			<transform position="53.682, 50.065, 0.071" rotation_euler="0.000, 0.000, -1.670"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_78" prefab="flora_grass_terrain_a">
+			<transform position="54.322, 48.404, 0.071" rotation_euler="0.000, 0.000, -1.670"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_79" prefab="flora_grass_terrain_a">
+			<transform position="53.649, 49.755, 0.071" rotation_euler="0.000, 0.000, -1.670"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_80" prefab="flora_grass_terrain_a">
+			<transform position="50.509, 55.889, 0.071" rotation_euler="0.000, 0.000, -0.362"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_81" prefab="flora_grass_terrain_a">
+			<transform position="51.139, 55.368, 0.071" rotation_euler="0.000, 0.000, -0.362"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_82" prefab="flora_grass_terrain_a">
+			<transform position="50.322, 55.133, 0.071" rotation_euler="0.000, 0.000, -1.057"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_83" prefab="flora_grass_terrain_a">
+			<transform position="52.105, 53.859, 0.071" rotation_euler="0.000, 0.000, -1.057"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_84" prefab="flora_grass_terrain_a">
+			<transform position="52.451, 53.330, 0.071" rotation_euler="0.000, 0.000, -1.057"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_85" prefab="flora_grass_terrain_a">
+			<transform position="51.762, 53.371, 0.071" rotation_euler="0.000, 0.000, -1.912"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_86" prefab="flora_grass_terrain_a">
+			<transform position="51.641, 54.282, 0.071" rotation_euler="0.000, 0.000, -1.912"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_87" prefab="flora_grass_terrain_a">
+			<transform position="53.288, 51.732, 0.071" rotation_euler="0.000, 0.000, -1.912"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_88" prefab="flora_grass_terrain_a">
+			<transform position="55.148, 42.430, -0.103" rotation_euler="0.000, 0.000, -1.912"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_89" prefab="flora_grass_terrain_a">
+			<transform position="55.084, 41.135, 0.071" rotation_euler="0.000, 0.000, -1.912"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_90" prefab="flora_grass_terrain_a">
+			<transform position="55.008, 40.186, 0.071" rotation_euler="0.000, 0.000, -1.912"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_91" prefab="flora_grass_terrain_a">
+			<transform position="54.580, 42.507, -0.089" rotation_euler="0.000, 0.000, -1.912"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_92" prefab="flora_grass_terrain_a">
+			<transform position="54.558, 40.621, 0.071" rotation_euler="0.000, 0.000, -1.912"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_93" prefab="flora_grass_terrain_a">
+			<transform position="53.394, 42.498, -0.009" rotation_euler="0.000, 0.000, -2.546" scale="0.775, 0.775, 0.775"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_94" prefab="flora_grass_terrain_a">
+			<transform position="54.421, 38.687, 0.071" rotation_euler="0.000, 0.000, -2.546"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_95" prefab="flora_grass_terrain_a">
+			<transform position="54.571, 37.249, 0.071" rotation_euler="0.000, 0.000, -2.546"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_96" prefab="flora_grass_terrain_a">
+			<transform position="53.847, 38.047, 0.071" rotation_euler="0.000, 0.000, -3.082"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_97" prefab="flora_grass_terrain_a">
+			<transform position="53.724, 38.889, 0.071" rotation_euler="0.000, 0.000, -3.082"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_98" prefab="flora_grass_terrain_a">
+			<transform position="54.518, 36.005, 0.071" rotation_euler="0.000, 0.000, -3.082"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_99" prefab="flora_grass_terrain_a">
+			<transform position="54.086, 34.879, 0.071" rotation_euler="0.000, 0.000, -3.082"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_100" prefab="flora_grass_terrain_a">
+			<transform position="54.150, 35.665, 0.071" rotation_euler="0.000, 0.000, 2.425" scale="0.784, 0.784, 0.784"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_101" prefab="flora_grass_terrain_a">
+			<transform position="53.795, 33.845, 0.071" rotation_euler="0.000, 0.000, 2.425"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_102" prefab="flora_grass_terrain_a">
+			<transform position="53.356, 34.870, 0.071" rotation_euler="0.000, 0.000, 1.524"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_103" prefab="flora_grass_terrain_a">
+			<transform position="53.157, 32.282, 0.071" rotation_euler="0.000, 0.000, 1.524"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_104" prefab="flora_grass_terrain_a">
+			<transform position="52.891, 31.834, 0.071" rotation_euler="0.000, 0.000, 1.524"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_105" prefab="flora_grass_terrain_a">
+			<transform position="52.237, 32.333, 0.071" rotation_euler="0.000, 0.000, 1.084" scale="0.823, 0.823, 0.823"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_106" prefab="flora_grass_terrain_a">
+			<transform position="53.243, 33.231, 0.071" rotation_euler="0.000, 0.000, 1.084"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_107" prefab="flora_grass_terrain_a">
+			<transform position="49.013, 34.033, 0.071" rotation_euler="0.000, 0.000, 1.084"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_108" prefab="flora_grass_terrain_a">
+			<transform position="48.343, 34.083, 0.071" rotation_euler="0.000, 0.000, 1.084"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_109" prefab="flora_grass_terrain_a">
+			<transform position="48.655, 34.542, 0.071" rotation_euler="0.000, 0.000, 1.084"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_110" prefab="flora_grass_terrain_a">
+			<transform position="49.123, 34.800, 0.071" rotation_euler="0.000, 0.000, 0.297"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_111" prefab="flora_grass_terrain_a">
+			<transform position="48.217, 39.595, 0.071" rotation_euler="0.000, 0.000, 0.297" scale="0.743, 0.743, 0.743"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_112" prefab="flora_grass_terrain_a">
+			<transform position="48.686, 38.803, 0.071" rotation_euler="0.000, 0.000, 0.297"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_113" prefab="flora_grass_terrain_a">
+			<transform position="49.008, 39.584, 0.071" rotation_euler="0.000, 0.000, 0.297"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_114" prefab="flora_grass_terrain_a">
+			<transform position="47.622, 35.290, 0.071" rotation_euler="0.000, 0.000, 0.301" scale="0.810, 0.810, 0.810"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_115" prefab="flora_grass_terrain_a">
+			<transform position="47.966, 33.938, 0.071" rotation_euler="0.000, 0.000, 0.301"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_116" prefab="flora_grass_terrain_a">
+			<transform position="27.086, 47.352, 0.071" rotation_euler="0.000, 0.000, 0.301"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_117" prefab="flora_grass_terrain_a">
+			<transform position="28.277, 42.623, 0.043" rotation_euler="0.000, 0.000, 0.301"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_118" prefab="flora_grass_terrain_a">
+			<transform position="27.808, 42.817, 0.036" rotation_euler="0.000, 0.000, 0.301"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_119" prefab="flora_grass_terrain_a">
+			<transform position="32.046, 48.069, 0.071" rotation_euler="0.000, 0.000, 0.301" scale="0.633, 0.633, 0.633"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_120" prefab="flora_grass_terrain_a">
+			<transform position="32.675, 48.612, 0.071" rotation_euler="0.000, 0.000, 0.301"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_121" prefab="flora_grass_terrain_a">
+			<transform position="33.072, 48.216, 0.071" rotation_euler="0.000, 0.000, -0.731" scale="0.757, 0.757, 0.757"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_122" prefab="flora_grass_terrain_a">
+			<transform position="33.505, 47.883, 0.071" rotation_euler="0.000, 0.000, -0.668" scale="0.760, 0.760, 0.760"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_123" prefab="flora_grass_terrain_a">
+			<transform position="33.451, 49.188, 0.071" rotation_euler="0.000, 0.000, -0.668" scale="0.793, 0.793, 0.793"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_124" prefab="flora_grass_terrain_a">
+			<transform position="38.159, 50.557, 0.071" rotation_euler="0.000, 0.000, -0.668"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_125" prefab="flora_grass_terrain_a">
+			<transform position="37.754, 50.187, 0.071" rotation_euler="0.000, 0.000, -0.668" scale="0.732, 0.732, 0.732"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_126" prefab="flora_grass_terrain_a">
+			<transform position="36.643, 50.286, 0.071" rotation_euler="0.000, 0.000, -0.668" scale="0.608, 0.608, 0.608"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_127" prefab="flora_grass_terrain_a">
+			<transform position="44.005, 51.237, 0.047" rotation_euler="0.000, 0.000, -0.668" scale="0.698, 0.698, 0.698"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_128" prefab="flora_grass_terrain_a">
+			<transform position="44.012, 51.509, 0.047" rotation_euler="0.000, 0.000, -0.124"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_b_01" prefab="flora_grass_terrain_b">
+			<transform position="54.733, 38.950, 0.068" rotation_euler="0.000, 0.000, -1.649"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_b_02" prefab="flora_grass_terrain_b">
+			<transform position="46.870, 34.202, 0.071" rotation_euler="0.000, 0.000, -1.649"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_b_03" prefab="flora_grass_terrain_b">
+			<transform position="33.056, 36.128, 0.071" rotation_euler="0.000, 0.000, -1.649"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_b_04" prefab="flora_grass_terrain_b">
+			<transform position="31.988, 39.653, 0.045" rotation_euler="0.000, 0.000, -1.649"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_b_05" prefab="flora_grass_terrain_b">
+			<transform position="31.392, 34.242, 0.071" rotation_euler="0.000, 0.000, -1.649"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_b_06" prefab="flora_grass_terrain_b">
+			<transform position="31.875, 51.384, 0.071" rotation_euler="0.000, 0.000, -1.649"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_b_07" prefab="flora_grass_terrain_b">
+			<transform position="36.681, 51.258, 0.071" rotation_euler="0.000, 0.000, -1.649"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_b_08" prefab="flora_grass_terrain_b">
+			<transform position="44.480, 55.234, 0.071" rotation_euler="0.000, 0.000, -1.649"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_b_09" prefab="flora_grass_terrain_b">
+			<transform position="47.932, 55.357, 0.071" rotation_euler="0.000, 0.000, -1.649"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_b_10" prefab="flora_grass_terrain_b">
+			<transform position="46.046, 54.204, 0.071" rotation_euler="0.000, 0.000, -2.633"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_tree_high_c_01" prefab="flora_tree_high_c">
+			<transform position="31.801, 20.370, 0.071" rotation_euler="0.000, 0.000, 2.707"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_tree_high_d_01" prefab="flora_tree_high_d">
+			<transform position="22.677, 56.283, 0.071" rotation_euler="0.000, 0.000, 2.187"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_tree_high_a_01" prefab="flora_tree_high_a">
+			<transform position="29.350, 63.281, 0.000" rotation_euler="0.000, 0.000, 0.451"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_tree_high_a_02" prefab="flora_tree_high_a">
+			<transform position="57.314, 31.277, 0.071" rotation_euler="0.000, 0.000, 1.362"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_tree_high_n_sprout_b_01" prefab="flora_tree_high_n_sprout_b">
+			<transform position="34.218, 36.346, 0.071" rotation_euler="0.000, 0.000, -0.590"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_tree_high_n_sprout_b_02" prefab="flora_tree_high_n_sprout_b">
+			<transform position="31.448, 53.575, 0.071" rotation_euler="0.000, 0.000, -1.024"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_tree_high_n_sprout_c_01" prefab="flora_tree_high_n_sprout_c">
+			<transform position="32.012, 53.967, 0.071" rotation_euler="0.000, 0.000, 0.524"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_tree_high_n_sprout_a_01" prefab="flora_tree_high_n_sprout_a">
+			<transform position="30.597, 53.549, 0.071" rotation_euler="0.000, 0.000, -2.741"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_table_d_01" prefab="bd_table_d">
+			<transform position="36.740, 36.589, 0.071" rotation_euler="0.000, 0.000, 3.140"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_01" prefab="rock_001">
+			<transform position="42.014, 42.392, -0.019" rotation_euler="0.000, 0.000, 2.239" scale="0.327, 0.327, 0.327"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_02" prefab="rock_001">
+			<transform position="39.156, 49.745, 0.056" rotation_euler="0.000, 0.000, 1.229"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_03" prefab="rock_001">
+			<transform position="33.876, 49.877, 0.071" rotation_euler="0.000, 0.000, 1.229"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_04" prefab="rock_001">
+			<transform position="35.703, 48.433, 0.071" rotation_euler="0.000, 0.000, 1.229"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_05" prefab="rock_001">
+			<transform position="35.406, 51.256, 0.071" rotation_euler="0.000, 0.000, 1.229"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_06" prefab="rock_001">
+			<transform position="46.563, 37.288, 0.118" rotation_euler="0.000, 0.000, 1.229"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_07" prefab="rock_001">
+			<transform position="48.245, 38.735, 0.071" rotation_euler="0.000, 0.000, 1.229"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_08" prefab="rock_001">
+			<transform position="53.020, 34.065, 0.071" rotation_euler="0.000, 0.000, 1.229"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_09" prefab="rock_001">
+			<transform position="52.218, 37.499, 0.071" rotation_euler="0.000, 0.000, 1.229"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_10" prefab="rock_001">
+			<transform position="51.690, 38.463, 0.071" rotation_euler="0.000, 0.000, 1.229"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_11" prefab="rock_001">
+			<transform position="50.250, 37.991, 0.071" rotation_euler="0.000, 0.000, 1.229"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_12" prefab="rock_001">
+			<transform position="48.782, 39.471, 0.071" rotation_euler="0.000, 0.000, 1.229"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_13" prefab="rock_001">
+			<transform position="47.965, 47.537, 0.071" rotation_euler="0.000, 0.000, 1.229"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_14" prefab="rock_001">
+			<transform position="50.331, 48.413, -0.019" rotation_euler="0.000, 0.000, 1.229"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_15" prefab="rock_001">
+			<transform position="44.032, 52.056, 0.047" rotation_euler="0.000, 0.000, -0.128"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_16" prefab="rock_001">
+			<transform position="44.153, 56.741, 0.071" rotation_euler="0.000, 0.000, -0.128"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_17" prefab="rock_001">
+			<transform position="45.669, 54.358, 0.071" rotation_euler="0.000, 0.000, -0.128"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_18" prefab="rock_001">
+			<transform position="43.518, 50.302, 0.030" rotation_euler="0.000, 0.000, -0.128"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_19" prefab="rock_001">
+			<transform position="43.486, 49.782, 0.000" rotation_euler="0.000, 0.000, -1.451"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_20" prefab="rock_001">
+			<transform position="46.132, 49.051, 0.065" rotation_euler="0.000, 0.000, -1.100"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_01" prefab="rock_002">
+			<transform position="45.726, 49.010, 0.071" rotation_euler="0.000, 0.000, -0.302"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_02" prefab="rock_002">
+			<transform position="43.179, 49.159, 0.018" rotation_euler="0.000, 0.000, -0.302"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_03" prefab="rock_002">
+			<transform position="43.030, 49.820, 0.012" rotation_euler="0.000, 0.000, -0.268"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_04" prefab="rock_002">
+			<transform position="38.373, 47.791, 0.071" rotation_euler="0.000, 0.000, -0.268"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_05" prefab="rock_002">
+			<transform position="40.975, 52.951, 0.018" rotation_euler="0.000, 0.000, -0.268"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_06" prefab="rock_002">
+			<transform position="34.186, 49.872, 0.071" rotation_euler="0.000, 0.000, -0.268"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_07" prefab="rock_002">
+			<transform position="35.245, 37.257, 0.071" rotation_euler="0.000, 0.000, -0.268"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_08" prefab="rock_002">
+			<transform position="33.923, 37.042, 0.071" rotation_euler="0.000, 0.000, -0.268"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_09" prefab="rock_002">
+			<transform position="34.044, 37.313, 0.071" rotation_euler="0.000, 0.000, -1.361"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_10" prefab="rock_002">
+			<transform position="31.879, 36.281, 0.071" rotation_euler="0.000, 0.000, -1.361"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_11" prefab="rock_002">
+			<transform position="30.171, 40.528, 0.019" rotation_euler="0.000, 0.000, -1.361"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_12" prefab="rock_002">
+			<transform position="30.904, 40.809, 0.010" rotation_euler="0.000, 0.000, -1.361"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_13" prefab="rock_002">
+			<transform position="37.883, 39.262, 0.060" rotation_euler="0.000, 0.000, -1.361"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_14" prefab="rock_002">
+			<transform position="33.044, 52.095, 0.071" rotation_euler="0.000, 0.000, -1.361"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_15" prefab="rock_002">
+			<transform position="34.582, 51.812, 0.071" rotation_euler="0.000, 0.000, -1.361"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_16" prefab="rock_002">
+			<transform position="42.219, 44.089, -0.007" rotation_euler="0.000, 0.000, -2.384" scale="0.416, 0.416, 0.416"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_17" prefab="rock_002">
+			<transform position="41.471, 53.154, 0.020" rotation_euler="0.000, 0.000, -1.361"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_18" prefab="rock_002">
+			<transform position="40.914, 36.624, 0.101" rotation_euler="0.000, 0.000, -1.361" scale="0.771, 0.771, 0.771"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_19" prefab="rock_002">
+			<transform position="41.209, 40.692, -0.001" rotation_euler="0.000, 0.000, -1.361"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_20" prefab="rock_002">
+			<transform position="47.207, 43.747, 0.014" rotation_euler="0.000, 0.000, -1.361"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_21" prefab="rock_002">
+			<transform position="51.802, 43.216, -0.001" rotation_euler="0.000, 0.000, -1.361"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_22" prefab="rock_002">
+			<transform position="52.728, 44.911, 0.007" rotation_euler="0.000, 0.000, -1.361"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_23" prefab="rock_002">
+			<transform position="45.317, 42.485, -0.015" rotation_euler="0.000, 0.000, -1.361"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_24" prefab="rock_002">
+			<transform position="35.977, 44.154, 0.047" rotation_euler="0.000, 0.000, -1.361"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_25" prefab="rock_002">
+			<transform position="35.409, 44.967, 0.071" rotation_euler="0.000, 0.000, -1.361"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_26" prefab="rock_002">
+			<transform position="35.535, 42.562, -0.001" rotation_euler="0.000, 0.000, -1.361"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_27" prefab="rock_002">
+			<transform position="30.999, 45.374, 0.000" rotation_euler="0.000, 0.000, -1.361"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_003_01" prefab="rock_003">
+			<transform position="33.348, 44.969, 0.013" rotation_euler="0.000, 0.000, 1.544"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_003_02" prefab="rock_003">
+			<transform position="33.845, 43.733, 0.032" rotation_euler="0.000, 0.000, 1.544"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_01" prefab="rock_004">
+			<transform position="35.613, 44.963, 0.071" rotation_euler="0.000, 0.000, 1.544"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_02" prefab="rock_004">
+			<transform position="33.623, 45.026, 0.028" rotation_euler="0.000, 0.000, 1.544"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_03" prefab="rock_004">
+			<transform position="36.172, 44.086, 0.045" rotation_euler="0.000, 0.000, 1.544"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_04" prefab="rock_004">
+			<transform position="35.758, 42.487, -0.003" rotation_euler="0.000, 0.000, 1.544"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_05" prefab="rock_004">
+			<transform position="34.032, 43.844, 0.041" rotation_euler="0.000, 0.000, 1.544"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_06" prefab="rock_004">
+			<transform position="33.745, 44.008, 0.027" rotation_euler="0.000, 0.000, 1.544"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_07" prefab="rock_004">
+			<transform position="31.250, 45.260, -0.005" rotation_euler="0.000, 0.000, 1.544"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_08" prefab="rock_004">
+			<transform position="38.418, 45.092, 0.071" rotation_euler="0.000, 0.000, 1.544"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_09" prefab="rock_004">
+			<transform position="37.592, 44.451, 0.055" rotation_euler="0.000, 0.000, 1.544"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_005_01" prefab="rock_005">
+			<transform position="42.021, 41.910, -0.068" rotation_euler="0.000, 0.000, 1.544"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_005_02" prefab="rock_005">
+			<transform position="41.486, 33.566, 0.071" rotation_euler="0.000, 0.000, 1.544"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_21" prefab="rock_001">
+			<transform position="41.349, 36.131, 0.071" rotation_euler="0.000, 0.000, -2.176" scale="1.786, 1.786, 1.786"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_22" prefab="rock_001">
+			<transform position="42.334, 35.444, 0.071" rotation_euler="0.000, 0.000, 1.857" scale="1.786, 1.786, 1.786"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_23" prefab="rock_001">
+			<transform position="40.283, 36.706, 0.071" rotation_euler="0.000, 0.000, -2.176" scale="1.786, 1.786, 1.786"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_24" prefab="rock_001">
+			<transform position="39.922, 53.440, 0.035" rotation_euler="0.000, 0.000, 0.787"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_25" prefab="rock_001">
+			<transform position="40.057, 54.336, 0.032" rotation_euler="0.000, 0.000, -0.632"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_26" prefab="rock_001">
+			<transform position="40.118, 55.159, 0.015" rotation_euler="0.000, 0.000, -0.632"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_27" prefab="rock_001">
+			<transform position="40.180, 54.750, 0.006" rotation_euler="0.000, 0.000, 1.207"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_28" prefab="rock_001">
+			<transform position="42.351, 54.542, 0.000" rotation_euler="0.000, 0.000, 1.207"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_29" prefab="rock_001">
+			<transform position="35.795, 53.109, 0.071" rotation_euler="0.000, 0.000, 1.207"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_30" prefab="rock_001">
+			<transform position="55.517, 42.256, 0.065" rotation_euler="0.000, 0.000, 0.502" scale="2.092, 2.092, 2.092"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_31" prefab="rock_001">
+			<transform position="44.151, 33.405, 0.071" rotation_euler="0.000, 0.000, -1.379" scale="1.889, 1.889, 1.889"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_table_c_01" prefab="bd_table_c">
+			<transform position="43.878, 56.874, 0.071" rotation_euler="0.000, 0.000, -0.088"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="foods_apple_a_01" prefab="foods_apple_a">
+			<transform position="37.867, 36.680, 0.869" rotation_euler="0.000, 0.000, -2.998"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="foods_apple_a_02" prefab="foods_apple_a">
+			<transform position="37.667, 36.684, 0.869" rotation_euler="0.000, 0.000, 1.987"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="foods_apple_a_03" prefab="foods_apple_a">
+			<transform position="37.788, 36.746, 0.869" rotation_euler="0.000, 1.129, 1.987"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="foods_apple_a_04" prefab="foods_apple_a">
+			<transform position="36.446, 36.790, 0.871" rotation_euler="0.000, 0.000, -3.052"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="foods_apple_a_05" prefab="foods_apple_a">
+			<transform position="36.647, 36.917, 0.872" rotation_euler="0.000, 0.000, -3.052"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="foods_basket_cabbage_01" prefab="foods_basket_cabbage">
+			<transform position="34.781, 36.957, 0.071" rotation_euler="0.000, 0.000, -3.052"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="foods_cabbage_a_01" prefab="foods_cabbage_a">
+			<transform position="37.698, 36.366, 0.867" rotation_euler="-0.422, -0.959, 3.129"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="foods_cabbage_a_02" prefab="foods_cabbage_a">
+			<transform position="37.512, 36.286, 0.867" rotation_euler="0.848, 0.139, 2.983"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="foods_cabbage_a_03" prefab="foods_cabbage_a">
+			<transform position="37.439, 36.738, 0.869" rotation_euler="0.192, 0.093, 3.070"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="foods_pumpkin_a_01" prefab="foods_pumpkin_a">
+			<transform position="35.790, 36.552, 0.871" rotation_euler="0.000, 0.000, -2.977"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="foods_pumpkin_a_02" prefab="foods_pumpkin_a">
+			<transform position="36.286, 36.494, 0.870" rotation_euler="0.000, 0.000, -2.977"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="foods_pumpkin_b_01" prefab="foods_pumpkin_b">
+			<transform position="36.066, 36.916, 0.872" rotation_euler="0.000, 0.000, 2.149"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="kitchen_bottle_c_01" prefab="kitchen_bottle_c">
+			<transform position="37.141, 36.394, 0.868" rotation_euler="0.000, 0.000, -3.063"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="kitchen_food_leek_01" prefab="kitchen_food_leek">
+			<transform position="37.226, 36.780, 0.870" rotation_euler="0.000, 0.000, 2.495"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="kitchen_food_leek_02" prefab="kitchen_food_leek">
+			<transform position="37.051, 36.819, 0.870" rotation_euler="0.000, 0.000, -0.325"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="kitchen_food_leek_03" prefab="kitchen_food_leek">
+			<transform position="38.010, 36.730, 0.869" rotation_euler="0.000, 0.000, 0.150"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="kitchen_food_leek_04" prefab="kitchen_food_leek">
+			<transform position="36.853, 36.548, 0.869" rotation_euler="0.000, 0.000, 0.150"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="kitchen_food_leek_05" prefab="kitchen_food_leek">
+			<transform position="35.608, 36.801, 0.873" rotation_euler="0.000, 0.000, -0.468"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_hay_cart_b_01" prefab="bd_hay_cart_b">
+			<transform position="51.898, 36.896, 0.019" rotation_euler="0.000, 0.000, -2.609"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_cart_wheel_a_01" prefab="bd_cart_wheel_a">
+			<transform position="38.926, 36.369, 0.071" rotation_euler="-0.152, 0.000, -3.119"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_cart_wheel_a_02" prefab="bd_cart_wheel_a">
+			<transform position="33.653, 53.182, 0.071" rotation_euler="-0.413, 0.022, -0.491"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_barrel_heap_a_01" prefab="bd_barrel_heap_a">
+			<transform position="45.613, 33.970, 0.071" rotation_euler="0.000, 0.000, 3.000"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<children>
+				<game_entity _index_="0">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="bd_barrel_heap_b_01" prefab="bd_barrel_heap_b">
+			<transform position="47.888, 34.431, 0.071" rotation_euler="0.000, 0.000, -3.097"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<children>
+				<game_entity _index_="0">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="2">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="3">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="bd_heap_e_01" prefab="bd_heap_e">
+			<transform position="29.982, 34.581, 0.071" rotation_euler="0.000, 0.000, -2.937"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<children>
+				<game_entity _index_="0">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="2">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="3">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="bd_sack_heap_a_01" prefab="bd_sack_heap_a">
+			<transform position="30.762, 39.094, 0.062" rotation_euler="0.000, 0.000, -3.049"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<children>
+				<game_entity _index_="0">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="bd_sack_heap_a_02" prefab="bd_sack_heap_a">
+			<transform position="42.731, 56.928, 0.868" rotation_euler="0.000, 0.000, 1.475"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<children>
+				<game_entity _index_="0">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="bd_wood_heap_a_01" prefab="bd_wood_heap_a">
+			<transform position="46.633, 56.979, 0.071" rotation_euler="0.000, 0.000, -0.145"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_wood_heap_a_02" prefab="bd_wood_heap_a">
+			<transform position="25.796, 52.409, 0.071" rotation_euler="0.000, 0.000, 0.740"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_wood_heap_a_03" prefab="bd_wood_heap_a">
+			<transform position="35.561, 52.620, 0.071" rotation_euler="0.000, 0.000, 0.023"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_sack_heap_b_01" prefab="bd_sack_heap_b">
+			<transform position="54.186, 33.245, 0.071" rotation_euler="0.000, 0.000, -2.081"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<children>
+				<game_entity _index_="0">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="2">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="3">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="4">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="5">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="6">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="7">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="8">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+				<game_entity _index_="9">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="bd_wall_baskets_b_01" prefab="bd_wall_baskets_b">
+			<transform position="26.691, 48.231, 3.318" rotation_euler="0.000, 0.000, 1.874"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_wall_baskets_b_02" prefab="bd_wall_baskets_b">
+			<transform position="43.322, 33.497, 2.995" rotation_euler="0.000, 0.000, 3.102"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_bucket_a_01" prefab="bd_bucket_a">
+			<transform position="43.255, 33.815, 0.071" rotation_euler="0.000, 0.000, 3.127"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_bucket_b_01" prefab="bd_bucket_b">
+			<transform position="36.882, 36.637, 0.071" rotation_euler="0.000, 0.000, 2.898"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_skull_antilope_a_01" prefab="bd_skull_antilope_a">
+			<transform position="39.038, 33.295, 3.357" rotation_euler="0.000, 0.000, -3.140"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="mountain_border_a_01" prefab="mountain_border_a">
+			<transform position="42.678, 40.389, -0.010" rotation_euler="0.000, 0.000, 0.924"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="sp_player_02" prefab="sp_player">
+			<transform position="41.468, 42.756, -0.155" rotation_euler="0.000, 0.000, -0.702"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_10" prefab="rock_004">
+			<transform position="41.203, 36.417, 0.095" rotation_euler="0.000, 0.000, 2.070" scale="0.796, 0.796, 0.796"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_11" prefab="rock_004">
+			<transform position="42.671, 35.672, 0.038" rotation_euler="0.000, 0.000, 2.309" scale="0.656, 0.656, 0.656"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_12" prefab="rock_004">
+			<transform position="37.941, 44.779, 0.064" rotation_euler="0.000, 0.000, 2.309"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_13" prefab="rock_004">
+			<transform position="40.796, 36.599, 0.046" rotation_euler="0.000, 0.000, 2.309" scale="0.816, 0.816, 0.816"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_tree_high_c_02" prefab="flora_tree_high_c">
+			<transform position="48.751, 49.764, 0.071" rotation_euler="0.000, 0.000, 1.609"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_wood_c_01" prefab="bd_wood_c">
+			<transform position="54.406, 49.247, 1.348" rotation_euler="0.129, -1.419, 0.220"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_wood_c_02" prefab="bd_wood_c">
+			<transform position="46.024, 57.940, 3.951" rotation_euler="0.000, 0.000, -0.118"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_32" prefab="rock_001">
+			<transform position="54.948, 35.759, 3.804" rotation_euler="-0.295, 1.350, 2.810" scale="2.046, 2.046, 2.046"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_33" prefab="rock_001">
+			<transform position="50.743, 56.290, 3.885" rotation_euler="0.000, 0.000, -0.485" scale="2.046, 2.046, 2.046"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_34" prefab="rock_001">
+			<transform position="48.416, 57.506, 3.885" rotation_euler="0.000, 0.000, 1.189" scale="2.046, 2.046, 2.046"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_35" prefab="rock_001">
+			<transform position="31.485, 55.303, 3.879" rotation_euler="0.000, 0.000, 1.570" scale="2.703, 2.703, 2.703"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_36" prefab="rock_001">
+			<transform position="55.364, 38.749, 3.804" rotation_euler="0.000, 0.000, 1.408" scale="2.046, 2.046, 2.046"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_37" prefab="rock_001">
+			<transform position="27.562, 54.271, 3.879" rotation_euler="0.000, 0.000, 0.133" scale="2.703, 2.703, 2.703"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_001_38" prefab="rock_001">
+			<transform position="29.418, 40.098, 1.741" rotation_euler="0.252, 0.000, 2.324" scale="1.535, 1.535, 1.535"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_wood_c_03" prefab="bd_wood_c">
+			<transform position="31.808, 36.947, 0.071" rotation_euler="0.000, 0.000, 1.816"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="_dark_ambient_light_01" old_prefab_name="">
+			<transform position="22.492, 44.390, 2.641" rotation_euler="0.000, 0.000, 1.708" scale="6.644, 4.401, 4.401"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<physics mass="1.000"/>
+			<components>
+				<meta_mesh_component name="negative_light_mesh">
+					<mesh name="negative_light_mesh" factor="1291845631" argument="0.500, 0.300, 0.300" argument2="1.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+			<scripts>
+				<script name="ScenePropNegativeLight">
+					<variables>
+						<variable name="Flatness_X" value="0.500"/>
+						<variable name="Flatness_Y" value="0.300"/>
+						<variable name="Flatness_Z" value="0.300"/>
+						<variable name="Alpha" value="0.300"/>
+						<variable name="Is_Dark_Light" value="true"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_129" prefab="flora_grass_terrain_a">
+			<transform position="54.868, 47.117, 0.071" rotation_euler="0.000, 0.000, -1.670"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_130" prefab="flora_grass_terrain_a">
+			<transform position="48.063, 49.726, 0.071" rotation_euler="0.000, 0.000, -1.670"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_131" prefab="flora_grass_terrain_a">
+			<transform position="48.194, 49.042, 0.071" rotation_euler="0.000, 0.000, -2.624"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="stand_straw_b_01" prefab="stand_straw_b">
+			<transform position="42.396, 56.375, -0.737" rotation_euler="0.000, 0.000, 0.033" scale="0.708, 0.708, 0.708"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_03_01" prefab="ivy_european_03">
+			<transform position="30.274, 35.938, 2.429" rotation_euler="0.000, 0.000, 0.935"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_03_02" prefab="ivy_european_03">
+			<transform position="30.424, 37.338, 2.425" rotation_euler="0.000, 0.000, 1.694"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_03_03" prefab="ivy_european_03">
+			<transform position="30.521, 37.347, 1.033" rotation_euler="0.000, 0.000, 1.757"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_03_04" prefab="ivy_european_03">
+			<transform position="30.274, 35.938, 1.033" rotation_euler="0.000, 0.000, 0.935"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_02_01" prefab="ivy_european_02">
+			<transform position="29.965, 39.204, 3.415" rotation_euler="0.000, -2.321, 1.823"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_02_02" prefab="ivy_european_02">
+			<transform position="30.372, 33.063, 3.092" rotation_euler="0.000, 0.348, 2.492"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_02_03" prefab="ivy_european_02">
+			<transform position="30.333, 38.334, 2.574" rotation_euler="0.000, 0.000, 1.865"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_02_04" prefab="ivy_european_02">
+			<transform position="30.294, 37.359, 3.738" rotation_euler="-0.038, -2.915, 1.762"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_02_05" prefab="ivy_european_02">
+			<transform position="30.074, 39.143, 2.574" rotation_euler="0.000, -0.889, 1.823"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_02_06" prefab="ivy_european_02">
+			<transform position="28.918, 34.448, 4.105" rotation_euler="0.079, -3.026, 0.918"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_02_07" prefab="ivy_european_02">
+			<transform position="29.073, 33.841, 3.841" rotation_euler="0.097, 1.740, 2.537"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_02_08" prefab="ivy_european_02">
+			<transform position="30.010, 33.294, 3.814" rotation_euler="0.048, 1.736, 2.627"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_02_09" prefab="ivy_european_02">
+			<transform position="30.985, 32.715, 3.799" rotation_euler="0.048, 1.736, 2.627"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_02_10" prefab="ivy_european_02">
+			<transform position="29.734, 35.654, 3.745" rotation_euler="-0.186, -3.005, 0.993"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_02_11" prefab="ivy_european_02">
+			<transform position="29.323, 34.871, 3.316" rotation_euler="0.079, 1.844, 0.918"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_04_01" prefab="ivy_european_04">
+			<transform position="29.842, 33.457, 2.624" rotation_euler="-0.061, -1.318, 2.563"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_04_02" prefab="ivy_european_04">
+			<transform position="30.101, 39.021, 2.517" rotation_euler="-0.022, 1.382, 1.796"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_03_05" prefab="ivy_european_03">
+			<transform position="49.828, 32.933, 2.417" rotation_euler="0.000, 0.000, 1.895"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_03_06" prefab="ivy_european_03">
+			<transform position="48.521, 33.742, 2.417" rotation_euler="0.000, 0.000, -3.132"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_03_07" prefab="ivy_european_03">
+			<transform position="54.913, 47.774, 1.001" rotation_euler="0.000, 0.000, -1.320"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_03_08" prefab="ivy_european_03">
+			<transform position="49.796, 32.868, 1.001" rotation_euler="0.000, 0.000, 1.895"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_02_12" prefab="ivy_european_02">
+			<transform position="49.740, 32.808, 3.735" rotation_euler="0.074, -3.055, 2.071"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_02_13" prefab="ivy_european_02">
+			<transform position="45.620, 33.684, 3.828" rotation_euler="0.000, 2.906, -3.074"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_06_01" prefab="ivy_european_06">
+			<transform position="44.655, 33.716, 2.911" rotation_euler="0.000, 0.000, -3.134"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_06_02" prefab="ivy_european_06">
+			<transform position="55.045, 47.125, 3.765" rotation_euler="-0.159, -0.968, -1.483"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_02_14" prefab="ivy_european_02">
+			<transform position="49.618, 33.694, 0.902" rotation_euler="-0.042, 3.021, 3.096"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_02_15" prefab="ivy_european_02">
+			<transform position="48.761, 33.702, 3.683" rotation_euler="0.000, -2.694, -3.074"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_03_09" prefab="ivy_european_03">
+			<transform position="48.749, 33.659, 1.001" rotation_euler="0.000, 0.000, -3.132"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_02_16" prefab="ivy_european_02">
+			<transform position="54.634, 48.827, 1.276" rotation_euler="0.106, 3.066, -1.337"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_02_17" prefab="ivy_european_02">
+			<transform position="48.761, 33.702, 3.683" rotation_euler="0.000, -2.694, -3.074"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_06_03" prefab="ivy_european_06">
+			<transform position="46.903, 33.698, 2.442" rotation_euler="0.000, 0.000, -3.134"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_06_04" prefab="ivy_european_06">
+			<transform position="55.590, 43.209, 5.290" rotation_euler="-0.015, 0.205, -1.539" scale="0.744, 0.744, 0.744"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_02_18" prefab="ivy_european_02">
+			<transform position="54.930, 47.496, 2.453" rotation_euler="0.106, 3.066, -1.337"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="ivy_european_06_05" prefab="ivy_european_06">
+			<transform position="55.511, 45.420, 4.983" rotation_euler="0.000, 0.000, -1.466" scale="0.681, 0.681, 0.681"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_14" prefab="rock_004">
+			<transform position="41.017, 44.461, -0.004" rotation_euler="0.000, 0.000, -2.449"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_15" prefab="rock_004">
+			<transform position="39.855, 45.017, 0.077" rotation_euler="0.000, 0.000, -2.449"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_16" prefab="rock_004">
+			<transform position="42.792, 44.119, -0.022" rotation_euler="0.000, 0.000, -2.068"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_17" prefab="rock_004">
+			<transform position="43.039, 42.548, -0.019" rotation_euler="0.000, 0.000, -1.496"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_18" prefab="rock_004">
+			<transform position="41.193, 42.029, -0.009" rotation_euler="0.000, 0.000, -1.927"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_005_03" prefab="rock_005">
+			<transform position="39.958, 45.012, 0.032" rotation_euler="0.000, 0.000, 2.412"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_006_01" prefab="rock_006">
+			<transform position="43.088, 43.059, -0.045" rotation_euler="0.000, 0.000, 1.962"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_006_02" prefab="rock_006">
+			<transform position="42.869, 34.880, 0.055" rotation_euler="0.000, 0.000, 1.957"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_19" prefab="rock_004">
+			<transform position="38.339, 39.092, 0.072" rotation_euler="0.000, 0.000, -0.760" scale="0.605, 0.605, 0.605"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_20" prefab="rock_004">
+			<transform position="37.965, 39.583, 0.072" rotation_euler="0.000, 0.000, -1.162" scale="0.605, 0.605, 0.605"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_21" prefab="rock_004">
+			<transform position="42.066, 36.400, 0.062" rotation_euler="0.000, 0.000, 0.368" scale="0.605, 0.605, 0.605"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_006_03" prefab="rock_006">
+			<transform position="42.503, 42.453, -0.024" rotation_euler="0.000, 0.000, 2.117" scale="0.552, 0.552, 0.552"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_006_04" prefab="rock_006">
+			<transform position="41.813, 44.187, -0.024" rotation_euler="0.000, 0.000, 2.378" scale="0.552, 0.552, 0.552"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_006_05" prefab="rock_006">
+			<transform position="39.547, 38.631, 0.061" rotation_euler="0.000, 0.000, 1.736" scale="0.552, 0.552, 0.552"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_006_06" prefab="rock_006">
+			<transform position="38.445, 39.598, 0.061" rotation_euler="0.000, 0.000, 2.378" scale="0.552, 0.552, 0.552"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_22" prefab="rock_004">
+			<transform position="42.211, 36.431, 0.062" rotation_euler="0.000, 0.000, -1.162" scale="0.605, 0.605, 0.605"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_006_07" prefab="rock_006">
+			<transform position="42.008, 43.206, -0.024" rotation_euler="0.000, 0.000, 2.378" scale="0.552, 0.552, 0.552"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_006_08" prefab="rock_006">
+			<transform position="42.113, 42.941, -0.024" rotation_euler="0.000, 0.000, 1.736" scale="0.552, 0.552, 0.552"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_23" prefab="rock_004">
+			<transform position="41.902, 42.700, -0.014" rotation_euler="0.000, 0.000, -0.760" scale="0.605, 0.605, 0.605"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_barrel_e_01" prefab="bd_barrel_e">
+			<transform position="48.477, 34.211, 0.071" rotation_euler="0.000, 0.000, 0.776"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_barrel_f_01" prefab="bd_barrel_f">
+			<transform position="49.435, 34.550, 0.071" rotation_euler="0.000, 0.000, -2.915"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_barrel_f_02" prefab="bd_barrel_f">
+			<transform position="31.008, 38.212, 0.071" rotation_euler="0.000, 0.000, 3.028"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_barrel_e_02" prefab="bd_barrel_e">
+			<transform position="31.192, 36.852, 0.071" rotation_euler="0.000, 0.000, 1.688"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_barrel_e_03" prefab="bd_barrel_e">
+			<transform position="32.957, 52.753, 0.071" rotation_euler="0.000, 0.000, 0.803"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_barrel_f_03" prefab="bd_barrel_f">
+			<transform position="33.738, 52.036, 0.071" rotation_euler="0.000, 0.000, 0.803"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_barrel_f_04" prefab="bd_barrel_f">
+			<transform position="45.369, 55.181, 0.071" rotation_euler="0.000, 0.000, 0.803"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_barrel_f_05" prefab="bd_barrel_f">
+			<transform position="54.741, 41.407, 0.377" rotation_euler="0.000, 0.000, 1.080"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_barrel_e_04" prefab="bd_barrel_e">
+			<transform position="54.871, 40.066, 0.523" rotation_euler="0.000, 0.000, -1.598"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_barrel_e_05" prefab="bd_barrel_e">
+			<transform position="47.640, 49.464, 0.071" rotation_euler="0.000, 0.000, -0.042"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_barrel_f_06" prefab="bd_barrel_f">
+			<transform position="47.922, 48.273, 0.071" rotation_euler="0.000, 0.000, -0.042"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_rope_a_01" prefab="bd_rope_a">
+			<transform position="32.816, 37.045, 0.071" rotation_euler="0.000, 0.000, 2.304"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_rope_b_01" prefab="bd_rope_b">
+			<transform position="39.487, 52.238, 0.048" rotation_euler="0.000, 0.000, 1.017"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_rope_c_01" prefab="bd_rope_c">
+			<transform position="36.403, 37.747, 0.071" rotation_euler="0.000, 0.000, -2.604"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_rope_c_02" prefab="bd_rope_c">
+			<transform position="47.917, 36.148, 0.071" rotation_euler="0.000, 0.000, 0.631"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_rope_b_02" prefab="bd_rope_b">
+			<transform position="48.212, 34.855, 0.071" rotation_euler="0.000, 0.000, -2.912"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_rope_b_03" prefab="bd_rope_b">
+			<transform position="36.243, 36.715, 0.071" rotation_euler="0.000, 0.000, -2.912"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_rope_b_04" prefab="bd_rope_b">
+			<transform position="40.953, 33.779, 0.350" rotation_euler="0.000, 0.000, 2.805"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_rope_b_05" prefab="bd_rope_b">
+			<transform position="40.197, 55.446, 3.445" rotation_euler="0.071, -0.079, 0.299"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_cart_wheel_a_03" prefab="bd_cart_wheel_a">
+			<transform position="29.494, 38.632, 5.163" rotation_euler="-0.797, 0.173, 1.928"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_basket_a_01" prefab="bd_basket_a">
+			<transform position="40.223, 56.278, 3.647" rotation_euler="0.000, 0.000, 0.477"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_basket_a_02" prefab="bd_basket_a">
+			<transform position="40.765, 55.941, 3.803" rotation_euler="1.406, -0.303, 1.176"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_ladder_a_01" prefab="bd_ladder_a">
+			<transform position="31.599, 37.021, 3.866" rotation_euler="-0.857, 0.244, 1.876"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_ladder_a_02" prefab="bd_ladder_a">
+			<transform position="54.059, 34.864, 0.071" rotation_euler="-0.206, 0.000, -1.794"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_ladder_a_03" prefab="bd_ladder_a">
+			<transform position="48.139, 56.452, 0.071" rotation_euler="-0.207, -0.024, -0.322"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_ladder_a_04" prefab="bd_ladder_a">
+			<transform position="21.881, 44.258, 0.071" rotation_euler="-0.119, 0.000, 1.774"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_ladder_a_05" prefab="bd_ladder_a">
+			<transform position="31.381, 48.763, 0.007" rotation_euler="-1.546, 1.231, 1.326"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="fence_f_01" prefab="fence_f">
+			<transform position="26.571, 53.967, 3.652" rotation_euler="0.000, 0.000, 0.292"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="fence_f_02" prefab="fence_f">
+			<transform position="24.340, 51.885, 3.652" rotation_euler="0.000, 0.000, 1.150"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="fence_f_03" prefab="fence_f">
+			<transform position="52.197, 29.472, 3.570" rotation_euler="0.000, 0.000, -2.542"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="fence_f_04" prefab="fence_f">
+			<transform position="42.182, 54.152, -0.136" rotation_euler="0.000, 0.000, -1.486"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="fence_f_05" prefab="fence_f">
+			<transform position="42.619, 50.637, -0.136" rotation_euler="0.000, 0.000, -1.419"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="fence_f_06" prefab="fence_f">
+			<transform position="53.105, 46.791, -0.065" rotation_euler="0.000, 0.000, 0.137"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="fence_f_07" prefab="fence_f">
+			<transform position="49.665, 46.168, -0.124" rotation_euler="0.000, 0.000, 0.102"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="fence_g_01" prefab="fence_g">
+			<transform position="47.345, 46.099, -0.168" rotation_euler="0.000, 0.000, -0.440"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="fence_g_02" prefab="fence_g">
+			<transform position="43.381, 48.491, -0.213" rotation_euler="0.000, 0.000, -0.468"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_floor_a_01" prefab="rock_floor_a">
+			<transform position="55.085, 40.129, 0.071" rotation_euler="0.000, 0.000, 2.952"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_floor_a_02" prefab="rock_floor_a">
+			<transform position="40.295, 55.041, 0.011" rotation_euler="0.000, 0.000, 0.372"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_28" prefab="rock_002">
+			<transform position="38.460, 45.373, 0.071" rotation_euler="0.000, 0.000, -1.361"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_29" prefab="rock_002">
+			<transform position="37.586, 44.720, 0.063" rotation_euler="0.000, 0.000, -0.268"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_floor_a_03" prefab="rock_floor_a">
+			<transform position="40.170, 34.591, -0.102" rotation_euler="0.000, 0.000, 2.741"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_24" prefab="rock_004">
+			<transform position="39.135, 42.584, 0.011" rotation_euler="0.000, 0.000, 2.309" scale="0.656, 0.656, 0.656"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_30" prefab="rock_002">
+			<transform position="38.769, 42.322, 0.004" rotation_euler="0.000, 0.000, -1.361" scale="0.771, 0.771, 0.771"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_25" prefab="rock_004">
+			<transform position="39.029, 42.146, 0.011" rotation_euler="0.000, 0.000, 2.070" scale="0.796, 0.796, 0.796"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_26" prefab="rock_004">
+			<transform position="38.622, 42.328, -0.011" rotation_euler="0.000, 0.000, 2.309" scale="0.816, 0.816, 0.816"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_132" prefab="flora_grass_terrain_a">
+			<transform position="43.348, 48.425, 0.044" rotation_euler="0.000, 0.000, -0.434"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_133" prefab="flora_grass_terrain_a">
+			<transform position="42.424, 51.207, 0.000" rotation_euler="0.000, 0.000, -0.434"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_134" prefab="flora_grass_terrain_a">
+			<transform position="42.663, 49.977, 0.029" rotation_euler="0.000, 0.000, -1.292"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_135" prefab="flora_grass_terrain_a">
+			<transform position="47.184, 45.935, 0.071" rotation_euler="0.000, 0.000, -1.292"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_136" prefab="flora_grass_terrain_a">
+			<transform position="48.027, 45.638, 0.067" rotation_euler="0.000, 0.000, -1.292"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_137" prefab="flora_grass_terrain_a">
+			<transform position="47.144, 45.222, 0.055" rotation_euler="0.000, 0.000, -1.769" scale="0.666, 0.666, 0.666"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="flora_grass_terrain_a_138" prefab="flora_grass_terrain_a">
+			<transform position="34.256, 48.254, 0.071" rotation_euler="0.000, 0.000, -0.599"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_barrel_d_01" prefab="bd_barrel_d">
+			<transform position="37.530, 52.291, 0.071" rotation_euler="0.000, 0.000, 1.382"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_006_09" prefab="rock_006">
+			<transform position="40.786, 43.632, -0.020" rotation_euler="0.000, 0.000, 1.957"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_27" prefab="rock_004">
+			<transform position="41.383, 43.160, -0.014" rotation_euler="0.000, 0.000, 0.368" scale="0.605, 0.605, 0.605"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_28" prefab="rock_004">
+			<transform position="41.528, 43.191, -0.014" rotation_euler="0.000, 0.000, -1.162" scale="0.605, 0.605, 0.605"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_006_10" prefab="rock_006">
+			<transform position="41.469, 36.872, 0.055" rotation_euler="0.000, 0.000, 1.957"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_cart_b_01" prefab="bd_cart_b">
+			<transform position="45.290, 39.318, 0.014" rotation_euler="0.000, 0.000, 2.302"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_cart_c_01" prefab="bd_cart_c">
+			<transform position="43.666, 52.615, -0.007" rotation_euler="0.000, 0.000, -2.905"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_005_04" prefab="rock_005">
+			<transform position="42.594, 43.165, -0.059" rotation_euler="0.000, 0.000, 2.412"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_004_29" prefab="rock_004">
+			<transform position="42.490, 43.170, -0.014" rotation_euler="0.000, 0.000, -2.449"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="rock_002_31" prefab="rock_002">
+			<transform position="41.553, 44.180, -0.007" rotation_euler="0.000, 0.000, -1.361" scale="0.416, 0.416, 0.416"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_straw_h_01" prefab="bd_straw_h">
+			<transform position="39.261, 43.594, 0.062" rotation_euler="0.000, 0.000, 2.233" scale="0.523, 0.523, 0.523"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_straw_h_02" prefab="bd_straw_h">
+			<transform position="41.349, 39.231, 0.064" rotation_euler="0.066, 0.000, 2.233" scale="0.523, 0.523, 0.523"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="bd_straw_h_03" prefab="bd_straw_h">
+			<transform position="41.516, 43.044, 0.011" rotation_euler="0.000, 0.000, 2.233" scale="0.523, 0.523, 0.523"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="fire_stones_battania_01" old_prefab_name="">
+			<transform position="37.731, 47.641, 0.097" rotation_euler="0.000, 0.000, 1.123"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<physics shape="bo_fire_stones_battania" override_material="stone" mass="1.000"/>
+			<components>
+				<meta_mesh_component name="fire_stones_battania"/>
+			</components>
+		</game_entity>
+		<game_entity name="kitchen_cauldron_01" prefab="kitchen_cauldron">
+			<transform position="37.847, 47.477, 0.110" rotation_euler="0.000, 0.000, 1.006"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="envmap_prop_01" prefab="envmap_prop">
+			<transform position="39.223, 41.441, 1.666" rotation_euler="0.000, 0.000, 1.971"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity prefab="__empty_object">
+			<transform position="65.393, 40.004, 5.845"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="sp_mother" prefab="sp_player">
+			<tags>
+				<tag name="sp_mother"/>
+			</tags>
+			<transform position="41.721, 42.488, -0.170" rotation_euler="0.000, 0.000, -0.715"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity name="sp_father" prefab="sp_player">
+			<tags>
+				<tag name="sp_father"/>
+			</tags>
+			<transform position="41.134, 42.998, -0.207" rotation_euler="0.000, 0.000, -0.715"/>
+			<edit_mode_data selection_group_mask="0"/>
+		</game_entity>
+		<game_entity prefab="sp_npc">
+			<tags>
+				<tag name="spawnpoint_npc"/>
+			</tags>
+			<transform position="42.969, 44.691, -0.005" rotation_euler="0.000, 0.000, 2.318"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<children>
+				<game_entity _index_="0">
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+			</children>
+		</game_entity>
+	</entities>
+	<terrain enabled="false">
+		<floras/>
+	</terrain>
+	<editor_data editor_camera_position="44.465, 45.844, 2.074" editor_camera_elevation="-0.709" editor_camera_bearing="2.791" editor_camera_forward="-0.756, -0.471, -0.455" author="" comment=""/>
+	<camera_data near_plane="0.100" far_plane="1500.000"/>
+	<Paths/>
+</scene>
+

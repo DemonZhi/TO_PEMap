@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<prefabs>
+	<game_entity name="landscape_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="landscape_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="landscape_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="landscape_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="landscape_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="landscape_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="landscape_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="landscape_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="landscape_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="landscape_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="landscape_f" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="landscape_f"/>
+		</components>
+	</game_entity>
+	<game_entity name="landscape_g" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="landscape_g"/>
+		</components>
+	</game_entity>
+	<game_entity name="conversation_scene_terrain_forest">
+		<physics shape="bo_conversation_scene_terrain_forest"/>
+		<components>
+			<meta_mesh_component name="conversation_scene_terrain_forest"/>
+		</components>
+	</game_entity>
+	<game_entity name="conversation_scene_terrain_green_valley">
+		<physics shape="bo_conversation_scene_terrain_green_valley"/>
+		<components>
+			<meta_mesh_component name="conversation_scene_terrain_green_valley"/>
+		</components>
+	</game_entity>
+	<game_entity name="cave_a">
+		<physics shape="bo_cave_a" override_material="wood"/>
+		<components>
+			<meta_mesh_component name="cave_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="menu_village">
+		<physics shape="bo_menu_village"/>
+		<components>
+			<meta_mesh_component name="menu_village"/>
+		</components>
+	</game_entity>
+	<game_entity name="mountain_border_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mountain_border_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="valley_mountain_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="valley_mountain_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="valley_mountain_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="valley_mountain_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="valley_mountain_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="valley_mountain_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="valley_mountain_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="valley_mountain_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="valley_mountain_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="valley_mountain_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="outer_mesh_a" old_prefab_name="">
+		<flags>
+			<flag name="not_affected_by_season" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="outer_mesh_a">
+				<mesh name="outer_mesh_a" material="outer_mesh_desert_a"/>
+			</meta_mesh_component>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="SummerMaterial" value=""/>
+					<variable name="FallMaterial" value=""/>
+					<variable name="WinterMaterial" value="outer_mesh_desert_a_winter"/>
+					<variable name="SpringMaterial" value=""/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+		<game_entity name="mountain_border_b">
+			<flags>
+				<flag name="not_affected_by_season" value="true"/>
+			</flags>
+			<transform rotation="0.00000, 0.00000, 0.00000, 1.00000" scale="6.538, 6.538, 6.538"/>
+			<components>
+				<meta_mesh_component name="mountain_border_b"/>
+			</components>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="FallMaterial" value=""/>
+						<variable name="WinterMaterial" value=""/>
+						<variable name="SpringMaterial" value=""/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+	<game_entity name="mountain_border_c">
+		<flags>
+			<flag name="not_affected_by_season" value="true"/>
+		</flags>
+		<transform rotation="0.00000, 0.00000, 0.00000, 1.00000" scale="6.043, 6.043, 6.043"/>
+		<components>
+			<meta_mesh_component name="mountain_border_c"/>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="FallMaterial" value=""/>
+					<variable name="WinterMaterial" value=""/>
+					<variable name="SpringMaterial" value=""/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="mountain_border_d">
+		<flags>
+			<flag name="not_affected_by_season" value="true"/>
+		</flags>
+		<transform rotation="0.00000, 0.00000, 0.95958, -0.28144" scale="17.612, 17.612, 17.612"/>
+		<components>
+			<meta_mesh_component name="mountain_border_d"/>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="FallMaterial" value=""/>
+					<variable name="WinterMaterial" value=""/>
+					<variable name="SpringMaterial" value=""/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="mountain_border_e">
+		<flags>
+			<flag name="not_affected_by_season" value="true"/>
+		</flags>
+		<transform rotation="0.00000, 0.00000, 0.00000, 1.00000" scale="43.060, 43.060, 43.060"/>
+		<components>
+			<meta_mesh_component name="mountain_border_e"/>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="FallMaterial" value=""/>
+					<variable name="WinterMaterial" value=""/>
+					<variable name="SpringMaterial" value=""/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="mountain_border_long_a">
+		<flags>
+			<flag name="not_affected_by_season" value="true"/>
+		</flags>
+		<transform rotation="0.00000, 0.00000, 0.00000, 1.00000" scale="8.967, 8.967, 8.967"/>
+		<components>
+			<meta_mesh_component name="mountain_border_long_a"/>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="FallMaterial" value=""/>
+					<variable name="WinterMaterial" value=""/>
+					<variable name="SpringMaterial" value=""/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="mountain_border_long_b">
+		<flags>
+			<flag name="not_affected_by_season" value="true"/>
+		</flags>
+		<transform rotation="0.00000, 0.00000, 0.00000, 1.00000" scale="7.875, 7.875, 7.875"/>
+		<components>
+			<meta_mesh_component name="mountain_border_long_b"/>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="FallMaterial" value=""/>
+					<variable name="WinterMaterial" value=""/>
+					<variable name="SpringMaterial" value=""/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="desert_border_a">
+			<flags>
+				<flag name="not_affected_by_season" value="true"/>
+			</flags>
+			<transform rotation="0.00000, 0.00000, 0.00000, 1.00000" scale="16.000, 16.000, 16.000"/>
+			<components>
+				<meta_mesh_component name="desert_border_a"/>
+			</components>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="FallMaterial" value=""/>
+						<variable name="WinterMaterial" value=""/>
+						<variable name="SpringMaterial" value=""/>
+					</variables>
+				</script>
+			</scripts>
+	</game_entity>
+	<game_entity name="desert_border_b">
+		<flags>
+			<flag name="not_affected_by_season" value="true"/>
+		</flags>
+		<transform rotation="0.00000, 0.00000, 0.00000, 1.00000" scale="19.000, 19.000, 19.000"/>
+		<components>
+			<meta_mesh_component name="desert_border_b"/>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="FallMaterial" value=""/>
+					<variable name="WinterMaterial" value=""/>
+					<variable name="SpringMaterial" value=""/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="desert_border_c">
+		<flags>
+			<flag name="not_affected_by_season" value="true"/>
+		</flags>
+		<transform rotation="0.00000, 0.00000, 0.00000, 1.00000" scale="24.000, 24.000, 24.000"/>
+		<components>
+			<meta_mesh_component name="desert_border_c"/>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="FallMaterial" value=""/>
+					<variable name="WinterMaterial" value=""/>
+					<variable name="SpringMaterial" value=""/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="desert_border_d" old_prefab_name="">
+		<flags>
+			<flag name="not_affected_by_season" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="45.000, 45.000, 45.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="desert_border_d"/>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="SummerMaterial" value=""/>
+					<variable name="FallMaterial" value=""/>
+					<variable name="WinterMaterial" value=""/>
+					<variable name="SpringMaterial" value=""/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="river_plane_a">
+		<components>
+			<meta_mesh_component name="river_plane_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="river_plane_b">
+		<components>
+			<meta_mesh_component name="river_plane_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="river_plane_c">
+		<components>
+			<meta_mesh_component name="river_plane_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="river_plane_d">
+		<components>
+			<meta_mesh_component name="river_plane_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="river_plane_e">
+		<components>
+			<meta_mesh_component name="river_plane_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="outer_mesh_3sided" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="outer_mesh_3sided"/>
+		</components>
+	</game_entity>
+</prefabs>
+

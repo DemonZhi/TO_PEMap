@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Español (LA)" />
+  </tags>
+  <strings>
+    <string id="3o9AO00M" text="El servidor está lleno." />
+    <string id="7G7lu7az" text="No se pueden enviar invitaciones." />
+    <string id="bjhBPJDF" text="¡La invitación falló!" />
+    <string id="BLw3AJjM" text="No hay amigos disponibles para invitar." />
+    <string id="oZ326SFY" text="No te pudiste unir a la partida." />
+    <string id="tak1GATd" text="No estás en una partida en curso." />
+    <string id="vIonllGr" text="Incompatibilidad de sala" />
+    <string id="x9YcKgLf" text="No se puede mostrar la lista de amigos." />
+    <string id="XlPML483" text="Selecciona un jugador para invitarlo" />
+    <string id="yS7PvrTD" text="Aceptar" />
+  </strings>
+</base>

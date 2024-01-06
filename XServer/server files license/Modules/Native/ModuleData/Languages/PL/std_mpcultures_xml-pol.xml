@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="0B27RrYJ" text="{.F}Batania" />
+    <string id="1sbJQR4H" text="{.MP}Grabieżca{.nnp}" />
+    <string id="3PzgpFGq" text="{.MP}Neutralny{.nnp}" />
+    <string id="aseraifaction" text="{.MI}Aseraj" />
+    <string id="empirefaction" text="{.N}Cesarstwo" />
+    <string id="FjwRsf1C" text="{.F}Wlandia" />
+    <string id="PjO7oY16" text="{.F}Sturgia" />
+    <string id="sZLd6VHi" text="{.MI}Huzaj" />
+  </strings>
+</base>

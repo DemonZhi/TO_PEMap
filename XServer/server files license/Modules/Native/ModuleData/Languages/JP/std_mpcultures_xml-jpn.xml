@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+    <string id="0B27RrYJ" text="バッタニア" />
+    <string id="1sbJQR4H" text="略奪者" />
+    <string id="3PzgpFGq" text="中立" />
+    <string id="aseraifaction" text="アセライ" />
+    <string id="empirefaction" text="帝国" />
+    <string id="FjwRsf1C" text="ヴランディア" />
+    <string id="PjO7oY16" text="スタルジア" />
+    <string id="sZLd6VHi" text="クーザイト" />
+  </strings>
+</base>

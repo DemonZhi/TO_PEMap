@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Español (LA)" />
+  </tags>
+  <strings>
+    <string id="3rcPHq9a" text="No has iniciado sesión en PlayStation™Network. Debes iniciar sesión para utilizar las funciones online." />
+    <string id="8BV4hDK6" text="Es necesario actualizar el software del sistema." />
+    <string id="8yk50Ba5" text="Se necesita PlayStation®Plus para jugar al multijugador." />
+    <string id="g56TVkLF" text="No tienes permiso para jugar al multijugador. Comprueba la configuración de las restricciones de contenido." />
+    <string id="i0QuqXWk" text="No se encuentra al usuario." />
+    <string id="kS9dxNIk" text="Falló el servicio de la plataforma." />
+    <string id="oe39dfge" text="Falló la conexión de red." />
+    <string id="PQbtrqBl" text="Es necesario actualizar el juego." />
+    <string id="rYbxXReN" text="El usuario está desconectado." />
+    <string id="Udt1Ua7r" text="No se pueden comprobar las actualizaciones del juego." />
+    <string id="UhUvwvkh" text="Estás desconectado de PlayStation™Network. Las funciones online no están disponibles." />
+  </strings>
+</base>

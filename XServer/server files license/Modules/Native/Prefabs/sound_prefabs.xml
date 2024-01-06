@@ -1,0 +1,1622 @@
+<prefabs>
+	<game_entity name="ambient_sound_emitter" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value=""/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Box"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="city_ambient_sound" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="10.000, 10.000, 10.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/area/city"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value="event:/mission/ambient/area/winter"/>
+					<variable name="Overrided Event Path (Siege)" value="event:/mission/ambient/area/plains"/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="true"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="desert_ambient_sound" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/area/desert"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value="event:/mission/ambient/area/winter_desert"/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="forest_ambient_sound" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/area/forest"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value="event:/mission/ambient/area/winter"/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="lake_ambient_sound" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/area/lake"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="market_ambient_sound" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="10.000, 10.000, 10.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/area/market"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value="event:/mission/ambient/area/plains"/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="true"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+			<script name="path_converger">
+				<variables>
+					<variable name="Path Name" value=""/>
+					<variable name="Rotate To Camera" value="false"/>
+					<variable name="Apply Scale" value="false"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="wetlands_ambient_sound" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/area/wetlands"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value="event:/mission/ambient/area/winter"/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="mediterranean_ambient_sound" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/area/mediterranean"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value="event:/mission/ambient/area/winter"/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="plains_ambient_sound" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/area/plains"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value="event:/mission/ambient/area/winter"/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="sea_ambient_sound" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/area/sea"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="taiga_forest_ambient_sound" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/area/taiga"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="village_ambient_sound" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/area/village"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value="event:/mission/ambient/area/winter"/>
+					<variable name="Overrided Event Path (Siege)" value="event:/mission/ambient/area/plains"/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="docks_ambient_sound" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/area/docks"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="int_keep_ambient_sound" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="10.000, 10.000, 10.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/area/interior/keep"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="true"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="int_dungeon_ambient_sound" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="10.000, 10.000, 10.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/area/interior/dungeon"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="true"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="int_shop_ambient_sound" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/area/interior/shop"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="int_tavern_ambient_sound" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/area/interior/tavern"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="true"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="int_cave_ambient_sound" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="10.000, 10.000, 10.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/area/interior/cave"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="true"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="int_generic_ambient_sound" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="10.000, 10.000, 10.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/area/interior/generic"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="true"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="reverb_wood_interior" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/reverb/wood_interior"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="reverb_stone_interior" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/reverb/stone_interior"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="reverb_stone_corridor" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/reverb/stone_corridor"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="reverb_gatehouse" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="10.000, 10.000, 10.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/reverb/gatehouse"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="true"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="reverb_courtyard" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="10.000, 10.000, 10.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/reverb/courtyard"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="true"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="reverb_forest" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="10.000, 10.000, 10.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/reverb/forest"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="true"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="reverb_keep" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/reverb/keep"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="reverb_caves" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="10.000, 10.000, 10.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/reverb/caves"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="true"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="reverb_dungeon" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="10.000, 10.000, 10.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/reverb/dungeon"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="true"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="reverb_alley" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="10.000, 10.000, 10.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/reverb/alley"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="true"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="reverb_valley" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="10.000, 10.000, 10.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/reverb/valley"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="true"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="arena_ambient_sound" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/arena/ambience"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="arena_path_sound" old_prefab_name="">
+		<flags>
+			<flag name="not_affected_by_season" value="true"/>
+		</flags>
+		<visibility_masks>
+			<visibility_mask name="no_shadow" value="true"/>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="icon_sound"/>
+		</components>
+		<scripts>
+			<script name="path_converger">
+				<variables>
+					<variable name="Path Name" value=""/>
+					<variable name="Rotate To Camera" value="false"/>
+				</variables>
+			</script>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/arena_cheer"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="40.000000"/>
+					<variable name="Overrided Min Distance" value="1.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value="event:/mission/ambient/detail/arena_cheer"/>
+					<variable name="Overrided Event Path (Summer)" value="event:/mission/ambient/detail/arena_cheer"/>
+					<variable name="Overrided Event Path (Fall)" value="event:/mission/ambient/detail/arena_cheer"/>
+					<variable name="Overrided Event Path (Winter)" value="event:/mission/ambient/detail/arena_cheer"/>
+					<variable name="Send Daytime Parameter" value="false"/>
+					<variable name="Send Rainfall Parameter" value="false"/>
+					<variable name="Send Snowfall Parameter" value="false"/>
+					<variable name="Send Mood Parameter" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_birds_city_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/birds_city"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="50.000000"/>
+					<variable name="Overrided Min Distance" value="1.500000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_birds_coastal_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/birds_coastal"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="50.000000"/>
+					<variable name="Overrided Min Distance" value="1.500000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_birds_forest_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/birds_forest"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="50.000000"/>
+					<variable name="Overrided Min Distance" value="1.500000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_birds_lake_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/birds_lake"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="100.000000"/>
+					<variable name="Overrided Min Distance" value="2.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_birds_taiga_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/birds_taiga"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="50.000000"/>
+					<variable name="Overrided Min Distance" value="1.500000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_crickets_warm_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/crickets_warm"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="50.000000"/>
+					<variable name="Overrided Min Distance" value="1.500000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_distant_bells_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/distant_bells"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="100.000000"/>
+					<variable name="Overrided Min Distance" value="2.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_distant_birds_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/distant_birds"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="100.000000"/>
+					<variable name="Overrided Min Distance" value="2.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_fauna_marsh_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/fauna_marsh"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="50.000000"/>
+					<variable name="Overrided Min Distance" value="1.500000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_flies_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/flies"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="15.000000"/>
+					<variable name="Overrided Min Distance" value="1.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_lake_gust_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/lake_gust"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="100.000000"/>
+					<variable name="Overrided Min Distance" value="2.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_marketplace_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/marketplace"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="50.000000"/>
+					<variable name="Overrided Min Distance" value="1.500000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_river_01_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/river_01"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="100.000000"/>
+					<variable name="Overrided Min Distance" value="2.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_river_02_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/river_02"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="100.000000"/>
+					<variable name="Overrided Min Distance" value="2.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_trees_deciduous_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/trees_deciduous"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="50.000000"/>
+					<variable name="Overrided Min Distance" value="1.500000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_vegetation_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/vegetation"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="100.000000"/>
+					<variable name="Overrided Min Distance" value="2.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_waves_big_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/waves_big"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="100.000000"/>
+					<variable name="Overrided Min Distance" value="2.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_waves_lake_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/waves_lake"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="50.000000"/>
+					<variable name="Overrided Min Distance" value="1.500000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_well_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/well"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="15.000000"/>
+					<variable name="Overrided Min Distance" value="1.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_wind_howl_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/wind_howl"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="15.000000"/>
+					<variable name="Overrided Min Distance" value="1.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_birds_arid_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/birds_arid"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="50.000000"/>
+					<variable name="Overrided Min Distance" value="1.500000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_rats_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/rats"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="50.000000"/>
+					<variable name="Overrided Min Distance" value="1.500000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_exterior_tavern_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/tavern_exterior"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="50.000000"/>
+					<variable name="Overrided Min Distance" value="1.500000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_exterior_arena_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/arena_exterior"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="50.000000"/>
+					<variable name="Overrided Min Distance" value="1.500000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_keep_fight_exterior_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/building/keep_fight"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="50.000000"/>
+					<variable name="Overrided Min Distance" value="1.500000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="detail_beehive_sound" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/beehive"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="50.000000"/>
+					<variable name="Overrided Min Distance" value="1.500000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Overrided Event Path (Siege)" value=""/>
+					<variable name="Is Master Sound" value="false"/>
+					<variable name="Is Master Supressor" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+</prefabs>

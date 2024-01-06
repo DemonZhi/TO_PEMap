@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+    <string id="3o9AO00M" text="На сервере нет мест." />
+    <string id="7G7lu7az" text="Невозможно отправить приглашения." />
+    <string id="bjhBPJDF" text="Ошибка приглашения!" />
+    <string id="BLw3AJjM" text="Нет друзей, которым можно отправить приглашения." />
+    <string id="oZ326SFY" text="Не удалось присоединиться к игре." />
+    <string id="tak1GATd" text="В данный момент вы не участвуете в игре." />
+    <string id="vIonllGr" text="Несовпадение лобби" />
+    <string id="x9YcKgLf" text="Список друзей недоступен." />
+    <string id="XlPML483" text="Выберите игрока для приглашения" />
+    <string id="yS7PvrTD" text="ОК" />
+  </strings>
+</base>

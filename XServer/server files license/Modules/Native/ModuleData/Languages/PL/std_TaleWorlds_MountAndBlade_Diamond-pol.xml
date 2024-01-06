@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="0MDEP0jy" text="Nie możesz zaprosić siebie." />
+    <string id="0XY1VKVB" text="Twoja grupa nie spełnia wymagań gier klanowych." />
+    <string id="1CO3GGEk" text="Podany identyfikator jest za krótki." />
+    <string id="2BtJYizu" text="Musisz być w grupie, by to zrobić." />
+    <string id="2KsbeJHa" text="Udało ci się zaktualizować ustawienia dotyczące symbolu." />
+    <string id="3cWg0cWt" text="Połączenie z serwerem nie powiodło się." />
+    <string id="3lNHtNWa" text="Pozbawiono gracza {ARG1} roli oficera." />
+    <string id="3NwGpJwe" text="Przyjęto zaproszenie do znajomych." />
+    <string id="3NxaSDgg" text="Nie jesteś oficerem." />
+    <string id="4HQNKMUZ" text="Nie masz wybranego przedmiotu kosmetycznego." />
+    <string id="4lNl8zS2" text="Jako dowódca grupy nie możesz proponować nowych członków." />
+    <string id="4XDu4Qcd" text="Tylko dowódca grupy może wyrzucać z niej graczy." />
+    <string id="4YuWC1Jg" text="Wybrano zablokowane tryby gry." />
+    <string id="63X8LERm" text="Serwer nie przesłał wyniku logowania." />
+    <string id="6cMSAe2Z" text="Nie udało się zgłosić gracza. Nie został znaleziony." />
+    <string id="6doiovtH" text="Ujednoznacznienie: {CHATROOMS}" />
+    <string id="6PcEQ5dq" text="Funkcja anti-cheat wyrzuciła cię z gry. Powód: {ARG1}" />
+    <string id="7cEXe02I" text="Gracz {ARG1} odrzucił zaproszenie do klanu." />
+    <string id="8UmHXSnO" text="Gracz nie ma dostępu do funkcji klanu." />
+    <string id="96e2tZea" text="Nie możesz użyć wielu przedmiotów kosmetycznych do zmiany jednego przedmiotu." />
+    <string id="9kzik0vP" text="Zaproponowano gracza {ARG1} do twojej grupy." />
+    <string id="9TxM5UQS" text="Aktualizacja widocznej odznaki była niemożliwa." />
+    <string id="a1RXhy6A" text="Twoje zaproszenie do grupy straciło ważność." />
+    <string id="AAnoAhox" text="Zmiana wybranego trybu gry była niemożliwa." />
+    <string id="aId8kA8r" text="Podany tekst przekracza limit znaków." />
+    <string id="AIgw3aFG" text="Nie można zająć miejsca w kolejce, ponieważ niektórzy gracze nie mogą brać udziału w konfiguracji meczu." />
+    <string id="Ajw0d4dW" text="Niepoprawne hasło." />
+    <string id="APQ0kNVj" text="Tag klanu jest nieprawidłowy." />
+    <string id="ASgVFGs1" text="Twoje zaproszenie do znajomych zostało odrzucone." />
+    <string id="b72mIrOl" text="Musisz należeć do grupy, aby stworzyć klan." />
+    <string id="ba4CJpja" text="Ten gracz jest już w klanie." />
+    <string id="baHOuMTb" text="Ogłoszenie zostało pomyślnie dodane." />
+    <string id="bB5p8KpK" text="Symbol klanu jest nieprawidłowy." />
+    <string id="bFSVAiel" text="Twoje ID Bannerlord zostało pomyślnie zaktualizowane." />
+    <string id="bivF3RXY" text="Nie możesz awansować siebie." />
+    <string id="bl2dNFmT" text="Nieprawidłowa odznaka." />
+    <string id="bMLqfPRv" text="Nie jesteś w klanie." />
+    <string id="BpwNljJF" text="Pole identyfikatora Bannerlord nie może zawierać przekleństw." />
+    <string id="bvWo9N6k" text="Osiągnięto limit oficerów klanu." />
+    <string id="BwBR7TJB" text="Twoja grupa została rozwiązana, ponieważ opuścili ją wszyscy gracze!" />
+    <string id="bzcI3ei2" text="Wysłano już zaproszenie do gracza {ARG1}." />
+    <string id="caMylVF7" text="Nie można dołączyć do kolejki, ponieważ nie wybrano włączonych typów gry." />
+    <string id="cwF03dOR" text="Nie możesz kupić darmowego przedmiotu kosmetycznego." />
+    <string id="CyeaniWe" text="Wysłano zaproszenie do znajomych graczowi {ARG1}." />
+    <string id="CyrOnYI2" text="Nie masz wystarczającej ilości łupów." />
+    <string id="dabogDDj" text="Jesteście już znajomymi." />
+    <string id="DcbVwkit" text="Gracz {ARG1} jest już w klanie." />
+    <string id="dHlxVbMw" text="Należysz już do klanu." />
+    <string id="DJFaYeWm" text="Musisz być w lobby, by to zrobić." />
+    <string id="DMPzhEK0" text="Rozłączono z pokoju czatu: /{ARG1}" />
+    <string id="Dmz3JLyp" text="Gracz zaproszony do klanu." />
+    <string id="dnKQbXIZ" text="Nie można zgłosić gracza: gra nie istnieje." />
+    <string id="DOkblbrz" text="Zaproponowano gracza do twojej grupy." />
+    <string id="Ds01FoSn" text="Gracz {ARG1} odrzucił twoje zaproszenie do znajomych." />
+    <string id="E2ILp86t" text="Nie można dołączyć do kolejki, ponieważ region nie jest dostępny." />
+    <string id="e9LrrgAH" text="Ogłoszenie nie istnieje." />
+    <string id="Ebp5T7vh" text="Nie możesz dołączyć do gry po jej opuszczeniu." />
+    <string id="emx7txM9" text="Członka grupy może awansować tylko dowódca grupy." />
+    <string id="eozBcVaB" text="Nie możesz awansować siebie na stanowisko oficera klanu." />
+    <string id="fD2SyeA7" text="Nie możesz zaprosić do grupy siebie." />
+    <string id="FEeVGSO6" text="Przywódca klanu nie może go opuścić." />
+    <string id="FFPyGnZg" text="Awans gracza {ARG1} na oficera klanu zakończony powodzeniem." />
+    <string id="fQCaY3da" text="Podany identyfikator zawiera nieprawidłowe znaki." />
+    <string id="fZC7pBba" text="Możesz proponować tylko graczy z uruchomioną funkcją anti-cheat." />
+    <string id="gAeQdLU5" text="Pozyskanie danych z platformy nie powiodło się." />
+    <string id="GIiGZOxP" text="Nie można dodać znajomego. Błąd ustawień prywatności." />
+    <string id="gQ8deZ17" text="Gracz {ARG1} nie jest online." />
+    <string id="h84jSMrT" text="Twoje wypowiedzi są wyciszone do {ARG1}. Powód: {ARG2}" />
+    <string id="hav7yZyB" text="Nie wprowadzono tekstu." />
+    <string id="hcJumPEg" text="Gracz {ARG1} jest już w grupie." />
+    <string id="hhUKkNR6" text="Masz już wybrany przedmiot kosmetyczny." />
+    <string id="hqK9565f" text="Nieprawidłowy typ gry." />
+    <string id="HTFNfODt" text="Nie możesz wybrać niezdobytej jeszcze odznaki." />
+    <string id="i4MNr0bo" text="Rozłączono z lobby." />
+    <string id="iG72AMy8" text="Zmiana treści informacji powiodła się." />
+    <string id="InUAmnX4" text="Wyrzucono cię ze względu na obrażenia zadawane sojusznikom." />
+    <string id="IRWReNWu" text="Musisz być przywódcą grupy, by to zrobić." />
+    <string id="ivKntfNA" text="Prośba o dołączenie już wysłana, trwa oczekiwanie na odpowiedź serwera." />
+    <string id="IWr2ZmWX" text="Gracz {ARG1} awansuje na dowódcę grupy." />
+    <string id="J3dazru7" text="Zaproszono do gry gracza {ARG1}." />
+    <string id="jbaOH6qf" text="Awans gracza {ARG1} na przywódcę klanu zakończony powodzeniem." />
+    <string id="JO37PkfW" text="Twoja usługa platformy nie jest uruchomiona." />
+    <string id="K0mSh8Hw" text="Twoja grupa ma za mało graczy, aby stworzyć klan." />
+    <string id="KPMxDIgb" text="Zmiana kultury klanu powiodła się." />
+    <string id="kuM16dg2" text="Gracz {ARG1} został zgłoszony." />
+    <string id="kVcDXjUx" text="Nieprawidłowa jednostka." />
+    <string id="l1YfVXF3" text="Nie możesz zaprosić gracza, który korzysta z modów!" />
+    <string id="l6a9vI9z" text="Tylko dowódca grupy może zapraszać innych graczy." />
+    <string id="lcq2bKRk" text="Trwa powrót do bitwy." />
+    <string id="M0Cgjgb0" text="Gracz {ARG1} został usunięty ze znajomych." />
+    <string id="M8x38ZZZ" text="Gracz nie jest w twoim klanie." />
+    <string id="mdH4S8Kx" text="Musisz być w grupie, aby zaproponować zaproszenie kogoś do niej." />
+    <string id="MgGvnobq" text="Wybrana mapa nie jest dostępna." />
+    <string id="MowSn4ch" text="Nie odnaleziono gry." />
+    <string id="mvQKpHXH" text="Twoja grupa jest pełna." />
+    <string id="NaTaGiB1" text="Sukces." />
+    <string id="ND2abg9k" text="Nie możesz brać udziału w konfiguracji meczu przez {ARG1} sek." />
+    <string id="nlYK3i5a" text="Nazwa klanu jest nieprawidłowa." />
+    <string id="Np8V0jcX" text="Gracz został już zaproszony do innego klanu." />
+    <string id="nZlu3Moe" text="Opuszczono klan." />
+    <string id="o76rZw0U" text="Usługa nie jest obecnie dostępna." />
+    <string id="OByu0fjQ" text="Nie można zająć miejsca w kolejce, ponieważ nie wszyscy gracze w twojej grupie są gotowi." />
+    <string id="OfCk5NMA" text="Frakcja klanu jest nieprawidłowa." />
+    <string id="oFfMEy1S" text="Nie można odnaleźć zaproszenia do znajomych." />
+    <string id="olLwOWf8" text="Nie można zająć miejsca w kolejce, ponieważ nie wszyscy gracze używają funkcji anti-cheat." />
+    <string id="P0aRStg4" text="Nie można zająć miejsca w kolejce, ponieważ nie możesz brać udziału w konfiguracji meczu." />
+    <string id="P3JTNI9P" text="Nie możesz awansować siebie na stanowisko przywódcy klanu." />
+    <string id="Pn13ZKwI" text="Twoja grupa została rozwiązana!" />
+    <string id="PzUrwWnO" text="Nie jesteś przywódcą klanu." />
+    <string id="qHGkxNWJ" text="Nieprawidłowy symbol klanu" />
+    <string id="R7z6X8bT" text="Aktualizacja ID Bannerlord była niemożliwa." />
+    <string id="rfaIXasP" text="Zmiana symbolu klanu powiodła się." />
+    <string id="rI8gE2Qh" text="Ogłoszenie zostało pomyślnie usunięte." />
+    <string id="RKioOKi4" text="Pole identyfikatora Bannerlord nie może pozostać puste." />
+    <string id="rkxTEFGp" text="Gracz nie jest online." />
+    <string id="ruC5qF1H" text="Odrzucono zaproszenie do znajomych." />
+    <string id="RuKlb0Li" text="Podany identyfikator jest za długi." />
+    <string id="rwcA5RMK" text="Wysłano już zaproszenie do tego gracza." />
+    <string id="S7Y5Suho" text="Nie możesz zaproponować do grupy siebie." />
+    <string id="sa138Btz" text="Musisz tworzyć rozgrywkę klanową, aby ją anulować." />
+    <string id="shIV99LZ" text="Otrzymano zaproszenie do znajomych od gracza {ARG1}." />
+    <string id="SIT1tREw" text="Nie możesz dodać siebie do znajomych." />
+    <string id="SsCPw38T" text="Wybrany przedmiot kosmetyczny nie istnieje." />
+    <string id="SvHP9TXr" text="Nie wszyscy gracze są gotowi." />
+    <string id="SWZaqPx4" text="Gracz {ARG1} nie jest w lobby." />
+    <string id="T2Q35w3d" text="Gracz {ARG1} zaakceptował zaproszenie do klanu." />
+    <string id="T5gR6XCJ" text="Gotowa gra już nie istnieje." />
+    <string id="t8K21Vmc" text="Nie można zgłosić gracza. Serwer nie jest oficjalny." />
+    <string id="TaLNjfao" text="Ty i {ARG1} jesteście teraz znajomymi." />
+    <string id="tam7tCdb" text="Gracz {ARG1} nie jest w twoim klanie." />
+    <string id="taPBAd4c" text="Podana komenda nie rozpoczyna się od „/”" />
+    <string id="tKlQbZaJ" text="Gracz {ARG1} został usunięty z klanu." />
+    <string id="TuORvMMq" text="Porzucono rolę oficera." />
+    <string id="UcUqJcr9" text="Nie możesz zaprosić do gry gracza, który jest online." />
+    <string id="uDbGN6fp" text="Gracz nie jest w lobby." />
+    <string id="uJ7527FB" text="Gracz {ARG1} został już zaproszony do innego klanu." />
+    <string id="uqqqWl6f" text="Grupa nie spełnia wymagań gry klanowej." />
+    <string id="vd8dEfvZ" text="Nie możesz stworzyć grupy, jeśli korzystasz z modów!" />
+    <string id="VDDm5bqb" text="Możesz zapraszać tylko graczy z uruchomioną funkcją anti-cheat." />
+    <string id="VdyJtjSG" text="Gracz {ARG1} nie jest w twojej grupie!" />
+    <string id="vfsaTZKg" text="Gracz {ARG1} otrzymał zaproszenie do twojej grupy." />
+    <string id="vi3lFSBW" text="Grupy gracza {ARG1} nie mogą dołączać do kolejki." />
+    <string id="w0FSTU2h" text="Nie możesz wybrać odznaki niższej rangi." />
+    <string id="w8WiqZT3" text="Musisz uruchomić grę z funkcją anti-cheat, by stworzyć grupę lub do niej dołączyć!" />
+    <string id="wJsR1aGI" text="Gracz {ARG1} nie należy do grupy." />
+    <string id="wNubP2BF" text="Tylko dowódca grupy może zająć miejsce w kolejce." />
+    <string id="x5vn4FPi" text="Gracz otrzymał zaproszenie do twojej grupy." />
+    <string id="XgQQPZsn" text="Nie możesz zaprosić siebie." />
+    <string id="xHqjCamt" text="Nie udało się zgłosić gracza. Gra nie została znaleziona." />
+    <string id="y0dKQ8pL" text="Ogłoszenie zostało pomyślnie zmienione." />
+    <string id="Y7wWhSsO" text="Nie jesteś wśród uprzywilejowanych członków klanu." />
+    <string id="YGfHWmNS" text="Zmiana wybranego regionu była niemożliwa." />
+    <string id="YOYvBVu1" text="Nie znaleziono pokoju czatu pasującego do polecenia {COMMAND}" />
+    <string id="yQyozBBX" text="Twoja grupa nie spełnia wymagań tworzenia gier klanowych." />
+    <string id="yR7avbUg" text="Gracz {ARG1} nie jest oficerem." />
+    <string id="yrCBeRMf" text="Nie możesz zmienić przywódcy grupy w trakcie tworzenia klanu." />
+    <string id="ysfEQO6c" text="Nie odnaleziono gracza." />
+    <string id="yvT1gK1g" text="Wysłano zaproszenie do znajomych." />
+    <string id="ZB6cxznt" text="Gracz {ARG1} otrzymał zaproszenie do klanu." />
+    <string id="zKK3LDbF" text="Tworzenie gotowej gry anulowane." />
+    <string id="zPvuvrBe" text="{ARG1} zostaje przywódcą grupy." />
+  </strings>
+</base>

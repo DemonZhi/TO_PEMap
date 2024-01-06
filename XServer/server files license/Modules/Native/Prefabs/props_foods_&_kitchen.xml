@@ -1,0 +1,2400 @@
+<?xml version="1.0"?>
+<prefabs>
+	<game_entity name="foods_chicken_roast" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="chicken_roast"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_spoon" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_spoon"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_chicken_raw" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="chicken_raw"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_orange" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_orange_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_orange_slice" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_orange_slice_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_crab_green" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="crab_green"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_cured_ham_leg" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cured_ham_leg"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_bread" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="bread"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_bread_piece" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="bread_piece"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_flour_pile" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flour_pile"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_flour_sack" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flour_sack"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_dough" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="dough"/>
+		</components>
+	</game_entity>
+	<game_entity name="cauldron" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cauldron"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_cauldron_stew" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cauldron_stew"/>
+		</components>
+	</game_entity>
+	<game_entity name="clay_pot" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="clay_pot"/>
+		</components>
+	</game_entity>
+	<game_entity name="clay_pot_lid" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="clay_pot_lid"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_clay_pot_stew" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="clay_pot_stew"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Hare_leg" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="hare_leg"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Mutton" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mutton"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Ribs" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="ribs"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Sheep head" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sheep_head"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Pig head" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="pig_head"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Lobster" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="lobster"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Cooked mutton rotten" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cooked_mutton_rotten"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Cooked mutton" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cooked_mutton"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Cooked ribs" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cooked_ribs"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Cooked sheep head" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cooked_sheep_head"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Cooked pig head" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cooked_pig_head"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Cooked lobster" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cooked_lobster"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Moss a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="food_moss_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Moss b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="food_moss_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Moss c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="food_moss_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Moss d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="food_moss_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Moss e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="food_moss_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Moss f" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="food_moss_f"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Moss g" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="food_moss_g"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_Maggots" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="maggot"/>
+		</components>
+	</game_entity>
+	<game_entity name="boar head" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="boar_head"/>
+		</components>
+	</game_entity>
+	<game_entity name="urn bronze" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="urn_bronze"/>
+		</components>
+	</game_entity>
+	<game_entity name="vase" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vase"/>
+		</components>
+	</game_entity>
+	<game_entity name="drinking horn" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="drinking_horn"/>
+		</components>
+	</game_entity>
+	<game_entity name="mead_tub" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_mead_tub_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mead_tub_a"/>
+		</components>
+		<children>
+			<game_entity name="mead_tub_a_foam" old_prefab_name="">
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="mead_tub_a_foam"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="mead_cup_wooden_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mead_cup_wooden_a"/>
+		</components>
+		<children>
+			<game_entity name="mead_cup_wooden_a_foam" old_prefab_name="">
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="mead_cup_wooden_a_foam"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="mead_cup_wooden_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mead_cup_wooden_b"/>
+		</components>
+		<children>
+			<game_entity name="mead_cup_wooden_b_foam" old_prefab_name="">
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="mead_cup_wooden_b_foam"/>
+				</components>
+			</game_entity>
+			<game_entity name="mead_cup_wooden_b_lid" old_prefab_name="">
+				<transform position="0.000, -0.062, 0.191" rotation_euler="-0.436, 0.000, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="mead_cup_wooden_b_lid"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="mead_cup_wooden_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mead_cup_wooden_c"/>
+		</components>
+		<children>
+			<game_entity name="mead_cup_wooden_c_foam" old_prefab_name="">
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="mead_cup_wooden_c_foam"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="mead_cup_metal_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mead_cup_metal_a"/>
+		</components>
+		<children>
+			<game_entity name="mead_cup_metal_a_foam" old_prefab_name="">
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="mead_cup_metal_a_foam"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="mead_cup_metal_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mead_cup_metal_b"/>
+		</components>
+		<children>
+			<game_entity name="mead_cup_metal_b_foam" old_prefab_name="">
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="mead_cup_metal_b_foam"/>
+				</components>
+			</game_entity>
+			<game_entity name="mead_cup_metal_b_lid" old_prefab_name="">
+				<transform position="0.000, -0.060, 0.168" rotation_euler="-0.436, 0.000, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="mead_cup_metal_b_lid"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="mead_cup_metal_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mead_cup_metal_c"/>
+		</components>
+		<children>
+			<game_entity name="mead_cup_metal_c_foam" old_prefab_name="">
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="mead_cup_metal_c_foam"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="mead_cup_wooden_a_foam" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mead_cup_wooden_a_foam"/>
+		</components>
+	</game_entity>
+	<game_entity name="mead_cup" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -2.375"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mead_cup_wooden_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="mead_cup_foam" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mead_cup_foam"/>
+		</components>
+	</game_entity>
+	<game_entity name="cooking_pot" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_cooking_pot_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cooking_pot_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_watermelon_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_foods_watermelon_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_watermelon_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_watermelon_a_to_carry" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579" scale="0.900, 0.900, 0.900"/>
+		<physics shape="bo_foods_watermelon_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_watermelon_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_watermelon_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_foods_watermelon_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_watermelon_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_watermelon_b_piece" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_watermelon_b_piece"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_melon_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_foods_melon_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_melon_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_melon_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_foods_melon_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_melon_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_melon_b_piece" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_melon_b_piece"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_basket_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_foods_basket_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_basket_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_basket_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_foods_basket_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_basket_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_basket_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_foods_basket_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_basket_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_basket_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_foods_basket_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_basket_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_basket_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_foods_basket_e" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_basket_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_pitcher_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_kitchen_pitcher_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_pitcher_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_pitcher_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_pitcher_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_pitcher_b_tavern" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_kitchen_pitcher_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_pitcher_b_tavern"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_mug_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_mug_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_mug_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_mug_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_bottle_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_kitchen_bottle_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_bottle_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_bottle_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_kitchen_bottle_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_bottle_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_bottle_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_kitchen_bottle_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_bottle_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_plate_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_plate_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_plate_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_plate_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_bowl_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_bowl_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_bowl_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_bowl_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_bowl_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_bowl_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_bowl_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_bowl_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_horn" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_horn"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_hanger_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_hanger_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_pitcher_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_kitchen_pitcher_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_pitcher_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_pitcher_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_pitcher_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_pitcher_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_pitcher_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_mug_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_mug_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_garlic_bundle" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_garlic_bundle"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_garlic_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_garlic_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_garlic_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_garlic_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_garlic_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_garlic_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_basket_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_basket_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_pan_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_pan_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_trivet" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_trivet"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_sausage_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_sausage_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_sausage_b" old_prefab_name="">
+		<transform position="1.103, 2.351, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_sausage_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_sausage_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_sausage_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_plate_sauce" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_plate_sauce"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_plate_grape" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_plate_grape"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_hanger_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_hanger_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_bowl_fish" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_bowl_fish"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_pie" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_pie"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_plate_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_plate_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_bowl_stew_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_bowl_stew_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_bowl_stew_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_bowl_stew_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_plate_steak" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_plate_steak"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_food_fish" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_food_fish"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_food_breadsauce" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_food_breadsauce"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_basket_grape" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_kitchen_basket_grape" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_basket_grape"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_basket_grape_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_kitchen_basket_grape_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_basket_grape_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_food_leek" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_food_leek"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_cauldron" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_kitchen_cauldron" mass="1.000"/>		
+		<components>
+			<meta_mesh_component name="kitchen_cauldron"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_food_bread_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_food_bread_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_basket_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_basket_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_food_egg" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_food_egg"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_food_bread_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_food_bread_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_food_bread_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_food_bread_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_food_bread_c_slice" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_food_bread_c_slice"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_knife" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_knife"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_food_flora" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_food_flora"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_hook" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_hook"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_mug_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.157, -0.227, 3.142"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mead_cup_wooden_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_pot_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_kitchen_pot_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_pot_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_pot_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_kitchen_pot_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_pot_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_pot_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_kitchen_pot_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_pot_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_pot_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_kitchen_pot_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_pot_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_pot_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_kitchen_pot_e" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_pot_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_pot_f" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_kitchen_pot_f" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_pot_f"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_pot_g" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_kitchen_pot_g" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_pot_g"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_pot_h" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_kitchen_pot_h" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_pot_h"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_potcover_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_kitchen_potcover_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_cover_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="pumpkin_leaves_a">
+		<components>
+			<meta_mesh_component name="pumpkin_leaves_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="pumpkin_leaves_b">
+		<components>
+			<meta_mesh_component name="pumpkin_leaves_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_pumpkin_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_foods_pumpkin_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_pumpkin_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_pumpkin_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_foods_pumpkin_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_pumpkin_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_cabbage_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_foods_cabbage_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_cabbage_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_apple_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_apple_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_basket_apple" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_foods_basket_apple" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_basket_apple"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_basket_olive_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_foods_basket_olive_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_basket_olive_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="foods_basket_cabbage" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_foods_basket_cabbage" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="foods_basket_cabbage"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_chopping_board_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_kitchen_chopping_board_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_chopping_board_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_chopping_board_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_kitchen_chopping_board_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_chopping_board_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_cutting_food_meat" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_cutting_food_meat"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_cutting_food_leek" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_cutting_food_leek"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_cutting_food_bread" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_cutting_food_bread"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_cutting_food_meat_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_cutting_food_meat_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="kitchen_cutting_food_fish" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="kitchen_cutting_food_fish"/>
+		</components>
+	</game_entity>
+	<game_entity name="fish_smoker_a" old_prefab_name="">
+		<transform position="690.931, 620.764, 24.927" rotation_euler="1.570, 2.992, 2.498"/>
+		<physics shape="bo_fence_old_a1" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="fence_old_a1"/>
+		</components>
+		<children>
+			<game_entity name="battleground_env_smoke_point" old_prefab_name="">
+				<transform position="1.094, -1.078, 0.640" rotation_euler="0.130, -1.571, -1.571"/>
+				<physics mass="1.000"/>
+				<components>
+					<particle_system_instanced_component>
+						<effect_ref base_effect="{07129587-7C6E-4B6B-8007-A9D7950B3876}"/>
+					</particle_system_instanced_component>
+				</components>
+			</game_entity>
+			<game_entity name="bd_roasting_spit_a" old_prefab_name="">
+				<transform position="2.074, -1.024, 0.652" rotation_mat="-0.024553, 0.000000, 0.999699, 0.999698, 0.000000, 0.024553, 0.000000, 1.000000, -0.000000" scale="-0.701, 1.000, 1.000"/>
+				<physics shape="bo_bd_roasting_spit_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_roasting_spit_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_cloth_stick_5m" old_prefab_name="">
+				<transform position="1.086, -0.006, -0.070" rotation_mat="1.000000, -0.000000, -0.000000, 0.000000, -0.000000, -1.000000, 0.000000, 1.000000, -0.000000" scale="-0.452, 1.000, 1.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_cloth_stick_5m"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="1.851, 0.042, 1.036" rotation_mat="0.498892, -0.000000, -0.866664, -0.866664, 0.000000, -0.498893, 0.000000, 1.000000, 0.000000" scale="-1.217, 1.217, 1.217"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="1.620, 0.042, 0.955" rotation_mat="-0.068557, -0.000000, -0.997647, -0.997647, 0.000000, 0.068557, 0.000000, 1.000000, 0.000000" scale="-0.862, 0.862, 0.862"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="1.388, 0.066, 0.983" rotation_mat="-0.064711, -0.001592, 0.997903, -0.997601, -0.024539, -0.064730, 0.024590, -0.999698, 0.000000" scale="-0.896, 0.896, 0.896"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="1.156, 0.042, 0.981" rotation_mat="-0.361153, -0.000000, 0.932507, 0.932506, 0.000000, 0.361154, 0.000000, 1.000000, 0.000000" scale="-1.119, 1.119, 1.119"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.859, 0.042, 0.966" rotation_mat="-0.205920, -0.005065, 0.978556, -0.978260, -0.024063, -0.205982, 0.024590, -0.999698, 0.000000" scale="-0.882, 0.882, 0.882"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.631, 0.042, 0.914" rotation_mat="-0.036032, -0.000000, -0.999351, -0.999351, 0.000000, 0.036032, 0.000000, 1.000000, 0.000000" scale="-0.887, 0.887, 0.887"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.403, 0.042, 0.978" rotation_mat="0.258773, -0.000000, -0.965938, -0.965938, 0.000000, -0.258774, 0.000000, 1.000000, 0.000000" scale="-1.117, 1.117, 1.117"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.129, 0.042, 0.885" rotation_mat="-0.072445, -0.001782, -0.997371, 0.997069, 0.024526, -0.072467, 0.024590, -0.999698, 0.000000" scale="-1.000, 1.000, 1.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="1.808, 0.042, 0.653" rotation_mat="0.278195, -0.000000, -0.960525, -0.960524, 0.000000, -0.278196, 0.000000, 1.000000, 0.000000" scale="-0.906, 0.906, 0.906"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="1.538, 0.082, 0.514" rotation_mat="0.702043, 0.017268, -0.711925, 0.711710, 0.017506, 0.702256, 0.024590, -0.999698, 0.000000" scale="-1.061, 1.055, 1.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="1.290, 0.042, 0.498" rotation_mat="-0.021339, -0.000525, 0.999772, -0.999470, -0.024584, -0.021346, 0.024590, -0.999698, 0.000000" scale="-1.000, 1.000, 1.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="1.054, 0.042, 0.670" rotation_mat="0.192303, -0.000000, -0.981336, -0.981336, 0.000000, -0.192303, 0.000000, 1.000000, 0.000000" scale="-1.234, 1.234, 1.234"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.794, 0.081, 0.504" rotation_mat="0.492160, 0.012106, -0.870420, 0.870157, 0.021404, 0.492310, 0.024590, -0.999698, 0.000000" scale="-1.000, 1.000, 1.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.517, 0.042, 0.507" rotation_mat="-0.396665, -0.000000, -0.917964, -0.917964, 0.000000, 0.396665, 0.000000, 1.000000, 0.000000" scale="-0.891, 0.891, 0.891"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.241, 0.041, 0.530" rotation_mat="-0.295665, -0.007273, -0.955264, 0.954975, 0.023490, -0.295755, 0.024590, -0.999698, -0.000000" scale="-1.119, 1.119, 1.119"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="1.787, 0.042, 0.164" rotation_mat="0.359022, -0.000000, 0.933329, 0.933329, 0.000000, -0.359023, 0.000000, 1.000000, 0.000000" scale="-0.922, 0.922, 0.922"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="1.503, 0.042, 0.177" rotation_mat="0.256248, -0.000000, -0.966611, -0.966611, 0.000000, -0.256249, 0.000000, 1.000000, 0.000000" scale="-1.111, 1.111, 1.111"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="1.118, 0.042, 0.183" rotation_mat="-0.275919, -0.000000, 0.961181, 0.961181, 0.000000, 0.275920, 0.000000, 1.000000, 0.000000" scale="-0.960, 0.960, 0.960"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.845, 0.042, 0.091" rotation_mat="-0.422578, -0.010395, -0.906267, 0.905992, 0.022285, -0.422708, 0.024590, -0.999698, 0.000000" scale="-1.064, 1.064, 1.064"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.561, 0.042, 0.185" rotation_mat="0.360469, -0.000000, 0.932771, 0.932770, 0.000000, -0.360471, 0.000000, 1.000000, 0.000000" scale="-0.900, 0.900, 0.900"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.350, 0.042, 0.167" rotation_mat="0.199045, 0.004896, 0.979978, -0.979682, -0.024098, 0.199106, 0.024590, -0.999698, 0.000000" scale="-0.855, 0.855, 0.855"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.097, 0.042, 0.207" rotation_mat="-0.199105, 0.000000, 0.979978, 0.979978, 0.000000, 0.199106, 0.000000, 1.000000, -0.000000" scale="-1.000, 1.000, 1.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_cloth_stick_5m" old_prefab_name="">
+				<transform position="1.086, -0.006, 1.179" rotation_mat="1.000000, -0.000000, -0.000000, 0.000000, -0.000000, -1.000000, 0.000000, 1.000000, -0.000000" scale="-0.452, 1.000, 1.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_cloth_stick_5m"/>
+				</components>
+			</game_entity>
+			<game_entity name="burned_wood_b" old_prefab_name="">
+				<transform position="0.950, -1.025, 0.778" rotation_mat="1.000000, -0.000000, -0.000000, 0.000000, -0.000000, -1.000000, 0.000000, 1.000000, -0.000000" scale="-1.000, 1.000, 1.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="burned_wood_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_wood_heap_c" old_prefab_name="">
+				<transform position="1.125, -1.072, 0.431" rotation_mat="0.402036, -0.245444, -0.882114, -0.896091, 0.092449, -0.434135, 0.188106, 0.964992, -0.182773" scale="-0.185, 0.185, 0.185"/>
+				<physics shape="bo_bd_wood_heap_c" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_wood_heap_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_wood_heap_c" old_prefab_name="">
+				<transform position="1.169, -1.023, 0.754" rotation_mat="0.852208, -0.000000, 0.523204, 0.522863, -0.035992, -0.851657, 0.018831, 0.999352, -0.030673" scale="-0.185, 0.185, 0.185"/>
+				<physics shape="bo_bd_wood_heap_c" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_wood_heap_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_wood_heap_c" old_prefab_name="">
+				<transform position="1.013, -1.012, 1.007" rotation_mat="0.019157, -0.327437, 0.944679, 0.995853, -0.077797, -0.047161, 0.088935, 0.941664, 0.324592" scale="-0.185, 0.185, 0.185"/>
+				<physics shape="bo_bd_wood_heap_c" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_wood_heap_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_wood_heap_c" old_prefab_name="">
+				<transform position="0.732, -1.046, 0.635" rotation_mat="-0.860066, -0.284399, -0.423560, -0.456743, 0.059334, 0.887618, -0.227307, 0.956868, -0.180929" scale="-0.185, 0.185, 0.185"/>
+				<physics shape="bo_bd_wood_heap_c" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_wood_heap_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="prt_torch_fire" old_prefab_name="">
+				<transform position="1.009, -0.831, 0.622" rotation_mat="0.784441, 0.000000, 0.620203, 0.620201, -0.000000, -0.784443, 0.000000, 1.000000, -0.000000" scale="-1.000, 1.000, 1.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<particle_system_instanced_component>
+						<effect name="psys_torch_fire" sound_code="event:/mission/ambient/detail/fire/torch">
+							<emitters>
+								<emitter name="Emitter" _index_="0">
+									<flags>
+										<flag name="emit_while_moving" value="false"/>
+										<flag name="dont_emit_while_moving" value="false"/>
+										<flag name="emit_at_once" value="false"/>
+										<flag name="local_emit_dir" value="true"/>
+										<flag name="loop_sprite" value="true"/>
+										<flag name="uses_sprite_animation" value="true"/>
+										<flag name="scale_with_respect_to_emitter_velocity" value="false"/>
+										<flag name="skew_with_respect_to_particle_velocity" value="false"/>
+										<flag name="spherical_normals" value="false"/>
+										<flag name="emit_on_terrain" value="false"/>
+										<flag name="select_random_sample_mesh" value="false"/>
+										<flag name="order_by_distance" value="false"/>
+										<flag name="select_random_sprite" value="false"/>
+										<flag name="create_decal_on_collision" value="false"/>
+										<flag name="randomize_collision_decal_rotation" value="false"/>
+										<flag name="permanent_collision_decals" value="false"/>
+										<flag name="collide_with_objects" value="false"/>
+										<flag name="use_color_from_terrain" value="false"/>
+										<flag name="enable_collision" value="false"/>
+									</flags>
+									<parameters>
+										<parameter name="emitter_life" value="0.000"/>
+										<parameter name="activation_delay" value="0.000"/>
+										<parameter name="skew_with_particle_velocity_coef" value="0.000"/>
+										<parameter name="scale_with_emitter_velocity_coef" value="0.000"/>
+										<parameter name="inherit_emitter_velocity" value="0.000"/>
+										<parameter name="emit_volume" value="0.000, 0.000, 0.000"/>
+										<parameter name="gravity" value="0.000, 0.000, 2.000"/>
+										<parameter name="decal_min_scale" value="1.000, 1.000"/>
+										<parameter name="decal_max_scale" value="1.000, 1.000"/>
+										<parameter name="skinned_decal_start_index" value="-1"/>
+										<parameter name="skinned_decal_end_index" value="-1"/>
+										<parameter name="max_alive_particle_count" value="0"/>
+										<parameter name="quad_scale" value="0.235, 0.235"/>
+										<parameter name="quad_bias" value="0.000, 0.000"/>
+										<parameter name="texture_sprite_count" value="5, 5"/>
+										<parameter name="texture_sprite_frame_count" value="25"/>
+										<parameter name="texture_sprite_frame_rate" value="25.000"/>
+										<parameter name="fixed_particle_initial_speed" value="0.000"/>
+										<parameter name="fadeout_distance" value="0.005"/>
+										<parameter name="fadeout_coef" value="0.000"/>
+										<parameter name="camera_fadeout_coef" value="0.000"/>
+										<parameter name="backlight_multiplier" value="0.000"/>
+										<parameter name="diffuse_multiplier" value="250.000"/>
+										<parameter name="emission_turbulence_interval" value="340282346638528859811704183484516925440.000"/>
+										<parameter name="emission_turbulence_strength" value="0.000"/>
+										<parameter name="collision_damping" value="0.000"/>
+										<parameter name="collision_angular_damping" value="0.000"/>
+										<parameter name="cone_emit_angle" value="0.000"/>
+										<parameter name="particle_size_curve_op" value="add"/>
+										<parameter name="emit_volume_type" value="box"/>
+										<parameter name="billboard_type" value="3d"/>
+										<parameter name="collision_behaviour" value="normal"/>
+										<parameter name="emission_velocity_model" value="random_velocity_components"/>
+										<parameter name="initial_rotation" base="0.000" bias="180.000"/>
+										<parameter name="damping" base="0.599" bias="0.000"/>
+										<parameter name="turbulence_strength" base="0.000" bias="0.000"/>
+										<parameter name="angular_damping" base="0.733" bias="0.000"/>
+										<parameter name="particle_life" base="1.000" bias="0.000"/>
+										<parameter name="emission_rate" base="10.000" bias="0.000"/>
+										<parameter name="cone_emit_velocity" base="1.000" bias="0.000">
+											<curve name="emitter_life" default="1.000" curve_multiplier="1.000">
+												<keys>
+													<key time="0.000" value="1.000" tangent="0.200, 0.000"/>
+													<key time="1.000" value="1.000" tangent="0.200, 0.000"/>
+												</keys>
+											</curve>
+										</parameter>
+										<parameter name="emit_velocity_x" base="0.000" bias="0.000"/>
+										<parameter name="emit_velocity_y" base="0.000" bias="0.000"/>
+										<parameter name="emit_velocity_z" base="0.000" bias="0.000"/>
+										<parameter name="emit_rotation_speed" base="0.000" bias="57.296"/>
+										<parameter name="wind_effect" base="1.000" bias="0.000"/>
+										<parameter name="particle_size" base="0.000" bias="0.000">
+											<curve name="particle_life" default="1.000" curve_multiplier="0.600">
+												<keys>
+													<key time="0.000" value="1.000" tangent="0.200, 0.000"/>
+													<key time="1.000" value="0.500" tangent="0.200, 0.000"/>
+												</keys>
+											</curve>
+										</parameter>
+										<parameter name="material" value="prt_shd_fire_1"/>
+										<parameter name="sample_mesh" value=""/>
+										<parameter name="decal_material" value=""/>
+										<parameter name="particle_color">
+											<color>
+												<keys>
+													<key time="0.500" value="0.341, 0.235, 0.173"/>
+													<key time="0.900" value="0.573, 0.573, 0.573"/>
+												</keys>
+											</color>
+											<alpha>
+												<keys>
+													<key time="0.000" value="0.000"/>
+													<key time="0.500" value="1.000"/>
+													<key time="0.900" value="1.000"/>
+													<key time="1.000" value="0.000"/>
+												</keys>
+											</alpha>
+										</parameter>
+									</parameters>
+								</emitter>
+							</emitters>
+						</effect>
+					</particle_system_instanced_component>
+				</components>
+				<children>
+					<game_entity name="torch_fire_sparks" old_prefab_name="">
+						<transform position="-0.004, 0.034, -0.056"/>
+						<physics mass="1.000"/>
+						<components>
+							<particle_system_instanced_component>
+								<effect name="outdoor_fire_sparks_small">
+									<emitters>
+										<emitter name="Emitter" _index_="0">
+											<flags>
+												<flag name="emit_while_moving" value="false"/>
+												<flag name="dont_emit_while_moving" value="false"/>
+												<flag name="emit_at_once" value="false"/>
+												<flag name="local_emit_dir" value="false"/>
+												<flag name="loop_sprite" value="false"/>
+												<flag name="uses_sprite_animation" value="false"/>
+												<flag name="scale_with_respect_to_emitter_velocity" value="false"/>
+												<flag name="skew_with_respect_to_particle_velocity" value="true"/>
+												<flag name="spherical_normals" value="false"/>
+												<flag name="emit_on_terrain" value="false"/>
+												<flag name="select_random_sample_mesh" value="false"/>
+												<flag name="order_by_distance" value="false"/>
+												<flag name="select_random_sprite" value="false"/>
+												<flag name="create_decal_on_collision" value="false"/>
+												<flag name="randomize_collision_decal_rotation" value="false"/>
+												<flag name="permanent_collision_decals" value="false"/>
+												<flag name="collide_with_objects" value="false"/>
+												<flag name="use_color_from_terrain" value="false"/>
+												<flag name="enable_collision" value="false"/>
+											</flags>
+											<parameters>
+												<parameter name="emitter_life" value="0.000"/>
+												<parameter name="activation_delay" value="0.000"/>
+												<parameter name="skew_with_particle_velocity_coef" value="40.000"/>
+												<parameter name="scale_with_emitter_velocity_coef" value="0.000"/>
+												<parameter name="inherit_emitter_velocity" value="0.000"/>
+												<parameter name="emit_volume" value="0.050, 0.050, 0.200"/>
+												<parameter name="gravity" value="0.000, 0.000, 0.500"/>
+												<parameter name="decal_min_scale" value="1.000, 1.000"/>
+												<parameter name="decal_max_scale" value="1.000, 1.000"/>
+												<parameter name="skinned_decal_start_index" value="-1"/>
+												<parameter name="skinned_decal_end_index" value="-1"/>
+												<parameter name="max_alive_particle_count" value="0"/>
+												<parameter name="quad_scale" value="0.005, 0.005"/>
+												<parameter name="quad_bias" value="0.000, 0.000"/>
+												<parameter name="texture_sprite_count" value="1, 1"/>
+												<parameter name="texture_sprite_frame_count" value="1"/>
+												<parameter name="texture_sprite_frame_rate" value="1.000"/>
+												<parameter name="fixed_particle_initial_speed" value="0.000"/>
+												<parameter name="fadeout_distance" value="0.005"/>
+												<parameter name="fadeout_coef" value="0.000"/>
+												<parameter name="camera_fadeout_coef" value="0.000"/>
+												<parameter name="backlight_multiplier" value="0.000"/>
+												<parameter name="diffuse_multiplier" value="30.000"/>
+												<parameter name="emission_turbulence_interval" value="340282346638528859811704183484516925440.000"/>
+												<parameter name="emission_turbulence_strength" value="0.000"/>
+												<parameter name="collision_damping" value="0.000"/>
+												<parameter name="collision_angular_damping" value="0.000"/>
+												<parameter name="cone_emit_angle" value="0.000"/>
+												<parameter name="particle_size_curve_op" value="add"/>
+												<parameter name="emit_volume_type" value="box"/>
+												<parameter name="billboard_type" value="turn_to_velocity_side"/>
+												<parameter name="collision_behaviour" value="normal"/>
+												<parameter name="emission_velocity_model" value="random_velocity_components"/>
+												<parameter name="initial_rotation" base="0.000" bias="0.000"/>
+												<parameter name="damping" base="0.713" bias="0.000"/>
+												<parameter name="turbulence_strength" base="0.000" bias="0.000"/>
+												<parameter name="angular_damping" base="0.000" bias="0.000"/>
+												<parameter name="particle_life" base="1.000" bias="0.000"/>
+												<parameter name="emission_rate" base="5.000" bias="0.000"/>
+												<parameter name="cone_emit_velocity" base="1.000" bias="0.000">
+													<curve name="emitter_life" default="1.000" curve_multiplier="1.000">
+														<keys>
+															<key time="0.000" value="1.000" tangent="0.200, 0.000"/>
+															<key time="1.000" value="1.000" tangent="0.200, 0.000"/>
+														</keys>
+													</curve>
+												</parameter>
+												<parameter name="emit_velocity_x" base="0.000" bias="0.500"/>
+												<parameter name="emit_velocity_y" base="0.000" bias="0.500"/>
+												<parameter name="emit_velocity_z" base="1.000" bias="0.500"/>
+												<parameter name="emit_rotation_speed" base="0.000" bias="0.000"/>
+												<parameter name="wind_effect" base="1.000" bias="0.000"/>
+												<parameter name="particle_size" base="0.000" bias="0.000">
+													<curve name="particle_life" default="1.000" curve_multiplier="1.000">
+														<keys>
+															<key time="0.000" value="1.000" tangent="0.200, 0.000"/>
+															<key time="1.000" value="0.300" tangent="0.200, 0.000"/>
+														</keys>
+													</curve>
+												</parameter>
+												<parameter name="material" value="prt_shd_sparks"/>
+												<parameter name="sample_mesh" value=""/>
+												<parameter name="decal_material" value=""/>
+												<parameter name="particle_color">
+													<color>
+														<keys>
+															<key time="0.500" value="0.694, 0.259, 0.122"/>
+															<key time="0.900" value="0.765, 0.357, 0.122"/>
+														</keys>
+													</color>
+													<alpha>
+														<keys>
+															<key time="0.000" value="0.000"/>
+															<key time="0.500" value="1.000"/>
+															<key time="0.900" value="0.196"/>
+															<key time="1.000" value="0.000"/>
+														</keys>
+													</alpha>
+												</parameter>
+											</parameters>
+										</emitter>
+									</emitters>
+								</effect>
+							</particle_system_instanced_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="1.054, 0.042, 0.670" rotation_mat="0.192303, -0.000000, -0.981336, -0.981336, 0.000000, -0.192303, 0.000000, 1.000000, 0.000000" scale="-1.000, 1.000, 1.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="fence_old_a1" old_prefab_name="">
+				<transform position="2.081, 0.000, 0.000" rotation_mat="1.000000, -0.000000, -0.000000, 0.000000, 1.000000, 0.000000, 0.000000, -0.000000, 1.000000" scale="-1.000, 1.000, 1.000"/>
+				<physics shape="bo_fence_old_a1" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="fence_old_a1"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_roasting_spit_a" old_prefab_name="">
+				<transform position="0.004, -1.024, 0.601" rotation_mat="-0.024553, 0.000000, 0.999699, 0.999698, 0.000000, 0.024553, 0.000000, 1.000000, -0.000000" scale="-0.701, 1.000, 1.000"/>
+				<physics shape="bo_bd_roasting_spit_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_roasting_spit_a"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="fish_smoker_b" old_prefab_name="" occlusion_body_name="bo_stonewall_2b1">
+		<transform position="744.337, 79.736, 30.851" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_stonewall_2b1" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="stonewall_2b1" second_material="cloak_short"/>
+		</components>
+		<children>
+			<game_entity name="bd_cloth_stick_5m" old_prefab_name="">
+				<transform position="-0.078, -1.202, 1.096" rotation_euler="0.000, 0.000, -0.046" scale="0.421, 0.317, 0.317"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_cloth_stick_5m"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.590, -1.217, 0.883" rotation_euler="0.231, -1.560, 0.005" scale="1.271, 1.271, 1.267"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.467, -1.256, 0.991" rotation_euler="0.003, -1.559, -0.247" scale="0.823, 0.823, 0.823"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="-0.760, -1.191, 0.942" rotation_euler="-0.058, -1.578, -0.295"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.761, -1.232, 0.948" rotation_euler="-0.015, -1.560, 0.008"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.359, -1.235, 0.953" rotation_euler="-0.015, -1.560, -2.915"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="-0.038, -1.233, 0.911" rotation_euler="-0.122, -1.520, 0.321"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="-0.146, -1.215, 1.000" rotation_euler="-0.096, -1.527, -0.287" scale="0.707, 0.707, 0.707"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="-0.607, -1.189, 0.981" rotation_euler="-0.015, -1.560, 0.008" scale="0.776, 0.776, 0.776"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="-0.500, -1.160, 0.894" rotation_euler="-0.015, -1.560, -2.915" scale="1.212, 1.212, 1.212"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="-0.385, -1.227, 0.958" rotation_euler="-0.156, -1.565, -0.297"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="-0.265, -1.197, 1.004" rotation_euler="0.059, -1.551, -2.763" scale="0.707, 0.707, 0.707"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.097, -1.218, 0.944" rotation_euler="0.029, -1.547, 2.944"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="bd_cloth_stick_5m" old_prefab_name="">
+				<transform position="-0.043, -1.684, 1.096" rotation_euler="0.000, 0.000, -3.133" scale="0.421, 0.317, 0.317"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_cloth_stick_5m"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="-0.710, -1.706, 0.883" rotation_euler="0.231, -1.560, -3.082" scale="1.271, 1.271, 1.267"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="-0.590, -1.660, 0.991" rotation_euler="0.003, -1.559, 2.949" scale="0.823, 0.823, 0.823"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.639, -1.658, 0.942" rotation_euler="-0.058, -1.578, 2.901"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="-0.882, -1.701, 0.948" rotation_euler="-0.015, -1.560, -3.079"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="-0.481, -1.676, 0.953" rotation_euler="-0.015, -1.560, 0.281"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="-0.084, -1.656, 0.911" rotation_euler="-0.122, -1.520, -2.766"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.025, -1.668, 1.000" rotation_euler="-0.096, -1.527, 2.909" scale="0.707, 0.707, 0.707"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.487, -1.669, 0.981" rotation_euler="-0.015, -1.560, -3.079" scale="0.776, 0.776, 0.776"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.381, -1.703, 0.894" rotation_euler="-0.015, -1.560, 0.281" scale="1.212, 1.212, 1.212"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.263, -1.643, 0.958" rotation_euler="-0.156, -1.565, 2.900"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.144, -1.679, 1.004" rotation_euler="0.059, -1.551, 0.433" scale="0.707, 0.707, 0.707"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="-0.218, -1.678, 0.944" rotation_euler="0.029, -1.547, -0.143"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="bd_cloth_stick_5m" old_prefab_name="">
+				<transform position="0.000, -0.771, 1.096" rotation_euler="0.000, 0.000, -3.133" scale="0.421, 0.317, 0.317"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_cloth_stick_5m"/>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="-0.667, -0.792, 0.883" rotation_euler="0.231, -1.560, -3.082" scale="1.271, 1.271, 1.267"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="-0.546, -0.747, 0.991" rotation_euler="0.003, -1.559, 2.949" scale="0.823, 0.823, 0.823"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.683, -0.744, 0.942" rotation_euler="-0.058, -1.578, 2.901"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="-0.838, -0.787, 0.948" rotation_euler="-0.015, -1.560, -3.079"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="-0.437, -0.762, 0.953" rotation_euler="-0.015, -1.560, 0.281"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="-0.040, -0.742, 0.911" rotation_euler="-0.122, -1.520, -2.766"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.068, -0.754, 1.000" rotation_euler="-0.096, -1.527, 2.909" scale="0.707, 0.707, 0.707"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.531, -0.755, 0.981" rotation_euler="-0.015, -1.560, -3.079" scale="0.776, 0.776, 0.776"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.424, -0.789, 0.894" rotation_euler="-0.015, -1.560, 0.281" scale="1.212, 1.212, 1.212"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.306, -0.729, 0.958" rotation_euler="-0.156, -1.565, 2.900"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="0.188, -0.766, 1.004" rotation_euler="0.059, -1.551, 0.433" scale="0.707, 0.707, 0.707"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="merchandise_fish_b" old_prefab_name="">
+				<transform position="-0.175, -0.764, 0.944" rotation_euler="0.029, -1.547, -0.143"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="merchandise_fish_b">
+						<mesh name="merchandise_fish_b" factor="4283848278"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="ashes_a" old_prefab_name="">
+				<transform position="-0.057, -1.629, -0.471" rotation_euler="0.000, 0.000, -2.731"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ashes_a">
+						<mesh name="ashes_a" factor="4281940281"/>
+						<mesh name="ashes_a.lod2" factor="4281940281"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="ashes_a" old_prefab_name="">
+				<transform position="-0.426, -0.922, -0.471" rotation_euler="0.000, 0.000, -2.731"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ashes_a">
+						<mesh name="ashes_a" factor="4281940281"/>
+						<mesh name="ashes_a.lod2" factor="4281940281"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="ashes_a" old_prefab_name="">
+				<transform position="0.269, -1.002, -0.471" rotation_euler="0.000, 0.000, -2.731"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ashes_a">
+						<mesh name="ashes_a" factor="4281940281"/>
+						<mesh name="ashes_a.lod2" factor="4281940281"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="bd_wood_heap_c" old_prefab_name="">
+				<transform position="0.098, -1.304, -0.485" rotation_euler="-0.225, -0.002, 1.564" scale="0.295, 0.295, 0.295"/>
+				<physics shape="bo_bd_wood_heap_c" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_wood_heap_c">
+						<mesh name="bd_wood_heap_c" factor="4285493103"/>
+						<mesh name="bd_wood_heap_c.lod1" factor="4285493103"/>
+						<mesh name="bd_wood_heap_c.lod2" factor="4285493103"/>
+						<mesh name="bd_wood_heap_c.lod3" factor="4285493103"/>
+						<mesh name="bd_wood_heap_c.lod4" factor="4285493103"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="bd_wood_heap_c" old_prefab_name="">
+				<transform position="0.469, -1.324, -0.485" rotation_euler="0.000, 0.000, 1.507" scale="0.295, 0.295, 0.295"/>
+				<physics shape="bo_bd_wood_heap_c" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_wood_heap_c">
+						<mesh name="bd_wood_heap_c" factor="4282927176"/>
+						<mesh name="bd_wood_heap_c.lod1" factor="4282927176"/>
+						<mesh name="bd_wood_heap_c.lod2" factor="4282927176"/>
+						<mesh name="bd_wood_heap_c.lod3" factor="4282927176"/>
+						<mesh name="bd_wood_heap_c.lod4" factor="4282927176"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="bd_wood_heap_c" old_prefab_name="">
+				<transform position="-0.649, -1.253, -0.485" rotation_euler="0.000, 0.000, 1.507" scale="0.295, 0.295, 0.295"/>
+				<physics shape="bo_bd_wood_heap_c" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_wood_heap_c">
+						<mesh name="bd_wood_heap_c" factor="4281874488"/>
+						<mesh name="bd_wood_heap_c.lod1" factor="4281874488"/>
+						<mesh name="bd_wood_heap_c.lod2" factor="4281874488"/>
+						<mesh name="bd_wood_heap_c.lod3" factor="4281874488"/>
+						<mesh name="bd_wood_heap_c.lod4" factor="4281874488"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="bd_wood_heap_c" old_prefab_name="">
+				<transform position="-0.283, -1.276, -0.485" rotation_euler="0.000, 0.000, -1.758" scale="0.295, 0.295, 0.295"/>
+				<physics shape="bo_bd_wood_heap_c" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_wood_heap_c">
+						<mesh name="bd_wood_heap_c" factor="4283979864"/>
+						<mesh name="bd_wood_heap_c.lod1" factor="4283979864"/>
+						<mesh name="bd_wood_heap_c.lod2" factor="4283979864"/>
+						<mesh name="bd_wood_heap_c.lod3" factor="4283979864"/>
+						<mesh name="bd_wood_heap_c.lod4" factor="4283979864"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="stand_straw_b" old_prefab_name="">
+				<transform position="-0.092, -1.260, -0.400" rotation_euler="0.000, 0.000, 3.110" scale="0.381, 0.381, 0.381"/>
+				<physics shape="bo_stand_straw_b" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="stand_straw_b">
+						<mesh name="stand_straw_b" factor="4284374622"/>
+						<mesh name="stand_straw_b.1" factor="4284374622"/>
+						<mesh name="stand_straw_b.3" factor="4284374622"/>
+						<mesh name="stand_straw_b.5" factor="4284374622"/>
+						<mesh name="stand_straw_b.lod1" factor="4284374622"/>
+						<mesh name="stand_straw_b.lod1.1" factor="4284374622"/>
+						<mesh name="stand_straw_b.lod1.3" factor="4284374622"/>
+						<mesh name="stand_straw_b.lod1.5" factor="4284374622"/>
+						<mesh name="stand_straw_b.lod3" factor="4284374622"/>
+						<mesh name="stand_straw_b.lod3.5" factor="4284374622"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="prt_torch_light" old_prefab_name="">
+				<transform position="-0.098, -1.084, -0.087" rotation_euler="0.000, 0.000, -2.731"/>
+				<physics mass="1.000"/>
+				<components>
+					<light_component flags="64" color="1.000, 0.682, 0.294" intensity="10.000" radius="5.000" flicker_interval="0.500" flicker_magnitude="1.000" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="1" shadow_radius="4.000"/>
+				</components>
+				<scripts>
+					<script name="LightCycle">
+						<variables>
+							<variable name="alwaysBurn" value="false"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="torch_fire_sparks" old_prefab_name="">
+				<transform position="-0.071, -1.551, -0.269" rotation_euler="0.000, 0.000, -2.403"/>
+				<physics mass="1.000"/>
+				<components>
+					<particle_system_instanced_component>
+						<effect name="outdoor_fire_sparks_small">
+							<emitters>
+								<emitter name="Emitter" _index_="0">
+									<flags>
+										<flag name="emit_while_moving" value="false"/>
+										<flag name="dont_emit_while_moving" value="false"/>
+										<flag name="emit_at_once" value="false"/>
+										<flag name="local_emit_dir" value="false"/>
+										<flag name="loop_sprite" value="false"/>
+										<flag name="uses_sprite_animation" value="false"/>
+										<flag name="scale_with_respect_to_emitter_velocity" value="false"/>
+										<flag name="skew_with_respect_to_particle_velocity" value="true"/>
+										<flag name="spherical_normals" value="false"/>
+										<flag name="emit_on_terrain" value="false"/>
+										<flag name="select_random_sample_mesh" value="false"/>
+										<flag name="order_by_distance" value="false"/>
+										<flag name="select_random_sprite" value="false"/>
+										<flag name="create_decal_on_collision" value="false"/>
+										<flag name="randomize_collision_decal_rotation" value="false"/>
+										<flag name="permanent_collision_decals" value="false"/>
+										<flag name="collide_with_objects" value="false"/>
+										<flag name="use_color_from_terrain" value="false"/>
+										<flag name="enable_collision" value="false"/>
+									</flags>
+									<parameters>
+										<parameter name="emitter_life" value="0.000"/>
+										<parameter name="activation_delay" value="0.000"/>
+										<parameter name="skew_with_particle_velocity_coef" value="40.000"/>
+										<parameter name="scale_with_emitter_velocity_coef" value="0.000"/>
+										<parameter name="inherit_emitter_velocity" value="0.000"/>
+										<parameter name="emit_volume" value="0.050, 0.050, 0.200"/>
+										<parameter name="gravity" value="0.000, 0.000, 0.500"/>
+										<parameter name="decal_min_scale" value="1.000, 1.000"/>
+										<parameter name="decal_max_scale" value="1.000, 1.000"/>
+										<parameter name="skinned_decal_start_index" value="-1"/>
+										<parameter name="skinned_decal_end_index" value="-1"/>
+										<parameter name="max_alive_particle_count" value="0"/>
+										<parameter name="quad_scale" value="0.005, 0.005"/>
+										<parameter name="quad_bias" value="0.000, 0.000"/>
+										<parameter name="texture_sprite_count" value="1, 1"/>
+										<parameter name="texture_sprite_frame_count" value="1"/>
+										<parameter name="texture_sprite_frame_rate" value="1.000"/>
+										<parameter name="fixed_particle_initial_speed" value="0.000"/>
+										<parameter name="fadeout_distance" value="0.005"/>
+										<parameter name="fadeout_coef" value="0.000"/>
+										<parameter name="camera_fadeout_coef" value="0.000"/>
+										<parameter name="backlight_multiplier" value="0.000"/>
+										<parameter name="diffuse_multiplier" value="30.000"/>
+										<parameter name="emission_turbulence_interval" value="340282346638528859811704183484516925440.000"/>
+										<parameter name="emission_turbulence_strength" value="0.000"/>
+										<parameter name="collision_damping" value="0.000"/>
+										<parameter name="collision_angular_damping" value="0.000"/>
+										<parameter name="cone_emit_angle" value="0.000"/>
+										<parameter name="particle_size_curve_op" value="add"/>
+										<parameter name="emit_volume_type" value="box"/>
+										<parameter name="billboard_type" value="turn_to_velocity_side"/>
+										<parameter name="collision_behaviour" value="normal"/>
+										<parameter name="emission_velocity_model" value="random_velocity_components"/>
+										<parameter name="initial_rotation" base="0.000" bias="0.000"/>
+										<parameter name="damping" base="0.713" bias="0.000"/>
+										<parameter name="turbulence_strength" base="0.000" bias="0.000"/>
+										<parameter name="angular_damping" base="0.000" bias="0.000"/>
+										<parameter name="particle_life" base="1.000" bias="0.000"/>
+										<parameter name="emission_rate" base="5.000" bias="0.000"/>
+										<parameter name="cone_emit_velocity" base="1.000" bias="0.000">
+											<curve name="emitter_life" default="1.000" curve_multiplier="1.000">
+												<keys>
+													<key time="0.000" value="1.000" tangent="0.200, 0.000"/>
+													<key time="1.000" value="1.000" tangent="0.200, 0.000"/>
+												</keys>
+											</curve>
+										</parameter>
+										<parameter name="emit_velocity_x" base="0.000" bias="0.500"/>
+										<parameter name="emit_velocity_y" base="0.000" bias="0.500"/>
+										<parameter name="emit_velocity_z" base="1.000" bias="0.500"/>
+										<parameter name="emit_rotation_speed" base="0.000" bias="0.000"/>
+										<parameter name="wind_effect" base="1.000" bias="0.000"/>
+										<parameter name="particle_size" base="0.000" bias="0.000">
+											<curve name="particle_life" default="1.000" curve_multiplier="1.000">
+												<keys>
+													<key time="0.000" value="1.000" tangent="0.200, 0.000"/>
+													<key time="1.000" value="0.300" tangent="0.200, 0.000"/>
+												</keys>
+											</curve>
+										</parameter>
+										<parameter name="material" value="prt_shd_sparks"/>
+										<parameter name="sample_mesh" value=""/>
+										<parameter name="decal_material" value=""/>
+										<parameter name="particle_color">
+											<color>
+												<keys>
+													<key time="0.500" value="0.694, 0.259, 0.122"/>
+													<key time="0.900" value="0.765, 0.357, 0.122"/>
+												</keys>
+											</color>
+											<alpha>
+												<keys>
+													<key time="0.000" value="0.000"/>
+													<key time="0.500" value="1.000"/>
+													<key time="0.900" value="0.196"/>
+													<key time="1.000" value="0.000"/>
+												</keys>
+											</alpha>
+										</parameter>
+									</parameters>
+								</emitter>
+							</emitters>
+						</effect>
+					</particle_system_instanced_component>
+				</components>
+			</game_entity>
+			<game_entity name="prt_torch_fire" old_prefab_name="">
+				<transform position="-0.051, -1.581, -0.265" rotation_euler="0.000, 0.000, -2.062"/>
+				<physics mass="1.000"/>
+				<components>
+					<particle_system_instanced_component>
+						<effect name="psys_torch_fire" sound_code="event:/mission/ambient/detail/fire/torch">
+							<emitters>
+								<emitter name="Emitter" _index_="0">
+									<flags>
+										<flag name="emit_while_moving" value="false"/>
+										<flag name="dont_emit_while_moving" value="false"/>
+										<flag name="emit_at_once" value="false"/>
+										<flag name="local_emit_dir" value="true"/>
+										<flag name="loop_sprite" value="true"/>
+										<flag name="uses_sprite_animation" value="true"/>
+										<flag name="scale_with_respect_to_emitter_velocity" value="false"/>
+										<flag name="skew_with_respect_to_particle_velocity" value="false"/>
+										<flag name="spherical_normals" value="false"/>
+										<flag name="emit_on_terrain" value="false"/>
+										<flag name="select_random_sample_mesh" value="false"/>
+										<flag name="order_by_distance" value="false"/>
+										<flag name="select_random_sprite" value="false"/>
+										<flag name="create_decal_on_collision" value="false"/>
+										<flag name="randomize_collision_decal_rotation" value="false"/>
+										<flag name="permanent_collision_decals" value="false"/>
+										<flag name="collide_with_objects" value="false"/>
+										<flag name="use_color_from_terrain" value="false"/>
+										<flag name="enable_collision" value="false"/>
+									</flags>
+									<parameters>
+										<parameter name="emitter_life" value="0.000"/>
+										<parameter name="activation_delay" value="0.000"/>
+										<parameter name="skew_with_particle_velocity_coef" value="0.000"/>
+										<parameter name="scale_with_emitter_velocity_coef" value="0.000"/>
+										<parameter name="inherit_emitter_velocity" value="0.000"/>
+										<parameter name="emit_volume" value="0.000, 0.000, 0.000"/>
+										<parameter name="gravity" value="0.000, 0.000, 2.000"/>
+										<parameter name="decal_min_scale" value="1.000, 1.000"/>
+										<parameter name="decal_max_scale" value="1.000, 1.000"/>
+										<parameter name="skinned_decal_start_index" value="-1"/>
+										<parameter name="skinned_decal_end_index" value="-1"/>
+										<parameter name="max_alive_particle_count" value="0"/>
+										<parameter name="quad_scale" value="0.235, 0.235"/>
+										<parameter name="quad_bias" value="0.000, 0.000"/>
+										<parameter name="texture_sprite_count" value="5, 5"/>
+										<parameter name="texture_sprite_frame_count" value="25"/>
+										<parameter name="texture_sprite_frame_rate" value="25.000"/>
+										<parameter name="fixed_particle_initial_speed" value="0.000"/>
+										<parameter name="fadeout_distance" value="0.005"/>
+										<parameter name="fadeout_coef" value="0.000"/>
+										<parameter name="camera_fadeout_coef" value="0.000"/>
+										<parameter name="backlight_multiplier" value="0.000"/>
+										<parameter name="diffuse_multiplier" value="250.000"/>
+										<parameter name="emission_turbulence_interval" value="340282346638528859811704183484516925440.000"/>
+										<parameter name="emission_turbulence_strength" value="0.000"/>
+										<parameter name="collision_damping" value="0.000"/>
+										<parameter name="collision_angular_damping" value="0.000"/>
+										<parameter name="cone_emit_angle" value="0.000"/>
+										<parameter name="particle_size_curve_op" value="add"/>
+										<parameter name="emit_volume_type" value="box"/>
+										<parameter name="billboard_type" value="3d"/>
+										<parameter name="collision_behaviour" value="normal"/>
+										<parameter name="emission_velocity_model" value="random_velocity_components"/>
+										<parameter name="initial_rotation" base="0.000" bias="180.000"/>
+										<parameter name="damping" base="0.599" bias="0.000"/>
+										<parameter name="turbulence_strength" base="0.000" bias="0.000"/>
+										<parameter name="angular_damping" base="0.733" bias="0.000"/>
+										<parameter name="particle_life" base="1.000" bias="0.000"/>
+										<parameter name="emission_rate" base="10.000" bias="0.000"/>
+										<parameter name="cone_emit_velocity" base="1.000" bias="0.000">
+											<curve name="emitter_life" default="1.000" curve_multiplier="1.000">
+												<keys>
+													<key time="0.000" value="1.000" tangent="0.200, 0.000"/>
+													<key time="1.000" value="1.000" tangent="0.200, 0.000"/>
+												</keys>
+											</curve>
+										</parameter>
+										<parameter name="emit_velocity_x" base="0.000" bias="0.000"/>
+										<parameter name="emit_velocity_y" base="0.000" bias="0.000"/>
+										<parameter name="emit_velocity_z" base="0.000" bias="0.000"/>
+										<parameter name="emit_rotation_speed" base="0.000" bias="57.296"/>
+										<parameter name="wind_effect" base="1.000" bias="0.000"/>
+										<parameter name="particle_size" base="0.000" bias="0.000">
+											<curve name="particle_life" default="1.000" curve_multiplier="0.600">
+												<keys>
+													<key time="0.000" value="1.000" tangent="0.200, 0.000"/>
+													<key time="1.000" value="0.500" tangent="0.200, 0.000"/>
+												</keys>
+											</curve>
+										</parameter>
+										<parameter name="material" value="prt_shd_fire_1"/>
+										<parameter name="sample_mesh" value=""/>
+										<parameter name="decal_material" value=""/>
+										<parameter name="particle_color">
+											<color>
+												<keys>
+													<key time="0.500" value="0.341, 0.235, 0.173"/>
+													<key time="0.900" value="0.573, 0.573, 0.573"/>
+												</keys>
+											</color>
+											<alpha>
+												<keys>
+													<key time="0.000" value="0.000"/>
+													<key time="0.500" value="1.000"/>
+													<key time="0.900" value="1.000"/>
+													<key time="1.000" value="0.000"/>
+												</keys>
+											</alpha>
+										</parameter>
+									</parameters>
+								</emitter>
+							</emitters>
+						</effect>
+					</particle_system_instanced_component>
+				</components>
+			</game_entity>
+			<game_entity name="stonewall_2b1" old_prefab_name="" occlusion_body_name="bo_stonewall_2b1">
+				<transform position="1.148, -1.062, -0.002" rotation_euler="0.000, 0.000, 1.570"/>
+				<physics shape="bo_stonewall_2b1" override_material="stone" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="stonewall_2b1" second_material="cloak_short"/>
+				</components>
+			</game_entity>
+			<game_entity name="stonewall_2b1" old_prefab_name="" occlusion_body_name="bo_stonewall_2b1">
+				<transform position="-1.329, -1.084, -0.002" rotation_euler="0.000, 0.000, -1.562"/>
+				<physics shape="bo_stonewall_2b1" override_material="stone" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="stonewall_2b1" second_material="cloak_short"/>
+				</components>
+			</game_entity>
+			<game_entity name="battleground_env_smoke_point" old_prefab_name="">
+				<transform position="-0.009, -1.281, -0.073" rotation_euler="0.000, 0.000, -2.743"/>
+				<physics mass="1.000"/>
+				<components>
+					<particle_system_instanced_component>
+						<effect_ref base_effect="{07129587-7C6E-4B6B-8007-A9D7950B3876}"/>
+					</particle_system_instanced_component>
+				</components>
+			</game_entity>
+			<game_entity name="torch_fire_sparks" old_prefab_name="">
+				<transform position="-0.051, -1.581, -0.203" rotation_euler="0.000, 0.000, -2.062"/>
+				<physics mass="1.000"/>
+				<components>
+					<particle_system_instanced_component>
+						<effect name="outdoor_fire_sparks_small">
+							<emitters>
+								<emitter name="Emitter" _index_="0">
+									<flags>
+										<flag name="emit_while_moving" value="false"/>
+										<flag name="dont_emit_while_moving" value="false"/>
+										<flag name="emit_at_once" value="false"/>
+										<flag name="local_emit_dir" value="false"/>
+										<flag name="loop_sprite" value="false"/>
+										<flag name="uses_sprite_animation" value="false"/>
+										<flag name="scale_with_respect_to_emitter_velocity" value="false"/>
+										<flag name="skew_with_respect_to_particle_velocity" value="true"/>
+										<flag name="spherical_normals" value="false"/>
+										<flag name="emit_on_terrain" value="false"/>
+										<flag name="select_random_sample_mesh" value="false"/>
+										<flag name="order_by_distance" value="false"/>
+										<flag name="select_random_sprite" value="false"/>
+										<flag name="create_decal_on_collision" value="false"/>
+										<flag name="randomize_collision_decal_rotation" value="false"/>
+										<flag name="permanent_collision_decals" value="false"/>
+										<flag name="collide_with_objects" value="false"/>
+										<flag name="use_color_from_terrain" value="false"/>
+										<flag name="enable_collision" value="false"/>
+									</flags>
+									<parameters>
+										<parameter name="emitter_life" value="0.000"/>
+										<parameter name="activation_delay" value="0.000"/>
+										<parameter name="skew_with_particle_velocity_coef" value="40.000"/>
+										<parameter name="scale_with_emitter_velocity_coef" value="0.000"/>
+										<parameter name="inherit_emitter_velocity" value="0.000"/>
+										<parameter name="emit_volume" value="0.050, 0.050, 0.200"/>
+										<parameter name="gravity" value="0.000, 0.000, 0.500"/>
+										<parameter name="decal_min_scale" value="1.000, 1.000"/>
+										<parameter name="decal_max_scale" value="1.000, 1.000"/>
+										<parameter name="skinned_decal_start_index" value="-1"/>
+										<parameter name="skinned_decal_end_index" value="-1"/>
+										<parameter name="max_alive_particle_count" value="0"/>
+										<parameter name="quad_scale" value="0.005, 0.005"/>
+										<parameter name="quad_bias" value="0.000, 0.000"/>
+										<parameter name="texture_sprite_count" value="1, 1"/>
+										<parameter name="texture_sprite_frame_count" value="1"/>
+										<parameter name="texture_sprite_frame_rate" value="1.000"/>
+										<parameter name="fixed_particle_initial_speed" value="0.000"/>
+										<parameter name="fadeout_distance" value="0.005"/>
+										<parameter name="fadeout_coef" value="0.000"/>
+										<parameter name="camera_fadeout_coef" value="0.000"/>
+										<parameter name="backlight_multiplier" value="0.000"/>
+										<parameter name="diffuse_multiplier" value="30.000"/>
+										<parameter name="emission_turbulence_interval" value="340282346638528859811704183484516925440.000"/>
+										<parameter name="emission_turbulence_strength" value="0.000"/>
+										<parameter name="collision_damping" value="0.000"/>
+										<parameter name="collision_angular_damping" value="0.000"/>
+										<parameter name="cone_emit_angle" value="0.000"/>
+										<parameter name="particle_size_curve_op" value="add"/>
+										<parameter name="emit_volume_type" value="box"/>
+										<parameter name="billboard_type" value="turn_to_velocity_side"/>
+										<parameter name="collision_behaviour" value="normal"/>
+										<parameter name="emission_velocity_model" value="random_velocity_components"/>
+										<parameter name="initial_rotation" base="0.000" bias="0.000"/>
+										<parameter name="damping" base="0.713" bias="0.000"/>
+										<parameter name="turbulence_strength" base="0.000" bias="0.000"/>
+										<parameter name="angular_damping" base="0.000" bias="0.000"/>
+										<parameter name="particle_life" base="1.000" bias="0.000"/>
+										<parameter name="emission_rate" base="5.000" bias="0.000"/>
+										<parameter name="cone_emit_velocity" base="1.000" bias="0.000">
+											<curve name="emitter_life" default="1.000" curve_multiplier="1.000">
+												<keys>
+													<key time="0.000" value="1.000" tangent="0.200, 0.000"/>
+													<key time="1.000" value="1.000" tangent="0.200, 0.000"/>
+												</keys>
+											</curve>
+										</parameter>
+										<parameter name="emit_velocity_x" base="0.000" bias="0.500"/>
+										<parameter name="emit_velocity_y" base="0.000" bias="0.500"/>
+										<parameter name="emit_velocity_z" base="1.000" bias="0.500"/>
+										<parameter name="emit_rotation_speed" base="0.000" bias="0.000"/>
+										<parameter name="wind_effect" base="1.000" bias="0.000"/>
+										<parameter name="particle_size" base="0.000" bias="0.000">
+											<curve name="particle_life" default="1.000" curve_multiplier="1.000">
+												<keys>
+													<key time="0.000" value="1.000" tangent="0.200, 0.000"/>
+													<key time="1.000" value="0.300" tangent="0.200, 0.000"/>
+												</keys>
+											</curve>
+										</parameter>
+										<parameter name="material" value="prt_shd_sparks"/>
+										<parameter name="sample_mesh" value=""/>
+										<parameter name="decal_material" value=""/>
+										<parameter name="particle_color">
+											<color>
+												<keys>
+													<key time="0.500" value="0.694, 0.259, 0.122"/>
+													<key time="0.900" value="0.765, 0.357, 0.122"/>
+												</keys>
+											</color>
+											<alpha>
+												<keys>
+													<key time="0.000" value="0.000"/>
+													<key time="0.500" value="1.000"/>
+													<key time="0.900" value="0.196"/>
+													<key time="1.000" value="0.000"/>
+												</keys>
+											</alpha>
+										</parameter>
+									</parameters>
+								</emitter>
+							</emitters>
+						</effect>
+					</particle_system_instanced_component>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

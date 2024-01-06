@@ -1,0 +1,1745 @@
+<prefabs>
+	<game_entity name="sturgia_house_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_house_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_house_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_house_a"/>
+		</components>
+		<children>
+			<game_entity name="scene: sturgia_house_a_interior" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-8.710, 2.876, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="scene: sturgia_house_a_interior" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="6.542, 2.599, 4.537"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_house_a_stair" old_prefab_name="">
+				<transform position="7.047, -2.218, 0.000" rotation_euler="0.000, 0.000, 0.024"/>
+				<physics shape="bo_sturgia_house_a_stair" mass="1.000">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="sturgia_house_a_stair"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="sturgia_house_b" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_house_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_house_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_house_b"/>
+		</components>
+		<children>
+			<game_entity name="scene: sturgia_house_b_interior" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-8.265, 0.953, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="scene: sturgia_house_b_interior" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="6.542, -10.992, 0.071"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sturgia_house_c" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_house_c">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_house_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_house_c"/>
+		</components>
+		<children>
+			<game_entity name="scene: sturgia_house_c_interior" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-6.092, -0.215, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="scene: sturgia_house_c_interior" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="5.993, -3.538, 0.071"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sturgia_house_d" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_house_d">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_house_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_house_d"/>
+		</components>
+		<children>
+			<game_entity name="scene: sturgia_house_d_interior_a" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-3.973, 1.613, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="scene: sturgia_house_d_interior_b" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="11.031, 2.529, 5.307"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_house_a_stair" old_prefab_name="">
+				<transform position="11.532, 8.348, 0.000" rotation_mat="-0.999747, 0.022492, -0.000000, -0.022492, -0.999747, 0.000000, 0.000000, 0.000000, 1.000000" scale="-1.000, 1.000, 1.000"/>
+				<physics shape="bo_sturgia_house_a_stair" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_house_a_stair"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="sturgia_house_a_interior" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_house_a_interior" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_house_a_interior"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_house_b_interior" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_house_b_interior" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_house_b_interior"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_house_c_interior" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_house_c_interior" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_house_c_interior"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_house_d_interior_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_house_d_interior_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_house_d_interior_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_d1_interior_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_d1_interior_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_d1_interior_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_d2_interior_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_d2_interior_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_d2_interior_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_d1_interior_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_d1_interior_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_d1_interior_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_d2_interior_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_d2_interior_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_d2_interior_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_d2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="sturgia_town_house_d2_entrance_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_d2_entrance_a">
+				<physics shape="bo_sturgia_town_house_d2_entrance_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d2_entrance_a"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d1_entrance_b" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_d1_entrance_b">
+				<physics shape="bo_sturgia_town_house_d1_entrance_b" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d1_entrance_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d1_entrance_c" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_d1_entrance_c">
+				<physics shape="bo_sturgia_town_house_d1_entrance_c" mass="1.000" center_of_mass="-1.253, -10.462, 0.722"/>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d1_entrance_c"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d2_facade_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_d2_facade_a">
+				<physics shape="bo_sturgia_town_house_d2_facade_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d2_facade_a"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d2_entrance_d" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_d2_entrance_d">
+				<physics shape="bo_sturgia_town_house_d2_entrance_d" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d2_entrance_d"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d1_roof_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_d1_roof_a">
+				<physics shape="bo_sturgia_town_house_d1_roof_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d1_roof_a"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d1_entrance_a_stair" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_d1_entrance_a_stair">
+				<transform position="-8.257, 7.564, 0.000"/>
+				<physics shape="bo_sturgia_town_house_d1_entrance_a_stair" mass="1.000">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d1_entrance_a_stair"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d1_entrance_b_stair" old_prefab_name="">
+				<transform position="-11.979, -18.028, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+				<physics shape="bo_sturgia_town_house_d1_entrance_b_stair" mass="1.000">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d1_entrance_b_stair"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="scene: sturgia_town_house_d2_interior_a" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="8.140, 1.535, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="scene: sturgia_town_house_d2_interior_b" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="9.591, -15.424, 6.449"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="scene: sturgia_town_house_d2_interior_b" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-9.693, -3.599, 5.926"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="scene: sturgia_town_house_d2_interior_a" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-2.415, -16.827, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d1_entrance_e" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_d1_entrance_e">
+				<physics shape="bo_sturgia_town_house_d1_entrance_e" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d1_entrance_e"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d2_facade_b" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_d2_facade_b">
+				<physics shape="bo_sturgia_town_house_d2_facade_b" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d2_facade_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d2_roof_windows_a" old_prefab_name="">
+				<physics shape="bo_sturgia_town_house_d2_roof_windows_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d2_roof_windows_a"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="sturgia_town_house_part_basement_enterance_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_part_basement_enterance_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_part_basement_enterance_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_part_storage_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_part_storage_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_part_storage_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_part_storage_a"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="sturgia_town_house_part_storage_b" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_part_storage_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_part_storage_b" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_part_storage_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_part_door_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_part_door_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_part_door_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_part_door_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_part_door_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_part_door_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_part_roof_window_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_part_roof_window_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_part_roof_window_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_part_roof_window_a2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_part_roof_window_a2" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_part_roof_window_a2"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_part_roof_window_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_part_roof_window_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_part_roof_window_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_part_roof_window_b2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_part_roof_window_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_part_roof_window_b2"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_windmill_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_windmill_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_windmill_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_windmill_a"/>
+		</components>
+		<children>
+			<game_entity name="sturgia_windmill_a_stair" old_prefab_name="">
+				<transform position="0.065, 7.610, 0.000" rotation_euler="0.000, 0.000, -0.021"/>
+				<physics shape="bo_sturgia_windmill_a_stair" mass="1.000">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="sturgia_windmill_a_stair"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="sturgia_windmill_fan_a_open" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_windmill_fan_a_open" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_windmill_fan_a_open"/>
+		</components>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable name="Event Path" value="event:/mission/ambient/detail/building/windmill"/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="50.000000"/>
+					<variable name="Overrided Min Distance" value="4.000000"/>
+					<variable name="Overrided Volume" value="0.000000"/>
+					<variable name="Overrided Pitch" value="1.000000"/>
+					<variable name="Overrided Event Path (Spring)" value=""/>
+					<variable name="Overrided Event Path (Summer)" value=""/>
+					<variable name="Overrided Event Path (Fall)" value=""/>
+					<variable name="Overrided Event Path (Winter)" value=""/>
+					<variable name="Send Daytime Parameter" value="false"/>
+					<variable name="Send Rainfall Parameter" value="false"/>
+					<variable name="Send Snowfall Parameter" value="false"/>
+					<variable name="Send Mood Parameter" value="false"/>
+					<variable name="Is Triggered" value="false"/>
+					<variable name="Trigger Shape" value="Sphere"/>
+				</variables>
+			</script>
+			<script name="WindMill">
+				<variables>
+					<variable name="rotationSpeed" value="100.000"/>
+					<variable name="waterSplashPhaseOffset" value="0.000"/>
+					<variable name="waterSplashIntervalMultiplier" value="1.000"/>
+					<variable name="testMesh" value=""/>
+					<variable name="testTexture" value=""/>
+					<variable name="isWaterMill" value="false"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity old_prefab_name="" name="sturgia_windmill_fan_a_close">
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable value="Sphere" name="Trigger Shape"/>
+					<variable value="false" name="Is Triggered"/>
+					<variable value="false" name="Send Mood Parameter"/>
+					<variable value="false" name="Send Rainfall Parameter"/>
+					<variable value="false" name="Send Daytime Parameter"/>
+					<variable value="" name="Overrided Event Path (Winter)"/>
+					<variable value="" name="Overrided Event Path (Fall)"/>
+					<variable value="" name="Overrided Event Path (Summer)"/>
+					<variable value="" name="Overrided Event Path (Spring)"/>
+					<variable value="1.000000" name="Overrided Pitch"/>
+					<variable value="0.000000" name="Overrided Volume"/>
+					<variable value="4.000000" name="Overrided Min Distance"/>
+					<variable value="50.000000" name="Overrided Max Distance"/>
+					<variable value="true" name="Play On Startup"/>
+					<variable value="false" name="Overrided Parameters"/>
+					<variable value="event:/mission/ambient/detail/building/windmill" name="Event Path"/>
+				</variables>
+			</script>
+			<script name="WindMill">
+				<variables>
+					<variable value="false" name="isWaterMill"/>
+					<variable value="" name="testTexture"/>
+					<variable value="" name="testMesh"/>
+					<variable value="1.000" name="waterSplashIntervalMultiplier"/>
+					<variable value="0.000" name="waterSplashPhaseOffset"/>
+					<variable value="100.000" name="rotationSpeed"/>
+				</variables>
+			</script>
+		</scripts>
+		<components>
+			<meta_mesh_component name="sturgia_windmill_fan_a_close"/>
+		</components>
+		<physics mass="1.000" override_material="wood" shape="bo_sturgia_windmill_fan_a_open"/>
+		<edit_mode_data selection_group_mask="0"/>
+	</game_entity>
+	<game_entity name="sturgia_town_house_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_a"/>
+		</components>
+		<children>
+			<game_entity name="scene: sturgia_town_house_a" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-3.305, -7.668, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="scene: sturgia_town_house_a_interior" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="13.832, 2.448, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sturgia_town_house_a_interior" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_a_interior" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_a_interior"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_b" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_b"/>
+		</components>
+		<children>
+			<game_entity name="scene: sturgia_town_house_b_interior" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-0.631, -8.241, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sturgia_town_house_b_interior" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_b_interior" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_b_interior"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_c" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_c">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_c"/>
+		</components>
+		<children>
+			<game_entity name="scene: sturgia_town_house_c_interior" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-0.292, -8.837, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+			<game_entity name="scene: sturgia_town_house_c_interior" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-9.693, 9.279, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sturgia_town_house_c_interior" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_c_interior" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_c_interior"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_f_gatehouse" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_f_gatehouse">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_f_gatehouse" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_f_gatehouse"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_g_shed_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_g_shed_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_g_shed_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_g_shed_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_g_shed_b" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_g_shed_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_g_shed_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_g_shed_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_g_shed_door_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_g_shed_door_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_g_shed_door_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_g_shed_wall_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_g_shed_wall_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_g_shed_wall_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_town_house_f_shed" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_f_shed" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_f_shed"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_arena_grandstand_a" old_prefab_name="">
+		<transform position="133.524, 170.249, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_arena_grandstand_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_arena_grandstand_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_arena_grandstand_b" old_prefab_name="">
+		<transform position="152.700, 169.240, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_arena_grandstand_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_arena_grandstand_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_arena_grandstand_c" old_prefab_name="">
+		<transform position="170.071, 168.403, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_arena_grandstand_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_arena_grandstand_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_arena_grandstand_d" old_prefab_name="">
+		<transform position="189.550, 168.497, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_arena_grandstand_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_arena_grandstand_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_arena_wall_a" old_prefab_name="">
+		<transform position="204.597, 167.645, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_arena_wall_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_arena_wall_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_arena_tower_a" old_prefab_name="">
+		<transform position="215.715, 167.607, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_arena_tower_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_arena_tower_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_arena_main_building" old_prefab_name="">
+		<transform position="230.249, 169.236, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_arena_main_building" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_arena_main_building"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_arena_wall_patch_a" old_prefab_name="">
+		<transform position="246.848, 168.640, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_arena_wall_patch_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_arena_wall_patch_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_arena_stakes_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_arena_stakes_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_arena_stakes_a"/>
+		</components>
+		<levels>
+			<level name="base"/>
+		</levels>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="sturgia_arena_wall_b" old_prefab_name="">
+		<transform position="160.455, 179.909, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_arena_wall_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_arena_wall_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_arena_detailstones_a" old_prefab_name="">
+		<transform position="141.977, 166.437, 0.000" rotation_euler="0.000, 0.000, 0.306"/>
+		<physics shape="bo_sturgia_arena_detailstones_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_arena_detailstones_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="tavern_sturgia_table_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tavern_sturgia_table_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tavern_sturgia_table_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="tavern_sturgia_table_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tavern_sturgia_table_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tavern_sturgia_table_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="tavern_sturgia_table_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tavern_sturgia_table_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tavern_sturgia_table_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_entrance_a">
+		<physics shape="bo_sturgia_dungeon_entrance_a"/>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_entrance_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_entrance_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_dungeon_entrance_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_entrance_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_door_a_opened" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_dungeon_door_a_opened" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_door_a_opened"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_door_a_closed" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_dungeon_door_a_closed" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_door_a_closed"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_door_a_empty_1" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_dungeon_door_a_empty_1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_door_a_empty_1"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_door_a_empty_2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_dungeon_door_a_empty_2" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_door_a_empty_2"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_room_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_dungeon_room_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_room_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_room_b">
+		<physics shape="bo_sturgia_dungeon_room_b"/>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_room_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_room_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_dungeon_room_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_room_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_corridor_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_dungeon_corridor_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_corridor_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_corridor_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_dungeon_corridor_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_corridor_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_corridor_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_dungeon_corridor_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_corridor_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_corridor_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_dungeon_corridor_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_corridor_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_corridor_connection_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_dungeon_corridor_connection_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_corridor_connection_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_stair_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_khuzait_dungeon_stair_a" mass="1.000">
+			<body_flags>
+				<body_flag name="has_steps"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_stair_a"/>
+		</components>
+		<children>
+			<game_entity name="sturgia_dungeon_stair_a_wall" old_prefab_name="">
+				<physics shape="bo_khuzait_dungeon_stair_a_wall" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_dungeon_stair_a_wall"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_stair_b_ramp" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_dungeon_stair_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_stair_b_ramp"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_stair_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_dungeon_stair_b" mass="1.000">
+			<body_flags>
+				<body_flag name="has_steps"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_stair_b"/>
+		</components>
+		<children>
+			<game_entity name="sturgia_dungeon_stair_b_wall" old_prefab_name="">
+				<physics shape="bo_sturgia_dungeon_stair_b_wall" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_dungeon_stair_b_wall"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_cells_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_dungeon_cells_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_cells_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_cell_door_closed" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_dungeon_cell_door_closed" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_cell_door_closed"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_dungeon_cell_door_opened" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_dungeon_cell_door_opened" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_dungeon_cell_door_opened"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_village_house_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_village_house_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_village_house_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_village_house_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_village_house_entrance" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_village_house_entrance">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_village_house_entrance" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_village_house_entrance"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_village_house_part_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_village_house_part_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_village_house_part_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_village_house_part_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_village_house_b" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_village_house_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_village_house_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_village_house_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_village_house_window" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_village_house_window">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_village_house_window" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_village_house_window"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_village_barn_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_village_barn_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_village_barn_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_village_barn_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_village_barn_b" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_village_barn_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_village_barn_b" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="sturgia_village_barn_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_village_house_c" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_village_house_c">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_village_house_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_village_house_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_village_house_d" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_village_house_d">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_village_house_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_village_house_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_village_tent_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_village_tent_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_village_tent_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_village_tent_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_village_tent_b" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_village_tent_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_village_tent_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_village_tent_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="village_tent_c" old_prefab_name="" occlusion_body_name="bo_occ_village_tent_c">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_village_tent_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="village_tent_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="village_tent_c2" old_prefab_name="" occlusion_body_name="bo_occ_village_tent_c2">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_village_tent_c2" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="village_tent_c2"/>
+		</components>
+	</game_entity>
+	<game_entity name="village_tent_d" old_prefab_name="" occlusion_body_name="bo_occ_village_tent_d">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_village_tent_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="village_tent_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="village_tent_d_up" old_prefab_name="" occlusion_body_name="bo_occ_village_tent_d_up">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_village_tent_d_up" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="village_tent_d_up"/>
+		</components>
+	</game_entity>
+	<game_entity name="village_tent_e" old_prefab_name="" occlusion_body_name="bo_occ_village_tent_e">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_village_tent_e" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="village_tent_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="village_tent_e2" old_prefab_name="" occlusion_body_name="bo_occ_village_tent_e2">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_village_tent_e2" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="village_tent_e2"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_village_house_f" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_village_house_f">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_village_house_f" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_village_house_f"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_village_house_g" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_village_house_g">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_village_house_g" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_village_house_g"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_castle_keep_a_l3_interior" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_castle_keep_a_l3_interior" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_castle_keep_a_l3_interior"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_castle_keep_a_l2" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_keep_a_l2">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_castle_keep_a_l2"/>
+		<components>
+			<meta_mesh_component name="sturgia_castle_keep_a_l2"/>
+		</components>
+		<children>
+			<game_entity name="sturgia_castle_keep_a_l2_side" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_keep_a_l2_side">
+				<transform rotation_euler="0.000, 0.000, 1.571"/>
+				<physics shape="bo_sturgia_castle_keep_a_l2_side"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_keep_a_l2_side"/>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_castle_keep_a_l2_side" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_keep_a_l2_side">
+				<transform rotation_euler="0.000, 0.000, -1.571"/>
+				<physics shape="bo_sturgia_castle_keep_a_l2_side"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_keep_a_l2_side"/>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_castle_keep_a_l2_side" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_keep_a_l2_side">
+				<physics shape="bo_sturgia_castle_keep_a_l2_side"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_keep_a_l2_side"/>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_castle_keep_a_l2_tower" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_keep_a_l2_tower">
+				<transform position="10.800, 10.800, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+				<physics shape="bo_sturgia_castle_keep_a_l2_tower"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_keep_a_l2_tower"/>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_castle_keep_a_l2_tower" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_keep_a_l2_tower">
+				<transform position="10.800, -10.800, 0.000"/>
+				<physics shape="bo_sturgia_castle_keep_a_l2_tower"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_keep_a_l2_tower"/>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_castle_keep_a_l2_tower" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_keep_a_l2_tower">
+				<transform position="-10.800, -10.800, 0.000" rotation_euler="0.000, 0.000, -1.571"/>
+				<physics shape="bo_sturgia_castle_keep_a_l2_tower"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_keep_a_l2_tower"/>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_castle_keep_a_l2_tower" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_keep_a_l2_tower">
+				<transform position="-10.800, 10.800, 0.000" rotation_euler="0.000, 0.000, -3.142"/>
+				<physics shape="bo_sturgia_castle_keep_a_l2_tower"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_keep_a_l2_tower"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sturgia_stone_a" old_prefab_name="">
+		<physics shape="bo_sturgia_stone_a"/>
+		<components>
+			<meta_mesh_component name="sturgia_stone_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_stone_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_stone_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_stone_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_castle_keep_a_l2_interior" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_keep_a_l2_interior">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_castle_keep_a_l2_interior" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_castle_keep_a_l2_interior"/>
+		</components>
+		<children>
+			<game_entity name="sturgia_castle_keep_a_l2_interior_03" old_prefab_name="">
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_keep_a_l2_interior_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_castle_keep_a_l2_interior_02" old_prefab_name="">
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_keep_a_l2_interior_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_castle_keep_a_l2_interior_01" old_prefab_name="">
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_keep_a_l2_interior_01"/>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_castle_keep_a_l2_steps" old_prefab_name="">
+				<physics shape="bo_sturgia_castle_keep_a_l2_steps" mass="1.000">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="sturgia_castle_keep_a_l2_steps"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sturgia_grandbazaar_shop_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_shop_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_grandbazaar_shop_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="sturgia_grandbazaar_shop_a"/>
+		</components>
+		<children>
+			<game_entity name="sturgia_grandbazaar_shop_a_window" old_prefab_name="">
+				<transform position="0.000, 0.000, 0.000"/>
+				<physics shape="bo_sturgia_grandbazaar_shop_a_window" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_shop_a_window"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="sturgia_grandbazaar_shop_b" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_shop_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_grandbazaar_shop_b" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="sturgia_grandbazaar_shop_b"/>
+		</components>
+		<children>
+			<game_entity name="sturgia_grandbazaar_shop_b_window_a" old_prefab_name="">
+				<transform position="-0.294, 3.236, 3.793"/>
+				<physics shape="bo_sturgia_grandbazaar_shop_b_window_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_shop_b_window_a"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_grandbazaar_shop_b_window_b" old_prefab_name="">
+				<transform position="7.092, 3.267, 3.805" rotation_euler="0.000, 0.000, 0.005"/>
+				<physics shape="bo_sturgia_grandbazaar_shop_b_window_b" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_shop_b_window_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="sturgia_grandbazaar_shop_c" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_shop_c">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_grandbazaar_shop_c"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="sturgia_grandbazaar_shop_c"/>
+		</components>
+		<children>
+			<game_entity name="sturgia_grandbazaar_shop_c_window" old_prefab_name="">
+				<transform position="-0.311, 3.244, 3.768"/>
+				<physics shape="bo_sturgia_grandbazaar_shop_c_window"/>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_shop_c_window"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity occlusion_body_name="bo_occ_sturgia_grandbazaar_ground_a" old_prefab_name="" name="sturgia_grandbazaar_ground_a">
+		<levels>
+			<level name="level_3"/>
+			<level name="level_2"/>
+			<level name="level_1"/>
+			<level name="base"/>
+		</levels>
+		<components>
+			<meta_mesh_component name="sturgia_grandbazaar_ground_a"/>
+		</components>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<physics mass="1.000" shape="bo_sturgia_grandbazaar_ground_a"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity occlusion_body_name="bo_occ_sturgia_grandbazaar_big_wall_a" old_prefab_name="" name="sturgia_grandbazaar_big_wall_a">
+		<levels>
+			<level name="level_3"/>
+			<level name="level_2"/>
+			<level name="level_1"/>
+			<level name="base"/>
+		</levels>
+		<components>
+			<meta_mesh_component name="sturgia_grandbazaar_big_wall_a"/>
+		</components>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<physics mass="1.000" shape="bo_sturgia_grandbazaar_big_wall_a"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity occlusion_body_name="bo_occ_sturgia_grandbazaar_big_wall_b" old_prefab_name="" name="sturgia_grandbazaar_big_wall_b">
+		<levels>
+			<level name="level_3"/>
+			<level name="level_2"/>
+			<level name="level_1"/>
+			<level name="base"/>
+		</levels>
+		<components>
+			<meta_mesh_component name="sturgia_grandbazaar_big_wall_b"/>
+		</components>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<physics mass="1.000" shape="bo_sturgia_grandbazaar_big_wall_b"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity occlusion_body_name="bo_occ_sturgia_grandbazaar_ground_b" old_prefab_name="" name="sturgia_grandbazaar_ground_b">
+		<levels>
+			<level name="level_3"/>
+			<level name="level_2"/>
+			<level name="level_1"/>
+			<level name="base"/>
+		</levels>
+		<components>
+			<meta_mesh_component name="sturgia_grandbazaar_ground_b"/>
+		</components>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<physics mass="1.000" shape="bo_sturgia_grandbazaar_ground_b"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity name="sturgia_grandbazaar_shop_door_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_shop_door_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_grandbazaar_shop_door_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="sturgia_grandbazaar_shop_door_a"/>
+		</components>
+		<children>
+			<game_entity name="sturgia_grandbazaar_shop_door_b" old_prefab_name="">
+				<transform position="-0.800, 0.121, 1.637"/>
+				<physics shape="bo_sturgia_grandbazaar_shop_door_b" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_shop_door_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity occlusion_body_name="bo_occ_sturgia_grandbazaar_gate" old_prefab_name="" name="sturgia_grandbazaar_gate">
+		<levels>
+			<level name="level_3"/>
+			<level name="level_2"/>
+			<level name="level_1"/>
+			<level name="base"/>
+		</levels>
+		<components>
+			<meta_mesh_component name="sturgia_grandbazaar_gate"/>
+		</components>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<physics mass="1.000" shape="bo_sturgia_grandbazaar_gate"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity name="sturgia_grandbazaar_gate_door_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_gate_door_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_grandbazaar_gate_door_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="sturgia_grandbazaar_gate_door_a"/>
+		</components>
+		<children>
+			<game_entity name="sturgia_grandbazaar_gate_door_b" old_prefab_name="">
+				<transform position="-1.735, 0.192, 1.897"/>
+				<physics shape="bo_sturgia_grandbazaar_gate_door_b" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_gate_door_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_grandbazaar_gate_door_c" old_prefab_name="">
+				<transform position="1.732, 0.184, 1.860" rotation_euler="0.000, 0.000, -0.004"/>
+				<physics shape="bo_sturgia_grandbazaar_gate_door_c" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_gate_door_c"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity occlusion_body_name="bo_occ_sturgia_grandbazaar_stair_a" old_prefab_name="" name="sturgia_grandbazaar_stair_a">
+		<levels>
+			<level name="level_3"/>
+			<level name="level_2"/>
+			<level name="level_1"/>
+			<level name="base"/>
+		</levels>
+		<components>
+			<meta_mesh_component name="sturgia_grandbazaar_stair_a"/>
+		</components>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<physics mass="1.000" shape="bo_sturgia_grandbazaar_stair_a"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity occlusion_body_name="bo_occ_sturgia_grandbazaar_stone_fence_a" old_prefab_name="" name="sturgia_grandbazaar_stone_fence_a">
+		<levels>
+			<level name="level_3"/>
+			<level name="level_2"/>
+			<level name="level_1"/>
+			<level name="base"/>
+		</levels>
+		<components>
+			<meta_mesh_component name="sturgia_grandbazaar_stone_fence_a"/>
+		</components>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<physics mass="1.000" shape="bo_sturgia_grandbazaar_stone_fence_a"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity occlusion_body_name="bo_occ_sturgia_grandbazaar_stone_fence_b" old_prefab_name="" name="sturgia_grandbazaar_stone_fence_b">
+		<levels>
+			<level name="level_3"/>
+			<level name="level_2"/>
+			<level name="level_1"/>
+			<level name="base"/>
+		</levels>
+		<components>
+			<meta_mesh_component name="sturgia_grandbazaar_stone_fence_b"/>
+		</components>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<physics mass="1.000" shape="bo_sturgia_grandbazaar_stone_fence_b"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity occlusion_body_name="bo_occ_sturgia_grandbazaar_stone_fence_c" old_prefab_name="" name="sturgia_grandbazaar_stone_fence_c">
+		<levels>
+			<level name="level_3"/>
+			<level name="level_2"/>
+			<level name="level_1"/>
+			<level name="base"/>
+		</levels>
+		<components>
+			<meta_mesh_component name="sturgia_grandbazaar_stone_fence_c"/>
+		</components>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<physics mass="1.000" shape="bo_sturgia_grandbazaar_stone_fence_c"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity name="sturgia_town_house_d1" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="sturgia_town_house_d1_entrance_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_d1_entrance_a">
+				<physics shape="bo_sturgia_town_house_d1_entrance_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d1_entrance_a"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d1_entrance_b" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_d1_entrance_b">
+				<physics shape="bo_sturgia_town_house_d1_entrance_b" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d1_entrance_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d1_entrance_c" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_d1_entrance_c">
+				<physics shape="bo_sturgia_town_house_d1_entrance_c" mass="1.000" center_of_mass="-1.253, -10.462, 0.722"/>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d1_entrance_c"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d1_facade_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_d1_facade_a">
+				<physics shape="bo_sturgia_town_house_d1_facade_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d1_facade_a"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d1_entrance_d" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_d1_entrance_d">
+				<physics shape="bo_sturgia_town_house_d1_entrance_d" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d1_entrance_d"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d1_roof_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_d1_roof_a">
+				<physics shape="bo_sturgia_town_house_d1_roof_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d1_roof_a"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d1_entrance_a_stair" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_d1_entrance_a_stair">
+				<transform position="-8.257, 7.564, 0.000"/>
+				<physics shape="bo_sturgia_town_house_d1_entrance_a_stair" mass="1.000">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d1_entrance_a_stair"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d1_entrance_b_stair" old_prefab_name="">
+				<transform position="-11.979, -18.028, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+				<physics shape="bo_sturgia_town_house_d1_entrance_b_stair" mass="1.000">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d1_entrance_b_stair"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="scene: sturgia_town_house_d1_interior_a" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="8.140, 1.535, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="scene: sturgia_town_house_d1_interior_b" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="9.591, -15.424, 6.449"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="scene: sturgia_town_house_d1_interior_b" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-9.693, -3.599, 5.926"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="scene: sturgia_town_house_d1_interior_a" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-2.415, -16.827, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pandora"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d1_entrance_e" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_d1_entrance_e">
+				<physics shape="bo_sturgia_town_house_d1_entrance_e" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d1_entrance_e"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d1_facade_b" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_d1_facade_b">
+				<physics shape="bo_sturgia_town_house_d1_facade_b" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d1_facade_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_town_house_d1_roof_windows_a" old_prefab_name="">
+				<physics shape="bo_sturgia_town_house_d1_roof_windows_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_town_house_d1_roof_windows_a"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="sturgia_town_house_d1_entrance_a_stair" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_d1_entrance_a_stair">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_d1_entrance_a_stair" mass="1.000">
+			<body_flags>
+				<body_flag name="has_steps"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_d1_entrance_a_stair"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="sturgia_town_house_d1_entrance_b_stair" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_d1_entrance_b_stair" mass="1.000">
+			<body_flags>
+				<body_flag name="has_steps"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_d1_entrance_b_stair"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="sturgia_house_a_stair" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_house_a_stair">
+			<body_flags>
+				<body_flag name="has_steps"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="sturgia_house_a_stair"/>
+		</components>
+	</game_entity>
+	<game_entity name="sturgia_windmill_a_stair" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_windmill_a_stair" mass="1.000">
+			<body_flags>
+				<body_flag name="has_steps"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="sturgia_windmill_a_stair"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="sturgia_house_d_interior_b" old_prefab_name="" season_mask="255">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_house_d_interior_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sturgia_house_d_interior_b"/>
+		</components>
+	</game_entity>
+</prefabs>
+

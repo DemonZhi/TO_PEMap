@@ -1,0 +1,9 @@
+8
+mesh animation_stand_arrow_green
+mesh icon_camera
+prefab envmap_prop
+texture cg_25c
+texture conv_aserai_lordshall_skybox
+texture lens_dirt
+texture lens_star
+texture sun_core2

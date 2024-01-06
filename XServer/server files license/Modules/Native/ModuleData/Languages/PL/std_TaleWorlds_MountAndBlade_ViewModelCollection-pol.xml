@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="0647tsif" text="Profil" />
+    <string id="08KLQa3P" text="Oczekiwanie na członków grupy" />
+    <string id="0af2iQvw" text="Klan nie ma żadnych ogłoszeń" />
+    <string id="0B27RrYJ" text="Batania" />
+    <string id="0DnHFlia" text="Nie jest w klanie" />
+    <string id="0FVlAbbJ" text="{.N}Złoto{.n} III" />
+    <string id="0Itt3bZM" text="Aktualna wersja dokumentu przypisania klawiszy jest przestarzała. Przypisanie zostało przywrócone do wartości domyślnych." />
+    <string id="0tUYng4e" text="Awansowano!" />
+    <string id="18yFEEIL" text="{.MI}Przewidywany{.aj} {.MI}czas{.nn} oczekiwania" />
+    <string id="1A1t1naG" text="Trwająca gra rankingowa została opuszczona. Połącz się z nią ponownie." />
+    <string id="1Bm1Wk1v" text="{.F}Piechota" />
+    <string id="1hlaGzGI" text="Patrz" />
+    <string id="1hnq3Kb1" text="Czy na pewno chcesz zresetować wszystkie ustawienia? Zmiany zostaną utracone." />
+    <string id="1imGhhZl" text="Asysty" />
+    <string id="1JlzQIXE" text="Wyłączono" />
+    <string id="1pwQgr04" text="Prośba o konfigurację meczu" />
+    <string id="2AGvFYk9" text="Aby rozpocząć misję, musisz mieć co najmniej jedną formację {FORMATION_CLASS}{.g}." />
+    <string id="2baWg4Gq" text="{.MP}Gospodarz" />
+    <string id="2faDtaGz" text="{.N}Złoto{.n} I" />
+    <string id="2FaZ6E1k" text="Stosunek zabójstw do zgonów" />
+    <string id="2KZLf51A" text="Ukończone rozgrywki klasyfikujące" />
+    <string id="2YIVRuRa" text="Usuń ze znajomych" />
+    <string id="2zcrC0h1" text="Rozgrywka" />
+    <string id="3CpNUnVl" text="Anuluj" />
+    <string id="3CsACce8" text="Wyjdź" />
+    <string id="3sRdGQou" text="Odejdź" />
+    <string id="3VosbFR0" text="{.MP}Wlandyjski{.aj} {.MP}czempion{.nn}" />
+    <string id="4Dd2xgPm" text="Waga" />
+    <string id="4dRTWSN3" text="{.MI}Punkt{.nnp}" />
+    <string id="4gCU2ykB" text="Przywróć domyślne funkcje przycisków" />
+    <string id="4NaOKslb" text="-" />
+    <string id="4nr9Km6t" text="{.F}Porażka{.nnp}" />
+    <string id="4PrfimcK" text="{.F}Odznaka" />
+    <string id="4ZE6i9nW" text="Opuść klan" />
+    <string id="56FyokuX" text="Włączony swobodny tryb gry" />
+    <string id="5baU17n0" text="Konfiguracja meczu jest obecnie niedostępna" />
+    <string id="5coyTZOI" text="Rozgrywka się rozpoczyna!" />
+    <string id="5gGyaTPL" text="Połącz ponownie" />
+    <string id="5Ixsvn3s" text="Włącz/wyłącz tablicę wyników" />
+    <string id="5k4dxUEJ" text="Żołnierze" />
+    <string id="5Pea977J" text="Frakcja: " />
+    <string id="5tbWdY1j" text="Awatar" />
+    <string id="5Xoilj6r" text="Okrzyk" />
+    <string id="5Z0pvuNL" text="Poziom {LEVEL}" />
+    <string id="5zNfxZ7B" text="{.MP}Książę{.nn} wojny" />
+    <string id="61isYVW0" text="Nie znaleziono gracza {USER_NAME}" />
+    <string id="65oGXBYQ" text="Stwórz" />
+    <string id="67hsZZor" text="Czy na pewno chcesz opuścić swój klan?" />
+    <string id="6GSXsdeX" text="Szybkość" />
+    <string id="6MQaCah5" text="Dołącz do gry" />
+    <string id="6mZymVS8" text="Posiadasz najwyższą rangę" />
+    <string id="6syoutpV" text="Od: {WHISPER_TARGET}" />
+    <string id="6zYeU0VO" text="Rozłączono z rozgrywką" />
+    <string id="74PKmRWJ" text="Obróć włosy" />
+    <string id="76HlhP7r" text="Aby opuścić klan, musisz przekazać dowodzenie innemu członkowi" />
+    <string id="76VR5o8h" text="Musisz odczekać {SECONDS} sek. przed wysłaniem kolejnej wiadomości." />
+    <string id="77jmd4QF" text="Wycisz na stałe" />
+    <string id="7APa598U" text="Zabójstwa machiną oblężniczą" />
+    <string id="7gQkFJqA" text="Do kolejnej rangi potrzebujesz {RATING} pkt." />
+    <string id="7jhe9cT9" text="Musisz posiadać co najmniej jedną formację tego typu więcej, by zmienić typ tej formacji." />
+    <string id="7jMnNlXG" text="Zmień preferencje areny" />
+    <string id="7qySRF2T" text="Ping" />
+    <string id="7R0i82Nw" text="Zmień symbol" />
+    <string id="7uILxbP5" text="Otrzymasz ten przedmiot" />
+    <string id="7vbGaapv" text="Twoje łupy: {LOOT}" />
+    <string id="7XtICVeZ" text="Pole widzenia" />
+    <string id="82LuSDnd" text="Szybki ruch kursora w lewo" />
+    <string id="8byRf9zO" text="{.MP}Generał{.nn}" />
+    <string id="8eZFlPVu" text="Zgony" />
+    <string id="8nJFaJio" text="Hasło" />
+    <string id="8OkPHu4f" text="Nie" />
+    <string id="942B3LfA" text="Odrzuć zaproszenie do znajomych" />
+    <string id="9ET13VOe" text="Średni wynik" />
+    <string id="9FSk2daF" text="Zabici kapitanowie" />
+    <string id="9hJtoWot" text="{.N}Złoto{.n} II" />
+    <string id="9M4G8DDd" text="Twoja drużyna zostaje wyeliminowana" />
+    <string id="9P0VL49j" text="Nie masz dostępu do gry wieloosobowej." />
+    <string id="9pgOGq7X" text="{.M}Dziennik" />
+    <string id="9w9JsBYP" text="Opuść grupę" />
+    <string id="a9TcHtVw" text="Frakcja B" />
+    <string id="AaAcmalE" text="Otrzymujesz zaproszenie do grupy od" />
+    <string id="aalbxe7z" text="Wielkość armii" />
+    <string id="ab2cbidI" text="Łączny wynik" />
+    <string id="aB4Md0if" text="Ma graczy" />
+    <string id="aBCi76ig" text="Pokaż więcej" />
+    <string id="abxndmIh" text="Społeczność" />
+    <string id="ADKHovtz" text="Resetuj rozmieszczenie" />
+    <string id="ADPaaX8R" text="Najlepsi gracze tej bitwy" />
+    <string id="aeouhelq" text="Tak" />
+    <string id="aGGq9lJT" text="Zmień kulturę" />
+    <string id="Agtv9l7S" text="Ta nazwa już istnieje" />
+    <string id="AGUXiN8u" text="{.MP}Wojewoda" />
+    <string id="ahiBhAqU" text="Zbroja" />
+    <string id="aO3avkK9" text="Konfiguracja meczu wyłączona" />
+    <string id="ApD0xQXT" text="{STR1}: {STR2}" />
+    <string id="aRzlp5XH" text="STWÓRZ" />
+    <string id="aseraifaction" text="Aseraj" />
+    <string id="atUHbDeM" text="Obracanie kamery na mapie" />
+    <string id="aVixswW5" text="Wybór drużyny" />
+    <string id="aVNXGUQI" text="Nie można obecnie znaleźć graczy o maksymalnej randze {MAX_RANK}." />
+    <string id="aWzdkfvn" text="Nie należysz obecnie do żadnego klanu ani żadnego nie posiadasz. Musisz stworzyć grupę innych graczy nienależących do klanów, aby założyć własny." />
+    <string id="aZnS9ECC" text="Zaproś" />
+    <string id="AZSbwcG5" text="Wycisz wszystkich" />
+    <string id="b1DHZsaH" text="Nie można teraz wydawać rozkazów." />
+    <string id="B1KQ4i9q" text="Nie zdobyto jeszcze odznaki. Sprawdź, jakie musisz wypełnić warunki." />
+    <string id="b2aqL7T2" text="Utracono" />
+    <string id="b31ITmm0" text="Grupuj amunicję" />
+    <string id="B5bcj3pC" text="W posiadaniu" />
+    <string id="Ba50zU7Z" text="Zmień" />
+    <string id="BAaS5Dkc" text="Zastosuj" />
+    <string id="BANC61K5" text="{.F}Poprzednia{.aj} {.F}postać{.nn}" />
+    <string id="BBmEESTT" text="Ten serwer pozwala na korzystanie z modułów opcjonalnych." />
+    <string id="bD8nTS86" text="Rzadkość" />
+    <string id="bExIl1A2" text="Długość nazwy jest nieprawidłowa" />
+    <string id="bfQLwMUp" text="Klany" />
+    <string id="bhQiSzOU" text="Profil nie jest dostępny" />
+    <string id="bIcFZT6L" text="Rodzaj brwi" />
+    <string id="bjJkW9dO" text="Wyświetl profil" />
+    <string id="bLPSaLNv" text="Szybki ruch kursora w prawo" />
+    <string id="bn0v5ST0" text="Awans!" />
+    <string id="bON4Kn6B" text="Automatyczne przypisywanie" />
+    <string id="BrjpmaJH" text="Przegrane gry" />
+    <string id="BrYUHFsg" text="WYBIERZ GRĘ" />
+    <string id="bsiRNJtk" text="{NAME}:" />
+    <string id="BSUteZmt" text="Przyjmij zaproszenie do znajomych" />
+    <string id="BUOtUW1u" text="{RATING} pkt." />
+    <string id="bXAIlBHv" text="Nazwa nie może zawierać obraźliwych słów" />
+    <string id="BXI1ObU8" text="Awansuj na oficera klanu" />
+    <string id="bynNUfSr" text="Twoja grupa ma za mało członków, aby stworzyć klan" />
+    <string id="BZcFB1My" text="Poczekaj, nastąpi ponowne połączenie z grą" />
+    <string id="c0ZdKSkn" text="Oczekiwanie" />
+    <string id="c6c9eYrD" text="Przeciwnej drużynie zabrakło morale" />
+    <string id="C7OHivNl" text="Osoba z grona twoich znajomych, &lt;a style=&quot;Strong&quot;&gt;&lt;b&gt;{PLAYER_NAME}&lt;/b&gt;&lt;/a&gt;, prosi cię o zaproszenie do grupy poniższego gracza." />
+    <string id="CacPs8hA" text="{.N}Brąz{.n} I" />
+    <string id="CCBcdzGa" text="To spowoduje przywrócenie WSZYSTKICH opcji tej kategorii do wartości domyślnych. Tej akcji nie można cofnąć. {newline} {newline}Na pewno chcesz to zrobić?" />
+    <string id="cDzWYQrz" text="Przywrócić ustawienia domyślne?" />
+    <string id="CIVPNf2d" text="Usuń stałe wyciszenie" />
+    <string id="cK5DE88I" text="Nd." />
+    <string id="cl2DnRYR" text="Nazwa nie może zawierać obraźliwych słów" />
+    <string id="cLJdeUWz" text="Wzrost:" />
+    <string id="clxT9H4T" text="Wprowadź imię" />
+    <string id="CNR4cZwZ" text="Zgodność modułów" />
+    <string id="cO2FDHCa" text="Za {DUEL_REMAINING_TIME} sek. rozpoczyna się pojedynek z przeciwnikiem: {OPPONENT_NAME}." />
+    <string id="CW2JkWzC" text="Czy na pewno chcesz usunąć to ogłoszenie?" />
+    <string id="cw5QyeRU" text="Przyczyna zgłoszenia" />
+    <string id="cZNA5Z6l" text="Formacja {NUMBER}" />
+    <string id="D0TbQm4r" text="WYŁOM" />
+    <string id="d1tCz15N" text="Przytrzymaj, by upuścić" />
+    <string id="d5SNB0HV" text="Podnieś {._}{ITEM_NAME}{.a}" />
+    <string id="d7ysGcsN" text="Usuń znajomego" />
+    <string id="D9zIAw9y" text="Zaproszenie do klanu" />
+    <string id="DAVb2Pzg" text="Obrażenia od szarży" />
+    <string id="Dbkx4v90" text="RUNDA PRZEGRANA" />
+    <string id="Dc3fFblo" text="Przeciwna drużyna zdobywa przewagę w dogrywce" />
+    <string id="Dhb2N5JD" text="Naciśnij {KEY}, by przełączyć kanał" />
+    <string id="dismissnotification" text="Zamknij" />
+    <string id="dkPL25g9" text="Oczekiwanie na wrogą drużynę" />
+    <string id="DKqLY1aJ" text="Użyj" />
+    <string id="DmaP2qaR" text="Typ skóry" />
+    <string id="dMdmyb3Y" text="Chronione hasłem" />
+    <string id="DQvGNQ0g" text="Nie ma oddziału, którym można by dowodzić." />
+    <string id="DraJ6bxq" text="Głosuj na następną mapę" />
+    <string id="DUrxKsJj" text="{.N}Srebro{.n} I" />
+    <string id="DvnRkWQg" text="Przenieś żołnierzy do: {FORMATION_INDEX}" />
+    <string id="DXczLzml" text="{.MI}Status" />
+    <string id="dxlkHhw5" text="Wygrane gry" />
+    <string id="DyeaObj5" text="Anuluj wyszukiwanie gry przed wylogowaniem się." />
+    <string id="E0q43haK" text="Zaczekaj, aż logowanie dobiegnie końca." />
+    <string id="E3Bqugs0" text="Nierankingowa" />
+    <string id="e3IeNR9W" text="{.N}Brąz{.n} II" />
+    <string id="ebUrBmHK" text="Cena" />
+    <string id="ECb8IPbA" text="Stwórz klan" />
+    <string id="eCOJSSUH" text="(Boty: {BOT_COUNT})" />
+    <string id="eeJcVeQG" text="{.MI}Koniec{.nn} skupienia" />
+    <string id="EFU3uo0y" text="Zdobywasz {POINTS} pkt." />
+    <string id="eGuQKRhb" text="Opuszczasz obszar gry!" />
+    <string id="ehkVpzpa" text="Nie można otrzymać informacji kosmetycznych." />
+    <string id="empirefaction" text="Cesarstwo" />
+    <string id="EmVbbIUc" text="Powrót" />
+    <string id="EQAjujjO" text="Nie można pozyskać informacji o tworzeniu klanu" />
+    <string id="eQPSEUml" text="Porzucono" />
+    <string id="erp8X0KD" text="+{LOOT} za odznaki" />
+    <string id="Etjqamlh" text="Liczba graczy: {PLAYER_COUNT}" />
+    <string id="EUAKPHek" text="Budowa:" />
+    <string id="eWPN3HmE" text="{.N}Wybawienie{.nn} Batanii" />
+    <string id="F2h2cT4q" text="{.MP}Wybraniec{.nn} chana" />
+    <string id="f64QfbTO" text="Naciśnij {KEY}, aby wysłać" />
+    <string id="F70rOpkK" text="{.MP}Kapitan" />
+    <string id="F7dBjl83" text="Opcja własnej bitwy jest obecnie niedostępna" />
+    <string id="FaKWQccs" text="Złoto zdobyte dzięki celom" />
+    <string id="FD7EQDmW" text="Szukanie gry" />
+    <string id="fdR3xpBS" text="Odznaki MVP" />
+    <string id="ffjTMejn" text="Osiągnięcia" />
+    <string id="FgaORzy5" text="Odrzucono" />
+    <string id="FgFUsncP" text="Malejąco" />
+    <string id="FhnKJODX" text="Frakcja A" />
+    <string id="FjmxNxZJ" text="Tag zawiera nieprawidłowe znaki" />
+    <string id="FjwRsf1C" text="Wlandia" />
+    <string id="FKe05WtJ" text="Zab." />
+    <string id="fLddxLjh" text="Zaproś do klanu" />
+    <string id="fM9E7frB" text="Wydajność" />
+    <string id="FRSGOfUJ" text="Wł./wył. dziennik bitewny" />
+    <string id="ftoSCQ0x" text="Długość" />
+    <string id="FTXx0aRp" text="Graj jako" />
+    <string id="FvYhaE3z" text="{.MI}Sztandar" />
+    <string id="FzFqhHKU" text="Za mało łupu" />
+    <string id="g1lgiwn1" text="Nie zalogowano" />
+    <string id="g5W32uf4" text="Wprowadź ogłoszenie" />
+    <string id="G6hYIR5k" text="Barwa głosu:" />
+    <string id="g9VIbA9s" text="{.MP}Sierżant" />
+    <string id="gamepadActionKeybind" text="Akcja" />
+    <string id="gamepadMapKeybind" text="{.F}Mapa" />
+    <string id="gamevideo" text="Grafika" />
+    <string id="GAZ5QLZi" text="Bez broni" />
+    <string id="gcl2duJH" text="Zresetuj odznakę" />
+    <string id="Gcs49qcC" text="Klient nie posiada mapy ({MAP_NAME}) rozgrywanej na wczytanym serwerze lub mapy te nie są identyczne." />
+    <string id="gGa3ZhqN" text="Ten gracz zostanie automatycznie wyciszony." />
+    <string id="GGseMDd3" text="Trwałość" />
+    <string id="ghjSIyIL" text="Wybierz kulturę" />
+    <string id="gk5dCG1j" text="wyrzuć" />
+    <string id="GMhOZGnb" text="Nie możesz wydawać rozkazów, gdy nie żyjesz." />
+    <string id="GmU1to3Y" text="Statystyki" />
+    <string id="goQ0MZhr" text="Ten gracz nie ma aktywnego profilu w Bannerlord." />
+    <string id="gowlLS2b" text="Zdegraduj oficera klanu" />
+    <string id="GPfkMajw" text="Bitwa została zakończona" />
+    <string id="gqNxq11A" text="Cele" />
+    <string id="GRpGNYHW" text="Awansuj na przywódcę klanu" />
+    <string id="GXosklej" text="Swobodny" />
+    <string id="gzdNEM76" text="Stwórz grę" />
+    <string id="H1emUb6k" text="Wiek:" />
+    <string id="H5tiRTya" text="Trening" />
+    <string id="hbwp3g3k" text="+{FRIEND_COUNT} {newline} {?PLURAL}znajomych{?}znajomy{\?}" />
+    <string id="hCNnqVgK" text="Tag zawiera niewłaściwą treść" />
+    <string id="hdGay8xc" text="Ruch kursora na mapie" />
+    <string id="HEEZhL90" text="Wciśnij, by dodać do wyposażenia" />
+    <string id="HGqvwRJt" text="{.N}Srebro{.n} III" />
+    <string id="HH7LDwlK" text="Włącz/wyłącz przyspieszenie czasu" />
+    <string id="hiKTvBgF" text="Czy na pewno chcesz zresetować wprowadzone w tej zakładce zmiany? Zostaną wtedy utracone." />
+    <string id="hometab" text="Strona główna" />
+    <string id="hPbppi6E" text="Nie w lobby" />
+    <string id="HUndnpNw" text="Degradacja!" />
+    <string id="HXWpxvgT" text="{ACTION} ({SECONDS})" />
+    <string id="HXxNfncd" text="Koniec bitwy" />
+    <string id="i0esOr2l" text="Dowódca nie jedzie wierzchem!" />
+    <string id="i0OEsfLt" text="Własna bitwa wyłączona" />
+    <string id="i28Kjuay" text="Porusz postać" />
+    <string id="i2mNBaxE" text="Zdobądź" />
+    <string id="i3dJSlD0" text="Żadna z drużyn nie zdobyła przewagi w dogrywce" />
+    <string id="i4Oo6aoM" text="Pobieranie zawartości..." />
+    <string id="iCaRFZpG" text="wraz z tymi graczami" />
+    <string id="Ie9I2Bha" text="Obrażenia od pchnięć" />
+    <string id="iKtIhlbo" text="Rundy" />
+    <string id="imUnCFgZ" text="Zresetuj podgląd" />
+    <string id="iNqucBor" text="Logowanie" />
+    <string id="iPx4jep6" text="{.F}Ekspozycja" />
+    <string id="IS4SifJG" text="Zwyciężono" />
+    <string id="Ise5gWw3" text="Ukończone rozgrywki klasyfikujące: {PLAYED_GAMES} / {TOTAL_GAMES}" />
+    <string id="Iu2eFSsh" text="Zwycięstwa piechoty" />
+    <string id="J0vjDOFO" text="Szybkość pchnięć" />
+    <string id="J2wEawTl" text="Kategoria" />
+    <string id="j4F7tTzy" text="Klan" />
+    <string id="j5pLIV91" text="{.MI}Początek{.nn} skupienia" />
+    <string id="J5rb5YVV" text="/ {SCORE}" />
+    <string id="JdEiK70R" text="Ranking klanowy" />
+    <string id="JPimShCw" text="Typ gry" />
+    <string id="jPXglGWT" text="Przeciwna drużyna zostaje wyeliminowana" />
+    <string id="jR237DSU" text="Dowódca jedzie wierzchem!" />
+    <string id="jS5rrX8M" text="Nie ma zmian do zastosowania." />
+    <string id="JTMegIk4" text="Zaakceptowano" />
+    <string id="JXyxj1J5" text="Moduły" />
+    <string id="JY2pBVHQ" text="Ogłoszenia" />
+    <string id="JYIURZLb" text="+{LOOT} za rozgrywkę" />
+    <string id="jyJXcOLe" text="Tag nie może zawierać obraźliwych słów" />
+    <string id="K1Gb5a5Q" text="Musisz uruchomić grę z funkcją anti-cheat" />
+    <string id="k7fJ7TF0" text="Musi mieć długość co najmniej" />
+    <string id="K8CGzQYL" text="Otrzymane zaproszenia" />
+    <string id="kF3b8cH1" text="Stwórz swój klan" />
+    <string id="kftE5nvv" text="Zbroja konna" />
+    <string id="kG0xuyfE" text="Zbrojownia" />
+    <string id="klkYFik9" text="Ten gracz został już przez ciebie zgłoszony." />
+    <string id="KOVHgkVq" text="Głosowanie kończy się za:" />
+    <string id="koX9okuG" text="Brak" />
+    <string id="kVII0pqT" text="Pokaż kartę gracza" />
+    <string id="Kvqb1lQR" text="Wynik: {SCORE}" />
+    <string id="l2CNxPXG" text="Rodzaj uzębienia" />
+    <string id="L3DJHTdY" text="Podaj ID Bannerlord" />
+    <string id="L6eaNe2q" text="Czy na pewno chcesz wyrzucić gracza ({MEMBER_NAME}) z klanu?" />
+    <string id="lBn2pSBL" text="Członkowie" />
+    <string id="lGbrWyEe" text="Anuluj zaproszenie do znajomych" />
+    <string id="LlrlE199" text="Nadal możesz wysyłać machiny oblężnicze.\nRozpocząć mimo to?" />
+    <string id="lO1hok44" text="Nazwa zawiera nieprawidłowe znaki" />
+    <string id="LrE2cUnG" text="Obecnie wyłączone" />
+    <string id="lugGPVOb" text="Zaloguj" />
+    <string id="lWDq0Uss" text="DOŁĄCZ" />
+    <string id="lX9Qx7Wo" text="Rozpoczęcie kolejnej gry za:" />
+    <string id="LzdUwRJo" text="Wybierz region do szybkiej lub niestandardowej gry" />
+    <string id="m7vOLTpp" text="Rozdzielczość ekranu została zmieniona" />
+    <string id="macpKFaG" text="Głos" />
+    <string id="mAxXKaXp" text="Resetuj" />
+    <string id="MceLT3Zg" text="Kontroler bezprzewodowy" />
+    <string id="meFS5F4V" text="-{DAMAGE}" />
+    <string id="mFMPj9zg" text="Wyszukiwanie rozgrywki" />
+    <string id="MjnlWhih" text="Długość tagu jest nieprawidłowa" />
+    <string id="mOmFzU78" text="Rosnąco" />
+    <string id="mPCrz4rs" text="Zablokuj strukturę formacji." />
+    <string id="MPgnsZoo" text="Oczekiwanie na odpowiedź" />
+    <string id="MS4Ng2iw" text="Czy na pewno chcesz awansować gracza ({MEMBER_NAME}) na oficera klanu?" />
+    <string id="MssTzJJb" text="Przydziel na stanowisko dowódcze" />
+    <string id="MT4b8H9h" text="Niezn." />
+    <string id="mueocuFG" text="Pokazuj wskaźniki" />
+    <string id="N0DXasar" text="Trwa ponowne łączenie" />
+    <string id="n6yb5VCI" text="Odznaki za osiągnięcia" />
+    <string id="NaZ6xg33" text="Nie można było znaleźć pasującego serwera." />
+    <string id="nEpZvaEl" text="Szybki ruch kursora w dół" />
+    <string id="ngyMTaqr" text="Przydziel jako żołnierza-bohatera" />
+    <string id="NJolh9ye" text="Ostatnie gry" />
+    <string id="nLdQvaRK" text="Ustawienia areny zmieniono na: {ARENA_TYPE}." />
+    <string id="NLKmdNbt" text="Szukaj" />
+    <string id="NMh61YLB" text="Czy na pewno chcesz wyjść?" />
+    <string id="Npqlj5Ln" text="Cofnij zmiany" />
+    <string id="NqarFr4P" text="Opcje" />
+    <string id="nqYaiEo2" text="Moje odznaki" />
+    <string id="NuMQvQxg" text="{.MI}Okrzyk{.nnp}" />
+    <string id="NUSH5bJu" text="{EXPERIENCE} PD do następnego poziomu" />
+    <string id="NwiYsUwm" text="Klan nie ma opisu" />
+    <string id="nWJGjCgy" text="znaków" />
+    <string id="oBbiVeKE" text="Punkty życia" />
+    <string id="oeSrXaKt" text="Musisz zdegradować któregoś z oficerów." />
+    <string id="oF27vprQ" text="Głosuj na następną kulturę" />
+    <string id="oFWcihyW" text="Rozwiąż klan" />
+    <string id="oHaWR73d" text="OK" />
+    <string id="oibdTnXP" text="Sprawność" />
+    <string id="OiWquyWY" text="Musisz stać na czele grupy, aby stworzyć klan" />
+    <string id="OJbpmlXu" text="{.MP}Strzelec{.nnp}" />
+    <string id="OKUTPdaa" text="Poziom" />
+    <string id="ol0rBSrb" text="{STR1}{newline}{STR2}" />
+    <string id="oMiNaY1E" text="Osoba publikująca:" />
+    <string id="oMYz0PvL" text="Tracisz {POINTS} pkt." />
+    <string id="ou5KJERr" text="Naciśnij {KEY}, aby się ukryć" />
+    <string id="OUvFT99g" text="Tag" />
+    <string id="OVcoYxj1" text="Nazwa serwera" />
+    <string id="ovqtG4LS" text="Pokaż profil PlayStation™Network" />
+    <string id="OwqFpPwa" text="Filtry" />
+    <string id="oYS9sabI" text="(opcj.)" />
+    <string id="oyVeCtlg" text="Lista członków" />
+    <string id="oZc8oEAP" text="Zresetuj kategorię do wartości domyślnych" />
+    <string id="OzifZbSB" text="Rodzaj rozgrywki" />
+    <string id="ozREO8ev" text="Zmień ID Bannerlord" />
+    <string id="oZrVNUOk" text="{.MI}Błąd" />
+    <string id="P1MybNr7" text="Usuń ogłoszenie" />
+    <string id="P3IWytsr" text="Formacja obecnie jest pusta" />
+    <string id="P5Z9owOy" text="Symbol" />
+    <string id="P7moPm3F" text="Ustaw jako przywódcę grupy" />
+    <string id="p83IO9ls" text="Musisz wybrać kulturę" />
+    <string id="partykick" text="Wyrzuć" />
+    <string id="PDdh1sBj" text="Nazwa" />
+    <string id="PE5LqC9O" text="Rozgrywki drużynowe" />
+    <string id="peUP9ZZj" text="Na pewno? Dokonane przez ciebie zmiany nie zostaną zapisane." />
+    <string id="pguhTmXw" text="Wyniki bitwy" />
+    <string id="photomodefocus" text="{.N}Skupienie" />
+    <string id="PjO7oY16" text="Sturgia" />
+    <string id="pK4EyTZC" text="Czy chcesz zachować te ustawienia?" />
+    <string id="playgame" text="Graj" />
+    <string id="PmbKYDON" text="Wiwat" />
+    <string id="Po8jNaXb" text="Może zawierać tylko litery" />
+    <string id="pSb1P6ZA" text="Czy na pewno chcesz pozbawić gracza ({MEMBER_NAME}) rangi oficera klanu?" />
+    <string id="pSheKLB4" text="Obserwator" />
+    <string id="PUjDWe5j" text="Kultura" />
+    <string id="Pwi1YCjH" text="Skopiuj ID Bannerlord" />
+    <string id="q2Y7aHSF" text="Sugerowane zaproszenie" />
+    <string id="Q50X65NB" text="Klasy" />
+    <string id="q7VcSSbp" text="Wybierz symbol" />
+    <string id="qa9aOxLm" text="Czy chcesz dołączyć do tego klanu?" />
+    <string id="QDNcl3DH" text="Zaproszenie do grupy" />
+    <string id="qe46yXVJ" text="ZABLOKOWANE W CELU ZACHOWANIA BALANSU" />
+    <string id="qFPBhVh4" text="Odśwież" />
+    <string id="QfTt7YRB" text="Szybkość strzelania" />
+    <string id="qipBkhys" text="Zwycięstwa kawalerii" />
+    <string id="qmNeO8FG" text="{.F}Funkcja{.nnp} przycisków" />
+    <string id="QndVFTbx" text="Usuń z wyposażenia" />
+    <string id="qnxJYAs7" text="{.F}Grupa" />
+    <string id="qTYsYJ9V" text="Wyślij" />
+    <string id="QvDxB57o" text="{STR1} | {STR2}" />
+    <string id="QwbVdMLi" text="Wysłane zaproszenia" />
+    <string id="qXxpITdc" text="Kolor oczu:" />
+    <string id="qyuhC21P" text="chce wykonać czynność: {ACTION}" />
+    <string id="r223yChR" text="{.MI}Przegląd" />
+    <string id="R28ac5ij" text="Gracze: {NUMBER}" />
+    <string id="r5WzivPb" text="Czas rundy" />
+    <string id="Rc95Kq8r" text="Czekaj..." />
+    <string id="RCuCoVgd" text="RUNDA WYGRANA" />
+    <string id="RfXJdNye" text="Gracze" />
+    <string id="rg7OuWS2" text="Manewr" />
+    <string id="Rhcberxf" text="Oczekiwanie na serwer" />
+    <string id="RN6zHak0" text="Gracz" />
+    <string id="RNgWFLIO" text="Obrażenia od zamachnięć" />
+    <string id="Rov73lC3" text="Niezapisane zmiany" />
+    <string id="RSx1e5Wf" text="Edytuj postać" />
+    <string id="RVIKFCno" text="Przywróć domyślne" />
+    <string id="RvKwdXWs" text="{.MP}Dowódca" />
+    <string id="Rvr1bcu8" text="Dalej" />
+    <string id="rWm5udCd" text="Musisz wprowadzić poprawne ID Bannerlord" />
+    <string id="rx18kyZb" text="Dziennik bitewny" />
+    <string id="RzROgBkv" text="Zaproś do grupy" />
+    <string id="S2bKbhTc" text="ZNAJDŹ GRĘ AUTOMATYCZNIE" />
+    <string id="s31DnnAf" text="Obrażenia" />
+    <string id="s6qslcQY" text="{PERCENTAGE} ({TROOP_COUNT}/{TOTAL_TROOP_COUNT})" />
+    <string id="S8pZEPni" text="Wyrzuć z klanu" />
+    <string id="saZ1OvPt" text="Możesz nacisnąć przycisk zalogowania, by nawiązać połączenie" />
+    <string id="Sbb8YcJM" text="Usuń wybór wszystkich wybranych bohaterów" />
+    <string id="sEbeLmZP" text="Ten serwer nie pozwala na korzystanie z modułów opcjonalnych." />
+    <string id="sFDrUfNR" text="zbanuj" />
+    <string id="SfsnlbyK" text="Zmiany zostały zastosowane." />
+    <string id="SHiA1TRX" text="Włączenie modułu DedicatedCustomServerHelper pozwala na pobieranie map ze wspieranych serwerów!" />
+    <string id="SLY8z9fP" text="Wszystkie formacje są wybrane!" />
+    <string id="SoQcsslF" text="OBECNA DRUŻYNA" />
+    <string id="sPkRekRL" text="Szczegóły" />
+    <string id="SQpGQzTI" text="{.MI}Kontroler" />
+    <string id="SrfYbg3x" text="{.MP}Przywódca" />
+    <string id="SS5WyUWR" text="Wygrane pojedynki" />
+    <string id="suyl7WWa" text="Brak sztandaru w użyciu" />
+    <string id="sWnQva5O" text="Obecna ranga" />
+    <string id="SwSaXwQg" text="PD" />
+    <string id="SyklU5aP" text="Informacje" />
+    <string id="SYYOSOoa" text="W gotowości" />
+    <string id="sZLd6VHi" text="Huzaj" />
+    <string id="SzRVIPeZ" text="Wył. wyciszenie wszystkich" />
+    <string id="TAnabTdy" text="Celność" />
+    <string id="tC9C8TLi" text="Dodaj znajomego" />
+    <string id="Th8q8wC2" text="Łup" />
+    <string id="tidE1V1k" text="Akceptuj pojedynek" />
+    <string id="tjioq56N" text="Lista znajomych" />
+    <string id="Tlc2buKG" text="Oficjalny serwer" />
+    <string id="tSMckUw3" text="Zaproś członków" />
+    <string id="tTwQsP6j" text="Gracz nie istnieje" />
+    <string id="TxphX8Uk" text="Rozmieszczenie" />
+    <string id="TzYWE9tA" text="Nie znaleziono ostatnich gier" />
+    <string id="u0HNU5pA" text="Masz niezapisane zmiany. Czy chcesz je zastosować przed przejściem dalej?" />
+    <string id="U1rHNqOk" text="Naciśnij {KEY}, aby anulować" />
+    <string id="U4dzbzNb" text="Czekaj, nastąpi połączenie z serwerem" />
+    <string id="u78WUP9W" text="Szybki ruch kursora w górę" />
+    <string id="UEgS8RcB" text="Imię zawiera niewłaściwą treść" />
+    <string id="ulzyykHO" text="Ten tag już istnieje" />
+    <string id="un7poy9x" text="Podgląd" />
+    <string id="uOrwqeQl" text="Musisz wybrać ikonę symbolu" />
+    <string id="uoVKchoC" text="Region" />
+    <string id="usLhlY2j" text="Zaczekaj, aż pobieranie danych gracza dobiegnie końca." />
+    <string id="uTXYEAOg" text="[{STR}]" />
+    <string id="uUoSmCBS" text="Gra w Bannerlord" />
+    <string id="UwkpJq9N" text="Dodaj jako znajomego" />
+    <string id="V0bpuzV3" text="Podgląd jako" />
+    <string id="V0k0urbO" text="Otrzymano przedmiot" />
+    <string id="V2lpn6dc" text="Twoja prośba o zmianę ID Bannerlord została pomyślnie wysłana." />
+    <string id="V305MaOP" text="Online" />
+    <string id="v4hVLpap" text="Zaproś graczy do klanu" />
+    <string id="v6J8ILV3" text="Brak hasła" />
+    <string id="vBkrw5VV" text="Losowo" />
+    <string id="VFqoa6vD" text="Czy chcesz zaprosić tego gracza do swojej grupy?" />
+    <string id="vGF5S2hE" text="Tablica wyników" />
+    <string id="vlACTion" text="Odblokowano wszystkie odznaki!" />
+    <string id="vW1VgmaP" text="Czy na pewno chcesz rozwiązać swój klan?" />
+    <string id="VyMD4iRV" text="Żołnierze bohaterowie" />
+    <string id="W4DLzPSb" text="Serwer nie jest pełen" />
+    <string id="W51HSyXy" text="Naciśnij {VIEW_OPTIONS_KEY}, by wyświetlić opcje" />
+    <string id="w9m11T1y" text="{.F}Mapa" />
+    <string id="wGjQgQlY" text="Rozpoczęcie kolejnej gry za:" />
+    <string id="WHKG5Rbq" text="Ta drużyna chce dołączyć do stworzonej przez ciebie rozgrywki." />
+    <string id="WiNRdfsm" text="Gotowe" />
+    <string id="wkIVxzV6" text="Restart" />
+    <string id="wlz3eQWp" text="Brak zezwolenia na zaproszenie gracza." />
+    <string id="wNAl9o4A" text="Otrzymujesz zaproszenie od gracza" />
+    <string id="wNUcqcJP" text="Nazwa klanu" />
+    <string id="WOQZBmMx" text="Serwery" />
+    <string id="wTtyFa89" text="GRAJ" />
+    <string id="wubDWOlh" text="Wybierz profil" />
+    <string id="wuKqRvc3" text="Gra: {GAME_TYPES}  |  Region: {REGIONS}" />
+    <string id="WVauJViF" text="Gra kończy się za:" />
+    <string id="WW2N3zJf" text="Zwycięstwa" />
+    <string id="wwbIcqsq" text="{.MP}Zdobywca" />
+    <string id="WXAaWZVf" text="Wstecz" />
+    <string id="wyKhcvbd" text="Zwycięstwa strzelców" />
+    <string id="x1HZy70i" text="Twoja drużyna zdobywa przewagę w dogrywce" />
+    <string id="xebFLnH2" text="Dźwięk" />
+    <string id="XEGaQB2G" text="Postępy w randze" />
+    <string id="XJTX8w8M" text="Faza rozgrzewki – {GAME_MODE}/nCzeka na dołączenie innych graczy" />
+    <string id="xkV9g4le" text="Czy akceptujesz tego przeciwnika?" />
+    <string id="XKWGPrYt" text="Zniszczone machiny oblężnicze" />
+    <string id="Xsq7z0PG" text="{.N}Brąz{.n} III" />
+    <string id="xTv4tCbZ" text="Słuchajcie mnie, wszyscy!" />
+    <string id="XtVZe9cC" text="Nie można zdobyć przedmiotu" />
+    <string id="xXSFaGW8" text="Rozwiąż" />
+    <string id="xxuzZJ3G" text="Twojej drużynie zabrakło morale" />
+    <string id="y1AGNqyV" text="Tworzenie klanu nie jest dostępne" />
+    <string id="Y94H6XnK" text="Akceptuj" />
+    <string id="yA45PqFc" text="ZNAJDŹ GRĘ" />
+    <string id="YAaAlbkX" text="Średni czas gry" />
+    <string id="yfa7tpbK" text="Wszystko" />
+    <string id="yI9EV0II" text="Odznaki specjalne" />
+    <string id="YjbNtFcw" text="To spowoduje przywrócenie domyślnych funkcji WSZYSTKICH przycisków. {newline} {newline}Na pewno?" />
+    <string id="yJsE4Ayo" text="Szybkość zamachnięć" />
+    <string id="YLPJWgqF" text="Wyzwanie" />
+    <string id="YLZV7dxI" text="Ta arena należy do wybranego typu." />
+    <string id="YNkPy4ta" text="Rozgrywka klanowa" />
+    <string id="yQ0p8Glo" text="Wybierz kulturę" />
+    <string id="yQtzabbe" text="Zamknij" />
+    <string id="yRIPADWl" text="{TROOP_COUNT}/{TOTAL_TROOP_COUNT}" />
+    <string id="yS7PvrTD" text="OK" />
+    <string id="yUpH2mQ4" text="Amunicja" />
+    <string id="YVGtcLHF" text="Kawaleria" />
+    <string id="YwbymaBc" text="Wybierz wszystkich bohaterów" />
+    <string id="Z0TW2cub" text="Czy na pewno chcesz awansować gracza ({MEMBER_NAME}) na przywódcę klanu? Utracisz swoją pozycję." />
+    <string id="ZAejS7WF" text="Wybierz graczy, których chcesz zaprosić do swojego klanu" />
+    <string id="zBld61ck" text="Waga:" />
+    <string id="zEMWM4h3" text="Jest już w klanie" />
+    <string id="ZixS1b4u" text="Nie dowodzisz w tej bitwie." />
+    <string id="zjcZZgUY" text="{.MI}Efekt{.nn} sztandaru" />
+    <string id="znKxunbQ" text="{.F}Następna{.aj} {.F}postać{.nn}" />
+    <string id="zpAamvDv" text="{.N}Srebro{.n} II" />
+    <string id="zravuI1b" text="Wprowadź informacje o klanie" />
+    <string id="Zv1lg272" text="Offline" />
+    <string id="ZwN6rzTC" text="Brak zezwolenia" />
+    <string id="ZYF2t1VI" text="{.MP}Oficer" />
+  </strings>
+</base>

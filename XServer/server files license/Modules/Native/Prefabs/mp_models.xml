@@ -1,0 +1,307 @@
+<prefabs>
+	<game_entity name="mp_breach_wall_a" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="DestructableComponent">
+				<variables>
+					<variable name="DestructionStates" value="state1, state2, state3, state4"/>
+					<variable name="DestroyedByStoneOnly" value="true"/>
+					<variable name="CanBeDestroyedInitially" value="false"/>
+					<variable name="MaxHitPoint" value="8000.000"/>
+					<variable name="DestroyOnAnyHit" value="false"/>
+					<variable name="PassHitOnToParent" value="false"/>
+					<variable name="ReferenceEntityTag" value="reference"/>
+					<variable name="HeavyHitParticlesTag" value="light_hit"/>
+					<variable name="HeavyHitParticlesThreshold" value="20.000"/>
+					<variable name="ParticleEffectOnDestroy" value=""/>
+					<variable name="SoundEffectOnDestroy" value="event:/mission/siege/door/break"/>
+					<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+					<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+					<variable name="BattleSide" value="Defender"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="state2" old_prefab_name="" visible="false" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<tags>
+					<tag name="state_2"/>
+					<tag name="reference"/>
+				</tags>
+				<physics shape="bo_mp_breach_wall_a_state2" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="mp_breach_wall_a_state2"/>
+				</components>
+				<scripts>
+					<script name="SynchedMissionObject">
+						<variables>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="particles" old_prefab_name="" mobility="1">
+						<transform position="-1.120, -1.540, 5.640"/>
+						<physics mass="1.000"/>
+						<components>
+							<particle_system_instanced_component>
+								<effect_ref base_effect="{15527AB4-B1E3-4D90-AA63-865B65FABE87}"/>
+							</particle_system_instanced_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="state1" old_prefab_name="" visible="false" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<tags>
+					<tag name="state_1"/>
+					<tag name="reference"/>
+				</tags>
+				<physics shape="bo_mp_breach_wall_a_state1" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="mp_breach_wall_a_state1"/>
+				</components>
+				<scripts>
+					<script name="SynchedMissionObject">
+						<variables>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="particles" old_prefab_name="" mobility="1">
+						<transform position="-1.120, -1.540, 5.640"/>
+						<physics mass="1.000"/>
+						<components>
+							<particle_system_instanced_component>
+								<effect_ref base_effect="{15527AB4-B1E3-4D90-AA63-865B65FABE87}"/>
+							</particle_system_instanced_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="clean" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<tags>
+					<tag name="operational"/>
+					<tag name="state_0"/>
+					<tag name="reference"/>
+				</tags>
+				<physics shape="bo_mp_breach_wall_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="mp_breach_wall_a"/>
+				</components>
+				<scripts>
+					<script name="SynchedMissionObject">
+						<variables>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="state4" old_prefab_name="" visible="false" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<tags>
+					<tag name="state_4"/>
+					<tag name="reference"/>
+				</tags>
+				<physics shape="bo_mp_breach_wall_a_state4" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="mp_breach_wall_a_state4"/>
+				</components>
+				<scripts>
+					<script name="SynchedMissionObject">
+						<variables>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="particles" old_prefab_name="" mobility="1">
+						<transform position="-1.120, -1.540, 5.640"/>
+						<physics mass="1.000"/>
+						<components>
+							<particle_system_instanced_component>
+								<effect_ref base_effect="{15527AB4-B1E3-4D90-AA63-865B65FABE87}"/>
+							</particle_system_instanced_component>
+						</components>
+					</game_entity>
+					<game_entity name="debris_01" old_prefab_name="" mobility="1">
+						<transform position="-0.982, -0.312, 1.138" rotation_euler="-0.204, 0.266, -3.072"/>
+						<physics shape="bo_sturgia_castle_gate_outer_l3_debris1" mass="4.000">
+							<body_flags>
+								<body_flag name="dynamic"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gate_outer_l3_debris1"/>
+						</components>
+					</game_entity>
+					<game_entity name="debris_02" old_prefab_name="" mobility="1">
+						<transform position="0.886, -0.310, 1.402" rotation_euler="0.002, -0.317, 2.206"/>
+						<physics shape="bo_sturgia_castle_gate_outer_l3_debris2" mass="4.000">
+							<body_flags>
+								<body_flag name="dynamic"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gate_outer_l3_debris2"/>
+						</components>
+					</game_entity>
+					<game_entity name="debris_03" old_prefab_name="" mobility="1">
+						<transform position="-0.774, -0.515, 2.868" rotation_euler="0.055, 3.014, -0.184"/>
+						<physics shape="bo_sturgia_castle_gate_outer_l3_debris3" mass="4.000">
+							<body_flags>
+								<body_flag name="dynamic"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gate_outer_l3_debris3"/>
+						</components>
+					</game_entity>
+					<game_entity name="debris_04" old_prefab_name="" mobility="1">
+						<transform position="0.519, -0.514, 3.975" rotation_euler="-0.184, 2.697, -2.517"/>
+						<physics shape="bo_sturgia_castle_gate_outer_l3_debris5" mass="4.000">
+							<body_flags>
+								<body_flag name="dynamic"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gate_outer_l3_debris5"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="state3" old_prefab_name="" visible="false" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<tags>
+					<tag name="state_3"/>
+					<tag name="reference"/>
+				</tags>
+				<physics shape="bo_mp_breach_wall_a_state3" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="mp_breach_wall_a_state3"/>
+				</components>
+				<scripts>
+					<script name="SynchedMissionObject">
+						<variables>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="particles" old_prefab_name="" mobility="1">
+						<transform position="-1.118, -1.536, 5.638"/>
+						<physics mass="1.000"/>
+						<components>
+							<particle_system_instanced_component>
+								<effect_ref base_effect="{15527AB4-B1E3-4D90-AA63-865B65FABE87}"/>
+							</particle_system_instanced_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="breachcollapse" old_prefab_name="" season_mask="255">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="siege_soil_a" old_prefab_name="" season_mask="255">
+				<transform position="-1.151, -4.344, -9.872" rotation_euler="0.614, 0.000, 0.000" scale="0.386, 0.455, 0.455"/>
+				<physics shape="bo_siege_soil_a" override_material="path" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="siege_soil_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="siege_soil_detail_b" old_prefab_name="" season_mask="255">
+				<transform position="-4.744, 4.318, -1.673" rotation_euler="-0.150, 2.576, 2.689"/>
+				<physics shape="bo_siege_soil_detail_b" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="siege_soil_detail_b"/>
+				</components>
+				<levels>
+					<level name="base"/>
+				</levels>
+			</game_entity>
+			<game_entity name="cliff_soil_b" old_prefab_name="" season_mask="255">
+				<transform position="-2.560, 1.495, -4.556" rotation_euler="0.499, -0.117, -0.005" scale="0.839, 0.839, 0.839"/>
+				<physics shape="bo_cliff_soil_b" override_material="default" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="cliff_soil_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="cliff_soil_b" old_prefab_name="" season_mask="255">
+				<transform position="-3.290, 7.194, 0.440" rotation_euler="0.499, -0.049, 0.129" scale="0.555, 0.555, 0.555"/>
+				<physics shape="bo_cliff_soil_b" override_material="default" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="cliff_soil_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="siege_soil_detail_b" old_prefab_name="" season_mask="255">
+				<transform position="-2.928, 2.512, -3.923" rotation_euler="-0.478, 2.836, 3.058"/>
+				<physics shape="bo_siege_soil_detail_b" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="siege_soil_detail_b"/>
+				</components>
+				<levels>
+					<level name="base"/>
+				</levels>
+			</game_entity>
+			<game_entity name="cliff_soil_b" old_prefab_name="" season_mask="255">
+				<transform position="2.922, 6.721, -0.407" rotation_euler="0.631, 0.000, 0.000" scale="0.839, 0.839, 0.839"/>
+				<physics shape="bo_cliff_soil_b" override_material="default" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="cliff_soil_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="siege_soil_a" old_prefab_name="" season_mask="255">
+				<transform position="-1.151, 4.709, -3.365" rotation_euler="0.618, 0.000, 0.000" scale="0.455, 0.304, 0.455"/>
+				<physics shape="bo_siege_soil_a" override_material="path" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="siege_soil_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="cliff_soil_d" old_prefab_name="" season_mask="255">
+				<transform position="2.986, -3.951, -9.753" rotation_euler="-0.164, -0.612, 1.570" scale="0.858, 0.858, 0.858"/>
+				<physics shape="bo_cliff_soil_d" override_material="default" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="cliff_soil_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="cliff_soil_d" old_prefab_name="" season_mask="255">
+				<transform position="-4.966, -3.943, -9.901" rotation_euler="-0.088, 0.649, -1.684" scale="0.858, 0.858, 0.858"/>
+				<physics shape="bo_cliff_soil_d" override_material="default" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="cliff_soil_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="siege_soil_detail_b" old_prefab_name="" season_mask="255">
+				<transform position="0.493, 8.959, -0.413" rotation_euler="0.051, -3.077, 2.576"/>
+				<physics shape="bo_siege_soil_detail_b" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="siege_soil_detail_b"/>
+				</components>
+				<levels>
+					<level name="base"/>
+				</levels>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

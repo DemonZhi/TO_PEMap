@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+    <string id="3o9AO00M" text="サーバーに空きがありません。" />
+    <string id="7G7lu7az" text="招待を送ることができません。" />
+    <string id="bjhBPJDF" text="招待に失敗しました！" />
+    <string id="BLw3AJjM" text="招待できるフレンドがいません。" />
+    <string id="oZ326SFY" text="ゲームに参加できませんでした。" />
+    <string id="tak1GATd" text="進行中のゲームに参加していません。" />
+    <string id="vIonllGr" text="ロビーの不一致" />
+    <string id="x9YcKgLf" text="フレンドリストを表示できません。" />
+    <string id="XlPML483" text="招待するフレンドを選択してください" />
+    <string id="yS7PvrTD" text="OK" />
+  </strings>
+</base>

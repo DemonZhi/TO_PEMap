@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Español (LA)" />
+  </tags>
+  <strings>
+    <string id="DLKRQOuM" text="No se pudo obtener acceso del servicio de tu plataforma. (Error: {ACCESSERROR})." />
+    <string id="NRa52uaF" text="No se pudo obtener acceso del servicio de tu plataforma." />
+  </strings>
+</base>

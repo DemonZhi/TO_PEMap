@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+    <string id="074YAjOk" text="一定時間操作しなかったため、キックされました" />
+    <string id="1e12bdjj" text="スクリーンショットが{PATH}に保存されました" />
+    <string id="2SEofGth" text="チーム変更" />
+    <string id="3CsACce8" text="終了" />
+    <string id="4mMySbxI" text="原因不明のエラー" />
+    <string id="79bODbwZ" text="フォトモードはすでに起動中です。" />
+    <string id="a0IHtkoa" text="ゲームホストがあなたをキックしました" />
+    <string id="aGGq9lJT" text="文化を変更" />
+    <string id="ajKnHI1s" text="写真を撮る" />
+    <string id="aKjpbRP5" text="原因不明の理由" />
+    <string id="aogZyZlR" text="再び応援/シャウトできるようになるにはあと{SECONDS}秒待機する必要があります。" />
+    <string id="asCeKZXx" text="バトルUIを再有効化" />
+    <string id="controllerDisconnectedDescriptionPS" text="続行するには、ワイヤレスコントローラーを再接続してください。" />
+    <string id="controllerDisconnectedDescriptionXB" text="続行するには、コントローラーを再接続してください。" />
+    <string id="controllerDisconnectedTitlePS" text="ワイヤレスコントローラー切断" />
+    <string id="controllerDisconnectedTitleXB" text="コントローラー切断" />
+    <string id="dismissnotification" text="非表示" />
+    <string id="e139gKZc" text="ゲームに戻る" />
+    <string id="EzeFJo65" text="サーバーとの接続が切断されました！" />
+    <string id="hvaDkG4w" text="任意のキーを押してください。" />
+    <string id="HzWaGn3y" text="アンチチートでゲームを起動していないプレイヤーがいます" />
+    <string id="ImQnhIQ5" text="会話中にフォトモードを起動することはできません。" />
+    <string id="InGwtrWt" text="終了" />
+    <string id="InUAmnX4" text="味方にダメージを与えたため、キックされました" />
+    <string id="ivKntfNA" text="すでに参加リクエストを送っています。サーバーからの応答を待っています。" />
+    <string id="IzJ7f5SQ" text="サーバーの容量が最大に達しました" />
+    <string id="JluTW3Qw" text="ゲームは終了しました" />
+    <string id="JQVixeQs" text="ゲームサーバーにアクセスできませんでした" />
+    <string id="KO2adj2I" text="カスタムゲームに参加するには、ロビーにいる必要があります" />
+    <string id="KQrpWV1n" text="カスタムゲームに参加するには、部隊のリーダーになる必要があります" />
+    <string id="KRNdlbkq" text="カスタムゲームが終了します" />
+    <string id="LCzAvLUB" text="すべてのプレイヤーのモジュールがサーバーと一致していません" />
+    <string id="lxq6SaQn" text="本当に終了しますか？" />
+    <string id="Mm1Kb1bS" text="パスワードが間違っています" />
+    <string id="mO9bh5sy" text="カスタムゲームに参加できませんでした" />
+    <string id="MVLleAaZ" text="フレンドを招待" />
+    <string id="n4UUrd1p" text="すでに使用されています" />
+    <string id="NqarFr4P" text="オプション" />
+    <string id="O1bGoaE8" text="サーバーの状態を取得できませんでした。もう一度お試しください。" />
+    <string id="OhF7NqSb" text="投票によりあなたはゲームからBANされました" />
+    <string id="RamV6yLM" text="メインメニューに戻る" />
+    <string id="RGzyUTzm" text="編隊配置を{ARRANGEMENT_ORDER}に変更しています" />
+    <string id="rZSjkCpw" text="配備中にフォトモードを起動することはできません。" />
+    <string id="srAJw3Tg" text="プレイヤーはサーバーからBANされました" />
+    <string id="T8IniCKU" text="ゲームサーバーは使用できません" />
+    <string id="tKSxGy5p" text="サーバーからの応答がありません" />
+    <string id="tlsmbvQX" text="参加する準備ができていないプレイヤーがいます" />
+    <string id="TR1B2RWB" text="アンチチートにより、ゲームからキックされました" />
+    <string id="V8BXjyYq" text="インストール中は利用できません。" />
+    <string id="VklN5Wm6" text="フォトモード" />
+    <string id="vkpMgobZ" text="ゲームサーバーのエラー" />
+    <string id="wbFB3N72" text="投票によりあなたはゲームからキックされました" />
+    <string id="wLpJEkKY" text="バトルサーバーがクラッシュしました" />
+    <string id="WvGviFgt" text="サーバーとの接続が時間切れになりました" />
+    <string id="yS7PvrTD" text="OK" />
+    <string id="Yza0JYJt" text="中隊の変更" />
+  </strings>
+</base>

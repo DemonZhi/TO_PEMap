@@ -1,0 +1,1 @@
+start DedicatedCustomServer.Starter.exe /dedicatedcustomserverconfigfile persistent_empires2.txt /port 7211 /DisableErrorReporting /multiplayer _MODULES_*Native*Multiplayer*PersistentEmpires*_MODULES_

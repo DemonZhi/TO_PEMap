@@ -1,0 +1,179 @@
+<prefabs>
+	<game_entity name="dragon_banner_animated" old_prefab_name="" mobility="1">
+		<transform position="3.086, 0.000, -0.914" rotation_euler="0.000, 0.000, 0.000" scale="0.020, 0.030, 0.020"/>
+		<skeleton skeleton_model="dragon_banner_skeleton">
+			<components>
+				<meta_mesh_component name="dragon_banner_animated"/>
+			</components>
+			<bones>
+				<bone frame="0.000000, -0.025965, -0.999663, 0.000000, 0.000000, 0.999663, -0.025965, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, -0.086021, 266.151123, -0.026294, 1.000000" _index_="1"/>
+				<bone frame="0.990815, -0.133970, 0.018357, 0.000000, 0.133723, 0.990919, 0.014071, 0.000000, -0.020075, -0.011487, 0.999732, 0.000000, 13.835538, 0.000000, -0.000000, 1.000000" _index_="2"/>
+				<bone frame="0.987648, 0.129397, 0.088360, 0.000000, -0.132114, 0.990904, 0.025604, 0.000000, -0.084243, -0.036961, 0.995759, 0.000000, 29.278893, -0.000000, 0.000000, 1.000000" _index_="3"/>
+				<bone frame="0.959848, 0.258790, 0.108262, 0.000000, -0.263355, 0.964233, 0.029994, 0.000000, -0.096627, -0.057301, 0.993670, 0.000000, 22.643740, -0.000000, 0.000000, 1.000000" _index_="4"/>
+				<bone frame="0.961369, -0.268150, 0.062171, 0.000000, 0.266913, 0.963326, 0.027566, 0.000000, -0.067282, -0.009907, 0.997685, 0.000000, 27.122881, 0.000000, 0.000000, 1.000000" _index_="5"/>
+				<bone frame="0.998847, -0.038712, -0.028408, 0.000000, 0.039113, 0.999141, 0.013728, 0.000000, 0.027852, -0.014823, 0.999502, 0.000000, 26.047628, -0.000000, 0.000000, 1.000000" _index_="6"/>
+				<bone frame="0.994405, -0.101858, -0.027982, 0.000000, 0.102143, 0.994730, 0.008943, 0.000000, 0.026924, -0.011751, 0.999568, 0.000000, 26.230309, -0.000000, 0.000000, 1.000000" _index_="7"/>
+				<bone frame="0.983268, 0.166030, 0.074955, 0.000000, -0.169050, 0.984954, 0.035886, 0.000000, -0.067869, -0.047956, 0.996541, 0.000000, 21.561342, 0.000000, -0.000000, 1.000000" _index_="8"/>
+				<bone frame="0.024278, -0.067555, 0.997420, 0.000000, 0.004072, 0.997713, 0.067475, 0.000000, -0.999697, 0.002423, 0.024497, 0.000000, 19.938822, 0.000000, -0.000000, 1.000000" _index_="9"/>
+				<bone frame="-0.013730, -0.998908, -0.044660, 0.000000, -0.002193, -0.044634, 0.999001, 0.000000, -0.999903, 0.013814, -0.001578, 0.000000, 1.082850, 235.938599, 5.231776, 1.000000" _index_="10"/>
+				<bone frame="0.999848, 0.012300, -0.012338, 0.000000, -0.012155, 0.999857, 0.011739, 0.000000, 0.012481, -0.011587, 0.999855, 0.000000, 13.862036, 0.000000, -0.000000, 1.000000" _index_="11"/>
+				<bone frame="0.999417, 0.030786, -0.014757, 0.000000, -0.030914, 0.999486, -0.008501, 0.000000, 0.014487, 0.008952, 0.999855, 0.000000, 11.885424, -0.000000, 0.000000, 1.000000" _index_="12"/>
+				<bone frame="0.999844, 0.017166, 0.004192, 0.000000, 0.017094, -0.999718, 0.016505, 0.000000, 0.004474, -0.016431, -0.999855, 0.000000, 10.195956, 0.000000, 0.000000, 1.000000" _index_="13"/>
+				<bone frame="0.999499, -0.023973, -0.020650, 0.000000, 0.024047, 0.999705, 0.003316, 0.000000, 0.020565, -0.003811, 0.999781, 0.000000, 12.498750, 0.000000, 0.000000, 1.000000" _index_="14"/>
+				<bone frame="0.990298, 0.137961, 0.016626, 0.000000, -0.138270, 0.990210, 0.019121, 0.000000, -0.013825, -0.021235, 0.999679, 0.000000, 14.692583, 0.000000, -0.000000, 1.000000" _index_="15"/>
+				<bone frame="0.993941, -0.109785, 0.005339, 0.000000, -0.109886, -0.993622, 0.025301, 0.000000, 0.002528, -0.025734, -0.999665, 0.000000, 13.156073, 0.000000, -0.000000, 1.000000" _index_="16"/>
+				<bone frame="0.999769, 0.001582, 0.021455, 0.000000, -0.001889, 0.999896, 0.014315, 0.000000, -0.021430, -0.014352, 0.999667, 0.000000, 11.512086, 0.000000, 0.000000, 1.000000" _index_="17"/>
+				<bone frame="-0.023315, 0.007309, -0.999701, 0.000000, -0.994530, -0.102010, 0.022448, 0.000000, -0.101815, 0.994757, 0.009647, 0.000000, 9.211861, 0.000000, 0.000000, 1.000000" _index_="18"/>
+				<bone frame="0.000000, 0.999962, -0.008670, 0.000000, 0.000000, 0.008670, 0.999962, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000" _index_="19"/>
+			</bones>
+		</skeleton>
+		<scripts>
+			<script name="animation_instance">
+				<variables>
+					<variable name="Skeleton Name" value="dragon_banner_skeleton"/>
+					<variable name="Animation Name" value="banner_animated_end"/>
+					<variable name="Morph Animation Name" value=""/>
+					<variable name="Speed Multiplier" value="1.000000"/>
+					<variable name="Animation Phase" value="0.000000"/>
+					<variable name="Morph Animation Phase" value="0.000000"/>
+					<variable name="Freeze Animation" value="false"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="damaged_high_flag" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="damaged_high_flag"/>
+		</components>
+	</game_entity>
+	<game_entity name="dragon_banner_sim" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="dragon_banner_body"/>
+		</components>
+		<children>
+			<game_entity name="dragon_banner_body_cloth" old_prefab_name="">
+				<components>
+					<cloth_simulator>
+						<meta_mesh_component name="dragon_banner_body_cloth"/>
+					</cloth_simulator>
+				</components>
+			</game_entity>
+			<game_entity name="dragon_banner_head_cloth" old_prefab_name="">
+				<components>
+					<cloth_simulator>
+						<meta_mesh_component name="dragon_banner_head_cloth"/>
+					</cloth_simulator>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="flag_rope_cloth_02" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.421, 0.421, 0.421"/>
+		<components>
+			<meta_mesh_component name="bd_cloth_hanging_rope"/>
+		</components>
+		<children>
+			<game_entity name="flag_5" old_prefab_name="">
+				<transform position="0.000, 2.930, 0.284" rotation_euler="-0.015, -1.452, -1.564" scale="0.280, 0.357, 0.280"/>
+				<components>
+					<cloth_simulator>
+						<meta_mesh_component name="flag_5">
+							<mesh name="flag_5" factor="4279972933"/>
+						</meta_mesh_component>
+					</cloth_simulator>
+				</components>
+			</game_entity>
+			<game_entity name="flag_5" old_prefab_name="">
+				<transform position="-0.003, 1.783, 0.221" rotation_euler="-0.016, -1.515, -1.571" scale="0.316, 0.316, 0.316"/>
+				<components>
+					<cloth_simulator>
+						<meta_mesh_component name="flag_5">
+							<mesh name="flag_5" factor="4285013261"/>
+						</meta_mesh_component>
+					</cloth_simulator>
+				</components>
+			</game_entity>
+			<game_entity name="flag_5" old_prefab_name="">
+				<transform position="0.004, 0.709, 0.185" rotation_euler="-0.015, -1.547, -1.561" scale="0.280, 0.357, 0.280"/>
+				<components>
+					<cloth_simulator>
+						<meta_mesh_component name="flag_5">
+							<mesh name="flag_5" factor="4279972933"/>
+						</meta_mesh_component>
+					</cloth_simulator>
+				</components>
+			</game_entity>
+			<game_entity name="flag_5" old_prefab_name="">
+				<transform position="-0.005, -0.466, 0.198" rotation_euler="-0.016, -1.580, -1.571" scale="0.248, 0.286, 0.248"/>
+				<components>
+					<cloth_simulator>
+						<meta_mesh_component name="flag_5">
+							<mesh name="flag_5" factor="4285013261"/>
+						</meta_mesh_component>
+					</cloth_simulator>
+				</components>
+			</game_entity>
+			<game_entity name="flag_5" old_prefab_name="">
+				<transform position="0.005, -1.635, 0.221" rotation_euler="-0.015, -1.629, -1.564" scale="0.280, 0.357, 0.280"/>
+				<components>
+					<cloth_simulator>
+						<meta_mesh_component name="flag_5">
+							<mesh name="flag_5" factor="4279972933"/>
+						</meta_mesh_component>
+					</cloth_simulator>
+				</components>
+			</game_entity>
+			<game_entity name="flag_5" old_prefab_name="">
+				<transform position="-0.005, -2.953, 0.295" rotation_euler="-0.016, -1.627, -1.571" scale="0.316, 0.316, 0.316"/>
+				<components>
+					<cloth_simulator>
+						<meta_mesh_component name="flag_5">
+							<mesh name="flag_5" factor="4285013261"/>
+						</meta_mesh_component>
+					</cloth_simulator>
+				</components>
+			</game_entity>
+			<game_entity name="flag_5" old_prefab_name="">
+				<transform position="-0.003, -4.105, 0.419" rotation_euler="-0.014, -1.685, -1.581" scale="0.280, 0.357, 0.280"/>
+				<components>
+					<cloth_simulator>
+						<meta_mesh_component name="flag_5">
+							<mesh name="flag_5" factor="4279972933"/>
+						</meta_mesh_component>
+					</cloth_simulator>
+				</components>
+			</game_entity>
+			<game_entity name="flag_5" old_prefab_name="">
+				<transform position="-0.012, 3.968, 0.399" rotation_euler="-0.054, -1.464, -1.571" scale="0.316, 0.316, 0.316"/>
+				<components>
+					<cloth_simulator>
+						<meta_mesh_component name="flag_5">
+							<mesh name="flag_5" factor="4285013261"/>
+						</meta_mesh_component>
+					</cloth_simulator>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="dragon_banner_large" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="dragon_banner_large_body"/>
+		</components>
+		<children>
+			<game_entity name="dragon_banner_large_body_cloth" old_prefab_name="">
+				<components>
+					<meta_mesh_component name="dragon_banner_large_body_cloth"/>
+				</components>
+			</game_entity>
+			<game_entity name="dragon_banner_large_head_cloth" old_prefab_name="">
+				<components>
+					<meta_mesh_component name="dragon_banner_large_head_cloth"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

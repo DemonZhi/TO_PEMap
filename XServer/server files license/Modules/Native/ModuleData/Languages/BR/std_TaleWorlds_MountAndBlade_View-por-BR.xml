@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Português (BR)" />
+  </tags>
+  <strings>
+    <string id="2ZarUUbw" text="{KILLERPLAYERNAME} matou {KILLEDPLAYERNAME}!" />
+    <string id="5VIbo2Cb" text="Nenhuma conexão estabelecida com o servidor da sala. Confira sua conexão com a internet e tente novamente." />
+    <string id="9CnRKZOb" text="{KILLEDPLAYERNAME} morreu!" />
+    <string id="bUh0x6rA" text="Editor" />
+    <string id="dismissnotification" text="Dispensar" />
+    <string id="ksq1IBh3" text="Sem conexão" />
+    <string id="NqarFr4P" text="Opções" />
+    <string id="ODQmOrIw" text="Créditos" />
+    <string id="V8BXjyYq" text="Desativado durante a instalação." />
+    <string id="xsC8Ierj" text="({BATTLE_COMBATANT})" />
+    <string id="YbpzLHzk" text="Sair do jogo" />
+    <string id="YDYnuBmC" text="Multijogador" />
+  </strings>
+</base>

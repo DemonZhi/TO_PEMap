@@ -1,0 +1,3451 @@
+<prefabs>
+	<game_entity name="siege_ladder_6m" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="SiegeLadder">
+				<variables>
+					<variable name="AttackerTag" value="attacker"/>
+					<variable name="DefenderTag" value="defender"/>
+					<variable name="downStateEntityTag" value="ladderDown"/>
+					<variable name="IdleAnimation" value="siege_ladder_6m_idle"/>
+					<variable name="RaiseAnimation" value="siege_ladder_6m_rise"/>
+					<variable name="RaiseAnimationWithoutRootBone" value="siege_ladder_6m_rise_wo_rootbone"/>
+					<variable name="PushBackAnimation" value="siege_ladder_6m_push_back"/>
+					<variable name="PushBackAnimationWithoutRootBone" value="siege_ladder_6m_push_back_wo_rootbone"/>
+					<variable name="TrembleWallHeavyAnimation" value="siege_ladder_6m_stop_wall_heavy"/>
+					<variable name="TrembleWallLightAnimation" value="siege_ladder_6m_stop_wall_light"/>
+					<variable name="TrembleGroundAnimation" value="siege_ladder_6m_stop_ground_heavy"/>
+					<variable name="RightStandingPointTag" value="right"/>
+					<variable name="LeftStandingPointTag" value="left"/>
+					<variable name="FrontStandingPointTag" value="front"/>
+					<variable name="PushForkItemID" value="push_fork"/>
+					<variable name="upStateEntityTag" value="ladderUp"/>
+					<variable name="BodyTag" value="ladder_body"/>
+					<variable name="CollisionBodyTag" value="ladder_collision_body"/>
+					<variable name="InitialWaitPositionTag" value="initialwaitposition"/>
+					<variable name="initialState" value="OnLand"/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="PilotStandingPointTag" value="Pilot"/>
+					<variable name="AmmoPickUpTag" value="ammopickup"/>
+					<variable name="WaitStandingPointTag" value="Wait"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+			<script name="LadderQueueManager">
+				<variables>
+					<variable name="ManagedNavigationFaceId" value="0"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+			<script name="LadderQueueManager">
+				<variables>
+					<variable name="ManagedNavigationFaceId" value="0"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="fork_holder" old_prefab_name="" mobility="1">
+				<transform position="1.058, 3.708, 5.969" rotation_euler="0.000, 0.000, 3.141"/>
+				<physics mass="1.000"/>
+				<children>
+					<game_entity name="use_fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="ammopickup"/>
+						</tags>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man"/>
+						</components>
+						<scripts>
+							<script name="StandingPointWithWeaponRequirement">
+								<variables>
+									<variable name="AutoSheathWeapons" value="false"/>
+									<variable name="TranslateUser" value="true"/>
+									<variable name="HasRecentlyBeenRechecked" value="false"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="push_fork"/>
+						</tags>
+						<transform position="0.200, 0.683, 0.576" rotation_euler="0.000, 0.221, 1.571"/>
+						<physics shape="bo_push_fork" override_material="wood" mass="1.000">
+							<body_flags>
+								<body_flag name="only_collide_with_raycast"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="push_fork"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="initial_wait_pos" old_prefab_name="" mobility="1">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="initialwaitposition"/>
+				</tags>
+				<transform position="0.555, -37.929, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="TacticalPosition">
+						<variables>
+							<variable name="_width" value="1.000"/>
+							<variable name="_slope" value="0.000"/>
+							<variable name="_isInsurmountable" value="false"/>
+							<variable name="_isOuterEdge" value="false"/>
+							<variable name="_tacticalPositionType" value="Regional"/>
+							<variable name="_tacticalRegionMembership" value="Forest"/>
+							<variable name="_tacticalPositionSide" value="BehaviorSideNotSet"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="use_push" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender"/>
+				</tags>
+				<transform position="-0.155, 3.399, 5.943" rotation_euler="0.000, 0.000, -3.141"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="StandingPointWithWeaponRequirement">
+						<variables>
+							<variable name="AutoSheathWeapons" value="false"/>
+							<variable name="TranslateUser" value="true"/>
+							<variable name="HasRecentlyBeenRechecked" value="false"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="distance_holder" old_prefab_name="" mobility="1">
+				<physics mass="1.000"/>
+				<children>
+					<game_entity name="ladder_up_state" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="ladderUp"/>
+						</tags>
+						<transform rotation_euler="-0.332, 0.000, 0.000"/>
+						<physics mass="1.000"/>
+					</game_entity>
+					<game_entity name="ground_align" old_prefab_name="" mobility="1">
+						<transform rotation_euler="0.000, 0.000, -1.571"/>
+						<physics mass="1.000"/>
+						<children>
+							<game_entity name="use_ladder_r" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="right"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, 0.590, 0.000" rotation_euler="0.000, 0.000, 3.141"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="use_ladder_l" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="left"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, -0.660, 0.000"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="ladder_down_state" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<tags>
+									<tag name="ladderDown"/>
+								</tags>
+								<transform position="0.000, 0.000, 0.070" rotation_euler="1.571, 1.571, 0.000"/>
+								<physics shape="bo_ambush_spots" mass="1.000">
+									<body_flags>
+										<body_flag name="only_collide_with_raycast"/>
+										<body_flag name="dont_transfer_to_physics_engine"/>
+									</body_flags>
+								</physics>
+								<skeleton skeleton_model="siege_ladder_6m_skeleton">
+									<components>
+										<meta_mesh_component name="siege_ladder_6m"/>
+									</components>
+								</skeleton>
+								<scripts>
+									<script name="SynchedMissionObject">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+								<children>
+									<game_entity name="body_interact" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_6m" override_material="wood" mass="1.000">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_offset" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_collision_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_6m_offset" override_material="wood" mass="1.000">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_precise" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<physics shape="bo_siege_ladder_6m_precise" mass="1.000">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="missile_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+								</children>
+							</game_entity>
+							<game_entity name="wait_pos_ground" old_prefab_name="" mobility="1">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="wait"/>
+								</tags>
+								<transform position="4.850, -3.103, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="siege_ladder_8m" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="SiegeLadder">
+				<variables>
+					<variable name="AttackerTag" value="attacker"/>
+					<variable name="DefenderTag" value="defender"/>
+					<variable name="downStateEntityTag" value="ladderDown"/>
+					<variable name="IdleAnimation" value="siege_ladder_8m_idle"/>
+					<variable name="RaiseAnimation" value="siege_ladder_8m_rise"/>
+					<variable name="RaiseAnimationWithoutRootBone" value="siege_ladder_8m_rise_wo_rootbone"/>
+					<variable name="PushBackAnimation" value="siege_ladder_8m_push_back"/>
+					<variable name="PushBackAnimationWithoutRootBone" value="siege_ladder_8m_push_back_wo_rootbone"/>
+					<variable name="TrembleWallHeavyAnimation" value="siege_ladder_8m_stop_wall_heavy"/>
+					<variable name="TrembleWallLightAnimation" value="siege_ladder_8m_stop_wall_light"/>
+					<variable name="TrembleGroundAnimation" value="siege_ladder_8m_stop_ground_heavy"/>
+					<variable name="RightStandingPointTag" value="right"/>
+					<variable name="LeftStandingPointTag" value="left"/>
+					<variable name="FrontStandingPointTag" value="front"/>
+					<variable name="PushForkItemID" value="push_fork"/>
+					<variable name="upStateEntityTag" value="ladderUp"/>
+					<variable name="BodyTag" value="ladder_body"/>
+					<variable name="CollisionBodyTag" value="ladder_collision_body"/>
+					<variable name="InitialWaitPositionTag" value="initialwaitposition"/>
+					<variable name="initialState" value="OnLand"/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="PilotStandingPointTag" value="Pilot"/>
+					<variable name="AmmoPickUpTag" value="ammopickup"/>
+					<variable name="WaitStandingPointTag" value="Wait"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+			<script name="LadderQueueManager">
+				<variables>
+					<variable name="ManagedNavigationFaceId" value="0"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+			<script name="LadderQueueManager">
+				<variables>
+					<variable name="ManagedNavigationFaceId" value="0"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="fork_holder" old_prefab_name="" mobility="1">
+				<transform position="1.087, 5.099, 9.987" rotation_euler="0.000, 0.000, 3.141"/>
+				<physics mass="1.000"/>
+				<children>
+					<game_entity name="use_fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="ammopickup"/>
+						</tags>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man"/>
+						</components>
+						<scripts>
+							<script name="StandingPointWithWeaponRequirement">
+								<variables>
+									<variable name="AutoSheathWeapons" value="false"/>
+									<variable name="TranslateUser" value="true"/>
+									<variable name="HasRecentlyBeenRechecked" value="false"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="push_fork"/>
+						</tags>
+						<transform position="0.200, 0.683, 0.576" rotation_euler="0.000, 0.221, 1.571"/>
+						<physics shape="bo_push_fork" override_material="wood" mass="1.000">
+							<body_flags>
+								<body_flag name="only_collide_with_raycast"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="push_fork"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="initial_wait_pos" old_prefab_name="" mobility="1">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="initialwaitposition"/>
+				</tags>
+				<transform position="0.555, -37.929, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="TacticalPosition">
+						<variables>
+							<variable name="_width" value="1.000"/>
+							<variable name="_slope" value="0.000"/>
+							<variable name="_isInsurmountable" value="false"/>
+							<variable name="_isOuterEdge" value="false"/>
+							<variable name="_tacticalPositionType" value="Regional"/>
+							<variable name="_tacticalRegionMembership" value="Forest"/>
+							<variable name="_tacticalPositionSide" value="BehaviorSideNotSet"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="use_push" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender"/>
+				</tags>
+				<transform position="-0.161, 4.801, 9.987" rotation_euler="0.000, 0.000, -3.141"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="StandingPointWithWeaponRequirement">
+						<variables>
+							<variable name="AutoSheathWeapons" value="false"/>
+							<variable name="TranslateUser" value="true"/>
+							<variable name="HasRecentlyBeenRechecked" value="false"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="distance_holder" old_prefab_name="" mobility="1">
+				<physics mass="1.000"/>
+				<children>
+					<game_entity name="ladder_up_state" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="ladderUp"/>
+						</tags>
+						<transform rotation_euler="-0.269, 0.000, 0.000"/>
+						<physics mass="1.000"/>
+					</game_entity>
+					<game_entity name="ground_align" old_prefab_name="" mobility="1">
+						<transform rotation_euler="0.000, 0.000, -1.571"/>
+						<physics mass="1.000"/>
+						<children>
+							<game_entity name="use_ladder_r" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="right"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, 0.590, 0.000" rotation_euler="0.000, 0.000, 3.141"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="use_ladder_l" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="left"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, -0.660, 0.000"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="ladder_down_state" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<tags>
+									<tag name="ladderDown"/>
+								</tags>
+								<transform position="0.000, 0.000, 0.070" rotation_euler="1.571, 1.571, 0.000"/>
+								<physics shape="bo_ambush_spots" mass="1.000">
+									<body_flags>
+										<body_flag name="only_collide_with_raycast"/>
+										<body_flag name="dont_transfer_to_physics_engine"/>
+									</body_flags>
+								</physics>
+								<skeleton skeleton_model="siege_ladder_8m_skeleton">
+									<components>
+										<meta_mesh_component name="siege_ladder_8m"/>
+									</components>
+								</skeleton>
+								<scripts>
+									<script name="SynchedMissionObject">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+								<children>
+									<game_entity name="body_interact" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_8m" override_material="wood" mass="1.000">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_offset" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_collision_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_8m_offset" override_material="wood" mass="1.000">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_precise" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<physics shape="bo_siege_ladder_8m_precise" mass="1.000">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="missile_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+								</children>
+							</game_entity>
+							<game_entity name="wait_pos_ground" old_prefab_name="" mobility="1">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="wait"/>
+								</tags>
+								<transform position="4.850, -3.103, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="siege_ladder_11m" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<scripts>
+			<script name="SiegeLadder">
+				<variables>
+					<variable name="LadderPushTreshold" value="170.000"/>
+					<variable name="LadderPushTresholdForOneAgent" value="50.000"/>
+					<variable name="AttackerTag" value="attacker"/>
+					<variable name="DefenderTag" value="defender"/>
+					<variable name="downStateEntityTag" value="ladderDown"/>
+					<variable name="IdleAnimation" value="siege_ladder_11m_idle"/>
+					<variable name="_idleAnimationIndex" value="-1"/>
+					<variable name="RaiseAnimation" value="siege_ladder_11m_rise"/>
+					<variable name="RaiseAnimationWithoutRootBone" value="siege_ladder_11m_rise_wo_rootbone"/>
+					<variable name="_raiseAnimationWithoutRootBoneIndex" value="-1"/>
+					<variable name="PushBackAnimation" value="siege_ladder_11m_push_back"/>
+					<variable name="_pushBackAnimationIndex" value="-1"/>
+					<variable name="PushBackAnimationWithoutRootBone" value="siege_ladder_11m_push_back_wo_rootbone"/>
+					<variable name="_pushBackAnimationWithoutRootBoneIndex" value="-1"/>
+					<variable name="TrembleWallHeavyAnimation" value="siege_ladder_11m_stop_wall_heavy"/>
+					<variable name="TrembleWallLightAnimation" value="siege_ladder_11m_stop_wall_light"/>
+					<variable name="TrembleGroundAnimation" value="siege_ladder_11m_stop_ground_heavy"/>
+					<variable name="RightStandingPointTag" value="right"/>
+					<variable name="LeftStandingPointTag" value="left"/>
+					<variable name="FrontStandingPointTag" value="front"/>
+					<variable name="PushForkItemID" value="push_fork"/>
+					<variable name="upStateEntityTag" value="ladderUp"/>
+					<variable name="BodyTag" value="ladder_body"/>
+					<variable name="CollisionBodyTag" value="ladder_collision_body"/>
+					<variable name="InitialWaitPositionTag" value="initialwaitposition"/>
+					<variable name="BarrierTagToRemove" value="barrier"/>
+					<variable name="initialState" value="OnLand"/>
+					<variable name="IndestructibleMerlonsTag" value=""/>
+					<variable name="ForcedUse" value="false"/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="PilotStandingPointTag" value="Pilot"/>
+					<variable name="AmmoPickUpTag" value="ammopickup"/>
+					<variable name="WaitStandingPointTag" value="Wait"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+			<script name="LadderQueueManager">
+				<variables>
+					<variable name="ManagedNavigationFaceId" value="0"/>
+					<variable name="ManagedNavigationFaceAlternateID1" value="0"/>
+					<variable name="ManagedNavigationFaceAlternateID2" value="0"/>
+					<variable name="CostAddition" value="0.000"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+			<script name="LadderQueueManager">
+				<variables>
+					<variable name="ManagedNavigationFaceId" value="0"/>
+					<variable name="ManagedNavigationFaceAlternateID1" value="0"/>
+					<variable name="ManagedNavigationFaceAlternateID2" value="0"/>
+					<variable name="CostAddition" value="0.000"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="fork_holder" old_prefab_name="" mobility="1">
+				<transform position="1.088, 7.139, 11.519" rotation_euler="0.000, 0.000, 3.141"/>
+				<children>
+					<game_entity name="use_fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="ammopickup"/>
+						</tags>
+						<components>
+							<meta_mesh_component name="icon_man"/>
+						</components>
+						<scripts>
+							<script name="StandingPointWithWeaponRequirement">
+								<variables>
+									<variable name="AutoSheathWeapons" value="false"/>
+									<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+									<variable name="AutoWieldWeapons" value="false"/>
+									<variable name="TranslateUser" value="true"/>
+									<variable name="HasRecentlyBeenRechecked" value="false"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="push_fork"/>
+						</tags>
+						<transform position="0.200, 0.683, 0.576" rotation_euler="0.000, 0.221, 1.571"/>
+						<physics shape="bo_push_fork" override_material="wood">
+							<body_flags>
+								<body_flag name="only_collide_with_raycast"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="push_fork"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="initial_wait_pos" old_prefab_name="" mobility="1">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="initialwaitposition"/>
+				</tags>
+				<transform position="0.555, -37.929, 0.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="TacticalPosition">
+						<variables>
+							<variable name="_width" value="1.000"/>
+							<variable name="_slope" value="0.000"/>
+							<variable name="_isInsurmountable" value="false"/>
+							<variable name="_isOuterEdge" value="false"/>
+							<variable name="_tacticalPositionType" value="Regional"/>
+							<variable name="_tacticalRegionMembership" value="Forest"/>
+							<variable name="_tacticalPositionSide" value="BehaviorSideNotSet"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="use_push" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender"/>
+				</tags>
+				<transform position="-0.144, 6.870, 11.532" rotation_euler="0.000, 0.000, -3.141"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="StandingPointWithWeaponRequirement">
+						<variables>
+							<variable name="AutoSheathWeapons" value="false"/>
+							<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+							<variable name="AutoWieldWeapons" value="false"/>
+							<variable name="TranslateUser" value="true"/>
+							<variable name="HasRecentlyBeenRechecked" value="false"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="distance_holder" old_prefab_name="" mobility="1">
+				<children>
+					<game_entity name="ladder_up_state" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="ladderUp"/>
+						</tags>
+						<transform rotation_euler="-0.393, 0.000, 0.000"/>
+					</game_entity>
+					<game_entity name="ground_align" old_prefab_name="" mobility="1">
+						<transform rotation_euler="0.000, 0.000, -1.571"/>
+						<children>
+							<game_entity name="use_ladder_r" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="right"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, 0.590, 0.000" rotation_euler="0.000, 0.000, 3.141"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+											<variable name="AutoWieldWeapons" value="false"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="use_ladder_l" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="left"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, -0.660, 0.000"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+											<variable name="AutoWieldWeapons" value="false"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="ladder_down_state" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<tags>
+									<tag name="ladderDown"/>
+								</tags>
+								<transform position="0.000, 0.000, 0.070" rotation_euler="1.571, -1.571, -3.142"/>
+								<physics shape="bo_ambush_spots">
+									<body_flags>
+										<body_flag name="only_collide_with_raycast"/>
+										<body_flag name="dont_transfer_to_physics_engine"/>
+									</body_flags>
+								</physics>
+								<skeleton skeleton_model="siege_ladder_11m_skeleton">
+									<components>
+										<meta_mesh_component name="siege_ladder_11m"/>
+									</components>
+								</skeleton>
+								<scripts>
+									<script name="SynchedMissionObject">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+								<children>
+									<game_entity name="body_interact" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_11m" override_material="wood">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_offset" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_collision_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_11m_offset" override_material="wood">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_precise" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<physics shape="bo_siege_ladder_11m_precise">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="missile_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+								</children>
+							</game_entity>
+							<game_entity name="wait_pos_ground" old_prefab_name="" mobility="1">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="wait"/>
+								</tags>
+								<transform position="4.850, -3.103, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="siege_ladder_14m" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<scripts>
+			<script name="SiegeLadder">
+				<variables>
+					<variable name="LadderPushTreshold" value="160.000"/>
+					<variable name="LadderPushTresholdForOneAgent" value="50.000"/>
+					<variable name="AttackerTag" value="attacker"/>
+					<variable name="DefenderTag" value="defender"/>
+					<variable name="downStateEntityTag" value="ladderDown"/>
+					<variable name="IdleAnimation" value="siege_ladder_14m_idle"/>
+					<variable name="_idleAnimationIndex" value="-1"/>
+					<variable name="RaiseAnimation" value="siege_ladder_14m_rise"/>
+					<variable name="RaiseAnimationWithoutRootBone" value="siege_ladder_14m_rise_wo_rootbone"/>
+					<variable name="_raiseAnimationWithoutRootBoneIndex" value="-1"/>
+					<variable name="PushBackAnimation" value="siege_ladder_14m_push_back"/>
+					<variable name="_pushBackAnimationIndex" value="-1"/>
+					<variable name="PushBackAnimationWithoutRootBone" value="siege_ladder_14m_push_back_wo_rootbone"/>
+					<variable name="_pushBackAnimationWithoutRootBoneIndex" value="-1"/>
+					<variable name="TrembleWallHeavyAnimation" value="siege_ladder_14m_stop_wall_heavy"/>
+					<variable name="TrembleWallLightAnimation" value="siege_ladder_14m_stop_wall_light"/>
+					<variable name="TrembleGroundAnimation" value="siege_ladder_14m_stop_ground_heavy"/>
+					<variable name="RightStandingPointTag" value="right"/>
+					<variable name="LeftStandingPointTag" value="left"/>
+					<variable name="FrontStandingPointTag" value="front"/>
+					<variable name="PushForkItemID" value="push_fork"/>
+					<variable name="upStateEntityTag" value="ladderUp"/>
+					<variable name="BodyTag" value="ladder_body"/>
+					<variable name="CollisionBodyTag" value="ladder_collision_body"/>
+					<variable name="InitialWaitPositionTag" value="initialwaitposition"/>
+					<variable name="BarrierTagToRemove" value="barrier"/>
+					<variable name="initialState" value="OnLand"/>
+					<variable name="IndestructibleMerlonsTag" value=""/>
+					<variable name="ForcedUse" value="false"/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="PilotStandingPointTag" value="Pilot"/>
+					<variable name="AmmoPickUpTag" value="ammopickup"/>
+					<variable name="WaitStandingPointTag" value="Wait"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+			<script name="LadderQueueManager">
+				<variables>
+					<variable name="ManagedNavigationFaceId" value="0"/>
+					<variable name="ManagedNavigationFaceAlternateID1" value="0"/>
+					<variable name="ManagedNavigationFaceAlternateID2" value="0"/>
+					<variable name="CostAddition" value="0.000"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+			<script name="LadderQueueManager">
+				<variables>
+					<variable name="ManagedNavigationFaceId" value="0"/>
+					<variable name="ManagedNavigationFaceAlternateID1" value="0"/>
+					<variable name="ManagedNavigationFaceAlternateID2" value="0"/>
+					<variable name="CostAddition" value="0.000"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="fork_holder" old_prefab_name="" mobility="1">
+				<transform position="1.278, 7.761, 12.944" rotation_euler="0.000, 0.000, 3.141"/>
+				<children>
+					<game_entity name="use_fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="ammopickup"/>
+						</tags>
+						<components>
+							<meta_mesh_component name="icon_man"/>
+						</components>
+						<scripts>
+							<script name="StandingPointWithWeaponRequirement">
+								<variables>
+									<variable name="AutoSheathWeapons" value="false"/>
+									<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+									<variable name="AutoWieldWeapons" value="false"/>
+									<variable name="TranslateUser" value="true"/>
+									<variable name="HasRecentlyBeenRechecked" value="false"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="push_fork"/>
+						</tags>
+						<transform position="0.200, 0.683, 0.576" rotation_euler="0.000, 0.221, 1.571"/>
+						<physics shape="bo_push_fork" override_material="wood">
+							<body_flags>
+								<body_flag name="only_collide_with_raycast"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="push_fork"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="initial_wait_pos" old_prefab_name="" mobility="1">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="initialwaitposition"/>
+				</tags>
+				<transform position="0.555, -37.929, 0.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="TacticalPosition">
+						<variables>
+							<variable name="_width" value="1.000"/>
+							<variable name="_slope" value="0.000"/>
+							<variable name="_isInsurmountable" value="false"/>
+							<variable name="_isOuterEdge" value="false"/>
+							<variable name="_tacticalPositionType" value="Regional"/>
+							<variable name="_tacticalRegionMembership" value="Forest"/>
+							<variable name="_tacticalPositionSide" value="BehaviorSideNotSet"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="use_push" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender"/>
+				</tags>
+				<transform position="-0.144, 7.507, 12.936" rotation_euler="0.000, 0.000, -3.141"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="StandingPointWithWeaponRequirement">
+						<variables>
+							<variable name="AutoSheathWeapons" value="false"/>
+							<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+							<variable name="AutoWieldWeapons" value="false"/>
+							<variable name="TranslateUser" value="true"/>
+							<variable name="HasRecentlyBeenRechecked" value="false"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="distance_holder" old_prefab_name="" mobility="1">
+				<children>
+					<game_entity name="ladder_up_state" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="ladderUp"/>
+						</tags>
+						<transform rotation_euler="-0.393, 0.000, 0.000"/>
+					</game_entity>
+					<game_entity name="ground_align" old_prefab_name="" mobility="1">
+						<transform rotation_euler="0.000, 0.000, -1.571"/>
+						<children>
+							<game_entity name="use_ladder_r" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="right"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, 0.590, 0.000" rotation_euler="0.000, 0.000, 3.141"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+											<variable name="AutoWieldWeapons" value="false"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="use_ladder_l" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="left"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, -0.660, 0.000"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+											<variable name="AutoWieldWeapons" value="false"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="ladder_down_state" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<tags>
+									<tag name="ladderDown"/>
+								</tags>
+								<transform position="0.000, 0.000, 0.070" rotation_euler="1.571, -1.571, -3.142"/>
+								<physics shape="bo_ambush_spots">
+									<body_flags>
+										<body_flag name="only_collide_with_raycast"/>
+										<body_flag name="dont_transfer_to_physics_engine"/>
+									</body_flags>
+								</physics>
+								<skeleton skeleton_model="siege_ladder_14m_skeleton">
+									<components>
+										<meta_mesh_component name="siege_ladder_14m"/>
+									</components>
+								</skeleton>
+								<scripts>
+									<script name="SynchedMissionObject">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+								<children>
+									<game_entity name="body_interact" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_14m" override_material="wood">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_offset" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_collision_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_14m_offset" override_material="wood">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_precise" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<physics shape="bo_siege_ladder_14m_precise">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="missile_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+								</children>
+							</game_entity>
+							<game_entity name="wait_pos_ground" old_prefab_name="" mobility="1">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="wait"/>
+								</tags>
+								<transform position="4.850, -3.103, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="civilian_ladder_4m" old_prefab_name="">
+		<tags>
+			<tag name="do_not_optimize"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_civilian_ladder_4m" mass="1.000">
+			<body_flags>
+				<body_flag name="ladder"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="civilian_ladder_4m"/>
+		</components>
+		<levels>
+			<level name="base"/>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+		</levels>
+	</game_entity>
+	<game_entity name="civilian_ladder_5m" old_prefab_name="">
+		<tags>
+			<tag name="do_not_optimize"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_civilian_ladder_5m" mass="1.000">
+			<body_flags>
+				<body_flag name="ladder"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="civilian_ladder_5m"/>
+		</components>
+		<levels>
+			<level name="base"/>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+		</levels>
+	</game_entity>
+	<game_entity name="civilian_ladder_6m" old_prefab_name="">
+		<tags>
+			<tag name="do_not_optimize"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_civilian_ladder_6m" mass="1.000">
+			<body_flags>
+				<body_flag name="ladder"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="civilian_ladder_6m"/>
+		</components>
+		<levels>
+			<level name="base"/>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+		</levels>
+	</game_entity>
+	<game_entity name="siege_ladder_7m" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="SiegeLadder">
+				<variables>
+					<variable name="AttackerTag" value="attacker"/>
+					<variable name="DefenderTag" value="defender"/>
+					<variable name="downStateEntityTag" value="ladderDown"/>
+					<variable name="IdleAnimation" value="siege_ladder_6m_idle"/>
+					<variable name="RaiseAnimation" value="siege_ladder_6m_rise"/>
+					<variable name="RaiseAnimationWithoutRootBone" value="siege_ladder_6m_rise_wo_rootbone"/>
+					<variable name="PushBackAnimation" value="siege_ladder_6m_push_back"/>
+					<variable name="PushBackAnimationWithoutRootBone" value="siege_ladder_6m_push_back_wo_rootbone"/>
+					<variable name="TrembleWallHeavyAnimation" value="siege_ladder_6m_stop_wall_heavy"/>
+					<variable name="TrembleWallLightAnimation" value="siege_ladder_6m_stop_wall_light"/>
+					<variable name="TrembleGroundAnimation" value="siege_ladder_6m_stop_ground_heavy"/>
+					<variable name="RightStandingPointTag" value="right"/>
+					<variable name="LeftStandingPointTag" value="left"/>
+					<variable name="FrontStandingPointTag" value="front"/>
+					<variable name="PushForkItemID" value="push_fork"/>
+					<variable name="upStateEntityTag" value="ladderUp"/>
+					<variable name="BodyTag" value="ladder_body"/>
+					<variable name="CollisionBodyTag" value="ladder_collision_body"/>
+					<variable name="InitialWaitPositionTag" value="initialwaitposition"/>
+					<variable name="initialState" value="OnLand"/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="PilotStandingPointTag" value="Pilot"/>
+					<variable name="AmmoPickUpTag" value="ammopickup"/>
+					<variable name="WaitStandingPointTag" value="Wait"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+			<script name="LadderQueueManager">
+				<variables>
+					<variable name="ManagedNavigationFaceId" value="0"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+			<script name="LadderQueueManager">
+				<variables>
+					<variable name="ManagedNavigationFaceId" value="0"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="fork_holder" old_prefab_name="" mobility="1">
+				<transform position="1.058, 3.708, 5.969" rotation_euler="0.000, 0.000, 3.141"/>
+				<physics mass="1.000"/>
+				<children>
+					<game_entity name="use_fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="ammopickup"/>
+						</tags>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man"/>
+						</components>
+						<scripts>
+							<script name="StandingPointWithWeaponRequirement">
+								<variables>
+									<variable name="AutoSheathWeapons" value="false"/>
+									<variable name="TranslateUser" value="true"/>
+									<variable name="HasRecentlyBeenRechecked" value="false"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="push_fork"/>
+						</tags>
+						<transform position="0.200, 0.683, 0.576" rotation_euler="0.000, 0.221, 1.571"/>
+						<physics shape="bo_push_fork" override_material="wood" mass="1.000">
+							<body_flags>
+								<body_flag name="only_collide_with_raycast"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="push_fork"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="initial_wait_pos" old_prefab_name="" mobility="1">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="initialwaitposition"/>
+				</tags>
+				<transform position="0.555, -37.929, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="TacticalPosition">
+						<variables>
+							<variable name="_width" value="1.000"/>
+							<variable name="_slope" value="0.000"/>
+							<variable name="_isInsurmountable" value="false"/>
+							<variable name="_isOuterEdge" value="false"/>
+							<variable name="_tacticalPositionType" value="Regional"/>
+							<variable name="_tacticalRegionMembership" value="Forest"/>
+							<variable name="_tacticalPositionSide" value="BehaviorSideNotSet"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="use_push" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender"/>
+				</tags>
+				<transform position="-0.155, 3.399, 5.943" rotation_euler="0.000, 0.000, -3.141"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="StandingPointWithWeaponRequirement">
+						<variables>
+							<variable name="AutoSheathWeapons" value="false"/>
+							<variable name="TranslateUser" value="true"/>
+							<variable name="HasRecentlyBeenRechecked" value="false"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="distance_holder" old_prefab_name="" mobility="1">
+				<physics mass="1.000"/>
+				<children>
+					<game_entity name="ladder_up_state" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="ladderUp"/>
+						</tags>
+						<transform rotation_euler="-0.332, 0.000, 0.000"/>
+						<physics mass="1.000"/>
+					</game_entity>
+					<game_entity name="ground_align" old_prefab_name="" mobility="1">
+						<transform rotation_euler="0.000, 0.000, -1.571"/>
+						<physics mass="1.000"/>
+						<children>
+							<game_entity name="use_ladder_r" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="right"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, 0.590, 0.000" rotation_euler="0.000, 0.000, 3.141"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="use_ladder_l" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="left"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, -0.660, 0.000"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="ladder_down_state" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<tags>
+									<tag name="ladderDown"/>
+								</tags>
+								<transform position="0.000, 0.000, 0.070" rotation_euler="1.571, -1.571, -3.142"/>
+								<physics mass="1.000">
+									<body_flags>
+										<body_flag name="only_collide_with_raycast"/>
+										<body_flag name="dont_transfer_to_physics_engine"/>
+									</body_flags>
+								</physics>
+								<skeleton skeleton_model="siege_ladder_6m_skeleton">
+									<components>
+										<meta_mesh_component name="siege_ladder_7m"/>
+									</components>
+								</skeleton>
+								<scripts>
+									<script name="SynchedMissionObject">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+								<children>
+									<game_entity name="body_interact" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_7m" override_material="wood" mass="1.000">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_offset" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_collision_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_7m_offset" override_material="wood" mass="1.000">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_precise" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<physics shape="bo_siege_ladder_7m_precise" mass="1.000">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="missile_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+								</children>
+							</game_entity>
+							<game_entity name="wait_pos_ground" old_prefab_name="" mobility="1">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="wait"/>
+								</tags>
+								<transform position="4.850, -3.103, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="siege_ladder_11m_mp" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<scripts>
+			<script name="SiegeLadder">
+				<variables>
+					<variable name="LadderPushTreshold" value="170.000"/>
+					<variable name="LadderPushTresholdForOneAgent" value="50.000"/>
+					<variable name="AttackerTag" value="attacker"/>
+					<variable name="DefenderTag" value="defender"/>
+					<variable name="downStateEntityTag" value="ladderDown"/>
+					<variable name="IdleAnimation" value="siege_ladder_11m_idle"/>
+					<variable name="_idleAnimationIndex" value="-1"/>
+					<variable name="RaiseAnimation" value="siege_ladder_11m_rise"/>
+					<variable name="RaiseAnimationWithoutRootBone" value="siege_ladder_11m_rise_wo_rootbone"/>
+					<variable name="_raiseAnimationWithoutRootBoneIndex" value="-1"/>
+					<variable name="PushBackAnimation" value="siege_ladder_11m_push_back"/>
+					<variable name="_pushBackAnimationIndex" value="-1"/>
+					<variable name="PushBackAnimationWithoutRootBone" value="siege_ladder_11m_push_back_wo_rootbone"/>
+					<variable name="_pushBackAnimationWithoutRootBoneIndex" value="-1"/>
+					<variable name="TrembleWallHeavyAnimation" value="siege_ladder_11m_stop_wall_heavy"/>
+					<variable name="TrembleWallLightAnimation" value="siege_ladder_11m_stop_wall_light"/>
+					<variable name="TrembleGroundAnimation" value="siege_ladder_11m_stop_ground_heavy"/>
+					<variable name="RightStandingPointTag" value="right"/>
+					<variable name="LeftStandingPointTag" value="left"/>
+					<variable name="FrontStandingPointTag" value="front"/>
+					<variable name="PushForkItemID" value="push_fork"/>
+					<variable name="upStateEntityTag" value="ladderUp"/>
+					<variable name="BodyTag" value="ladder_body"/>
+					<variable name="CollisionBodyTag" value="ladder_collision_body"/>
+					<variable name="InitialWaitPositionTag" value="initialwaitposition"/>
+					<variable name="BarrierTagToRemove" value="barrier"/>
+					<variable name="initialState" value="OnLand"/>
+					<variable name="IndestructibleMerlonsTag" value=""/>
+					<variable name="ForcedUse" value="false"/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="PilotStandingPointTag" value="Pilot"/>
+					<variable name="AmmoPickUpTag" value="ammopickup"/>
+					<variable name="WaitStandingPointTag" value="Wait"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="fork_holder" old_prefab_name="" mobility="1">
+				<transform position="1.088, 7.139, 11.519" rotation_euler="0.000, 0.000, 3.141"/>
+				<children>
+					<game_entity name="use_fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="ammopickup"/>
+						</tags>
+						<components>
+							<meta_mesh_component name="icon_man"/>
+						</components>
+						<scripts>
+							<script name="StandingPointWithWeaponRequirement">
+								<variables>
+									<variable name="AutoSheathWeapons" value="false"/>
+									<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+									<variable name="AutoWieldWeapons" value="false"/>
+									<variable name="TranslateUser" value="true"/>
+									<variable name="HasRecentlyBeenRechecked" value="false"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="push_fork"/>
+						</tags>
+						<transform position="0.200, 0.683, 0.576" rotation_euler="0.000, 0.221, 1.571"/>
+						<physics shape="bo_push_fork" override_material="wood">
+							<body_flags>
+								<body_flag name="only_collide_with_raycast"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="push_fork"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="initial_wait_pos" old_prefab_name="" mobility="1">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="initialwaitposition"/>
+				</tags>
+				<transform position="0.555, -37.929, 0.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="TacticalPosition">
+						<variables>
+							<variable name="_width" value="1.000"/>
+							<variable name="_slope" value="0.000"/>
+							<variable name="_isInsurmountable" value="false"/>
+							<variable name="_isOuterEdge" value="false"/>
+							<variable name="_tacticalPositionType" value="Regional"/>
+							<variable name="_tacticalRegionMembership" value="Forest"/>
+							<variable name="_tacticalPositionSide" value="BehaviorSideNotSet"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="use_push" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender"/>
+				</tags>
+				<transform position="-0.144, 6.870, 11.532" rotation_euler="0.000, 0.000, -3.141"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="StandingPointWithWeaponRequirement">
+						<variables>
+							<variable name="AutoSheathWeapons" value="false"/>
+							<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+							<variable name="AutoWieldWeapons" value="false"/>
+							<variable name="TranslateUser" value="true"/>
+							<variable name="HasRecentlyBeenRechecked" value="false"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="distance_holder" old_prefab_name="" mobility="1">
+				<children>
+					<game_entity name="ladder_up_state" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="ladderUp"/>
+						</tags>
+						<transform rotation_euler="-0.393, 0.000, 0.000"/>
+					</game_entity>
+					<game_entity name="ground_align" old_prefab_name="" mobility="1">
+						<transform rotation_euler="0.000, 0.000, -1.571"/>
+						<children>
+							<game_entity name="use_ladder_r" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="right"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, 0.590, 0.000" rotation_euler="0.000, 0.000, 3.141"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+											<variable name="AutoWieldWeapons" value="false"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="use_ladder_l" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="left"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, -0.660, 0.000"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+											<variable name="AutoWieldWeapons" value="false"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="ladder_down_state" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<tags>
+									<tag name="ladderDown"/>
+								</tags>
+								<transform position="0.000, 0.000, 0.070" rotation_euler="1.571, 1.571, 0.000"/>
+								<physics shape="bo_ambush_spots">
+									<body_flags>
+										<body_flag name="only_collide_with_raycast"/>
+										<body_flag name="dont_transfer_to_physics_engine"/>
+									</body_flags>
+								</physics>
+								<skeleton skeleton_model="siege_ladder_11m_skeleton">
+									<components>
+										<meta_mesh_component name="siege_ladder_11m"/>
+									</components>
+								</skeleton>
+								<scripts>
+									<script name="SynchedMissionObject">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+								<children>
+									<game_entity name="body_interact" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_11m" override_material="wood">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_offset" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_collision_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_11m_offset" override_material="wood">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_precise" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<physics shape="bo_siege_ladder_11m_precise">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="missile_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+								</children>
+							</game_entity>
+							<game_entity name="wait_pos_ground" old_prefab_name="" mobility="1">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="wait"/>
+								</tags>
+								<transform position="4.850, -3.103, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="siege_ladder_6m_mp" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<scripts>
+			<script name="SiegeLadder">
+				<variables>
+					<variable name="AttackerTag" value="attacker"/>
+					<variable name="DefenderTag" value="defender"/>
+					<variable name="downStateEntityTag" value="ladderDown"/>
+					<variable name="IdleAnimation" value="siege_ladder_6m_idle"/>
+					<variable name="_idleAnimationIndex" value="-1"/>
+					<variable name="RaiseAnimation" value="siege_ladder_6m_rise"/>
+					<variable name="RaiseAnimationWithoutRootBone" value="siege_ladder_6m_rise_wo_rootbone"/>
+					<variable name="_raiseAnimationWithoutRootBoneIndex" value="-1"/>
+					<variable name="PushBackAnimation" value="siege_ladder_6m_push_back"/>
+					<variable name="_pushBackAnimationIndex" value="-1"/>
+					<variable name="PushBackAnimationWithoutRootBone" value="siege_ladder_6m_push_back_wo_rootbone"/>
+					<variable name="_pushBackAnimationWithoutRootBoneIndex" value="-1"/>
+					<variable name="TrembleWallHeavyAnimation" value="siege_ladder_6m_stop_wall_heavy"/>
+					<variable name="TrembleWallLightAnimation" value="siege_ladder_6m_stop_wall_light"/>
+					<variable name="TrembleGroundAnimation" value="siege_ladder_6m_stop_ground_heavy"/>
+					<variable name="RightStandingPointTag" value="right"/>
+					<variable name="LeftStandingPointTag" value="left"/>
+					<variable name="FrontStandingPointTag" value="front"/>
+					<variable name="PushForkItemID" value="push_fork"/>
+					<variable name="upStateEntityTag" value="ladderUp"/>
+					<variable name="BodyTag" value="ladder_body"/>
+					<variable name="CollisionBodyTag" value="ladder_collision_body"/>
+					<variable name="InitialWaitPositionTag" value="initialwaitposition"/>
+					<variable name="BarrierTagToRemove" value="barrier"/>
+					<variable name="initialState" value="OnLand"/>
+					<variable name="IndestructibleMerlonsTag" value=""/>
+					<variable name="ForcedUse" value="false"/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="PilotStandingPointTag" value="Pilot"/>
+					<variable name="AmmoPickUpTag" value="ammopickup"/>
+					<variable name="WaitStandingPointTag" value="Wait"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="fork_holder" old_prefab_name="" mobility="1">
+				<transform position="1.058, 3.708, 5.969" rotation_euler="0.000, 0.000, 3.141"/>
+				<children>
+					<game_entity name="use_fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="ammopickup"/>
+						</tags>
+						<components>
+							<meta_mesh_component name="icon_man"/>
+						</components>
+						<scripts>
+							<script name="StandingPointWithWeaponRequirement">
+								<variables>
+									<variable name="AutoSheathWeapons" value="false"/>
+									<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+									<variable name="AutoWieldWeapons" value="false"/>
+									<variable name="TranslateUser" value="true"/>
+									<variable name="HasRecentlyBeenRechecked" value="false"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="push_fork"/>
+						</tags>
+						<transform position="0.200, 0.683, 0.576" rotation_euler="0.000, 0.221, 1.571"/>
+						<physics shape="bo_push_fork" override_material="wood">
+							<body_flags>
+								<body_flag name="only_collide_with_raycast"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="push_fork"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="initial_wait_pos" old_prefab_name="" mobility="1">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="initialwaitposition"/>
+				</tags>
+				<transform position="0.555, -37.929, 0.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="TacticalPosition">
+						<variables>
+							<variable name="_width" value="1.000"/>
+							<variable name="_slope" value="0.000"/>
+							<variable name="_isInsurmountable" value="false"/>
+							<variable name="_isOuterEdge" value="false"/>
+							<variable name="_tacticalPositionType" value="Regional"/>
+							<variable name="_tacticalRegionMembership" value="Forest"/>
+							<variable name="_tacticalPositionSide" value="BehaviorSideNotSet"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="use_push" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender"/>
+				</tags>
+				<transform position="-0.155, 3.399, 5.943" rotation_euler="0.000, 0.000, -3.141"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="StandingPointWithWeaponRequirement">
+						<variables>
+							<variable name="AutoSheathWeapons" value="false"/>
+							<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+							<variable name="AutoWieldWeapons" value="false"/>
+							<variable name="TranslateUser" value="true"/>
+							<variable name="HasRecentlyBeenRechecked" value="false"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="distance_holder" old_prefab_name="" mobility="1">
+				<children>
+					<game_entity name="ladder_up_state" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="ladderUp"/>
+						</tags>
+						<transform rotation_euler="-0.332, 0.000, 0.000"/>
+					</game_entity>
+					<game_entity name="ground_align" old_prefab_name="" mobility="1">
+						<transform rotation_euler="0.000, 0.000, -1.571"/>
+						<children>
+							<game_entity name="use_ladder_r" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="right"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, 0.590, 0.000" rotation_euler="0.000, 0.000, 3.141"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+											<variable name="AutoWieldWeapons" value="false"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="use_ladder_l" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="left"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, -0.660, 0.000"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+											<variable name="AutoWieldWeapons" value="false"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="ladder_down_state" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<tags>
+									<tag name="ladderDown"/>
+								</tags>
+								<transform position="0.000, 0.000, 0.070" rotation_euler="1.571, -1.571, -3.142"/>
+								<physics shape="bo_ambush_spots">
+									<body_flags>
+										<body_flag name="only_collide_with_raycast"/>
+										<body_flag name="dont_transfer_to_physics_engine"/>
+									</body_flags>
+								</physics>
+								<skeleton skeleton_model="siege_ladder_6m_skeleton">
+									<components>
+										<meta_mesh_component name="siege_ladder_6m"/>
+									</components>
+								</skeleton>
+								<scripts>
+									<script name="SynchedMissionObject">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+								<children>
+									<game_entity name="body_interact" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_6m" override_material="wood">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_offset" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_collision_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_6m_offset" override_material="wood">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_precise" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<physics shape="bo_siege_ladder_6m_precise">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="missile_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+								</children>
+							</game_entity>
+							<game_entity name="wait_pos_ground" old_prefab_name="" mobility="1">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="wait"/>
+								</tags>
+								<transform position="4.850, -3.103, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="siege_ladder_7m_mp" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<scripts>
+			<script name="SiegeLadder">
+				<variables>
+					<variable name="AttackerTag" value="attacker"/>
+					<variable name="DefenderTag" value="defender"/>
+					<variable name="downStateEntityTag" value="ladderDown"/>
+					<variable name="IdleAnimation" value="siege_ladder_6m_idle"/>
+					<variable name="_idleAnimationIndex" value="-1"/>
+					<variable name="RaiseAnimation" value="siege_ladder_6m_rise"/>
+					<variable name="RaiseAnimationWithoutRootBone" value="siege_ladder_6m_rise_wo_rootbone"/>
+					<variable name="_raiseAnimationWithoutRootBoneIndex" value="-1"/>
+					<variable name="PushBackAnimation" value="siege_ladder_6m_push_back"/>
+					<variable name="_pushBackAnimationIndex" value="-1"/>
+					<variable name="PushBackAnimationWithoutRootBone" value="siege_ladder_6m_push_back_wo_rootbone"/>
+					<variable name="_pushBackAnimationWithoutRootBoneIndex" value="-1"/>
+					<variable name="TrembleWallHeavyAnimation" value="siege_ladder_6m_stop_wall_heavy"/>
+					<variable name="TrembleWallLightAnimation" value="siege_ladder_6m_stop_wall_light"/>
+					<variable name="TrembleGroundAnimation" value="siege_ladder_6m_stop_ground_heavy"/>
+					<variable name="RightStandingPointTag" value="right"/>
+					<variable name="LeftStandingPointTag" value="left"/>
+					<variable name="FrontStandingPointTag" value="front"/>
+					<variable name="PushForkItemID" value="push_fork"/>
+					<variable name="upStateEntityTag" value="ladderUp"/>
+					<variable name="BodyTag" value="ladder_body"/>
+					<variable name="CollisionBodyTag" value="ladder_collision_body"/>
+					<variable name="InitialWaitPositionTag" value="initialwaitposition"/>
+					<variable name="BarrierTagToRemove" value="barrier"/>
+					<variable name="initialState" value="OnLand"/>
+					<variable name="IndestructibleMerlonsTag" value=""/>
+					<variable name="ForcedUse" value="false"/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="PilotStandingPointTag" value="Pilot"/>
+					<variable name="AmmoPickUpTag" value="ammopickup"/>
+					<variable name="WaitStandingPointTag" value="Wait"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="fork_holder" old_prefab_name="" mobility="1">
+				<transform position="1.058, 3.708, 5.969" rotation_euler="0.000, 0.000, 3.141"/>
+				<children>
+					<game_entity name="use_fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="ammopickup"/>
+						</tags>
+						<components>
+							<meta_mesh_component name="icon_man"/>
+						</components>
+						<scripts>
+							<script name="StandingPointWithWeaponRequirement">
+								<variables>
+									<variable name="AutoSheathWeapons" value="false"/>
+									<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+									<variable name="AutoWieldWeapons" value="false"/>
+									<variable name="TranslateUser" value="true"/>
+									<variable name="HasRecentlyBeenRechecked" value="false"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="push_fork"/>
+						</tags>
+						<transform position="0.200, 0.683, 0.576" rotation_euler="0.000, 0.221, 1.571"/>
+						<physics shape="bo_push_fork" override_material="wood">
+							<body_flags>
+								<body_flag name="only_collide_with_raycast"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="push_fork"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="initial_wait_pos" old_prefab_name="" mobility="1">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="initialwaitposition"/>
+				</tags>
+				<transform position="0.555, -37.929, 0.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="TacticalPosition">
+						<variables>
+							<variable name="_width" value="1.000"/>
+							<variable name="_slope" value="0.000"/>
+							<variable name="_isInsurmountable" value="false"/>
+							<variable name="_isOuterEdge" value="false"/>
+							<variable name="_tacticalPositionType" value="Regional"/>
+							<variable name="_tacticalRegionMembership" value="Forest"/>
+							<variable name="_tacticalPositionSide" value="BehaviorSideNotSet"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="use_push" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender"/>
+				</tags>
+				<transform position="-0.155, 3.399, 5.943" rotation_euler="0.000, 0.000, -3.141"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="StandingPointWithWeaponRequirement">
+						<variables>
+							<variable name="AutoSheathWeapons" value="false"/>
+							<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+							<variable name="AutoWieldWeapons" value="false"/>
+							<variable name="TranslateUser" value="true"/>
+							<variable name="HasRecentlyBeenRechecked" value="false"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="distance_holder" old_prefab_name="" mobility="1">
+				<children>
+					<game_entity name="ladder_up_state" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="ladderUp"/>
+						</tags>
+						<transform rotation_euler="-0.332, 0.000, 0.000"/>
+					</game_entity>
+					<game_entity name="ground_align" old_prefab_name="" mobility="1">
+						<transform rotation_euler="0.000, 0.000, -1.571"/>
+						<children>
+							<game_entity name="use_ladder_r" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="right"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, 0.590, 0.000" rotation_euler="0.000, 0.000, 3.141"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+											<variable name="AutoWieldWeapons" value="false"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="use_ladder_l" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="left"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, -0.660, 0.000"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+											<variable name="AutoWieldWeapons" value="false"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="ladder_down_state" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<tags>
+									<tag name="ladderDown"/>
+								</tags>
+								<transform position="0.000, 0.000, 0.070" rotation_euler="1.571, 1.571, 0.000"/>
+								<physics>
+									<body_flags>
+										<body_flag name="only_collide_with_raycast"/>
+										<body_flag name="dont_transfer_to_physics_engine"/>
+									</body_flags>
+								</physics>
+								<skeleton skeleton_model="siege_ladder_6m_skeleton">
+									<components>
+										<meta_mesh_component name="siege_ladder_7m"/>
+									</components>
+								</skeleton>
+								<scripts>
+									<script name="SynchedMissionObject">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+								<children>
+									<game_entity name="body_interact" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_7m" override_material="wood">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_offset" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_collision_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_7m_offset" override_material="wood">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_precise" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<physics shape="bo_siege_ladder_7m_precise">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="missile_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+								</children>
+							</game_entity>
+							<game_entity name="wait_pos_ground" old_prefab_name="" mobility="1">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="wait"/>
+								</tags>
+								<transform position="4.850, -3.103, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="siege_ladder_8m_mp" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<scripts>
+			<script name="SiegeLadder">
+				<variables>
+					<variable name="AttackerTag" value="attacker"/>
+					<variable name="DefenderTag" value="defender"/>
+					<variable name="downStateEntityTag" value="ladderDown"/>
+					<variable name="IdleAnimation" value="siege_ladder_8m_idle"/>
+					<variable name="_idleAnimationIndex" value="-1"/>
+					<variable name="RaiseAnimation" value="siege_ladder_8m_rise"/>
+					<variable name="RaiseAnimationWithoutRootBone" value="siege_ladder_8m_rise_wo_rootbone"/>
+					<variable name="_raiseAnimationWithoutRootBoneIndex" value="-1"/>
+					<variable name="PushBackAnimation" value="siege_ladder_8m_push_back"/>
+					<variable name="_pushBackAnimationIndex" value="-1"/>
+					<variable name="PushBackAnimationWithoutRootBone" value="siege_ladder_8m_push_back_wo_rootbone"/>
+					<variable name="_pushBackAnimationWithoutRootBoneIndex" value="-1"/>
+					<variable name="TrembleWallHeavyAnimation" value="siege_ladder_8m_stop_wall_heavy"/>
+					<variable name="TrembleWallLightAnimation" value="siege_ladder_8m_stop_wall_light"/>
+					<variable name="TrembleGroundAnimation" value="siege_ladder_8m_stop_ground_heavy"/>
+					<variable name="RightStandingPointTag" value="right"/>
+					<variable name="LeftStandingPointTag" value="left"/>
+					<variable name="FrontStandingPointTag" value="front"/>
+					<variable name="PushForkItemID" value="push_fork"/>
+					<variable name="upStateEntityTag" value="ladderUp"/>
+					<variable name="BodyTag" value="ladder_body"/>
+					<variable name="CollisionBodyTag" value="ladder_collision_body"/>
+					<variable name="InitialWaitPositionTag" value="initialwaitposition"/>
+					<variable name="BarrierTagToRemove" value="barrier"/>
+					<variable name="initialState" value="OnLand"/>
+					<variable name="IndestructibleMerlonsTag" value=""/>
+					<variable name="ForcedUse" value="false"/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="PilotStandingPointTag" value="Pilot"/>
+					<variable name="AmmoPickUpTag" value="ammopickup"/>
+					<variable name="WaitStandingPointTag" value="Wait"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="fork_holder" old_prefab_name="" mobility="1">
+				<transform position="1.087, 5.099, 9.987" rotation_euler="0.000, 0.000, 3.141"/>
+				<children>
+					<game_entity name="use_fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="ammopickup"/>
+						</tags>
+						<components>
+							<meta_mesh_component name="icon_man"/>
+						</components>
+						<scripts>
+							<script name="StandingPointWithWeaponRequirement">
+								<variables>
+									<variable name="AutoSheathWeapons" value="false"/>
+									<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+									<variable name="AutoWieldWeapons" value="false"/>
+									<variable name="TranslateUser" value="true"/>
+									<variable name="HasRecentlyBeenRechecked" value="false"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="push_fork"/>
+						</tags>
+						<transform position="0.200, 0.683, 0.576" rotation_euler="0.000, 0.221, 1.571"/>
+						<physics shape="bo_push_fork" override_material="wood">
+							<body_flags>
+								<body_flag name="only_collide_with_raycast"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="push_fork"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="initial_wait_pos" old_prefab_name="" mobility="1">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="initialwaitposition"/>
+				</tags>
+				<transform position="0.555, -37.929, 0.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="TacticalPosition">
+						<variables>
+							<variable name="_width" value="1.000"/>
+							<variable name="_slope" value="0.000"/>
+							<variable name="_isInsurmountable" value="false"/>
+							<variable name="_isOuterEdge" value="false"/>
+							<variable name="_tacticalPositionType" value="Regional"/>
+							<variable name="_tacticalRegionMembership" value="Forest"/>
+							<variable name="_tacticalPositionSide" value="BehaviorSideNotSet"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="use_push" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender"/>
+				</tags>
+				<transform position="-0.161, 4.801, 9.987" rotation_euler="0.000, 0.000, -3.141"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="StandingPointWithWeaponRequirement">
+						<variables>
+							<variable name="AutoSheathWeapons" value="false"/>
+							<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+							<variable name="AutoWieldWeapons" value="false"/>
+							<variable name="TranslateUser" value="true"/>
+							<variable name="HasRecentlyBeenRechecked" value="false"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="distance_holder" old_prefab_name="" mobility="1">
+				<children>
+					<game_entity name="ladder_up_state" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="ladderUp"/>
+						</tags>
+						<transform rotation_euler="-0.269, 0.000, 0.000"/>
+					</game_entity>
+					<game_entity name="ground_align" old_prefab_name="" mobility="1">
+						<transform rotation_euler="0.000, 0.000, -1.571"/>
+						<children>
+							<game_entity name="use_ladder_r" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="right"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, 0.590, 0.000" rotation_euler="0.000, 0.000, 3.141"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+											<variable name="AutoWieldWeapons" value="false"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="use_ladder_l" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="left"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, -0.660, 0.000"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+											<variable name="AutoWieldWeapons" value="false"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="ladder_down_state" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<tags>
+									<tag name="ladderDown"/>
+								</tags>
+								<transform position="0.000, 0.000, 0.070" rotation_euler="1.571, -1.571, -3.142"/>
+								<physics shape="bo_ambush_spots">
+									<body_flags>
+										<body_flag name="only_collide_with_raycast"/>
+										<body_flag name="dont_transfer_to_physics_engine"/>
+									</body_flags>
+								</physics>
+								<skeleton skeleton_model="siege_ladder_8m_skeleton">
+									<components>
+										<meta_mesh_component name="siege_ladder_8m"/>
+									</components>
+								</skeleton>
+								<scripts>
+									<script name="SynchedMissionObject">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+								<children>
+									<game_entity name="body_interact" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_8m" override_material="wood">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_offset" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_collision_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_8m_offset" override_material="wood">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_precise" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<physics shape="bo_siege_ladder_8m_precise">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="missile_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+								</children>
+							</game_entity>
+							<game_entity name="wait_pos_ground" old_prefab_name="" mobility="1">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="wait"/>
+								</tags>
+								<transform position="4.850, -3.103, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="siege_ladder_14m_mp" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<scripts>
+			<script name="SiegeLadder">
+				<variables>
+					<variable name="LadderPushTreshold" value="160.000"/>
+					<variable name="LadderPushTresholdForOneAgent" value="50.000"/>
+					<variable name="AttackerTag" value="attacker"/>
+					<variable name="DefenderTag" value="defender"/>
+					<variable name="downStateEntityTag" value="ladderDown"/>
+					<variable name="IdleAnimation" value="siege_ladder_14m_idle"/>
+					<variable name="_idleAnimationIndex" value="-1"/>
+					<variable name="RaiseAnimation" value="siege_ladder_14m_rise"/>
+					<variable name="RaiseAnimationWithoutRootBone" value="siege_ladder_14m_rise_wo_rootbone"/>
+					<variable name="_raiseAnimationWithoutRootBoneIndex" value="-1"/>
+					<variable name="PushBackAnimation" value="siege_ladder_14m_push_back"/>
+					<variable name="_pushBackAnimationIndex" value="-1"/>
+					<variable name="PushBackAnimationWithoutRootBone" value="siege_ladder_14m_push_back_wo_rootbone"/>
+					<variable name="_pushBackAnimationWithoutRootBoneIndex" value="-1"/>
+					<variable name="TrembleWallHeavyAnimation" value="siege_ladder_14m_stop_wall_heavy"/>
+					<variable name="TrembleWallLightAnimation" value="siege_ladder_14m_stop_wall_light"/>
+					<variable name="TrembleGroundAnimation" value="siege_ladder_14m_stop_ground_heavy"/>
+					<variable name="RightStandingPointTag" value="right"/>
+					<variable name="LeftStandingPointTag" value="left"/>
+					<variable name="FrontStandingPointTag" value="front"/>
+					<variable name="PushForkItemID" value="push_fork"/>
+					<variable name="upStateEntityTag" value="ladderUp"/>
+					<variable name="BodyTag" value="ladder_body"/>
+					<variable name="CollisionBodyTag" value="ladder_collision_body"/>
+					<variable name="InitialWaitPositionTag" value="initialwaitposition"/>
+					<variable name="BarrierTagToRemove" value="barrier"/>
+					<variable name="initialState" value="OnLand"/>
+					<variable name="IndestructibleMerlonsTag" value=""/>
+					<variable name="ForcedUse" value="false"/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="PilotStandingPointTag" value="Pilot"/>
+					<variable name="AmmoPickUpTag" value="ammopickup"/>
+					<variable name="WaitStandingPointTag" value="Wait"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="fork_holder" old_prefab_name="" mobility="1">
+				<transform position="1.278, 7.761, 12.944" rotation_euler="0.000, 0.000, 3.141"/>
+				<children>
+					<game_entity name="use_fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="ammopickup"/>
+						</tags>
+						<components>
+							<meta_mesh_component name="icon_man"/>
+						</components>
+						<scripts>
+							<script name="StandingPointWithWeaponRequirement">
+								<variables>
+									<variable name="AutoSheathWeapons" value="false"/>
+									<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+									<variable name="AutoWieldWeapons" value="false"/>
+									<variable name="TranslateUser" value="true"/>
+									<variable name="HasRecentlyBeenRechecked" value="false"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="fork" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="push_fork"/>
+						</tags>
+						<transform position="0.200, 0.683, 0.576" rotation_euler="0.000, 0.221, 1.571"/>
+						<physics shape="bo_push_fork" override_material="wood">
+							<body_flags>
+								<body_flag name="only_collide_with_raycast"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="push_fork"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="initial_wait_pos" old_prefab_name="" mobility="1">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="initialwaitposition"/>
+				</tags>
+				<transform position="0.555, -37.929, 0.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="TacticalPosition">
+						<variables>
+							<variable name="_width" value="1.000"/>
+							<variable name="_slope" value="0.000"/>
+							<variable name="_isInsurmountable" value="false"/>
+							<variable name="_isOuterEdge" value="false"/>
+							<variable name="_tacticalPositionType" value="Regional"/>
+							<variable name="_tacticalRegionMembership" value="Forest"/>
+							<variable name="_tacticalPositionSide" value="BehaviorSideNotSet"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="use_push" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="defender"/>
+				</tags>
+				<transform position="-0.144, 7.507, 12.936" rotation_euler="0.000, 0.000, -3.141"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="StandingPointWithWeaponRequirement">
+						<variables>
+							<variable name="AutoSheathWeapons" value="false"/>
+							<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+							<variable name="AutoWieldWeapons" value="false"/>
+							<variable name="TranslateUser" value="true"/>
+							<variable name="HasRecentlyBeenRechecked" value="false"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="distance_holder" old_prefab_name="" mobility="1">
+				<children>
+					<game_entity name="ladder_up_state" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="ladderUp"/>
+						</tags>
+						<transform rotation_euler="-0.393, 0.000, 0.000"/>
+					</game_entity>
+					<game_entity name="ground_align" old_prefab_name="" mobility="1">
+						<transform rotation_euler="0.000, 0.000, -1.571"/>
+						<children>
+							<game_entity name="use_ladder_r" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="right"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, 0.590, 0.000" rotation_euler="0.000, 0.000, 3.141"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+											<variable name="AutoWieldWeapons" value="false"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="use_ladder_l" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="front"/>
+									<tag name="left"/>
+									<tag name="attacker"/>
+								</tags>
+								<transform position="0.490, -0.660, 0.000"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+								<scripts>
+									<script name="StandingPoint">
+										<variables>
+											<variable name="AutoSheathWeapons" value="true"/>
+											<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+											<variable name="AutoWieldWeapons" value="false"/>
+											<variable name="TranslateUser" value="true"/>
+											<variable name="HasRecentlyBeenRechecked" value="false"/>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+							<game_entity name="ladder_down_state" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<tags>
+									<tag name="ladderDown"/>
+								</tags>
+								<transform position="0.000, 0.000, 0.070" rotation_euler="1.571, 1.571, 0.000"/>
+								<physics shape="bo_ambush_spots">
+									<body_flags>
+										<body_flag name="only_collide_with_raycast"/>
+										<body_flag name="dont_transfer_to_physics_engine"/>
+									</body_flags>
+								</physics>
+								<skeleton skeleton_model="siege_ladder_14m_skeleton">
+									<components>
+										<meta_mesh_component name="siege_ladder_14m"/>
+									</components>
+								</skeleton>
+								<scripts>
+									<script name="SynchedMissionObject">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+								<children>
+									<game_entity name="body_interact" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_14m" override_material="wood">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_offset" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<tags>
+											<tag name="ladder_collision_body"/>
+										</tags>
+										<physics shape="bo_siege_ladder_14m_offset" override_material="wood">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="agent_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+									<game_entity name="body_precise" old_prefab_name="" mobility="1">
+										<flags>
+											<flag name="record_to_scene_replay" value="true"/>
+										</flags>
+										<physics shape="bo_siege_ladder_14m_precise">
+											<body_flags>
+												<body_flag name="moveable"/>
+												<body_flag name="ladder"/>
+												<body_flag name="missile_only"/>
+											</body_flags>
+										</physics>
+										<scripts>
+											<script name="SynchedMissionObject">
+												<variables>
+													<variable name="NavMeshPrefabName" value=""/>
+												</variables>
+											</script>
+										</scripts>
+									</game_entity>
+								</children>
+							</game_entity>
+							<game_entity name="wait_pos_ground" old_prefab_name="" mobility="1">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<tags>
+									<tag name="wait"/>
+								</tags>
+								<transform position="4.850, -3.103, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+								<components>
+									<meta_mesh_component name="icon_man"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

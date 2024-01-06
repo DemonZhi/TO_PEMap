@@ -1,0 +1,1949 @@
+<prefabs>
+	<game_entity name="pandoras_box_usable" old_prefab_name="">
+		<physics shape="bo_pandora" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="icon_spawn_point"/>
+		</components>
+	</game_entity>
+	<game_entity name="spawned_item" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+		</flags>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="SpawnedItemEntity">
+				<variables>
+					<variable name="IsDroppedItem" value="false"/>
+					<variable name="WeaponName" value=""/>
+					<variable name="DescriptionMessage" value=""/>
+					<variable name="ActionMessage" value=""/>
+					<variable name="IsInstantUse" value="false"/>
+					<variable name="ObjectInteractionDistance" value="3.000"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="_debug_armor_pict_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="armor_pict_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="__empty_object" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+	</game_entity>
+	<game_entity name="_plane_8x8" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="plane_8x8"/>
+		</components>
+	</game_entity>
+	<game_entity name="icon_interest_blue" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="icon_interest_blue"/>
+		</components>
+	</game_entity>
+	<game_entity name="_decal" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<decal_component material="deferred_decal_material"/>
+		</components>
+	</game_entity>
+	<game_entity name="_sound_emitter" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="icon_sound"/>
+		</components>
+		<scripts>
+			<script name="sound_emitter">
+				<variables>
+					<variable name="Event Path" value=""/>
+					<variable name="Overrided Parameters" value="false"/>
+					<variable name="Play On Startup" value="true"/>
+					<variable name="Overrided Max Distance" value="0.000000"/>
+					<variable name="Overrided Min Distance" value="0.000000"/>
+					<variable name="Overrided Volume" value="0.440000"/>
+					<variable name="Overrided Pitch" value="0.000000"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="adam2" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.730"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="adam2"/>
+		</components>
+	</game_entity>
+	<game_entity name="empty_entity" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="debug_lod_mesh"/>
+		</components>
+	</game_entity>
+	<game_entity name="trajectory_entity" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="trajectory_sphere"/>
+		</components>
+	</game_entity>
+	<game_entity name="a_psys_map_birds_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+	</game_entity>
+	<game_entity name="banner_simple_test" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="banner_test"/>
+		</components>
+		<scripts>
+			<script name="AnimatedFlag"/>
+		</scripts>
+	</game_entity>
+	<game_entity name="aaa_wall_test" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="simple_bone_box"/>
+		</components>
+	</game_entity>
+	<game_entity name="debug_lod_mesh" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="debug_lod_mesh"/>
+		</components>
+	</game_entity>
+	<game_entity name="a_region_template" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_006" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_006"/>
+		</components>
+	</game_entity>
+	<game_entity name="spawnpoint" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="spawnpoint"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="icon_spawn_point"/>
+		</components>
+	</game_entity>
+	<game_entity name="mp_spawnpoint" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="spawnpoint"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="arrow_new_icon"/>
+		</components>
+	</game_entity>
+	<game_entity name="mp_spawnpoint_attacker" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="spawnpoint"/>
+			<tag name="attacker"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="arrow_new_icon"/>
+		</components>
+	</game_entity>
+	<game_entity name="mp_spawnpoint_defender" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="spawnpoint"/>
+			<tag name="defender"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="arrow_new_icon"/>
+		</components>
+	</game_entity>
+	<game_entity name="performance_test_spawnpoint" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="performance_test_spawnpoint"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="arrow_new_icon"/>
+		</components>
+	</game_entity>
+	<game_entity name="spr_invalid_object" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="question_mark"/>
+		</components>
+		<levels>
+			<level name="base"/>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+			<level name="siege"/>
+			<level name="civilian"/>
+			<level name="sally"/>
+		</levels>
+	</game_entity>
+	<game_entity name="envmap_prop" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="envmap_probe"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="ReflectionCapturer">
+				<variables>
+					<variable name="IsGlobal" value="true"/>
+					<variable name="IsParallaxCorrected" value="false"/>
+					<variable name="AmbientMultiplier" value="1.000"/>
+					<variable name="AttenuationCoef" value="20.000"/>
+					<variable name="BoxOffset" value="0.000, 0.000, 0.000, 0.000"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="local_envmap_prop" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="envmap_probe"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="ReflectionCapturer">
+				<variables>
+					<variable name="IsGlobal" value="false"/>
+					<variable name="IsParallaxCorrected" value="false"/>
+					<variable name="AmbientMultiplier" value="1.000"/>
+					<variable name="AttenuationCoef" value="20.000"/>
+					<variable name="BoxOffset" value="0.000, 0.000, 0.000, 0.000"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="icon_man" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+		</flags>
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="ammoload"/>
+		</tags>
+		<transform position="49.089, 26.455, 0.000" rotation_euler="0.000, 0.000, 3.141"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="icon_man"/>
+		</components>
+		<scripts>
+			<script name="StandingPointWithWeaponRequirement">
+				<variables>
+					<variable name="AutoSheathWeapons" value="false"/>
+					<variable name="TranslateUser" value="true"/>
+					<variable name="DescriptionMessage" value=""/>
+					<variable name="ActionMessage" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="icon_man" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="aiwaypoint"/>
+				</tags>
+				<transform position="0.743, -1.659, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="icon_camera" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="cameraHolder"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="icon_camera"/>
+		</components>
+	</game_entity>
+	<game_entity name="Navigation_Mesh_Deactivator" old_prefab_name="">
+		<tags>
+			<tag name="navigation_mesh_deactivator"/>
+		</tags>
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 2.838"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="pandora"/>
+		</components>
+		<scripts>
+			<script name="NavigationMeshDeactivator">
+				<variables>
+					<variable name="DisableFaceWithId" value="0"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="adam_0" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -3.100"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="body_male_a"/>
+			<meta_mesh_component name="feet_male_a" _index_="1"/>
+			<meta_mesh_component name="head_male_a" _index_="2"/>
+			<meta_mesh_component name="hands_male_a" _index_="3"/>
+		</components>
+	</game_entity>
+	<game_entity name="adam_idle" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -3.100"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="adam_idle"/>
+		</components>
+	</game_entity>
+	<game_entity name="volume_box" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+		</flags>
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.235"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="volume_box"/>
+		</components>
+		<scripts>
+			<script name="VolumeBox"/>
+		</scripts>
+	</game_entity>
+	<game_entity name="checkpoint" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.647" scale="5.132, 6.724, 4.157"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="volume_box"/>
+		</components>
+		<scripts>
+			<script name="VolumeBox"/>
+		</scripts>
+		<children>
+			<game_entity name="best_target_point" old_prefab_name="">
+				<tags>
+					<tag name="best_target_point"/>
+				</tags>
+				<transform position="0.030, -0.060, 0.050" rotation_euler="0.000, 0.000, 0.023" scale="0.200, 0.200, 0.200"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sound_reverb" old_prefab_name="">
+		<transform position="937.405, 1242.495, 40.655" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="reverb_instance">
+				<variables>
+					<variable name="Snapshot Name" value=""/>
+					<variable name="Shape" value="Sphere"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="primitive_cube" old_prefab_name="">
+		<transform position="400.000, 400.000, 100.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_editor_cube" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="editor_cube">
+				<mesh name="editor_cube" material="plain_white"/>
+			</meta_mesh_component>
+		</components>
+	</game_entity>
+	<game_entity name="prt_border_probe" old_prefab_name="">
+		<tags>
+			<tag name="sh_border_tag"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="soft_border_column"/>
+		</components>
+	</game_entity>
+	<game_entity name="scene_leveler" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="SceneLeveler">
+				<variables>
+					<variable name="SourceSelectionSetName" value=""/>
+					<variable name="TargetSelectionSetName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity old_prefab_name="" name="caravan_test_prop">
+		<levels>
+			<level name="level_3"/>
+			<level name="level_2"/>
+			<level name="level_1"/>
+			<level name="base"/>
+		</levels>
+		<children>
+			<game_entity old_prefab_name="" name="merchandise_gold">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<children>
+					<game_entity old_prefab_name="" name="merchandise_hides_b">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="merchandise_hides_b"/>
+						</components>
+						<physics mass="1.000" shape="bo_merchandise_hides_b"/>
+						<transform scale="0.940, 0.940, 0.940" rotation_euler="0.000, 0.000, -1.238" position="-0.719, 0.414, 0.000"/>
+					</game_entity>
+					<game_entity old_prefab_name="" name="merchandise_iron_a">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="merchandise_iron_a"/>
+						</components>
+						<physics mass="1.000" shape="bo_merchandise_gold"/>
+						<transform scale="0.781, 0.781, 0.781" rotation_euler="0.000, 0.000, 0.000" position="-0.591, -0.134, 0.000"/>
+					</game_entity>
+					<game_entity old_prefab_name="" name="merchandise_iron_a">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="merchandise_iron_a"/>
+						</components>
+						<physics mass="1.000" shape="bo_merchandise_gold"/>
+						<transform scale="0.940, 0.940, 0.940" rotation_euler="-0.080, -0.231, -0.759" position="-0.219, -0.687, 0.017"/>
+					</game_entity>
+				</children>
+				<components>
+					<meta_mesh_component name="merchandise_gold"/>
+				</components>
+				<physics mass="1.000" shape="bo_merchandise_gold"/>
+				<transform scale="1.064, 1.064, 1.064" rotation_euler="0.000, 0.000, 1.014" position="6.009, -5.376, 0.000"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="bd_basket_aserai_a">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<children>
+					<game_entity old_prefab_name="" name="bd_basket_aserai_d">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="bd_basket_aserai_d"/>
+						</components>
+						<physics mass="1.000" shape="bo_bd_basket_aserai_d"/>
+						<transform rotation_euler="1.323, -1.171, 2.113" position="-0.455, -0.480, 0.221"/>
+					</game_entity>
+					<game_entity old_prefab_name="" name="bd_basket_aserai_c">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="bd_basket_aserai_c"/>
+						</components>
+						<physics mass="1.000" shape="bo_bd_basket_aserai_c"/>
+						<transform rotation_euler="1.199, 0.000, 0.000" position="0.617, 0.145, 0.110"/>
+					</game_entity>
+					<game_entity old_prefab_name="" name="bd_basket_aserai_d">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="bd_basket_aserai_d"/>
+						</components>
+						<physics mass="1.000" shape="bo_bd_basket_aserai_d"/>
+						<transform rotation_euler="0.278, -0.255, 0.047" position="0.557, 0.597, 0.000"/>
+					</game_entity>
+				</children>
+				<components>
+					<meta_mesh_component name="bd_basket_aserai_a"/>
+				</components>
+				<physics mass="1.000" shape="bo_bd_basket_aserai_a"/>
+				<transform rotation_euler="0.000, 0.000, 1.374" position="-12.055, 0.850, 0.000"/>
+				<flags>
+					<flag value="true" name="align_to_terrain"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="crate_a">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<children>
+					<game_entity old_prefab_name="" name="market_apple_crate">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="market_apple_crate"/>
+						</components>
+						<physics mass="1.000" shape="bo_market_apple_crate"/>
+						<transform scale="1.238, 1.238, 1.238" rotation_euler="0.000, 0.000, 1.355" position="-1.071, -0.120, 0.869"/>
+					</game_entity>
+					<game_entity old_prefab_name="" name="crate_a">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="crate_a">
+								<mesh material="interior_wood_a" name="crate_a.8"/>
+								<mesh material="interior_wood_a" name="crate_a.4"/>
+							</meta_mesh_component>
+						</components>
+						<physics mass="1.000" shape="bo_crate_a"/>
+						<transform scale="1.238, 1.238, 1.238" rotation_euler="0.000, 0.000, 0.397" position="-0.944, -0.184, 0.000"/>
+					</game_entity>
+					<game_entity old_prefab_name="" name="camel_load">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="camel_saddle_a"/>
+						</components>
+						<physics mass="1.000"/>
+						<transform scale="1.540, 1.540, 1.540" rotation_euler="0.040, 0.000, 1.892" position="1.490, 0.593, -2.087"/>
+					</game_entity>
+				</children>
+				<components>
+					<meta_mesh_component name="crate_a">
+						<mesh material="interior_wood_a" name="crate_a.8"/>
+						<mesh material="interior_wood_a" name="crate_a.4"/>
+					</meta_mesh_component>
+				</components>
+				<physics mass="1.000" shape="bo_crate_a"/>
+				<transform scale="0.808, 0.808, 0.808" rotation_euler="0.000, 0.000, -0.341" position="-7.040, -3.279, 0.000"/>
+				<flags>
+					<flag value="true" name="align_to_terrain"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="bd_basket_aserai_c">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<children>
+					<game_entity old_prefab_name="" name="bd_basket_aserai_a">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="bd_basket_aserai_a"/>
+						</components>
+						<physics mass="1.000" shape="bo_bd_basket_aserai_a"/>
+						<transform scale="0.839, 0.839, 0.839" rotation_euler="-1.511, 0.000, -1.204" position="-1.020, 0.258, 0.232"/>
+					</game_entity>
+				</children>
+				<components>
+					<meta_mesh_component name="bd_basket_aserai_c"/>
+				</components>
+				<physics mass="1.000" shape="bo_bd_basket_aserai_c"/>
+				<transform scale="0.887, 0.887, 0.887" rotation_euler="0.000, 0.000, 2.578" position="-14.149, 2.377, 0.000"/>
+				<flags>
+					<flag value="true" name="align_to_terrain"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="shop_prop_merchantleather_c">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<children>
+					<game_entity old_prefab_name="" name="shop_prop_merchantleather_b">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="shop_prop_merchantleather_b"/>
+						</components>
+						<physics mass="1.000" shape="bo_shop_prop_merchantleather_b"/>
+						<transform scale="1.212, 1.212, 1.212" rotation_euler="0.000, 0.000, 0.108" position="-0.631, -1.425, 0.000"/>
+						<tags>
+							<tag name="b"/>
+							<tag name="shop_prop"/>
+						</tags>
+					</game_entity>
+					<game_entity old_prefab_name="" name="shop_prop_merchantleather_b">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="shop_prop_merchantleather_b"/>
+						</components>
+						<physics mass="1.000" shape="bo_shop_prop_merchantleather_b"/>
+						<transform scale="1.212, 1.212, 1.212" rotation_euler="0.000, 0.000, 0.523" position="0.711, 1.489, 0.000"/>
+						<tags>
+							<tag name="b"/>
+							<tag name="shop_prop"/>
+						</tags>
+					</game_entity>
+				</children>
+				<components>
+					<meta_mesh_component name="shop_prop_merchantleather_c"/>
+				</components>
+				<physics mass="1.000" shape="bo_shop_prop_merchantleather_c"/>
+				<transform scale="0.825, 0.825, 0.825" rotation_euler="0.000, 0.000, 0.807" position="-0.734, -4.700, 0.000"/>
+				<tags>
+					<tag name="c"/>
+					<tag name="shop_prop"/>
+				</tags>
+				<flags>
+					<flag value="true" name="align_to_terrain"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="bd_sack_a">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<children>
+					<game_entity old_prefab_name="" name="bd_sack_b">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="bd_sack_b"/>
+						</components>
+						<physics mass="1.000" override_material="straw" shape="bo_bd_sack_b"/>
+						<transform scale="0.781, 0.781, 0.781" rotation_euler="-0.114, -0.913, 0.285" position="-0.483, -0.237, 0.653"/>
+					</game_entity>
+					<game_entity old_prefab_name="" name="bd_sack_c">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="bd_sack_c">
+								<mesh factor="4288449634" name="bd_sack_c.lod5.3"/>
+								<mesh factor="4288449634" name="bd_sack_c.lod4.3"/>
+								<mesh factor="4288449634" name="bd_sack_c.lod3.3"/>
+								<mesh factor="4288449634" name="bd_sack_c.lod2.3"/>
+								<mesh factor="4288449634" name="bd_sack_c.3"/>
+							</meta_mesh_component>
+						</components>
+						<physics mass="1.000" override_material="straw" shape="bo_bd_sack_c"/>
+						<transform scale="0.821, 0.821, 0.821" rotation_euler="-1.194, -1.443, 1.485" position="0.689, -0.164, -0.427"/>
+					</game_entity>
+					<game_entity old_prefab_name="" name="bd_sack_b">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="bd_sack_b">
+								<mesh factor="4286539861" name="bd_sack_b.lod4.3"/>
+								<mesh factor="4286539861" name="bd_sack_b.lod3.3"/>
+								<mesh factor="4286539861" name="bd_sack_b.lod2.3"/>
+								<mesh factor="4286539861" name="bd_sack_b.3"/>
+							</meta_mesh_component>
+						</components>
+						<physics mass="1.000" override_material="straw" shape="bo_bd_sack_b"/>
+						<transform scale="0.879, 0.879, 0.879" rotation_euler="-0.018, -2.360, -0.233" position="0.931, -0.346, -1.689"/>
+					</game_entity>
+					<game_entity old_prefab_name="" name="bd_sack_b">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="bd_sack_b">
+								<mesh factor="4286539861" name="bd_sack_b.lod4.3"/>
+								<mesh factor="4286539861" name="bd_sack_b.lod3.3"/>
+								<mesh factor="4286539861" name="bd_sack_b.lod2.3"/>
+								<mesh factor="4286539861" name="bd_sack_b.3"/>
+							</meta_mesh_component>
+						</components>
+						<physics mass="1.000" override_material="straw" shape="bo_bd_sack_b"/>
+						<transform scale="1.026, 0.827, 1.026" rotation_euler="0.009, 1.763, -0.263" position="0.433, -0.189, 0.549"/>
+					</game_entity>
+					<game_entity old_prefab_name="" name="bd_sack_b">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="bd_sack_b">
+								<mesh factor="4291218075" name="bd_sack_b.lod4.3"/>
+								<mesh factor="4291218075" name="bd_sack_b.lod3.3"/>
+								<mesh factor="4291218075" name="bd_sack_b.lod2.3"/>
+								<mesh factor="4291218075" name="bd_sack_b.3"/>
+							</meta_mesh_component>
+						</components>
+						<physics mass="1.000" override_material="straw" shape="bo_bd_sack_b"/>
+						<transform scale="1.026, 1.026, 1.026" rotation_euler="-0.026, 2.620, 2.946" position="-0.703, 0.000, 0.608"/>
+					</game_entity>
+					<game_entity old_prefab_name="" name="bd_sack_a">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="bd_sack_a">
+								<mesh factor="4291218075" name="bd_sack_a.lod4.3"/>
+								<mesh factor="4291218075" name="bd_sack_a.lod3.3"/>
+								<mesh factor="4291218075" name="bd_sack_a.lod2.3"/>
+								<mesh factor="4291218075" name="bd_sack_a.3"/>
+							</meta_mesh_component>
+						</components>
+						<physics mass="1.000" override_material="straw" shape="bo_bd_sack_a"/>
+						<transform scale="1.026, 1.026, 1.026" rotation_euler="0.218, 1.173, 2.909" position="-0.163, -0.170, 1.386"/>
+					</game_entity>
+					<game_entity old_prefab_name="" name="bd_sack_a">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="bd_sack_a">
+								<mesh factor="4286539861" name="bd_sack_a.lod4.3"/>
+								<mesh factor="4286539861" name="bd_sack_a.lod3.3"/>
+								<mesh factor="4286539861" name="bd_sack_a.lod2.3"/>
+								<mesh factor="4286539861" name="bd_sack_a.3"/>
+							</meta_mesh_component>
+						</components>
+						<physics mass="1.000" override_material="straw" shape="bo_bd_sack_a"/>
+						<transform scale="1.026, 1.026, 1.026" rotation_euler="0.276, 0.844, -0.445" position="-1.694, 0.387, 0.743"/>
+					</game_entity>
+				</children>
+				<components>
+					<meta_mesh_component name="bd_sack_a"/>
+				</components>
+				<physics mass="1.000" override_material="straw" shape="bo_bd_sack_a"/>
+				<transform scale="0.975, 0.975, 0.975" rotation_euler="-1.361, 1.344, 2.070" position="4.082, -0.314, 0.000"/>
+				<flags>
+					<flag value="true" name="align_to_terrain"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="shop_prop_merchantweavery_linen_c">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<children>
+					<game_entity old_prefab_name="" name="merchandise_velvet">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="merchandise_velvet"/>
+						</components>
+						<physics mass="1.000" shape="bo_merchandise_velvet"/>
+						<transform scale="0.914, 0.914, 0.914" rotation_euler="-0.273, -0.420, -1.938" position="-0.014, 1.309, 0.634"/>
+					</game_entity>
+					<game_entity old_prefab_name="" name="shop_prop_merchantweavery_velvet_c">
+						<levels>
+							<level name="level_3"/>
+							<level name="level_2"/>
+							<level name="level_1"/>
+							<level name="base"/>
+						</levels>
+						<components>
+							<meta_mesh_component name="shop_prop_merchantweavery_velvet_c"/>
+						</components>
+						<physics mass="1.000" shape="bo_shop_prop_merchantweavery_linen_c"/>
+						<transform scale="0.753, 0.753, 0.753" rotation_euler="0.000, 0.000, 2.372" position="-0.280, 1.525, 0.000"/>
+						<tags>
+							<tag name="c"/>
+							<tag name="shop_prop"/>
+						</tags>
+					</game_entity>
+				</children>
+				<components>
+					<meta_mesh_component name="shop_prop_merchantweavery_linen_c"/>
+				</components>
+				<physics mass="1.000" shape="bo_shop_prop_merchantweavery_linen_c"/>
+				<transform scale="0.924, 0.924, 0.924" rotation_euler="0.000, 0.000, 2.744" position="14.723, -2.023, 0.000"/>
+				<tags>
+					<tag name="c"/>
+					<tag name="shop_prop"/>
+				</tags>
+				<flags>
+					<flag value="true" name="align_to_terrain"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="caravan_animal_spawn_point">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<components>
+					<meta_mesh_component name="debug_lod_mesh"/>
+				</components>
+				<physics mass="1.000"/>
+				<transform rotation_euler="0.000, 0.000, -0.226" position="-7.189, -7.497, -0.011"/>
+				<tags>
+					<tag name="caravan_animal_spawn"/>
+				</tags>
+				<visibility_masks>
+					<visibility_mask value="true" name="visible_only_when_editing"/>
+				</visibility_masks>
+			</game_entity>
+			<game_entity old_prefab_name="" name="caravan_animal_spawn_point">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<components>
+					<meta_mesh_component name="debug_lod_mesh"/>
+				</components>
+				<physics mass="1.000"/>
+				<transform rotation_euler="0.000, 0.000, 0.311" position="2.271, -10.058, -0.011"/>
+				<tags>
+					<tag name="caravan_animal_spawn"/>
+				</tags>
+				<visibility_masks>
+					<visibility_mask value="true" name="visible_only_when_editing"/>
+				</visibility_masks>
+			</game_entity>
+			<game_entity old_prefab_name="" name="caravan_animal_spawn_point">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<components>
+					<meta_mesh_component name="debug_lod_mesh"/>
+				</components>
+				<physics mass="1.000"/>
+				<transform rotation_euler="0.000, 0.000, 0.197" position="12.459, -0.313, -0.011"/>
+				<tags>
+					<tag name="caravan_animal_spawn"/>
+				</tags>
+				<visibility_masks>
+					<visibility_mask value="true" name="visible_only_when_editing"/>
+				</visibility_masks>
+			</game_entity>
+			<game_entity old_prefab_name="" name="caravan_animal_spawn_point">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<components>
+					<meta_mesh_component name="debug_lod_mesh"/>
+				</components>
+				<physics mass="1.000"/>
+				<transform rotation_euler="0.000, 0.000, -0.226" position="-14.581, -6.085, -0.011"/>
+				<tags>
+					<tag name="caravan_animal_spawn"/>
+				</tags>
+				<visibility_masks>
+					<visibility_mask value="true" name="visible_only_when_editing"/>
+				</visibility_masks>
+			</game_entity>
+			<game_entity old_prefab_name="" name="caravan_animal_spawn_point">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<components>
+					<meta_mesh_component name="debug_lod_mesh"/>
+				</components>
+				<physics mass="1.000"/>
+				<transform rotation_euler="0.000, 0.000, -1.189" position="-3.474, -4.214, 0.000"/>
+				<tags>
+					<tag name="caravan_animal_spawn"/>
+				</tags>
+				<visibility_masks>
+					<visibility_mask value="true" name="visible_only_when_editing"/>
+				</visibility_masks>
+			</game_entity>
+			<game_entity old_prefab_name="" name="caravan_animal_spawn_point">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<components>
+					<meta_mesh_component name="debug_lod_mesh"/>
+				</components>
+				<physics mass="1.000"/>
+				<transform rotation_euler="0.000, 0.000, -0.304" position="12.672, -4.412, -0.011"/>
+				<tags>
+					<tag name="caravan_animal_spawn"/>
+				</tags>
+				<visibility_masks>
+					<visibility_mask value="true" name="visible_only_when_editing"/>
+				</visibility_masks>
+			</game_entity>
+			<game_entity old_prefab_name="" name="caravan_animal_spawn_point">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<components>
+					<meta_mesh_component name="debug_lod_mesh"/>
+				</components>
+				<physics mass="1.000"/>
+				<transform rotation_euler="0.000, 0.000, -1.876" position="0.103, -0.540, -0.011"/>
+				<tags>
+					<tag name="caravan_animal_spawn"/>
+				</tags>
+				<visibility_masks>
+					<visibility_mask value="true" name="visible_only_when_editing"/>
+				</visibility_masks>
+			</game_entity>
+			<game_entity old_prefab_name="" name="CaravanTacticalPosition">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<scripts>
+					<script name="TacticalPosition">
+						<variables>
+							<variable value="DifficultTerrain" name="tacticalRegionMembership"/>
+							<variable value="SpecialMissionPosition" name="tacticalPositionType"/>
+							<variable value="false" name="isOuterEdge"/>
+							<variable value="true" name="isInsurmountable"/>
+							<variable value="0.000" name="slope"/>
+							<variable value="20.000" name="width"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="debug_lod_mesh"/>
+				</components>
+				<physics mass="1.000"/>
+				<transform scale="20.000, 1.000, 1.000" rotation_euler="0.000, 0.000, 3.104" position="0.274, -0.629, 0.000"/>
+				<visibility_masks>
+					<visibility_mask value="true" name="visible_only_when_editing"/>
+				</visibility_masks>
+			</game_entity>
+			<game_entity old_prefab_name="" name="caravan_animal_spawn_point">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<components>
+					<meta_mesh_component name="debug_lod_mesh"/>
+				</components>
+				<physics mass="1.000"/>
+				<transform rotation_euler="0.000, 0.000, -2.151" position="-10.868, -2.375, -0.011"/>
+				<tags>
+					<tag name="caravan_animal_spawn"/>
+				</tags>
+				<visibility_masks>
+					<visibility_mask value="true" name="visible_only_when_editing"/>
+				</visibility_masks>
+			</game_entity>
+			<game_entity old_prefab_name="" name="caravan_animal_spawn_point">
+				<levels>
+					<level name="level_3"/>
+					<level name="level_2"/>
+					<level name="level_1"/>
+					<level name="base"/>
+				</levels>
+				<components>
+					<meta_mesh_component name="debug_lod_mesh"/>
+				</components>
+				<physics mass="1.000"/>
+				<transform rotation_euler="0.000, 0.000, -1.352" position="6.947, -3.994, -0.011"/>
+				<tags>
+					<tag name="caravan_animal_spawn"/>
+				</tags>
+				<visibility_masks>
+					<visibility_mask value="true" name="visible_only_when_editing"/>
+				</visibility_masks>
+			</game_entity>
+		</children>
+		<physics mass="1.000"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+		<tags>
+			<tag name="caravan"/>
+		</tags>
+		<flags>
+			<flag value="true" name="align_to_terrain"/>
+		</flags>
+	</game_entity>
+	<game_entity name="map_banner_placeholder" old_prefab_name="">
+		<tags>
+			<tag name="map_banner_placeholder"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_editor_cube" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="editor_cube"/>
+		</components>
+		<levels>
+			<level name="base"/>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+			<level name="civilian"/>
+			<level name="siege"/>
+			<level name="looted"/>
+		</levels>
+	</game_entity>
+	<game_entity name="MultiplayerSceneValidator" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="MultiplayerSceneValidator"/>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="decal_spawner" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="decal_placer">
+				<variables>
+					<variable name="Value" value="20.000"/>
+					<variable name="decal0" value="decals_moss_atlassed_1"/>
+					<variable name="decal1" value="decals_moss_atlassed_2"/>
+					<variable name="decal2" value="decals_moss_atlassed_3"/>
+					<variable name="decal3" value="decals_moss_atlassed_4"/>
+					<variable name="Placement Surface" value="stone_wall_2_remade_d"/>
+					<variable name="Decal Count" value="350"/>
+					<variable name="Minimum Size" value="4.000"/>
+					<variable name="Maximum Size" value="6.000"/>
+				</variables>
+			</script>
+		</scripts>
+		<levels>
+			<level name="base"/>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+			<level name="civilian"/>
+			<level name="siege"/>
+		</levels>
+	</game_entity>
+	<game_entity name="volume_box_corner" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="volume_box" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="0.500, 0.500, -0.500"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="volume_box"/>
+				</components>
+				<scripts>
+					<script name="VolumeBox"/>
+				</scripts>
+				<levels>
+					<level name="base"/>
+				</levels>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<levels>
+			<level name="base"/>
+		</levels>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="sp_meeting_conversation_dialog_spawn" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="binary_conversation_point"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="animation_stand_arrow_green"/>
+		</components>
+		<children>
+			<game_entity name="player_conversation" old_prefab_name="">
+				<tags>
+					<tag name="camera_parent"/>
+				</tags>
+				<transform position="4.960, 5.137, 0.000" rotation_euler="0.000, 0.000, -0.061" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="player_infantry_spawn" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="player_infantry_spawn"/>
+				</tags>
+				<transform position="5.660, 5.961, 0.056" rotation_euler="0.000, 0.000, -0.697" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="CharacterSpawner">
+						<variables>
+							<variable name="Enabled" value="false"/>
+							<variable name="PoseAction" value="act_bandit_thumbnail_pose"/>
+							<variable name="LordName" value="prison_guard_battania"/>
+							<variable name="ActionSetSuffix" value="_villain"/>
+							<variable name="PoseActionForHorse" value="horse_stand_3"/>
+							<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+							<variable name="IsWeaponWielded" value="false"/>
+							<variable name="HasMount" value="false"/>
+							<variable name="WieldOffHand" value="false"/>
+							<variable name="AnimationProgress" value="1.000"/>
+							<variable name="HorseAnimationProgress" value="0.000"/>
+							<variable name="Active" value="true"/>
+						</variables>
+					</script>
+				</scripts>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="player_bodyguard_infantry_spawn_0" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="player_bodyguard_infantry_spawn"/>
+				</tags>
+				<transform position="5.716, 4.851, 0.010" rotation_euler="0.000, 0.000, -0.536" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="CharacterSpawner">
+						<variables>
+							<variable name="Enabled" value="false"/>
+							<variable name="PoseAction" value="act_bandit_thumbnail_pose"/>
+							<variable name="LordName" value="prison_guard_battania"/>
+							<variable name="ActionSetSuffix" value="_villain"/>
+							<variable name="PoseActionForHorse" value="horse_stand_3"/>
+							<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+							<variable name="IsWeaponWielded" value="false"/>
+							<variable name="HasMount" value="false"/>
+							<variable name="WieldOffHand" value="false"/>
+							<variable name="AnimationProgress" value="1.000"/>
+							<variable name="HorseAnimationProgress" value="0.000"/>
+							<variable name="Active" value="true"/>
+						</variables>
+					</script>
+				</scripts>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="player_bodyguard_infantry_spawn_1" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="player_bodyguard_infantry_spawn"/>
+					<tag name="player_bannerbearer_infantry_spawn"/>
+				</tags>
+				<transform position="4.514, 5.833, 0.040" rotation_euler="0.000, 0.000, -0.901" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="CharacterSpawner">
+						<variables>
+							<variable name="Enabled" value="false"/>
+							<variable name="PoseAction" value="act_bandit_thumbnail_pose"/>
+							<variable name="LordName" value="prison_guard_battania"/>
+							<variable name="ActionSetSuffix" value="_villain"/>
+							<variable name="PoseActionForHorse" value="horse_stand_3"/>
+							<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+							<variable name="IsWeaponWielded" value="false"/>
+							<variable name="HasMount" value="false"/>
+							<variable name="WieldOffHand" value="false"/>
+							<variable name="AnimationProgress" value="1.000"/>
+							<variable name="HorseAnimationProgress" value="0.000"/>
+							<variable name="Active" value="true"/>
+						</variables>
+					</script>
+				</scripts>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="opponent_infantry_spawn" old_prefab_name="">
+				<tags>
+					<tag name="opponent_infantry_spawn"/>
+				</tags>
+				<transform position="13.793, 16.929, 10.125" rotation_euler="0.000, 0.000, 2.717" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="CharacterSpawner">
+						<variables>
+							<variable name="Enabled" value="false"/>
+							<variable name="PoseAction" value="act_tableau_pose_7"/>
+							<variable name="LordName" value="commander_6"/>
+							<variable name="ActionSetSuffix" value="_facegen"/>
+							<variable name="PoseActionForHorse" value="horse_stand_3"/>
+							<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+							<variable name="IsWeaponWielded" value="false"/>
+							<variable name="HasMount" value="false"/>
+							<variable name="WieldOffHand" value="false"/>
+							<variable name="AnimationProgress" value="0.000"/>
+							<variable name="HorseAnimationProgress" value="0.000"/>
+							<variable name="Active" value="true"/>
+						</variables>
+					</script>
+				</scripts>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="opponent_bodyguard_infantry_spawn_0" old_prefab_name="">
+				<tags>
+					<tag name="opponent_bodyguard_infantry_spawn"/>
+				</tags>
+				<transform position="15.693, 15.971, 10.039" rotation_euler="0.000, 0.000, 2.422" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="CharacterSpawner">
+						<variables>
+							<variable name="Enabled" value="false"/>
+							<variable name="PoseAction" value="act_tableau_pose_7"/>
+							<variable name="LordName" value="commander_6"/>
+							<variable name="ActionSetSuffix" value="_facegen"/>
+							<variable name="PoseActionForHorse" value="horse_stand_3"/>
+							<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+							<variable name="IsWeaponWielded" value="false"/>
+							<variable name="HasMount" value="false"/>
+							<variable name="WieldOffHand" value="false"/>
+							<variable name="AnimationProgress" value="0.000"/>
+							<variable name="HorseAnimationProgress" value="0.000"/>
+							<variable name="Active" value="true"/>
+						</variables>
+					</script>
+				</scripts>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="opponent_bodyguard_infantry_spawn_1" old_prefab_name="">
+				<tags>
+					<tag name="opponent_bodyguard_infantry_spawn"/>
+					<tag name="opponent_bannerbearer_infantry_spawn"/>
+				</tags>
+				<transform position="12.370, 18.437, 10.018" rotation_euler="0.000, 0.000, 2.619" scale="1.333, 1.333, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="CharacterSpawner">
+						<variables>
+							<variable name="Enabled" value="false"/>
+							<variable name="PoseAction" value="act_tableau_pose_7"/>
+							<variable name="LordName" value="commander_6"/>
+							<variable name="ActionSetSuffix" value="_facegen"/>
+							<variable name="PoseActionForHorse" value="horse_stand_3"/>
+							<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+							<variable name="IsWeaponWielded" value="false"/>
+							<variable name="HasMount" value="false"/>
+							<variable name="WieldOffHand" value="false"/>
+							<variable name="AnimationProgress" value="0.000"/>
+							<variable name="HorseAnimationProgress" value="0.000"/>
+							<variable name="Active" value="true"/>
+						</variables>
+					</script>
+				</scripts>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="prt_border_probe_partial" old_prefab_name="">
+		<tags>
+			<tag name="sh_border_partial_tag"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="soft_border_column">
+				<mesh name="soft_border_column" factor="4279187199"/>
+			</meta_mesh_component>
+		</components>
+	</game_entity>
+	<game_entity name="partial_gi_baker" old_prefab_name="" mobility="1">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="editor_cube_centered"/>
+		</components>
+		<scripts>
+			<script name="gi_partial_bake_probe">
+				<variables>
+					<variable name="RayCast Quality" value="Normal"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="editor_cube_centered" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="editor_cube_centered">
+				<mesh name="editor_cube_centered" argument="0.500, 1.000, 0.000, 0.000"/>
+			</meta_mesh_component>
+		</components>
+	</game_entity>
+	<game_entity name="cutscene_female_anim" old_prefab_name="">
+		<transform position="54.008, 55.350, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<children>
+			<game_entity name="camera_cut_object_1" old_prefab_name="">
+				<transform position="5.090, -2.974, -11.776" rotation_euler="0.000, 0.000, 0.000" scale="0.700, 0.700, 0.700"/>
+				<physics shape="bo_roman_column_d" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="roman_column_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="father_character" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="spawnpoint_player_1"/>
+				</tags>
+				<transform position="1.376, -2.058, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+				<skeleton skeleton_model="human_skeleton">
+					<components>
+						<meta_mesh_component name="arrow_new_icon"/>
+					</components>
+				</skeleton>
+				<scripts>
+					<script name="PopupSceneSpawnPoint">
+						<variables>
+							<variable name="InitialAction" value="act_cutscene_heir_coming_of_age_father"/>
+							<variable name="PositiveAction" value=""/>
+							<variable name="NegativeAction" value=""/>
+							<variable name="InitialFaceAnimCode" value=""/>
+							<variable name="PositiveFaceAnimCode" value=""/>
+							<variable name="NegativeFaceAnimCode" value=""/>
+							<variable name="RightHandWieldedItem" value=""/>
+							<variable name="LeftHandWieldedItem" value=""/>
+							<variable name="BannerTagToUseForAddedPrefab" value=""/>
+							<variable name="StartWithRandomProgress" value="false"/>
+							<variable name="AttachedPrefabOffset" value="0.000, 0.000, 0.000, -1.000"/>
+							<variable name="UseHorse" value="false"/>
+							<variable name="PrefabItem" value=""/>
+							<variable name="PrefabBone" value="ItemR"/>
+						</variables>
+					</script>
+					<script name="animation_instance">
+						<variables>
+							<variable name="Skeleton Name" value="human_skeleton"/>
+							<variable name="Animation Name" value="act_cutscene_heir_coming_of_age_father"/>
+							<variable name="Morph Animation Name" value=""/>
+							<variable name="Speed Multiplier" value="1.000000"/>
+							<variable name="Animation Phase" value="0.000000"/>
+							<variable name="Morph Animation Phase" value="0.000000"/>
+							<variable name="Freeze Animation" value="false"/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="animation_point" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="npc_wait"/>
+							<tag name="npc_common"/>
+						</tags>
+						<scripts>
+							<script name="AnimationPoint">
+								<variables>
+									<variable name="ArriveAction" value=""/>
+									<variable name="LoopStartAction" value="act_cutscene_heir_coming_of_age_father"/>
+									<variable name="PairLoopStartAction" value=""/>
+									<variable name="LeaveAction" value=""/>
+									<variable name="GroupId" value="-1"/>
+									<variable name="RightHandItem" value=""/>
+									<variable name="LeftHandItem" value=""/>
+									<variable name="MinUserToStartInteraction" value="1"/>
+									<variable name="ActivatePairs" value="false"/>
+									<variable name="MinWaitinSeconds" value="50.000"/>
+									<variable name="MaxWaitInSeconds" value="320.000"/>
+									<variable name="ForwardDistanceToPivotPoint" value="0.000"/>
+									<variable name="SideDistanceToPivotPoint" value="0.000"/>
+									<variable name="KeepOldVisibility" value="false"/>
+									<variable name="AutoSheathWeapons" value="false"/>
+									<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+									<variable name="AutoWieldWeapons" value="false"/>
+									<variable name="TranslateUser" value="true"/>
+									<variable name="HasRecentlyBeenRechecked" value="false"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+				<levels>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+			</game_entity>
+			<game_entity name="heir_character_stage_1" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="spawnpoint_player_2"/>
+				</tags>
+				<transform position="0.063, -1.306, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+				<skeleton skeleton_model="human_skeleton">
+					<components>
+						<meta_mesh_component name="arrow_new_icon"/>
+					</components>
+				</skeleton>
+				<scripts>
+					<script name="PopupSceneSpawnPoint">
+						<variables>
+							<variable name="InitialAction" value="act_cutscene_heir_coming_of_age_heir_stage_1"/>
+							<variable name="PositiveAction" value=""/>
+							<variable name="NegativeAction" value=""/>
+							<variable name="InitialFaceAnimCode" value=""/>
+							<variable name="PositiveFaceAnimCode" value=""/>
+							<variable name="NegativeFaceAnimCode" value=""/>
+							<variable name="RightHandWieldedItem" value=""/>
+							<variable name="LeftHandWieldedItem" value=""/>
+							<variable name="BannerTagToUseForAddedPrefab" value=""/>
+							<variable name="StartWithRandomProgress" value="false"/>
+							<variable name="AttachedPrefabOffset" value="0.000, 0.000, 0.000, -1.000"/>
+							<variable name="UseHorse" value="false"/>
+							<variable name="PrefabItem" value=""/>
+							<variable name="PrefabBone" value="ItemR"/>
+						</variables>
+					</script>
+					<script name="animation_instance">
+						<variables>
+							<variable name="Skeleton Name" value="human_skeleton"/>
+							<variable name="Animation Name" value="act_cutscene_heir_coming_of_age_heir_stage_1"/>
+							<variable name="Morph Animation Name" value=""/>
+							<variable name="Speed Multiplier" value="1.000000"/>
+							<variable name="Animation Phase" value="0.000000"/>
+							<variable name="Morph Animation Phase" value="0.000000"/>
+							<variable name="Freeze Animation" value="false"/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="animation_point" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="npc_wait"/>
+							<tag name="npc_common"/>
+						</tags>
+						<scripts>
+							<script name="AnimationPoint">
+								<variables>
+									<variable name="ArriveAction" value=""/>
+									<variable name="LoopStartAction" value="act_cutscene_heir_coming_of_age_heir_stage_1"/>
+									<variable name="PairLoopStartAction" value=""/>
+									<variable name="LeaveAction" value=""/>
+									<variable name="GroupId" value="-1"/>
+									<variable name="RightHandItem" value=""/>
+									<variable name="LeftHandItem" value=""/>
+									<variable name="MinUserToStartInteraction" value="1"/>
+									<variable name="ActivatePairs" value="false"/>
+									<variable name="MinWaitinSeconds" value="50.000"/>
+									<variable name="MaxWaitInSeconds" value="320.000"/>
+									<variable name="ForwardDistanceToPivotPoint" value="0.000"/>
+									<variable name="SideDistanceToPivotPoint" value="0.000"/>
+									<variable name="KeepOldVisibility" value="false"/>
+									<variable name="AutoSheathWeapons" value="false"/>
+									<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+									<variable name="AutoWieldWeapons" value="false"/>
+									<variable name="TranslateUser" value="true"/>
+									<variable name="HasRecentlyBeenRechecked" value="false"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+				<levels>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+			</game_entity>
+			<game_entity name="heir_character_stage_2" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="spawnpoint_player_3"/>
+				</tags>
+				<transform position="-1.290, -1.775, 0.000" rotation_euler="0.000, 0.000, -1.571"/>
+				<skeleton skeleton_model="human_skeleton">
+					<components>
+						<meta_mesh_component name="arrow_new_icon"/>
+					</components>
+				</skeleton>
+				<scripts>
+					<script name="PopupSceneSpawnPoint">
+						<variables>
+							<variable name="InitialAction" value="act_cutscene_heir_coming_of_age_heir_stage_2_girl"/>
+							<variable name="PositiveAction" value=""/>
+							<variable name="NegativeAction" value=""/>
+							<variable name="InitialFaceAnimCode" value=""/>
+							<variable name="PositiveFaceAnimCode" value=""/>
+							<variable name="NegativeFaceAnimCode" value=""/>
+							<variable name="RightHandWieldedItem" value=""/>
+							<variable name="LeftHandWieldedItem" value=""/>
+							<variable name="BannerTagToUseForAddedPrefab" value=""/>
+							<variable name="StartWithRandomProgress" value="false"/>
+							<variable name="AttachedPrefabOffset" value="0.000, 0.000, 0.000, -1.000"/>
+							<variable name="UseHorse" value="false"/>
+							<variable name="PrefabItem" value=""/>
+							<variable name="PrefabBone" value="ItemR"/>
+						</variables>
+					</script>
+					<script name="animation_instance">
+						<variables>
+							<variable name="Skeleton Name" value="human_skeleton"/>
+							<variable name="Animation Name" value="act_cutscene_heir_coming_of_age_heir_stage_2_girl"/>
+							<variable name="Morph Animation Name" value=""/>
+							<variable name="Speed Multiplier" value="1.000000"/>
+							<variable name="Animation Phase" value="0.000000"/>
+							<variable name="Morph Animation Phase" value="0.000000"/>
+							<variable name="Freeze Animation" value="false"/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="animation_point" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="npc_wait"/>
+							<tag name="npc_common"/>
+						</tags>
+						<scripts>
+							<script name="AnimationPoint">
+								<variables>
+									<variable name="ArriveAction" value=""/>
+									<variable name="LoopStartAction" value="act_cutscene_heir_coming_of_age_heir_stage_2_girl"/>
+									<variable name="PairLoopStartAction" value=""/>
+									<variable name="LeaveAction" value=""/>
+									<variable name="GroupId" value="-1"/>
+									<variable name="RightHandItem" value=""/>
+									<variable name="LeftHandItem" value=""/>
+									<variable name="MinUserToStartInteraction" value="1"/>
+									<variable name="ActivatePairs" value="false"/>
+									<variable name="MinWaitinSeconds" value="50.000"/>
+									<variable name="MaxWaitInSeconds" value="320.000"/>
+									<variable name="ForwardDistanceToPivotPoint" value="0.000"/>
+									<variable name="SideDistanceToPivotPoint" value="0.000"/>
+									<variable name="KeepOldVisibility" value="false"/>
+									<variable name="AutoSheathWeapons" value="false"/>
+									<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+									<variable name="AutoWieldWeapons" value="false"/>
+									<variable name="TranslateUser" value="true"/>
+									<variable name="HasRecentlyBeenRechecked" value="false"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+				<levels>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+			</game_entity>
+			<game_entity name="Camera_parent" old_prefab_name="">
+				<transform position="3.906, -1.468, 0.813"/>
+				<children>
+					<game_entity name="camera_static" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="customcamera"/>
+							<tag name="camera_instance"/>
+						</tags>
+						<transform position="-14.686, -7.336, 0.698" rotation_euler="1.568, -0.018, -0.988"/>
+						<skeleton skeleton_model="skeleton_camera"/>
+						<scripts>
+							<script name="camera_instance">
+								<variables>
+									<variable name="FOV(Degrees)" value="22.000000"/>
+									<variable name="Width" value="1300"/>
+									<variable name="Height" value="700"/>
+									<variable name="Downscale Width" value="1300"/>
+									<variable name="Near" value="0.010000"/>
+									<variable name="Far" value="1000.000000"/>
+									<variable name="DOF Focus Start" value="0.000000"/>
+									<variable name="DOF Focus" value="0.000000"/>
+									<variable name="DOF Focus End" value="0.000000"/>
+									<variable name="Background Color" value="1.000, 0.000, 1.000, 1.000"/>
+									<variable name="Render Skybox" value="true"/>
+								</variables>
+							</script>
+							<script name="PopupSceneCameraPath">
+								<variables>
+									<variable name="LookAtEntity" value=""/>
+									<variable name="SkeletonName" value="skeleton_camera"/>
+									<variable name="BoneIndex" value="0"/>
+									<variable name="AttachmentOffset" value="0.000, 0.000, 0.000, -1.000"/>
+									<variable name="InitialPath" value=""/>
+									<variable name="InitialAnimationClip" value="cutscene_heir_coming_of_age_camera"/>
+									<variable name="InitialSound" value="event:/mission/siege/siegetower/doorland"/>
+									<variable name="InitialPathStartTime" value="40.000"/>
+									<variable name="InitialPathDuration" value="5.000"/>
+									<variable name="InitialInterpolation" value="Linear"/>
+									<variable name="InitialFadeOut" value="true"/>
+									<variable name="PositivePath" value=""/>
+									<variable name="PositiveAnimationClip" value="cutscene_heir_coming_of_age_camera"/>
+									<variable name="PositiveSound" value=""/>
+									<variable name="PositivePathStartTime" value="0.000"/>
+									<variable name="PositivePathDuration" value="1.000"/>
+									<variable name="PositiveInterpolation" value="Linear"/>
+									<variable name="PositiveFadeOut" value="false"/>
+									<variable name="NegativePath" value=""/>
+									<variable name="NegativeAnimationClip" value=""/>
+									<variable name="NegativeSound" value=""/>
+									<variable name="NegativePathStartTime" value="0.000"/>
+									<variable name="NegativePathDuration" value="1.000"/>
+									<variable name="NegativeInterpolation" value="Linear"/>
+									<variable name="NegativeFadeOut" value="false"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="camera_icon" old_prefab_name="" mobility="1">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.000, 0.000, 1.000" rotation_euler="-1.571, 0.000, 0.000"/>
+								<components>
+									<meta_mesh_component name="icon_camera"/>
+								</components>
+							</game_entity>
+							<game_entity name="editor_cube" old_prefab_name="" mobility="1">
+								<transform position="0.000, 0.307, 1.019"/>
+								<physics shape="bo_editor_cube"/>
+								<components>
+									<meta_mesh_component name="editor_cube"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="camera_cut_object_2" old_prefab_name="">
+				<transform position="-6.169, -5.842, -11.664" rotation_euler="0.000, 0.000, 0.000" scale="0.700, 0.700, 0.700"/>
+				<physics shape="bo_roman_column_d" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="roman_column_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="heir_character_stage_3" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="spawnpoint_player_4"/>
+				</tags>
+				<transform position="0.759, -2.052, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+				<skeleton skeleton_model="human_skeleton">
+					<components>
+						<meta_mesh_component name="arrow_new_icon"/>
+					</components>
+				</skeleton>
+				<scripts>
+					<script name="PopupSceneSpawnPoint">
+						<variables>
+							<variable name="InitialAction" value="act_cutscene_heir_coming_of_age_heir_stage_3_girl"/>
+							<variable name="PositiveAction" value=""/>
+							<variable name="NegativeAction" value=""/>
+							<variable name="InitialFaceAnimCode" value=""/>
+							<variable name="PositiveFaceAnimCode" value=""/>
+							<variable name="NegativeFaceAnimCode" value=""/>
+							<variable name="RightHandWieldedItem" value=""/>
+							<variable name="LeftHandWieldedItem" value=""/>
+							<variable name="BannerTagToUseForAddedPrefab" value=""/>
+							<variable name="StartWithRandomProgress" value="false"/>
+							<variable name="AttachedPrefabOffset" value="0.000, 0.000, 0.000, -1.000"/>
+							<variable name="UseHorse" value="false"/>
+							<variable name="PrefabItem" value=""/>
+							<variable name="PrefabBone" value="ItemR"/>
+						</variables>
+					</script>
+					<script name="animation_instance">
+						<variables>
+							<variable name="Skeleton Name" value="human_skeleton"/>
+							<variable name="Animation Name" value="act_cutscene_heir_coming_of_age_heir_stage_3_girl"/>
+							<variable name="Morph Animation Name" value=""/>
+							<variable name="Speed Multiplier" value="1.000000"/>
+							<variable name="Animation Phase" value="0.000000"/>
+							<variable name="Morph Animation Phase" value="0.000000"/>
+							<variable name="Freeze Animation" value="false"/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="animation_point" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="npc_wait"/>
+							<tag name="npc_common"/>
+						</tags>
+						<scripts>
+							<script name="AnimationPoint">
+								<variables>
+									<variable name="ArriveAction" value=""/>
+									<variable name="LoopStartAction" value="act_cutscene_heir_coming_of_age_heir_stage_3_girl"/>
+									<variable name="PairLoopStartAction" value=""/>
+									<variable name="LeaveAction" value=""/>
+									<variable name="GroupId" value="-1"/>
+									<variable name="RightHandItem" value=""/>
+									<variable name="LeftHandItem" value=""/>
+									<variable name="MinUserToStartInteraction" value="1"/>
+									<variable name="ActivatePairs" value="false"/>
+									<variable name="MinWaitinSeconds" value="50.000"/>
+									<variable name="MaxWaitInSeconds" value="320.000"/>
+									<variable name="ForwardDistanceToPivotPoint" value="0.000"/>
+									<variable name="SideDistanceToPivotPoint" value="0.000"/>
+									<variable name="KeepOldVisibility" value="false"/>
+									<variable name="AutoSheathWeapons" value="false"/>
+									<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+									<variable name="AutoWieldWeapons" value="false"/>
+									<variable name="TranslateUser" value="true"/>
+									<variable name="HasRecentlyBeenRechecked" value="false"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+				<levels>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+				</levels>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="camera_height_limiter" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<tags>
+			<tag name="camera_height_limiter"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="icon_camera">
+				<mesh name="icon_camera" material="plain_red" argument="2.000, 0.000, 0.000, 0.000"/>
+			</meta_mesh_component>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="true">
+				<factor value="1.000, 1.000, 1.000, 1.000"/>
+			</feature>
+		</additional_features>
+	</game_entity>
+</prefabs>
+

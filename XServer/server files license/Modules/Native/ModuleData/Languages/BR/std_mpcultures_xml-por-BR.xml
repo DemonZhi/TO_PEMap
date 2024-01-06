@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Português (BR)" />
+  </tags>
+  <strings>
+    <string id="0B27RrYJ" text="Batânia" />
+    <string id="1sbJQR4H" text="Saqueadores" />
+    <string id="3PzgpFGq" text="Neutro" />
+    <string id="aseraifaction" text="Asserais" />
+    <string id="empirefaction" text="Império" />
+    <string id="FjwRsf1C" text="Vlândia" />
+    <string id="PjO7oY16" text="Estúrgia" />
+    <string id="sZLd6VHi" text="Khozait" />
+  </strings>
+</base>

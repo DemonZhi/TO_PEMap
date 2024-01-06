@@ -1,0 +1,620 @@
+<?xml version="1.0"?>
+<scene name="scn_conversation_tableau" version="2">
+	<flora_bounding_rect min="0.000, 0.000" max="0.000, 0.000"/>
+	<levels>
+		<level name="base" mask="1"/>
+		<level name="level_1" mask="2"/>
+		<level name="level_2" mask="4"/>
+		<level name="level_3" mask="8"/>
+	</levels>
+	<environment_properties>
+		<property name="nav_mesh_auto_generated_" value="false"/>
+		<property name="physics_world_min" value="0.000, 0.000"/>
+		<property name="physics_world_max_" value="166.661, 156.356"/>
+		<property name="north_angle" value="0.000"/>
+		<property name="is_indoors" value="false"/>
+		<property name="disable_flora_billboards" value="true"/>
+		<property name="ground_color" value="0.000, 0.000, 0.000"/>
+		<property name="prt_multiplier" value="1.000"/>
+		<property name="prt_point_light_multiplier" value="1.000"/>
+		<property name="fog_start_distance" value="50.000"/>
+		<property name="prt_color_contrast" value="1.000"/>
+		<property name="scene_scale_multiplier" value="1.000"/>
+		<property name="prt_intensity_contrast" value="1.000"/>
+		<property name="prt_fallback_probe_index" value="-1, -1, -1"/>
+		<property name="enforced_color_grade" value=""/>
+		<atmosphere_properties>
+			<property name="atmosphere_name" value="conv_aserai_lordshall_0"/>
+			<property name="wind" value="1.004, 0.976"/>
+			<property name="scene_fog_falloff_offset" value="0.000"/>
+		</atmosphere_properties>
+		<water_properties version="1">
+			<property name="water_level" value="-100.000"/>
+			<property name="water_strength" value="5.000"/>
+			<property name="water_wind_dependency" value="1.000"/>
+			<property name="water_material" value="water_default"/>
+			<property name="water_shallow_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_deep_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_exists" value="false"/>
+			<property name="place_water_probe" value="true"/>
+		</water_properties>
+		<out_of_bounds_effects_properties>
+			<property name="vignette_color" value="0.000, 0.500, 1.000"/>
+			<property name="vignette_alpha" value="0.000"/>
+		</out_of_bounds_effects_properties>
+	</environment_properties>
+	<entities>
+		<game_entity name="khuzait_lordshall" old_prefab_name="" visible="false" season_mask="255">
+			<tags>
+				<tag name="conv_khuzait_lordshall_0"/>
+			</tags>
+			<transform position="148.701, 144.031, -0.004" rotation_euler="0.000, 0.000, 0.569" scale="0.998, 0.998, 1.000"/>
+			<physics mass="1.000"/>
+			<children>
+				<game_entity name="empty_object" old_prefab_name="" season_mask="255">
+					<transform position="-1.931, -1.127, 1.576" rotation_euler="0.000, 0.000, -0.569"/>
+					<physics mass="1.000"/>
+					<components>
+						<light_component color="1.000, 0.588, 0.082" intensity="100.000" radius="5.000" flicker_interval="0.500" flicker_magnitude="0.600" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="2" shadow_size_multiplier="1" shadow_radius="4.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="empty_object" old_prefab_name="" season_mask="255">
+					<transform position="2.368, -0.049, 0.792" rotation_euler="0.000, 0.000, -0.569"/>
+					<physics mass="1.000"/>
+					<components>
+						<light_component color="1.000, 0.659, 0.180" intensity="100.000" radius="5.000" flicker_interval="0.500" flicker_magnitude="0.800" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="2" shadow_size_multiplier="1" shadow_radius="4.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="empty_object" old_prefab_name="" season_mask="255">
+					<transform position="-1.281, 2.983, 0.792" rotation_euler="0.000, 0.000, -0.569"/>
+					<physics mass="1.000"/>
+					<components>
+						<light_component color="1.000, 0.588, 0.082" intensity="100.000" radius="5.000" flicker_interval="0.500" flicker_magnitude="0.600" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="2" shadow_size_multiplier="1" shadow_radius="4.000"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="empty_object" old_prefab_name="" visible="false" season_mask="255">
+			<transform position="146.976, 143.281, 0.640" rotation_euler="1.312, -1.089, 1.901"/>
+			<physics mass="1.000"/>
+			<components>
+				<light_component color="1.000, 0.878, 0.384" intensity="25.000" radius="4.000" local_frame_rot="4.000000, 0.000000, 0.000000, 0.000000, 4.000000, 0.000000, 0.000000, 0.000000, 4.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="2" shadow_size_multiplier="2" shadow_radius="4.000"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="envmap_prop">
+			<transform position="144.772, 151.294, 1.133" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity name="empty_object" old_prefab_name="" visible="false" season_mask="255">
+			<transform position="151.970, 141.994, 2.451" rotation_euler="1.312, -0.662, 1.901"/>
+			<physics mass="1.000"/>
+			<components>
+				<light_component flags="128" color="0.690, 0.902, 1.000" intensity="50.000" radius="10.000" local_frame_rot="10.000000, 0.000000, 0.000000, 0.000000, 10.000000, 0.000000, 0.000000, 0.000000, 10.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="2" shadow_size_multiplier="2" shadow_radius="8.000"/>
+			</components>
+		</game_entity>
+		<game_entity name="sp_conversation_dialog_spawn" old_prefab_name="sp_player" season_mask="255">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="binary_conversation_point"/>
+			</tags>
+			<transform position="148.595, 144.150, -0.004" rotation_euler="0.000, 0.000, 0.918" scale="0.750, 0.750, 1.000"/>
+			<physics mass="1.000"/>
+			<components>
+				<meta_mesh_component name="animation_stand_arrow_green"/>
+			</components>
+			<children>
+				<game_entity name="player_conversation" old_prefab_name="__empty_object" season_mask="255">
+					<tags>
+						<tag name="camera_parent"/>
+					</tags>
+					<transform rotation_euler="0.000, 0.000, 0.000" scale="1.333, 1.333, 1.000"/>
+					<physics mass="1.000"/>
+					<children>
+						<game_entity name="player_infantry_to_infantry_camera" old_prefab_name="Camera_Instance" season_mask="255">
+							<tags>
+								<tag name="sword_cam"/>
+								<tag name="player_infantry_to_infantry"/>
+							</tags>
+							<transform position="2.099, 4.536, 1.383" rotation_euler="1.553, -3.058, -0.507"/>
+							<physics mass="1.000"/>
+							<scripts>
+								<script name="camera_instance">
+									<variables>
+										<variable name="FOV(Degrees)" value="15.000000"/>
+										<variable name="Width" value="1920"/>
+										<variable name="Height" value="1080"/>
+										<variable name="Downscale Width" value="1280"/>
+										<variable name="Near" value="0.100000"/>
+										<variable name="Far" value="100.000000"/>
+										<variable name="DOF Focus Start" value="0.000000"/>
+										<variable name="DOF Focus" value="0.000000"/>
+										<variable name="DOF Focus End" value="50.000000"/>
+										<variable name="Background Color" value="0.000, 0.000, 0.000, 1.000"/>
+										<variable name="Render Skybox" value="true"/>
+									</variables>
+								</script>
+							</scripts>
+							<children>
+								<game_entity name="camera_icon" old_prefab_name="camera_icon" season_mask="255">
+									<visibility_masks>
+										<visibility_mask name="visible_only_when_editing" value="true"/>
+									</visibility_masks>
+									<transform position="0.000, 0.000, 1.000" rotation_euler="-1.571, 0.000, 0.000"/>
+									<physics mass="1.000"/>
+									<components>
+										<meta_mesh_component name="icon_camera"/>
+									</components>
+								</game_entity>
+							</children>
+						</game_entity>
+					</children>
+				</game_entity>
+				<game_entity name="player_infantry_spawn" old_prefab_name="adam2" season_mask="255">
+					<visibility_masks>
+						<visibility_mask name="visible_only_when_editing" value="true"/>
+					</visibility_masks>
+					<tags>
+						<tag name="player_infantry_spawn"/>
+					</tags>
+					<transform position="-0.040, -0.208, 0.000" rotation_euler="0.000, 0.000, -0.349" scale="1.330, 1.330, 1.000"/>
+					<physics mass="1.000"/>
+					<scripts>
+						<script name="CharacterSpawner">
+							<variables>
+								<variable name="Enabled" value="true"/>
+								<variable name="PoseAction" value="act_bandit_thumbnail_pose"/>
+								<variable name="LordName" value="prison_guard_battania"/>
+								<variable name="ActionSetSuffix" value="_villain"/>
+								<variable name="PoseActionForHorse" value="horse_stand_3"/>
+								<variable name="BodyPropertiesString" value='&lt;BodyProperties version="4" key="0011380440002305847779D6677788B99369769659B8C76239C55C6497EC56D9000C7D350C3272C50000037F0000000F00000037049140010000000001683000" /&gt;'/>
+								<variable name="IsWeaponWielded" value="false"/>
+								<variable name="HasMount" value="false"/>
+								<variable name="WieldOffHand" value="false"/>
+								<variable name="AnimationProgress" value="1.000"/>
+								<variable name="HorseAnimationProgress" value="0.000"/>
+								<variable name="Active" value="true"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+				<game_entity name="player_bodyguard_infantry_spawn_0" old_prefab_name="adam2" visible="false" season_mask="255">
+					<visibility_masks>
+						<visibility_mask name="visible_only_when_editing" value="true"/>
+					</visibility_masks>
+					<tags>
+						<tag name="player_bodyguard_infantry_spawn"/>
+					</tags>
+					<transform position="-0.029, -2.348, -0.015" rotation_euler="0.000, 0.000, -0.213" scale="1.333, 1.333, 1.000"/>
+					<physics mass="1.000"/>
+					<scripts>
+						<script name="CharacterSpawner">
+							<variables>
+								<variable name="Enabled" value="true"/>
+								<variable name="PoseAction" value="act_bandit_thumbnail_pose"/>
+								<variable name="LordName" value="prison_guard_battania"/>
+								<variable name="ActionSetSuffix" value="_villain"/>
+								<variable name="PoseActionForHorse" value="horse_stand_3"/>
+								<variable name="BodyPropertiesString" value='&lt;BodyProperties version="4" key="0005440580BC200266EA9979568344848885462866B3674479986B98949492360003365303678747000000000000000000000000000000000000000000F40081" /&gt;'/>
+								<variable name="IsWeaponWielded" value="false"/>
+								<variable name="HasMount" value="false"/>
+								<variable name="WieldOffHand" value="false"/>
+								<variable name="AnimationProgress" value="1.000"/>
+								<variable name="HorseAnimationProgress" value="0.000"/>
+								<variable name="Active" value="true"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+				<game_entity name="player_bodyguard_infantry_spawn_1" old_prefab_name="adam2" visible="false" season_mask="255">
+					<visibility_masks>
+						<visibility_mask name="visible_only_when_editing" value="true"/>
+					</visibility_masks>
+					<tags>
+						<tag name="player_bodyguard_infantry_spawn"/>
+						<tag name="player_bannerbearer_infantry_spawn"/>
+					</tags>
+					<transform position="-2.009, -2.780, 0.003" rotation_euler="0.000, 0.000, -0.749" scale="1.333, 1.333, 1.000"/>
+					<physics mass="1.000"/>
+					<scripts>
+						<script name="CharacterSpawner">
+							<variables>
+								<variable name="Enabled" value="true"/>
+								<variable name="PoseAction" value="act_bandit_thumbnail_pose"/>
+								<variable name="LordName" value="prison_guard_battania"/>
+								<variable name="ActionSetSuffix" value="_villain"/>
+								<variable name="PoseActionForHorse" value="horse_stand_3"/>
+								<variable name="BodyPropertiesString" value='&lt;BodyProperties version="4" key="0005440580BC200266EA9979568344848885462866B3674479986B98949492360003365303678747000000000000000000000000000000000000000000F40081" /&gt;'/>
+								<variable name="IsWeaponWielded" value="false"/>
+								<variable name="HasMount" value="false"/>
+								<variable name="WieldOffHand" value="false"/>
+								<variable name="AnimationProgress" value="1.000"/>
+								<variable name="HorseAnimationProgress" value="0.000"/>
+								<variable name="Active" value="true"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+				<game_entity name="player_cavalry_spawn" old_prefab_name="" visible="false" season_mask="255">
+					<tags>
+						<tag name="troop_cavalry_sword_pose"/>
+						<tag name="player_cavalry_spawn"/>
+					</tags>
+					<transform position="-0.275, 0.024, 0.000" rotation_euler="0.000, 0.000, -0.368" scale="1.333, 1.333, 1.000"/>
+					<physics mass="1.000"/>
+					<scripts>
+						<script name="CharacterSpawner">
+							<variables>
+								<variable name="Enabled" value="false"/>
+								<variable name="PoseAction" value="act_conversation_normal_trivial_horseback"/>
+								<variable name="LordName" value="commander_6"/>
+								<variable name="ActionSetSuffix" value="_warrior"/>
+								<variable name="PoseActionForHorse" value="act_horse_jump_start"/>
+								<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+								<variable name="IsWeaponWielded" value="false"/>
+								<variable name="HasMount" value="true"/>
+								<variable name="WieldOffHand" value="false"/>
+								<variable name="AnimationProgress" value="1.060"/>
+								<variable name="HorseAnimationProgress" value="1.000"/>
+								<variable name="Active" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+				<game_entity name="player_bodyguard_cavalry_spawn_0" old_prefab_name="" visible="false" season_mask="255">
+					<tags>
+						<tag name="player_bodyguard_cavalry_spawn"/>
+					</tags>
+					<transform position="-2.843, -0.740, -0.007" rotation_euler="0.000, 0.000, -0.553" scale="1.333, 1.333, 1.000"/>
+					<physics mass="1.000"/>
+					<scripts>
+						<script name="CharacterSpawner">
+							<variables>
+								<variable name="Enabled" value="false"/>
+								<variable name="PoseAction" value="act_conversation_normal_trivial_horseback"/>
+								<variable name="LordName" value="commander_6"/>
+								<variable name="ActionSetSuffix" value="_warrior"/>
+								<variable name="PoseActionForHorse" value="act_horse_jump_start"/>
+								<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+								<variable name="IsWeaponWielded" value="true"/>
+								<variable name="HasMount" value="true"/>
+								<variable name="WieldOffHand" value="false"/>
+								<variable name="AnimationProgress" value="9.000"/>
+								<variable name="HorseAnimationProgress" value="1.000"/>
+								<variable name="Active" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+				<game_entity name="player_bodyguard_cavalry_spawn_1" old_prefab_name="" visible="false" season_mask="255">
+					<tags>
+						<tag name="player_bodyguard_cavalry_spawn"/>
+					</tags>
+					<transform position="-1.934, -3.445, -0.007" rotation_euler="0.000, 0.000, -0.907" scale="1.333, 1.333, 1.000"/>
+					<physics mass="1.000"/>
+					<scripts>
+						<script name="CharacterSpawner">
+							<variables>
+								<variable name="Enabled" value="false"/>
+								<variable name="PoseAction" value="act_conversation_normal_trivial_horseback"/>
+								<variable name="LordName" value="commander_6"/>
+								<variable name="ActionSetSuffix" value="_warrior"/>
+								<variable name="PoseActionForHorse" value="act_horse_jump_start"/>
+								<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+								<variable name="IsWeaponWielded" value="true"/>
+								<variable name="HasMount" value="true"/>
+								<variable name="WieldOffHand" value="false"/>
+								<variable name="AnimationProgress" value="0.200"/>
+								<variable name="HorseAnimationProgress" value="1.000"/>
+								<variable name="Active" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+				<game_entity name="opponent_infantry_spawn" old_prefab_name="__empty_object" season_mask="255">
+					<tags>
+						<tag name="opponent_infantry_spawn"/>
+					</tags>
+					<transform position="6.777, 8.338, 0.000" rotation_euler="0.000, 0.000, 2.717" scale="1.333, 1.333, 1.000"/>
+					<physics mass="1.000"/>
+					<scripts>
+						<script name="CharacterSpawner">
+							<variables>
+								<variable name="Enabled" value="false"/>
+								<variable name="PoseAction" value="act_tableau_pose_7"/>
+								<variable name="LordName" value="commander_6"/>
+								<variable name="ActionSetSuffix" value="_facegen"/>
+								<variable name="PoseActionForHorse" value="horse_stand_3"/>
+								<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+								<variable name="IsWeaponWielded" value="false"/>
+								<variable name="HasMount" value="false"/>
+								<variable name="WieldOffHand" value="false"/>
+								<variable name="AnimationProgress" value="0.000"/>
+								<variable name="HorseAnimationProgress" value="0.000"/>
+								<variable name="Active" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+				<game_entity name="opponent_bodyguard_infantry_spawn_0" old_prefab_name="__empty_object" visible="false" season_mask="255">
+					<tags>
+						<tag name="opponent_bodyguard_infantry_spawn"/>
+					</tags>
+					<transform position="8.568, 12.438, 0.005" rotation_euler="0.000, 0.000, 3.114" scale="1.333, 1.333, 1.000"/>
+					<physics mass="1.000"/>
+					<scripts>
+						<script name="CharacterSpawner">
+							<variables>
+								<variable name="Enabled" value="false"/>
+								<variable name="PoseAction" value="act_tableau_pose_7"/>
+								<variable name="LordName" value="commander_6"/>
+								<variable name="ActionSetSuffix" value="_facegen"/>
+								<variable name="PoseActionForHorse" value="horse_stand_3"/>
+								<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+								<variable name="IsWeaponWielded" value="false"/>
+								<variable name="HasMount" value="false"/>
+								<variable name="WieldOffHand" value="false"/>
+								<variable name="AnimationProgress" value="0.000"/>
+								<variable name="HorseAnimationProgress" value="0.000"/>
+								<variable name="Active" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+				<game_entity name="opponent_bodyguard_infantry_spawn_1" old_prefab_name="__empty_object" visible="false" season_mask="255">
+					<tags>
+						<tag name="opponent_bodyguard_infantry_spawn"/>
+						<tag name="opponent_bannerbearer_infantry_spawn"/>
+					</tags>
+					<transform position="8.674, 8.841, 0.004" rotation_euler="0.000, 0.000, 2.445" scale="1.333, 1.333, 1.000"/>
+					<physics mass="1.000"/>
+					<scripts>
+						<script name="CharacterSpawner">
+							<variables>
+								<variable name="Enabled" value="false"/>
+								<variable name="PoseAction" value="act_tableau_pose_7"/>
+								<variable name="LordName" value="commander_6"/>
+								<variable name="ActionSetSuffix" value="_facegen"/>
+								<variable name="PoseActionForHorse" value="horse_stand_3"/>
+								<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+								<variable name="IsWeaponWielded" value="false"/>
+								<variable name="HasMount" value="false"/>
+								<variable name="WieldOffHand" value="false"/>
+								<variable name="AnimationProgress" value="0.000"/>
+								<variable name="HorseAnimationProgress" value="0.000"/>
+								<variable name="Active" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+				<game_entity name="opponent_cavalry_spawn" old_prefab_name="" visible="false" season_mask="255">
+					<tags>
+						<tag name="opponent_cavalry_spawn"/>
+					</tags>
+					<transform position="7.683, 8.410, 0.000" rotation_euler="0.000, 0.000, 1.930" scale="1.333, 1.333, 1.000"/>
+					<physics mass="1.000"/>
+					<scripts>
+						<script name="CharacterSpawner">
+							<variables>
+								<variable name="Enabled" value="false"/>
+								<variable name="PoseAction" value="act_conversation_normal_trivial_horseback"/>
+								<variable name="LordName" value="vlandian_armored_squire"/>
+								<variable name="ActionSetSuffix" value="_warrior"/>
+								<variable name="PoseActionForHorse" value="act_horse_jump_start"/>
+								<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+								<variable name="IsWeaponWielded" value="false"/>
+								<variable name="HasMount" value="true"/>
+								<variable name="WieldOffHand" value="false"/>
+								<variable name="AnimationProgress" value="1.000"/>
+								<variable name="HorseAnimationProgress" value="1.000"/>
+								<variable name="Active" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+				<game_entity name="opponent_bodyguard_cavalry_spawn_0" old_prefab_name="" visible="false" season_mask="255">
+					<tags>
+						<tag name="opponent_bodyguard_cavalry_spawn"/>
+					</tags>
+					<transform position="7.564, 11.461, 0.004" rotation_euler="0.000, 0.000, 2.630" scale="1.333, 1.333, 1.000"/>
+					<physics mass="1.000"/>
+					<scripts>
+						<script name="CharacterSpawner">
+							<variables>
+								<variable name="Enabled" value="false"/>
+								<variable name="PoseAction" value="act_conversation_normal_trivial_horseback"/>
+								<variable name="LordName" value="vlandian_armored_squire"/>
+								<variable name="ActionSetSuffix" value="_warrior"/>
+								<variable name="PoseActionForHorse" value="act_horse_jump_start"/>
+								<variable name="BodyPropertiesString" value="0022f14a00fc00007678898788878777776777877777867778867787877676770007765507888878000000000000000000000000000000000000000000040080"/>
+								<variable name="IsWeaponWielded" value="false"/>
+								<variable name="HasMount" value="true"/>
+								<variable name="WieldOffHand" value="false"/>
+								<variable name="AnimationProgress" value="1.000"/>
+								<variable name="HorseAnimationProgress" value="1.000"/>
+								<variable name="Active" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+				<game_entity name="opponent_bodyguard_cavalry_spawn_1" old_prefab_name="" visible="false" season_mask="255">
+					<tags>
+						<tag name="opponent_bodyguard_cavalry_spawn"/>
+					</tags>
+					<transform position="10.977, 10.229, 0.004" rotation_euler="0.000, 0.000, 2.659" scale="1.333, 1.333, 1.000"/>
+					<physics mass="1.000"/>
+					<scripts>
+						<script name="CharacterSpawner">
+							<variables>
+								<variable name="Enabled" value="false"/>
+								<variable name="PoseAction" value="act_conversation_normal_trivial_horseback"/>
+								<variable name="LordName" value="vlandian_armored_squire"/>
+								<variable name="ActionSetSuffix" value="_warrior"/>
+								<variable name="PoseActionForHorse" value="act_horse_jump_start"/>
+								<variable name="BodyPropertiesString" value='&lt;BodyProperties version="4" key="0005440580BC200266EA9979568344848885462866B3674479986B98949492360003365303678747000000000000000000000000000000000000000000F40081" /&gt;'/>
+								<variable name="IsWeaponWielded" value="false"/>
+								<variable name="HasMount" value="true"/>
+								<variable name="WieldOffHand" value="false"/>
+								<variable name="AnimationProgress" value="1.000"/>
+								<variable name="HorseAnimationProgress" value="1.000"/>
+								<variable name="Active" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="aserai_lordshall" old_prefab_name="" visible="false" season_mask="255">
+			<tags>
+				<tag name="conv_aserai_lordshall_0"/>
+			</tags>
+			<transform position="148.701, 144.031, -0.004" rotation_euler="0.000, 0.000, 0.569" scale="0.998, 0.998, 1.000"/>
+			<physics mass="1.000"/>
+			<children>
+				<game_entity name="empty_object" old_prefab_name="" season_mask="255">
+					<transform position="-1.712, -1.479, 0.792" rotation_euler="0.000, 0.000, -0.569"/>
+					<physics mass="1.000"/>
+					<components>
+						<light_component color="1.000, 0.588, 0.082" intensity="100.000" radius="5.000" flicker_interval="0.500" flicker_magnitude="0.600" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="2" shadow_size_multiplier="1" shadow_radius="4.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="empty_object" old_prefab_name="" season_mask="255">
+					<transform position="2.108, 0.516, 0.792" rotation_euler="0.000, 0.000, -0.569"/>
+					<physics mass="1.000"/>
+					<components>
+						<light_component color="1.000, 0.659, 0.180" intensity="100.000" radius="5.000" flicker_interval="0.500" flicker_magnitude="0.800" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="2" shadow_size_multiplier="1" shadow_radius="4.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="empty_object" old_prefab_name="" season_mask="255">
+					<transform position="-1.738, 2.878, 0.792" rotation_euler="0.000, 0.000, -0.569"/>
+					<physics mass="1.000"/>
+					<components>
+						<light_component color="1.000, 0.588, 0.082" intensity="100.000" radius="5.000" flicker_interval="0.500" flicker_magnitude="0.600" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="1" shadow_radius="4.000"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="battania_lordshall" old_prefab_name="" visible="false" season_mask="255">
+			<tags>
+				<tag name="conv_battania_lordshall_0"/>
+			</tags>
+			<transform position="148.701, 144.031, -0.004" rotation_euler="0.000, 0.000, 0.569" scale="0.998, 0.998, 1.000"/>
+			<physics mass="1.000"/>
+			<children>
+				<game_entity name="empty_object" old_prefab_name="" season_mask="255">
+					<transform position="-1.387, -1.695, 0.985" rotation_euler="0.000, 0.000, -0.569"/>
+					<physics mass="1.000"/>
+					<components>
+						<light_component color="1.000, 0.588, 0.082" intensity="100.000" radius="5.000" flicker_interval="0.500" flicker_magnitude="0.600" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="2" shadow_size_multiplier="1" shadow_radius="4.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="empty_object" old_prefab_name="" season_mask="255">
+					<transform position="2.501, -0.556, 0.792" rotation_euler="0.000, 0.000, -0.569"/>
+					<physics mass="1.000"/>
+					<components>
+						<light_component color="1.000, 0.659, 0.180" intensity="100.000" radius="5.000" flicker_interval="0.500" flicker_magnitude="0.800" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="2" shadow_size_multiplier="1" shadow_radius="4.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="empty_object" old_prefab_name="" season_mask="255">
+					<transform position="-0.107, 3.055, 0.792" rotation_euler="0.000, 0.000, -0.569"/>
+					<physics mass="1.000"/>
+					<components>
+						<light_component color="1.000, 0.659, 0.180" intensity="100.000" radius="5.000" flicker_interval="0.500" flicker_magnitude="0.800" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="2" shadow_size_multiplier="1" shadow_radius="4.000"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="empire_lordshall" old_prefab_name="" visible="false" season_mask="255">
+			<tags>
+				<tag name="conv_empire_lordshall_0"/>
+			</tags>
+			<transform position="148.701, 144.031, -0.004" rotation_euler="0.000, 0.000, 0.569" scale="0.998, 0.998, 1.000"/>
+			<physics mass="1.000"/>
+			<children>
+				<game_entity name="empty_object" old_prefab_name="" season_mask="255">
+					<transform position="-2.576, 0.242, 0.985" rotation_euler="0.000, 0.000, -0.569"/>
+					<physics mass="1.000"/>
+					<components>
+						<light_component color="1.000, 0.588, 0.082" intensity="100.000" radius="5.000" flicker_interval="0.500" flicker_magnitude="0.600" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="2" shadow_size_multiplier="1" shadow_radius="4.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="empty_object" old_prefab_name="" season_mask="255">
+					<transform position="2.376, 1.954, 0.792" rotation_euler="0.000, 0.000, -0.569"/>
+					<physics mass="1.000"/>
+					<components>
+						<light_component color="1.000, 0.714, 0.365" intensity="100.000" radius="5.000" flicker_interval="0.500" flicker_magnitude="0.800" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="2" shadow_size_multiplier="1" shadow_radius="4.000"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="sturgia_lordshall" old_prefab_name="" visible="false" season_mask="255">
+			<tags>
+				<tag name="conv_sturgia_lordshall_0"/>
+			</tags>
+			<transform position="148.701, 144.031, -0.004" rotation_euler="0.000, 0.000, 0.569" scale="0.998, 0.998, 1.000"/>
+			<physics mass="1.000"/>
+			<children>
+				<game_entity name="empty_object" old_prefab_name="" season_mask="255">
+					<transform position="-2.016, -0.896, 0.985" rotation_euler="0.000, 0.000, -0.569"/>
+					<physics mass="1.000"/>
+					<components>
+						<light_component color="1.000, 0.588, 0.082" intensity="100.000" radius="5.000" flicker_interval="0.500" flicker_magnitude="0.600" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="2" shadow_size_multiplier="1" shadow_radius="4.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="empty_object" old_prefab_name="" season_mask="255">
+					<transform position="0.707, 2.517, 0.792" rotation_euler="0.000, 0.000, -0.569"/>
+					<physics mass="1.000"/>
+					<components>
+						<light_component color="1.000, 0.714, 0.365" intensity="100.000" radius="5.000" flicker_interval="0.500" flicker_magnitude="0.800" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="1" shadow_radius="4.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="empty_object" old_prefab_name="" season_mask="255">
+					<transform position="1.570, -0.686, 0.985" rotation_euler="0.000, 0.000, -0.569"/>
+					<physics mass="1.000"/>
+					<components>
+						<light_component color="1.000, 0.588, 0.082" intensity="100.000" radius="5.000" flicker_interval="0.500" flicker_magnitude="0.600" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="2" shadow_size_multiplier="1" shadow_radius="4.000"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="vlandia_lordshall" old_prefab_name="" visible="false" season_mask="255">
+			<tags>
+				<tag name="conv_vlandia_lordshall_0"/>
+			</tags>
+			<transform position="148.701, 144.031, -0.004" rotation_euler="0.000, 0.000, 0.569" scale="0.998, 0.998, 1.000"/>
+			<physics mass="1.000"/>
+			<children>
+				<game_entity name="empty_object" old_prefab_name="" season_mask="255">
+					<transform position="-0.149, -0.374, 2.714" rotation_euler="0.000, 0.000, -0.569"/>
+					<physics mass="1.000"/>
+					<components>
+						<light_component color="1.000, 0.588, 0.082" intensity="100.000" radius="5.000" flicker_interval="0.500" flicker_magnitude="0.600" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="2" shadow_size_multiplier="1" shadow_radius="4.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="empty_object" old_prefab_name="" season_mask="255">
+					<transform position="-2.030, 1.670, 0.792" rotation_euler="0.000, 0.000, -0.569"/>
+					<physics mass="1.000"/>
+					<components>
+						<light_component color="1.000, 0.714, 0.365" intensity="100.000" radius="5.000" flicker_interval="0.500" flicker_magnitude="0.800" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="1" shadow_radius="4.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="empty_object" old_prefab_name="" season_mask="255">
+					<transform position="2.618, 1.325, 0.985" rotation_euler="0.000, 0.000, -0.569"/>
+					<physics mass="1.000"/>
+					<components>
+						<light_component color="1.000, 0.804, 0.310" intensity="100.000" radius="5.000" flicker_interval="0.500" flicker_magnitude="0.600" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="1" shadow_radius="4.000"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+	</entities>
+	<terrain enabled="false"/>
+	<prt_batch_data>
+		<scene_bake_data sample_count_index="1" number_of_interreflections="4" subdivision_length="4.000"/>
+		<probe_bake_data visibility_find_quality="1" active_probe_find_quality="1" grid_width="2.000" grid_height="3.500"/>
+	</prt_batch_data>
+	<editor_data editor_camera_position="147.563, 147.027, 8.197" editor_camera_elevation="-1.027" editor_camera_bearing="-0.364" editor_camera_forward="0.076, -0.439, -0.895" author="" comment=""/>
+	<camera_data near_plane="0.100" far_plane="5000.000"/>
+	<Paths/>
+</scene>
+

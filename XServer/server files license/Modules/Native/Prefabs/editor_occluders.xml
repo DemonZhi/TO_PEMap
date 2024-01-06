@@ -1,0 +1,41 @@
+<prefabs>
+	<game_entity name="_occ_box" old_prefab_name="" occlusion_body_name="bo_occ_occ_box">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="10.000, 10.000, 10.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="occ_box"/>
+		</components>
+	</game_entity>
+	<game_entity name="_occ_quad" old_prefab_name="" occlusion_body_name="bo_occ_occ_quad">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="occ_quad"/>
+		</components>
+		<levels>
+			<level name="base"/>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+		</levels>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="_occ_pyramid" occlusion_body_name="bo_occ_occ_pyramid">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform rotation="0.000000, 0.000000, 0.000000, 1.000000" scale="10.000, 10.000, 10.000"/>
+		<components>
+			<meta_mesh_component name="occ_pyramid"/>
+		</components>
+	</game_entity>
+</prefabs>
+

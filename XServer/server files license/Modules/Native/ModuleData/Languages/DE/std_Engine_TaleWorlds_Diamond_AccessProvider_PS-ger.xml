@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+  <strings>
+    <string id="3rcPHq9a" text="Du bist nicht beim PlayStation™Network angemeldet. Um Online-&#x200b;Funktionen zu nutzen, müsst Ihr Euch anmelden." />
+    <string id="8BV4hDK6" text="Es ist ein Update der Systemsoftware erforderlich." />
+    <string id="8yk50Ba5" text="Für den Mehrspielermodus wird PlayStation®Plus benötigt." />
+    <string id="g56TVkLF" text="Du darfst nicht im Mehrspielermodus spielen. Bitte überprüfe deine Einstellungen zu Inhaltsbeschränkungen." />
+    <string id="i0QuqXWk" text="Benutzer wurde nicht gefunden." />
+    <string id="kS9dxNIk" text="Plattformservice fehlgeschlagen." />
+    <string id="oe39dfge" text="Netzwerkverbindung fehlgeschlagen." />
+    <string id="PQbtrqBl" text="Es ist ein Spielupdate erforderlich." />
+    <string id="rYbxXReN" text="Benutzer ist abgemeldet." />
+    <string id="Udt1Ua7r" text="Es konnte nicht nach Spielupdates gesucht werden." />
+    <string id="UhUvwvkh" text="Du bist nicht mit dem PlayStation™Network verbunden. Online-&#x200b;Funktionen stehen nicht zur Verfügung." />
+  </strings>
+</base>

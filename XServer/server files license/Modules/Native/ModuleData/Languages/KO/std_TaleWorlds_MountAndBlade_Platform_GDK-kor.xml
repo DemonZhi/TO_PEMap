@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="3o9AO00M" text="서버가 가득 찼습니다." />
+    <string id="7G7lu7az" text="초대를 보낼 수 없습니다." />
+    <string id="bjhBPJDF" text="초대에 실패했습니다!" />
+    <string id="BLw3AJjM" text="초대할 수 있는 친구가 없습니다." />
+    <string id="oZ326SFY" text="겡미에 참여할 수 없습니다." />
+    <string id="tak1GATd" text="진행 중인 게임에 있지 않습니다." />
+    <string id="vIonllGr" text="로비 불일치" />
+    <string id="x9YcKgLf" text="친구 목록을 표시할 수 없습니다." />
+    <string id="XlPML483" text="초대할 플레이어 선택" />
+    <string id="yS7PvrTD" text="확인" />
+  </strings>
+</base>

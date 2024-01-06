@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+  <strings>
+    <string id="0W4dgUho" text="Ihr wurdet bis {BANNEDUNTIL} aus dem Spiel ausgeschlossen. Grund: {BANREASON}" />
+    <string id="39f0eu3Y" text="AuthToken ist abgelaufen." />
+    <string id="dbLB0tuT" text="Teilen innerhalb der Familie ist nicht erlaubt." />
+    <string id="iWLq9hMg" text="Kein Authentifizierungstoken bereitgestellt." />
+    <string id="kY2oXMng" text="Anmeldung fehlgeschlagen." />
+    <string id="p5K0ATtZ" text="Eure alte Sitzung konnte nicht geschlossen werden." />
+    <string id="Rj8RhD7F" text="Fehlgeschlagen" />
+    <string id="satFJMMu" text="Benutzerdefinierte Schlachtserver hat inkompatible Version." />
+    <string id="Tauk2JzA" text="Falsche Versionsnummer. Server-&#x200b;Version: {SERVERVERSION} – Eure Version: {CLIENTVERSION}." />
+    <string id="X6N9nSn0" text="Ihr dürft Euch nicht auf diesem Server einloggen. Bitte versucht es auf einem offiziellen öffentlichen Server." />
+    <string id="xMa4QqvL" text="Aktuelle Spieler im Trupp: {PLAYERS}" />
+    <string id="xriaEwgN" text="Ihr dürft bis {BAN_EXPIRATION_TIME} keine Server hosten. Grund: {BAN_REASON}." />
+    <string id="YmPyx3qi" text="Spieler hat die höchstmögliche Anzahl an Benutzerdefinierten Schlachtservern erreicht." />
+  </strings>
+</base>

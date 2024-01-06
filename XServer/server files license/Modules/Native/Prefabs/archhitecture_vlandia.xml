@@ -1,0 +1,3486 @@
+<prefabs>
+	<game_entity name="module_european_floor_e" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_floor_e" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_floor_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_wall_village_vlandia_e" old_prefab_name="" occlusion_body_name="bo_occ_module_wall_village_vlandia_a">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_wall_village_vlandia_e" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_wall_village_vlandia_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_wall_village_vlandia_decal" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<components>
+			<meta_mesh_component name="module_wall_village_vlandia_decal"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_wall_village_vlandia_d" old_prefab_name="" occlusion_body_name="bo_occ_module_wall_village_vlandia_b">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_wall_village_vlandia_b" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_wall_village_vlandia_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_wall_village_vlandia_c" old_prefab_name="" occlusion_body_name="bo_occ_module_wall_village_vlandia_a">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_wall_village_vlandia_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_wall_village_vlandia_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_wall_village_vlandia_b" old_prefab_name="" occlusion_body_name="bo_occ_module_wall_village_vlandia_b">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_wall_village_vlandia_b" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_wall_village_vlandia_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_wall_village_vlandia_a" old_prefab_name="" occlusion_body_name="bo_occ_module_wall_village_vlandia_a">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_wall_village_vlandia_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_wall_village_vlandia_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_wall_stone_vlandia_d" old_prefab_name="" occlusion_body_name="bo_occ_module_wall_stone_vlandia_d">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_wall_stone_vlandia_d" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_wall_stone_vlandia_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_village_house_rooftop_a" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_house_rooftop_a">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_village_house_rooftop_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_european_village_house_rooftop_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_village_house_d" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_house_d">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_village_house_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_village_house_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_village_house_corner_rooftop_corner_seam" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<components>
+			<meta_mesh_component name="module_european_village_house_corner_rooftop_corner_seam"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_village_house_corner_90_rooftop_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_house_corner_90_rooftop_b">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_village_house_corner_90_rooftop_b" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_european_village_house_corner_90_rooftop_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_village_house_corner_90_rooftop_a" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_house_corner_90_rooftop_a">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_village_house_corner_90_rooftop_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_european_village_house_corner_90_rooftop_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_village_house_corner_70_rooftop_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_house_corner_70_rooftop_b">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_village_house_corner_70_rooftop_b" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_european_village_house_corner_70_rooftop_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_village_house_corner_70_rooftop_a" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_house_corner_70_rooftop_a">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_village_house_corner_70_rooftop_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_european_village_house_corner_70_rooftop_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_village_house_corner_60_rooftop_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_house_corner_60_rooftop_b">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_village_house_corner_60_rooftop_b" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_european_village_house_corner_60_rooftop_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_village_house_corner_60_rooftop_a" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_house_corner_60_rooftop_a">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_village_house_corner_60_rooftop_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_european_village_house_corner_60_rooftop_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_village_house_corner_270_rooftop_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_house_corner_270_rooftop_b">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_village_house_corner_270_rooftop_b" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_european_village_house_corner_270_rooftop_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_village_house_corner_270_rooftop_a" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_house_corner_270_rooftop_a">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_village_house_corner_270_rooftop_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_european_village_house_corner_270_rooftop_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_village_house_corner_120_rooftop_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_house_corner_120_rooftop_b">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_village_house_corner_120_rooftop_b" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_european_village_house_corner_120_rooftop_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_village_house_corner_120_rooftop_a" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_house_corner_120_rooftop_a">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_village_house_corner_120_rooftop_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_european_village_house_corner_120_rooftop_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_village_house_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_house_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_village_house_b" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_european_village_house_b"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_village_house_a" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_house_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_village_house_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_european_village_house_a"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_stone_floor_d" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_stone_floor_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_stone_floor_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_stone_floor_c" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_stone_floor_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_stone_floor_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_stone_floor_b" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_stone_floor_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_stone_floor_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_stone_floor_a" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_stone_floor_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_stone_floor_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_house_wall_a" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_wall_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_wall_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_european_house_wall_a"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_house_top_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_getty_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_top_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_top_b"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_house_top_a" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_getty_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_top_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_top_a"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_house_rooftop_end" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_house_rooftop_end" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_rooftop_end"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_house_part_corner_90_degrees" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_part_corner_90_degrees">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_part_corner_90_degrees" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_part_corner_90_degrees"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_house_part_corner_270_degrees_rooftop" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_part_corner_270_degrees_rooftop">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_part_corner_270_degrees_rooftop" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_part_corner_270_degrees_rooftop"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_house_part_corner_270_degrees" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_part_corner_270_degrees">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_part_corner_270_degrees" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_part_corner_270_degrees"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_house_getty_a" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_getty_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_getty_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_getty_a"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_house_end_attick_e" old_prefab_name="" occlusion_body_name="bo_module_european_house_end_attick_e">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_end_attick_e" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_end_attick_e"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_house_end_attick_c" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_c">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_end_attick_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_end_attick_c"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_house_end_attick_a" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_end_attick_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_end_attick_a"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_house_end_a_windowless" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_a_windowless">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_end_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_european_house_end_a_windowless"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_house_end_a" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_end_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_european_house_end_a"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="european_castle_wall_a_sally_l1" old_prefab_name="" occlusion_body_name="bo_occ_european_castle_wall_a_sally_l1">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_european_castle_wall_a_sally_l1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_wall_a_sally_l1"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_house_corner_90_degrees_rooftop_half" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_corner_90_degrees_rooftop_half">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_corner_90_degrees_rooftop_half" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_corner_90_degrees_rooftop_half"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_house_corner_90_degrees_rooftop" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_corner_90_degrees_rooftop">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_corner_90_degrees_rooftop" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_corner_90_degrees_rooftop"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_house_corner_120_degrees_rooftop" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_corner_120_degrees_rooftop">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_corner_120_degrees_rooftop" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_corner_120_degrees_rooftop"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_house_angled_120" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_angled_120">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_angled_120" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_angled_120"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_floor_f" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_floor_f" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_floor_f"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_floor_d" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_european_floor_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_floor_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_ceiling_plank_a" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_ceiling_plank_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_ceiling_plank_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_building_stone_vlandia_corner_90_degrees" old_prefab_name="" occlusion_body_name="bo_occ_module_building_stone_vlandia_corner_90_degrees">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_building_stone_vlandia_corner_90_degrees" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_building_stone_vlandia_corner_90_degrees"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_building_stone_vlandia_a" old_prefab_name="" occlusion_body_name="bo_occ_module_building_stone_vlandia_a">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_module_building_stone_vlandia_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_building_stone_vlandia_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_house_wall_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_wall_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_wall_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_wall_b"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_house_end_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_end_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_end_b"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_house_end_c" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_c">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_end_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_end_c"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_house_end_front_a" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_front_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_end_front_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_end_front_a"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_house_end_attick_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_end_attick_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_end_attick_b"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_wall_stone_vlandia_c" old_prefab_name="" occlusion_body_name="bo_occ_module_wall_stone_vlandia_c">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_wall_stone_vlandia_c" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_wall_stone_vlandia_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_wall_stone_vlandia_e" old_prefab_name="" occlusion_body_name="bo_occ_module_wall_stone_vlandia_d">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_wall_stone_vlandia_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_wall_stone_vlandia_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_floor_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_floor_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_floor_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_floor_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_floor_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_floor_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_floor_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_floor_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_floor_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_floor_g" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_floor_g" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_floor_g"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_village_house_c" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_house_c">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_village_house_c" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_european_village_house_c"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_european_village_house_rooftop_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_house_rooftop_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_village_house_rooftop_b" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="module_european_village_house_rooftop_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_house_rooftop" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_rooftop" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_rooftop"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_house_end_attick_d" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_house_end_attick_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_house_end_attick_d"/>
+		</components>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="module_ceiling_plank_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_ceiling_plank_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_ceiling_plank_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_wall_plank_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_wall_plank_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_wall_plank_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_wall_plank_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_wall_plank_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_wall_plank_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_village_rooftop_tangent_a" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_rooftop_tangent_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_village_rooftop_tangent_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_village_rooftop_tangent_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="module_european_village_rooftop_tangent_b" old_prefab_name="" occlusion_body_name="bo_occ_module_european_village_rooftop_tangent_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_module_european_village_rooftop_tangent_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="module_european_village_rooftop_tangent_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_village_house_a" old_prefab_name="" occlusion_body_name="bo_occ_european_village_house_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_village_house_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_village_house_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_village_house_b" old_prefab_name="" occlusion_body_name="bo_occ_european_village_house_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_village_house_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_village_house_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_village_house_c" old_prefab_name="" occlusion_body_name="bo_occ_european_village_house_c">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_village_house_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_village_house_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_village_house_d" old_prefab_name="" occlusion_body_name="bo_occ_european_village_house_d">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_village_house_d" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="european_village_house_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_village_house_f" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_village_house_f" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_village_house_f"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_village_storage_a" old_prefab_name="" occlusion_body_name="bo_occ_european_village_storage_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_village_storage_a" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="european_village_storage_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_village_barn_a" old_prefab_name="" occlusion_body_name="bo_occ_european_village_barn_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_village_barn_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_village_barn_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_village_barn_b" old_prefab_name="" occlusion_body_name="bo_occ_european_village_barn_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_village_barn_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_village_barn_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_tavern_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_tavern_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_tavern_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_city_house_a" old_prefab_name="" occlusion_body_name="bo_occ_house_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_house_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="house_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_city_house_b" old_prefab_name="" occlusion_body_name="bo_occ_house_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_house_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="house_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_city_house_c" old_prefab_name="" occlusion_body_name="bo_occ_house_c">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_house_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="house_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_city_house_d" old_prefab_name="" occlusion_body_name="bo_occ_house_d">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_house_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="house_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_city_house_e" old_prefab_name="" occlusion_body_name="bo_occ_house_e">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_house_e" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="house_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_city_house_f" old_prefab_name="" occlusion_body_name="bo_occ_house_f">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_house_f" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="house_f"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_city_house_g" old_prefab_name="" occlusion_body_name="bo_occ_house_g">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_house_g" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="house_g"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_city_house_a_interior" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_city_house_a_interior" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_city_house_a_interior"/>
+		</components>
+		<children>
+			<game_entity name="vlandia_city_house_a_interior_stair_a" old_prefab_name="">
+				<physics shape="bo_vlandia_city_house_a_interior_stair_a" mass="1.000">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="vlandia_city_house_a_interior_stair_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="vlandia_city_house_a_interior_stair_b" old_prefab_name="">
+				<physics shape="bo_vlandia_city_house_a_interior_stair_b" mass="1.000">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="vlandia_city_house_a_interior_stair_b"/>
+				</components>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity old_prefab_name="" name="vlandia_city_house_b_interior">
+		<components>
+			<meta_mesh_component name="vlandia_city_house_b_interior"/>
+		</components>
+		<physics mass="1.000" shape="bo_vlandia_city_house_b_interior"/>
+		<edit_mode_data selection_group_mask="0"/>
+	</game_entity>
+	<game_entity name="vlandia_city_house_c_interior" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_city_house_c_interior" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_city_house_c_interior"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_city_house_e_interior" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_city_house_e_interior" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_city_house_e_interior"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_city_house_g_interior" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_city_house_g_interior" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_city_house_g_interior"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_city_gatehouse_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_city_gatehouse_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_city_gatehouse_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_city_part_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_city_part_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_city_part_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_city_part_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_city_part_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_city_part_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_city_part_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_city_part_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_city_part_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_city_part_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_city_part_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_city_part_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_city_part_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_city_part_e" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_city_part_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_city_part_f_stairs" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_city_part_f_stairs" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_city_part_f_stairs"/>
+		</components>
+		<children>
+			<game_entity name="european_city_part_f_stairs_bo" old_prefab_name="">
+				<physics mass="1.000" shape="bo_2_european_city_part_f_stairs">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="european_city_part_g_stairs" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_city_part_f_stairs" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_city_part_g_stairs"/>
+		</components>
+		<children>
+			<game_entity name="european_city_part_g_stairs_bo" old_prefab_name="">
+				<physics mass="1.000" shape="bo_2_european_city_part_f_stairs">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="european_city_part_h_door" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_city_part_h_door" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_city_part_h_door"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_corner_c_roof" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_corner_c_roof" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_corner_c_roof"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_corner_c_l3_old" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_corner_c_l3_old" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_corner_c_l3_old"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_corner_e_l3_old" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_corner_e_l3_old" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_corner_e_l3_old"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_keep" old_prefab_name="" season_mask="255" occlusion_body_name="bo_occ_european_castle_keep">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_keep" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_keep"/>
+		</components>
+		<children>
+			<game_entity name="european_castle_keep_front" old_prefab_name="" season_mask="255">
+				<physics shape="bo_european_castle_keep_front" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="european_castle_keep_front"/>
+				</components>
+			</game_entity>
+			<game_entity name="european_castle_keep_side" old_prefab_name="" season_mask="255" occlusion_body_name="bo_occ_european_castle_keep_side">
+				<transform position="16.211, 5.213, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+				<physics shape="bo_european_castle_keep_side" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="european_castle_keep_side"/>
+				</components>
+			</game_entity>
+			<game_entity name="european_castle_keep_side" old_prefab_name="" season_mask="255" occlusion_body_name="bo_occ_european_castle_keep_side">
+				<transform position="-16.082, 5.213, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+				<physics shape="bo_european_castle_keep_side" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="european_castle_keep_side"/>
+				</components>
+			</game_entity>
+			<game_entity name="european_castle_keep_top" old_prefab_name="" season_mask="255">
+				<physics shape="bo_european_castle_keep_top" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="european_castle_keep_top"/>
+				</components>
+			</game_entity>
+			<game_entity name="european_castle_keep_side" old_prefab_name="" season_mask="255" occlusion_body_name="bo_occ_european_castle_keep_side">
+				<transform position="16.109, 17.215, 0.000"/>
+				<physics shape="bo_european_castle_keep_side" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="european_castle_keep_side"/>
+				</components>
+			</game_entity>
+			<game_entity name="european_castle_keep_side" old_prefab_name="" season_mask="255" occlusion_body_name="bo_occ_european_castle_keep_side">
+				<transform position="-15.915, 17.215, 0.000" rotation_euler="0.000, 0.000, -1.571"/>
+				<physics shape="bo_european_castle_keep_side" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="european_castle_keep_side"/>
+				</components>
+			</game_entity>
+			<game_entity name="european_castle_keep_side" old_prefab_name="" season_mask="255" occlusion_body_name="bo_occ_european_castle_keep_side">
+				<transform position="0.000, 17.210, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+				<physics shape="bo_european_castle_keep_side" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="european_castle_keep_side"/>
+				</components>
+			</game_entity>
+			<game_entity name="european_castle_keep_front_top" old_prefab_name="" season_mask="255">
+				<transform rotation_euler="0.000, 0.000, 0.000" scale="-1.000, 1.000, 1.000"/>
+				<physics shape="bo_european_castle_keep_front_top" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="european_castle_keep_front_top"/>
+				</components>
+			</game_entity>
+			<game_entity name="european_castle_keep_front_top" old_prefab_name="" season_mask="255">
+				<physics shape="bo_european_castle_keep_front_top" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="european_castle_keep_front_top"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_door_top" old_prefab_name="" season_mask="255">
+				<transform position="-9.457, 11.841, 52.540"/>
+				<physics shape="bo_empire_keep_a_door_top" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_door_top"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="european_castle_keep_b" old_prefab_name="" season_mask="255" occlusion_body_name="bo_occ_european_castle_keep">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_keep" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_keep_b"/>
+		</components>
+		<children>
+			<game_entity name="empire_keep_a_door_top" old_prefab_name="" season_mask="255">
+				<transform position="-9.454, 11.841, 52.540"/>
+				<physics shape="bo_empire_keep_a_door_top" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_door_top"/>
+				</components>
+			</game_entity>
+			<game_entity name="european_castle_keep_front" old_prefab_name="" season_mask="255">
+				<physics shape="bo_european_castle_keep_front" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="european_castle_keep_front"/>
+				</components>
+			</game_entity>
+			<game_entity name="european_castle_keep_top" old_prefab_name="" season_mask="255">
+				<physics shape="bo_european_castle_keep_top" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="european_castle_keep_top"/>
+				</components>
+			</game_entity>
+			<game_entity name="european_castle_keep_front_top" old_prefab_name="" season_mask="255">
+				<transform rotation_euler="0.000, 0.000, 0.000" scale="-1.000, 1.000, 1.000"/>
+				<physics shape="bo_european_castle_keep_front_top" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="european_castle_keep_front_top"/>
+				</components>
+			</game_entity>
+			<game_entity name="european_castle_keep_side" old_prefab_name="" season_mask="255" occlusion_body_name="bo_occ_european_castle_keep_side">
+				<transform position="-15.912, 17.215, 0.000" rotation_euler="0.000, 0.000, -1.571"/>
+				<physics shape="bo_european_castle_keep_side" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="european_castle_keep_side"/>
+				</components>
+			</game_entity>
+			<game_entity name="european_castle_keep_side" old_prefab_name="" season_mask="255" occlusion_body_name="bo_occ_european_castle_keep_side">
+				<transform position="0.003, 17.210, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+				<physics shape="bo_european_castle_keep_side" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="european_castle_keep_side"/>
+				</components>
+			</game_entity>
+			<game_entity name="european_castle_keep_side" old_prefab_name="" season_mask="255" occlusion_body_name="bo_occ_european_castle_keep_side">
+				<transform position="16.112, 17.215, 0.000"/>
+				<physics shape="bo_european_castle_keep_side" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="european_castle_keep_side"/>
+				</components>
+			</game_entity>
+			<game_entity name="european_castle_keep_front_top" old_prefab_name="" season_mask="255">
+				<physics shape="bo_european_castle_keep_front_top" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="european_castle_keep_front_top"/>
+				</components>
+			</game_entity>
+			<game_entity name="european_castle_keep_side" old_prefab_name="" season_mask="255" occlusion_body_name="bo_occ_european_castle_keep_side">
+				<transform position="16.214, 5.213, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+				<physics shape="bo_european_castle_keep_side" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="european_castle_keep_side"/>
+				</components>
+			</game_entity>
+			<game_entity name="european_castle_keep_side" old_prefab_name="" season_mask="255" occlusion_body_name="bo_occ_european_castle_keep_side">
+				<transform position="-16.079, 5.213, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+				<physics shape="bo_european_castle_keep_side" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="european_castle_keep_side"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="european_castle_keep_part_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_keep_part_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_keep_part_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_keep_part_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_keep_part_b" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_keep_part_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_tower_round_a_roof" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_tower_round_a_roof" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_tower_round_a_roof"/>
+		</components>
+		<children>
+			<game_entity name="ambient_sound_emitter" old_prefab_name="">
+				<transform position="-0.017, -0.010, 3.177" rotation_euler="0.000, 0.000, 0.000" scale="5.753, 1.000, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/reverb/wood_interior"/>
+							<variable name="Overrided Parameters" value="false"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Overrided Volume" value="0.000000"/>
+							<variable name="Overrided Pitch" value="1.000000"/>
+							<variable name="Overrided Event Path (Spring)" value=""/>
+							<variable name="Overrided Event Path (Summer)" value=""/>
+							<variable name="Overrided Event Path (Fall)" value=""/>
+							<variable name="Overrided Event Path (Winter)" value=""/>
+							<variable name="Send Daytime Parameter" value="false"/>
+							<variable name="Send Rainfall Parameter" value="false"/>
+							<variable name="Send Snowfall Parameter" value="false"/>
+							<variable name="Send Mood Parameter" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Sphere"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="european_castle_wall_part_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_european_castle_wall_part_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_wall_part_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_baracks_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_european_castle_baracks_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_baracks_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_gatehouse_portcullis_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_european_castle_gatehouse_portcullis_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_gatehouse_portcullis_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_gatehouse_door_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_european_castle_gatehouse_door_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_gatehouse_door_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_gatehouse_door_closed" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_european_castle_gatehouse_door_closed" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_gatehouse_door_closed"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_gatehouse_door_open" old_prefab_name="">
+		<tags>
+			<tag name="closable"/>
+			<tag name="european_castle_gatehouse_door_closed"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_european_castle_gatehouse_door_open" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_gatehouse_door_open"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_barn_a" old_prefab_name="" occlusion_body_name="bo_occ_european_castle_barn_a_l3">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_barn_a_l3" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_barn_a_l3"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_barn_b" old_prefab_name="" occlusion_body_name="bo_occ_european_castle_barn_b_l3">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_barn_b_l3" override_material="wood" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="european_castle_barn_b_l3"/>
+		</components>
+		<children>
+			<game_entity name="ambient_sound_emitter" old_prefab_name="">
+				<transform position="3.759, 3.968, 1.997" rotation_euler="0.000, 0.000, -0.024" scale="9.370, 3.820, 2.817"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/reverb/stone_interior"/>
+							<variable name="Overrided Parameters" value="false"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Overrided Volume" value="0.000000"/>
+							<variable name="Overrided Pitch" value="1.000000"/>
+							<variable name="Overrided Event Path (Spring)" value=""/>
+							<variable name="Overrided Event Path (Summer)" value=""/>
+							<variable name="Overrided Event Path (Fall)" value=""/>
+							<variable name="Overrided Event Path (Winter)" value=""/>
+							<variable name="Send Daytime Parameter" value="false"/>
+							<variable name="Send Rainfall Parameter" value="false"/>
+							<variable name="Send Snowfall Parameter" value="false"/>
+							<variable name="Send Mood Parameter" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Box"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="european_castle_ladder" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_european_castle_ladder" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_ladder"/>
+		</components>
+								<children>
+			<game_entity name="stairs_bo" old_prefab_name="">
+				<physics shape="bo_2_european_castle_ladder">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="european_castle_wooden_cover_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_european_castle_wooden_cover_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_wooden_cover_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_wooden_cover_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_european_castle_wooden_cover_b" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_wooden_cover_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_a" old_prefab_name="" occlusion_body_name="bo_occ_vlandia_arena_grandstand_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_grandstand_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_b" old_prefab_name="" occlusion_body_name="bo_occ_vlandia_arena_grandstand_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_grandstand_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_c" old_prefab_name="" occlusion_body_name="bo_occ_vlandia_arena_grandstand_c">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_grandstand_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_barrier_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_grandstand_barrier_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_barrier_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_barrier_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_grandstand_barrier_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_barrier_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_barrier_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_grandstand_barrier_c" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_barrier_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_wall_a" old_prefab_name="" occlusion_body_name="bo_occ_vlandia_arena_wall_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_wall_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_wall_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_wall_b" old_prefab_name="" occlusion_body_name="bo_occ_vlandia_arena_wall_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_wall_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_wall_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_wall_c" old_prefab_name="" occlusion_body_name="bo_occ_vlandia_arena_wall_c">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_wall_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_wall_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_tower" old_prefab_name="" occlusion_body_name="bo_occ_vlandia_arena_tower">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_tower" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_tower"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_roof_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_grandstand_roof_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_roof_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_roof_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_grandstand_roof_b" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_roof_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_roof_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_grandstand_roof_c" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_roof_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_roof_cloth_a1" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_grandstand_roof_cloth_a1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_roof_cloth_a1"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_roof_cloth_a2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_grandstand_roof_cloth_a1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_roof_cloth_a2"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_roof_cloth_a3" old_prefab_name="">
+		<transform rotation_euler="0.000, 0.000, -0.579"/>
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_arena_grandstand_roof_cloth_a1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_roof_cloth_a3"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_roof_cloth_a4" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_grandstand_roof_cloth_a1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_roof_cloth_a4"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_roof_cloth_b1" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_grandstand_roof_cloth_b1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_roof_cloth_b1"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_roof_cloth_b2" old_prefab_name="">
+		<transform rotation_euler="0.000, 0.000, -0.579"/>
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_arena_grandstand_roof_cloth_b1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_roof_cloth_b2"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_roof_cloth_b3" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_grandstand_roof_cloth_b1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_roof_cloth_b3"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_roof_cloth_b4" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_grandstand_roof_cloth_b1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_roof_cloth_b4"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_roof_cloth_c1" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_grandstand_roof_cloth_c1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_roof_cloth_c1"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_roof_cloth_c2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_grandstand_roof_cloth_c1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_roof_cloth_c2"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_grandstand_roof_cloth_c3" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_grandstand_roof_cloth_c1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_grandstand_roof_cloth_c3"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_decoration_cloth_a1" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_decoration_cloth_a1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_decoration_cloth_a1"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_decoration_cloth_a2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_decoration_cloth_a1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_decoration_cloth_a2"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_decoration_cloth_a3" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_decoration_cloth_a1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_decoration_cloth_a3"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_decoration_cloth_a4" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_decoration_cloth_a1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_decoration_cloth_a4"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_decoration_cloth_b1" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_decoration_cloth_a1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_decoration_cloth_b1"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_decoration_cloth_b2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_decoration_cloth_a1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_decoration_cloth_b2"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_decoration_cloth_b3" old_prefab_name="">
+		<transform rotation_euler="0.000, 0.000, -0.579"/>
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_arena_decoration_cloth_a1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_decoration_cloth_b3"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_decoration_cloth_b4" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_decoration_cloth_a1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_decoration_cloth_b4"/>
+		</components>
+	</game_entity>
+	<game_entity name="tent_vlandia_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tent_vlandia_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tent_vlandia_a"/>
+		</components>
+		<children>
+			<game_entity name="ambient_sound_emitter" old_prefab_name="">
+				<transform rotation_euler="0.000, 0.000, 0.000" scale="3.710, 0.987, 0.408"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/area/interior/generic"/>
+							<variable name="Overrided Parameters" value="false"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Overrided Volume" value="0.000000"/>
+							<variable name="Overrided Pitch" value="1.000000"/>
+							<variable name="Overrided Event Path (Spring)" value=""/>
+							<variable name="Overrided Event Path (Summer)" value=""/>
+							<variable name="Overrided Event Path (Fall)" value=""/>
+							<variable name="Overrided Event Path (Winter)" value=""/>
+							<variable name="Send Daytime Parameter" value="false"/>
+							<variable name="Send Rainfall Parameter" value="false"/>
+							<variable name="Send Snowfall Parameter" value="false"/>
+							<variable name="Send Mood Parameter" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Sphere"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="tent_vlandia_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tent_vlandia_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tent_vlandia_b"/>
+		</components>
+		<children>
+			<game_entity name="ambient_sound_emitter" old_prefab_name="">
+				<transform position="0.000, -0.051, 0.225" rotation_euler="0.000, 0.000, 0.000" scale="3.479, 1.000, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/area/interior/generic"/>
+							<variable name="Overrided Parameters" value="false"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Overrided Volume" value="0.000000"/>
+							<variable name="Overrided Pitch" value="1.000000"/>
+							<variable name="Overrided Event Path (Spring)" value=""/>
+							<variable name="Overrided Event Path (Summer)" value=""/>
+							<variable name="Overrided Event Path (Fall)" value=""/>
+							<variable name="Overrided Event Path (Winter)" value=""/>
+							<variable name="Send Daytime Parameter" value="false"/>
+							<variable name="Send Rainfall Parameter" value="false"/>
+							<variable name="Send Snowfall Parameter" value="false"/>
+							<variable name="Send Mood Parameter" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Sphere"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="tent_vlandia_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tent_vlandia_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tent_vlandia_c"/>
+		</components>
+		<children>
+			<game_entity name="ambient_sound_emitter" old_prefab_name="">
+				<transform position="0.000, 0.000, -0.424" rotation_euler="0.000, 0.000, 0.000" scale="2.307, 1.000, 1.000"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/area/interior/generic"/>
+							<variable name="Overrided Parameters" value="false"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Overrided Volume" value="0.000000"/>
+							<variable name="Overrided Pitch" value="1.000000"/>
+							<variable name="Overrided Event Path (Spring)" value=""/>
+							<variable name="Overrided Event Path (Summer)" value=""/>
+							<variable name="Overrided Event Path (Fall)" value=""/>
+							<variable name="Overrided Event Path (Winter)" value=""/>
+							<variable name="Send Daytime Parameter" value="false"/>
+							<variable name="Send Rainfall Parameter" value="false"/>
+							<variable name="Send Snowfall Parameter" value="false"/>
+							<variable name="Send Mood Parameter" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Sphere"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="vlandia_keep_interior" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_keep_interior" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_keep_interior"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_arena_main_building" old_prefab_name="" occlusion_body_name="bo_occ_vlandia_arena_main_building">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_arena_main_building" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_main_building"/>
+		</components>
+		<children>
+			<game_entity name="ambient_sound_emitter" old_prefab_name="">
+				<transform position="0.000, -2.361, 8.856" rotation_euler="0.000, 0.000, 0.000" scale="5.049, 3.902, 2.090"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/reverb/wood_interior"/>
+							<variable name="Overrided Parameters" value="false"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Overrided Volume" value="0.000000"/>
+							<variable name="Overrided Pitch" value="1.000000"/>
+							<variable name="Overrided Event Path (Spring)" value=""/>
+							<variable name="Overrided Event Path (Summer)" value=""/>
+							<variable name="Overrided Event Path (Fall)" value=""/>
+							<variable name="Overrided Event Path (Winter)" value=""/>
+							<variable name="Send Daytime Parameter" value="false"/>
+							<variable name="Send Rainfall Parameter" value="false"/>
+							<variable name="Send Snowfall Parameter" value="false"/>
+							<variable name="Send Mood Parameter" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Box"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="vlandia_arena_main_building_lords_platform" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_vlandia_arena_main_building_lords_platform" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_arena_main_building_lords_platform"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_dungeon_entrance_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_dungeon_entrance_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_entrance_a"/>
+		</components>
+		<children>
+			<game_entity name="ambient_sound_emitter" old_prefab_name="">
+				<transform position="2.972, -8.369, 3.019" rotation_euler="0.000, 0.000, 0.000" scale="6.024, 8.506, 3.202"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/reverb/dungeon"/>
+							<variable name="Overrided Parameters" value="false"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Overrided Volume" value="0.000000"/>
+							<variable name="Overrided Pitch" value="1.000000"/>
+							<variable name="Overrided Event Path (Spring)" value=""/>
+							<variable name="Overrided Event Path (Summer)" value=""/>
+							<variable name="Overrided Event Path (Fall)" value=""/>
+							<variable name="Overrided Event Path (Winter)" value=""/>
+							<variable name="Send Daytime Parameter" value="false"/>
+							<variable name="Send Rainfall Parameter" value="false"/>
+							<variable name="Send Snowfall Parameter" value="false"/>
+							<variable name="Send Mood Parameter" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Box"/>
+						</variables>
+					</script>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/area/interior/dungeon"/>
+							<variable name="Overrided Parameters" value="false"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Overrided Volume" value="0.000000"/>
+							<variable name="Overrided Pitch" value="1.000000"/>
+							<variable name="Overrided Event Path (Spring)" value=""/>
+							<variable name="Overrided Event Path (Summer)" value=""/>
+							<variable name="Overrided Event Path (Fall)" value=""/>
+							<variable name="Overrided Event Path (Winter)" value=""/>
+							<variable name="Send Daytime Parameter" value="false"/>
+							<variable name="Send Rainfall Parameter" value="false"/>
+							<variable name="Send Snowfall Parameter" value="false"/>
+							<variable name="Send Mood Parameter" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Box"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="vlandia_dungeon_stair_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_dungeon_stair_b" mass="1.000">
+			<body_flags>
+				<body_flag name="has_steps"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_stair_b"/>
+		</components>
+		<children>
+			<game_entity name="vlandia_dungeon_stair_b_wall" old_prefab_name="">
+				<physics shape="bo_vlandia_dungeon_stair_b_wall" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="vlandia_dungeon_stair_b_wall"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="vlandia_dungeon_stair_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_dungeon_stair_a" mass="1.000">
+			<body_flags>
+				<body_flag name="has_steps"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_stair_a"/>
+		</components>
+		<children>
+			<game_entity name="vlandia_dungeon_stair_a_wall" old_prefab_name="">
+				<physics shape="bo_vlandia_dungeon_stair_a_wall" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="vlandia_dungeon_stair_a_wall"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity old_prefab_name="" name="vlandia_dungeon_corridor_a">
+		<children>
+			<game_entity old_prefab_name="" name="ambient_sound_emitter">
+				<scripts>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable value="Box" name="Trigger Shape"/>
+							<variable value="true" name="Is Triggered"/>
+							<variable value="false" name="Send Mood Parameter"/>
+							<variable value="false" name="Send Rainfall Parameter"/>
+							<variable value="false" name="Send Daytime Parameter"/>
+							<variable value="" name="Overrided Event Path (Winter)"/>
+							<variable value="" name="Overrided Event Path (Fall)"/>
+							<variable value="" name="Overrided Event Path (Summer)"/>
+							<variable value="" name="Overrided Event Path (Spring)"/>
+							<variable value="1.000000" name="Overrided Pitch"/>
+							<variable value="0.000000" name="Overrided Volume"/>
+							<variable value="0.000000" name="Overrided Min Distance"/>
+							<variable value="0.000000" name="Overrided Max Distance"/>
+							<variable value="true" name="Play On Startup"/>
+							<variable value="false" name="Overrided Parameters"/>
+							<variable value="event:/mission/ambient/area/interior/generic" name="Event Path"/>
+						</variables>
+					</script>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable value="Box" name="Trigger Shape"/>
+							<variable value="true" name="Is Triggered"/>
+							<variable value="false" name="Send Mood Parameter"/>
+							<variable value="false" name="Send Rainfall Parameter"/>
+							<variable value="false" name="Send Daytime Parameter"/>
+							<variable value="" name="Overrided Event Path (Winter)"/>
+							<variable value="" name="Overrided Event Path (Fall)"/>
+							<variable value="" name="Overrided Event Path (Summer)"/>
+							<variable value="" name="Overrided Event Path (Spring)"/>
+							<variable value="1.000000" name="Overrided Pitch"/>
+							<variable value="0.000000" name="Overrided Volume"/>
+							<variable value="0.000000" name="Overrided Min Distance"/>
+							<variable value="0.000000" name="Overrided Max Distance"/>
+							<variable value="true" name="Play On Startup"/>
+							<variable value="false" name="Overrided Parameters"/>
+							<variable value="event:/mission/ambient/reverb/stone_corridor" name="Event Path"/>
+						</variables>
+					</script>
+				</scripts>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform scale="1.602, 5.380, 2.215" rotation_euler="0.128, 0.000, 0.000" position="0.000, -5.078, 1.677"/>
+			</game_entity>
+		</children>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_corridor_a"/>
+		</components>
+		<physics mass="1.000" shape="bo_vlandia_dungeon_corridor_a"/>
+		<edit_mode_data selection_group_mask="0"/>
+	</game_entity>
+	<game_entity name="vlandia_dungeon_corridor_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_dungeon_corridor_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_corridor_b"/>
+		</components>
+		<children>
+			<game_entity name="ambient_sound_emitter" old_prefab_name="">
+				<transform position="-0.092, -5.358, 1.865" rotation_euler="0.000, 0.000, -0.060" scale="1.693, 5.548, 2.201"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/reverb/stone_corridor"/>
+							<variable name="Overrided Parameters" value="false"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Overrided Volume" value="0.000000"/>
+							<variable name="Overrided Pitch" value="1.000000"/>
+							<variable name="Overrided Event Path (Spring)" value=""/>
+							<variable name="Overrided Event Path (Summer)" value=""/>
+							<variable name="Overrided Event Path (Fall)" value=""/>
+							<variable name="Overrided Event Path (Winter)" value=""/>
+							<variable name="Send Daytime Parameter" value="false"/>
+							<variable name="Send Rainfall Parameter" value="false"/>
+							<variable name="Send Snowfall Parameter" value="false"/>
+							<variable name="Send Mood Parameter" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Box"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="vlandia_dungeon_corridor_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_dungeon_corridor_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_corridor_c"/>
+		</components>
+		<children>
+			<game_entity name="ambient_sound_emitter" old_prefab_name="">
+				<transform position="2.534, -4.118, 1.395" rotation_euler="0.000, 0.000, -0.927" scale="6.166, 2.425, 3.059"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/area/interior/generic"/>
+							<variable name="Overrided Parameters" value="false"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Overrided Volume" value="0.000000"/>
+							<variable name="Overrided Pitch" value="1.000000"/>
+							<variable name="Overrided Event Path (Spring)" value=""/>
+							<variable name="Overrided Event Path (Summer)" value=""/>
+							<variable name="Overrided Event Path (Fall)" value=""/>
+							<variable name="Overrided Event Path (Winter)" value=""/>
+							<variable name="Send Daytime Parameter" value="false"/>
+							<variable name="Send Rainfall Parameter" value="false"/>
+							<variable name="Send Snowfall Parameter" value="false"/>
+							<variable name="Send Mood Parameter" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Sphere"/>
+						</variables>
+					</script>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/reverb/stone_corridor"/>
+							<variable name="Overrided Parameters" value="false"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Overrided Volume" value="0.000000"/>
+							<variable name="Overrided Pitch" value="1.000000"/>
+							<variable name="Overrided Event Path (Spring)" value=""/>
+							<variable name="Overrided Event Path (Summer)" value=""/>
+							<variable name="Overrided Event Path (Fall)" value=""/>
+							<variable name="Overrided Event Path (Winter)" value=""/>
+							<variable name="Send Daytime Parameter" value="false"/>
+							<variable name="Send Rainfall Parameter" value="false"/>
+							<variable name="Send Snowfall Parameter" value="false"/>
+							<variable name="Send Mood Parameter" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Box"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="vlandia_dungeon_corridor_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_dungeon_corridor_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_corridor_d"/>
+		</components>
+		<children>
+			<game_entity name="ambient_sound_emitter" old_prefab_name="">
+				<transform position="0.000, 0.027, 2.176" rotation_euler="0.000, 0.000, 0.000" scale="3.713, 3.853, 2.405"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/area/interior/generic"/>
+							<variable name="Overrided Parameters" value="false"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Overrided Volume" value="0.000000"/>
+							<variable name="Overrided Pitch" value="1.000000"/>
+							<variable name="Overrided Event Path (Spring)" value=""/>
+							<variable name="Overrided Event Path (Summer)" value=""/>
+							<variable name="Overrided Event Path (Fall)" value=""/>
+							<variable name="Overrided Event Path (Winter)" value=""/>
+							<variable name="Send Daytime Parameter" value="false"/>
+							<variable name="Send Rainfall Parameter" value="false"/>
+							<variable name="Send Snowfall Parameter" value="false"/>
+							<variable name="Send Mood Parameter" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Sphere"/>
+						</variables>
+					</script>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/reverb/stone_corridor"/>
+							<variable name="Overrided Parameters" value="false"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Overrided Volume" value="0.000000"/>
+							<variable name="Overrided Pitch" value="1.000000"/>
+							<variable name="Overrided Event Path (Spring)" value=""/>
+							<variable name="Overrided Event Path (Summer)" value=""/>
+							<variable name="Overrided Event Path (Fall)" value=""/>
+							<variable name="Overrided Event Path (Winter)" value=""/>
+							<variable name="Send Daytime Parameter" value="false"/>
+							<variable name="Send Rainfall Parameter" value="false"/>
+							<variable name="Send Snowfall Parameter" value="false"/>
+							<variable name="Send Mood Parameter" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Box"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity old_prefab_name="" name="vlandia_dungeon_room_a">
+		<children>
+			<game_entity old_prefab_name="" name="ambient_sound_emitter">
+				<scripts>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable value="Box" name="Trigger Shape"/>
+							<variable value="true" name="Is Triggered"/>
+							<variable value="false" name="Send Mood Parameter"/>
+							<variable value="false" name="Send Rainfall Parameter"/>
+							<variable value="false" name="Send Daytime Parameter"/>
+							<variable value="" name="Overrided Event Path (Winter)"/>
+							<variable value="" name="Overrided Event Path (Fall)"/>
+							<variable value="" name="Overrided Event Path (Summer)"/>
+							<variable value="" name="Overrided Event Path (Spring)"/>
+							<variable value="1.000000" name="Overrided Pitch"/>
+							<variable value="0.000000" name="Overrided Volume"/>
+							<variable value="0.000000" name="Overrided Min Distance"/>
+							<variable value="0.000000" name="Overrided Max Distance"/>
+							<variable value="true" name="Play On Startup"/>
+							<variable value="false" name="Overrided Parameters"/>
+							<variable value="event:/mission/ambient/reverb/dungeon" name="Event Path"/>
+						</variables>
+					</script>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable value="Box" name="Trigger Shape"/>
+							<variable value="true" name="Is Triggered"/>
+							<variable value="false" name="Send Mood Parameter"/>
+							<variable value="false" name="Send Rainfall Parameter"/>
+							<variable value="true" name="Send Daytime Parameter"/>
+							<variable value="" name="Overrided Event Path (Winter)"/>
+							<variable value="" name="Overrided Event Path (Fall)"/>
+							<variable value="" name="Overrided Event Path (Summer)"/>
+							<variable value="" name="Overrided Event Path (Spring)"/>
+							<variable value="1.000000" name="Overrided Pitch"/>
+							<variable value="0.000000" name="Overrided Volume"/>
+							<variable value="0.000000" name="Overrided Min Distance"/>
+							<variable value="0.000000" name="Overrided Max Distance"/>
+							<variable value="true" name="Play On Startup"/>
+							<variable value="false" name="Overrided Parameters"/>
+							<variable value="event:/mission/ambient/area/interior/dungeon" name="Event Path"/>
+						</variables>
+					</script>
+				</scripts>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform scale="2.449, 4.897, 2.557" rotation_euler="0.000, 0.000, 0.003" position="2.507, -1.814, 2.371"/>
+			</game_entity>
+		</children>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_room_a"/>
+		</components>
+		<physics mass="1.000" shape="bo_vlandia_dungeon_room_a"/>
+		<edit_mode_data selection_group_mask="0"/>
+	</game_entity>
+	<game_entity name="vlandia_dungeon_room_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_dungeon_room_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_room_b"/>
+		</components>
+		<children>
+			<game_entity name="ambient_sound_emitter" old_prefab_name="">
+				<transform position="2.269, 0.656, 2.399" rotation_euler="0.000, 0.000, 0.000" scale="2.515, 2.420, 2.428"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/area/interior/generic"/>
+							<variable name="Overrided Parameters" value="false"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Overrided Volume" value="0.000000"/>
+							<variable name="Overrided Pitch" value="1.000000"/>
+							<variable name="Overrided Event Path (Spring)" value=""/>
+							<variable name="Overrided Event Path (Summer)" value=""/>
+							<variable name="Overrided Event Path (Fall)" value=""/>
+							<variable name="Overrided Event Path (Winter)" value=""/>
+							<variable name="Send Daytime Parameter" value="false"/>
+							<variable name="Send Rainfall Parameter" value="false"/>
+							<variable name="Send Snowfall Parameter" value="false"/>
+							<variable name="Send Mood Parameter" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Box"/>
+						</variables>
+					</script>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/reverb/stone_corridor"/>
+							<variable name="Overrided Parameters" value="false"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Overrided Volume" value="0.000000"/>
+							<variable name="Overrided Pitch" value="1.000000"/>
+							<variable name="Overrided Event Path (Spring)" value=""/>
+							<variable name="Overrided Event Path (Summer)" value=""/>
+							<variable name="Overrided Event Path (Fall)" value=""/>
+							<variable name="Overrided Event Path (Winter)" value=""/>
+							<variable name="Send Daytime Parameter" value="false"/>
+							<variable name="Send Rainfall Parameter" value="false"/>
+							<variable name="Send Snowfall Parameter" value="false"/>
+							<variable name="Send Mood Parameter" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Box"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="vlandia_dungeon_door_a_opened" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_dungeon_door_a_opened" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_door_a_opened"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_dungeon_door_a_closed" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_dungeon_door_a_closed" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_door_a_closed"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_dungeon_door_a_empty" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_dungeon_door_a_empty" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_door_a_empty"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_dungeon_door_b_closed" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_dungeon_door_b_closed" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_door_b_closed"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_dungeon_cells_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_dungeon_cells_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_cells_a"/>
+		</components>
+		<children>
+			<game_entity name="ambient_sound_emitter" old_prefab_name="">
+				<transform position="3.593, -6.102, 1.685" rotation_euler="0.000, 0.000, 0.000" scale="5.135, 8.329, 1.928"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/area/interior/dungeon"/>
+							<variable name="Overrided Parameters" value="false"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Overrided Volume" value="0.000000"/>
+							<variable name="Overrided Pitch" value="1.000000"/>
+							<variable name="Overrided Event Path (Spring)" value=""/>
+							<variable name="Overrided Event Path (Summer)" value=""/>
+							<variable name="Overrided Event Path (Fall)" value=""/>
+							<variable name="Overrided Event Path (Winter)" value=""/>
+							<variable name="Send Daytime Parameter" value="false"/>
+							<variable name="Send Rainfall Parameter" value="false"/>
+							<variable name="Send Snowfall Parameter" value="false"/>
+							<variable name="Send Mood Parameter" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Box"/>
+						</variables>
+					</script>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/reverb/dungeon"/>
+							<variable name="Overrided Parameters" value="false"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Overrided Volume" value="0.000000"/>
+							<variable name="Overrided Pitch" value="1.000000"/>
+							<variable name="Overrided Event Path (Spring)" value=""/>
+							<variable name="Overrided Event Path (Summer)" value=""/>
+							<variable name="Overrided Event Path (Fall)" value=""/>
+							<variable name="Overrided Event Path (Winter)" value=""/>
+							<variable name="Send Daytime Parameter" value="false"/>
+							<variable name="Send Rainfall Parameter" value="false"/>
+							<variable name="Send Snowfall Parameter" value="false"/>
+							<variable name="Send Mood Parameter" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Box"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity old_prefab_name="" name="vlandia_dungeon_cells_b">
+		<children>
+			<game_entity old_prefab_name="" name="ambient_sound_emitter">
+				<scripts>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable value="Box" name="Trigger Shape"/>
+							<variable value="true" name="Is Triggered"/>
+							<variable value="false" name="Send Mood Parameter"/>
+							<variable value="false" name="Send Rainfall Parameter"/>
+							<variable value="false" name="Send Daytime Parameter"/>
+							<variable value="" name="Overrided Event Path (Winter)"/>
+							<variable value="" name="Overrided Event Path (Fall)"/>
+							<variable value="" name="Overrided Event Path (Summer)"/>
+							<variable value="" name="Overrided Event Path (Spring)"/>
+							<variable value="1.000000" name="Overrided Pitch"/>
+							<variable value="0.000000" name="Overrided Volume"/>
+							<variable value="0.000000" name="Overrided Min Distance"/>
+							<variable value="0.000000" name="Overrided Max Distance"/>
+							<variable value="true" name="Play On Startup"/>
+							<variable value="false" name="Overrided Parameters"/>
+							<variable value="event:/mission/ambient/reverb/dungeon" name="Event Path"/>
+						</variables>
+					</script>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable value="Box" name="Trigger Shape"/>
+							<variable value="true" name="Is Triggered"/>
+							<variable value="false" name="Send Mood Parameter"/>
+							<variable value="false" name="Send Rainfall Parameter"/>
+							<variable value="false" name="Send Daytime Parameter"/>
+							<variable value="" name="Overrided Event Path (Winter)"/>
+							<variable value="" name="Overrided Event Path (Fall)"/>
+							<variable value="" name="Overrided Event Path (Summer)"/>
+							<variable value="" name="Overrided Event Path (Spring)"/>
+							<variable value="1.000000" name="Overrided Pitch"/>
+							<variable value="0.000000" name="Overrided Volume"/>
+							<variable value="0.000000" name="Overrided Min Distance"/>
+							<variable value="0.000000" name="Overrided Max Distance"/>
+							<variable value="true" name="Play On Startup"/>
+							<variable value="false" name="Overrided Parameters"/>
+							<variable value="event:/mission/ambient/area/interior/dungeon" name="Event Path"/>
+						</variables>
+					</script>
+				</scripts>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform scale="5.056, 7.506, 1.769" rotation_euler="0.000, 0.000, 0.000" position="3.443, -5.420, 1.614"/>
+			</game_entity>
+		</children>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_cells_b"/>
+		</components>
+		<physics mass="1.000" shape="bo_vlandia_dungeon_cells_b"/>
+		<edit_mode_data selection_group_mask="0"/>
+	</game_entity>
+	<game_entity name="european_castle_keep_a_l2_interior" old_prefab_name="" occlusion_body_name="bo_occ_european_castle_keep_a_l2_interior">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_keep_a_l2_interior" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_keep_a_l2_interior"/>
+			<meta_mesh_component name="european_castle_keep_a_l2_interior_part_a" _index_="1"/>
+			<meta_mesh_component name="european_castle_keep_a_l2_interior_part_b" _index_="2"/>
+			<meta_mesh_component name="european_castle_keep_a_l2_interior_part_c" _index_="3"/>
+			<meta_mesh_component name="european_castle_keep_a_l2_interior_part_d" _index_="4"/>
+			<meta_mesh_component name="european_castle_keep_a_l2_interior_part_e" _index_="5"/>
+			<meta_mesh_component name="european_castle_keep_a_l2_interior_part_f" _index_="6"/>
+			<meta_mesh_component name="european_castle_keep_a_l2_interior_part_g" _index_="7"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_keep_door_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_keep_door_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_keep_door_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_keep_door_a_case" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_keep_door_a_case" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_keep_door_a_case"/>
+		</components>
+		<children>
+			<game_entity name="vlandia_keep_door_a" old_prefab_name="">
+				<transform position="0.713, 0.000, 0.000"/>
+				<physics shape="bo_vlandia_keep_door_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="vlandia_keep_door_a"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="vlandia_keep_door_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_keep_door_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_keep_door_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_keep_door_b_case" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_keep_door_b_case" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_keep_door_b_case"/>
+		</components>
+		<children>
+			<game_entity name="vlandia_keep_door_b" old_prefab_name="">
+				<transform position="1.023, 0.000, 0.000"/>
+				<physics shape="bo_vlandia_keep_door_b" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="vlandia_keep_door_b"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="tavern_vlandia_table_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tavern_vlandia_table_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tavern_vlandia_table_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="tavern_vlandia_table_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tavern_vlandia_table_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tavern_vlandia_table_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="tavern_vlandia_table_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tavern_vlandia_table_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tavern_vlandia_table_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="tavern_vlandia_stove_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tavern_vlandia_stove_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tavern_vlandia_stove_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="ivy_01" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-0.517, -2.931, -0.947" rotation_euler="-0.037, -0.316, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.154, -0.329, -0.772" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="2.341, 1.336, -0.129" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_05" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="0.804, -0.735, -2.474" rotation_euler="-0.035, -1.719, -2.240"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_05"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-0.448, -2.950, 0.872" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_01" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.950, 0.780, -0.611" rotation_euler="-0.037, -0.026, -2.187"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_01"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.070, -0.329, -2.630" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="2.341, 1.336, -0.129" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_05" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="0.804, -0.735, -2.474" rotation_euler="-0.035, -1.719, -2.240"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_05"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-0.448, -2.950, 0.872" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_01" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.950, 0.780, -0.611" rotation_euler="-0.038, -0.024, -2.124"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_01"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-0.188, -2.383, -1.733" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.880, 0.777, -2.475" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="0.675, -1.104, 2.423" rotation_euler="-0.037, 0.929, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-0.037, -2.123, -0.718" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.237, -0.329, 1.079" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_04" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.698, 0.392, 0.979" rotation_euler="-0.037, -0.370, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_04"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="0.086, -2.063, 1.131" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-0.517, -2.931, -0.947" rotation_euler="-0.037, -0.316, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="2.944, 2.266, -0.831" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-0.188, -2.383, -1.733" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.880, 0.777, -2.475" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.154, -0.329, -0.772" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-0.037, -2.123, -0.718" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.237, -0.329, 1.079" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_04" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.698, 0.392, 0.979" rotation_euler="-0.037, -0.370, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_04"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="0.086, -2.063, 1.131" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-2.758, -6.041, -3.310" rotation_euler="-0.037, -0.316, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="0.704, -0.844, -3.194" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-1.171, -3.439, -4.992" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-2.428, -5.492, -4.096" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-0.360, -2.333, -4.838" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-1.566, -4.213, 0.061" rotation_euler="-0.037, 0.929, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-1.087, -3.439, -3.134" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-2.278, -5.233, -3.081" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-1.003, -3.439, -1.283" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="0.101, -1.774, -2.491" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_05" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-1.436, -3.844, -4.837" rotation_euler="-0.035, -1.719, -2.240"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_05"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_04" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-0.542, -2.717, -1.384" rotation_euler="-0.037, -0.370, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_04"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-2.155, -5.173, -1.232" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-2.688, -6.060, -1.490" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_01" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-0.291, -2.330, -2.973" rotation_euler="-0.037, -0.026, -2.187"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_01"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.070, -0.329, -2.630" rotation_euler="-0.037, -0.025, -2.158"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="ivy_02" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-1.894, 2.683, -0.586" rotation_euler="0.000, 0.000, -0.152"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-3.427, 2.918, -1.323" rotation_euler="0.000, 0.000, -0.152"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="2.631, 1.981, -0.389" rotation_euler="0.000, 0.000, -0.152"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_06" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-1.590, 2.623, 0.760" rotation_euler="0.000, 0.000, -0.155"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_06"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-0.249, 2.422, -0.257" rotation_euler="0.000, 0.000, -0.152"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.472, 2.072, 1.083" rotation_euler="0.000, 0.000, -0.152"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-2.842, 2.768, 2.477" rotation_euler="0.000, 0.000, -0.152"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-0.964, 2.550, 0.429" rotation_euler="0.000, 0.000, -0.152"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-5.213, 3.207, -0.468" rotation_euler="0.000, 0.000, -0.152"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-3.963, 3.000, -0.235" rotation_euler="0.000, 0.000, -0.152"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="0.703, 2.286, 0.327" rotation_euler="0.000, 0.000, -0.152"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-0.993, 2.546, 1.246" rotation_euler="0.000, 0.000, -0.152"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_06" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="0.910, 2.195, 0.760" rotation_euler="0.000, 0.000, -0.155"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_06"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_05" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-1.594, 2.560, 1.726" rotation_euler="0.000, 0.000, -0.143"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_05"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_04" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-1.987, 2.645, 1.073" rotation_euler="0.106, 0.804, -0.092"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_04"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-1.626, 2.642, 2.414" rotation_euler="0.000, 0.000, -0.152"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_01" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="2.017, 2.153, -0.484" rotation_euler="0.033, 0.000, -0.113"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_01"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="ivy_03" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="ivy_european_06" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.933, 0.487, -0.249" rotation_euler="0.000, -0.772, -0.753"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_06"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_06" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.551, 0.846, -0.760" rotation_euler="0.000, -0.772, -0.753"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_06"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="0.399, 1.864, 1.998" rotation_euler="0.000, 0.000, -0.753"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-1.001, 3.177, -1.279" rotation_euler="0.000, 0.000, -0.753"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.688, 0.656, 0.882" rotation_euler="0.000, 0.000, -0.753"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_06" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="0.986, 1.296, 0.513" rotation_euler="0.000, -1.321, -0.753"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_06"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="0.852, 1.439, 1.859" rotation_euler="0.000, 0.000, -0.753"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="0.470, 1.895, -2.550" rotation_euler="0.000, 0.000, -0.753"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-0.055, 2.387, -0.794" rotation_euler="0.000, 0.000, -0.753"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.450, 0.976, -0.794" rotation_euler="0.000, 0.000, -0.753"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.450, 0.976, -0.794" rotation_euler="0.000, 0.000, -0.753"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_06" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-0.128, 2.750, -0.772" rotation_euler="0.000, 2.014, -0.753"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_06"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_05" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="0.205, 2.072, -0.472" rotation_euler="0.000, 0.797, -0.753"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_05"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_04" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="0.112, 2.167, -1.158" rotation_euler="0.000, 0.000, -0.753"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_04"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_03" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.004, 1.395, 1.004" rotation_euler="0.000, 0.000, -0.753"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_03"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_02" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="0.749, 1.547, -4.019" rotation_euler="0.000, 0.000, -0.753"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_02"/>
+				</components>
+			</game_entity>
+			<game_entity name="ivy_european_01" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.148, 1.247, -2.774" rotation_euler="0.000, 0.000, -0.784"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ivy_european_01"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="european_castle_wall_fence_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_wall_fence_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_wall_fence_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_wall_a_damaged_heap_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_wall_a_damaged_heap_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_wall_a_damaged_heap_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_wall_a_damaged_heap_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_wall_a_damaged_heap_b" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_wall_a_damaged_heap_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_wall_a_damaged_heap_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_wall_a_damaged_heap_c" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_wall_a_damaged_heap_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_wall_a_damaged_heap_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_wall_a_damaged_heap_d" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_wall_a_damaged_heap_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_wall_a_damaged_heap_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_wall_a_damaged_heap_e" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_wall_a_damaged_heap_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_wall_fence_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_wall_fence_b" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_wall_fence_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_tower_a_roof_l1" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_tower_a_roof_l1" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_tower_a_roof_l1"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_l1_corner_upstairs_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_l1_corner_upstairs_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_l1_corner_upstairs_a"/>
+		</components>
+		<children>
+			<game_entity name="european_castle_l1_corner_upstairs_a_stairs" old_prefab_name="">
+				<physics mass="1.000" shape="bo_european_castle_l1_corner_upstairs_a_stairs">
+					<body_flags>
+						<body_flag name="has_steps"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="european_castle_l1_corner_upstairs_a_stairs"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="european_castle_l1_wall_small_a" old_prefab_name="" occlusion_body_name="bo_occ_european_castle_l1_wall_small_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_l1_wall_small_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_l1_wall_small_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_l1_wall_small_b" old_prefab_name="" occlusion_body_name="bo_occ_european_castle_l1_wall_small_b">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_l1_wall_small_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_l1_wall_small_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_l1_floor_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_l1_floor_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_l1_floor_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_l1_gatehouse_door_open" old_prefab_name="">
+		<tags>
+			<tag name="closable"/>
+			<tag name="battania_gatehause_door_closed"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_battania_gatehause_door_open" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="battania_gatehause_door_open"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_l1_gatehouse_door_closed" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_battania_gatehause_door_closed" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="battania_gatehause_door_closed"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_l1_keep_interior" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_keep_interior_lvl1" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_keep_interior_lvl1"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_wall_a_damaged_l1_heap_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_wall_a_damaged_l1_heap_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_wall_a_damaged_l1_heap_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_wall_a_damaged_l1_heap_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_wall_a_damaged_l1_heap_b" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_wall_a_damaged_l1_heap_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_wall_a_damaged_l1_heap_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_wall_a_damaged_l1_heap_c" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_wall_a_damaged_l1_heap_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_corner_a_l1_roof" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_corner_a_l1_roof" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_corner_a_l1_roof"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_wall_a_damaged_l3_2_old" old_prefab_name="" occlusion_body_name="bo_occ_european_castle_wall_a_damaged_l3_old">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_wall_a_damaged_l3_2_old" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_wall_a_damaged_l3_2_old"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_wall_a_l3_old" old_prefab_name="" occlusion_body_name="bo_occ_european_castle_wall_a_l3_old">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_wall_a_l3_old" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_wall_a_l3_old"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_gatehouse_b_l3" old_prefab_name="" occlusion_body_name="bo_occ_european_castle_gatehouse_b_l3">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_european_castle_gatehouse_b_l3" mass="1.000"/>
+		<occlusion_body_flags>
+			<occlusion_body_flag name="two_sided"/>
+		</occlusion_body_flags>
+		<components>
+			<meta_mesh_component name="european_castle_gatehouse_b_l3"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_city_awning_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_city_awning_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_city_awning_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_city_part_i" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_city_part_i" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_city_part_i"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_city_part_j_balcony" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_city_part_j_balcony" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_city_part_j_balcony"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_bridge_a_new" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_bridge_a_new" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_bridge_a_new"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_bridge_a_new_destroyed" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_bridge_a_new_destroyed" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_bridge_a_new_destroyed"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_city_house_interior_b_tavern" old_prefab_name="">
+		<transform position="23.120, 21.240, 0.030" rotation_euler="0.000, 0.000, 1.661"/>
+		<physics shape="bo_vlandia_city_house_interior_b_tavern" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_city_house_interior_b_tavern"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_grandbazaar_big_wall_a" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_grandbazaar_big_wall_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_grandbazaar_big_wall_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_grandbazaar_big_wall_b" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_grandbazaar_big_wall_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_grandbazaar_big_wall_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_grandbazaar_gate" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_grandbazaar_gate" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_grandbazaar_gate"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_grandbazaar_gate_a" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_grandbazaar_gate_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_grandbazaar_gate_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_grandbazaar_gate_door_a" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_grandbazaar_gate_door_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_grandbazaar_gate_door_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_grandbazaar_ground_a" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_grandbazaar_ground_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_grandbazaar_ground_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_grandbazaar_ground_b" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_grandbazaar_ground_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_grandbazaar_ground_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_grandbazaar_shop_a" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_grandbazaar_shop_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_grandbazaar_shop_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_grandbazaar_shop_b" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_grandbazaar_shop_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_grandbazaar_shop_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_grandbazaar_shop_c" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_grandbazaar_shop_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_grandbazaar_shop_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_grandbazaar_shop_corner" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_grandbazaar_shop_corner" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_grandbazaar_shop_corner"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_grandbazaar_shop_corner_roof" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_grandbazaar_shop_corner_roof" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_grandbazaar_shop_corner_roof"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_grandbazaar_shop_door_a" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_grandbazaar_shop_door_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_grandbazaar_shop_door_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_grandbazaar_shop_gate_a" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_grandbazaar_shop_gate_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_grandbazaar_shop_gate_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_grandbazaar_stairs" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_grandbazaar_stairs">
+			<body_flags>
+				<body_flag name="has_steps"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="vlandia_grandbazaar_stairs"/>
+		</components>
+	</game_entity>
+	<game_entity name="european_castle_keep_side" old_prefab_name="" season_mask="255" occlusion_body_name="bo_occ_european_castle_keep_side">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_european_castle_keep_side" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="european_castle_keep_side"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_dungeon_cells_a_bars_opened" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_dungeon_cells_a_bars_opened" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_cells_a_bars_opened"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_dungeon_cells_a_bars_door" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_dungeon_cells_a_bars_door" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_cells_a_bars_door"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_dungeon_cells_b_bars_opened" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_dungeon_cells_b_bars_opened" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_cells_b_bars_opened"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_dungeon_cells_b_bars_door" old_prefab_name="">
+		<edit_mode_data selection_group_mask="0"/>
+		<physics shape="bo_vlandia_dungeon_cells_b_bars_door" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_cells_b_bars_door"/>
+		</components>
+	</game_entity>
+	<game_entity name="vlandia_dungeon_cells_a_bars" old_prefab_name="" season_mask="255">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_dungeon_cells_a_bars_opened" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_cells_a_bars_opened"/>
+		</components>
+		<children>
+			<game_entity name="vlandia_dungeon_cells_a_bars_door" old_prefab_name="" season_mask="255">
+				<transform position="-0.659, -0.067, 0.000"/>
+				<physics shape="bo_vlandia_dungeon_cells_a_bars_door" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="vlandia_dungeon_cells_a_bars_door"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="vlandia_dungeon_cells_b_bars" old_prefab_name="" season_mask="255">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vlandia_dungeon_cells_b_bars_opened" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vlandia_dungeon_cells_b_bars_opened"/>
+		</components>
+		<children>
+			<game_entity name="vlandia_dungeon_cells_b_bars_door" old_prefab_name="" season_mask="255">
+				<transform position="-0.481, -0.050, 0.000"/>
+				<physics shape="bo_vlandia_dungeon_cells_b_bars_door" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="vlandia_dungeon_cells_b_bars_door"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

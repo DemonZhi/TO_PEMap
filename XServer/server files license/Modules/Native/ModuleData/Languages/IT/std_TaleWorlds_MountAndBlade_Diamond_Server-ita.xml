@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Italiano" />
+  </tags>
+  <strings>
+    <string id="0W4dgUho" text="Ti hanno bannato fino al giorno {BANNEDUNTIL} per il seguente motivo: {BANREASON}" />
+    <string id="39f0eu3Y" text="Token per l&apos;autenticazione scaduto." />
+    <string id="dbLB0tuT" text="La condivisione familiare non è consentita." />
+    <string id="iWLq9hMg" text="Non è stato fornito un token per l&apos;autenticazione." />
+    <string id="kY2oXMng" text="Impossibile accedere." />
+    <string id="p5K0ATtZ" text="Impossibile eliminare la sessione precedente." />
+    <string id="Rj8RhD7F" text="Non riuscito" />
+    <string id="satFJMMu" text="La versione del server della battaglia personalizzato non è compatibile." />
+    <string id="Tauk2JzA" text="Le versioni non corrispondono. Versione del server: {SERVERVERSION} - La tua versione: {CLIENTVERSION}." />
+    <string id="X6N9nSn0" text="Non puoi accedere a questo server. Prova con i server pubblici ufficiali." />
+    <string id="xMa4QqvL" text="Giocatori attualmente nel gruppo: {PLAYERS}" />
+    <string id="xriaEwgN" text="Ti hanno bannato dalla gestione di server fino al giorno {BAN_EXPIRATION_TIME}. Motivo: {BAN_REASON}" />
+    <string id="YmPyx3qi" text="Il giocatore ha raggiunto il numero massimo di server della battaglia personalizzati." />
+  </strings>
+</base>

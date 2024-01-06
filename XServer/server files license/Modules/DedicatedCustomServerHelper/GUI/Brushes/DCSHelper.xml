@@ -1,0 +1,23 @@
+<Brushes>
+  <Brush Name="DCSHelper.MapPanel.SubText">
+    <Layers></Layers>
+	<Styles>
+	  <Style Name="Default" FontColor="#F3E0BFFF" TextAlphaFactor="0.8" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="20" />
+	</Styles>
+  </Brush>
+  <Brush Name="DCSHelper.MapList.CurrentlyPlayingText" TextHorizontalAlignment="Right">
+    <Layers></Layers>
+	<Styles>
+	  <Style Name="Default" FontColor="#F5CA87FF" TextAlphaFactor="0.8" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="1" FontSize="16" />
+	</Styles>
+  </Brush>
+  <Brush Name="DCSHelper.MapList.ItemText" FontSize="24" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Left" TextVerticalAlignment="Center">
+    <Layers></Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#DAC3ABFF" TextAlphaFactor="0.7" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0"/>
+      <Style Name="Hovered" FontColor="#F5CA87FF" TextAlphaFactor="0.9" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0"/>
+      <Style Name="Pressed" FontColor="#F5CA87FF" TextAlphaFactor="0.7" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0"/>
+      <Style Name="Selected" FontColor="#F2E3D3FF" TextAlphaFactor="1" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0"/>
+    </Styles>
+  </Brush>
+</Brushes>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+  <strings>
+    <string id="0B27RrYJ" text="{.N}Battania" />
+    <string id="1sbJQR4H" text="{.F}Plünderer" />
+    <string id="3PzgpFGq" text="Neutral" />
+    <string id="aseraifaction" text="{.N}Aserai{@Type}2{\@}" />
+    <string id="empirefaction" text="{.N}Imperium{.nn}{@HAS_ARTICLE}1{\@}{@Type}1{\@}" />
+    <string id="FjwRsf1C" text="{.N}Vlandia" />
+    <string id="PjO7oY16" text="{.N}Sturgia" />
+    <string id="sZLd6VHi" text="{.N}Khuzait{@Type}2{\@}" />
+  </strings>
+</base>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Español (LA)" />
+  </tags>
+  <strings>
+    <string id="3JaHZA3Y" text="Bolsa grande de {ITEMNAME}" />
+    <string id="5yVgXqQr" text="{ITEMNAME} {#GENDER(ITEMNAME)}gastado{#}gastada{#}gastados{#}gastadas{\#}" />
+    <string id="85WO1MKG" text="{ITEMNAME} {#GENDER(ITEMNAME)}bien hecho{#}bien hecha{#}bien hechos{#}bien hechas{\#}" />
+    <string id="8Pd6fLoy" text="{ITEMNAME} {#GENDER(ITEMNAME)}astillado{#}astillada{#}astillados{#}astilladas{\#}" />
+    <string id="8Tal0XIj" text="{ITEMNAME} {#GENDER(ITEMNAME)}magistral{#}magistral{#}magistrales{#}magistrales{\#}" />
+    <string id="BA9c7gPb" text="{ITEMNAME} {#GENDER(ITEMNAME)}grueso{#}gruesa{#}gruesos{#}gruesas{\#}" />
+    <string id="bAdxUq7s" text="{ITEMNAME} de calidad" />
+    <string id="br0N6SSH" text="{ITEMNAME} {#GENDER(ITEMNAME)}roto{#}rota{#}rotos{#}rotas{\#}" />
+    <string id="bWhJwHA1" text="{ITEMNAME} {#GENDER(ITEMNAME)}suelto{#}suelta{#}sueltos{#}sueltas{\#}" />
+    <string id="eb4miTUB" text="{ITEMNAME} {#GENDER(ITEMNAME)}torcido{#}torcida{#}torcidos{#}torcidas{\#}" />
+    <string id="fdgcpipH" text="{ITEMNAME} {#GENDER(ITEMNAME)}balanceado{#}balanceada{#}balanceados{#}balanceadas{\#}" />
+    <string id="geUpgQI5" text="{ITEMNAME} {#GENDER(ITEMNAME)}pobre{#}pobre{#}pobres{#}pobres{\#}" />
+    <string id="l7QEpVwU" text="{ITEMNAME} {#GENDER(ITEMNAME)}oxidado{#}oxidada{#}oxidados{#}oxidadas{\#}" />
+    <string id="LmzHz4CG" text="{ITEMNAME} mate" />
+    <string id="Pbb94NdW" text="{ITEMNAME} {#GENDER(ITEMNAME)}rasgado{#}rasgada{#}rasgados{#}rasgadas{\#}" />
+    <string id="PobRGG9S" text="{ITEMNAME} {#GENDER(ITEMNAME)}abollado{#}abollada{#}abollados{#}abolladas{\#}" />
+    <string id="Q5HVyNWJ" text="{ITEMNAME} a medida" />
+    <string id="TePk4BSJ" text="{ITEMNAME} {#GENDER(ITEMNAME)}maltrecho{#}maltrecha{#}maltrechos{#}maltrechas{\#}" />
+    <string id="VbxJPJGe" text="{ITEMNAME} {#GENDER(ITEMNAME)}desbalanceado{#}desbalanceada{#}desbalanceados{#}desbalanceadas{\#}" />
+    <string id="w3jn7Ahz" text="{ITEMNAME} {#GENDER(ITEMNAME)}noble{#}noble{#}nobles{#}nobles{\#}" />
+    <string id="WbaIorOh" text="{ITEMNAME} {#GENDER(ITEMNAME)}afinado{#}afinada{#}afinados{#}afinadas{\#}" />
+    <string id="xeb1b5PQ" text="{ITEMNAME} {#GENDER(ITEMNAME)}fino{#}fina{#}finos{#}finas{\#}" />
+    <string id="y3TvYqhG" text="{ITEMNAME} {#GENDER(ITEMNAME)}viejo{#}vieja{#}viejos{#}viejas{\#}" />
+    <string id="zPqPvf0o" text="{ITEMNAME} {#GENDER(ITEMNAME)}encerado{#}encerada{#}encerados{#}enceradas{\#}" />
+  </strings>
+</base>

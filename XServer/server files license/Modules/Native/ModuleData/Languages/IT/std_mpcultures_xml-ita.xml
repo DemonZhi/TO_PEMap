@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Italiano" />
+  </tags>
+  <strings>
+    <string id="0B27RrYJ" text="{.FS}Battania" />
+    <string id="1sbJQR4H" text="{.MP}Predoni" />
+    <string id="3PzgpFGq" text="Neutrale" />
+    <string id="aseraifaction" text="{.FN}Aserai" />
+    <string id="empirefaction" text="Impero" />
+    <string id="FjwRsf1C" text="{.FN}Vlandia" />
+    <string id="PjO7oY16" text="{.FS}Sturgia" />
+    <string id="sZLd6VHi" text="{.MP}Khuzato{@Plural}{.MP}Khuzati{\@}" />
+  </strings>
+</base>

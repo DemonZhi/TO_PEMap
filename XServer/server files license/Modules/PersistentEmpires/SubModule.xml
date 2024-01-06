@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value="PersistentEmpires" />
+	<Id value="PersistentEmpires" />
+	<Version value="v1.0.0.0" />
+	<ModuleCategory value="Multiplayer" />
+	<DependedModules>
+		<DependedModule Id="Native" DependentVersion="e1.8.1" Optional="false" />
+	</DependedModules>
+	<SubModules>
+		<SubModule>
+			<Name value="PersistentEmpiresHarmonyPatches" />
+			<DLLName value="PersistentEmpires.Harmony.dll" />
+			<SubModuleClassType value="PersistentEmpires.HarmonyPatches.PersistentEmpiresHarmonySubModule" />
+			<Tags>
+				<Tag key="DedicatedServerType" value="custom" />
+			</Tags>
+		</SubModule>
+		<SubModule>
+			<Name value="PersistentEmpires" />
+			<DLLName value="PersistentEmpires.dll" />
+			<SubModuleClassType value="PersistentEmpires.PersistentEmpires" />
+			<Tags>
+				<Tag key="DedicatedServerType" value="custom" />
+			</Tags>
+		</SubModule>
+		<SubModule>
+			<Name value="PersistentEmpiresSave" />
+			<DLLName value="PersistentEmpiresSave.dll" />
+			<SubModuleClassType value="PersistentEmpiresSave.PersistentEmpireSaveSubModule" />
+			<Tags>
+				<Tag key="DedicatedServerType" value="custom" />
+			</Tags>
+		</SubModule>
+		<SubModule>
+			<Name value="PersistentEmpires.API" />
+			<DLLName value="PersistentEmpires.API.dll" />
+			<SubModuleClassType value="PersistentEmpires.API.PersistentEmpiresAPISubModule" />
+			<Tags>
+				<Tag key="DedicatedServerType" value="custom" />
+			</Tags>
+		</SubModule>
+	</SubModules>
+	<Xmls>
+		<XmlNode>
+			<XmlName id="Items" path="pe_swadianarmory" />
+			<IncludedGameTypes>
+				<GameType value="MultiplayerGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="pe_ba_items" />
+			<IncludedGameTypes>
+				<GameType value="MultiplayerGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>                
+			<XmlName id="Monsters" path="monsters"/>
+		</XmlNode>               
+		<XmlNode>
+			<XmlName id="Items" path="pe_shoulder_armors" />
+			<IncludedGameTypes>
+				<GameType value="MultiplayerGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="pe_leg_armors" />
+			<IncludedGameTypes>
+				<GameType value="MultiplayerGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="pe_head_armors" />
+			<IncludedGameTypes>
+				<GameType value="MultiplayerGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="pe_body_armors" />
+			<IncludedGameTypes>
+				<GameType value="MultiplayerGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="pe_arm_armors" />
+			<IncludedGameTypes>
+				<GameType value="MultiplayerGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="pe_shields" />
+			<IncludedGameTypes>
+				<GameType value="MultiplayerGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="pe_weapons" />
+			<IncludedGameTypes>
+				<GameType value="MultiplayerGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>                
+			<XmlName id="CraftingPieces" path="pe_crafting_pieces"/>
+			<IncludedGameTypes>
+				<GameType value = "MultiplayerGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>                
+			<XmlName id="CraftingTemplates" path="pe_crafting_templates"/>
+		</XmlNode>   
+		<XmlNode>                
+			<XmlName id="WeaponDescriptions" path="pe_weapon_descriptions"/>
+		</XmlNode> 
+		<XmlNode>
+			<XmlName id="MPCharacters" path="mpcharacters" />
+			<IncludedGameTypes>
+				<GameType value="MultiplayerGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="mpitems" />
+			<IncludedGameTypes>
+				<GameType value="MultiplayerGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="pe_animals" />
+			<IncludedGameTypes>
+				<GameType value="MultiplayerGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="MPClassDivisions" path="mpclassdivisions" />
+			<IncludedGameTypes>
+				<GameType value="MultiplayerGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+    <XmlNode>
+      <XmlName id="GameText" path="native_strings"/>
+      <IncludedGameTypes>
+        <GameType value="MultiplayerGame" />
+      </IncludedGameTypes>
+    </XmlNode>
+  </Xmls>
+</Module>

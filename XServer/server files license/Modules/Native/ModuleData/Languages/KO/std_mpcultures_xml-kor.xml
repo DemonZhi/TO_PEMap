@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="0B27RrYJ" text="바타니아" />
+    <string id="1sbJQR4H" text="도적단" />
+    <string id="3PzgpFGq" text="중립" />
+    <string id="aseraifaction" text="아세라이" />
+    <string id="empirefaction" text="제국" />
+    <string id="FjwRsf1C" text="블란디아" />
+    <string id="PjO7oY16" text="스투르지아" />
+    <string id="sZLd6VHi" text="쿠자이트" />
+  </strings>
+</base>

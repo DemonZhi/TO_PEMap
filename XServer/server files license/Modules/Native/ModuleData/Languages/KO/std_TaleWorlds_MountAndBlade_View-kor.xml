@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="2ZarUUbw" text="{KILLERPLAYERNAME}님이 {KILLEDPLAYERNAME}님을 처치했습니다!" />
+    <string id="5VIbo2Cb" text="로비 서버와 연결할 수 없습니다. 인터넷 접속을 확인한 뒤 다시 시도하세요." />
+    <string id="9CnRKZOb" text="{KILLEDPLAYERNAME}님이 죽었습니다!" />
+    <string id="bUh0x6rA" text="에디터" />
+    <string id="dismissnotification" text="취소" />
+    <string id="ksq1IBh3" text="연결할 수 없음" />
+    <string id="NqarFr4P" text="옵션" />
+    <string id="ODQmOrIw" text="크레딧" />
+    <string id="V8BXjyYq" text="설치 중 비활성화되었습니다." />
+    <string id="xsC8Ierj" text="({BATTLE_COMBATANT})" />
+    <string id="YbpzLHzk" text="게임 종료" />
+    <string id="YDYnuBmC" text="멀티 플레이어" />
+  </strings>
+</base>

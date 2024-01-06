@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Español (LA)" />
+  </tags>
+  <strings>
+    <string id="0MDEP0jy" text="No puedes invitarte a ti mismo" />
+    <string id="0XY1VKVB" text="Tu grupo no es elegible para partidas de clanes." />
+    <string id="1CO3GGEk" text="La ID proporcionada es muy corta." />
+    <string id="2BtJYizu" text="Debes estar en un grupo para realizar esta acción." />
+    <string id="2KsbeJHa" text="Actualizaste con éxito la preferencia de símbolo" />
+    <string id="3cWg0cWt" text="No se pudo conectar con el servidor." />
+    <string id="3lNHtNWa" text="Se quitó el rol de oficial de {ARG1}." />
+    <string id="3NwGpJwe" text="Solicitud de amistad aceptada." />
+    <string id="3NxaSDgg" text="No eres un oficial." />
+    <string id="4HQNKMUZ" text="No tienes el artículo estético seleccionado." />
+    <string id="4lNl8zS2" text="No puedes sugerir a alguien como líder del grupo." />
+    <string id="4XDu4Qcd" text="Solo el líder del grupo puede expulsar a los jugadores." />
+    <string id="4YuWC1Jg" text="Tipos de partida elegidos deshabilitados." />
+    <string id="63X8LERm" text="No se pudo recibir el inicio de sesión del servidor." />
+    <string id="6cMSAe2Z" text="No se pudo denunciar al jugador: No podemos encontrar al jugador." />
+    <string id="6doiovtH" text="Desambiguación: {CHATROOMS}" />
+    <string id="6PcEQ5dq" text="Antitrampas te ha expulsado. Motivo: {ARG1}" />
+    <string id="7cEXe02I" text="{ARG1} rechazó la invitación al clan." />
+    <string id="8UmHXSnO" text="El jugador no tiene acceso a la función de clan." />
+    <string id="96e2tZea" text="No puedes usar varios artículos estéticos para cambiar el mismo artículo" />
+    <string id="9kzik0vP" text="Se sugirió a {ARG1} para tu grupo." />
+    <string id="9TxM5UQS" text="No se pudo actualizar la insignia mostrada." />
+    <string id="a1RXhy6A" text="La invitación al grupo ya no es válida." />
+    <string id="AAnoAhox" text="No se pudo cambiar el modo de juego seleccionado." />
+    <string id="aId8kA8r" text="El texto es demasiado largo." />
+    <string id="AIgw3aFG" text="No se puede unir a la cola de batalla porque algunos jugadores fueron bloqueados del matchmaking." />
+    <string id="Ajw0d4dW" text="Contraseña incorrecta" />
+    <string id="APQ0kNVj" text="La etiqueta del clan no es válida." />
+    <string id="ASgVFGs1" text="Solicitud de amistad rechazada." />
+    <string id="b72mIrOl" text="Debes estar en un grupo para crear un clan." />
+    <string id="ba4CJpja" text="El jugador ya está en un clan." />
+    <string id="baHOuMTb" text="Anuncio añadido con éxito." />
+    <string id="bB5p8KpK" text="El símbolo del clan no es válido." />
+    <string id="bFSVAiel" text="Tu ID de Bannerlord se actualizó exitosamente." />
+    <string id="bivF3RXY" text="No puedes ascenderte a ti mismo." />
+    <string id="bl2dNFmT" text="Insignia no válida." />
+    <string id="bMLqfPRv" text="No estás en un clan." />
+    <string id="BpwNljJF" text="La ID de Bannerlord no puede contener vulgaridades." />
+    <string id="bvWo9N6k" text="Se alcanzó el límite de oficiales del clan." />
+    <string id="BwBR7TJB" text="¡Nadie abandonó el grupo y se disolvió!" />
+    <string id="bzcI3ei2" text="Ya tienes una solicitud pendiente para {ARG1}." />
+    <string id="caMylVF7" text="No se puede entrar en la cola para la batalla porque no se seleccionaron tipos de juego habilitados." />
+    <string id="cwF03dOR" text="No puedes comprar un artículo estético gratuito" />
+    <string id="CyeaniWe" text="Solicitud de amistad enviada a {ARG1}." />
+    <string id="CyrOnYI2" text="No tienes suficiente botín." />
+    <string id="dabogDDj" text="Ya son amigos" />
+    <string id="DcbVwkit" text="{ARG1} ya está en un clan." />
+    <string id="dHlxVbMw" text="Ya estás en un clan." />
+    <string id="DJFaYeWm" text="Para realizar esta acción debes estar en una sala." />
+    <string id="DMPzhEK0" text="Se te desconectó de la sala de chat: /{ARG1}" />
+    <string id="Dmz3JLyp" text="Se invitó al jugador al clan." />
+    <string id="dnKQbXIZ" text="No se pudo denunciar al jugador: La partida no existe." />
+    <string id="DOkblbrz" text="Se sugirió a un jugador para tu grupo." />
+    <string id="Ds01FoSn" text="{ARG1} rechazó tu solicitud de amistad." />
+    <string id="E2ILp86t" text="No se puede entrar en la cola para la batalla porque la región no está disponible." />
+    <string id="e9LrrgAH" text="El anuncio no existe." />
+    <string id="Ebp5T7vh" text="No puedes regresar a la partida que abandonaste." />
+    <string id="emx7txM9" text="Solo el líder del grupo puede ascender miembros." />
+    <string id="eozBcVaB" text="No puedes ascenderte como oficial del clan." />
+    <string id="fD2SyeA7" text="No puedes darte grupo a ti mismo." />
+    <string id="FEeVGSO6" text="El líder del clan no puede abandonar el clan." />
+    <string id="FFPyGnZg" text="Se ascendió a {ARG1} a oficial del clan exitosamente." />
+    <string id="fQCaY3da" text="La ID proporcionada contiene caracteres no válidos." />
+    <string id="fZC7pBba" text="Solo puedes sugerir a jugadores que juegan con antitrampas." />
+    <string id="gAeQdLU5" text="Error al adquirir los datos de acceso de la plataforma." />
+    <string id="GIiGZOxP" text="No se puede añadir al amigo. Falló la configuración de privacidad." />
+    <string id="gQ8deZ17" text="{ARG1} no está conectado." />
+    <string id="h84jSMrT" text="Estás silenciado hasta: {ARG1}. Motivo: {ARG2}" />
+    <string id="hav7yZyB" text="No se ingresó texto." />
+    <string id="hcJumPEg" text="{ARG1} ya está en el grupo." />
+    <string id="hhUKkNR6" text="Ya tienes el artículo estético seleccionado" />
+    <string id="hqK9565f" text="Tipo de partida no válida." />
+    <string id="HTFNfODt" text="No puedes elegir una insignia que no has obtenido." />
+    <string id="i4MNr0bo" text="Se te desconectó de la sala." />
+    <string id="iG72AMy8" text="La información se cambió exitosamente." />
+    <string id="InUAmnX4" text="Te expulsaron por daño amigo" />
+    <string id="IRWReNWu" text="Debes ser el líder de tu grupo para realizar esta acción." />
+    <string id="ivKntfNA" text="Ya se envió la solicitud, esperando respuesta del servidor" />
+    <string id="IWr2ZmWX" text="Se ascendió a {ARG1} a líder del grupo." />
+    <string id="J3dazru7" text="Se invitó a {ARG1} a la partida." />
+    <string id="jbaOH6qf" text="Se ascendió a {ARG1} a líder del clan exitosamente." />
+    <string id="JO37PkfW" text="El servicio de la plataforma no se inició." />
+    <string id="K0mSh8Hw" text="Tu grupo no tiene jugadores suficientes para crear un clan." />
+    <string id="KPMxDIgb" text="La cultura del clan se cambió exitosamente." />
+    <string id="kuM16dg2" text="Se denunció a {ARG1}." />
+    <string id="kVcDXjUx" text="Tropa no válida" />
+    <string id="l1YfVXF3" text="¡No puedes invitar a un jugador que tiene modificaciones!" />
+    <string id="l6a9vI9z" text="Solo el líder del grupo puede invitar a otros jugadores." />
+    <string id="lcq2bKRk" text="Volviéndose a unir a la batalla." />
+    <string id="M0Cgjgb0" text="Se eliminó a {ARG1} como amigo." />
+    <string id="M8x38ZZZ" text="El jugador no está en tu clan." />
+    <string id="mdH4S8Kx" text="Debes estar en un grupo para sugerir a alguien a tu grupo." />
+    <string id="MgGvnobq" text="El mapa seleccionado no está disponible." />
+    <string id="MowSn4ch" text="No se encontró la partida." />
+    <string id="mvQKpHXH" text="Tu grupo está lleno." />
+    <string id="NaTaGiB1" text="Éxito." />
+    <string id="ND2abg9k" text="Te bloquearon del matchmaking durante {ARG1} segundos." />
+    <string id="nlYK3i5a" text="El nombre del clan no es válido." />
+    <string id="Np8V0jcX" text="Ya invitaron al jugador a otro clan." />
+    <string id="nZlu3Moe" text="Abandonaste el clan." />
+    <string id="o76rZw0U" text="El servicio no está disponible en este momento" />
+    <string id="OByu0fjQ" text="No se puede unir a la cola de batalla porque no están listos todos los miembros de tu grupo." />
+    <string id="OfCk5NMA" text="La facción del clan no es válida." />
+    <string id="oFfMEy1S" text="No podemos encontrar la solicitud de amistad." />
+    <string id="olLwOWf8" text="No se puede unir a la cola de batalla porque no todos los jugadores están usando antitrampas." />
+    <string id="P0aRStg4" text="No se puede unir a la cola de batalla porque te han bloqueado del matchmaking." />
+    <string id="P3JTNI9P" text="No puedes ascenderte como líder del clan." />
+    <string id="Pn13ZKwI" text="¡Tu grupo se disolvió!" />
+    <string id="PzUrwWnO" text="No eres el líder de tu clan." />
+    <string id="qHGkxNWJ" text="Símbolo de clan no válido." />
+    <string id="R7z6X8bT" text="No se pudo actualizar la ID de Bannerlord." />
+    <string id="rfaIXasP" text="El símbolo del clan se cambió exitosamente." />
+    <string id="rI8gE2Qh" text="El anuncio se eliminó exitosamente." />
+    <string id="RKioOKi4" text="La ID de Bannerlord no puede estar vacía." />
+    <string id="rkxTEFGp" text="El jugador no está conectado." />
+    <string id="ruC5qF1H" text="Solicitud de amistad rechazada." />
+    <string id="RuKlb0Li" text="La ID proporcionada es muy larga." />
+    <string id="rwcA5RMK" text="Ya tienes una solicitud pendiente para este jugador." />
+    <string id="S7Y5Suho" text="No puedes sugerirte a ti mismo para el grupo." />
+    <string id="sa138Btz" text="Debes estar creando una partida de clanes para cancelar una." />
+    <string id="shIV99LZ" text="Solicitud de amistad de {ARG1} recibida." />
+    <string id="SIT1tREw" text="No puedes añadirte como amigo" />
+    <string id="SsCPw38T" text="El artículo estético seleccionado no existe" />
+    <string id="SvHP9TXr" text="No todos los jugadores están listos." />
+    <string id="SWZaqPx4" text="{ARG1} no está en la sala." />
+    <string id="T2Q35w3d" text="{ARG1} aceptó la invitación del clan." />
+    <string id="T5gR6XCJ" text="La partida prediseñada ya no existe." />
+    <string id="t8K21Vmc" text="No se pudo denunciar al jugador: El servidor no es oficial." />
+    <string id="TaLNjfao" text="{ARG1} y tú ahora son amigos." />
+    <string id="tam7tCdb" text="{ARG1} no está en tu clan." />
+    <string id="taPBAd4c" text="El comando ingresado no empieza con /" />
+    <string id="tKlQbZaJ" text="Se eliminó a {ARG1} del clan." />
+    <string id="TuORvMMq" text="Dejó el rol de oficial." />
+    <string id="UcUqJcr9" text="No puede invitar a la partida a un jugador en línea" />
+    <string id="uDbGN6fp" text="El jugador no está en la sala." />
+    <string id="uJ7527FB" text="Ya invitaron a {ARG1} a otro clan." />
+    <string id="uqqqWl6f" text="El grupo no es elegible para partidas de clanes." />
+    <string id="vd8dEfvZ" text="¡No puedes crear un grupo si tienes modificaciones!" />
+    <string id="VDDm5bqb" text="Solo puedes invitar a jugadores que juegan con antitrampas." />
+    <string id="VdyJtjSG" text="¡{ARG1} no está en tu grupo!" />
+    <string id="vfsaTZKg" text="Jugador {ARG1} invitado a tu grupo." />
+    <string id="vi3lFSBW" text="Los grupos de {ARG1} no están permitidos en la cola de grupos." />
+    <string id="w0FSTU2h" text="No puedes elegir una insignia de categoría inferior" />
+    <string id="w8WiqZT3" text="¡Debes jugar con antitrampas para unirte o crear un grupo!" />
+    <string id="wJsR1aGI" text="{ARG1} no es miembro del grupo." />
+    <string id="wNubP2BF" text="Solo el líder del grupo puede ponerlo en cola para las partidas." />
+    <string id="x5vn4FPi" text="Se invitó al jugador a tu grupo." />
+    <string id="XgQQPZsn" text="No puedes invitarte a ti mismo." />
+    <string id="xHqjCamt" text="No se pudo denunciar al jugador: No podemos encontrar la partida." />
+    <string id="y0dKQ8pL" text="El anuncio se cambió exitosamente." />
+    <string id="Y7wWhSsO" text="No eres miembro con privilegios de tu clan." />
+    <string id="YGfHWmNS" text="No se pudo cambiar la región." />
+    <string id="YOYvBVu1" text="No se encontró una sala de chat que coincida con {COMMAND}" />
+    <string id="yQyozBBX" text="Tu grupo no es elegible para crear una partida de clanes." />
+    <string id="yR7avbUg" text="{ARG1} no es oficial." />
+    <string id="yrCBeRMf" text="No se puede cambiar el líder del grupo mientras se crea un clan." />
+    <string id="ysfEQO6c" text="Jugador no encontrado" />
+    <string id="yvT1gK1g" text="Solicitud de amistad enviada." />
+    <string id="ZB6cxznt" text="Se invitó a {ARG1} al clan." />
+    <string id="zKK3LDbF" text="Creación de partida prediseñada cancelada." />
+    <string id="zPvuvrBe" text="Se asignó a {ARG1} como líder del grupo." />
+  </strings>
+</base>

@@ -1,0 +1,509 @@
+<?xml version="1.0"?>
+<prefabs>
+	<game_entity name="flora_desert_bush_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="plant_desert_bush_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_desert_bush_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="plant_desert_bush_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_desert_bush_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="plant_desert_bush_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_desert_bush_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="plant_desert_bush_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_desert_bush_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="plant_desert_bush_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_desert_bush_c2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="plant_desert_bush_c2"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_desert_bush_stealth_a">
+		<physics shape="bo_bush_test"/>
+		<components>
+			<meta_mesh_component name="plant_desert_bush_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_desert_bush_stealth_b">
+		<physics shape="bo_bush_test"/>
+		<components>
+			<meta_mesh_component name="plant_desert_bush_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_desert_bush_stealth_c">
+		<physics shape="bo_bush_test"/>
+		<components>
+			<meta_mesh_component name="plant_desert_bush_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_desert_bush_stealth_d">
+		<physics shape="bo_bush_test"/>
+		<components>
+			<meta_mesh_component name="plant_desert_bush_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_desert_bush_stealth_e">
+		<physics shape="bo_bush_test"/>
+		<components>
+			<meta_mesh_component name="plant_desert_bush_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_desert_bush_stealth_c2">
+		<physics shape="bo_bush_test"/>
+		<components>
+			<meta_mesh_component name="plant_desert_bush_c2"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_dry_grass_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="plant_dry_grass_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_grass_terrain_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="grass_terrain_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_grass_terrain_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="grass_terrain_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_plant_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flora_plant_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_plant_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flora_plant_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_plant_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flora_plant_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_plant_f" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flora_plant_f"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_plant_g" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flora_plant_g"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_plant_h" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flora_plant_h"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_plant_k" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flora_plant_k"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_plant_l" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flora_plant_l"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_green_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flora_green_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_green_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flora_green_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_green_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flora_green_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_green_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flora_green_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_green_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flora_green_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_green_g" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flora_green_g"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_green_h" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flora_green_h"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_green_j" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flora_green_j"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_green_k" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flora_green_k"/>
+		</components>
+	</game_entity>
+	<game_entity name="grape_root" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="grape_root"/>
+		</components>
+	</game_entity>
+	<game_entity name="grape_branch" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="grape_branch"/>
+		</components>
+	</game_entity>
+	<game_entity name="grape_leaf" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="grape_leaf"/>
+		</components>
+	</game_entity>
+	<game_entity name="grape" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="grape"/>
+		</components>
+	</game_entity>
+	<game_entity name="vineyard_a1" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vineyard_a1" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vineyard_a1"/>
+		</components>
+	</game_entity>
+	<game_entity name="vineyard_a2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vineyard_a2" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vineyard_a2"/>
+		</components>
+	</game_entity>
+	<game_entity name="vineyard_a3" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vineyard_a3" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vineyard_a3"/>
+		</components>
+	</game_entity>
+	<game_entity name="vineyard_b1" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vineyard_a1" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vineyard_b1"/>
+		</components>
+	</game_entity>
+	<game_entity name="vineyard_b2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vineyard_a2" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vineyard_b2"/>
+		</components>
+	</game_entity>
+	<game_entity name="vineyard_b3" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vineyard_a3" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vineyard_b3"/>
+		</components>
+	</game_entity>
+	<game_entity name="vineyard_end" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_vineyard_end" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="vineyard_end"/>
+		</components>
+	</game_entity>
+	<game_entity name="ivy_european_01" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="ivy_european_01"/>
+		</components>
+	</game_entity>
+	<game_entity name="ivy_european_02" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="ivy_european_02"/>
+		</components>
+	</game_entity>
+	<game_entity name="ivy_european_03" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="ivy_european_03"/>
+		</components>
+	</game_entity>
+	<game_entity name="ivy_european_04" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="ivy_european_04"/>
+		</components>
+	</game_entity>
+	<game_entity name="ivy_european_05" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="ivy_european_05"/>
+		</components>
+	</game_entity>
+	<game_entity name="ivy_european_06" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="ivy_european_06"/>
+		</components>
+	</game_entity>
+	<game_entity name="watermelon" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="watermelon"/>
+		</components>
+	</game_entity>
+	<game_entity name="plant_cabbage" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_foods_cabbage_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="plant_cabbage"/>
+		</components>
+	</game_entity>
+	<game_entity name="plant_watermelon" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="watermelon"/>
+		</components>
+	</game_entity>
+	<game_entity name="shrub_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_shrub_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="shrub_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="shrub_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_shrub_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="shrub_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="shrub_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_shrub_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="shrub_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="shrub_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="shrub_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="mushroom_a1" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mushroom_a1"/>
+		</components>
+	</game_entity>
+	<game_entity name="mushroom_a2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mushroom_a2"/>
+		</components>
+	</game_entity>
+	<game_entity name="mushroom_a3" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mushroom_a3"/>
+		</components>
+	</game_entity>
+	<game_entity name="mushroom_b1" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mushroom_b1"/>
+		</components>
+	</game_entity>
+	<game_entity name="mushroom_b2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mushroom_b2"/>
+		</components>
+	</game_entity>
+	<game_entity name="mushroom_b3" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mushroom_b3"/>
+		</components>
+	</game_entity>
+	<game_entity name="mushroom_tree_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mushroom_tree_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="mushroom_tree_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mushroom_tree_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="mushroom_tree_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="mushroom_tree_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="brushwood_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="brushwood_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="brushwood_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="brushwood_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="brushwood_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="brushwood_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="brushwood_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="brushwood_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="brushwood_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="brushwood_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="brushwood_f" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="brushwood_f"/>
+		</components>
+	</game_entity>
+	<game_entity name="agriculture_chickpeas" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="agriculture_chickpeas"/>
+		</components>
+	</game_entity>
+	<game_entity name="agriculture_leek" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="agriculture_leek"/>
+		</components>
+	</game_entity>
+</prefabs>
+

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="2ZarUUbw" text="{KILLERPLAYERNAME} zabija gracza {KILLEDPLAYERNAME}!" />
+    <string id="5VIbo2Cb" text="Nie można ustanowić połączenia z serwerem lobby. Sprawdź połączenie z internetem i spróbuj ponownie." />
+    <string id="9CnRKZOb" text="{KILLEDPLAYERNAME} ginie!" />
+    <string id="bUh0x6rA" text="Edytor" />
+    <string id="dismissnotification" text="Zamknij" />
+    <string id="ksq1IBh3" text="Brak połączenia" />
+    <string id="NqarFr4P" text="Opcje" />
+    <string id="ODQmOrIw" text="Autorzy" />
+    <string id="V8BXjyYq" text="Wyłączono podczas instalacji." />
+    <string id="xsC8Ierj" text="({BATTLE_COMBATANT})" />
+    <string id="YbpzLHzk" text="Wyjdź z gry" />
+    <string id="YDYnuBmC" text="Gra wieloosobowa" />
+  </strings>
+</base>

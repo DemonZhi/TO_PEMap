@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Français" />
+  </tags>
+  <strings>
+    <string id="074YAjOk" text="Vous avez été expulsée(e) pour cause d&apos;inactivité." />
+    <string id="1e12bdjj" text="La capture d&apos;écran a été sauvegardée dans {PATH}" />
+    <string id="2SEofGth" text="Changer d&apos;équipe" />
+    <string id="3CsACce8" text="Quitter" />
+    <string id="4mMySbxI" text="Erreur indéterminée" />
+    <string id="79bODbwZ" text="Le mode photo est déjà actif." />
+    <string id="a0IHtkoa" text="Vous avez été expulsée(e) par l&apos;hôte de la partie." />
+    <string id="aGGq9lJT" text="Changer de culture" />
+    <string id="ajKnHI1s" text="Prendre une photo" />
+    <string id="aKjpbRP5" text="Raison inconnue" />
+    <string id="aogZyZlR" text="Vous devez attendre {SECONDS} secondes avant de pouvoir encourager/crier à nouveau." />
+    <string id="asCeKZXx" text="Réactiver l&apos;IU de combat" />
+    <string id="controllerDisconnectedDescriptionPS" text="Merci de reconnecter votre manette sans fil pour continuer" />
+    <string id="controllerDisconnectedDescriptionXB" text="Merci de reconnecter votre manette pour continuer" />
+    <string id="controllerDisconnectedTitlePS" text="Manette sans fil déconnectée" />
+    <string id="controllerDisconnectedTitleXB" text="Manette déconnectée" />
+    <string id="dismissnotification" text="Rejeter" />
+    <string id="e139gKZc" text="Retour au jeu" />
+    <string id="EzeFJo65" text="Vous avez été déconnecté(e) du serveur !" />
+    <string id="hvaDkG4w" text="Appuyez sur n&apos;importe quelle touche." />
+    <string id="HzWaGn3y" text="Tous les joueurs n&apos;utilisent pas le jeu avec l&apos;antitriche." />
+    <string id="ImQnhIQ5" text="Impossible d&apos;utiliser le mode photo pendant une conversation." />
+    <string id="InGwtrWt" text="Arrêter" />
+    <string id="InUAmnX4" text="Vous avez été expulsée(e) pour cause de dégâts infligés à vos alliés." />
+    <string id="ivKntfNA" text="Demande d&apos;accès déjà envoyée, en attente de la réponse du serveur" />
+    <string id="IzJ7f5SQ" text="La capacité du serveur a atteint son maximum" />
+    <string id="JluTW3Qw" text="Partie terminée" />
+    <string id="JQVixeQs" text="Impossible d&apos;accéder au serveur de jeu" />
+    <string id="KO2adj2I" text="Vous devez être dans un salon pour rejoindre une partie personnalisée" />
+    <string id="KQrpWV1n" text="Vous devez être le chef de groupe pour rejoindre une partie personnalisée" />
+    <string id="KRNdlbkq" text="La partie personnalisée se termine" />
+    <string id="LCzAvLUB" text="Les modules des joueurs ne sont pas tous compatibles avec le serveur" />
+    <string id="lxq6SaQn" text="Voulez-vous vraiment quitter ?" />
+    <string id="Mm1Kb1bS" text="Mot de passe incorrect" />
+    <string id="mO9bh5sy" text="Impossible de rejoindre la partie personnalisée" />
+    <string id="MVLleAaZ" text="Inviter des amis" />
+    <string id="n4UUrd1p" text="Déjà en cours d&apos;utilisation" />
+    <string id="NqarFr4P" text="Options" />
+    <string id="O1bGoaE8" text="L&apos;état des serveurs n&apos;a pas pu être communiqué. Veuillez réessayer." />
+    <string id="OhF7NqSb" text="Vous êtes banni(e) de la partie, suite au vote." />
+    <string id="RamV6yLM" text="Retour au menu principal" />
+    <string id="RGzyUTzm" text="Le dispositif de formation est désormais le suivant : {ARRANGEMENT_ORDER}" />
+    <string id="rZSjkCpw" text="Impossible d&apos;utiliser le mode photo pendant un déploiement." />
+    <string id="srAJw3Tg" text="Le joueur est banni du serveur" />
+    <string id="T8IniCKU" text="Le serveur de jeu n&apos;est pas disponible" />
+    <string id="tKSxGy5p" text="Le serveur ne répond pas" />
+    <string id="tlsmbvQX" text="Certains joueurs ne sont pas prêts à rejoindre." />
+    <string id="TR1B2RWB" text="Vous avez été expulsée(e) par l&apos;antitriche." />
+    <string id="V8BXjyYq" text="Désactivé pendant l&apos;installation." />
+    <string id="VklN5Wm6" text="Mode photo" />
+    <string id="vkpMgobZ" text="Erreur du serveur de jeu" />
+    <string id="wbFB3N72" text="Vous avez été expulsée(e), suite au vote." />
+    <string id="wLpJEkKY" text="Le serveur de la bataille a planté" />
+    <string id="WvGviFgt" text="Votre connexion avec le serveur a expiré" />
+    <string id="yS7PvrTD" text="OK" />
+    <string id="Yza0JYJt" text="Changer de troupes" />
+  </strings>
+</base>

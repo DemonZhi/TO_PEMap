@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Italiano" />
+  </tags>
+  <strings>
+    <string id="074YAjOk" text="Sei fuori dalla partita per inattività" />
+    <string id="1e12bdjj" text="Schermata salvata in {PATH}" />
+    <string id="2SEofGth" text="Cambia team" />
+    <string id="3CsACce8" text="Esci" />
+    <string id="4mMySbxI" text="Errore non specificato" />
+    <string id="79bODbwZ" text="La modalità foto è già attiva." />
+    <string id="a0IHtkoa" text="L&apos;host della partita ti ha espulso" />
+    <string id="aGGq9lJT" text="Cambia civiltà" />
+    <string id="ajKnHI1s" text="Scatta foto" />
+    <string id="aKjpbRP5" text="Motivo sconosciuto" />
+    <string id="aogZyZlR" text="Devi aspettare {SECONDS} secondi prima di poter esultare/urlare di nuovo." />
+    <string id="asCeKZXx" text="Riattiva l&apos;IU da battaglia" />
+    <string id="controllerDisconnectedDescriptionPS" text="Riconnetti il controller wireless per continuare" />
+    <string id="controllerDisconnectedDescriptionXB" text="Riconnetti il controller per continuare" />
+    <string id="controllerDisconnectedTitlePS" text="Controller wireless disconnesso" />
+    <string id="controllerDisconnectedTitleXB" text="Controller disconnesso" />
+    <string id="dismissnotification" text="Ignora" />
+    <string id="e139gKZc" text="Torna alla partita" />
+    <string id="EzeFJo65" text="Sei stato disconnesso dal server!" />
+    <string id="hvaDkG4w" text="Premi un tasto qualsiasi." />
+    <string id="HzWaGn3y" text="Non tutti i giocatori stanno usando Anti-Cheat" />
+    <string id="ImQnhIQ5" text="Non si può usare la modalità foto durante una conversazione." />
+    <string id="InGwtrWt" text="Abbandona" />
+    <string id="InUAmnX4" text="Sei fuori dalla partita per danni inflitti agli alleati" />
+    <string id="ivKntfNA" text="Richiesta di partecipare effettuata, in attesa della risposta del server" />
+    <string id="IzJ7f5SQ" text="Server al completo" />
+    <string id="JluTW3Qw" text="Partita terminata" />
+    <string id="JQVixeQs" text="Impossibile accedere al server di gioco" />
+    <string id="KO2adj2I" text="Devi essere in una lobby per partecipare a una partita personalizzata" />
+    <string id="KQrpWV1n" text="Devi essere il capo del gruppo per partecipare a una partita personalizzata" />
+    <string id="KRNdlbkq" text="La partita personalizzata sta per terminare" />
+    <string id="LCzAvLUB" text="I moduli di alcuni giocatori non corrispondono a quelli del server" />
+    <string id="lxq6SaQn" text="Vuoi davvero abbandonare?" />
+    <string id="Mm1Kb1bS" text="Password errata" />
+    <string id="mO9bh5sy" text="Impossibile partecipare alla partita personalizzata" />
+    <string id="MVLleAaZ" text="Invita amici" />
+    <string id="n4UUrd1p" text="Già in uso" />
+    <string id="NqarFr4P" text="Opzioni" />
+    <string id="O1bGoaE8" text="Impossibile recuperare lo stato del server. Prova di nuovo." />
+    <string id="OhF7NqSb" text="Ti hanno bannato dalla partita tramite un sondaggio" />
+    <string id="RamV6yLM" text="Torna al menu principale" />
+    <string id="RGzyUTzm" text="Formazione cambiata in {ARRANGEMENT_ORDER}" />
+    <string id="rZSjkCpw" text="Non si può usare la modalità foto durante lo schieramento." />
+    <string id="srAJw3Tg" text="Il giocatore è stato bannato dal server" />
+    <string id="T8IniCKU" text="Server di gioco non disponibile" />
+    <string id="tKSxGy5p" text="Il server non risponde" />
+    <string id="tlsmbvQX" text="Non tutti i giocatori sono pronti" />
+    <string id="TR1B2RWB" text="Sei stato espulso dalla partita tramite Anti-Cheat" />
+    <string id="V8BXjyYq" text="Opzione disattivata durante l&apos;installazione." />
+    <string id="VklN5Wm6" text="Modalità foto" />
+    <string id="vkpMgobZ" text="Errore nel server di gioco" />
+    <string id="wbFB3N72" text="Sei stato espulso dalla partita tramite un sondaggio" />
+    <string id="wLpJEkKY" text="Crash del server della battaglia" />
+    <string id="WvGviFgt" text="Connessione con il server scaduta" />
+    <string id="yS7PvrTD" text="OK" />
+    <string id="Yza0JYJt" text="Cambia truppa" />
+  </strings>
+</base>

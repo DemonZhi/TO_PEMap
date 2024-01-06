@@ -1,0 +1,2456 @@
+<prefabs>
+	<game_entity name="siege_ladder_6m_spawner" old_prefab_name="">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="SiegeLadderSpawner">
+				<variables>
+					<variable name="UpperStateRotationDegree" value="-19.000"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="siege_ladder_7m_spawner" old_prefab_name="">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="SiegeLadderSpawner">
+				<variables>
+					<variable name="UpperStateRotationDegree" value="-19.000"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="siege_ladder_8m_spawner" old_prefab_name="">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="SiegeLadderSpawner">
+				<variables>
+					<variable name="UpperStateRotationDegree" value="-19.000"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="siege_ladder_11m_spawner" old_prefab_name="">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="SiegeLadderSpawner">
+				<variables>
+					<variable name="UpperStateRotationDegree" value="-19.000"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="siege_ladder_14m_spawner" old_prefab_name="">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="SiegeLadderSpawner">
+				<variables>
+					<variable name="UpperStateRotationDegree" value="-19.000"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="siege_tower_5m_spawner" old_prefab_name="">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="SiegeTowerSpawner">
+				<variables>
+					<variable name="RampRotationDegree" value="80.000"/>
+					<variable name="BarrierLength" value="2.500"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="siege_tower_9m_spawner" old_prefab_name="">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="SiegeTowerSpawner">
+				<variables>
+					<variable name="RampRotationDegree" value="80.000"/>
+					<variable name="BarrierLength" value="4.000"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="siege_tower_12m_spawner" old_prefab_name="">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="SiegeTowerSpawner">
+				<variables>
+					<variable name="RampRotationDegree" value="80.000"/>
+					<variable name="BarrierLength" value="4.000"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="trebuchet_a_spawner" old_prefab_name="">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="TrebuchetSpawner"/>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="mangonel_a_spawner" old_prefab_name="" mobility="1" season_mask="255">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="MangonelSpawner">
+				<variables>
+					<variable name="projectile_pile" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -3.339000, 4.378000, 0.000000, 1.000000"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="ammo_pos_a_enabled" value="true"/>
+					<variable name="ammo_pos_b_enabled" value="true"/>
+					<variable name="ammo_pos_c_enabled" value="true"/>
+					<variable name="ammo_pos_d_enabled" value="true"/>
+					<variable name="ammo_pos_e_enabled" value="true"/>
+					<variable name="ammo_pos_f_enabled" value="true"/>
+					<variable name="ammo_pos_g_enabled" value="true"/>
+					<variable name="ammo_pos_h_enabled" value="true"/>
+					<variable name="ToBeSpawnedOverrideName" value="mangonel_a_grapeshot"/>
+					<variable name="ToBeSpawnedOverrideNameForFireVersion" value="mangonel_a_fire"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="mangonel_b_spawner" old_prefab_name="" mobility="1" season_mask="255">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="MangonelSpawner">
+				<variables>
+					<variable name="projectile_pile" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -3.209000, 2.755000, 0.000000, 1.000000"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="ammo_pos_a_enabled" value="true"/>
+					<variable name="ammo_pos_b_enabled" value="true"/>
+					<variable name="ammo_pos_c_enabled" value="true"/>
+					<variable name="ammo_pos_d_enabled" value="true"/>
+					<variable name="ammo_pos_e_enabled" value="true"/>
+					<variable name="ammo_pos_f_enabled" value="true"/>
+					<variable name="ammo_pos_g_enabled" value="true"/>
+					<variable name="ammo_pos_h_enabled" value="true"/>
+					<variable name="ToBeSpawnedOverrideName" value="mangonel_b_grapeshot"/>
+					<variable name="ToBeSpawnedOverrideNameForFireVersion" value="mangonel_b_fire"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="batteringram_a_spawner" old_prefab_name="">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="BatteringRamSpawner"/>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="ballista_a_spawner" old_prefab_name="">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="BallistaSpawner"/>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="ballista_b_spawner" old_prefab_name="">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="BallistaSpawner"/>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="siege_ladder_6m_ghost" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="fork_holder" old_prefab_name="">
+				<transform position="1.058, 3.708, 5.969" rotation_euler="0.000, 0.000, 3.141"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pushfork_spawner_ghost">
+						<mesh name="pushfork_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="initial_wait_pos" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="0.555, -37.929, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="icon_man_spawner_ghost">
+						<mesh name="icon_man_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="use_push" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-0.176, 3.295, 5.866" rotation_euler="0.000, 0.000, 3.132"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pushdistance_spawner_ghost">
+						<mesh name="pushdistance_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="distance_holder" old_prefab_name="">
+				<transform position="0.000, 0.217, 0.000" rotation_euler="0.000, 0.000, 0.013"/>
+				<physics mass="1.000"/>
+				<children>
+					<game_entity name="ladder_up_state" old_prefab_name="">
+						<transform rotation_euler="-0.332, 0.000, 0.000"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="ladder_6m_spawner_ghost">
+								<mesh name="ladder_6m_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ground_align" old_prefab_name="">
+						<transform rotation_euler="0.000, 0.000, -1.571"/>
+						<physics mass="1.000"/>
+						<children>
+							<game_entity name="ladder_down_state" old_prefab_name="">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<transform position="0.000, 0.000, 0.070" rotation_euler="1.571, -1.571, -3.142"/>
+								<physics shape="bo_ambush_spots" mass="1.000">
+									<body_flags>
+										<body_flag name="only_collide_with_raycast"/>
+										<body_flag name="dont_transfer_to_physics_engine"/>
+									</body_flags>
+								</physics>
+								<components>
+									<meta_mesh_component name="ladder_6m_spawner_ghost">
+										<mesh name="ladder_6m_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+									</meta_mesh_component>
+									<meta_mesh_component name="ladder_usage_points_ghost" _index_="1">
+										<mesh name="ladder_usage_points_ghost" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+									</meta_mesh_component>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+							<game_entity name="wait_pos_ground" old_prefab_name="">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="4.850, -3.103, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_man_spawner_ghost">
+										<mesh name="icon_man_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+									</meta_mesh_component>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+						</children>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+				</children>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="siege_ladder_7m_ghost" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="fork_holder" old_prefab_name="">
+				<transform position="1.049, 4.098, 7.060" rotation_euler="0.000, 0.000, -3.120"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pushfork_spawner_ghost">
+						<mesh name="pushfork_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="initial_wait_pos" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="0.555, -37.929, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="icon_man_spawner_ghost">
+						<mesh name="icon_man_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="use_push" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-0.172, 3.710, 7.057" rotation_euler="0.000, 0.000, 3.132"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pushdistance_spawner_ghost">
+						<mesh name="pushdistance_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="distance_holder" old_prefab_name="">
+				<transform position="0.000, 0.217, 0.000" rotation_euler="0.000, 0.000, 0.013"/>
+				<physics mass="1.000"/>
+				<children>
+					<game_entity name="ladder_up_state" old_prefab_name="">
+						<transform rotation_euler="-0.332, 0.000, 0.000"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="ladder_7m_spawner_ghost">
+								<mesh name="ladder_7m_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ground_align" old_prefab_name="">
+						<transform rotation_euler="0.000, 0.000, -1.571"/>
+						<physics mass="1.000"/>
+						<children>
+							<game_entity name="ladder_down_state" old_prefab_name="">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<transform position="0.000, 0.000, 0.070" rotation_euler="1.571, 1.571, 0.000"/>
+								<physics shape="bo_ambush_spots" mass="1.000">
+									<body_flags>
+										<body_flag name="only_collide_with_raycast"/>
+										<body_flag name="dont_transfer_to_physics_engine"/>
+									</body_flags>
+								</physics>
+								<components>
+									<meta_mesh_component name="ladder_7m_spawner_ghost">
+										<mesh name="ladder_7m_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+									</meta_mesh_component>
+									<meta_mesh_component name="ladder_usage_points_ghost" _index_="1">
+										<mesh name="ladder_usage_points_ghost" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+									</meta_mesh_component>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+							<game_entity name="wait_pos_ground" old_prefab_name="">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="4.850, -3.103, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_man_spawner_ghost">
+										<mesh name="icon_man_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+									</meta_mesh_component>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+						</children>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+				</children>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="siege_ladder_8m_ghost" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="fork_holder" old_prefab_name="">
+				<transform position="1.887, 4.955, 9.746" rotation_euler="0.000, 0.000, 3.141"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pushfork_spawner_ghost">
+						<mesh name="pushfork_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="initial_wait_pos" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="0.555, -37.929, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="icon_man_spawner_ghost">
+						<mesh name="icon_man_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="use_push" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-0.175, 4.638, 9.711" rotation_euler="0.000, 0.000, 3.132"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pushdistance_spawner_ghost">
+						<mesh name="pushdistance_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="distance_holder" old_prefab_name="">
+				<physics mass="1.000"/>
+				<children>
+					<game_entity name="ladder_up_state" old_prefab_name="">
+						<transform rotation_euler="-0.332, 0.000, 0.000"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="ladder_8m_spawner_ghost">
+								<mesh name="ladder_8m_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ground_align" old_prefab_name="">
+						<transform rotation_euler="0.000, 0.000, -1.571"/>
+						<physics mass="1.000"/>
+						<children>
+							<game_entity name="ladder_down_state" old_prefab_name="">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<transform position="0.000, 0.000, 0.070" rotation_euler="1.571, 1.571, 0.000"/>
+								<physics shape="bo_ambush_spots" mass="1.000">
+									<body_flags>
+										<body_flag name="only_collide_with_raycast"/>
+										<body_flag name="dont_transfer_to_physics_engine"/>
+									</body_flags>
+								</physics>
+								<components>
+									<meta_mesh_component name="ladder_8m_spawner_ghost">
+										<mesh name="ladder_8m_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+									</meta_mesh_component>
+									<meta_mesh_component name="ladder_usage_points_ghost" _index_="1">
+										<mesh name="ladder_usage_points_ghost" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+									</meta_mesh_component>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+							<game_entity name="wait_pos_ground" old_prefab_name="">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="4.850, -3.103, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_man_spawner_ghost">
+										<mesh name="icon_man_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+									</meta_mesh_component>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+						</children>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+				</children>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="siege_ladder_11m_ghost" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="fork_holder" old_prefab_name="">
+				<transform position="1.507, 5.792, 12.039" rotation_euler="0.000, 0.000, 3.141"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pushfork_spawner_ghost">
+						<mesh name="pushfork_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="initial_wait_pos" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="0.555, -37.929, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="icon_man_spawner_ghost">
+						<mesh name="icon_man_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="use_push" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-0.192, 5.445, 12.084" rotation_euler="0.000, 0.000, 3.132"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pushdistance_spawner_ghost">
+						<mesh name="pushdistance_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="distance_holder" old_prefab_name="">
+				<physics mass="1.000"/>
+				<children>
+					<game_entity name="ladder_up_state" old_prefab_name="">
+						<transform rotation_euler="-0.332, 0.000, 0.000"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="ladder_11m_spawner_ghost">
+								<mesh name="ladder_11m_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ground_align" old_prefab_name="">
+						<transform rotation_euler="0.000, 0.000, -1.571"/>
+						<physics mass="1.000"/>
+						<children>
+							<game_entity name="ladder_down_state" old_prefab_name="">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<transform position="0.000, 0.000, 0.070" rotation_euler="1.571, -1.571, -3.142"/>
+								<physics shape="bo_ambush_spots" mass="1.000">
+									<body_flags>
+										<body_flag name="only_collide_with_raycast"/>
+										<body_flag name="dont_transfer_to_physics_engine"/>
+									</body_flags>
+								</physics>
+								<components>
+									<meta_mesh_component name="ladder_11m_spawner_ghost">
+										<mesh name="ladder_11m_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+									</meta_mesh_component>
+									<meta_mesh_component name="ladder_usage_points_ghost" _index_="1">
+										<mesh name="ladder_usage_points_ghost" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+									</meta_mesh_component>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+							<game_entity name="wait_pos_ground" old_prefab_name="">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="4.850, -3.103, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_man_spawner_ghost">
+										<mesh name="icon_man_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+									</meta_mesh_component>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+						</children>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+				</children>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="siege_ladder_14m_ghost" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="fork_holder" old_prefab_name="">
+				<transform position="1.059, 6.120, 13.263" rotation_euler="0.000, 0.000, 3.141"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pushfork_spawner_ghost">
+						<mesh name="pushfork_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="initial_wait_pos" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="0.555, -37.929, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="icon_man_spawner_ghost">
+						<mesh name="icon_man_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="use_push" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="-0.212, 5.855, 13.259" rotation_euler="0.000, 0.000, 3.132"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="pushdistance_spawner_ghost">
+						<mesh name="pushdistance_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="distance_holder" old_prefab_name="">
+				<physics mass="1.000"/>
+				<children>
+					<game_entity name="ladder_up_state" old_prefab_name="">
+						<transform rotation_euler="-0.332, 0.000, 0.000"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="ladder_14m_spawner_ghost">
+								<mesh name="ladder_14m_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ground_align" old_prefab_name="">
+						<transform rotation_euler="0.000, 0.000, -1.571"/>
+						<physics mass="1.000"/>
+						<children>
+							<game_entity name="ladder_down_state" old_prefab_name="">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<transform position="0.000, 0.000, 0.070" rotation_euler="1.571, 1.571, 0.000"/>
+								<physics shape="bo_ambush_spots" mass="1.000">
+									<body_flags>
+										<body_flag name="only_collide_with_raycast"/>
+										<body_flag name="dont_transfer_to_physics_engine"/>
+									</body_flags>
+								</physics>
+								<components>
+									<meta_mesh_component name="ladder_14m_spawner_ghost">
+										<mesh name="ladder_14m_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+									</meta_mesh_component>
+									<meta_mesh_component name="ladder_usage_points_ghost" _index_="1">
+										<mesh name="ladder_usage_points_ghost" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+									</meta_mesh_component>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+							<game_entity name="wait_pos_ground" old_prefab_name="">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="4.850, -3.103, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+								<physics mass="1.000"/>
+								<components>
+									<meta_mesh_component name="icon_man_spawner_ghost">
+										<mesh name="icon_man_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+									</meta_mesh_component>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+						</children>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+				</children>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="siege_tower_5m_ghost" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000">
+			<body_flags>
+				<body_flag name="exclude_path_snap"/>
+				<body_flag name="moveable"/>
+			</body_flags>
+		</physics>
+		<children>
+			<game_entity name="clean" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<physics mass="1.000">
+					<body_flags>
+						<body_flag name="exclude_path_snap"/>
+						<body_flag name="moveable"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="siege_tower_5m_spawner_ghost">
+						<mesh name="siege_tower_5m_spawner_ghost" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="ramp" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<transform position="0.000, -2.262, 5.065" rotation_euler="0.349, 0.000, 0.000"/>
+						<physics mass="1.000">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="siege_tower_5m_door_spawner_ghost">
+								<mesh name="siege_tower_5m_door_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+						<children>
+							<game_entity name="ai_barrier_l" old_prefab_name="">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="1.000, 1.000, 0.000" rotation_euler="0.000, 0.000, -1.571" scale="1.750, 1.000, 2.500"/>
+								<physics mass="1.000">
+									<body_flags>
+										<body_flag name="ai_limiter"/>
+									</body_flags>
+								</physics>
+								<components>
+									<meta_mesh_component name="barrier_spawner_ghost">
+										<mesh name="barrier_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+									</meta_mesh_component>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+							<game_entity name="ai_barrier_r" old_prefab_name="">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="-1.000, 1.000, 0.000" rotation_euler="0.000, 0.000, 1.571" scale="1.750, 1.000, 2.500"/>
+								<physics mass="1.000">
+									<body_flags>
+										<body_flag name="ai_limiter"/>
+									</body_flags>
+								</physics>
+								<components>
+									<meta_mesh_component name="barrier_spawner_ghost">
+										<mesh name="barrier_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+									</meta_mesh_component>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+						</children>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="wait_pos_ground" old_prefab_name="">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="0.182, 8.501, 0.000" rotation_euler="0.000, 0.000, 3.135"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost">
+								<mesh name="icon_man_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="wheel_front" old_prefab_name="">
+						<tags>
+							<tag name="wheel"/>
+						</tags>
+						<transform position="0.000, -1.542, 0.350"/>
+						<physics mass="1.000">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="wheel_back" old_prefab_name="">
+						<tags>
+							<tag name="wheel"/>
+						</tags>
+						<transform position="0.000, 1.599, 0.354"/>
+						<physics mass="1.000">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+				</children>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="siege_tower_9m_ghost" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000">
+			<body_flags>
+				<body_flag name="exclude_path_snap"/>
+				<body_flag name="moveable"/>
+			</body_flags>
+		</physics>
+		<children>
+			<game_entity name="clean" old_prefab_name="">
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="siege_tower_9m_spawner_ghost">
+						<mesh name="siege_tower_9m_spawner_ghost" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="ramp" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<transform position="0.021, -2.413, 8.485" rotation_euler="0.349, 0.000, 0.000"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_tower_9m_door_spawner_ghost">
+								<mesh name="siege_tower_9m_door_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+						<children>
+							<game_entity name="ai_barrier_l" old_prefab_name="">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="1.300, 1.000, 0.000" rotation_euler="0.000, 0.000, -1.571" scale="1.750, 1.000, 4.250"/>
+								<physics mass="1.000">
+									<body_flags>
+										<body_flag name="ai_limiter"/>
+									</body_flags>
+								</physics>
+								<components>
+									<meta_mesh_component name="barrier_spawner_ghost">
+										<mesh name="barrier_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+									</meta_mesh_component>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+							<game_entity name="ai_barrier_r" old_prefab_name="">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="-1.300, 1.000, 0.000" rotation_euler="0.000, 0.000, 1.571" scale="1.750, 1.000, 4.250"/>
+								<physics mass="1.000">
+									<body_flags>
+										<body_flag name="ai_limiter"/>
+									</body_flags>
+								</physics>
+								<components>
+									<meta_mesh_component name="barrier_spawner_ghost">
+										<mesh name="barrier_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+									</meta_mesh_component>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+						</children>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="wait_pos_ground" old_prefab_name="">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="0.182, 8.501, 0.000" rotation_euler="0.000, 0.000, 3.135"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost">
+								<mesh name="icon_man_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="wheel_back" old_prefab_name="">
+						<tags>
+							<tag name="wheel"/>
+						</tags>
+						<transform position="0.000, 2.651, 0.410"/>
+						<physics mass="1.000">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="wheel_front" old_prefab_name="">
+						<tags>
+							<tag name="wheel"/>
+						</tags>
+						<transform position="0.000, -1.706, 0.415"/>
+						<physics mass="1.000">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+				</children>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="siege_tower_12m_ghost" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000">
+			<body_flags>
+				<body_flag name="exclude_path_snap"/>
+				<body_flag name="moveable"/>
+			</body_flags>
+		</physics>
+		<children>
+			<game_entity name="clean" old_prefab_name="">
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="siege_tower_12m_spawner_ghost">
+						<mesh name="siege_tower_12m_spawner_ghost" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="ramp" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<transform position="0.000, -2.400, 11.900" rotation_euler="0.349, 0.000, 0.000"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_tower_12m_door_spawner_ghost">
+								<mesh name="siege_tower_12m_door_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+						<children>
+							<game_entity name="ai_barrier_r" old_prefab_name="">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="-1.600, 1.000, 0.000" rotation_euler="0.000, 0.000, 1.571" scale="1.750, 1.000, 4.250"/>
+								<physics mass="1.000">
+									<body_flags>
+										<body_flag name="ai_limiter"/>
+									</body_flags>
+								</physics>
+								<components>
+									<meta_mesh_component name="barrier_spawner_ghost">
+										<mesh name="barrier_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+									</meta_mesh_component>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+							<game_entity name="ai_barrier_l" old_prefab_name="">
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="1.600, 1.000, 0.000" rotation_euler="0.000, 0.000, -1.571" scale="1.750, 1.500, 4.250"/>
+								<physics mass="1.000">
+									<body_flags>
+										<body_flag name="ai_limiter"/>
+									</body_flags>
+								</physics>
+								<components>
+									<meta_mesh_component name="barrier_spawner_ghost">
+										<mesh name="barrier_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+									</meta_mesh_component>
+								</components>
+								<additional_features>
+									<feature name="apply_factor_color_to_all_components" value="false"/>
+								</additional_features>
+							</game_entity>
+						</children>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="wait_pos_ground" old_prefab_name="">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="0.217, 10.000, 0.000" rotation_euler="0.000, 0.000, 3.135"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost">
+								<mesh name="icon_man_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="wheel_front" old_prefab_name="">
+						<tags>
+							<tag name="wheel"/>
+						</tags>
+						<transform position="0.000, -1.831, 0.415"/>
+						<physics mass="1.000">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="wheel_back" old_prefab_name="">
+						<tags>
+							<tag name="wheel"/>
+						</tags>
+						<transform position="0.000, 3.514, 0.410"/>
+						<physics mass="1.000">
+							<body_flags>
+								<body_flag name="moveable"/>
+							</body_flags>
+						</physics>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+				</children>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="trebuchet_a_ghost" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="trebuchet_a" old_prefab_name="">
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="trebuchet_a_spawner_ghost">
+						<mesh name="trebuchet_a_spawner_ghost" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="projectile_pile" old_prefab_name="">
+				<transform position="-5.484, 1.718, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="rock_pile_spawner_ghost">
+						<mesh name="rock_pile_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="ammo_pos_e" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="0.000, -1.100, 0.000" rotation_euler="0.000, 0.000, -3.142"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_e">
+								<mesh name="icon_man_spawner_ghost_e" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_d" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="-0.890, -0.770, 0.000" rotation_euler="0.000, 0.000, 2.356"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_d">
+								<mesh name="icon_man_spawner_ghost_d" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_c" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="-1.200, 0.040, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_c">
+								<mesh name="icon_man_spawner_ghost_c" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_b" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="-0.780, 0.930, 0.000" rotation_euler="0.000, 0.000, 0.785"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_b">
+								<mesh name="icon_man_spawner_ghost_b" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_a" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="0.034, 1.136, 0.000" rotation_euler="0.000, 0.000, -3.141"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_a">
+								<mesh name="icon_man_spawner_ghost_a" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_h" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="0.876, 0.872, 0.000" rotation_euler="0.000, 0.000, 2.356"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_h">
+								<mesh name="icon_man_spawner_ghost_h" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_g" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="1.220, 0.020, 0.000" rotation_euler="0.000, 0.000, -1.571"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_g">
+								<mesh name="icon_man_spawner_ghost_g" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_f" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="0.870, -0.870, 0.000" rotation_euler="0.000, 0.000, -2.356"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_f">
+								<mesh name="icon_man_spawner_ghost_f" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+				</children>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="mangonel_a_ghost" old_prefab_name="">
+		<flags>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="mangonel_a" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="mangonel_a_spawner_ghost">
+						<mesh name="mangonel_a_spawner_ghost" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="projectile_pile" old_prefab_name="">
+				<transform position="-3.339, 4.378, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="rock_pile_spawner_ghost">
+						<mesh name="rock_pile_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="ammo_pos_f" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="0.870, -0.870, 0.000" rotation_euler="0.000, 0.000, -2.356"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_f">
+								<mesh name="icon_man_spawner_ghost_f" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_g" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="1.220, 0.020, 0.000" rotation_euler="0.000, 0.000, -1.571"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_g">
+								<mesh name="icon_man_spawner_ghost_g" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_h" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="0.876, 0.872, 0.000" rotation_euler="0.000, 0.000, 2.356"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_h">
+								<mesh name="icon_man_spawner_ghost_h" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_a" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="0.034, 1.136, 0.000" rotation_euler="0.000, 0.000, -3.141"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_a">
+								<mesh name="icon_man_spawner_ghost_a" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_b" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="-0.780, 0.930, 0.000" rotation_euler="0.000, 0.000, 0.785"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_b">
+								<mesh name="icon_man_spawner_ghost_b" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_c" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="-1.200, 0.040, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_c">
+								<mesh name="icon_man_spawner_ghost_c" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_d" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="-0.890, -0.770, 0.000" rotation_euler="0.000, 0.000, 2.356"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_d">
+								<mesh name="icon_man_spawner_ghost_d" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_e" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="0.000, -1.100, 0.000" rotation_euler="0.000, 0.000, -3.142"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_e">
+								<mesh name="icon_man_spawner_ghost_e" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+				</children>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="mangonel_b_ghost" old_prefab_name="">
+		<flags>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="mangonel_b" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="mangonel_b_spawner_ghost">
+						<mesh name="mangonel_b_spawner_ghost" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="projectile_pile" old_prefab_name="">
+				<transform position="-3.209, 2.755, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="rock_pile_spawner_ghost">
+						<mesh name="rock_pile_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="ammo_pos_f" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="0.870, -0.870, 0.000" rotation_euler="0.000, 0.000, -2.356"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_f">
+								<mesh name="icon_man_spawner_ghost_f" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_g" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="1.220, 0.020, 0.000" rotation_euler="0.000, 0.000, -1.571"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_g">
+								<mesh name="icon_man_spawner_ghost_g" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_h" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="0.876, 0.872, 0.000" rotation_euler="0.000, 0.000, 2.356"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_h">
+								<mesh name="icon_man_spawner_ghost_h" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_a" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="0.034, 1.136, 0.000" rotation_euler="0.000, 0.000, -3.141"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_a">
+								<mesh name="icon_man_spawner_ghost_a" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_b" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="-0.780, 0.930, 0.000" rotation_euler="0.000, 0.000, 0.785"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_b">
+								<mesh name="icon_man_spawner_ghost_b" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_c" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="-1.200, 0.040, 0.000" rotation_euler="0.000, 0.000, 1.571"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_c">
+								<mesh name="icon_man_spawner_ghost_c" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_d" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="-0.890, -0.770, 0.000" rotation_euler="0.000, 0.000, 2.356"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_d">
+								<mesh name="icon_man_spawner_ghost_d" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="ammo_pos_e" old_prefab_name="">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="0.000, -1.100, 0.000" rotation_euler="0.000, 0.000, -3.142"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost_e">
+								<mesh name="icon_man_spawner_ghost_e" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+				</children>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="ballista_a_ghost" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_ballista_a_stand" override_material="wood" mass="1.000"/>
+		<children>
+			<game_entity name="clean" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ballista_a_spawner_ghost">
+						<mesh name="ballista_a_spawner_ghost" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="wait_pos_ground" old_prefab_name="">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="0.567, 6.690, 0.000" rotation_euler="0.000, 0.000, 3.105"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost">
+								<mesh name="icon_man_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+				</children>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="ballista_b_ghost" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_ballista_a_stand" override_material="wood" mass="1.000"/>
+		<children>
+			<game_entity name="clean" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="ballista_b_spawner_ghost">
+						<mesh name="ballista_b_spawner_ghost" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="wait_pos_ground" old_prefab_name="">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="0.567, 6.690, 0.000" rotation_euler="0.000, 0.000, 3.105"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost">
+								<mesh name="icon_man_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+				</children>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="batteringram_a_ghost" old_prefab_name="">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+			<flag name="hide_in_prefab_editors" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000">
+			<body_flags>
+				<body_flag name="exclude_path_snap"/>
+			</body_flags>
+		</physics>
+		<children>
+			<game_entity name="clean" old_prefab_name="">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<physics override_material="wood" mass="1.000">
+					<body_flags>
+						<body_flag name="exclude_path_snap"/>
+					</body_flags>
+				</physics>
+				<components>
+					<meta_mesh_component name="batteringram_a_spawner_ghost">
+						<mesh name="batteringram_a_spawner_ghost" argument="0.500, 1.000, 1.000, 1.000" argument2="1.470, 1.140, 1.710, 4.100"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="wait_pos_ground" old_prefab_name="">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<transform position="-0.496, 8.333, -0.033" rotation_euler="0.002, 0.032, 3.141"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="icon_man_spawner_ghost">
+								<mesh name="icon_man_spawner_ghost" argument="0.500, 1.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="wheel_front" old_prefab_name="">
+						<tags>
+							<tag name="wheel"/>
+						</tags>
+						<transform position="0.000, -3.595, 0.379" rotation_euler="-0.002, -0.032, -0.002"/>
+						<physics mass="1.000">
+							<body_flags>
+								<body_flag name="exclude_path_snap"/>
+							</body_flags>
+						</physics>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+					<game_entity name="wheel_rear" old_prefab_name="">
+						<tags>
+							<tag name="wheel"/>
+						</tags>
+						<transform position="0.013, 3.563, 0.375" rotation_euler="-0.002, -0.032, -0.002"/>
+						<physics mass="1.000">
+							<body_flags>
+								<body_flag name="exclude_path_snap"/>
+							</body_flags>
+						</physics>
+						<additional_features>
+							<feature name="apply_factor_color_to_all_components" value="false"/>
+						</additional_features>
+					</game_entity>
+				</children>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="mangonel_a_spawnerMP" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="MultiplayerMangonelSpawner">
+				<variables>
+					<variable name="projectile_pile" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -3.339000, 4.378000, 0.000000, 1.000000"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="ammo_pos_a_enabled" value="true"/>
+					<variable name="ammo_pos_b_enabled" value="true"/>
+					<variable name="ammo_pos_c_enabled" value="true"/>
+					<variable name="ammo_pos_d_enabled" value="true"/>
+					<variable name="ammo_pos_e_enabled" value="true"/>
+					<variable name="ammo_pos_f_enabled" value="true"/>
+					<variable name="ammo_pos_g_enabled" value="true"/>
+					<variable name="ammo_pos_h_enabled" value="true"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="mangonel_a_spawnerFireMP" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="MultiplayerFireMangonelSpawner">
+				<variables>
+					<variable name="projectile_pile" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -3.339000, 4.378000, 0.000000, 1.000000"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="ammo_pos_a_enabled" value="true"/>
+					<variable name="ammo_pos_b_enabled" value="true"/>
+					<variable name="ammo_pos_c_enabled" value="true"/>
+					<variable name="ammo_pos_d_enabled" value="true"/>
+					<variable name="ammo_pos_e_enabled" value="true"/>
+					<variable name="ammo_pos_f_enabled" value="true"/>
+					<variable name="ammo_pos_g_enabled" value="true"/>
+					<variable name="ammo_pos_h_enabled" value="true"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="mangonel_b_spawnerFireMP" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="MultiplayerFireMangonelSpawner">
+				<variables>
+					<variable name="projectile_pile" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -3.209000, 2.755000, 0.000000, 1.000000"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="ammo_pos_a_enabled" value="true"/>
+					<variable name="ammo_pos_b_enabled" value="true"/>
+					<variable name="ammo_pos_c_enabled" value="true"/>
+					<variable name="ammo_pos_d_enabled" value="true"/>
+					<variable name="ammo_pos_e_enabled" value="true"/>
+					<variable name="ammo_pos_f_enabled" value="true"/>
+					<variable name="ammo_pos_g_enabled" value="true"/>
+					<variable name="ammo_pos_h_enabled" value="true"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="mangonel_b_spawnerMP" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="MultiplayerMangonelSpawner">
+				<variables>
+					<variable name="projectile_pile" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -3.209000, 2.755000, 0.000000, 1.000000"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="ammo_pos_a_enabled" value="true"/>
+					<variable name="ammo_pos_b_enabled" value="true"/>
+					<variable name="ammo_pos_c_enabled" value="true"/>
+					<variable name="ammo_pos_d_enabled" value="true"/>
+					<variable name="ammo_pos_e_enabled" value="true"/>
+					<variable name="ammo_pos_f_enabled" value="true"/>
+					<variable name="ammo_pos_g_enabled" value="true"/>
+					<variable name="ammo_pos_h_enabled" value="true"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="ballista_a_spawnerMP" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="MultiplayerBallistaSpawner">
+				<variables>
+					<variable name="wait_pos_ground" value="-0.999331, 0.036584, 0.000000, 0.000000, -0.036584, -0.999331, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.567000, 6.690000, 0.000000, 1.000000"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="ballista_a_spawnerFireMP" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="MultiplayerFireBallistaSpawner">
+				<variables>
+					<variable name="wait_pos_ground" value="-0.999331, 0.036584, 0.000000, 0.000000, -0.036584, -0.999331, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.567000, 6.690000, 0.000000, 1.000000"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="ballista_b_spawnerMP" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="MultiplayerBallistaSpawner">
+				<variables>
+					<variable name="wait_pos_ground" value="-0.999331, 0.036584, 0.000000, 0.000000, -0.036584, -0.999331, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.567000, 6.690000, 0.000000, 1.000000"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="ballista_b_spawnerFireMP" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="MultiplayerFireBallistaSpawner">
+				<variables>
+					<variable name="wait_pos_ground" value="-0.999331, 0.036584, 0.000000, 0.000000, -0.036584, -0.999331, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.567000, 6.690000, 0.000000, 1.000000"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="trebuchet_a_spawnerMP" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="MultiplayerTrebuchetSpawner">
+				<variables>
+					<variable name="projectile_pile" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -5.484000, 1.718000, 0.000000, 1.000000"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="ammo_pos_a_enabled" value="true"/>
+					<variable name="ammo_pos_b_enabled" value="true"/>
+					<variable name="ammo_pos_c_enabled" value="true"/>
+					<variable name="ammo_pos_d_enabled" value="true"/>
+					<variable name="ammo_pos_e_enabled" value="true"/>
+					<variable name="ammo_pos_f_enabled" value="true"/>
+					<variable name="ammo_pos_g_enabled" value="true"/>
+					<variable name="ammo_pos_h_enabled" value="true"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="trebuchet_a_spawnerFireMP" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="MultiplayerFireTrebuchetSpawner">
+				<variables>
+					<variable name="projectile_pile" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -5.484000, 1.718000, 0.000000, 1.000000"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="ammo_pos_a_enabled" value="true"/>
+					<variable name="ammo_pos_b_enabled" value="true"/>
+					<variable name="ammo_pos_c_enabled" value="true"/>
+					<variable name="ammo_pos_d_enabled" value="true"/>
+					<variable name="ammo_pos_e_enabled" value="true"/>
+					<variable name="ammo_pos_f_enabled" value="true"/>
+					<variable name="ammo_pos_g_enabled" value="true"/>
+					<variable name="ammo_pos_h_enabled" value="true"/>
+				</variables>
+			</script>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="batteringram_a_spawnerMP" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="MultiplayerBatteringRamSpawner">
+				<variables>
+					<variable name="wait_pos_ground" value="-0.999488, 0.000528, -0.031994, 0.000000, -0.000593, -0.999998, 0.002000, 0.000000, -0.031993, 0.002018, 0.999486, 0.000000, -0.496000, 8.333000, -0.033000, 1.000000"/>
+					<variable name="SideTag" value=""/>
+					<variable name="GateTag" value=""/>
+					<variable name="PathEntityName" value="Path"/>
+					<variable name="BridgeNavMeshID_1" value="8"/>
+					<variable name="BridgeNavMeshID_2" value="8"/>
+					<variable name="DitchNavMeshID_1" value="9"/>
+					<variable name="DitchNavMeshID_2" value="10"/>
+					<variable name="GroundToBridgeNavMeshID_1" value="12"/>
+					<variable name="GroundToBridgeNavMeshID_2" value="13"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="SpeedModifierFactor" value="1.000"/>
+					<variable name="EnableAutoGhostMovement" value="false"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="siege_tower_5m_spawnerMP" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="MultiplayerSiegeTowerSpawner">
+				<variables>
+					<variable name="wait_pos_ground" value="-0.999978, 0.006593, 0.000000, 0.000000, -0.006593, -0.999978, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.182000, 8.501000, 0.000000, 1.000000"/>
+					<variable name="SideTag" value=""/>
+					<variable name="TargetWallSegmentTag" value=""/>
+					<variable name="PathEntityName" value="Path"/>
+					<variable name="SoilNavMeshID1" value="-1"/>
+					<variable name="SoilNavMeshID2" value="-1"/>
+					<variable name="DitchNavMeshID1" value="-1"/>
+					<variable name="DitchNavMeshID2" value="-1"/>
+					<variable name="GroundToSoilNavMeshID1" value="-1"/>
+					<variable name="GroundToSoilNavMeshID2" value="-1"/>
+					<variable name="SoilGenericNavMeshID" value="-1"/>
+					<variable name="GroundGenericNavMeshID" value="-1"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="RampRotationDegree" value="80.000"/>
+					<variable name="BarrierLength" value="2.500"/>
+					<variable name="SpeedModifierFactor" value="1.000"/>
+					<variable name="EnableAutoGhostMovement" value="false"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="siege_tower_9m_spawnerMP" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="MultiplayerSiegeTowerSpawner">
+				<variables>
+					<variable name="wait_pos_ground" value="-0.999978, 0.006593, 0.000000, 0.000000, -0.006593, -0.999978, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.182000, 8.501000, 0.000000, 1.000000"/>
+					<variable name="SideTag" value=""/>
+					<variable name="TargetWallSegmentTag" value=""/>
+					<variable name="PathEntityName" value="Path"/>
+					<variable name="SoilNavMeshID1" value="-1"/>
+					<variable name="SoilNavMeshID2" value="-1"/>
+					<variable name="DitchNavMeshID1" value="-1"/>
+					<variable name="DitchNavMeshID2" value="-1"/>
+					<variable name="GroundToSoilNavMeshID1" value="-1"/>
+					<variable name="GroundToSoilNavMeshID2" value="-1"/>
+					<variable name="SoilGenericNavMeshID" value="-1"/>
+					<variable name="GroundGenericNavMeshID" value="-1"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="RampRotationDegree" value="80.000"/>
+					<variable name="BarrierLength" value="4.000"/>
+					<variable name="SpeedModifierFactor" value="1.000"/>
+					<variable name="EnableAutoGhostMovement" value="false"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="siege_tower_12m_spawnerMP" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="MultiplayerSiegeTowerSpawner">
+				<variables>
+					<variable name="wait_pos_ground" value="-0.999978, 0.006593, 0.000000, 0.000000, -0.006593, -0.999978, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.217000, 10.000000, 0.000000, 1.000000"/>
+					<variable name="SideTag" value=""/>
+					<variable name="TargetWallSegmentTag" value=""/>
+					<variable name="PathEntityName" value="Path"/>
+					<variable name="SoilNavMeshID1" value="-1"/>
+					<variable name="SoilNavMeshID2" value="-1"/>
+					<variable name="DitchNavMeshID1" value="-1"/>
+					<variable name="DitchNavMeshID2" value="-1"/>
+					<variable name="GroundToSoilNavMeshID1" value="-1"/>
+					<variable name="GroundToSoilNavMeshID2" value="-1"/>
+					<variable name="SoilGenericNavMeshID" value="-1"/>
+					<variable name="GroundGenericNavMeshID" value="-1"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="RampRotationDegree" value="80.000"/>
+					<variable name="BarrierLength" value="4.000"/>
+					<variable name="SpeedModifierFactor" value="1.000"/>
+					<variable name="EnableAutoGhostMovement" value="false"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="siege_ladder_11m_mp_spawner" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<scripts>
+			<script name="SiegeLadderSpawner">
+				<variables>
+					<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.507000, 5.792000, 12.039000, 1.000000"/>
+					<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+					<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.192000, 5.445000, 12.084000, 1.000000"/>
+					<variable name="stand_position_wall_push" value="0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					<variable name="stand_position_ground_wait" value="0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					<variable name="SideTag" value=""/>
+					<variable name="TargetWallSegmentTag" value=""/>
+					<variable name="OnWallNavMeshId" value="-1"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="UpperStateRotationDegree" value="-19.000"/>
+					<variable name="DownStateRotationDegree" value="90.000"/>
+					<variable name="TacticalPositionWidth" value="1.000"/>
+					<variable name="BarrierTagToRemove" value=""/>
+					<variable name="IndestructibleMerlonsTag" value=""/>
+					<variable name="ToBeSpawnedOverrideName" value=""/>
+					<variable name="ToBeSpawnedOverrideNameForFireVersion" value=""/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="siege_ladder_7m_mp_spawner" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<scripts>
+			<script name="SiegeLadderSpawner">
+				<variables>
+					<variable name="fork_holder" value="-0.999767, -0.021591, -0.000000, 0.000000, 0.021591, -0.999767, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.049000, 4.098000, 7.060000, 1.000000"/>
+					<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+					<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.172000, 3.710000, 7.057000, 1.000000"/>
+					<variable name="stand_position_wall_push" value="0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					<variable name="distance_holder" value="0.999915, 0.013000, 0.000000, 0.000000, -0.013000, 0.999915, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.217000, 0.000000, 1.000000"/>
+					<variable name="stand_position_ground_wait" value="0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					<variable name="SideTag" value=""/>
+					<variable name="TargetWallSegmentTag" value=""/>
+					<variable name="OnWallNavMeshId" value="-1"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="UpperStateRotationDegree" value="-19.000"/>
+					<variable name="DownStateRotationDegree" value="90.000"/>
+					<variable name="TacticalPositionWidth" value="1.000"/>
+					<variable name="BarrierTagToRemove" value=""/>
+					<variable name="IndestructibleMerlonsTag" value=""/>
+					<variable name="ToBeSpawnedOverrideName" value=""/>
+					<variable name="ToBeSpawnedOverrideNameForFireVersion" value=""/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="siege_ladder_8m_mp_spawner" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<scripts>
+			<script name="SiegeLadderSpawner">
+				<variables>
+					<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.887000, 4.955000, 9.746000, 1.000000"/>
+					<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+					<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.175000, 4.638000, 9.711000, 1.000000"/>
+					<variable name="stand_position_wall_push" value="0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					<variable name="stand_position_ground_wait" value="0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					<variable name="SideTag" value=""/>
+					<variable name="TargetWallSegmentTag" value=""/>
+					<variable name="OnWallNavMeshId" value="-1"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="UpperStateRotationDegree" value="-19.000"/>
+					<variable name="DownStateRotationDegree" value="90.000"/>
+					<variable name="TacticalPositionWidth" value="1.000"/>
+					<variable name="BarrierTagToRemove" value=""/>
+					<variable name="IndestructibleMerlonsTag" value=""/>
+					<variable name="ToBeSpawnedOverrideName" value=""/>
+					<variable name="ToBeSpawnedOverrideNameForFireVersion" value=""/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="siege_ladder_6m_mp_spawner" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<scripts>
+			<script name="SiegeLadderSpawner">
+				<variables>
+					<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.058000, 3.708000, 5.969000, 1.000000"/>
+					<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+					<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.176000, 3.295000, 5.866000, 1.000000"/>
+					<variable name="stand_position_wall_push" value="0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					<variable name="distance_holder" value="0.999915, 0.013000, 0.000000, 0.000000, -0.013000, 0.999915, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.217000, 0.000000, 1.000000"/>
+					<variable name="stand_position_ground_wait" value="0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					<variable name="SideTag" value=""/>
+					<variable name="TargetWallSegmentTag" value=""/>
+					<variable name="OnWallNavMeshId" value="-1"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="UpperStateRotationDegree" value="-19.000"/>
+					<variable name="DownStateRotationDegree" value="90.000"/>
+					<variable name="TacticalPositionWidth" value="1.000"/>
+					<variable name="BarrierTagToRemove" value=""/>
+					<variable name="IndestructibleMerlonsTag" value=""/>
+					<variable name="ToBeSpawnedOverrideName" value=""/>
+					<variable name="ToBeSpawnedOverrideNameForFireVersion" value=""/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="siege_ladder_14m_mp_spawner" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="prefab_cannot_be_broken" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<scripts>
+			<script name="SiegeLadderSpawner">
+				<variables>
+					<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.059000, 6.120000, 13.263000, 1.000000"/>
+					<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+					<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.212000, 5.855000, 13.259000, 1.000000"/>
+					<variable name="stand_position_wall_push" value="0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					<variable name="stand_position_ground_wait" value="0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					<variable name="SideTag" value=""/>
+					<variable name="TargetWallSegmentTag" value=""/>
+					<variable name="OnWallNavMeshId" value="-1"/>
+					<variable name="AddOnDeployTag" value=""/>
+					<variable name="RemoveOnDeployTag" value=""/>
+					<variable name="UpperStateRotationDegree" value="-19.000"/>
+					<variable name="DownStateRotationDegree" value="90.000"/>
+					<variable name="TacticalPositionWidth" value="1.000"/>
+					<variable name="BarrierTagToRemove" value=""/>
+					<variable name="IndestructibleMerlonsTag" value=""/>
+					<variable name="ToBeSpawnedOverrideName" value=""/>
+					<variable name="ToBeSpawnedOverrideNameForFireVersion" value=""/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+</prefabs>
+

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+  <strings>
+    <string id="0B27RrYJ" text="{.N}Battania" />
+    <string id="1cnJtNTt" text="{KEY} Ziehen" />
+    <string id="1CPdu9K0" text="Stein" />
+    <string id="1nKa4pQX" text="Die restlichen Spielinhalte wurden heruntergeladen." />
+    <string id="2zcrC0h1" text="Spielablauf" />
+    <string id="3PP01vFv" text="Haltet Euch von dieser Waffe fern." />
+    <string id="4FVIuqsl" text="{ALIVE}/{TOTAL}" />
+    <string id="4Skg9QhO" text="Blide" />
+    <string id="5oozsaIb" text="{KEY} Öffnen" />
+    <string id="5wx4BF5h" text="{KEY} Drehen" />
+    <string id="6wZUG0ev" text="Tor" />
+    <string id="8OkPHu4f" text="Nein" />
+    <string id="abbALYlp" text="Balliste" />
+    <string id="aeouhelq" text="Ja" />
+    <string id="aseraifaction" text="{.N}Aserai{@Type}2{\@}" />
+    <string id="aXjlMBiE" text="Belagerungsturm" />
+    <string id="BFhMw4bl" text="Die restlichen Spielinhalte wurden heruntergeladen. Wollt Ihr ins Hauptmenü zurückkehren?" />
+    <string id="bNYm3K6b" text="{KEY} Aufheben" />
+    <string id="bWi4aMO9" text="Pfeilfass" />
+    <string id="CaSafuAH" text="Download abgeschlossen" />
+    <string id="cS0Hafjl" text="Spieler hat keinen Zugang zum Mehrspielermodus." />
+    <string id="DRNDtkP2" text="Bevorzugung von höherrangigen Truppen." />
+    <string id="DWWa3aIb" text="Bevorzugung von Truppen mit Wurfwaffen." />
+    <string id="DzAkCzwd" text="Hochrangig" />
+    <string id="Ea3K1PVR" text="Wurfwaffen" />
+    <string id="EgTUzWUz" text="Name darf nicht leer sein!" />
+    <string id="empirefaction" text="{.N}Imperium{.nn}{@HAS_ARTICLE}1{\@}{@Type}1{\@}" />
+    <string id="f83FU4X6" text="Stangenwaffen" />
+    <string id="F9AQxCax" text="Gabel" />
+    <string id="fEQAPJ2e" text="{KEY} Benutzen" />
+    <string id="FjwRsf1C" text="{.N}Vlandia" />
+    <string id="FNLfNWH3" text="Kavallerie und berittene Bogenschützen" />
+    <string id="G0AWk1rX" text="Leiter" />
+    <string id="gAfbULHM" text="Kamera" />
+    <string id="gqQPSAQZ" text="{KEY} Gebiet verlassen" />
+    <string id="H5tiRTya" text="Übung" />
+    <string id="hvQSOi79" text="Bot" />
+    <string id="ibC4xPoo" text="{KEY} Munition laden" />
+    <string id="j4F7tTzy" text="Clan" />
+    <string id="jfcceEoE" text="Haufen {PILE_TYPE}" />
+    <string id="Jw0GMgzv" text="Schwere Rüstungen" />
+    <string id="K3Cr70PY" text="Bevorzugung von Truppen mit Stangenwaffen." />
+    <string id="kbNcm68J" text="{KEY} Anheben" />
+    <string id="L91XKoMD" text="{TEAM_LEADER}: {PLAYER_NAME}, {BEHAVIOR}" />
+    <string id="ljHPjjmX" text="Konnte Spieler nicht ins Spiel einladen" />
+    <string id="lVfmVHbz" text="Anmeldung fehlgeschlagen" />
+    <string id="m9KoYCv5" text="Steuerung" />
+    <string id="MaBSSg7I" text="Rammbock" />
+    <string id="mBDj5uG5" text="Infanterie und Fernkämpfer" />
+    <string id="MbXatV1Q" text="Verbindung getrennt" />
+    <string id="MdQJxiGz" text="{KEY} Schieben" />
+    <string id="MVOPbhNj" text="Bevorzugung von Truppen mit Schilden." />
+    <string id="Na81xuXn" text="{KEY} Wiederbewaffnen" />
+    <string id="NbpcDXtJ" text="Mangonel" />
+    <string id="oPOa77dI" text="Von Plattform abgemeldet" />
+    <string id="oZrVNUOk" text="Fehler" />
+    <string id="PfnS8HUd" text="Vorgefertigter Spieltyp ist ungültig!" />
+    <string id="pgw7LMRo" text="Serverkapazität überschritten." />
+    <string id="PjO7oY16" text="{.N}Sturgia" />
+    <string id="PSN8IaIg" text="Schilde" />
+    <string id="pzfbPbWW" text="Felsen" />
+    <string id="Q1Ga032B" text="Keine Truppenart bevorzugen." />
+    <string id="qaPgbwZv" text="Niedrigrangig" />
+    <string id="RN6zHak0" text="Spieler" />
+    <string id="rwZAZSvX" text="{KEY} Bewegen" />
+    <string id="sRTd3RI5" text="Grafik" />
+    <string id="sZLd6VHi" text="{.N}Khuzait{@Type}2{\@}" />
+    <string id="TJj71hPO" text="{KEY} Schließen" />
+    <string id="uNrXwGzr" text="Mit deinem derzeitigen Trupp sind nur Übungsspiele erlaubt. Alle Mitglieder sollten für ein Clanspiel im selben Clan sein." />
+    <string id="ush8OHIw" text="Bevorzugung von Truppen mit Schwerer Rüstung." />
+    <string id="uZ6q4Qs2" text="Grafik" />
+    <string id="v5EqMSlD" text="Arenapräferenz kann während eines Duells nicht geändert werden." />
+    <string id="vBkrw5VV" text="Zufällig" />
+    <string id="vDMe8SCV" text="Auflösungsskalierung" />
+    <string id="w7Yrbi5t" text="Aufheben" />
+    <string id="WRMyiiYJ" text="Spieloberfläche" />
+    <string id="wY1qP2qj" text="{KEY} Auswählen" />
+    <string id="xebFLnH2" text="Audio" />
+    <string id="XvSRoOzM" text="Letzte Spieler" />
+    <string id="YNkPy4ta" text="Clanspiel" />
+    <string id="yS7PvrTD" text="In Ordnung." />
+    <string id="ys9baYiQ" text="Kampagne" />
+    <string id="zbpCRmuJ" text="Bevorzugung von niedrigrangigen Truppen." />
+  </strings>
+</base>

@@ -1,0 +1,505 @@
+<prefabs>
+	<game_entity old_prefab_name="" name="cave_platform">
+		<children>
+			<game_entity old_prefab_name="" name="wooden_platform_c">
+				<components>
+					<meta_mesh_component name="wooden_platform_c"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_c"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -0.993" position="-1.171, -1.816, 3.715"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="kitchen_pitcher_a">
+				<components>
+					<meta_mesh_component name="kitchen_pitcher_a"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -2.508" position="5.239, -1.717, 4.012"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_f_column">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_f_column"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_f_column"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -1.463" position="4.717, -1.242, -1.205"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="bd_bucket_a">
+				<components>
+					<meta_mesh_component name="bd_bucket_a"/>
+				</components>
+				<physics mass="1.000" override_material="wood" shape="bo_bd_bucket_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -0.844" position="2.458, -2.371, 4.012"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="kitchen_pitcher_a">
+				<components>
+					<meta_mesh_component name="kitchen_pitcher_a"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -0.425" position="-0.164, 3.087, 3.930"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="kitchen_mug_a">
+				<components>
+					<meta_mesh_component name="kitchen_mug_a"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -2.185" position="-0.090, 2.644, 3.930"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="kitchen_bottle_b">
+				<components>
+					<meta_mesh_component name="kitchen_bottle_b"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -1.014" position="2.738, 3.785, 3.930"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="bd_bucket_a">
+				<components>
+					<meta_mesh_component name="bd_bucket_a"/>
+				</components>
+				<physics mass="1.000" override_material="wood" shape="bo_bd_bucket_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -0.844" position="2.682, 2.997, 3.930"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="kitchen_mug_a">
+				<components>
+					<meta_mesh_component name="kitchen_mug_a"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -0.881" position="2.886, 2.733, 3.930"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="kitchen_mug_a">
+				<components>
+					<meta_mesh_component name="kitchen_mug_a"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -2.185" position="2.716, 2.468, 3.930"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="kitchen_food_bread_b">
+				<components>
+					<meta_mesh_component name="kitchen_food_bread_b"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform scale="0.743, 0.743, 0.743" rotation_euler="0.000, 0.000, -0.490" position="3.557, 2.157, 4.570"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_c">
+				<components>
+					<meta_mesh_component name="wooden_platform_c"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_c"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -1.126" position="1.144, 6.291, 3.726"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_f_column">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_f_column"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_f_column"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 1.940" position="8.920, 3.798, -1.364"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="bed_convolute_d">
+				<components>
+					<meta_mesh_component name="bed_convolute_d"/>
+				</components>
+				<physics mass="1.000" shape="bo_bed_convolute_d"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -1.381" position="7.604, 2.632, 4.328"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_f_column">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_f_column"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_f_column"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -1.463" position="9.424, 1.497, -1.291"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_fence_b">
+				<components>
+					<meta_mesh_component name="wooden_platform_fence_b"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_fence_b"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 0.305" position="8.596, 0.038, 3.850"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_fence_a">
+				<components>
+					<meta_mesh_component name="wooden_platform_fence_a"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_fence_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -2.907" position="7.207, 3.023, 3.850"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_fence_a">
+				<components>
+					<meta_mesh_component name="wooden_platform_fence_a"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_fence_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 1.876" position="9.688, 2.698, 3.850"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_fence_a">
+				<components>
+					<meta_mesh_component name="wooden_platform_fence_a"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_fence_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 0.313" position="4.401, -2.093, 3.930"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_b">
+				<components>
+					<meta_mesh_component name="wooden_platform_b"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 0.348" position="3.829, -0.184, 3.644"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_a">
+				<components>
+					<meta_mesh_component name="wooden_platform_a"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -1.179" position="1.997, 2.916, 3.562"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_fence_a">
+				<components>
+					<meta_mesh_component name="wooden_platform_fence_a"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_fence_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 1.696" position="4.566, 7.882, 4.214"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_fence_b">
+				<components>
+					<meta_mesh_component name="wooden_platform_fence_b"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_fence_b"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 0.408" position="0.526, 7.019, 4.086"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_c">
+				<components>
+					<meta_mesh_component name="wooden_platform_c"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_c"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 0.182" position="4.131, 7.609, 3.798"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_stairs_a">
+				<components>
+					<meta_mesh_component name="wooden_platform_stairs_a"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_stairs_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -2.046" position="1.716, 8.998, 1.845"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_stairs_a">
+				<components>
+					<meta_mesh_component name="wooden_platform_stairs_a"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_stairs_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -2.046" position="-0.572, 10.277, -0.389"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_f_column">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_f_column"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_f_column"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -1.463" position="4.994, 7.737, -1.260"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_f_column">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_f_column"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_f_column"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -1.463" position="2.307, 7.069, -1.164"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_d">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_d"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform scale="0.728, 0.728, 0.728" rotation_euler="0.921, -1.387, 0.208" position="-0.213, 3.737, 2.950"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_f_column">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_f_column"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_f_column"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -1.214" position="-0.428, 4.526, -1.282"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_e">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_e"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_e"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform scale="1.138, 1.006, 1.006" rotation_euler="0.000, 0.000, -2.387" position="0.905, 5.723, 3.393"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_fence_b">
+				<components>
+					<meta_mesh_component name="wooden_platform_fence_b"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_fence_b"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 1.695" position="-0.727, 4.462, 4.086"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="crate_a">
+				<components>
+					<meta_mesh_component name="crate_a"/>
+				</components>
+				<physics mass="1.000" shape="bo_crate_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 1.938" position="9.067, 2.020, 3.849"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_b">
+				<components>
+					<meta_mesh_component name="wooden_platform_b"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 0.348" position="7.445, 2.034, 3.481"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_e">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_e"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_e"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform scale="1.138, 1.006, 1.006" rotation_euler="0.000, 0.075, 2.555" position="3.216, -0.846, 3.581"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_f_column">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_f_column"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_f_column"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -1.463" position="1.695, 0.056, -1.277"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_f_column">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_f_column"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_f_column"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -2.538" position="-1.394, -2.991, -1.360"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_c">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_c"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform scale="0.609, 0.609, 0.609" rotation_euler="0.820, 1.552, 2.141" position="-3.092, -2.019, 3.006"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_f_column">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_f_column"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_f_column"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -2.559" position="-3.646, -2.488, -1.183"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_fence_b">
+				<components>
+					<meta_mesh_component name="wooden_platform_fence_b"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_fence_b"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 0.563" position="-4.882, -3.147, 4.196"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="bed_convolute_e">
+				<components>
+					<meta_mesh_component name="bed_convolute_e"/>
+				</components>
+				<physics mass="1.000" shape="bo_bed_convolute_d"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -1.449" position="7.493, 2.520, 3.850"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="bd_straw_a">
+				<components>
+					<meta_mesh_component name="bd_straw_a"/>
+				</components>
+				<physics mass="1.000" override_material="straw" shape="bo_bd_straw_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform scale="1.000, 1.000, 0.713" rotation_euler="-0.053, 0.034, -1.353" position="3.890, -0.857, 0.082"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="bd_bucket_b">
+				<components>
+					<meta_mesh_component name="bd_bucket_b"/>
+				</components>
+				<physics mass="1.000" override_material="wood" shape="bo_bd_bucket_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -1.490" position="1.134, 6.769, 4.086"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="kitchen_pot_a">
+				<components>
+					<meta_mesh_component name="kitchen_pot_a"/>
+				</components>
+				<physics mass="1.000" shape="bo_kitchen_pot_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -1.338" position="3.867, 9.538, 4.158"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="bed_straw_a">
+				<components>
+					<meta_mesh_component name="bed_straw_a"/>
+				</components>
+				<physics mass="1.000" override_material="wood" shape="bo_bed_straw_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -2.844" position="7.505, 0.898, 3.850"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_e">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_e"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_e"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -2.577" position="-2.611, -3.743, 3.609"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="bed_straw_b">
+				<components>
+					<meta_mesh_component name="bed_straw_b"/>
+				</components>
+				<physics mass="1.000" override_material="wood" shape="bo_bed_straw_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -2.735" position="3.934, -1.145, 4.012"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_e">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_e"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_e"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -2.577" position="0.630, -1.689, 3.609"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_e">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_e"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_e"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform scale="1.138, 1.006, 1.006" rotation_euler="0.000, 0.000, -1.370" position="4.964, 7.497, 3.657"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="bed_convolute_e">
+				<components>
+					<meta_mesh_component name="bed_convolute_e"/>
+				</components>
+				<physics mass="1.000" shape="bo_bed_convolute_d"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -2.177" position="3.707, 1.885, 4.012"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_fence_b">
+				<components>
+					<meta_mesh_component name="wooden_platform_fence_b"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_fence_b"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -2.568" position="-0.612, -2.607, 4.076"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_e">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_e"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_e"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -2.578" position="-3.256, -2.286, 3.609"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_e">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_e"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_e"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -2.578" position="-0.011, -0.237, 3.609"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_c">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_c"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 0.017" position="-5.214, -4.504, 4.155"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="bed_straw_a">
+				<components>
+					<meta_mesh_component name="bed_straw_a"/>
+				</components>
+				<physics mass="1.000" override_material="wood" shape="bo_bed_straw_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="-0.026, 0.059, -1.466" position="0.507, 4.913, 4.086"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_c">
+				<components>
+					<meta_mesh_component name="wooden_platform_c"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_c"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -0.993" position="-5.192, -4.433, 3.835"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="wooden_platform_plank_c">
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_c"/>
+				</components>
+				<physics mass="1.000" shape="bo_wooden_platform_plank_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform scale="0.677, 0.677, 0.677" rotation_euler="0.000, 0.000, -1.202" position="-1.239, -1.934, 4.076"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="crate_b_empty">
+				<components>
+					<meta_mesh_component name="crate_b_empty"/>
+				</components>
+				<physics mass="1.000" shape="bo_crate_a"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -1.358" position="5.924, -0.940, 4.012"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="kitchen_bottle_c">
+				<components>
+					<meta_mesh_component name="kitchen_bottle_c"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -1.165" position="9.418, 0.746, 3.850"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="kitchen_bottle_c">
+				<components>
+					<meta_mesh_component name="kitchen_bottle_c"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -1.165" position="6.117, -1.146, 4.012"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="kitchen_bottle_c">
+				<components>
+					<meta_mesh_component name="kitchen_bottle_c"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, -1.165" position="5.914, -0.777, 4.012"/>
+			</game_entity>
+		</children>
+		<physics mass="1.000"/>
+		<edit_mode_data selection_group_mask="0"/>
+	</game_entity>
+	<game_entity old_prefab_name="" name="strategic_area_autogen">
+		<scripts>
+			<script name="StrategicArea"/>
+		</scripts>
+		<physics mass="1.000"/>
+		<edit_mode_data selection_group_mask="0"/>
+		<transform scale="20.000, 5.000, 1.000" rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+</prefabs>
+

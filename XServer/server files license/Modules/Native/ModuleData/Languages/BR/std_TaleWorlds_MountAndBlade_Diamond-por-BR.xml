@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Português (BR)" />
+  </tags>
+  <strings>
+    <string id="0MDEP0jy" text="Não é possível se convidar" />
+    <string id="0XY1VKVB" text="Seu grupo não está apto a partidas de clã." />
+    <string id="1CO3GGEk" text="O ID fornecido é muito curto." />
+    <string id="2BtJYizu" text="Você precisa estar em um grupo para fazer isso." />
+    <string id="2KsbeJHa" text="Você atualizou sua preferência de selo" />
+    <string id="3cWg0cWt" text="Não foi possível estabelecer conexão com o servidor." />
+    <string id="3lNHtNWa" text="Função de oficial de {ARG1} removida." />
+    <string id="3NwGpJwe" text="Pedido de amizade aceito." />
+    <string id="3NxaSDgg" text="Você não é oficial." />
+    <string id="4HQNKMUZ" text="Você não tem o item cosmético selecionado." />
+    <string id="4lNl8zS2" text="Você não pode sugerir alguém para o grupo como líder do grupo." />
+    <string id="4XDu4Qcd" text="Só o líder pode expulsar jogadores do grupo." />
+    <string id="4YuWC1Jg" text="Desabilitar tipos de jogo selecionados." />
+    <string id="63X8LERm" text="O resultado do início de sessão no servidor não foi recebido." />
+    <string id="6cMSAe2Z" text="Não foi possível denunciar o jogador. Não foi possível encontrar o jogador." />
+    <string id="6doiovtH" text="Desambiguação: {CHATROOMS}" />
+    <string id="6PcEQ5dq" text="Você foi expulso(a) pelo antitrapaça. Razão: {ARG1}" />
+    <string id="7cEXe02I" text="{ARG1} recusou o convite para o clã." />
+    <string id="8UmHXSnO" text="O jogador não tem o recurso de Clãs disponível." />
+    <string id="96e2tZea" text="Você não pode usar vários itens cosméticos para alterar o mesmo item" />
+    <string id="9kzik0vP" text="{ARG1} sugerido(a) para o seu grupo." />
+    <string id="9TxM5UQS" text="Não foi possível atualizar a insígnia mostrada." />
+    <string id="a1RXhy6A" text="O seu convite para o grupo não é mais válido." />
+    <string id="AAnoAhox" text="Não foi possível alterar o modo de jogo selecionado" />
+    <string id="aId8kA8r" text="O texto é maior que o limite." />
+    <string id="AIgw3aFG" text="Não foi possível entrar na fila de batalha porque alguns jogadores estão bloqueados no pareamento." />
+    <string id="Ajw0d4dW" text="Senha incorreta." />
+    <string id="APQ0kNVj" text="A etiqueta do clã é inválida." />
+    <string id="ASgVFGs1" text="Seu pedido de amizade foi recusado." />
+    <string id="b72mIrOl" text="Para criar um clã, é preciso estar em um grupo." />
+    <string id="ba4CJpja" text="O(A) jogador(a) já está em um clã." />
+    <string id="baHOuMTb" text="O anúncio foi adicionado." />
+    <string id="bB5p8KpK" text="O clã do selo é inválido." />
+    <string id="bFSVAiel" text="Sua ID de Bannerlord foi atualizada." />
+    <string id="bivF3RXY" text="Não é possível se promover" />
+    <string id="bl2dNFmT" text="Insígnia inválida." />
+    <string id="bMLqfPRv" text="Você não está em um clã." />
+    <string id="BpwNljJF" text="O ID de Bannerlord não pode conter linguagem imprópria." />
+    <string id="bvWo9N6k" text="Limite de oficiais do clã alcançado." />
+    <string id="BwBR7TJB" text="Seu grupo não tem membros participantes e foi dispersado!" />
+    <string id="bzcI3ei2" text="Você já tem uma solicitação pendente para {ARG1}." />
+    <string id="caMylVF7" text="Nenhum tipo de jogo ativo selecionado. Não foi possível entrar na fila de batalha." />
+    <string id="cwF03dOR" text="Não é possível comprar um item cosmético gratuito" />
+    <string id="CyeaniWe" text="Pedido de amizade enviado para {ARG1}." />
+    <string id="CyrOnYI2" text="Você não tem saque suficiente." />
+    <string id="dabogDDj" text="Vocês já são amigos" />
+    <string id="DcbVwkit" text="{ARG1} já está em um clã." />
+    <string id="dHlxVbMw" text="Você já está em um clã." />
+    <string id="DJFaYeWm" text="Você precisa estar na sala de espera para fazer isso." />
+    <string id="DMPzhEK0" text="Desconectado da sala de bate-papo: /{ARG1}" />
+    <string id="Dmz3JLyp" text="Jogador(a) convidado(a) para o clã." />
+    <string id="dnKQbXIZ" text="Não foi possível denunciar o jogador: o jogo não existe." />
+    <string id="DOkblbrz" text="Jogador(a) sugerido(a) para o seu grupo." />
+    <string id="Ds01FoSn" text="{ARG1} recusou seu pedido de amizade" />
+    <string id="E2ILp86t" text="Região indisponível. Não foi possível entrar na fila de batalha." />
+    <string id="e9LrrgAH" text="O anúncio não existe." />
+    <string id="Ebp5T7vh" text="Não é possível retornar a um jogo que você abandonou." />
+    <string id="emx7txM9" text="Só o líder do grupo pode promover um membro." />
+    <string id="eozBcVaB" text="Você não pode promover a si mesmo(a) para oficial de clã." />
+    <string id="fD2SyeA7" text="Você não pode se convidar para o grupo." />
+    <string id="FEeVGSO6" text="O líder não pode sair do clã." />
+    <string id="FFPyGnZg" text="{ARG1} recebeu uma promoção para oficial de clã." />
+    <string id="fQCaY3da" text="O ID fornecido contém caracteres inválidos." />
+    <string id="fZC7pBba" text="Você só pode sugerir jogadores que executarem o jogo com antitrapaça." />
+    <string id="gAeQdLU5" text="Falha na obtenção de dados de acesso da plataforma" />
+    <string id="GIiGZOxP" text="Não é possível adicionar o amigo. Falha nas configurações de privacidade." />
+    <string id="gQ8deZ17" text="{ARG1} não está online." />
+    <string id="h84jSMrT" text="Seu áudio foi silenciado até {ARG1}. Razão: {ARG2}" />
+    <string id="hav7yZyB" text="Não foi inserido nenhum texto." />
+    <string id="hcJumPEg" text="{ARG1} já está em um grupo." />
+    <string id="hhUKkNR6" text="Você já tem o item cosmético selecionado" />
+    <string id="hqK9565f" text="Tipo de jogo inválido." />
+    <string id="HTFNfODt" text="Você não pode escolher uma insígnia que não conquistou" />
+    <string id="i4MNr0bo" text="Desconectado do lobby." />
+    <string id="iG72AMy8" text="O texto de informações foi alterado." />
+    <string id="InUAmnX4" text="Você foi expulso(a) devido a dano a aliados" />
+    <string id="IRWReNWu" text="Você precisa ser o líder do seu grupo para fazer isso." />
+    <string id="ivKntfNA" text="Pedido de entrada realizado, aguardando resposta do servidor" />
+    <string id="IWr2ZmWX" text="{ARG1} foi promovido(a) a líder do grupo." />
+    <string id="J3dazru7" text="{ARG1} convidado(a) para o jogo" />
+    <string id="jbaOH6qf" text="{ARG1} foi promovido(a) a líder de clã." />
+    <string id="JO37PkfW" text="O serviço da sua plataforma não foi inicializado." />
+    <string id="K0mSh8Hw" text="O seu grupo não tem jogadores suficientes para criar um clã." />
+    <string id="KPMxDIgb" text="A cultura do clã foi alterada." />
+    <string id="kuM16dg2" text="{ARG1} foi denunciado(a)." />
+    <string id="kVcDXjUx" text="Tropa inválida" />
+    <string id="l1YfVXF3" text="Não é possível convidar um jogador que use mods!" />
+    <string id="l6a9vI9z" text="Só o líder do grupo pode convidar outros jogadores." />
+    <string id="lcq2bKRk" text="Voltando à batalha." />
+    <string id="M0Cgjgb0" text="{ARG1} foi removido(a) da lista de amigos." />
+    <string id="M8x38ZZZ" text="Jogador(a) não está no seu clã." />
+    <string id="mdH4S8Kx" text="Você precisa estar em um grupo para sugerir alguém para o seu grupo." />
+    <string id="MgGvnobq" text="O mapa selecionado não está disponível." />
+    <string id="MowSn4ch" text="Jogo não encontrado." />
+    <string id="mvQKpHXH" text="Seu grupo está cheio." />
+    <string id="NaTaGiB1" text="Sucesso." />
+    <string id="ND2abg9k" text="Você está bloqueado(a) no pareamento por {ARG1} segundos." />
+    <string id="nlYK3i5a" text="O nome do clã é inválido." />
+    <string id="Np8V0jcX" text="Jogador(a) já convidado(a) para outro clã." />
+    <string id="nZlu3Moe" text="Saiu do clã." />
+    <string id="o76rZw0U" text="Serviço indisponível no momento" />
+    <string id="OByu0fjQ" text="Todos os jogadores precisam estar prontos para poder entrar na fila de batalha." />
+    <string id="OfCk5NMA" text="Facção do clã inválida." />
+    <string id="oFfMEy1S" text="Não foi possível encontrar a solicitação de amizade." />
+    <string id="olLwOWf8" text="Todos os jogadores precisam estar usando antitrapaça para entrar na fila de batalha." />
+    <string id="P0aRStg4" text="Não foi possível entrar na fila de batalha porque você está bloqueado(a) no pareamento." />
+    <string id="P3JTNI9P" text="Você não pode promover a si mesmo(a) para líder de clã." />
+    <string id="Pn13ZKwI" text="Seu grupo foi dispersado!" />
+    <string id="PzUrwWnO" text="Você não é líder do seu clã." />
+    <string id="qHGkxNWJ" text="Selo do clã inválido." />
+    <string id="R7z6X8bT" text="Não foi possível atualizar a ID de Bannerlord." />
+    <string id="rfaIXasP" text="O selo do clã foi alterado." />
+    <string id="rI8gE2Qh" text="O anúncio foi excluído." />
+    <string id="RKioOKi4" text="O ID de Bannerlord não pode ficar vazio." />
+    <string id="rkxTEFGp" text="O(A) jogador(a) não está online." />
+    <string id="ruC5qF1H" text="Pedido de amizade recusado." />
+    <string id="RuKlb0Li" text="O ID fornecido é muito longo." />
+    <string id="rwcA5RMK" text="Você já tem uma solicitação pendente para o(a) jogador(a)." />
+    <string id="S7Y5Suho" text="Você não pode sugerir a si mesmo(a) para o grupo." />
+    <string id="sa138Btz" text="Para cancelar uma partida de clã, é preciso estar criando uma." />
+    <string id="shIV99LZ" text="Pedido de amizade recebido de {ARG1}." />
+    <string id="SIT1tREw" text="Você não pode adicionar a si mesmo(a) como amigo(a)" />
+    <string id="SsCPw38T" text="O item cosmético selecionado não existe" />
+    <string id="SvHP9TXr" text="Nem todos os jogadores estão prontos." />
+    <string id="SWZaqPx4" text="{ARG1} não está na sala de espera." />
+    <string id="T2Q35w3d" text="{ARG1} aceitou o convite para clã." />
+    <string id="T5gR6XCJ" text="A partida pré-criada não existe mais." />
+    <string id="t8K21Vmc" text="Não foi possível denunciar o jogador. Servidor não oficial." />
+    <string id="TaLNjfao" text="Você agora é amigo(a) de {ARG1}." />
+    <string id="tam7tCdb" text="{ARG1} não está no seu clã." />
+    <string id="taPBAd4c" text="O comando não começa com /" />
+    <string id="tKlQbZaJ" text="{ARG1} removido(a) do clã." />
+    <string id="TuORvMMq" text="Função de oficial abandonada." />
+    <string id="UcUqJcr9" text="Não é possível convidar um jogador on-line para o jogo" />
+    <string id="uDbGN6fp" text="O(A) jogador(a) não está na sala de espera." />
+    <string id="uJ7527FB" text="{ARG1} já convidado(a) para outro clã." />
+    <string id="uqqqWl6f" text="O grupo não está apto para partida de clã." />
+    <string id="vd8dEfvZ" text="Você não pode criar um grupo usando mods!" />
+    <string id="VDDm5bqb" text="Você só pode convidar jogadores que executarem o jogo com antitrapaça." />
+    <string id="VdyJtjSG" text="{ARG1} não está no seu grupo!" />
+    <string id="vfsaTZKg" text="{ARG1} convidado(a) para o seu grupo." />
+    <string id="vi3lFSBW" text="Grupos de {ARG1} não são permitidos na fila de grupos." />
+    <string id="w0FSTU2h" text="Você não pode escolher uma insígnia de categoria inferior." />
+    <string id="w8WiqZT3" text="Você precisa executar o jogo com antitrapaça ativada para criar ou entrar em um grupo!" />
+    <string id="wJsR1aGI" text="{ARG1} não faz parte do grupo." />
+    <string id="wNubP2BF" text="Só o líder do grupo pode entrar na fila para jogar." />
+    <string id="x5vn4FPi" text="Jogador(a) convidado(a) para o seu grupo." />
+    <string id="XgQQPZsn" text="Você não pode convidar a si mesmo(a)." />
+    <string id="xHqjCamt" text="Não foi possível denunciar o jogador. Não foi possível encontrar o jogo." />
+    <string id="y0dKQ8pL" text="O anúncio foi alterado." />
+    <string id="Y7wWhSsO" text="Você não tem acesso aos privilégios do seu clã." />
+    <string id="YGfHWmNS" text="Não foi possível alterar a região" />
+    <string id="YOYvBVu1" text="Não foi encontrado nenhum bate-papo que corresponda a {COMMAND}" />
+    <string id="yQyozBBX" text="Seu grupo não está apto a criar uma partida de clã." />
+    <string id="yR7avbUg" text="{ARG1} não é um(a) oficial." />
+    <string id="yrCBeRMf" text="Você não pode alterar o líder do grupo durante o processo de criação de clã." />
+    <string id="ysfEQO6c" text="Jogador não encontrado." />
+    <string id="yvT1gK1g" text="Pedido de amizade enviado." />
+    <string id="ZB6cxznt" text="{ARG1} convidado(a) para o clã." />
+    <string id="zKK3LDbF" text="Criação de jogo pré-criado cancelada" />
+    <string id="zPvuvrBe" text="{ARG1} foi nomeado(a) líder do grupo." />
+  </strings>
+</base>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Español (LA)" />
+  </tags>
+  <strings>
+    <string id="074YAjOk" text="Te expulsaron por inactividad" />
+    <string id="1e12bdjj" text="La captura de pantalla se guardó en {PATH}" />
+    <string id="2SEofGth" text="Cambiar equipo" />
+    <string id="3CsACce8" text="Salir" />
+    <string id="4mMySbxI" text="Error no especificado" />
+    <string id="79bODbwZ" text="El modo foto ya está activado." />
+    <string id="a0IHtkoa" text="El anfitrión del juego te expulsó" />
+    <string id="aGGq9lJT" text="Cambiar cultura" />
+    <string id="ajKnHI1s" text="Tomar foto" />
+    <string id="aKjpbRP5" text="Motivo desconocido" />
+    <string id="aogZyZlR" text="Debes esperar {SECONDS} segundos antes de poder volver a aclamar/gritar." />
+    <string id="asCeKZXx" text="Volver a habilitar IU de batalla" />
+    <string id="controllerDisconnectedDescriptionPS" text="Vuelve a conectar el control inalámbrico para continuar" />
+    <string id="controllerDisconnectedDescriptionXB" text="Vuelve a conectar el control para continuar" />
+    <string id="controllerDisconnectedTitlePS" text="Control inalámbrico desconectado" />
+    <string id="controllerDisconnectedTitleXB" text="Control desconectado" />
+    <string id="dismissnotification" text="Descartar" />
+    <string id="e139gKZc" text="Regresar a la partida" />
+    <string id="EzeFJo65" text="¡Te desconectaste del servidor!" />
+    <string id="hvaDkG4w" text="Oprime cualquier tecla." />
+    <string id="HzWaGn3y" text="No todos los jugadores juegan con antitrampas." />
+    <string id="ImQnhIQ5" text="El modo foto no se puede usar durante una conversación." />
+    <string id="InGwtrWt" text="Salir" />
+    <string id="InUAmnX4" text="Te expulsaron por daño amigo" />
+    <string id="ivKntfNA" text="Ya se envió la solicitud, esperando respuesta del servidor" />
+    <string id="IzJ7f5SQ" text="El servidor está lleno" />
+    <string id="JluTW3Qw" text="Partida finalizada" />
+    <string id="JQVixeQs" text="No se pudo acceder al servidor del juego" />
+    <string id="KO2adj2I" text="Debes estar en la sala para unirte a una partida personalizada." />
+    <string id="KQrpWV1n" text="Debes ser el líder del grupo para unirte a una partida personalizada." />
+    <string id="KRNdlbkq" text="La partida personalizada está finalizando" />
+    <string id="LCzAvLUB" text="No todos los módulos de los jugadores concuerdan con los del servidor" />
+    <string id="lxq6SaQn" text="¿De verdad quieres salir?" />
+    <string id="Mm1Kb1bS" text="Contraseña incorrecta" />
+    <string id="mO9bh5sy" text="No se pudo unir a la partida personalizada" />
+    <string id="MVLleAaZ" text="Invitar amigos" />
+    <string id="n4UUrd1p" text="Ya está en uso" />
+    <string id="NqarFr4P" text="Opciones" />
+    <string id="O1bGoaE8" text="No se pudo recuperar el estado del servidor. Vuelve a intentarlo." />
+    <string id="OhF7NqSb" text="Se votó para que te vetaran del juego" />
+    <string id="RamV6yLM" text="Salir al menú principal" />
+    <string id="RGzyUTzm" text="La disposición de la formación cambia a {ARRANGEMENT_ORDER}" />
+    <string id="rZSjkCpw" text="El modo foto no se puede usar durante el despliegue." />
+    <string id="srAJw3Tg" text="El jugador está vetado del servidor" />
+    <string id="T8IniCKU" text="El servidor del juego no está disponible" />
+    <string id="tKSxGy5p" text="El servidor no responde" />
+    <string id="tlsmbvQX" text="No todos los jugadores están listos para unirse." />
+    <string id="TR1B2RWB" text="Antitrampas te expulsó del juego." />
+    <string id="V8BXjyYq" text="Deshabilitado durante la instalación." />
+    <string id="VklN5Wm6" text="Modo foto" />
+    <string id="vkpMgobZ" text="Error del servidor del juego" />
+    <string id="wbFB3N72" text="Se votó para que te expulsaran del juego" />
+    <string id="wLpJEkKY" text="El servidor de batalla falló" />
+    <string id="WvGviFgt" text="Tu conexión con el servidor expiró" />
+    <string id="yS7PvrTD" text="Aceptar" />
+    <string id="Yza0JYJt" text="Cambiar tropa" />
+  </strings>
+</base>

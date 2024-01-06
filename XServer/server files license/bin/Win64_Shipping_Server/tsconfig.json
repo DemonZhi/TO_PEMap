@@ -1,0 +1,19 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es6",
+    "jsx": "react",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "types": [ "webpack-env" ]
+  },
+  "exclude": [
+    "node_modules",
+    "bin"
+  ]
+}

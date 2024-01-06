@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Türkçe" />
+  </tags>
+  <strings>
+    <string id="2bHoiaoe" text="Atlı Askerlere Karşı Daha Yüksek Hasar" />
+    <string id="2K0iVRkW" text="Bir grubu örgütleme ve lojistiği idare etme yeteneği. Bu, bir mülkü çekip çevirmene ya da bir kenti yönetmene yardımcı olur ve önderlik ettiğin ya da iaşeci görevini üstlendiğin bir birliğin büyüklüğünü arttırabilir." />
+    <string id="2wclahIJ" text="Fırlatma Silahları" />
+    <string id="5rj7xQE4" text="Okçuluk" />
+    <string id="81YLbLok" text="İnsan hayatının karanlık tarafları konusunda tecrübe. Bir muhafız rüşvet istediğinde anlayabilir, birisini nasıl korkutmak gerektiğini bilir ve nelerden kaçıp nelerden kaçamayacağını kestirebilirsin." />
+    <string id="8ZNOgT8Z" text="Formasyonundaki askerlere %{BONUS_AMOUNT} yakın dövüş hasarı." />
+    <string id="97EmbcHQ" text="İlham verme yeteneği. İnsanlara güven aşılayabilir, büyük gruplarda coşku ve cesaret uyandırabilirsin." />
+    <string id="9RZLSV3E" text="Formasyonundaki yakın dövüş silahı kullanan askerlerden süvarilere %{BONUS_AMOUNT} hasar." />
+    <string id="a3Vc59WV" text="Daha Az Yakın Dövüş Hasarı Alma" />
+    <string id="Aj3zqQq4" text="Mevcut değil" />
+    <string id="Bn7IsMpu" text="ZEK" />
+    <string id="bVD9j0wI" text="Fiziksel form, hız ve denge." />
+    <string id="Ch5NpCd0" text="Daha Yüksek Menzilli Silah Hasarı" />
+    <string id="controlskill" text="Kontrol" />
+    <string id="d2ApwXJr" text="DAY" />
+    <string id="EGeY1gfs" text="Cazibe" />
+    <string id="engineeringskill" text="Mühendislik" />
+    <string id="eob9goyW" text=" ve " />
+    <string id="eoLbkhsY" text="Büyük baltalar ve kılıçlar gibi ortalama uzunluktaki çift elli silahlar ile dövüşme ustalığı." />
+    <string id="eTw2aNV5" text="+" />
+    <string id="Ffwgecvr" text="{PLUS_OR_MINUS}{BONUSEFFECT}" />
+    <string id="FLf5J3su" text="Yaylara aşinalık ve onları etkili bir biçimde kullanmak için gerekli fiziksel yetkinlik." />
+    <string id="FQOFDrAu" text="Çarpışma sırasında askerlerin nasıl davranacağı konusundaki muhakeme yeteneğin. Alışılagelmemiş bir taktiğin ne zaman işe yarayacağı ve yaramayacağı konusunda isabetli tahminler yürütmeni sağlar." />
+    <string id="g0l7W5xQ" text="Formasyonundaki bineklere %{BONUS_AMOUNT} hareket hızı." />
+    <string id="GmcgoiGy" text="Ticaret" />
+    <string id="Gu0Wxxul" text="Formasyonundaki menzilli silah kullanan askerlere %{BONUS_AMOUNT} isabet hassasiyeti yaptırımı." />
+    <string id="H9Zamrao" text="Bir atı kontrol etme, aniden veya beklenmedik bir şekilde hareket ettiğinde dengeni koruma yeteneği. Ayrıca at bakımı ve yetiştiriciliği konusunda genel bilgi." />
+    <string id="haax8kMa" text="Gönderli Silahlar" />
+    <string id="haV3nLYA" text="Kundaklı yayları kullanma ve bakımını yapma bilgisi." />
+    <string id="hbaMnpVR" text="Yıkılmadan güçlü darbelere karşı ayakta kalabilecek yapılar inşa etme bilgisi. Hem bina inşa etmede, hem de onları yıkmak için kullanılacak aletlerin yapımında faydalıdır." />
+    <string id="HsLfmEmb" text="Liderlik" />
+    <string id="HuXafdmR" text="KTR" />
+    <string id="igg5sEh3" text="Kanamayı durdurma, kırık kemiklerin kaynamasını sağlama, saplanmış silahları çıkartarak ve yaraları temizleyerek enfeksiyonların önüne geçme, acıyı dindirme ve iltihapları engelleme bilgisi." />
+    <string id="iKmXX7i3" text="Mızrak, kargı, sopa ve diğer gönderli silahları hem tek elli hem de çift elli kullanma ustalığı." />
+    <string id="jJ9sLOLb" text="Güç, hızlı ve kuvvetli hareket edebilme yeteneğini temsil eder. Yakın dövüş için önemlidir." />
+    <string id="JKH59XNp" text="Hekimlik" />
+    <string id="JZM1mQvb" text="Kurnazlık" />
+    <string id="K8rCOQUZ" text="Dayanıklılık, uzun süre boyunca yorucu fiziksel eylemleri yapabilme yeteneğidir." />
+    <string id="kfdxjIad" text=", " />
+    <string id="klGEDUmw" text="Formasyonundaki askerlerin kalkanlarına %{BONUS_AMOUNT} hasar." />
+    <string id="kmBxaJZd" text="Vahşi doğada canlıları tespit edebilme bilgisi. İz sürebilir, çalılıklardaki hareketleri seçebilir, bir mızrak ucundan yansıyan ışık hüzmesinden veya bir toz bulutundan vadinin diğer ucundaki düşmanı tespit edebilirsin." />
+    <string id="kvOavzcs" text="Dayanıklılık" />
+    <string id="labbKop6" text="Formasyonundaki askerlere %{BONUS_AMOUNT} menzilli silah hasarı." />
+    <string id="LJ6Krlbr" text="İzcilik" />
+    <string id="lsJMCkZy" text="Pazar yerindeki yaygın ürünleri ve fiyatlarını bilmenin yanı sıra, hasarlı ürünleri fark edebilme veya kandırılıp kandırılmadığını anlama yeteneği" />
+    <string id="Lso8j7Iv" text="Formasyonundaki askerlere zaiyatlardan %{BONUS_AMOUNT} moral yaptırımı." />
+    <string id="m8o51fc7" text="Taktik" />
+    <string id="MkBPRCuF" text="Menzilli Silahlarla Daha Az İsabet Hassasiyeti Yaptırımı" />
+    <string id="nMfxbc0Y" text="Daha Yüksek Binek Hareket Hızı" />
+    <string id="nOMT0Cw6" text="Daha Az Moral Sarsıntısı" />
+    <string id="nqWulUTP" text="Formasyonundaki piyadelere %{BONUS_AMOUNT} hareket hızı." />
+    <string id="NwTpATW5" text="Fırlatma silahlarını isabetli ve kuvvetli atma ustalığı." />
+    <string id="O2oBC9sH" text="Daha Yüksek Taarruz Hasarı" />
+    <string id="ORFrCYSn" text="Formasyonundaki askerlere yakın dövüş saldırılarında %{BONUS_AMOUNT} hasar." />
+    <string id="p0JFbL7G" text="Daha Az Menzilli Saldırı Hasarı Alma" />
+    <string id="p9i3zRm9" text="Binicilik" />
+    <string id="PbJAOKKZ" text="Daha Yüksek Asker Hareket Hızı" />
+    <string id="PHoxdReD" text="SYL" />
+    <string id="PiHpR4QL" text="Tek Elli Silahlar" />
+    <string id="q7NmR3AP" text="Formasyonundaki askerlere zaiyatlardan %{BONUS_AMOUNT} moral yaptırımı." />
+    <string id="skZS2UlW" text="Atletizm" />
+    <string id="smithingskill" text="Demircilik" />
+    <string id="socialskill" text="Sosyallik" />
+    <string id="sOrJoxiC" text="Zeka" />
+    <string id="stewardskill" text="Vekil" />
+    <string id="t78atYqH" text="Çift Elli Silahlar" />
+    <string id="T79exjaP" text="Daha Az Kalkan Hasarı Alma" />
+    <string id="TeUtEGV0" text="Zeka, teorik eğitim ve okuduğunu anlama konusundaki kabiliyetini temsil eder." />
+    <string id="tH6Ooj0P" text="KRN" />
+    <string id="TTWL7RLe" text="Kundaklı Yaylar" />
+    <string id="unaWKloT" text="Daha Yüksek Yakın Dövüş Hasarı" />
+    <string id="Uz1HHeKg" text="Üretilmiş Rastgele Silah" />
+    <string id="uZhHh7pm" text="Üretilmiş {CURR_TEMPLATE_NAME}" />
+    <string id="V0ZMJ0PX" text="Serserilik" />
+    <string id="VajIVjkc" text="İnsanların seni sevmesini ve sana güvenmesini sağlama yeteneği. İnsanların niyetleri ve onları harekete geçirecek argümanlar konusunda isabetli tahminler yürütebilirsin." />
+    <string id="Ve8xoa3i" text="GÜÇ" />
+    <string id="vx0OCvaj" text="Kontrol, isabetten taviz vermeden güç kullanma yeteneğini temsil eder. Menzilli silahları kullanırken gereklidir." />
+    <string id="XMDTt96y" text="Sosyallik, insanların niyetlerini anlama ve onları etkileme yeteneğidir." />
+    <string id="xWbkjccP" text="Demir dövme, kılıca uygun kabza yapma ve pul dikme gibi silah ve zırh yapımında faydalı olan becerilerin bilgisi" />
+    <string id="yEkSSqIm" text="Kalkanlı veya kalkansız tek elli silahlar ile dövüşme ustalığı." />
+    <string id="YO5LUfiO" text="Kurnazlık, insanların neler yapacağını tahmin etme ve onların planlarını alt etme yeteneğidir." />
+    <string id="YWkdD7Ki" text="Güç" />
+    <string id="Z2xgnrDa" text="Formasyonundaki atlı askerlere %{BONUS_AMOUNT} taarruz hasarı." />
+  </strings>
+</base>

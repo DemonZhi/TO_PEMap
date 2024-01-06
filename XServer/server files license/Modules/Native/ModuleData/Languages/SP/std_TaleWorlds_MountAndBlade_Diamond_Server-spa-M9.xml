@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Español (LA)" />
+  </tags>
+  <strings>
+    <string id="0W4dgUho" text="Vetado del juego hasta {BANNEDUNTIL}, motivo: {BANREASON}" />
+    <string id="39f0eu3Y" text="La ficha de autorización proporcionada expiró." />
+    <string id="dbLB0tuT" text="No se permite compartir con familia" />
+    <string id="iWLq9hMg" text="No se proporcionó un token de autenticación." />
+    <string id="kY2oXMng" text="No se pudo iniciar sesión." />
+    <string id="p5K0ATtZ" text="No puedes eliminar tu propia sesión." />
+    <string id="Rj8RhD7F" text="Falló" />
+    <string id="satFJMMu" text="El servidor de batalla personalizada tiene una versión no compatible." />
+    <string id="Tauk2JzA" text="Incompatibilidad de versión, versión del servidor: {SERVERVERSION} - Tu versión: {CLIENTVERSION}." />
+    <string id="X6N9nSn0" text="No tienes permiso para iniciar sesión en este servidor. Intenta en los servidores públicos oficiales." />
+    <string id="xMa4QqvL" text="Jugadores actuales en el grupo: {PLAYERS}." />
+    <string id="xriaEwgN" text="Tienes prohibido alojar servidores hasta {BAN_EXPIRATION_TIME}. Motivo: {BAN_REASON}." />
+    <string id="YmPyx3qi" text="El jugador llegó al número máximo permitido de servidores de batalla personalizada." />
+  </strings>
+</base>

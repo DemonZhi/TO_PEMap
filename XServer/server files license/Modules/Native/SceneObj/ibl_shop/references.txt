@@ -1,0 +1,9 @@
+8
+mesh editor_preview_sphere
+texture cg_50c_5b
+texture lens_dirt
+texture lens_star
+texture no_clouds
+texture pond_bridge_night_4k
+texture sky_clouds_only2_n
+texture sun_core2

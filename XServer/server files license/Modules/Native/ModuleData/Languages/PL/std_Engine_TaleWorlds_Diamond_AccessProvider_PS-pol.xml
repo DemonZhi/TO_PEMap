@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="3rcPHq9a" text="Użytkownik nie jest wpisany do PlayStation™Network. Należy się wpisać, by korzystać z funkcji online." />
+    <string id="8BV4hDK6" text="Wymagana jest aktualizacja systemu." />
+    <string id="8yk50Ba5" text="PlayStation®Plus jest wymagane do gry wieloosobowej." />
+    <string id="g56TVkLF" text="Nie masz uprawnień, by grać w trybie wieloosobowym. Sprawdź ustawienia ograniczeń zawartości." />
+    <string id="i0QuqXWk" text="Nie odnaleziono użytkownika." />
+    <string id="kS9dxNIk" text="Błąd usługi platformy." />
+    <string id="oe39dfge" text="Połączenie z siecią nieudane." />
+    <string id="PQbtrqBl" text="Wymagana jest aktualizacja gry." />
+    <string id="rYbxXReN" text="Użytkownik jest wylogowany." />
+    <string id="Udt1Ua7r" text="Nie można sprawdzić aktualizacji gry." />
+    <string id="UhUvwvkh" text="Nie masz połączenia z PlayStation™Network. Funkcje online są niedostępne." />
+  </strings>
+</base>

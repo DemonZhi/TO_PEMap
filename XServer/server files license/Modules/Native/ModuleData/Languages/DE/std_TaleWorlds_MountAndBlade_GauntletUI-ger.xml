@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+  <strings>
+    <string id="074YAjOk" text="Ihr wurdet aufgrund von Inaktivität ausgeschlossen." />
+    <string id="1e12bdjj" text="Screenshot wurde unter{PATH} gespeichert." />
+    <string id="2SEofGth" text="Team wechseln" />
+    <string id="3CsACce8" text="Beenden" />
+    <string id="4mMySbxI" text="Nicht spezifizierter Fehler" />
+    <string id="79bODbwZ" text="Fotomodus ist bereits aktiv." />
+    <string id="a0IHtkoa" text="Ihr wurdet vom Host des Spiels ausgeschlossen." />
+    <string id="aGGq9lJT" text="Kultur wechseln" />
+    <string id="ajKnHI1s" text="Fotografieren" />
+    <string id="aKjpbRP5" text="Unbekannter Grund" />
+    <string id="aogZyZlR" text="Ihr müsst {SECONDS} Sekunden lang warten, bis Ihr erneut jubeln/schreien könnt." />
+    <string id="asCeKZXx" text="Schlachten-Benutzeroberfläche reaktivieren" />
+    <string id="controllerDisconnectedDescriptionPS" text="Zum Fortfahren bitte Wireless-&#x200b;Controller wieder anschließen" />
+    <string id="controllerDisconnectedDescriptionXB" text="Zum Fortfahren bitte Controller wieder anschließen" />
+    <string id="controllerDisconnectedTitlePS" text="Wireless-&#x200b;Controller nicht verbunden" />
+    <string id="controllerDisconnectedTitleXB" text="Controller nicht verbunden" />
+    <string id="dismissnotification" text="Verwerfen" />
+    <string id="e139gKZc" text="Zurück zum Spiel" />
+    <string id="EzeFJo65" text="Verbindung zum Server unterbrochen!" />
+    <string id="hvaDkG4w" text="Beliebige Taste drücken." />
+    <string id="HzWaGn3y" text="Es verwenden nicht alle Spieler ein Anti-&#x200b;Cheat-&#x200b;Tool." />
+    <string id="ImQnhIQ5" text="Fotomodus kann während Unterhaltungen nicht genutzt werden." />
+    <string id="InGwtrWt" text="Verlassen" />
+    <string id="InUAmnX4" text="Ihr wurdet ausgeschlossen, weil Ihr Verbündete verletzt habt." />
+    <string id="ivKntfNA" text="Beitrittsanfrage bereits gesendet, warte auf Serverantwort." />
+    <string id="IzJ7f5SQ" text="Serverkapazität erreicht." />
+    <string id="JluTW3Qw" text="Spiel beendet." />
+    <string id="JQVixeQs" text="Spielserver konnte nicht aufgerufen werden." />
+    <string id="KO2adj2I" text="Ihr müsst Euch in der Lobby befinden, um einem benutzerdefinierten Spiel beizutreten." />
+    <string id="KQrpWV1n" text="Ihr müsst Truppführer sein, um einem benutzerdefinierten Spiel beizutreten." />
+    <string id="KRNdlbkq" text="Benutzerdefiniertes Spiel endet." />
+    <string id="LCzAvLUB" text="Es stimmen nicht alle Spielermodule mit dem Server überein." />
+    <string id="lxq6SaQn" text="Wirklich beenden?" />
+    <string id="Mm1Kb1bS" text="Falsches Passwort" />
+    <string id="mO9bh5sy" text="Beitritt zu benutzerdefiniertem Spiel fehlgeschlagen." />
+    <string id="MVLleAaZ" text="Freunde einladen" />
+    <string id="n4UUrd1p" text="Bereits in Verwendung" />
+    <string id="NqarFr4P" text="Optionen" />
+    <string id="O1bGoaE8" text="Serverstatus konnte nicht abgefragt werden. Bitte erneut versuchen." />
+    <string id="OhF7NqSb" text="Ihr wurdet per Abstimmung aus dem Spiel gebannt." />
+    <string id="RamV6yLM" text="Zurück zum Hauptmenü" />
+    <string id="RGzyUTzm" text="Formationswechsel zu {ARRANGEMENT_ORDER}" />
+    <string id="rZSjkCpw" text="Fotomodus kann während Einsatz nicht genutzt werden." />
+    <string id="srAJw3Tg" text="Der Spieler wurde vom Server gebannt." />
+    <string id="T8IniCKU" text="Spielserver nicht verfügbar." />
+    <string id="tKSxGy5p" text="Server antwortet nicht." />
+    <string id="tlsmbvQX" text="Es sind nicht alle Spieler zum Beitritt bereit." />
+    <string id="TR1B2RWB" text="Ihr wurdet vom Anti-&#x200b;Cheat-&#x200b;Tool aus dem Spiel ausgeschlossen." />
+    <string id="V8BXjyYq" text="Während der Installation deaktiviert." />
+    <string id="VklN5Wm6" text="Fotomodus" />
+    <string id="vkpMgobZ" text="Spielserver-&#x200b;Fehler" />
+    <string id="wbFB3N72" text="Ihr wurdet per Abstimmung aus dem Spiel ausgeschlossen." />
+    <string id="wLpJEkKY" text="Schlachtserver abgestürzt" />
+    <string id="WvGviFgt" text="Zeitüberschreitung Eurer Verbindung mit dem Server." />
+    <string id="yS7PvrTD" text="In Ordnung." />
+    <string id="Yza0JYJt" text="Trupp wechseln" />
+  </strings>
+</base>

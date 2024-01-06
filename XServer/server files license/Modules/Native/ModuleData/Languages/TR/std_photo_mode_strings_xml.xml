@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-16"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Türkçe" />
+  </tags>
+  <strings>
+    <string id="05w8Tl7n" text="Bozkır" />
+    <string id="0RRNliSj" text="Aseray Sıcağı" />
+    <string id="2vhjwPaN" text="Kırsal" />
+    <string id="4MiTBGqa" text="Nord'un Günü" />
+    <string id="7kFFXSuD" text="Kara Bulutlar" />
+    <string id="7UbviYSn" text="Sturgiya Yumuşak" />
+    <string id="8fjSQ7HR" text="Hafif Bulutlar" />
+    <string id="9cu05mOt" text="Aseray Yumuşak" />
+    <string id="9fBE1860" text="Sinematik Sıcaklık" />
+    <string id="aANW0vf6" text="Batanya Sert" />
+    <string id="aJMfnIEx" text="Yumuşak Sıcaklık" />
+    <string id="an3FWmCf" text="Soğuk Rüzgar" />
+    <string id="avaaYc8p" text="Battanya Yumuşak" />
+    <string id="cyfUXaO9" text="Aseray Sert" />
+    <string id="DHbyketz" text="Sturgiya Sert" />
+    <string id="dI09DMKh" text="Rhagaea'nin Kalbi" />
+    <string id="dQBd8xBj" text="Fazla Gölgeli" />
+    <string id="ecUwABe2" text="Çöl" />
+    <string id="etcyLg5M" text="Tereyağı Hazzı" />
+    <string id="fMSYE6Ii" text="Varsayılan" />
+    <string id="FyYbkPtB" text="İmparatorluk Sert" />
+    <string id="gxuy0cF0" text="Dağlık Alan" />
+    <string id="hrUJeG44" text="Kilim" />
+    <string id="IiSZhZpg" text="Kuzey" />
+    <string id="J37tYBua" text="Vlandiya Yumuşak" />
+    <string id="j5c3EDoH" text="Çerçeve" />
+    <string id="jeEFhFbu" text="İmparatorluk Yumuşak" />
+    <string id="KEdtvTgH" text="Desatüre" />
+    <string id="KWKghJYb" text="Çizgi Roman" />
+    <string id="MWGyFNpt" text="Grayscale" />
+    <string id="pBD0xAgK" text="Gri Ton" />
+    <string id="Qe0GG34b" text="Varsayılan" />
+    <string id="qGUjoKD5" text="Nostaljik" />
+    <string id="SBoBuW8I" text="Sturgiya Soğuğu" />
+    <string id="sZLd6VHi" text="Kuzait" />
+    <string id="UKzBB1dc" text="Isı Ölümü" />
+    <string id="vnIZGwd8" text="Vlandiya Sert" />
+    <string id="vOpx5w0b" text="Katmanlar" />
+    <string id="Xn2bpKRO" text="Sinematik Çizgiler" />
+    <string id="xnzDTCPv" text="Sepya" />
+    <string id="XSUgdvyo" text="Pop" />
+    <string id="ZFATTMmp" text="Normandiya" />
+    <string id="zLdXCpne" text="Pazar Yeri" />
+    <string id="Zz8ea3dU" text="Sinematik" />
+    <string id="ZzWwDCBS" text="Kalradya Sonbaharı" />
+  </strings>
+</base>

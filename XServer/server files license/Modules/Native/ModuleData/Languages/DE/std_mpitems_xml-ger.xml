@@ -1,0 +1,817 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+  <strings>
+    <string id="07OrsbVH" text="Starker Bolzen" />
+    <string id="0a6Vz7wi" text="Ledertabard" />
+    <string id="0e17RZrZ" text="Arbalest" />
+    <string id="0LoGEHxz" text="Wüstenkettenhaube" />
+    <string id="0PSC0Vkf" text="Helm mit Augenschutz über Lederhaube" />
+    <string id="0Pxq8UqX" text="Hochlandumhang" />
+    <string id="0rzKQbWy" text="Steppenhalbrossharnisch" />
+    <string id="0SsLGsXk" text="Lange wattierte Robe" />
+    <string id="1A57qBlx" text="Battanianischer Langspeer" />
+    <string id="1aotLA6v" text="Hochlandspieß" />
+    <string id="1bdDdwub" text="Nasalhelm über Kettenhaube" />
+    <string id="1BXuUR3s" text="Langer Infanteristengambeson" />
+    <string id="1CPdu9K0" text="Stein" />
+    <string id="1cYka5tR" text="Ärmelloser Pelzmantel" />
+    <string id="1GpTOIqU" text="Eisenhelm über wattierter Haube" />
+    <string id="1iS91QJH" text="Battanianisches Zweihandschwert" />
+    <string id="1jX7yxSW" text="Huscarlkettenhemd" />
+    <string id="1LHNLYqc" text="Schwerer Krummsäbel" />
+    <string id="1pjTjmHR" text="MP Test Polearm" />
+    <string id="1tABvwsL" text="Langes Paramerion" />
+    <string id="1X2X0Qe4" text="Berber" />
+    <string id="1yvsiaZ6" text="Schwerer battanianischer Streitkolben" />
+    <string id="1yzNGUJH" text="Imperiale Axt" />
+    <string id="1zFYpSSY" text="Verzierte Fransenstahlkappe mit Wangenschutz" />
+    <string id="20moIxs1" text="Helm über geschnürter Haube" />
+    <string id="2AcfBbCR" text="Kriegstunika" />
+    <string id="2BlJHSeu" text="Imperiale Lederrüstung" />
+    <string id="2cSOn9qb" text="Gambeson über Kettenhemd" />
+    <string id="2FwUtU6h" text="Sturgianische Wurfaxt" />
+    <string id="2iaLi16f" text="Hochlandfellhelm" />
+    <string id="2iDtlgM0" text="Geschlossener Kriegsfürstenhelm" />
+    <string id="2KHcAWiq" text="Kefije mit Stoffband" />
+    <string id="2m1kWsao" text="Genieteter Lederhelm über dünner Fellhaube" />
+    <string id="2MdVVkVL" text="Eisenhut über wattierter Haube" />
+    <string id="2N0ZP2GB" text="Helm mit Turban und Haube" />
+    <string id="2PN7ddKx" text="Großspeer" />
+    <string id="2Q0m5CG0" text="Wüstenstoffharnisch" />
+    <string id="2qisE5ys" text="Eisenhelm über wattierter Kappe" />
+    <string id="2u4RneKh" text="Nordländergurttunika" />
+    <string id="2w09rN4S" text="Schwere Bronzelamellenrüstung über Kettenhemd" />
+    <string id="2XEbqNQz" text="Verzierte imperiale Panzerhandschuhe" />
+    <string id="2xvB6XQP" text="Zähes Steppenpferd" />
+    <string id="3aPKkyd2" text="Vlandianisches Kurzschwert" />
+    <string id="3bqwOJ8z" text="Hochgeschlagene Pelzkappe" />
+    <string id="3c3uqW3d" text="Battanianisches Kurzschwert" />
+    <string id="3DV3GoHb" text="Spitze Scheitelkappe mit Kette" />
+    <string id="3eb3ZyiU" text="Formidabler Bogen" />
+    <string id="3iq3rOh8" text="Eisenhelm über Unterhaube" />
+    <string id="3lauB1HH" text="Bronzene Lamellenweste über Gambeson" />
+    <string id="3qF14kaR" text="Imperialer Schulterplattenumhang" />
+    <string id="3UxfT9Bu" text="Lederumwickelte Kappe" />
+    <string id="3WdXljdt" text="Robuster Nahasan" />
+    <string id="3Wzhxkn1" text="Topf" />
+    <string id="3XSuOAYT" text="Yeow-Langbogen" />
+    <string id="3Z91Nxbf" text="Spangenhelm mit Leder" />
+    <string id="42KNket2" text="Hochlandstiefel" />
+    <string id="46orXtt0" text="Waldgewand" />
+    <string id="4a99jSHC" text="Steppenlederschulterpanzer" />
+    <string id="4AfHO0BA" text="Ärmellose genietete Pelzrüstung" />
+    <string id="4aFPp5hj" text="Leichter Ovalschild" />
+    <string id="4B2i8oxo" text="Mantel mit verspiegeltem Gürtel" />
+    <string id="4BfbPgkY" text="Nasalhirnhaube über wattierter Kappe" />
+    <string id="4cHMe6H2" text="Verzierte Kettenrüstung" />
+    <string id="4eOHPops" text="Robuster Schuppenpanzer" />
+    <string id="4HcrY0S2" text="Pelzbesetzte Lederhandschuhe" />
+    <string id="4iqTIpAs" text="Adligenhelm mit Pelz" />
+    <string id="4KYF5iCd" text="Geschichtete Ledertunika" />
+    <string id="4n6n3KL7" text="Wüstenkopfbedeckung" />
+    <string id="4OT8Re4a" text="Gewöhnlicher Wüstenharnisch" />
+    <string id="4pqIsPhp" text="Wattierter Kurzmantel" />
+    <string id="4Q4JVfuT" text="Bärenfell" />
+    <string id="4wdgiTta" text="Sichel" />
+    <string id="4xUR2kAj" text="Imperialer schwerer Streitkolben" />
+    <string id="4YxbZlbi" text="Gewickelte Schuhe" />
+    <string id="51EcVnzd" text="Visierhelm über geschnürter Haube" />
+    <string id="564PHXk3" text="Verzierter Lederharnisch" />
+    <string id="5bEHZ2z1" text="Imperialer Helm mit Augenschutz" />
+    <string id="5c4cHL9Z" text="Khuzaitische Kriegskrone" />
+    <string id="5DVBFbLV" text="Adligengroßschwert" />
+    <string id="5n4rWI9T" text="Dornhelm mit Gesichtsmaske" />
+    <string id="5YGP047h" text="Paramerion" />
+    <string id="607BAdXw" text="Westländerlangspeer" />
+    <string id="6Db7aDbF" text="Ballistenpfeile" />
+    <string id="6Dk7LClc" text="Luxusturban über Helm" />
+    <string id="6eO6QDoE" text="Schwere sturgianische Lanze" />
+    <string id="6fA31IxF" text="Schwere Kettenweste" />
+    <string id="6hwZwODh" text="Glefe" />
+    <string id="6n44BIll" text="Spitze Scheitelkappe über geschnürter Haube" />
+    <string id="6XxiMU52" text="Ledertabard über Kettenhemd" />
+    <string id="73U5RElj" text="Pelzhut" />
+    <string id="7566s7pt" text="Infanteristenkettenrüstung über Streifenlederhemd" />
+    <string id="7b8Cwogx" text="Aketon" />
+    <string id="7D3jvAfS" text="Fellkappe" />
+    <string id="7dAy51ln" text="Hirnhaube über Unterhaube" />
+    <string id="7EAEIUIY" text="Schwerer Ringpanzer" />
+    <string id="7HbspP6x" text="Verzierter Legionärsschuppenpanzer" />
+    <string id="7jemQg2V" text="Schwerer Widerhakenpfeil" />
+    <string id="7LmUe8fQ" text="Menaulion" />
+    <string id="7R8r1WvR" text="MP Test 2h Axe" />
+    <string id="7rhZlXdO" text="Jagdlangbogen" />
+    <string id="7zIWNagP" text="Schwerer Ild" />
+    <string id="84gnexLb" text="Wüstenpferd" />
+    <string id="8bH8n3Aq" text="Leichter großer Dreieckschild" />
+    <string id="8DnJls9z" text="Steppenlederarmschienen" />
+    <string id="8dvj7xik" text="Sturgianisches Schwert" />
+    <string id="8frVbv2b" text="Nordländerlamellenschulterpanzer" />
+    <string id="8hDoWBIa" text="Gemeinenhemd" />
+    <string id="8nNLS96w" text="Verstärkter Ovalschild" />
+    <string id="8nObGQqW" text="Rhomphaia" />
+    <string id="8nuXQ9F9" text="Pelzmantel" />
+    <string id="8oKVhtth" text="Schnallenbrigantinenrüstung" />
+    <string id="8qwg1gr3" text="Alter Reiterdrachenschild" />
+    <string id="8SNS2wF9" text="Turban" />
+    <string id="8Sy6nZPs" text="Steppenschlachtross" />
+    <string id="8tHbqjmB" text="Spitze Pelzgugel" />
+    <string id="8uBew3nD" text="Genietete Armschienen" />
+    <string id="927d3urB" text="Holzovalschild" />
+    <string id="9aehD627" text="Luxuriöse Tunika" />
+    <string id="9aVMFixc" text="Sturgianische lange Lanze" />
+    <string id="9BENgwRK" text="Rundhelm über geschnürter Stoffhaube" />
+    <string id="9cHyHQ7a" text="Lamellenplattenstiefel" />
+    <string id="9Eyd2qGo" text="Verstärkte Wildlederstiefel" />
+    <string id="9FgxK9se" text="Großhelm" />
+    <string id="9GCPcCss" text="Schneller Jagdbogen" />
+    <string id="9NW9y1ll" text="Mp Test Mace" />
+    <string id="9rXUVscR" text="Tuareg" />
+    <string id="9XhksMzN" text="Westländerspeer" />
+    <string id="a1BGHdaU" text="Verstärkte Armwickel" />
+    <string id="A1zFbFta" text="Verstärkter flacher Drachenschild" />
+    <string id="a3vHlztg" text="Plattierte Panzerhandschuhe" />
+    <string id="a4hyzv3f" text="Tarpan" />
+    <string id="A6llHL9s" text="Tieflandlangbogen" />
+    <string id="A8MJWbhf" text="Visierhelm über wattierter Stoffhaube" />
+    <string id="a8ycVmwU" text="Bardiche" />
+    <string id="AB1mV5Pg" text="Eisenhelm über geschnürter Haube" />
+    <string id="abGJeb3q" text="Sturgianische Lamellenrüstung" />
+    <string id="acufJvyn" text="Langer Menaulion" />
+    <string id="AdafHtud" text="Spitzhelm über Kettenhaube" />
+    <string id="aDEjwU8L" text="Spaltaxt" />
+    <string id="aDeVl2EL" text="Sturgianischer Wurfspieß" />
+    <string id="Ae9L1a9g" text="Streithammer" />
+    <string id="aGbTPme1" text="Sense" />
+    <string id="agqzAXa9" text="Visierhelm über wattierter Haube" />
+    <string id="aGvBKCG8" text="Wolfskopf" />
+    <string id="aGxtOTB8" text="Hochlandaxt" />
+    <string id="AHel76R6" text="Schwerer Khuzait-&#x200b;Streitkolben" />
+    <string id="aHQCG5Tn" text="Kettenrossharnisch" />
+    <string id="Ai7qIb9I" text="Kleiner Dreieckschild" />
+    <string id="AIu3kKvz" text="Reitpferd" />
+    <string id="ajifXc8I" text="Plumbata" />
+    <string id="AJjEnCGN" text="Schuppenpanzer" />
+    <string id="AK0lNDmN" text="Juwelenbesetzte Kriegskrone mit Schweif" />
+    <string id="AO5LPmQf" text="Schwerer Kontos" />
+    <string id="AobNdBBU" text="Billige Polster" />
+    <string id="aoPbMKwB" text="Federnbesetzter Spangenhelm über Kettenhaube" />
+    <string id="aOwcs7Un" text="Rundhelm über Lederhaube" />
+    <string id="aQeOcLX4" text="Zweizackige Bronzekrone" />
+    <string id="aQN4Dlx2" text="Schwerer Aketon" />
+    <string id="aR1Tl119" text="Rennerstiefel" />
+    <string id="arabgbEK" text="Battanianisches Kavallerieschwert" />
+    <string id="ArbBALwc" text="Ritterhelm mit Bronzegesichtsschutz" />
+    <string id="ArPvuBYK" text="Gewebter Turban" />
+    <string id="aT7w4Npp" text="Battanianischer Dornenstreitkolben" />
+    <string id="aVGSZhCN" text="Pavese" />
+    <string id="AWlrtbep" text="Nordländerharpune" />
+    <string id="axaK9y6E" text="Geschlossener Ritterhelm" />
+    <string id="aYoIrpe0" text="Riemenkettenbeinlinge" />
+    <string id="b0pyML1S" text="Sturgianischer Speer" />
+    <string id="b1pqUQju" text="Segmentscheitelkappe über wattierter Stoffhaube" />
+    <string id="b2EDkbhD" text="Gewickelter Armschutz" />
+    <string id="b5dkMbBp" text="Sturgianischer Kurzspeer" />
+    <string id="B8p6E8GJ" text="Tabarzine" />
+    <string id="bAidg8fV" text="Verziertes Huscarlkettenhemd" />
+    <string id="BavVxSoC" text="Billige farbige Kleidung" />
+    <string id="bAXuK5eG" text="Aserai-&#x200b;Lamellenrüstung" />
+    <string id="BbhGL8XT" text="Brigantinenweste" />
+    <string id="bcnknjPD" text="Battanianischer Streitkolben" />
+    <string id="bDfKz5SZ" text="Schleuder" />
+    <string id="BDGbu59Q" text="Jaculan-&#x200b;Pferd" />
+    <string id="bdgTtBDq" text="Zweihändiger eiserner Streitkolben" />
+    <string id="bdpjqoGe" text="Segmentscheitelkappe über Kettenhaube" />
+    <string id="beMSPAOG" text="Genieteter Lederhelm über Kopftuch" />
+    <string id="bKBa7ahF" text="Lange einfache Robe" />
+    <string id="bkg0kWHH" text="Khuzait-&#x200b;Infanterieknüppel" />
+    <string id="Bl72Ribb" text="Wattierte Lederschulterpanzer" />
+    <string id="BLeQnEKZ" text="Lederstiefel" />
+    <string id="BlTREYCY" text="Verstärkter Fürstenhelm" />
+    <string id="bOPllY2F" text="Sturgianisches Kavallerieschwert" />
+    <string id="brmba4ca" text="Leichter Wurfspieß" />
+    <string id="Bruzcqbm" text="Schwere Glefe" />
+    <string id="BryUh6yQ" text="Stahlkappe" />
+    <string id="btoJTO9G" text="Räuberaxt" />
+    <string id="bTUGfbH5" text="Robuster Gambeson" />
+    <string id="bubcrmTC" text="Nasalhelm über wattierter Stoffhaube" />
+    <string id="bVzkrtUc" text="Pugio" />
+    <string id="BwOZwFxm" text="Aserai-&#x200b;Spieß" />
+    <string id="bxa4JHlU" text="Genietete Lederarmschienen" />
+    <string id="bYmKOh4p" text="Testspeer" />
+    <string id="ByxdPJzA" text="Pelzkappe mit Ohrenklappen" />
+    <string id="bYxnCJjq" text="Infanteristengambeson" />
+    <string id="bZ0aUz2b" text="Schwerer Aserai-&#x200b;Streitkolben" />
+    <string id="bz5lXkHS" text="Ärmelloser wattierter Kurzmantel" />
+    <string id="bzCoIgk7" text="Kriegshippe" />
+    <string id="bzr6vtXi" text="Schwerer Menaulion" />
+    <string id="bzrVXGAl" text="Bronzener federnbesetzter Spangenhelm über Lederhaube" />
+    <string id="bZSQpada" text="Imperiale schwere Axt" />
+    <string id="C077yplu" text="Verzierter Khuzait-&#x200b;Schild" />
+    <string id="c1a5Pt8j" text="Bronzener Nasalhelm über Kettenhaube" />
+    <string id="c6dK068V" text="Lange Khuzait-&#x200b;Lanze" />
+    <string id="c7UNJSNi" text="Gewebte Lederschulterpanzer" />
+    <string id="C8bVbM65" text="Tunika mit Lederweste" />
+    <string id="CAO0bycV" text="Schwere Tunika" />
+    <string id="CBUdkmIw" text="Farbiger Kaftan" />
+    <string id="cBZ6OlKW" text="Wurfspieß" />
+    <string id="cCaHNMwf" text="Hochlandbeinwickel" />
+    <string id="CcWpkREW" text="Schweres Kettenhemd mit breitem Gürtel" />
+    <string id="cDetN1Ao" text="Provisorischer Übungsdrachenschild" />
+    <string id="cEhDJAQp" text="Infanteristengambeson mit Rock" />
+    <string id="CEk1LX84" text="Sturgianischer Langspeer" />
+    <string id="cEUqPott" text="Aserai-&#x200b;Langspeer" />
+    <string id="CgG2aRyh" text="Schuppenhalbrossharnisch" />
+    <string id="CIDdPt1I" text="Bronzelamellenrüstung über Kettenhemd" />
+    <string id="CJCatm7j" text="Leichterer Eichendrachenschild" />
+    <string id="cjH1WFwy" text="Pelzbesetzte Kappe" />
+    <string id="cjhhuTZD" text="Gehärtete Lederlamellenrüstung" />
+    <string id="cjHygHb0" text="Dornhelm über gefütterter Haube" />
+    <string id="CLTk2CMs" text="Infanteristengambeson mit Riemen" />
+    <string id="CLYcnUra" text="Gurtlederkürass" />
+    <string id="cMdtLfGB" text="Fransenrobe" />
+    <string id="courserhorse" text="Renner" />
+    <string id="CPI0wkaZ" text="Hickory-&#x200b;Armbrust" />
+    <string id="cQMDVJnE" text="Imperiale Streitaxt" />
+    <string id="Csfcw8G7" text="Ledersloven" />
+    <string id="CtJPuRDa" text="Wattierter Lederübermantel" />
+    <string id="CtzzoSBc" text="Kurze Skoldernzweihandaxt" />
+    <string id="CuZ2eWxn" text="Battanianisches Bastardschwert" />
+    <string id="cVYVpeBS" text="Räuberhelm über Kettenhaube" />
+    <string id="Cw5N7rK6" text="Kriegsrenner" />
+    <string id="cwC8Jp99" text="Hochlandschulterpelz" />
+    <string id="CXnhFf1t" text="Verstärkte Lederarmschienen" />
+    <string id="CyJiWngO" text="Bronzeschuppenschulterpanzer" />
+    <string id="D358wBWJ" text="Schwere Lamellenrüstung über Kettenrüstung" />
+    <string id="d8DrtmwP" text="Visierhelm über Kettenhaube" />
+    <string id="D9JrTpwU" text="Schnabelstiefel" />
+    <string id="dacwWKE2" text="Abgenutzter Drachenschild" />
+    <string id="DbavaIis" text="Eiserner Nasalhelm über Kettenhaube" />
+    <string id="Dc4ia4m9" text="Wattierte Kappe" />
+    <string id="dK4f8ArH" text="Imperiale Stangenwaffe" />
+    <string id="DnhVJl4d" text="Lange Wüstenrobe" />
+    <string id="DoiwC1Qa" text="Kettenbeinlinge" />
+    <string id="DOYS7dmq" text="Riemenlederarmschienen" />
+    <string id="dPQGxmJ7" text="Verstärkte Kettenfäustlinge" />
+    <string id="dS4zm0UT" text="Genietete Lederrüstung über Aketon" />
+    <string id="DScCbmoS" text="Battanianische Adligenarmschienen" />
+    <string id="dVekhkIU" text="Pelzmantel über Tunika" />
+    <string id="dWr3nuBq" text="Verstärkter eisenumrandeter Drachenschild" />
+    <string id="DxRrAuRo" text="Battanianischer Speer" />
+    <string id="DyXDcO36" text="Dekorierter Aserai-&#x200b;Kettenpanzer" />
+    <string id="e0SDWwmU" text="Robuste Steppenrüstung" />
+    <string id="e4lKZhgv" text="Geschnürte Lederarmschienen" />
+    <string id="Eb106Xg8" text="Sturgianisches Kurzschwert" />
+    <string id="ebHdQfbX" text="Spangenhelm mit wattiertem Stoff" />
+    <string id="eDMDUUfw" text="Aserai-&#x200b;Kettenpanzer" />
+    <string id="eEMgc7yU" text="Battanianischer verstärkter Großschild" />
+    <string id="EezWSI6v" text="Verstärkte Söldnerrüstung" />
+    <string id="efW2XbK8" text="Emirhelm" />
+    <string id="Ejx5lXjk" text="Sturgianischer Verfolger" />
+    <string id="eN1eFdhF" text="Verzierter Lederharnisch über Schuppenhemd" />
+    <string id="EOplBvKz" text="Imperialer Schweifhelm" />
+    <string id="EOz0edW4" text="Steppenhelm" />
+    <string id="EPehLvzV" text="Imperialer Wurfspieß" />
+    <string id="EpkGO9qE" text="Eisenheugabel" />
+    <string id="eQBDt5Wk" text="Fellpony" />
+    <string id="erlrhK2a" text="Kriegsfürstenschuppenpanzer" />
+    <string id="eso5zk60" text="Aserai-&#x200b;Fürstenhelm" />
+    <string id="eTKxlDl1" text="Hochlandkriegsfürstenstiefel" />
+    <string id="eWf7bFGo" text="Pelzrüstung mit Riemen" />
+    <string id="EWR2MNeM" text="Nasalhelm mit Kette" />
+    <string id="ewSpZ10R" text="Grobe wattierte Kappe" />
+    <string id="EXLY9mEb" text="Verstärkter großer Rundschild" />
+    <string id="F4xD8gjJ" text="Franciska" />
+    <string id="F9HQABfN" text="Verstärkter viereckiger Flechtschild" />
+    <string id="FAPHmzxQ" text="Thawb" />
+    <string id="Fb7PrJuc" text="Beinschoner" />
+    <string id="fBAf3OWb" text="Verzierte Wüstenkriegskrone" />
+    <string id="FDEIHpIN" text="Verspiegelte Brigantinenrüstung" />
+    <string id="FexNLsO5" text="Imperiale Wurfspieße" />
+    <string id="FHakBPXw" text="Kettenrüstung" />
+    <string id="fk42FxCE" text="Geschichtete Robe" />
+    <string id="FktkkUMK" text="Stahlrundschild" />
+    <string id="FLBYsvxp" text="Langschwert" />
+    <string id="FmN4ryxu" text="Großschwert" />
+    <string id="FOx5vZSJ" text="Gepanzertes Bärenfell" />
+    <string id="fptsl0Qn" text="Kilt über Plattenlederrüstung" />
+    <string id="frwBm3Oh" text="Stoffkopftuch" />
+    <string id="FsDZC8Yl" text="Vollhelm über Kettenhaube" />
+    <string id="fUmehyHq" text="Gewebte Lederarmschienen" />
+    <string id="FWFDkjBk" text="Nasalhelm über geschnürter Haube" />
+    <string id="fwxHsC1h" text="Kurzer Gambeson über Tunika" />
+    <string id="FxnFBhrF" text="Kavalleriedrachenschild" />
+    <string id="FyXM8Iob" text="Wüstenstoffschulterpolster" />
+    <string id="g51zVsKU" text="Kettenfäustlinge" />
+    <string id="g5BPd0Oc" text="Stoffhaube" />
+    <string id="G7AEWZ6c" text="Verzierter Ovalschild" />
+    <string id="G8FQ2exX" text="Verstärkte Plattenhandschuhe" />
+    <string id="Gbfot0SN" text="Aserai-&#x200b;Kavalleriestreitkolben" />
+    <string id="GEHTam8H" text="Battanianischer Späherschild" />
+    <string id="GFKPrrb8" text="Aserai-&#x200b;Adligenhelm" />
+    <string id="gfvG04SP" text="Wüstenlederschulterpolster" />
+    <string id="GghHAbIT" text="Beil" />
+    <string id="gKhpLiyg" text="Kettenplattenrossharnisch" />
+    <string id="GNdVXMue" text="Schal" />
+    <string id="Goloz0Vm" text="Husnphree" />
+    <string id="gT8WENO3" text="Dummy Higher Average" />
+    <string id="GTaxqBcv" text="Hilfsrüstung" />
+    <string id="gTptIfxY" text="Wüstenkappe" />
+    <string id="GTWUtUFj" text="Kettenrossharnisch" />
+    <string id="gUTqDROO" text="Geschlossener Kopfschal" />
+    <string id="gXbmGrGL" text="Verzierte imperiale Stiefel" />
+    <string id="GXmDq2KR" text="Bärenkopf" />
+    <string id="gXu0brD7" text="Vlandianische Axt" />
+    <string id="GzgUzrFY" text="Kettenhemd" />
+    <string id="H41qKfaL" text="Adligenhochlandhelm mit Feder" />
+    <string id="h5IlkYck" text="Schwerer Mantel" />
+    <string id="h5kfaD4v" text="Streitross" />
+    <string id="h6UXvU3B" text="Nasalhirnhaube über geschnürter Haube" />
+    <string id="h9PP7EWc" text="Kappe mit Halsklappe" />
+    <string id="hab2DsOW" text="Hochlandkilt über Tartan-&#x200b;Hose" />
+    <string id="HBaSQlSJ" text="Fransenbronzekappe mit Wangenschutz" />
+    <string id="hCBCLp0e" text="Kettenplattenhalbrossharnisch" />
+    <string id="hE8s9bpP" text="Gebogener Rundschild" />
+    <string id="hELN8VXv" text="Zerrissene Robe" />
+    <string id="HEsETRqw" text="Verstärkter Reiterdrachenschild" />
+    <string id="hF11nBki" text="Vlandianisches Kavallerieschwert" />
+    <string id="HFIsOSHl" text="Räuberzweihandaxt" />
+    <string id="hj563EZr" text="Genieteter Rundschild" />
+    <string id="HKPCngu0" text="Räuberreiteraxt" />
+    <string id="HKRGEXqy" text="Waldhüterkettenrüstung" />
+    <string id="HkwJao2z" text="Fransenstahlkappe mit Wangenschutz" />
+    <string id="Hm7D4Z6v" text="Nordländerringrossharnisch" />
+    <string id="hRHPPQQP" text="Gewickeltes Kopftuch" />
+    <string id="hTRaPvRa" text="Hochlandlederstiefel" />
+    <string id="hunterhorse" text="Jäger" />
+    <string id="HVJ9ax8Z" text="Steppenrobe" />
+    <string id="HvjviTTW" text="Stahlkappe mit Wangenschutz" />
+    <string id="hXB6gvD2" text="Gehärtetes Lederlamellenhemd " />
+    <string id="hXijcZyp" text="Grober Kurzmantel" />
+    <string id="HXNb6Cqz" text="Luxuriöser Kaftan mit Bund" />
+    <string id="Hy4uQ7d5" text="Vlandianischer Kavalleriestreitkolben" />
+    <string id="I0vRCZ7U" text="Kriegsfürstenschuppenarmschienen" />
+    <string id="I1faIdpc" text="Brawler" />
+    <string id="I1ZBVhON" text="Genieteter Steppenschulterpanzer" />
+    <string id="I2yl5DWj" text="Schwerer Khuzait-Pfeil" />
+    <string id="I8zNQS7i" text="Skoldernzweihandaxt" />
+    <string id="Ia7K4egV" text="Herrschaftlicher Helm" />
+    <string id="iauvbwL3" text="Wachbogen" />
+    <string id="iAWzr8Q0" text="Lederringharnisch über Kettenhemd" />
+    <string id="ICsecuVv" text="Gehärteter Lederschulterpanzer" />
+    <string id="iD0ePqi7" text="Geknöpfte Lederarmschienen" />
+    <string id="igAT9Eqb" text="Steppenstreitross" />
+    <string id="IGazuB9B" text="Kettennasalhelm" />
+    <string id="IH9GsYzv" text="Pluderhose" />
+    <string id="ihN5JZ9h" text="Nasalhelm über Lederhaube" />
+    <string id="IJjrSbiV" text="Reflexbogen" />
+    <string id="IKhu13vZ" text="Leichter Rundschild" />
+    <string id="ilLE877K" text="Steppenpelzsattel " />
+    <string id="iNJr5HOM" text="Ahlspieß" />
+    <string id="inquCxkd" text="Aserai-&#x200b;Speer" />
+    <string id="inr9Mt1i" text="Khuzait-&#x200b;Lanze" />
+    <string id="INWSxn7C" text="Bronzelamellenschulterpanzer" />
+    <string id="inYBaDwu" text="Federnbesetzter Eisenlamellenspangenhelm über Kettenhaube" />
+    <string id="IOt4KTHs" text="Midland-&#x200b;Zelter" />
+    <string id="iPfZpGHK" text="Schwerer Ovalschild" />
+    <string id="IPp2QGwE" text="Mähmesser" />
+    <string id="Is7j0Ir8" text="Battanianisches Adligenzweihandschwert" />
+    <string id="ISQ0cdOc" text="Schwerer Nasalhelm über Kettenhaube" />
+    <string id="isuBaIqQ" text="Eisenumrandeter Drachenschild" />
+    <string id="it3sDnGw" text="Sturgianischer Rundschild" />
+    <string id="Ita1lG33" text="Ledergebundener Drachenschild" />
+    <string id="ITKKkoXI" text="Schwere Räuberaxt" />
+    <string id="IuD9SaQM" text="Leinenkleidung" />
+    <string id="iVataLxL" text="Lederstreifen über wattierter Robe" />
+    <string id="IWv37ncp" text="Leichter Nordländerharnisch" />
+    <string id="IX3kafcb" text="Eisendornhelm über Kettenhaube" />
+    <string id="J00AF9Qv" text="Gewebte Lederstiefel" />
+    <string id="j1pFE61w" text="Waldstoffrüstung" />
+    <string id="j2IVY6G6" text="Grobe Tierhautrüstung" />
+    <string id="J3YHMkL3" text="Wattierte Fäustlinge" />
+    <string id="J4fgemze" text="Sturgianische Lanze" />
+    <string id="J4YgK18g" text="Lange Falx" />
+    <string id="ja2rER65" text="Testlanze" />
+    <string id="jakLnIQv" text="Rauschuppenhelm" />
+    <string id="JbTCDDb0" text="Bolzen" />
+    <string id="JbV0WoO7" text="Südländer-&#x200b;Schuppenpanzer von Meisterhand" />
+    <string id="JBVAeXx3" text="Heugabel" />
+    <string id="JCdVJYnQ" text="Leichte Tunika" />
+    <string id="jEHLd5gm" text="Kilidsch" />
+    <string id="JfPqJbK6" text="Schnelleres Streitross" />
+    <string id="jhgVsWKr" text="Tyal-&#x200b;Pferd" />
+    <string id="Jhshwa48" text="Geflickter Gambeson" />
+    <string id="jimBaHvz" text="Verstärkte Lederrüstung" />
+    <string id="jIwjYOVj" text="Zerlumpte Armwickel" />
+    <string id="jjHpXY4d" text="Pelzgugel" />
+    <string id="JjLQ2VdT" text="Nasalhirnhaube über wattierter Haube" />
+    <string id="JkLoAelJ" text="Kettenschulterpanzer" />
+    <string id="JKRQ8RDA" text="Wattiertes Gewand mit Streifen" />
+    <string id="Jm3AiUo3" text="Einfacher Umhang" />
+    <string id="jm9CnURw" text="Schwerer Bodkin-Pfeil" />
+    <string id="joroqAbR" text="Flyssa" />
+    <string id="Jt0Mcn4D" text="Wildenrüstung" />
+    <string id="JvhvtKsT" text="Spitzhelm über Kettenhaube" />
+    <string id="JW1mE68R" text="Lange geschichtete Wüstenrobe" />
+    <string id="jy1VQ7Yg" text="Khuzait-&#x200b;Kavalleriestreitkolben" />
+    <string id="K1UFTirG" text="Leichte Armbrust" />
+    <string id="K2xGw3Oo" text="Dummy Lower Average" />
+    <string id="k71X3WNK" text="Robe über Kettenrüstung" />
+    <string id="kaR27kWL" text="Langer Hochlandtartan" />
+    <string id="KD4pxN2C" text="Aserai-&#x200b;Adligenschwert" />
+    <string id="KdbHrcQx" text="Kurze Tunika" />
+    <string id="Kgnm0FkE" text="Lederschuhe" />
+    <string id="KIxX6dH2" text="Grober Pelz über Kettenhemd" />
+    <string id="KKWEkA4P" text="Grobes Bärenfell" />
+    <string id="kmdjRAoG" text="Geschnürte Stoffhaube" />
+    <string id="kOV5t7Yx" text="Danustica-&#x200b;Pferd" />
+    <string id="KoyU5yeY" text="Verzierte Fransenbronzekappe mit Wangenschutz" />
+    <string id="KpyTaAwL" text="Adligenhochlandplattenhelm" />
+    <string id="Kr8b1bxY" text="Infanteristenkettenweste" />
+    <string id="KTegaNPW" text="Langbogen" />
+    <string id="KVG0Tzaa" text="Verstärkte Spiegelrüstung" />
+    <string id="KwbnODoT" text="Brigantine über Kettenrüstung" />
+    <string id="L0aYVd65" text="Gemeinentunika" />
+    <string id="l2j9CAQn" text="Bastardschwert" />
+    <string id="l2pEOHk6" text="Aserai-&#x200b;Axt" />
+    <string id="l5JDrvbW" text="Tartantunika" />
+    <string id="l5PPS5lG" text="Infanteristenkettenrüstung über Lederhemd" />
+    <string id="l69aXkKH" text="Stoßforke" />
+    <string id="l91l1TJo" text="Farbiger Turban" />
+    <string id="lB4UF1GT" text="Lange Tunika" />
+    <string id="Lbm7asY3" text="Großer Dreieckschild" />
+    <string id="lbVB6KPl" text="Gugel" />
+    <string id="Ldqb9oAF" text="Hochlandkriegsfürstenschulterplatten" />
+    <string id="LgftnHPs" text="Gewebte Lederweste" />
+    <string id="LI3rc6S2" text="Aserai-&#x200b;Wurfaxt" />
+    <string id="lIJ1EVBh" text="Lederhandschuhe" />
+    <string id="LMo6MaQS" text="Kataphraktenlamellenrüstung" />
+    <string id="LOPavWRp" text="Riemenschuhe" />
+    <string id="lPeLZge5" text="Gepanzerte Pluderhose" />
+    <string id="LqA9uBH9" text="Spitze Scheitelkappe über Stoffkopftuch" />
+    <string id="LRbGXEw2" text="Verzierter Kettennasalhelm mit Schweif" />
+    <string id="lspv3mUE" text="Genieteter Steppenrossharnisch" />
+    <string id="Lt8nT1hb" text="Lamellenschulterpanzer" />
+    <string id="luoXhz19" text="Schwere Lamellenweste" />
+    <string id="lVtoBMhp" text="Tartanumhang" />
+    <string id="LwxELoZL" text="Halber Hochlandschuppenrossharnisch" />
+    <string id="lwxOPEPx" text="Gladius" />
+    <string id="lxDZyKbU" text="Schwere Aserai-&#x200b;Lanze" />
+    <string id="LyaWykYa" text="Adligenhelm mit Nackenschutz" />
+    <string id="lZ93DOrn" text="Ärmelloser wattierter Mantel" />
+    <string id="lZZOQsxc" text="Grober Kavalleriesattel" />
+    <string id="M0n609ut" text="Kettenschulterpanzer" />
+    <string id="M2wvaObX" text="Spatha" />
+    <string id="m3Nv9rt2" text="Nomadenschweifhelm" />
+    <string id="MamotK0a" text="Wattierte Armschienen" />
+    <string id="Mbf8qAxs" text="Lange Zweihandaxt" />
+    <string id="mbT1uNPa" text="Dolch" />
+    <string id="mBVCyRY5" text="Verziertes Legionärskettenhemd" />
+    <string id="MChutiV6" text="Rundhelm über Stoffhaube" />
+    <string id="mDHMOUdx" text="Fußsoldatenflechtschild" />
+    <string id="mfeM775z" text="Hackebeil" />
+    <string id="mkoMUmLh" text="Leinenweste" />
+    <string id="MKT5IzWm" text="Dicke Ärmelrobe" />
+    <string id="mlJKNbbn" text="Lederhaube" />
+    <string id="MnmUBlbL" text="Tartsche" />
+    <string id="MQ8LCvCE" text="Gebundene Stofftunika" />
+    <string id="mRGIxvYh" text="Nasalhirnhaube über Kettenhaube" />
+    <string id="MS1gaKXk" text="Battanianische Wurfaxt" />
+    <string id="ms4AKynl" text="Plattenstiefel" />
+    <string id="mStaaxFF" text="Wüstenringschulterpanzer" />
+    <string id="MTB2BunA" text="Verstärktes Hochlandkettenhemd über Tartan" />
+    <string id="mTsEaNKb" text="Pelzumhang" />
+    <string id="mU5CY4bz" text="Geschlossener Huscarlhelm" />
+    <string id="MUdwS6jH" text="Zäheres Tyal-&#x200b;Pferd" />
+    <string id="mVAaWp5U" text="Imperiales Streitross" />
+    <string id="mvTueU1y" text="Plattierte Lederarmschienen" />
+    <string id="mXQsNAmZ" text="Bodkin-&#x200b;Pfeil" />
+    <string id="n1A47HcZ" text="Adligenspeerträgerhelm" />
+    <string id="n21mBbbR" text="Spitzaxt" />
+    <string id="n7c7tnx9" text="Kriegsfürstenhelm mit Nasenschutz" />
+    <string id="nbjUGjaZ" text="Sturgianischer Reiterschild" />
+    <string id="ndfDy5B8" text="Gebundene Kopfwickel" />
+    <string id="newiAaR9" text="Verzierter Helm mit Augenschutz" />
+    <string id="nhoDWrVf" text="MP Test 2h Sword" />
+    <string id="NiBDR9ld" text="Verzierter Bronzehelm mit Wangenschutz" />
+    <string id="Nk7bQUWJ" text="Aserai-&#x200b;Zweihandschwert" />
+    <string id="NKZ0P4aU" text="Vlandianische lange Lanze" />
+    <string id="nmLZEjYg" text="MP Test 2h Mace" />
+    <string id="Np2OoVNd" text="Sturgianischer leichter Streitkolben" />
+    <string id="nPSYRs2Q" text="Testspieß" />
+    <string id="NSo8tGhT" text="Battanianische Lanze" />
+    <string id="NTaol1uQ" text="Ringpanzer" />
+    <string id="nTjEUF9z" text="Grober großer Rundschild" />
+    <string id="NTPmtaaN" text="Roter Mantel über Kettenhemd" />
+    <string id="NUHzapSv" text="Lange Hanftunika" />
+    <string id="NUmDuEqI" text="Imperialer Reitharnisch" />
+    <string id="Nv0eZmGL" text="Stahlnasalkappe" />
+    <string id="O37kzdXO" text="Leichter Harnisch" />
+    <string id="O4agNHhn" text="Wendiger Berber" />
+    <string id="OdsXaOjG" text="Khuzait-&#x200b;Pfeil" />
+    <string id="OEbGMbG2" text="Hochlandschuppenrossharnisch" />
+    <string id="oeE1E3FJ" text="Vlandianisches Bastardschwert" />
+    <string id="oEJnxsQ1" text="Armwickel" />
+    <string id="OeKwbpM7" text="Steppensattelpferd" />
+    <string id="oEvhhNNR" text="Lederreiterstiefel" />
+    <string id="OGqTKRVm" text="Bambuslanze" />
+    <string id="oH8iFEv7" text="Stadtfaltstiefel" />
+    <string id="OhEQUMk0" text="Breiter Dreieckschild" />
+    <string id="OJIRIm4j" text="Einfache Stofftunika" />
+    <string id="oJKXjRJ3" text="Hochlandschuppenpanzer über Stoffhemd" />
+    <string id="OL1oJ9j5" text="Dales-&#x200b;Pony" />
+    <string id="olamAwhb" text="Nasalhelm über Stoffkopftuch" />
+    <string id="OM9achAa" text="Verstärkter Eichendrachenschild" />
+    <string id="omLMiX89" text="Genähte Lederrüstung über Kettenhemd" />
+    <string id="ONaWEKSy" text="Nasalhelm über Lederhaube" />
+    <string id="OnpIGPEG" text="Battanianischer Bronzegroßschild" />
+    <string id="Oo0baNaq" text="Grobe Schnürstiefel" />
+    <string id="oppGd4nH" text="Khuzait-&#x200b;Rundschild" />
+    <string id="OpYdqPWs" text="Offene Kettenhaube" />
+    <string id="oQSZ0XgP" text="Verzierte dicke Tunika" />
+    <string id="OrEgjXZ1" text="Grobe Kefije" />
+    <string id="OuD7PfvY" text="Imperialer Reflexbogen" />
+    <string id="OvlG2Vu1" text="Grobe Brigantine" />
+    <string id="Oyeu738O" text="Nordländerfürstenhelm" />
+    <string id="p2gPB04v" text="Steppenlederschulterplatten" />
+    <string id="p6NIgRpk" text="Grobfellkappe" />
+    <string id="P8GrNSkF" text="Segmentscheitelkappe über Kettenhaube" />
+    <string id="p9cQARqf" text="Hochgeborenenkettenrüstung" />
+    <string id="pEaYQqG9" text="Viereckiger Flechtschild" />
+    <string id="PeozdF9h" text="Genähter gehärteter Ledermantel" />
+    <string id="PF7sPCYq" text="Wurfspieße" />
+    <string id="PL5SG9hI" text="Lederschuppenpanzer" />
+    <string id="PLtQdf23" text="Verstärkte wattierte Fäustlinge" />
+    <string id="PPpvY6BZ" text="Khuzait-&#x200b;Kavallerieschild" />
+    <string id="PtfbqMeg" text="Brigantine über Kettenhemd" />
+    <string id="PTKyNh2O" text="Legionärskettenhemd" />
+    <string id="pTtFr5Iw" text="Vlandianische Kriegssichel" />
+    <string id="PVgSGCYK" text="Nasalhelm über Kettenhaube" />
+    <string id="PxVFJaEM" text="Plattierter Kronenhelm" />
+    <string id="PyeZ22FL" text="Bronzekappe mit Wangenschutz" />
+    <string id="pyupZxJK" text="Kontos" />
+    <string id="pzfbPbWW" text="Felsen" />
+    <string id="PZPphq6H" text="Steppenschlachtross" />
+    <string id="q1z4FQub" text="Kamelsattel" />
+    <string id="Q2F2uqRE" text="Vlandianischer Schulterplattenumhang" />
+    <string id="Q50hfNjW" text="Dünne Fellhaube" />
+    <string id="qaKGuHSt" text="Verzierter Lederharnisch mit Wattierung" />
+    <string id="QaysED62" text="Tunika mit gerolltem Stoff" />
+    <string id="QbfOXJas" text="Wattierter Fußsoldatenmantel" />
+    <string id="qc0P0b2r" text="Helm mit Augenschutz über Kettenhaube" />
+    <string id="QcCC59DA" text="Genietete Streifenschulterpanzer" />
+    <string id="QCOWP3E9" text="Steppenräuberhelm" />
+    <string id="Qd0tQLpA" text="Genietete Lederrüstung" />
+    <string id="qdMP2qWG" text="Kettenschulterverstärkung" />
+    <string id="qEcDWNci" text="Widerhakenpfeil" />
+    <string id="qFL0VxZX" text="Geschnürte Haube" />
+    <string id="qFV7uqVW" text="Kurzspeer" />
+    <string id="qH5VV8In" text="Dorfbewohnerledertunika" />
+    <string id="qILO0HdK" text="Ärmellose wattierte Umschlaggewänder" />
+    <string id="QLcP8bIs" text="Falx" />
+    <string id="QlvnKQbc" text="Hochlandschuppenpanzer über Kettenhemd" />
+    <string id="qo8hwDNU" text="Grobe Pelzrüstung" />
+    <string id="qsVRoGUv" text="Offener Kopfschal" />
+    <string id="qT6jIu3v" text="Pelzrock mit Tunika" />
+    <string id="QtuZSbG9" text="Federnbesetzter Spangenhelm über Haube" />
+    <string id="QUGDr6Te" text="Krummsäbel" />
+    <string id="QVGL3eB0" text="Offener Wüstenhelm" />
+    <string id="qVj5NqrL" text="Vollhelm über wattierter Kappe" />
+    <string id="QxzcuhmA" text="Leopardenfell" />
+    <string id="Qywm0F8B" text="Kettenhaube mit Helmfütterung" />
+    <string id="QzAvlan7" text="Kurze wattierte Robe" />
+    <string id="r07M9xbT" text="Schwere Armbrust" />
+    <string id="R45H8quo" text="Toga" />
+    <string id="radJHwRW" text="Schwerer Reiterdrachenschild" />
+    <string id="RDbqA36B" text="Verzierte Bronzekammkappe mit Wangenschutz" />
+    <string id="RddFH0BA" text="Verstärkter großer Eisenspeichenrundschild" />
+    <string id="RF7uVEGp" text="Bambusspeer" />
+    <string id="rF7Xm7C0" text="Schwerer Dreieckschild" />
+    <string id="RGwcnlmQ" text="Zweihändige Holzfälleraxt" />
+    <string id="Rhfp7ath" text="Spitzhelm über geschnürter Haube" />
+    <string id="RIswqnuJ" text="Helm mit Augenschutz" />
+    <string id="rLFdje27" text="Khuzait-&#x200b;Kurzspeer" />
+    <string id="RmUJJelp" text="Huscarlkettenrüstung" />
+    <string id="rq5FMLVI" text="Nomadenkurzbogen" />
+    <string id="rSEXAMUx" text="Legionärshelm" />
+    <string id="RTIzskq1" text="Lendmannshelm über Kettenvollhaube" />
+    <string id="RtlqkbZ9" text="MP Test Axe" />
+    <string id="RVkS0Mt3" text="Battanianisches Adligenschwert" />
+    <string id="RXDyumYz" text="Lederharnisch mit Umhang" />
+    <string id="rysPCUOp" text="Nordländerhelm" />
+    <string id="rzhIJ8Yh" text="Pilgergugel" />
+    <string id="s03kaATW" text="Khuzait-&#x200b;Speer" />
+    <string id="S1SUK8zk" text="Helm über Kettenhaube" />
+    <string id="S1XL4KJh" text="Dicker luxuriöser Mantel" />
+    <string id="S9htzkbe" text="Händlerhut" />
+    <string id="sAml91Z3" text="Luxuriöse Brigantine" />
+    <string id="sbbNL1qF" text="Verstärkte Schuppenschulterplatten" />
+    <string id="SGa04hNj" text="Schwere vlandianische Lanze" />
+    <string id="SHZ0P7Iu" text="Wattierter Lederüberwurf" />
+    <string id="SIdCIRfG" text="Messingschuppenschulterplatten" />
+    <string id="sJ1R62Tn" text="Schweifhelm" />
+    <string id="smHA8Apa" text="Verzierte Nomadenkappe" />
+    <string id="smKogclC" text="Sackleinentunika" />
+    <string id="spcj3XIw" text="Gewickelte Kefije" />
+    <string id="SRZzySbP" text="Hochlandwaldstiefel" />
+    <string id="SUKemgo6" text="Battanianischer Kavalleriespeer" />
+    <string id="SvYpE52J" text="Pelzbesetzte Tunika" />
+    <string id="SW3lkPHe" text="Farbiger Bischt" />
+    <string id="SYvBTD0p" text="Vollhelm über Stoffkopftuch" />
+    <string id="SZmyhMO2" text="Battanianischer Kavallerieschild" />
+    <string id="sZsOeSQ4" text="Kavalleriemenaulion" />
+    <string id="Szuxa9Bs" text="Zerlumpte Stiefel" />
+    <string id="t1HEYuSD" text="Gebundenes Adarga" />
+    <string id="T2POVRtg" text="Hilfsrüstung mit Riemen" />
+    <string id="t68bkisr" text="Hammer" />
+    <string id="TB6NGI82" text="Khuzait-&#x200b;Stammesschild" />
+    <string id="TeIcf3Cd" text="Schwere Lamellenrüstung über Kettenhemd" />
+    <string id="tEimkEsU" text="Nordischer Kurzbogen" />
+    <string id="TfDFlmpb" text="Widerliche Pelzrüstung" />
+    <string id="TFT2Xapz" text="Spitzhelm über wattierter Haube" />
+    <string id="tG1Q8r2u" text="Speerträgerlamellenrüstung" />
+    <string id="TGpFbISX" text="Genieteter Lederhelm" />
+    <string id="tiSffNik" text="Federnbesetzter Eisenlamellenspangenhelm über Lederhaube" />
+    <string id="tiTTWhpW" text="Wattiertes Lederhemd" />
+    <string id="Tj1Zb47Q" text="Steppenlederstiefel" />
+    <string id="TjoKgbV6" text="Geschlossener Helm mit Augenschutz" />
+    <string id="tKODIU0F" text="Lederlamellenschulterpanzer" />
+    <string id="TmJubG8W" text="Battania Shoulder Strap Cloak" />
+    <string id="tMLH04n4" text="Eisenhut über Kettenhaube" />
+    <string id="tMwsE9IR" text="Riemenlederstiefel" />
+    <string id="Tp7zXWGa" text="Nasalhelm über wattierter Haube" />
+    <string id="tpQLvMSM" text="Nasalhelm über Kettenhaube" />
+    <string id="TTWL7RLe" text="Armbrust" />
+    <string id="TV02bZ4t" text="Abgenutzter Reiterdrachenschild" />
+    <string id="tVyuxl8e" text="Zerlumpte Robe" />
+    <string id="tWfAPrPa" text="Kettenreiterstiefel" />
+    <string id="TwuAVsCn" text="Pelzkappe" />
+    <string id="TxAYmCjr" text="Nasalhelm mit Leder" />
+    <string id="tXbRb3QO" text="Genietete Pelzrüstung" />
+    <string id="tYmOCuuQ" text="Rundhelm über Kettenhaube" />
+    <string id="TziEtAIK" text="Vlandia-&#x200b;Kettenpanzer" />
+    <string id="u2QRZy2x" text="Mp Testing Sword" />
+    <string id="U4n0uSlg" text="Enger Kopfschal" />
+    <string id="U8QfF3Gw" text="Lange Wolltunika" />
+    <string id="UC2XfY7V" text="Stoffgugel" />
+    <string id="UCvfcokJ" text="Schaufel" />
+    <string id="uEcbnd5D" text="Rundschild" />
+    <string id="uEPRE33m" text="Grobe gebundene Armschienen" />
+    <string id="uF4IqQIK" text="Kaskara" />
+    <string id="UG8aeEQH" text="Imperiales Schlachtross" />
+    <string id="UHcXARc6" text="Ild" />
+    <string id="UHItyOQY" text="Genietete Steppenlederrüstung" />
+    <string id="ujB7Eq9S" text="Aserai-&#x200b;Streitkolben" />
+    <string id="UkR3F9lV" text="Vlandianisches Adligenschwert" />
+    <string id="uLpnmNkZ" text="Lederkappe" />
+    <string id="UoHZGyZa" text="Helm mit Gesichtsschutz" />
+    <string id="uqO6e6vN" text="Drachenschild" />
+    <string id="Ur3Q4U5x" text="Schwere Tartankappe" />
+    <string id="uUGAMReu" text="Feine Stadtstiefel" />
+    <string id="uvmmBd41" text="Gebundener Wüstenrundschild" />
+    <string id="UvOa4elc" text="Grüne Gugel" />
+    <string id="uwkGsgxJ" text="Khuzait-&#x200b;Wurfspeer" />
+    <string id="UxTD6XGA" text="Gewickelter Schal" />
+    <string id="uxVG86DF" text="Khuzait-&#x200b;Langspeer" />
+    <string id="v1CIJWs1" text="Hochlandwurfspieß" />
+    <string id="v23z53yg" text="Nasalhelm" />
+    <string id="v3lIxLvX" text="Pila" />
+    <string id="v4THTk5O" text="Kaftan mit Ledergürtel" />
+    <string id="VaqBBaQu" text="Pelzbesetzte kurze Tunika" />
+    <string id="vAQJvloo" text="Lange Spatha" />
+    <string id="VbAHQ1BS" text="Langer Pelzmantel" />
+    <string id="vbPBXiPC" text="Reiche Tunika" />
+    <string id="VcbEaV7T" text="Eisenhelm über wattierter Stoffhaube" />
+    <string id="vCywYDmp" text="Leichte wattierte Rüstung" />
+    <string id="Vdi0vZV7" text="Hochlandüberwurf" />
+    <string id="VDMkVMxt" text="Schwere Kettenfäustlinge" />
+    <string id="veB9S1OI" text="Bewegliches Dales-&#x200b;Pony" />
+    <string id="VEufDIXI" text="Westländerlanze" />
+    <string id="vh1x8VWw" text="Imperialer Streitkolben" />
+    <string id="vimhFdZp" text="Schwerer Nasalhelm über Lederhaube" />
+    <string id="VIVfoHRj" text="Eschenwurfspeer" />
+    <string id="VkRIefyW" text="Luxuriöser Schuppenpanzer" />
+    <string id="vmJLhccb" text="Verzierter Helm" />
+    <string id="VQSdhQE3" text="Schwerer Schuppenpanzer über Kettenrüstung" />
+    <string id="vsavMoLZ" text="Segmentscheitelkappe über wattierter Stoffhaube" />
+    <string id="VSMpadvq" text="Pelzrüstung" />
+    <string id="VTMc9pMS" text="Battanianisches Langschwert" />
+    <string id="vw9qbiER" text="Steppenharnisch" />
+    <string id="vwVFF1XJ" text="Hochlandpelzstiefel" />
+    <string id="VylHwqVq" text="Segmentscheitelkappe über geschnürter Haube" />
+    <string id="w4RuDABQ" text="Plattenrock" />
+    <string id="W58TN2g5" text="Warägertunika" />
+    <string id="WahziEXA" text="Gewickelte Lederstiefel" />
+    <string id="wBfGpcCO" text="Eisenhut über wattierter Stoffhaube" />
+    <string id="WbjNNE8Z" text="Verstärktes Hochland-&#x200b;Fian-&#x200b;Kettenhemd" />
+    <string id="wD3Yuvfc" text="Genähte Steppenlederrüstung" />
+    <string id="wE7RWmIF" text="Eberhautledermantel" />
+    <string id="wEfZyccm" text="Vollhelm über geschnürter Haube" />
+    <string id="wG582fzT" text="Hirnhaube über wattierter Kappe" />
+    <string id="whvMZZba" text="Verstärkte wattierte Armschienen" />
+    <string id="WiPJqTXv" text="Geschlossener Wüstenhelm" />
+    <string id="wKucIANJ" text="Ledermantel über Stoffhemd" />
+    <string id="WLJOnehi" text="Verstärkte dicke Tunika" />
+    <string id="wltdyF2j" text="Jagdbogen" />
+    <string id="WMqHlEvb" text="Segmentscheitelkappe über Kettenhaube" />
+    <string id="Wo5RbJia" text="Hochlandwaldumhang" />
+    <string id="WOzcBg62" text="Verstärkte Nordländerharpune" />
+    <string id="wQY1oqdK" text="Verzierte Stahlkammkappe mit Wangenschutz" />
+    <string id="wrM9Km0n" text="Hochlandrossharnisch" />
+    <string id="WrwO8xsN" text="Genähte Lederschulterpanzer" />
+    <string id="wSUN0Dmo" text="Dummy Max Armor" />
+    <string id="WsUvpBwM" text="Schneller Kurzbogen" />
+    <string id="WUArer5A" text="Offene wattierte Haube" />
+    <string id="WvDZMmaj" text="Nomadenhelm" />
+    <string id="wwAFqJE3" text="Ritterschwert" />
+    <string id="wWqavjat" text="Leichte lange wattierte Robe" />
+    <string id="WXjQNIJW" text="Locker gewickelter Wüstenhelm" />
+    <string id="WYFDXE82" text="Großer Rundschild" />
+    <string id="WyxIVvhe" text="Aserai-&#x200b;Ovalschild" />
+    <string id="WYytQbvS" text="Vollhelm über Unterhaube" />
+    <string id="x1kf94SW" text="Kammhelm" />
+    <string id="X1Wn0sBa" text="Genieteter Lederhelm über grober Schuppenhaube" />
+    <string id="x3lcf2Do" text="Luxuriöse Lamellenweste über Lederhemd" />
+    <string id="xa7KRSCy" text="Genähte Lederweste" />
+    <string id="xb2tMFSz" text="Kurzbogen" />
+    <string id="XcWJyWlF" text="Vlandianischer Streitkolben" />
+    <string id="XGX6DbFL" text="Lamellenplattenpanzerhandschuhe" />
+    <string id="XGytILlt" text="Kartätschenmunition" />
+    <string id="XH9f3yOX" text="Pelzweste über Tunika" />
+    <string id="XiI81DUa" text="Stammeslangbogen" />
+    <string id="XiwTesky" text="Seidenkaftan" />
+    <string id="XkL1Re8b" text="Genieteter Ledermantel" />
+    <string id="xl5MgK49" text="Schwerer Sturgia-&#x200b;Reiterhelm" />
+    <string id="xn5CfwON" text="Wattierte Kriegerschulterpanzer" />
+    <string id="xnoAJwoy" text="Vollhelm über wattierter Stoffhaube" />
+    <string id="XNQPPIaA" text="Infanteristengambeson über Lederjacke" />
+    <string id="XOC81pVz" text="Geschlossener Wüstenhelm mit Kette" />
+    <string id="xODbCO6k" text="Kompositbogen" />
+    <string id="xQUi0F0k" text="Gestreifter Mantel" />
+    <string id="Xrb43Fv4" text="Bronzearmschienen" />
+    <string id="xS7m37o7" text="Spitze Scheitelkappe über Kettenhaube" />
+    <string id="XU9WgcIO" text="Verstärkte Wildlederrüstung" />
+    <string id="XuwQvSDo" text="Eiserner Rundhelm über Kettenhaube" />
+    <string id="xW2NPgay" text="Ostländersichel" />
+    <string id="xYC1bkr7" text="Sturgianischer Drachenschild" />
+    <string id="XzoyPCvS" text="Khuzait-&#x200b;Spieß" />
+    <string id="y1YTxkmn" text="Schulterharnisch" />
+    <string id="y3CwqUDR" text="Hochlandkettenhemd" />
+    <string id="y3oIzUEp" text="Tunika mit Schulterpolstern" />
+    <string id="y3RNBGtv" text="Imperialer Reiterstreitkolben" />
+    <string id="Y7wtGUKA" text="Schwerer sturgianischer Wurfspieß" />
+    <string id="y9uMjAKT" text="Verstärkte Wildlederschulterpanzer" />
+    <string id="y9uZrJv2" text="Sturgianischer Kriegsfürstenhelm" />
+    <string id="YAYhozbN" text="Steppenpferd" />
+    <string id="YDibTDob" text="Hochlandkronenhelm" />
+    <string id="yDykmlS7" text="Tartantoga" />
+    <string id="YEUFtX4G" text="Wolfsfellschulterpanzer" />
+    <string id="yf3zokFF" text="Westländerkavalleriespeer" />
+    <string id="ygfhbfr0" text="Dornhelm" />
+    <string id="YGQ6UXCo" text="Gebirgsjagdbogen" />
+    <string id="Yh7Dorsr" text="Streifenlederharnisch" />
+    <string id="YHWqNIYu" text="Battanianischer Wurfspieß" />
+    <string id="ykCJ3hDB" text="Genieteter Nackenschutz" />
+    <string id="yMi4ijgI" text="Wattierte Nomadengugel" />
+    <string id="Yms2FQ7g" text="Halbkettenrossharnisch" />
+    <string id="yPeC0Vgs" text="Nahasan" />
+    <string id="YQd9C8u2" text="Helm über wattierter Haube" />
+    <string id="YqhOxb1Z" text="Lamellenschweifhelm" />
+    <string id="yQqsd0bh" text="Imperialer Bolzen" />
+    <string id="ys3kQM0R" text="Imperiale Lamellenrüstung" />
+    <string id="yTWOMSmv" text="Hanftunika" />
+    <string id="YUWhHQmz" text="Federnbesetzter Eisenlamellenspangenhelm" />
+    <string id="YxglkaXU" text="Weißer Tabard über Kettenrüstung" />
+    <string id="Z6Ak3H6G" text="Cirit" />
+    <string id="z6eTba5h" text="Schwerer Nasalhelm über geschnürter Stoffhaube" />
+    <string id="z7oMeRl3" text="Dicke Brigantinenweste" />
+    <string id="z8d2uyY1" text="Segmentscheitelkappe über geschnürter Haube" />
+    <string id="Z9RlnXrD" text="Pelzrock" />
+    <string id="zAvb7WKe" text="Segmentscheitelkappe über wattierter Haube" />
+    <string id="zBRB0P5M" text="Geschlossener verzierter Helm mit Augenschutz" />
+    <string id="zbsajPMp" text="Voulge" />
+    <string id="ZeU1fvdz" text="Kartätschenstapel" />
+    <string id="ZFde57gC" text="Robuster Hochlandsattel" />
+    <string id="ZFETxZKP" text="Kefije mit Seidenband" />
+    <string id="ZFwKlHIJ" text="Waldlangbogen" />
+    <string id="zGXZJFOb" text="Lamellenrüstung mit Schuppenrock" />
+    <string id="ZJweh5Oh" text="Bastardaxt" />
+    <string id="zKJtr0MV" text="Makeb-&#x200b;Pferd" />
+    <string id="zmEnxUpL" text="Imperialer Schuppenrossharnisch" />
+    <string id="zNoDVcHg" text="Traber" />
+    <string id="Zo7jJbQj" text="Wüstenhelm mit Kette" />
+    <string id="ZOa7p47T" text="Riemenschnabelstiefel" />
+    <string id="ZqTFQeai" text="Ledertunika" />
+    <string id="zQv3w264" text="Wattierte Teilhaube" />
+    <string id="ZRDoABz9" text="Pelzbesetzter Schweifhelm" />
+    <string id="ztgczd7L" text="Khuzaitischer Kavalleriespeer" />
+    <string id="ZV1bKLUn" text="Eisenhelm mit Leder" />
+    <string id="ZvMcHde3" text="Spitzhacke" />
+    <string id="Zx4h7jDy" text="Dummy Min Armor" />
+    <string id="zZ2G7uIO" text="Eisenhelm über Kettenhaube" />
+    <string id="ZzzUQjna" text="Adligenaxt" />
+  </strings>
+</base>

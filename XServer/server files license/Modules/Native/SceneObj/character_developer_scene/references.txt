@@ -1,0 +1,17 @@
+16
+mesh feet_male_a
+mesh hands_male_a
+mesh head_male_a
+mesh plane
+mesh roman_cloth_tunic_a
+prefab a_spr_light
+prefab aserai_courtyard_floor_a
+prefab camera_icon
+prefab camera_instance
+texture color_grade
+texture lens_dirt
+texture lens_star
+texture no_clouds
+texture partial_eclipse_4k
+texture sky_clouds_only2_n
+texture sun_core2

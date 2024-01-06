@@ -1,0 +1,1807 @@
+<?xml version="1.0"?>
+<scene name="scn_item_tableau" version="2">
+	<flora_bounding_rect min="0.000, 0.000" max="0.000, 0.000"/>
+	<levels>
+		<level name="base" mask="1"/>
+		<level name="level_1" mask="2"/>
+		<level name="level_2" mask="4"/>
+		<level name="level_3" mask="8"/>
+	</levels>
+	<environment_properties>
+		<property name="nav_mesh_auto_generated_" value="false"/>
+		<property name="physics_world_min" value="-90.063, -66.010"/>
+		<property name="physics_world_max_" value="120.473, 142.176"/>
+		<property name="north_angle" value="0.000"/>
+		<property name="is_indoors" value="false"/>
+		<property name="disable_flora_billboards" value="false"/>
+		<property name="ground_color" value="0.000, 0.000, 0.000"/>
+		<property name="prt_multiplier" value="1.000"/>
+		<property name="prt_point_light_multiplier" value="1.000"/>
+		<property name="fog_start_distance" value="50.000"/>
+		<property name="prt_color_contrast" value="1.000"/>
+		<property name="scene_scale_multiplier" value="1.000"/>
+		<property name="prt_intensity_contrast" value="1.000"/>
+		<property name="prt_fallback_probe_index" value="-1, -1, -1"/>
+		<property name="enforced_color_grade" value=""/>
+		<property name="gi_data_exists" value="false"/>
+		<atmosphere_properties>
+			<property name="atmosphere_name" value="scene_atmosphere"/>
+			<property name="wind" value="0.000, 0.000"/>
+			<property name="scene_fog_falloff_offset" value="0.000"/>
+		</atmosphere_properties>
+		<water_properties version="1">
+			<property name="water_level" value="-100.000"/>
+			<property name="water_strength" value="5.000"/>
+			<property name="water_wind_dependency" value="1.000"/>
+			<property name="water_material" value="water_default"/>
+			<property name="water_shallow_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_deep_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_exists" value="false"/>
+			<property name="place_water_probe" value="true"/>
+		</water_properties>
+		<out_of_bounds_effects_properties>
+			<property name="vignette_color" value="0.000, 0.500, 1.000"/>
+			<property name="vignette_alpha" value="0.000"/>
+		</out_of_bounds_effects_properties>
+	</environment_properties>
+	<entities>
+		<game_entity name="throwing_axe" old_prefab_name="__empty_object">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="throwing_axe_2"/>
+			</tags>
+			<transform position="44.920, -54.663, 2.876" rotation_euler="-0.072, -1.097, -1.303"/>
+			<components>
+				<meta_mesh_component name="axe_craft_13_head" position="0.000, 0.000, 0.010" rotation="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000"/>
+				<meta_mesh_component name="axe_craft_12_handle" position="0.000, 0.000, -0.190" rotation="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000" _index_="1"/>
+			</components>
+		</game_entity>
+		<game_entity name="javelin" old_prefab_name="__empty_object">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="javelin"/>
+			</tags>
+			<transform position="50.175, -60.785, 2.677" rotation_euler="-0.072, -1.356, -1.303"/>
+			<components>
+				<meta_mesh_component name="spear_blade_27"/>
+				<meta_mesh_component name="spear_handle_2" position="0.000, 0.000, -0.700" rotation="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000" _index_="1"/>
+			</components>
+		</game_entity>
+		<game_entity name="throwing_axe" old_prefab_name="__empty_object">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="throwing_axe_1"/>
+			</tags>
+			<transform position="45.017, -54.591, 2.669" rotation_euler="-0.072, -1.795, -1.304"/>
+			<components>
+				<meta_mesh_component name="axe_craft_13_head" position="0.000, 0.000, 0.010" rotation="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000"/>
+				<meta_mesh_component name="axe_craft_12_handle" position="0.000, 0.000, -0.190" rotation="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000" _index_="1"/>
+			</components>
+		</game_entity>
+		<game_entity name="craft_mace" old_prefab_name="__empty_object">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="craft_mace"/>
+			</tags>
+			<transform position="-65.633, 124.375, 1.163" rotation_euler="-0.633, 1.032, -1.426"/>
+			<components>
+				<meta_mesh_component name="mace_head_12"/>
+			</components>
+			<children>
+				<game_entity name="craft_mace_camera" old_prefab_name="" mobility="1">
+					<tags>
+						<tag name="craft_mace_camera"/>
+					</tags>
+					<transform position="0.023, -0.359, -0.145" rotation_euler="0.689, -2.054, 1.940"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="35.020000"/>
+								<variable name="Width" value="420"/>
+								<variable name="Height" value="296"/>
+								<variable name="Downscale Width" value="420"/>
+								<variable name="Near" value="0.100000"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="DOF Focus Start" value="0.000000"/>
+								<variable name="DOF Focus" value="0.000000"/>
+								<variable name="DOF Focus End" value="0.000000"/>
+								<variable name="Background Color" value="1.000, 0.000, 1.000, 1.000"/>
+								<variable name="Render Skybox" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="cape_frame" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="cape_frame"/>
+			</tags>
+			<transform position="87.004, 1.278, -0.023" rotation_euler="0.071, 0.047, -0.331"/>
+			<components>
+				<meta_mesh_component name="battania_warlord_pauldrons"/>
+			</components>
+			<children>
+				<game_entity name="cape_cam" prefab="camera_instance" _index_="0">
+					<tags>
+						<tag name="cape_cam"/>
+					</tags>
+					<transform position="0.292, 1.542, 1.781" rotation_euler="1.372, -0.144, 3.121"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="20.000000"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Far" value="1500.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="shield_lights" old_prefab_name="">
+			<transform position="34.382, -0.186, 1.237" rotation_euler="0.667, 3.100, 3.030"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.012, 0.778, -0.633" rotation_euler="-0.759, 2.701, -2.941"/>
+					<components>
+						<light_component flags="128" color="0.643, 0.835, 1.000" intensity="10.000" radius="2.000" local_frame_rot="2.383507, 0.000000, 0.000000, 0.000000, 2.383507, 0.000000, 0.000000, 0.000000, 2.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="cape_lights" old_prefab_name="">
+			<transform position="87.004, 1.278, -0.023" rotation_euler="0.071, 0.047, -0.330"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-1.114, 0.843, 1.965" rotation_euler="0.084, -0.815, -0.905"/>
+					<components>
+						<light_component flags="128" color="1.000, 0.965, 0.835" intensity="100.000" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="2" mobility="1" shadow_size_multiplier="2" shadow_radius="3.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.610, -0.303, 1.423" rotation_euler="0.801, 1.346, -0.399"/>
+					<components>
+						<light_component color="0.545, 0.765, 1.000" intensity="100.000" hotspot_angle="30.000" falloff_angle="45.000" shadow="2" mobility="1" shadow_size_multiplier="2" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="armor_lights" old_prefab_name="">
+			<transform position="-19.379, 0.896, -0.227" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.941, 1.290, 1.604" rotation_euler="-1.246, 0.595, 0.964"/>
+					<components>
+						<light_component flags="128" color="1.000, 0.949, 0.690" intensity="20.000" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="4" shadow_radius="2.400"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="1.007, -0.748, 1.363" rotation_euler="1.250, 0.603, -0.185"/>
+					<components>
+						<light_component color="0.565, 0.741, 1.000" intensity="100.000" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="1" shadow_radius="2.400"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="armor_frame" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="armor_frame"/>
+			</tags>
+			<transform position="-19.379, 0.896, -0.227" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<cloth_simulator>
+					<meta_mesh_component name="imperial_lamellar_b"/>
+				</cloth_simulator>
+			</components>
+			<children>
+				<game_entity name="armor_cam" prefab="camera_instance" _index_="0">
+					<tags>
+						<tag name="armor_cam"/>
+					</tags>
+					<transform position="0.190, 1.348, 1.322" rotation_euler="1.558, 0.000, 3.023"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="30.000000"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Near" value="0.100000"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="Background Color" value="0.329, 0.337, 0.290, 0.000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="craftmat_frame" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="craftmat_frame"/>
+			</tags>
+			<transform position="-75.970, 5.780, 7.610" rotation_euler="0.681, 0.425, -0.889"/>
+			<components>
+				<meta_mesh_component name="iron_ore"/>
+			</components>
+			<children>
+				<game_entity name="craftmat_cam" old_prefab_name="camera_instance" mobility="1">
+					<tags>
+						<tag name="craftmat_cam"/>
+					</tags>
+					<transform position="0.247, 0.202, 0.173" rotation_euler="1.059, -0.076, 2.330"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="20.000000"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Near" value="0.010000"/>
+								<variable name="Far" value="1000.000000"/>
+								<variable name="DOF Focus Start" value="0.000000"/>
+								<variable name="DOF Focus" value="0.000000"/>
+								<variable name="DOF Focus End" value="0.000000"/>
+								<variable name="Background Color" value="0.329, 0.337, 0.290, 0.000"/>
+								<variable name="Render Skybox" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+					<children>
+						<game_entity name="camera_icon" old_prefab_name="camera_icon" mobility="1">
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<transform position="0.000, 0.000, 1.000" rotation_euler="-1.571, -3.142, 3.142"/>
+							<components>
+								<meta_mesh_component name="icon_camera"/>
+							</components>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="craftmat_lights" old_prefab_name="">
+			<transform position="-75.945, 5.762, 7.594" rotation_euler="0.910, 0.629, -1.613"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.456, -0.265, 0.432" rotation_euler="0.951, -0.922, 0.153"/>
+					<components>
+						<light_component flags="128" color="0.522, 0.690, 1.000" intensity="10.000" radius="3.000" local_frame_rot="1.732051, 0.000000, 0.000000, 0.000000, 1.732051, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="1.000" falloff_angle="30.000" shadow_size_multiplier="2" shadow_radius="2.400"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.297, 0.219, 0.036" rotation_euler="0.694, 1.337, 0.619"/>
+					<components>
+						<light_component flags="128" color="0.667, 1.000, 1.000" intensity="25.000" local_frame_rot="-0.363975, 0.000000, 0.000000, 0.000000, -0.363975, 0.000000, 0.000000, 0.000000, 1.000000" hotspot_angle="2.000" falloff_angle="5020.000" shadow_size_multiplier="2" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.164, 0.193, 0.314" rotation_euler="0.437, 0.813, 1.280"/>
+					<components>
+						<light_component flags="128" color="1.000, 0.412, 0.020" intensity="30.000" local_frame_rot="-0.363975, 0.000000, 0.000000, 0.000000, -0.363975, 0.000000, 0.000000, 0.000000, 1.000000" hotspot_angle="2.000" falloff_angle="5020.000" shadow_size_multiplier="2" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="craft_axe" old_prefab_name="__empty_object">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="craft_axe"/>
+			</tags>
+			<transform position="-33.939, 107.030, 1.135" rotation_euler="-0.456, 0.302, -3.080"/>
+			<components>
+				<meta_mesh_component name="axe_craft_29_head"/>
+			</components>
+			<children>
+				<game_entity name="craft_axe_camera" old_prefab_name="" mobility="1">
+					<tags>
+						<tag name="craft_axe_camera"/>
+					</tags>
+					<transform position="-0.028, -0.463, -0.201" rotation_euler="0.689, -2.054, 1.940"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="35.020000"/>
+								<variable name="Width" value="420"/>
+								<variable name="Height" value="296"/>
+								<variable name="Downscale Width" value="420"/>
+								<variable name="Near" value="0.100000"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="DOF Focus Start" value="0.000000"/>
+								<variable name="DOF Focus" value="0.000000"/>
+								<variable name="DOF Focus End" value="0.000000"/>
+								<variable name="Background Color" value="1.000, 0.000, 1.000, 1.000"/>
+								<variable name="Render Skybox" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="craft_mace_lights" old_prefab_name="__empty_object">
+			<transform position="-65.910, 124.423, 1.266" rotation_euler="1.184, 0.162, -1.913"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.206, -0.128, -0.188" rotation_euler="-0.035, 1.163, -1.148"/>
+					<components>
+						<light_component flags="128" color="0.533, 0.533, 0.533" intensity="5.000" radius="5.000" local_frame_rot="5.958768, 0.000000, 0.000000, 0.000000, 5.958768, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="50.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="craft_big_axe" old_prefab_name="__empty_object">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="craft_big_axe"/>
+			</tags>
+			<transform position="-82.758, 132.654, 1.128" rotation_euler="-0.456, 0.302, -3.080"/>
+			<components>
+				<meta_mesh_component name="axe_craft_16_head"/>
+			</components>
+			<children>
+				<game_entity name="craft_big_axe_camera" old_prefab_name="" mobility="1">
+					<tags>
+						<tag name="craft_big_axe_camera"/>
+					</tags>
+					<transform position="-0.046, -0.605, -0.255" rotation_euler="0.689, -2.054, 1.940"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="35.020000"/>
+								<variable name="Width" value="420"/>
+								<variable name="Height" value="296"/>
+								<variable name="Downscale Width" value="420"/>
+								<variable name="Near" value="0.100000"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="DOF Focus Start" value="0.000000"/>
+								<variable name="DOF Focus" value="0.000000"/>
+								<variable name="DOF Focus End" value="0.000000"/>
+								<variable name="Background Color" value="1.000, 0.000, 1.000, 1.000"/>
+								<variable name="Render Skybox" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="craft_big_axe_lights" old_prefab_name="__empty_object">
+			<transform position="-82.241, 134.556, 1.610" rotation_euler="0.130, 1.538, 1.479"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.311, -0.293, -1.390" rotation_euler="0.151, 1.583, -1.357"/>
+					<components>
+						<light_component flags="128" color="0.533, 0.533, 0.533" intensity="5.000" radius="5.000" local_frame_rot="5.958768, 0.000000, 0.000000, 0.000000, 5.958768, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="50.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.230, -1.237, -0.103" rotation_euler="0.151, 1.583, -1.357"/>
+					<components>
+						<light_component flags="128" color="0.533, 0.533, 0.533" intensity="2.000" radius="5.000" local_frame_rot="5.958768, 0.000000, 0.000000, 0.000000, 5.958768, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="50.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="goods_lights" old_prefab_name="">
+			<transform position="115.234, 0.928, 1.161" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.657, 1.166, 1.049" rotation_euler="0.768, 0.143, -0.524"/>
+					<components>
+						<light_component color="1.000, 0.969, 0.843" intensity="50.000" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.778, -0.876, 0.343" rotation_euler="0.768, 0.143, -0.524"/>
+					<components>
+						<light_component color="0.643, 0.800, 1.000" intensity="50.000" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="goods_frame" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="goods_frame"/>
+			</tags>
+			<transform position="115.234, 0.928, 1.135" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component name="merchandise_gold" position="0.000, 0.000, -0.300" rotation="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000"/>
+			</components>
+			<children>
+				<game_entity name="goods_cam" prefab="camera_instance" _index_="0">
+					<tags>
+						<tag name="goods_cam"/>
+					</tags>
+					<transform position="0.041, 0.244, 0.168" rotation_euler="1.228, -0.011, 2.896"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="10.000000"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Far" value="1500.000000"/>
+							</variables>
+						</script>
+					</scripts>
+					<children>
+						<game_entity _index_="0">
+							<transform position="0.000, -0.002, 0.000"/>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="javelin_lights" old_prefab_name="__empty_object">
+			<transform position="50.296, -60.780, 2.700" rotation_euler="-0.076, -1.742, -1.305"/>
+			<children>
+				<game_entity name="javelin_light_1" old_prefab_name="">
+					<transform position="-0.083, 0.624, 0.846" rotation_euler="0.384, 2.415, -1.056"/>
+					<components>
+						<light_component color="0.769, 0.894, 1.000" intensity="150.000" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+				<game_entity name="javelin_light_1" old_prefab_name="">
+					<transform position="0.315, -0.222, -0.558" rotation_euler="0.384, 2.415, -1.056"/>
+					<components>
+						<light_component color="0.769, 0.894, 1.000" intensity="150.000" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="spear" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="spear"/>
+			</tags>
+			<transform position="44.654, -24.357, 0.555" rotation_euler="-0.220, -1.405, -1.140"/>
+			<components>
+				<meta_mesh_component name="axe_craft_6_handle" position="0.000, 0.000, -0.900" rotation="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000"/>
+				<meta_mesh_component name="spear_blade_2" _index_="1"/>
+				<meta_mesh_component name="axe_craft_27_head" _index_="2"/>
+			</components>
+			<children>
+				<game_entity name="spear_camera" old_prefab_name="" visible="false" mobility="1">
+					<tags>
+						<tag name="spear_camera"/>
+					</tags>
+					<transform position="-0.112, 0.549, -0.164" rotation_euler="0.456, -1.791, -1.282"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="35.000000"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Near" value="0.010000"/>
+								<variable name="Far" value="1000.000000"/>
+								<variable name="DOF Focus Start" value="0.000000"/>
+								<variable name="DOF Focus" value="0.000000"/>
+								<variable name="DOF Focus End" value="0.000000"/>
+								<variable name="Background Color" value="1.000, 0.000, 1.000, 1.000"/>
+								<variable name="Render Skybox" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="spear_lights" old_prefab_name="">
+			<transform position="44.654, -24.357, 0.555" rotation_euler="-0.220, -1.405, -1.140"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.832, 1.225, 0.905" rotation_euler="0.574, 2.080, -1.046"/>
+					<components>
+						<light_component color="1.000, 0.937, 0.859" intensity="150.000" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.869, -0.338, -0.830" rotation_euler="0.574, 2.080, -1.046"/>
+					<components>
+						<light_component color="0.769, 0.894, 1.000" intensity="150.000" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="axe" old_prefab_name="__empty_object">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="axe"/>
+			</tags>
+			<transform position="43.093, -22.948, 2.700" rotation_euler="-0.076, -1.742, -1.305"/>
+			<components>
+				<meta_mesh_component name="axe_craft_6_handle" position="0.000, 0.000, -0.900" rotation="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000"/>
+				<meta_mesh_component name="axe_craft_6_head" _index_="1"/>
+			</components>
+			<children>
+				<game_entity name="axe_camera" old_prefab_name="" visible="false" mobility="1">
+					<tags>
+						<tag name="axe_camera"/>
+					</tags>
+					<transform position="-0.090, 0.639, -0.341" rotation_euler="0.418, -1.864, -1.347"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="34.959999"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Near" value="0.010000"/>
+								<variable name="Far" value="1000.000000"/>
+								<variable name="DOF Focus Start" value="0.000000"/>
+								<variable name="DOF Focus" value="0.000000"/>
+								<variable name="DOF Focus End" value="0.000000"/>
+								<variable name="Background Color" value="1.000, 0.000, 1.000, 1.000"/>
+								<variable name="Render Skybox" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="axe_lights" old_prefab_name="__empty_object">
+			<transform position="43.093, -22.948, 2.700" rotation_euler="-0.076, -1.742, -1.305"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.869, -0.391, -1.229" rotation_euler="0.384, 2.415, -1.056"/>
+					<components>
+						<light_component color="0.769, 0.894, 1.000" intensity="150.000" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.325, 1.165, 2.014" rotation_euler="0.384, 2.415, -1.056"/>
+					<components>
+						<light_component color="1.000, 0.969, 0.843" intensity="150.000" radius="5.000" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="javelin_camera" old_prefab_name="" visible="false" mobility="1">
+			<tags>
+				<tag name="javelin_camera"/>
+			</tags>
+			<transform position="51.115, -61.104, 2.624" rotation_euler="1.291, 2.039, -0.469"/>
+			<scripts>
+				<script name="camera_instance">
+					<variables>
+						<variable name="FOV(Degrees)" value="34.959999"/>
+						<variable name="Width" value="640"/>
+						<variable name="Height" value="300"/>
+						<variable name="Downscale Width" value="640"/>
+						<variable name="Near" value="0.010000"/>
+						<variable name="Far" value="1000.000000"/>
+						<variable name="DOF Focus Start" value="0.000000"/>
+						<variable name="DOF Focus" value="0.000000"/>
+						<variable name="DOF Focus End" value="0.000000"/>
+						<variable name="Background Color" value="1.000, 0.000, 1.000, 1.000"/>
+						<variable name="Render Skybox" value="false"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity name="axe_lights" old_prefab_name="__empty_object">
+			<transform position="45.073, -54.514, 2.700" rotation_euler="-0.076, -1.742, -1.305"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.083, 0.624, 0.846" rotation_euler="0.384, 2.415, -1.056"/>
+					<components>
+						<light_component color="0.769, 0.894, 1.000" intensity="150.000" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.315, -0.222, -0.558" rotation_euler="0.384, 2.415, -1.056"/>
+					<components>
+						<light_component color="0.769, 0.894, 1.000" intensity="150.000" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="dagger" old_prefab_name="__empty_object">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="dagger"/>
+			</tags>
+			<transform position="42.415, -17.419, 1.498" rotation_euler="-1.014, -2.075, -1.362"/>
+			<components>
+				<meta_mesh_component name="dagger_blade_2" position="0.000, 0.000, -0.040" rotation="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000"/>
+				<meta_mesh_component name="aserai_grip_10" position="0.000, 0.000, -0.400" rotation="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000" _index_="1"/>
+			</components>
+			<children>
+				<game_entity name="dagger_camera" old_prefab_name="" visible="false" mobility="1">
+					<tags>
+						<tag name="dagger_camera"/>
+					</tags>
+					<transform position="0.315, -2.771, -0.078" rotation_euler="0.396, -1.550, 1.677"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="10.000000"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Near" value="0.010000"/>
+								<variable name="Far" value="1000.000000"/>
+								<variable name="DOF Focus Start" value="0.000000"/>
+								<variable name="DOF Focus" value="0.000000"/>
+								<variable name="DOF Focus End" value="0.000000"/>
+								<variable name="Background Color" value="1.000, 0.000, 1.000, 1.000"/>
+								<variable name="Render Skybox" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="bow_frame" old_prefab_name="" mobility="1">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="bow_frame"/>
+			</tags>
+			<transform position="57.420, 0.861, 13.916" rotation_euler="0.845, 1.996, -0.325"/>
+			<components>
+				<meta_mesh_component name="shortbow_g"/>
+			</components>
+			<scripts>
+				<script name="show_component_bbox_radius_script">
+					<variables>
+						<variable name="Show" value="true"/>
+					</variables>
+				</script>
+			</scripts>
+			<children>
+				<game_entity name="bow_cam" prefab="camera_instance" _index_="0">
+					<tags>
+						<tag name="bow_cam"/>
+					</tags>
+					<transform position="0.559, 3.250, 4.036" rotation_euler="-0.258, 0.650, 1.106"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="5.000000"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="Background Color" value="0.329, 0.337, 0.290, 0.000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="dagger_lights" old_prefab_name="__empty_object">
+			<transform position="42.415, -17.419, 1.498" rotation_euler="-1.014, -2.075, -1.362"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.705, -1.249, 0.087" rotation_euler="0.094, 2.178, -1.915"/>
+					<components>
+						<light_component color="1.000, 0.969, 0.843" intensity="50.000" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="sword" old_prefab_name="__empty_object">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="sword"/>
+			</tags>
+			<transform position="38.826, -15.562, 1.147" rotation_euler="-0.195, 1.748, 2.369"/>
+			<components>
+				<meta_mesh_component name="aserai_grip_10" position="0.000, 0.000, 0.150" rotation="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000"/>
+				<meta_mesh_component name="battania_blade_3" position="0.000, 0.000, 0.650" rotation="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000" _index_="1"/>
+				<meta_mesh_component name="empire_guard_2" _index_="2"/>
+			</components>
+			<children>
+				<game_entity name="sword_camera" old_prefab_name="__empty_object" mobility="1">
+					<tags>
+						<tag name="sword_camera"/>
+					</tags>
+					<transform position="0.096, -0.689, 0.088" rotation_euler="0.562, -2.035, 1.849"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="35.020000"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Near" value="0.100000"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="DOF Focus Start" value="0.000000"/>
+								<variable name="DOF Focus" value="0.000000"/>
+								<variable name="DOF Focus End" value="0.000000"/>
+								<variable name="Background Color" value="1.000, 0.000, 1.000, 1.000"/>
+								<variable name="Render Skybox" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="sword_lights" old_prefab_name="__empty_object">
+			<transform position="38.826, -15.562, 1.147" rotation_euler="-0.195, 1.748, 2.369"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.715, -1.994, 1.342" rotation_euler="0.078, 2.036, 2.534"/>
+					<components>
+						<light_component color="1.000, 0.969, 0.843" intensity="150.000" radius="5.000" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="bolt_lights" old_prefab_name="">
+			<transform position="73.782, -20.268, 1.161" rotation_euler="-0.831, 1.019, 2.694"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.143, -0.536, 0.559" rotation_euler="0.804, 0.150, -0.532"/>
+					<components>
+						<light_component flags="128" color="1.000, 0.918, 0.831" intensity="15.000" radius="1.200" local_frame_rot="2.078461, 0.000000, 0.000000, 0.000000, 2.078461, 0.000000, 0.000000, 0.000000, 1.200000" hotspot_angle="6.000" falloff_angle="60.000" shadow_size_multiplier="4" shadow_radius="1.200"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.429, 0.108, -0.481" rotation_euler="0.770, 0.145, -0.525"/>
+					<components>
+						<light_component color="0.643, 0.800, 1.000" intensity="15.000" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="craft_spear_blade" old_prefab_name="__empty_object">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="craft_spear_blade"/>
+			</tags>
+			<transform position="-51.365, 117.574, 1.189" rotation_euler="-1.123, 0.268, -0.132"/>
+			<components>
+				<meta_mesh_component name="spear_blade_13"/>
+			</components>
+			<children>
+				<game_entity name="craft_spear_blade_camera" old_prefab_name="" mobility="1">
+					<tags>
+						<tag name="craft_spear_blade_camera"/>
+					</tags>
+					<transform position="-0.022, -0.553, -0.285" rotation_euler="0.606, -2.083, 1.838"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="35.020000"/>
+								<variable name="Width" value="420"/>
+								<variable name="Height" value="296"/>
+								<variable name="Downscale Width" value="420"/>
+								<variable name="Near" value="0.100000"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="DOF Focus Start" value="0.000000"/>
+								<variable name="DOF Focus" value="0.000000"/>
+								<variable name="DOF Focus End" value="0.000000"/>
+								<variable name="Background Color" value="1.000, 0.000, 1.000, 1.000"/>
+								<variable name="Render Skybox" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="bolt_frame" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="bolt_frame"/>
+			</tags>
+			<transform position="73.782, -20.268, 1.161" rotation_euler="-0.832, 1.019, 2.694"/>
+			<components>
+				<meta_mesh_component name="bolt_bl_b_quiver"/>
+			</components>
+			<children>
+				<game_entity name="bolt_cam" prefab="camera_instance" _index_="0">
+					<tags>
+						<tag name="bolt_cam"/>
+					</tags>
+					<transform position="0.496, -1.036, -0.486" rotation_euler="0.481, -2.006, 2.234"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="20.000000"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="Background Color" value="0.329, 0.337, 0.290, 0.000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="arrow_frame" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="arrow_frame"/>
+			</tags>
+			<transform position="73.782, 0.928, 1.161" rotation_euler="-0.831, 1.019, 2.694"/>
+			<components>
+				<meta_mesh_component name="arrow_bl_h_quiver"/>
+			</components>
+			<children>
+				<game_entity name="arrow_cam" prefab="camera_instance" _index_="0">
+					<tags>
+						<tag name="arrow_cam"/>
+					</tags>
+					<transform position="0.537, -1.227, -0.703" rotation_euler="0.481, -2.006, 2.233"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="20.000000"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="Background Color" value="0.329, 0.337, 0.290, 0.000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="banner_frame" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="banner_frame"/>
+			</tags>
+			<transform position="92.157, -13.199, 1.275" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<cloth_simulator>
+					<meta_mesh_component name="dragon_banner_weapon"/>
+				</cloth_simulator>
+			</components>
+			<children>
+				<game_entity name="banner_cam" old_prefab_name="" mobility="1">
+					<tags>
+						<tag name="banner_cam"/>
+					</tags>
+					<transform rotation_euler="1.534, -2.903, -0.923"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="13.000000"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Near" value="0.010000"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="DOF Focus Start" value="0.000000"/>
+								<variable name="DOF Focus" value="0.000000"/>
+								<variable name="DOF Focus End" value="0.000000"/>
+								<variable name="Background Color" value="0.329, 0.337, 0.290, 0.000"/>
+								<variable name="Render Skybox" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+					<children>
+						<game_entity name="camera_icon" old_prefab_name="" mobility="1">
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<transform position="0.000, 0.000, 1.000" rotation_euler="-1.571, -3.142, 3.142"/>
+							<components>
+								<meta_mesh_component name="icon_camera"/>
+							</components>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="banner_lights" old_prefab_name="">
+			<transform position="91.122, -14.249, 1.161" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="2.011, 2.553, 1.508" rotation_euler="1.543, 1.036, 1.091"/>
+					<components>
+						<light_component flags="128" color="1.000, 0.925, 0.859" intensity="25.000" radius="3.000" local_frame_rot="3.575261, 0.000000, 0.000000, 0.000000, 3.575261, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.349, 1.752, 1.071" rotation_euler="-0.433, 0.285, 1.657"/>
+					<components>
+						<light_component color="0.643, 0.800, 1.000" intensity="25.000" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.470, -0.819, 2.179" rotation_euler="-0.433, 0.285, 1.657"/>
+					<components>
+						<light_component color="1.000, 0.925, 0.859" intensity="15.000" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="craft_pommel" old_prefab_name="__empty_object">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="craft_pommel"/>
+			</tags>
+			<transform position="5.417, 76.692, 1.147" rotation_euler="-1.241, 0.284, -1.523"/>
+			<components>
+				<meta_mesh_component name="vlandian_pommel_3"/>
+			</components>
+			<children>
+				<game_entity name="craft_pommel_camera" old_prefab_name="" mobility="1">
+					<tags>
+						<tag name="craft_pommel_camera"/>
+					</tags>
+					<transform position="0.100, -0.146, -0.041" rotation_euler="0.729, -1.887, 2.363"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="35.020000"/>
+								<variable name="Width" value="420"/>
+								<variable name="Height" value="296"/>
+								<variable name="Downscale Width" value="420"/>
+								<variable name="Near" value="0.100000"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="DOF Focus Start" value="0.000000"/>
+								<variable name="DOF Focus" value="0.000000"/>
+								<variable name="DOF Focus End" value="0.000000"/>
+								<variable name="Background Color" value="1.000, 0.000, 1.000, 1.000"/>
+								<variable name="Render Skybox" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="javelin" old_prefab_name="__empty_object">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="javelin_1"/>
+			</tags>
+			<transform position="50.144, -60.936, 2.850" rotation_euler="-0.072, -1.176, -1.303"/>
+			<components>
+				<meta_mesh_component name="spear_blade_27"/>
+				<meta_mesh_component name="spear_handle_2" position="0.000, 0.000, -0.700" rotation="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000" _index_="1"/>
+			</components>
+		</game_entity>
+		<game_entity name="camel_lights" old_prefab_name="">
+			<transform position="84.031, -12.289, 1.161" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="1.231, 2.050, 0.849" rotation_euler="1.543, 1.036, 1.091"/>
+					<components>
+						<light_component flags="128" color="1.000, 0.925, 0.859" intensity="25.000" radius="3.000" local_frame_rot="3.575261, 0.000000, 0.000000, 0.000000, 3.575261, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.971, 1.651, 1.025" rotation_euler="-0.433, 0.285, 1.657"/>
+					<components>
+						<light_component color="0.643, 0.800, 1.000" intensity="25.000" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.185, -0.713, 1.785" rotation_euler="-0.433, 0.285, 1.657"/>
+					<components>
+						<light_component color="1.000, 0.925, 0.859" intensity="15.000" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="axe_camera" old_prefab_name="" visible="false" mobility="1">
+			<tags>
+				<tag name="throwing_axe_camera"/>
+			</tags>
+			<transform position="45.682, -54.786, 2.637" rotation_euler="0.913, 1.776, -0.180"/>
+			<scripts>
+				<script name="camera_instance">
+					<variables>
+						<variable name="FOV(Degrees)" value="34.000000"/>
+						<variable name="Width" value="640"/>
+						<variable name="Height" value="300"/>
+						<variable name="Downscale Width" value="640"/>
+						<variable name="Near" value="0.010000"/>
+						<variable name="Far" value="1000.000000"/>
+						<variable name="DOF Focus Start" value="0.000000"/>
+						<variable name="DOF Focus" value="0.000000"/>
+						<variable name="DOF Focus End" value="0.000000"/>
+						<variable name="Background Color" value="1.000, 0.000, 1.000, 1.000"/>
+						<variable name="Render Skybox" value="false"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity name="craft_spear_blade_lights" old_prefab_name="__empty_object">
+			<transform position="-50.879, 119.289, 1.610" rotation_euler="0.130, 1.538, 1.479"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.251, -0.336, -1.408" rotation_euler="0.136, 1.637, -1.728"/>
+					<components>
+						<light_component flags="128" color="0.533, 0.533, 0.533" intensity="5.000" radius="5.000" local_frame_rot="5.958768, 0.000000, 0.000000, 0.000000, 5.958768, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="50.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.230, -1.237, -0.103" rotation_euler="0.151, 1.583, -1.357"/>
+					<components>
+						<light_component flags="128" color="0.533, 0.533, 0.533" intensity="2.000" radius="5.000" local_frame_rot="5.958768, 0.000000, 0.000000, 0.000000, 5.958768, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="50.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="envmap_prop" old_prefab_name="" mobility="1">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="envmap_probe"/>
+			</tags>
+			<transform position="2.872, 2.038, 0.000" rotation_euler="0.000, 0.000, 3.100"/>
+			<scripts>
+				<script name="ReflectionCapturer">
+					<variables>
+						<variable name="IsGlobal" value="true"/>
+						<variable name="IsParallaxCorrected" value="false"/>
+						<variable name="AmbientMultiplier" value="1.000"/>
+						<variable name="AttenuationCoef" value="20.000"/>
+						<variable name="BoxOffset" value="0.000, 0.000, 0.000, 0.000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity name="bow_lights" old_prefab_name="">
+			<transform position="57.420, 0.861, 13.916" rotation_euler="0.845, 1.996, -0.325"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.156, -1.134, 0.244" rotation_euler="0.000, 1.148, 0.000"/>
+					<components>
+						<light_component color="0.616, 0.824, 1.000" intensity="100.000" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="2" shadow_radius="2.400"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.178, 0.712, 0.094" rotation_euler="0.000, 1.148, 0.000"/>
+					<components>
+						<light_component intensity="30.000" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="2" shadow_radius="2.400"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="helmet_lights" old_prefab_name="">
+			<transform position="-36.770, 5.762, 7.594" rotation_euler="0.910, 0.629, -1.613"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.635, 1.640, 2.638" rotation_euler="-0.816, 0.264, 0.588"/>
+					<components>
+						<light_component flags="128" color="1.000, 0.980, 0.812" intensity="30.000" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="4" shadow_radius="2.400"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.401, -1.091, 2.208" rotation_euler="1.250, 0.603, -0.185"/>
+					<components>
+						<light_component flags="128" color="0.522, 0.690, 1.000" intensity="25.000" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="2" shadow_radius="2.400"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.355, 0.650, 1.216" rotation_euler="-1.369, 2.039, 2.441"/>
+					<components>
+						<light_component flags="128" color="1.000, 0.980, 0.812" intensity="10.000" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="1" shadow_radius="2.400"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="glove_lights" old_prefab_name="">
+			<transform position="66.930, 0.928, 1.161" rotation_euler="-0.831, 1.019, 2.694"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.511, -0.380, 1.540" rotation_euler="0.770, 0.145, -0.525"/>
+					<components>
+						<light_component color="1.000, 0.918, 0.831" intensity="30.000" radius="1.200" local_frame_rot="1.200000, 0.000000, 0.000000, 0.000000, 1.200000, 0.000000, 0.000000, 0.000000, 1.200000" hotspot_angle="6.000" falloff_angle="60.000" shadow_size_multiplier="4" shadow_radius="1.200"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.645, 0.152, 1.132" rotation_euler="0.770, 0.145, -0.525"/>
+					<components>
+						<light_component color="0.643, 0.800, 1.000" intensity="50.000" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="arrow_lights" old_prefab_name="">
+			<transform position="73.782, 0.928, 1.161" rotation_euler="-0.831, 1.019, 2.694"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.143, -0.536, 0.559" rotation_euler="0.804, 0.150, -0.532"/>
+					<components>
+						<light_component flags="128" color="1.000, 0.918, 0.831" intensity="15.000" radius="1.200" local_frame_rot="2.078461, 0.000000, 0.000000, 0.000000, 2.078461, 0.000000, 0.000000, 0.000000, 1.200000" hotspot_angle="6.000" falloff_angle="60.000" shadow_size_multiplier="4" shadow_radius="1.200"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.429, 0.108, -0.481" rotation_euler="0.770, 0.145, -0.525"/>
+					<components>
+						<light_component color="0.643, 0.800, 1.000" intensity="15.000" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="javelin" old_prefab_name="__empty_object">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="javelin_2"/>
+			</tags>
+			<transform position="50.163, -60.810, 2.783" rotation_euler="-0.072, -1.254, -1.303"/>
+			<components>
+				<meta_mesh_component name="spear_blade_27"/>
+				<meta_mesh_component name="spear_handle_2" position="0.000, 0.000, -0.700" rotation="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000" _index_="1"/>
+			</components>
+		</game_entity>
+		<game_entity name="boot_frame" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="boot_frame"/>
+			</tags>
+			<transform position="83.354, 0.928, 1.161" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component name="plated_leather_armor_boot"/>
+			</components>
+			<children>
+				<game_entity name="boot_cam" prefab="camera_instance" _index_="0">
+					<tags>
+						<tag name="boot_cam"/>
+					</tags>
+					<transform position="0.787, 3.131, 0.297" rotation_euler="1.548, 0.000, 2.906"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="10.000000"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Far" value="1500.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="sword_frame" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="sword_frame"/>
+			</tags>
+			<transform position="-29.360, 0.253, 1.274" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component name="vlandia_twohanded_sword_a"/>
+			</components>
+			<children>
+				<game_entity name="sword_cam" prefab="camera_instance" _index_="0">
+					<tags>
+						<tag name="sword_cam"/>
+					</tags>
+					<transform position="-0.056, 5.284, -4.242" rotation_euler="0.326, -2.331, -1.264"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="3.000000"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Near" value="0.100000"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="Background Color" value="0.329, 0.337, 0.290, 0.000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="camel_frame" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="camel_frame"/>
+			</tags>
+			<transform position="83.419, -12.158, 1.161" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component name="camel_mesh"/>
+			</components>
+			<children>
+				<game_entity name="camel_cam" old_prefab_name="" mobility="1">
+					<tags>
+						<tag name="camel_cam"/>
+					</tags>
+					<transform position="3.797, 5.256, 1.597" rotation_euler="1.534, -2.937, -0.923"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="10.000000"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Near" value="0.010000"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="DOF Focus Start" value="0.000000"/>
+								<variable name="DOF Focus" value="0.000000"/>
+								<variable name="DOF Focus End" value="0.000000"/>
+								<variable name="Background Color" value="0.329, 0.337, 0.290, 0.000"/>
+								<variable name="Render Skybox" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+					<children>
+						<game_entity name="camera_icon" old_prefab_name="" mobility="1">
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<transform position="0.000, 0.000, 1.000" rotation_euler="-1.571, -3.142, 3.142"/>
+							<components>
+								<meta_mesh_component name="icon_camera"/>
+							</components>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="craft_blade_lights" old_prefab_name="__empty_object">
+			<transform position="25.638, 62.337, 1.610" rotation_euler="0.130, 1.538, 1.479"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.311, -0.293, -1.390" rotation_euler="0.151, 1.583, -1.357"/>
+					<components>
+						<light_component flags="128" color="0.533, 0.533, 0.533" intensity="5.000" radius="5.000" local_frame_rot="5.958768, 0.000000, 0.000000, 0.000000, 5.958768, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="50.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.230, -1.237, -0.103" rotation_euler="0.151, 1.583, -1.357"/>
+					<components>
+						<light_component flags="128" color="0.533, 0.533, 0.533" intensity="2.000" radius="5.000" local_frame_rot="5.958768, 0.000000, 0.000000, 0.000000, 5.958768, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="50.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="craft_pommel_lights" old_prefab_name="__empty_object">
+			<transform position="5.418, 76.693, 1.147" rotation_euler="-0.195, 1.748, 2.369"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.715, -1.994, 1.342" rotation_euler="0.078, 2.036, 2.534"/>
+					<components>
+						<light_component color="1.000, 0.969, 0.843" intensity="150.000" radius="5.000" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="craft_guard" old_prefab_name="__empty_object">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="craft_guard"/>
+			</tags>
+			<transform position="-6.906, 88.854, 1.203" rotation_euler="-0.558, 1.219, 2.710"/>
+			<components>
+				<meta_mesh_component name="vlandian_guard_6"/>
+			</components>
+			<children>
+				<game_entity name="craft_guard_camera" old_prefab_name="" mobility="1">
+					<tags>
+						<tag name="craft_guard_camera"/>
+					</tags>
+					<transform position="0.078, -0.229, -0.106" rotation_euler="0.624, -2.089, 2.178"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="35.020000"/>
+								<variable name="Width" value="420"/>
+								<variable name="Height" value="296"/>
+								<variable name="Downscale Width" value="420"/>
+								<variable name="Near" value="0.100000"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="DOF Focus Start" value="0.000000"/>
+								<variable name="DOF Focus" value="0.000000"/>
+								<variable name="DOF Focus End" value="0.000000"/>
+								<variable name="Background Color" value="1.000, 0.000, 1.000, 1.000"/>
+								<variable name="Render Skybox" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="craft_guard_lights" old_prefab_name="__empty_object">
+			<transform position="-7.635, 88.165, -0.494" rotation_euler="-0.195, 1.748, 2.369"/>
+		</game_entity>
+		<game_entity name="light1" old_prefab_name="">
+			<transform position="-0.569, 0.607, -0.676" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<light_component color="0.694, 0.506, 0.275" intensity="8.000" radius="8.000" local_frame_rot="8.000000, 0.000000, 0.000000, 0.000000, 8.000000, 0.000000, 0.000000, 0.000000, 8.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="1" shadow_radius="6.400"/>
+			</components>
+		</game_entity>
+		<game_entity name="helmet_frame" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="helmet_frame"/>
+			</tags>
+			<transform position="-36.770, 5.762, 7.594" rotation_euler="0.910, 0.629, -1.613"/>
+			<components>
+				<cloth_simulator>
+					<meta_mesh_component name="empire_helmet_h_fb"/>
+				</cloth_simulator>
+			</components>
+			<children>
+				<game_entity name="helmet_cam" prefab="camera_instance" _index_="0">
+					<tags>
+						<tag name="helmet_cam"/>
+					</tags>
+					<transform position="0.462, 0.798, 1.615" rotation_euler="1.474, -3.141, -0.558"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="20.000000"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Background Color" value="0.329, 0.337, 0.290, 0.000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="craft_blade" old_prefab_name="__empty_object">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="craft_blade"/>
+			</tags>
+			<transform position="25.129, 60.435, 1.093" rotation_euler="-0.108, 1.158, 1.393"/>
+			<components>
+				<meta_mesh_component name="vlandian_blade_3"/>
+			</components>
+			<children>
+				<game_entity name="craft_blade_camera" old_prefab_name="" mobility="1">
+					<tags>
+						<tag name="craft_blade_camera"/>
+					</tags>
+					<transform position="-0.035, -0.553, -0.075" rotation_euler="0.606, -2.083, 1.838"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="35.020000"/>
+								<variable name="Width" value="420"/>
+								<variable name="Height" value="296"/>
+								<variable name="Downscale Width" value="420"/>
+								<variable name="Near" value="0.100000"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="DOF Focus Start" value="0.000000"/>
+								<variable name="DOF Focus" value="0.000000"/>
+								<variable name="DOF Focus End" value="0.000000"/>
+								<variable name="Background Color" value="1.000, 0.000, 1.000, 1.000"/>
+								<variable name="Render Skybox" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="item_tag" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="old_system_item_frame"/>
+			</tags>
+			<transform position="0.000, 0.000, 0.000" rotation_euler="-0.117, 0.107, 1.406" scale="6.000, 6.000, 6.000"/>
+			<components>
+				<meta_mesh_component name="vlandian_pommel_9"/>
+			</components>
+		</game_entity>
+		<game_entity name="craft_handle" old_prefab_name="__empty_object">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="craft_handle"/>
+			</tags>
+			<transform position="-18.039, 99.020, 1.140" rotation_euler="-0.654, 1.794, 2.475"/>
+			<components>
+				<meta_mesh_component name="empire_grip_5"/>
+			</components>
+			<children>
+				<game_entity name="craft_handle_camera" old_prefab_name="" mobility="1">
+					<tags>
+						<tag name="craft_handle_camera"/>
+					</tags>
+					<transform position="0.036, -0.283, -0.132" rotation_euler="0.478, -2.046, 1.924"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="35.020000"/>
+								<variable name="Width" value="420"/>
+								<variable name="Height" value="296"/>
+								<variable name="Downscale Width" value="420"/>
+								<variable name="Near" value="0.100000"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="DOF Focus Start" value="0.000000"/>
+								<variable name="DOF Focus" value="0.000000"/>
+								<variable name="DOF Focus End" value="0.000000"/>
+								<variable name="Background Color" value="1.000, 0.000, 1.000, 1.000"/>
+								<variable name="Render Skybox" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="craft_handle_lights" old_prefab_name="__empty_object">
+			<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.715, -1.994, 1.342" rotation_euler="0.078, 2.036, 2.534"/>
+					<components>
+						<light_component color="1.000, 0.969, 0.843" intensity="150.000" radius="5.000" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="throwing_axe" old_prefab_name="__empty_object">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="throwing_axe"/>
+			</tags>
+			<transform position="44.954, -54.603, 2.764" rotation_euler="-0.072, -1.457, -1.304"/>
+			<components>
+				<meta_mesh_component name="axe_craft_13_head" position="0.000, 0.000, 0.010" rotation="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000"/>
+				<meta_mesh_component name="axe_craft_12_handle" position="0.000, 0.000, -0.190" rotation="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000" _index_="1"/>
+			</components>
+		</game_entity>
+		<game_entity name="sword_lights" old_prefab_name="">
+			<transform position="-29.360, 0.253, 1.274" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.631, -0.128, -0.113" rotation_euler="-1.065, -1.764, 2.490"/>
+					<components>
+						<light_component flags="128" color="0.561, 0.773, 1.000" intensity="20.000" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="1" shadow_radius="1.600"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.303, 0.355, 0.963" rotation_euler="-1.387, -1.604, -0.781"/>
+					<components>
+						<light_component color="1.000, 0.918, 0.831" intensity="15.000" hotspot_angle="6.000" falloff_angle="80.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="crossbow_lights" old_prefab_name="">
+			<transform position="48.866, 0.348, 1.162" rotation_euler="-0.831, 1.019, 2.694"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.092, 0.333, 0.119" rotation_euler="0.770, 0.145, -0.525"/>
+					<components>
+						<light_component color="0.643, 0.800, 1.000" intensity="15.000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.241, -0.293, 0.976" rotation_euler="0.770, 0.145, -0.525"/>
+					<components>
+						<light_component flags="128" color="1.000, 0.918, 0.831" intensity="15.000" radius="1.200" local_frame_rot="2.078461, 0.000000, 0.000000, 0.000000, 2.078461, 0.000000, 0.000000, 0.000000, 1.200000" hotspot_angle="6.000" falloff_angle="60.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="crossbow_frame" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="crossbow_frame"/>
+			</tags>
+			<transform position="48.866, 0.348, 1.162" rotation_euler="-0.831, 1.019, 2.694"/>
+			<components>
+				<meta_mesh_component name="crossbow_c"/>
+			</components>
+			<children>
+				<game_entity name="crossbow_cam" prefab="camera_instance" _index_="0">
+					<tags>
+						<tag name="crossbow_cam"/>
+					</tags>
+					<transform position="0.842, -1.916, -0.545" rotation_euler="0.481, -2.006, 2.233"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="15.000000"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="Background Color" value="0.329, 0.337, 0.290, 0.000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="shield_frame" old_prefab_name="" mobility="1">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="shield_frame"/>
+			</tags>
+			<transform position="34.382, -0.186, 1.237" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component name="kite_shield_b"/>
+			</components>
+			<scripts>
+				<script name="show_component_bbox_radius_script">
+					<variables>
+						<variable name="Show" value="true"/>
+					</variables>
+				</script>
+				<script name="holster_script">
+					<variables>
+						<variable name="Holster Index" value="31"/>
+					</variables>
+				</script>
+			</scripts>
+			<children>
+				<game_entity name="shield_cam" prefab="camera_instance" _index_="0">
+					<tags>
+						<tag name="shield_cam"/>
+					</tags>
+					<transform position="-1.048, -0.019, 1.533" rotation_euler="0.457, 0.483, -2.404"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="18.000000"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="Background Color" value="0.329, 0.337, 0.290, 0.000"/>
+							</variables>
+						</script>
+					</scripts>
+					<children>
+						<game_entity _index_="0">
+							<transform position="0.251, 0.037, 1.409" rotation_euler="-1.567, 1.659, 1.659"/>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="glove_frame" old_prefab_name="" mobility="1">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="glove_frame"/>
+			</tags>
+			<transform position="66.930, 0.928, 1.161" rotation_euler="-0.831, 1.019, 2.694"/>
+			<skeleton skeleton_model="human_skeleton">
+				<bones>
+					<bone frame="-0.341073, 0.000278, 0.940037, 0.000000, -0.000807, -1.000000, 0.000003, 0.000000, 0.940037, -0.000757, 0.341073, 0.000000, 0.109134, -0.022392, 0.047146, 1.000000" _index_="14"/>
+					<bone frame="0.094389, 0.111484, -0.989273, 0.000000, -0.536328, 0.842872, 0.043813, 0.000000, 0.838715, 0.526439, 0.139350, 0.000000, 0.139126, -0.000000, 0.000000, 1.000000" _index_="15"/>
+					<bone frame="1.000000, 0.000000, -0.000000, 0.000000, -0.000000, 1.000000, 0.000000, 0.000000, 0.000000, -0.000000, 1.000000, 0.000000, 0.144439, -0.000000, 0.000000, 1.000000" _index_="16"/>
+					<bone frame="0.944233, -0.329279, -0.000004, 0.000000, 0.301025, 0.863219, -0.405260, 0.000000, 0.133447, 0.382659, 0.914201, 0.000000, 0.144439, 0.000000, 0.000000, 1.000000" _index_="17"/>
+					<bone frame="1.000000, 0.000000, -0.000000, 0.000000, -0.000000, 0.914201, -0.405261, 0.000000, 0.000000, 0.405261, 0.914201, 0.000000, 0.133823, -0.000000, -0.000000, 1.000000" _index_="18"/>
+					<bone frame="0.978119, -0.069866, 0.195965, 0.000000, 0.149247, -0.420597, -0.894887, 0.000000, 0.144945, 0.904553, -0.400967, 0.000000, 0.133823, -0.000000, 0.000000, 1.000000" _index_="19"/>
+					<bone frame="0.012168, -0.932912, 0.359898, 0.000000, 0.884367, 0.178006, 0.431519, 0.000000, -0.466634, 0.313031, 0.827203, 0.000000, 0.076286, 0.022895, 0.007271, 1.000000" _index_="20"/>
+					<bone frame="-0.258819, 0.000117, -0.965926, 0.000000, -0.000889, -1.000000, 0.000117, 0.000000, -0.965925, 0.000889, 0.258819, 0.000000, 0.109134, -0.022392, -0.047146, 1.000000" _index_="21"/>
+					<bone frame="0.039773, 0.108246, 0.993328, 0.000000, -0.243134, 0.965284, -0.095455, 0.000000, -0.969177, -0.237716, 0.064711, 0.000000, 0.139126, 0.000001, -0.000001, 1.000000" _index_="22"/>
+					<bone frame="1.000000, 0.000000, -0.000000, 0.000000, -0.000000, 1.000000, 0.000000, 0.000000, 0.000000, -0.000000, 1.000000, 0.000000, 0.144439, 0.000000, 0.000024, 1.000000" _index_="23"/>
+					<bone frame="0.959275, -0.282475, -0.000102, 0.000000, 0.227179, 0.771704, -0.594022, 0.000000, 0.167875, 0.569807, 0.804449, 0.000000, 0.144439, -0.000000, 0.000000, 1.000000" _index_="24"/>
+					<bone frame="1.000000, 0.000000, -0.000000, 0.000000, -0.000000, 0.804449, -0.594022, 0.000000, 0.000000, 0.594022, 0.804449, 0.000000, 0.133823, 0.000000, 0.000000, 1.000000" _index_="25"/>
+					<bone frame="0.996017, 0.084155, 0.029478, 0.000000, -0.073611, 0.589430, 0.804458, 0.000000, 0.050324, -0.803424, 0.593277, 0.000000, 0.133823, -0.000001, -0.000024, 1.000000" _index_="26"/>
+					<bone frame="0.906436, 0.155157, -0.392811, 0.000000, 0.087802, -0.978982, -0.184080, 0.000000, -0.413116, 0.132367, -0.901007, 0.000000, 0.083821, 0.015469, -0.008345, 1.000000" _index_="27"/>
+				</bones>
+			</skeleton>
+			<scripts>
+				<script name="HandPose"/>
+			</scripts>
+			<children>
+				<game_entity name="glove_cam" old_prefab_name="camera_instance" mobility="1">
+					<tags>
+						<tag name="glove_cam"/>
+					</tags>
+					<transform position="0.568, -1.404, 0.403" rotation_euler="0.709, -2.034, 2.269"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="15.000000"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Near" value="0.010000"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="DOF Focus Start" value="0.000000"/>
+								<variable name="DOF Focus" value="0.000000"/>
+								<variable name="DOF Focus End" value="0.000000"/>
+								<variable name="Background Color" value="1.000, 0.000, 1.000, 1.000"/>
+								<variable name="Render Skybox" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+					<children>
+						<game_entity name="camera_icon" old_prefab_name="camera_icon" mobility="1">
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<transform position="0.000, 0.000, 1.000" rotation_euler="-1.571, -3.142, 3.142"/>
+							<components>
+								<meta_mesh_component name="icon_camera"/>
+							</components>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="horse_lights" old_prefab_name="">
+			<transform position="78.029, 0.928, 1.161" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="2.011, 2.553, 1.508" rotation_euler="1.543, 1.036, 1.091"/>
+					<components>
+						<light_component flags="128" color="1.000, 0.925, 0.859" intensity="25.000" radius="3.000" local_frame_rot="3.575261, 0.000000, 0.000000, 0.000000, 3.575261, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.349, 1.752, 1.071" rotation_euler="-0.433, 0.285, 1.657"/>
+					<components>
+						<light_component color="0.643, 0.800, 1.000" intensity="25.000" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.470, -0.819, 2.179" rotation_euler="-0.433, 0.285, 1.657"/>
+					<components>
+						<light_component color="1.000, 0.925, 0.859" intensity="15.000" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="horse_frame" old_prefab_name="">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="horse_frame"/>
+			</tags>
+			<transform position="78.029, 0.928, 1.161" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<cloth_simulator>
+					<meta_mesh_component name="horse_brown"/>
+				</cloth_simulator>
+			</components>
+			<children>
+				<game_entity name="horse_cam" old_prefab_name="camera_instance" mobility="1">
+					<tags>
+						<tag name="horse_cam"/>
+					</tags>
+					<transform position="3.564, 4.856, 1.589" rotation_euler="1.534, -2.903, -0.923"/>
+					<scripts>
+						<script name="camera_instance">
+							<variables>
+								<variable name="FOV(Degrees)" value="10.000000"/>
+								<variable name="Width" value="640"/>
+								<variable name="Height" value="300"/>
+								<variable name="Downscale Width" value="640"/>
+								<variable name="Near" value="0.010000"/>
+								<variable name="Far" value="1500.000000"/>
+								<variable name="DOF Focus Start" value="0.000000"/>
+								<variable name="DOF Focus" value="0.000000"/>
+								<variable name="DOF Focus End" value="0.000000"/>
+								<variable name="Background Color" value="0.329, 0.337, 0.290, 0.000"/>
+								<variable name="Render Skybox" value="false"/>
+							</variables>
+						</script>
+					</scripts>
+					<children>
+						<game_entity name="camera_icon" old_prefab_name="camera_icon" mobility="1">
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<transform position="0.000, 0.000, 1.000" rotation_euler="-1.571, -3.142, 3.142"/>
+							<components>
+								<meta_mesh_component name="icon_camera"/>
+							</components>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="light2" old_prefab_name="">
+			<transform position="0.275, 0.947, 0.743" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<light_component color="0.514, 0.725, 1.000" intensity="8.000" radius="8.000" local_frame_rot="8.000000, 0.000000, 0.000000, 0.000000, 8.000000, 0.000000, 0.000000, 0.000000, 8.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="1" shadow_radius="6.400"/>
+			</components>
+		</game_entity>
+		<game_entity name="boot_lights" old_prefab_name="">
+			<transform position="83.354, 0.928, 1.161" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="-0.657, 1.166, 1.049" rotation_euler="0.768, 0.143, -0.524"/>
+					<components>
+						<light_component color="1.000, 0.969, 0.843" intensity="50.000" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.778, -0.876, 0.343" rotation_euler="0.768, 0.143, -0.524"/>
+					<components>
+						<light_component color="0.643, 0.800, 1.000" intensity="50.000" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="5.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="craft_axe_lights" old_prefab_name="__empty_object">
+			<transform position="-33.445, 108.934, 1.610" rotation_euler="0.130, 1.538, 1.479"/>
+			<children>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.311, -0.293, -1.390" rotation_euler="0.151, 1.583, -1.357"/>
+					<components>
+						<light_component flags="128" color="0.533, 0.533, 0.533" intensity="5.000" radius="5.000" local_frame_rot="5.958768, 0.000000, 0.000000, 0.000000, 5.958768, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="50.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+				<game_entity name="helmet_light_1" old_prefab_name="">
+					<transform position="0.230, -1.237, -0.103" rotation_euler="0.151, 1.583, -1.357"/>
+					<components>
+						<light_component flags="128" color="0.533, 0.533, 0.533" intensity="2.000" radius="5.000" local_frame_rot="5.958768, 0.000000, 0.000000, 0.000000, 5.958768, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="50.000" falloff_angle="50.000" shadow_size_multiplier="1" shadow_radius="0.800"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+	</entities>
+	<terrain enabled="false"/>
+	<editor_data editor_camera_position="96.194, -9.653, 3.730" editor_camera_elevation="0.232" editor_camera_bearing="0.447" editor_camera_forward="-0.706, -0.679, -0.199" author="" comment=""/>
+	<camera_data near_plane="0.100" far_plane="5000.000"/>
+	<Paths/>
+</scene>
+

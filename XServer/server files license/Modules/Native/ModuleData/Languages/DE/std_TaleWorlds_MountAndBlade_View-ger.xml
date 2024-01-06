@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+  <strings>
+    <string id="2ZarUUbw" text="{KILLERPLAYERNAME} hat {KILLEDPLAYERNAME} getötet!" />
+    <string id="5VIbo2Cb" text="Es konnte keine Verbindung zum Lobbyserver hergestellt werden. Bitte überprüft Eure Internetverbindung und versucht es erneut." />
+    <string id="9CnRKZOb" text="{KILLEDPLAYERNAME} ist gestorben!" />
+    <string id="bUh0x6rA" text="Editor" />
+    <string id="dismissnotification" text="Verwerfen" />
+    <string id="ksq1IBh3" text="Verbindungsfehler" />
+    <string id="NqarFr4P" text="Optionen" />
+    <string id="ODQmOrIw" text="Mitwirkende" />
+    <string id="V8BXjyYq" text="Während der Installation deaktiviert." />
+    <string id="xsC8Ierj" text="({BATTLE_COMBATANT})" />
+    <string id="YbpzLHzk" text="Spiel verlassen" />
+    <string id="YDYnuBmC" text="Mehrspieler" />
+  </strings>
+</base>

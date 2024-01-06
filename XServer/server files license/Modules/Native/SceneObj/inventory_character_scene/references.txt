@@ -1,0 +1,14 @@
+13
+mesh armor_merchant_helmet_c
+mesh feet_male_a
+mesh hands_male_a
+mesh head_male_a
+prefab a_spr_light
+prefab aserai_courtyard_floor_a
+prefab camera_icon
+prefab camera_instance
+prefab envmap_prop
+texture cg_50c_5b
+texture lens_dirt
+texture lens_star
+texture sun_core2

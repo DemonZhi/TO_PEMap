@@ -1,0 +1,388 @@
+<?xml version="1.0"?>
+<prefabs>
+	<game_entity name="_to_carry_kitchen_pot_c" old_prefab_name="">
+		<transform position="-0.330, -0.150, 0.210" rotation_euler="1.047, -2.758, -1.571"/>
+		<physics shape="bo_kitchen_pot_c" mass="1.000"/>
+        <components>
+			<meta_mesh_component name="kitchen_pot_c"/>
+        </components>
+    </game_entity>
+	<game_entity name="_to_carry_arm_kitchen_pot_c" old_prefab_name="">
+		<transform position="0.170, 0.050, -0.410" rotation_euler="-0.213, 0.218, -0.357" scale="0.800, 0.800, 0.800"/>
+		<physics shape="bo_kitchen_pot_c" mass="1.000"/>
+        <components>
+			<meta_mesh_component name="kitchen_pot_c"/>
+        </components>
+    </game_entity>
+	<game_entity name="_to_carry_kitchen_pitcher_a" old_prefab_name="">
+		<transform position="0.170, -0.050, -0.070" rotation_euler="1.065, 0.768, -1.571"/>
+		<physics mass="1.000"/>
+        <components>
+			<meta_mesh_component name="kitchen_pitcher_a"/>
+        </components>
+    </game_entity>
+    <game_entity name="_to_carry_foods_basket_apple">
+		<transform position="0.220, -0.080, -0.040" rotation="0.560986, -0.092296, -0.430459, 0.701057" scale="0.8, 0.8, 0.8"/>
+		<physics shape="bo_foods_basket_apple"/>
+        <components>
+			<meta_mesh_component name="foods_basket_apple"/>
+        </components>
+    </game_entity>
+
+    <game_entity name="apple">
+		<transform position="0.005, -0.03, -0.005" rotation="0.0, -0.0, -0.0, 0.0" scale="0.5, 0.5, 0.5"/>
+		<physics shape="bo_foods_watermelon_a" mass="1.000"/>
+        <components>
+			<meta_mesh_component name="foods_apple_a"/>
+        </components>
+    </game_entity>	
+	
+	<game_entity name="_to_carry_merchandise_hides_b" old_prefab_name="">
+		<transform position="0.080, -0.230, -0.060" rotation_euler="-0.137, 1.202, -0.866" scale="0.800, 0.800, 0.800"/>
+		<physics shape="bo_merchandise_hides_b" mass="1.000"/>
+        <components>
+			<meta_mesh_component name="merchandise_hides_b"/>
+        </components>
+    </game_entity>
+	<game_entity name="_to_carry_foods_pumpkin_a" old_prefab_name="">
+		<transform position="0.080, -0.080, -0.130" rotation_euler="0.366, 0.286, -0.019" scale="0.800, 0.800, 0.800"/>
+		<physics shape="bo_foods_pumpkin_a" mass="1.000"/>
+        <components>
+			<meta_mesh_component name="foods_pumpkin_a"/>
+        </components>
+    </game_entity>
+	<game_entity name="_to_carry_foods_watermelon_a" old_prefab_name="">
+		<transform position="0.110, 0.050, -0.100" rotation_euler="1.222, 0.000, 0.000" scale="0.700, 0.700, 0.700"/>
+		<physics shape="bo_foods_watermelon_a" mass="1.000"/>
+        <components>
+			<meta_mesh_component name="foods_watermelon_a"/>
+        </components>
+    </game_entity>
+	<game_entity name="_to_carry_bed_convolute_g" old_prefab_name="">
+		<transform position="0.090, 0.030, 0.000" rotation_euler="1.267, 0.559, -0.419" scale="0.600, 0.600, 0.600"/>
+		<physics shape="bo_bed_convolute_f" mass="1.000"/>
+        <components>
+			<meta_mesh_component name="bed_convolute_g"/>
+        </components>
+    </game_entity>
+	<game_entity name="_to_carry_bd_basket_a" old_prefab_name="">
+		<transform position="0.330, -0.600, -0.300" rotation_euler="-0.190, 0.160, 0.588" scale="0.800, 0.800, 0.800"/>
+		<physics shape="bo_bd_basket_a" override_material="straw" mass="1.000"/>
+        <components>
+			<meta_mesh_component name="bd_basket_a"/>
+        </components>
+    </game_entity>
+	<game_entity name="tavernkeeper_knife" old_prefab_name="">
+		<transform position="0.030, -0.020, -0.010" rotation_euler="0.000, -1.955, 2.915"/>
+		<physics mass="1.000"/>
+        <components>
+			<meta_mesh_component name="throwing_knife2"/>
+        </components>
+    </game_entity>
+  <game_entity name="tavernkeeper_spatula">
+    <transform position="0.190, -0.080, -0.060" rotation="0.119733, 0.648894, 0.750634, 0.033878"/>
+    <components>
+      <meta_mesh_component name="spatula"/>
+    </components>
+  </game_entity>
+	<game_entity name="_to_carry_bd_basket_prefab_test" old_prefab_name="">
+		<transform position="9.515, 15.415, 0.000" rotation_euler="0.000, 0.000, -0.268"/>
+		<physics shape="bo_bd_basket_a" override_material="straw" mass="1.000"/>
+        <components>
+			<meta_mesh_component name="bd_basket_a"/>
+        </components>
+    </game_entity>
+	<game_entity name="cleaner_broom" old_prefab_name="">
+		<transform position="-0.270, -0.640, -1.220" rotation_euler="-0.511, 0.090, -0.241"/>
+		<physics mass="1.000"/>
+        <components>
+			<meta_mesh_component name="bd_broom_a"/>
+        </components>
+    </game_entity>
+	<game_entity name="_to_carry_bd_fabric_c" old_prefab_name="">
+		<transform position="0.070, -0.150, 0.000" rotation_euler="-1.213, 2.825, 2.623" scale="0.300, 0.500, 0.300"/>
+		<physics shape="bo_bd_fabric_c" mass="1.000"/>
+        <components>
+			<meta_mesh_component name="bd_fabric_c"/>
+        </components>
+    </game_entity>
+	<game_entity name="_to_carry_bed_convolute_a" old_prefab_name="">
+		<transform position="0.060, -0.030, -0.230" rotation_euler="1.074, 0.892, -1.168" scale="0.300, 0.600, 0.300"/>
+		<physics shape="bo_bed_convolute" mass="1.000"/>
+        <components>
+			<meta_mesh_component name="bed_convolute_a"/>
+        </components>
+    </game_entity>
+	<game_entity name="kitchen_mug_a_drink_anim" old_prefab_name="">
+		<transform position="0.040, -0.140, -0.090" rotation_euler="-0.075, 0.166, 1.804" scale="0.900, 0.900, 0.900"/>
+		<physics mass="1.000"/>
+      <components>
+			<meta_mesh_component name="kitchen_mug_a"/>
+      </components>
+    </game_entity>
+	<game_entity name="khuzait_pot_for_drink" old_prefab_name="">
+		<transform position="0.000, -0.050, 0.030" rotation_euler="1.204, 0.000, 0.000" scale="0.500, 0.500, 0.700"/>
+		<physics mass="1.000"/>
+    <components>
+		<meta_mesh_component name="bowl_wood"/>
+	</components>
+    </game_entity>
+	<game_entity name="blacksmith_hammer" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="hammer_wooden"/>
+		</components>
+	</game_entity>
+	<game_entity name="blacksmith_sword" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+                        <meta_mesh_component name="celtic_dagger_a_new"/>
+		</components>
+	</game_entity>
+  <game_entity name="digging_axe">
+    <transform position="-0.06, -0.01, 0.01" rotation="-0.130195, 0.130195, 0.695017, 0.695017" scale="0.7, 0.7, 0.7"/>
+    <!-- x:0, y:21.22, z:90 -->
+    <components>
+      <meta_mesh_component name="bd_pickaxe_b" />
+    </components>
+  </game_entity>
+  
+  <game_entity name="fishing_rod">
+      <transform position="0.04, -0.04, -0.20" rotation="-0.049393, -0.116723, -0.140577, 0.981924" scale="1.0, 1.0, 1.0"/>
+      <!-- x:-3.68, y:-14.10, z:-16.75 -->
+    <components>
+      <meta_mesh_component name="fishing_rod" />
+    </components>
+  </game_entity>
+  
+  <game_entity name="shovel">
+      <transform position="0.06, 0.20, 0.35" rotation="0.187864, 0.231163, 0.841773, -0.450211" scale="1.2, 1.2, 1.0"/>
+      <!-- x:12.71, y:-32.52, z:-120 -->
+    <components>
+      <meta_mesh_component name="peasent_shovel" />
+    </components>
+  </game_entity>
+  
+  <game_entity name="pitchfork">
+      <transform position="0.01, -0.03, -0.01" rotation="0.192919, 0.198684, 0.842439, -0.462172" scale="1.0, 1.0, 1.0"/>
+      <!-- x:12.71, y:-32.52, z:-120 -->
+    <components>
+      <meta_mesh_component name="peasent_wood_pitchfork_2" />
+    </components>
+  </game_entity>
+  
+  <game_entity name="lumberjack_axe">
+      <transform position="0.03, -0.02, -0.03" rotation="-0.182471, -0.098682, -0.258237, 0.943547" scale="1.2, 1.2, 1.0"/>
+      <!-- x:-17.06, y:-17.25, z:-33.19 -->
+    <components>
+      <meta_mesh_component name="axe_l1" />
+    </components>
+  </game_entity>
+  
+    <game_entity name="horse_brush">
+      <transform position="0.02, -0.03, 0.0" rotation="0.662342, 0.374156, 0.374156, -0.530394" scale="0.7, 0.7, 0.7"/>
+      <!-- x:-25.00, y:-100.00, z:-100.00 -->
+    <components>
+      <meta_mesh_component name="horse_brush1" />
+    </components>
+  </game_entity>
+
+  <game_entity name="training_sword">
+      <transform position="0.00, 0.0, 0.0" rotation="0, 0, 0, 0" scale="1, 1, 1"/>
+      <!-- x:-25.00, y:-100.00, z:-100.00 -->
+    <components>
+      <meta_mesh_component name="twohanded_training_sword" />
+    </components>
+  </game_entity>
+  <game_entity name="bastard_sword_t2">
+      <transform position="0.00, 0.0, -0.06" rotation="0, 0, 0, 0" scale="1, 1, 1"/>
+      <!-- x:-25.00, y:-100.00, z:-100.00 -->
+    <components>
+      <meta_mesh_component name="bastard_sword_t2" />
+    </components>
+  </game_entity>
+  
+  <game_entity name="farmer_sickle">
+    <transform position="0, 0, 0" rotation="0, 0, 0, 1" scale="1.0, 1.0, 1.0"/>
+    <!-- x:0, y:21.22, z:90 -->
+    <components>
+      <meta_mesh_component name="peasent_sickle" />
+    </components>
+  </game_entity>
+
+   <game_entity name="notebook">
+    <transform rotation="0.197030, 0.724444, 0.119341, 0.649705" position="0.0, -0.05, -0.03" scale="0.5, 0.5, 0.5"/>
+    <!-- x:0, y:21.22, z:90 -->
+    <components>
+      <meta_mesh_component name="lib_book_open_b" />
+    </components>
+  </game_entity>    
+  
+  <game_entity name="character_creation_notebook">
+    <transform rotation="0.197030, 0.724444, 0.119341, 0.649705" position="0.0, -0.05, -0.03" scale="0.5, 0.5, 0.5"/>
+    <!-- x:0, y:21.22, z:90 -->
+    <components>
+      <meta_mesh_component name="lib_book_open_b" />
+    </components>
+  </game_entity> 
+  
+    <game_entity name="carry_book">
+    <transform rotation="0.650974, -0.045332, -0.038304, 0.756777" position="0.10, -0.02, -0.03" scale="0.8, 0.9, 0.6"/>
+    <!-- x:0, y:21.22, z:90 -->
+    <components>
+      <meta_mesh_component name="lib_book_closed_a" />
+    </components>
+  </game_entity> 
+  
+    <game_entity name="carry_book_left">
+    <transform rotation="-0.652826, -0.060858, 0.059638, 0.752700" position="0.10, 0.02, 0.00" scale="1, 1, 0.2"/>
+    <!-- x:0, y:21.22, z:90 -->
+    <components>
+      <meta_mesh_component name="lib_book_closed_a" />
+    </components>
+  </game_entity> 
+  
+    <game_entity name="carry_game_left">
+    <transform rotation="-0.677501, -0.060680, 0.060032, 0.730552" position="0.10, 0.02, 0.00" scale="0.6, 0.6, 0.6"/>
+    <!-- x:0, y:21.22, z:90 -->
+    <components>
+      <meta_mesh_component name="boardgame_tablut" />
+    </components>
+  </game_entity>   
+ 
+    <game_entity name="carry_sticks">
+    <transform rotation="0.642788, 0.000000, 0.000000, 0.766044" position="0.10, -0.10, 0.00" scale="0.6, 0.4, 0.6"/>
+    <!-- x:0, y:21.22, z:90 -->
+    <components>
+      <meta_mesh_component name="merchandise_wooden_stick" />
+    </components>
+  </game_entity> 
+
+    <game_entity name="carry_chain">
+    <transform rotation="0.451327, 0.552859, -0.540684, -0.445322" position="0.05, 0.00, 0.40" scale="0.9, 0.9, 0.9"/>
+    <!-- x:0, y:21.22, z:90 -->
+    <components>
+      <meta_mesh_component name="torture_tool_chain_b" />
+    </components>
+  </game_entity> 
+  
+    <game_entity name="carry_hammer">
+    <transform rotation="-0.529944, 0.461575, 0.543731, 0.458764" position="0.00, 0.00, 0.60" scale="1.4, 0.9, 0.9"/>
+    <!-- x:0, y:21.22, z:90 -->
+    <components>
+      <meta_mesh_component name="bd_hammer" />
+    </components>
+  </game_entity>   
+
+    <game_entity name="carry_linen">
+    <transform rotation="0.444517, 0.549913, 0.444517, 0.549913" position="-0.02, 0.02, 0.30" scale="0.3, 0.8, 0.3"/>
+    <!-- x:0, y:21.22, z:90 -->
+    <components>
+      <meta_mesh_component name="merchandise_cloth_b" />
+    </components>
+  </game_entity>     
+  
+    <game_entity name="carry_saddle">
+    <transform rotation="0.449036, -0.366816, 0.497314, 0.645361" position="-0.20, 0.20, 0.00" scale="0.9, 0.9, 0.9"/>
+    <!-- x:0, y:21.22, z:90 -->
+    <components>
+      <meta_mesh_component name="saddle_for_npc" />
+    </components>
+  </game_entity>     
+  
+    <game_entity name="carry_guitar">
+    <transform rotation="0.036895, 0.287358, 0.939296, 0.183815" position="0.20, 0.05, -0.35" scale="0.9, 0.9, 0.9"/>
+    <!-- x:0, y:21.22, z:90 -->
+    <components>
+      <meta_mesh_component name="guitar" />
+    </components>
+  </game_entity>   
+
+    <game_entity name="carry_bostaff">
+    <transform rotation="0.000000, 0.000000, 0.000000, 1.000000" position="0.00, 0.00, 0.40" scale="0.15, 0.15, 0.4"/>
+    <!-- x:0, y:21.22, z:90 -->
+    <components>
+      <meta_mesh_component name="bd_pole_3m" />
+    </components>
+  </game_entity> 
+    <game_entity name="carry_bostaff_rogue1">
+    <transform rotation="0.000000, 0.000000, 0.000000, 1.000000" position="0.00, 0.00, -0.50" scale="0.15, 0.15, 0.4"/>
+    <!-- x:0, y:21.22, z:90 -->
+    <components>
+      <meta_mesh_component name="bd_pole_3m" />
+    </components>
+  </game_entity> 
+ 
+     <game_entity name="carry_scroll">
+    <transform rotation="0.519803, 0.350812, 0.362812, 0.689277" position="0.00, 0.00, 0.00" scale="1, 1, 1"/>
+    <!-- x:0, y:21.22, z:90 -->
+    <components>
+      <meta_mesh_component name="lib_scroll_d" />
+    </components>
+  </game_entity>  
+  
+  <game_entity name="pen">
+    <transform position="0.05, -0.05, 0.03" rotation="-0.263794, -0.484074, 0.169180, 0.816984" scale="0.8, 0.8, 0.8"/>
+    <!-- x:0, y:21.22, z:90 -->
+    <components>
+      <meta_mesh_component name="lib_quill_pen" />
+    </components>
+  </game_entity>  
+  <game_entity old_prefab_name="book_for_preacher" name="schoolbook">
+    <transform rotation="0.197030, 0.724444, 0.119341, 0.649705" position="0.0, -0.05, -0.03" scale="0.7, 0.7, 0.9"/>
+    <!-- x:0, y:21.22, z:90 -->
+    <components>
+      <meta_mesh_component name="lib_book_open_c" />
+    </components>
+  </game_entity>  
+
+  <game_entity name="farmer_scythe">
+    <transform position="0.21, 0.14, 0.34" rotation="0.951121, -0.048536, -0.228344, 0.202167" scale="1.0, 1.0, 1.0"/>
+    <!-- x:24, y:153, z:180 -->
+    <components>
+      <meta_mesh_component name="peasent_scythe" />
+    </components>
+  </game_entity>
+  
+	<game_entity old_prefab_name="cleaning_cloth" name="rag_for_cleaning_animation">
+		<components>
+			<meta_mesh_component name="bed_convolute_e"/>
+		</components>
+		<physics mass="1.000" shape="bo_bed_convolute_d"/>
+		<edit_mode_data selection_group_mask="0"/>
+		<transform scale="0.192, 0.108, 0.081" rotation_euler="-1.041, -0.304, 0.000" position="0.029, -0.079, -0.046"/>
+	</game_entity>
+	
+	<game_entity old_prefab_name="baby" name="baby">
+		<components>
+			<meta_mesh_component name="baby"/>
+		</components>
+		<physics mass="1.000" override_material="fabric"/>
+		<edit_mode_data selection_group_mask="0"/>
+		<transform scale="1.0, 1.0, 1.0" rotation_euler="-74.30, -40.40, 105.60" position="0.10, 0.30, 0"/>		
+	</game_entity>
+
+	
+	<game_entity name="baby_right">
+		<components>
+			<meta_mesh_component name="baby_cutscene"/>
+		</components>
+		<physics mass="1.000" override_material="fabric"/>
+		<edit_mode_data selection_group_mask="0"/>
+		<transform scale="1.0, -1.0, 1.0" rotation="0.148796, 0.105338, 0.884872, 0.428677" position="-0.08, -0.12, -0.35"/>		
+	</game_entity>		
+
+	<game_entity name="baby_cutscene">
+		<components>
+			<meta_mesh_component name="baby_cutscene"/>
+		</components>
+		<physics mass="1.000" override_material="fabric"/>
+		<edit_mode_data selection_group_mask="0"/>
+		<transform scale="1.0, -1.0, 1.0" rotation="0.148796, 0.105338, 0.884872, 0.428677" position="-0.08, -0.12, -0.35"/>		
+	</game_entity>	
+
+	
+</prefabs>
+

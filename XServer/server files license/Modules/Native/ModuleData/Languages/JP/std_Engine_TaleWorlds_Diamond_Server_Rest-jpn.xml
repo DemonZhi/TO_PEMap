@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+    <string id="DLKRQOuM" text="お使いのプラットフォームサービスからアクセスを取得できませんでした。(エラー: {ACCESSERROR})" />
+    <string id="NRa52uaF" text="お使いのプラットフォームサービスからアクセスを取得できませんでした。" />
+  </strings>
+</base>

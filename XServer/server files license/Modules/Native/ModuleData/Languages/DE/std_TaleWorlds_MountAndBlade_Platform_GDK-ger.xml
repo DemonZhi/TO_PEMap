@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+  <strings>
+    <string id="3o9AO00M" text="Der Server ist voll." />
+    <string id="7G7lu7az" text="Kann keine Einladungen verschicken." />
+    <string id="bjhBPJDF" text="Einladen fehlgeschlagen!" />
+    <string id="BLw3AJjM" text="Es stehe keine Freunde zur Verfügung, die eingeladen werden können." />
+    <string id="oZ326SFY" text="Spielbeitritt fehlgeschlagen." />
+    <string id="tak1GATd" text="Du befindest dich nicht in einem laufenden Spiel." />
+    <string id="vIonllGr" text="Falsche Lobby" />
+    <string id="x9YcKgLf" text="Freundschaftsliste kann nicht angezeigt werden." />
+    <string id="XlPML483" text="Spieler für Einladung wählen" />
+    <string id="yS7PvrTD" text="In Ordnung." />
+  </strings>
+</base>

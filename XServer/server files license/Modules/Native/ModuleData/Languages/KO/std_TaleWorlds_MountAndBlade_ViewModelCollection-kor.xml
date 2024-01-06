@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="0647tsif" text="프로필" />
+    <string id="08KLQa3P" text="부대원을 기다리는 중" />
+    <string id="0af2iQvw" text="클랜에 공지가 없습니다." />
+    <string id="0B27RrYJ" text="바타니아" />
+    <string id="0DnHFlia" text="클랜 소속 아님" />
+    <string id="0FVlAbbJ" text="골드 III" />
+    <string id="0Itt3bZM" text="현재 키바인딩 문서 버전의 기한이 만료되었습니다. 키바인딩이 기본 설정으로 복구되었습니다." />
+    <string id="0tUYng4e" text="레벨 업!" />
+    <string id="18yFEEIL" text="예상 대기 시간" />
+    <string id="1A1t1naG" text="진행 중인 등급전에서 나갔습니다. 게임에 다시 접속해주세요." />
+    <string id="1Bm1Wk1v" text="보병" />
+    <string id="1hlaGzGI" text="보기" />
+    <string id="1hnq3Kb1" text="모든 속성을 초기화하시겠습니까? 변경사항이 사라집니다." />
+    <string id="1imGhhZl" text="어시스트" />
+    <string id="1JlzQIXE" text="비활성화됨" />
+    <string id="1pwQgr04" text="매치메이킹 요청" />
+    <string id="2AGvFYk9" text="임무를 시작하려면 {FORMATION_CLASS} 클래스를 지닌 대형 하나 이상을 보유해야 합니다." />
+    <string id="2baWg4Gq" text="호스트" />
+    <string id="2faDtaGz" text="골드 I" />
+    <string id="2FaZ6E1k" text="처치 사망 비율" />
+    <string id="2KZLf51A" text="평가전 완료" />
+    <string id="2YIVRuRa" text="친구 목록에서 삭제" />
+    <string id="2zcrC0h1" text="게임 플레이" />
+    <string id="3CpNUnVl" text="취소" />
+    <string id="3CsACce8" text="종료" />
+    <string id="3sRdGQou" text="떠나기" />
+    <string id="3VosbFR0" text="블란디아 용사" />
+    <string id="4Dd2xgPm" text="무게" />
+    <string id="4dRTWSN3" text="점수" />
+    <string id="4gCU2ykB" text="모든 키를 기본값으로 초기화" />
+    <string id="4NaOKslb" text="-" />
+    <string id="4nr9Km6t" text="패배" />
+    <string id="4PrfimcK" text="배지" />
+    <string id="4ZE6i9nW" text="클랜 탈퇴" />
+    <string id="56FyokuX" text="캐주얼 게임 모드입니다." />
+    <string id="5baU17n0" text="매치메이킹 기능은 현재 비활성화되어 있습니다." />
+    <string id="5coyTZOI" text="게임을 시작합니다!" />
+    <string id="5gGyaTPL" text="다시 접속" />
+    <string id="5Ixsvn3s" text="점수판 전환" />
+    <string id="5k4dxUEJ" text="부대" />
+    <string id="5Pea977J" text="세력: " />
+    <string id="5tbWdY1j" text="아바타" />
+    <string id="5Xoilj6r" text="외침" />
+    <string id="5Z0pvuNL" text="레벨 {LEVEL}" />
+    <string id="5zNfxZ7B" text="전쟁 대공" />
+    <string id="61isYVW0" text="{USER_NAME}님을 찾을 수 없습니다." />
+    <string id="65oGXBYQ" text="생성" />
+    <string id="67hsZZor" text="클랜을 떠나시겠습니까?" />
+    <string id="6GSXsdeX" text="속도" />
+    <string id="6MQaCah5" text="게임 참여" />
+    <string id="6mZymVS8" text="마지막 등급에 도달했습니다" />
+    <string id="6syoutpV" text="{WHISPER_TARGET}님의 귓속말" />
+    <string id="6zYeU0VO" text="매치와 연결 끊김" />
+    <string id="74PKmRWJ" text="머리카락 넘기기" />
+    <string id="76HlhP7r" text="탈퇴하려면 리더 역할을 다른 구성원에게 넘겨야 합니다." />
+    <string id="76VR5o8h" text="{SECONDS}초 후에 다른 메시지를 보낼 수 있습니다." />
+    <string id="77jmd4QF" text="영구 음성 차단" />
+    <string id="7APa598U" text="공성 장비로 처치" />
+    <string id="7gQkFJqA" text="다음 등급까지 {RATING}점 남음" />
+    <string id="7jhe9cT9" text="이 대형의 유형을 변경하려면 이 유형의 대형이 하나 이상 있어야 합니다." />
+    <string id="7jMnNlXG" text="투기장 환경 설정 변경" />
+    <string id="7qySRF2T" text="핑" />
+    <string id="7R0i82Nw" text="인장 변경" />
+    <string id="7uILxbP5" text="획득할 아이템" />
+    <string id="7vbGaapv" text="내 전리품: {LOOT}" />
+    <string id="7XtICVeZ" text="시점" />
+    <string id="82LuSDnd" text="빠른 커서 왼쪽으로 이동" />
+    <string id="8byRf9zO" text="일반" />
+    <string id="8eZFlPVu" text="사망" />
+    <string id="8nJFaJio" text="비밀번호" />
+    <string id="8OkPHu4f" text="아니요" />
+    <string id="942B3LfA" text="친구 요청 거절" />
+    <string id="9ET13VOe" text="평균 점수" />
+    <string id="9FSk2daF" text="처치한 대장" />
+    <string id="9hJtoWot" text="골드 II" />
+    <string id="9M4G8DDd" text="내 팀이 전멸했습니다." />
+    <string id="9P0VL49j" text="멀티 플레이어에 액세스할 수 없습니다." />
+    <string id="9pgOGq7X" text="통나무" />
+    <string id="9w9JsBYP" text="부대 나가기" />
+    <string id="a9TcHtVw" text="세력 B" />
+    <string id="AaAcmalE" text="당신을 부대에 초대한 플레이어:" />
+    <string id="aalbxe7z" text="군대 규모" />
+    <string id="ab2cbidI" text="총점" />
+    <string id="aB4Md0if" text="플레이어 있음" />
+    <string id="aBCi76ig" text="더 보기" />
+    <string id="abxndmIh" text="소셜" />
+    <string id="ADKHovtz" text="배치 초기화" />
+    <string id="ADPaaX8R" text="이 전투의 최고 플레이어" />
+    <string id="aeouhelq" text="예" />
+    <string id="aGGq9lJT" text="문화 변경" />
+    <string id="Agtv9l7S" text="이미 존재하는 이름" />
+    <string id="AGUXiN8u" text="보이보드" />
+    <string id="ahiBhAqU" text="방어구" />
+    <string id="aO3avkK9" text="매치메이킹 비활성화됨" />
+    <string id="ApD0xQXT" text="{STR1}: {STR2}" />
+    <string id="aRzlp5XH" text="생성" />
+    <string id="aseraifaction" text="아세라이" />
+    <string id="atUHbDeM" text="맵 카메라 회전" />
+    <string id="aVixswW5" text="팀 선택" />
+    <string id="aVNXGUQI" text="현재 {MAX_RANK} 등급의 플레이어가 없습니다." />
+    <string id="aWzdkfvn" text="현재 클랜 구성원이 아니거나 소유한 클랜이 없습니다. 본인의 클랜을 창설하려면 클랜 소속이 아닌 플레이어를 모아 부대를 생성해야 합니다." />
+    <string id="aZnS9ECC" text="초대" />
+    <string id="AZSbwcG5" text="전부 음성 차단" />
+    <string id="b1DHZsaH" text="지금은 명령을 내릴 수 없습니다." />
+    <string id="B1KQ4i9q" text="아직 배지를 획득하지 못했습니다. 조건을 확인해주십시오." />
+    <string id="b2aqL7T2" text="패배" />
+    <string id="b31ITmm0" text="수량" />
+    <string id="B5bcj3pC" text="보유함" />
+    <string id="Ba50zU7Z" text="변경" />
+    <string id="BAaS5Dkc" text="적용" />
+    <string id="BANC61K5" text="이전 캐릭터" />
+    <string id="BBmEESTT" text="이 서버는 선택형 모듈을 허용합니다." />
+    <string id="bD8nTS86" text="희귀도" />
+    <string id="bExIl1A2" text="유효하지 않은 이름 길이" />
+    <string id="bfQLwMUp" text="클랜" />
+    <string id="bhQiSzOU" text="프로필을 이용할 수 없습니다." />
+    <string id="bIcFZT6L" text="눈썹 유형" />
+    <string id="bjJkW9dO" text="프로필 보기" />
+    <string id="bLPSaLNv" text="빠른 커서 오른쪽으로 이동" />
+    <string id="bn0v5ST0" text="승급했습니다!" />
+    <string id="bON4Kn6B" text="자동 할당" />
+    <string id="BrjpmaJH" text="패배한 게임 수" />
+    <string id="BrYUHFsg" text="게임 선택" />
+    <string id="bsiRNJtk" text="{NAME}:" />
+    <string id="BSUteZmt" text="친구 요청 수락" />
+    <string id="BUOtUW1u" text="{RATING}점" />
+    <string id="bXAIlBHv" text="공격적인 언어를 사용할 수 없습니다." />
+    <string id="BXI1ObU8" text="클랜 간부로 승격하기" />
+    <string id="bynNUfSr" text="부대원이 부족하여 클랜을 창설할 수 없습니다." />
+    <string id="BZcFB1My" text="게임에 다시 연결하는 동안 잠시만 기다려 주세요." />
+    <string id="c0ZdKSkn" text="기다리는 중" />
+    <string id="c6c9eYrD" text="적 팀의 사기가 떨어졌습니다." />
+    <string id="C7OHivNl" text="친구 &lt;a style=&quot;Strong&quot;&gt;&lt;b&gt;{PLAYER_NAME}&lt;/b&gt;&lt;/a&gt;님이 아래 플레이어를 부대에 초대해 달라고 요청했습니다." />
+    <string id="CacPs8hA" text="브론즈 I" />
+    <string id="CCBcdzGa" text="이 카테고리의 모든 옵션을 기본값으로 초기화합니다. 이 행동은 취소할 수 없습니다. {newline} {newline}계속하시겠습니까?" />
+    <string id="cDzWYQrz" text="기본 설정으로 초기화하시겠습니까?" />
+    <string id="CIVPNf2d" text="영구 음성 차단 제거" />
+    <string id="cK5DE88I" text="N/A" />
+    <string id="cl2DnRYR" text="이름에는 공격적인 단어를 사용하면 안 됩니다." />
+    <string id="cLJdeUWz" text="키:" />
+    <string id="clxT9H4T" text="내 이름 입력" />
+    <string id="CNR4cZwZ" text="호환 가능한 모듈" />
+    <string id="cO2FDHCa" text="{DUEL_REMAINING_TIME}초 후에 {OPPONENT_NAME}와(과) 결투가 시작됩니다." />
+    <string id="CW2JkWzC" text="이 공지를 삭제하시겠습니까?" />
+    <string id="cw5QyeRU" text="이유 보고" />
+    <string id="cZNA5Z6l" text="대형 {NUMBER}" />
+    <string id="D0TbQm4r" text="돌파당함" />
+    <string id="d1tCz15N" text="길게 눌러 떨어뜨리기" />
+    <string id="d5SNB0HV" text="{ITEM_NAME} 줍기" />
+    <string id="d7ysGcsN" text="친구 삭제" />
+    <string id="D9zIAw9y" text="클랜 초대" />
+    <string id="DAVb2Pzg" text="돌진 피해" />
+    <string id="Dbkx4v90" text="라운드 패배" />
+    <string id="Dc3fFblo" text="타임아웃 상태에서 적 팀이 유리했습니다." />
+    <string id="Dhb2N5JD" text="&apos;{KEY}&apos; 키를 눌러 채널 순환" />
+    <string id="dismissnotification" text="취소" />
+    <string id="dkPL25g9" text="상대 팀을 기다리는 중" />
+    <string id="DKqLY1aJ" text="장착" />
+    <string id="DmaP2qaR" text="스킨 유형" />
+    <string id="dMdmyb3Y" text="비밀번호 보호됨" />
+    <string id="DQvGNQ0g" text="지휘 중인 부대가 없습니다." />
+    <string id="DraJ6bxq" text="다음 맵 투표" />
+    <string id="DUrxKsJj" text="실버 I" />
+    <string id="DvnRkWQg" text="{FORMATION_INDEX} 대형으로 부대 전환" />
+    <string id="DXczLzml" text="상태" />
+    <string id="dxlkHhw5" text="승리한 게임" />
+    <string id="DyeaObj5" text="로그아웃하기 전에 게임 검색 요청을 취소해주세요." />
+    <string id="E0q43haK" text="로그인될 때까지 기다려 주세요." />
+    <string id="E3Bqugs0" text="등급 없음" />
+    <string id="e3IeNR9W" text="브론즈 II" />
+    <string id="ebUrBmHK" text="가격" />
+    <string id="ECb8IPbA" text="클랜 창설" />
+    <string id="eCOJSSUH" text="(봇 {BOT_COUNT}개)" />
+    <string id="eeJcVeQG" text="포커스 엔드" />
+    <string id="EFU3uo0y" text="{POINTS}점을 획득했습니다." />
+    <string id="eGuQKRhb" text="지역을 벗어납니다!" />
+    <string id="ehkVpzpa" text="치장 정보 획득 불가" />
+    <string id="empirefaction" text="제국" />
+    <string id="EmVbbIUc" text="돌아가기" />
+    <string id="EQAjujjO" text="클랜 생성 정보를 검색할 수 없습니다" />
+    <string id="eQPSEUml" text="버려짐" />
+    <string id="erp8X0KD" text="배지에서 +{LOOT}" />
+    <string id="Etjqamlh" text="플레이어 {PLAYER_COUNT}명" />
+    <string id="EUAKPHek" text="빌드:" />
+    <string id="eWPN3HmE" text="바타니아의 영웅" />
+    <string id="F2h2cT4q" text="칸이 선택한 자" />
+    <string id="f64QfbTO" text="&apos;{KEY}&apos; 키를 눌러 보내기" />
+    <string id="F70rOpkK" text="대장" />
+    <string id="F7dBjl83" text="사용자 정의 전투는 현재 비활성화되어 있습니다." />
+    <string id="FaKWQccs" text="목표에서 얻은 골드" />
+    <string id="FD7EQDmW" text="게임을 찾는 중" />
+    <string id="fdR3xpBS" text="MVP 배지" />
+    <string id="ffjTMejn" text="통계" />
+    <string id="FgaORzy5" text="거절됨" />
+    <string id="FgFUsncP" text="내림차순" />
+    <string id="FhnKJODX" text="세력 A" />
+    <string id="FjmxNxZJ" text="태그에 유효하지 않은 문자가 있음" />
+    <string id="FjwRsf1C" text="블란디아" />
+    <string id="FKe05WtJ" text="처치" />
+    <string id="fLddxLjh" text="클랜에 초대" />
+    <string id="fM9E7frB" text="퍼포먼스" />
+    <string id="FRSGOfUJ" text="전투 로그를 포함하도록 전환" />
+    <string id="ftoSCQ0x" text="사거리" />
+    <string id="FTXx0aRp" text="다음으로 플레이" />
+    <string id="FvYhaE3z" text="깃발" />
+    <string id="FzFqhHKU" text="전리품 부족" />
+    <string id="g1lgiwn1" text="로그인되지 않음" />
+    <string id="g5W32uf4" text="공지 입력" />
+    <string id="G6hYIR5k" text="음성 높이:" />
+    <string id="g9VIbA9s" text="하사관" />
+    <string id="gamepadActionKeybind" text="행동" />
+    <string id="gamepadMapKeybind" text="지도" />
+    <string id="gamevideo" text="비디오" />
+    <string id="GAZ5QLZi" text="비무장" />
+    <string id="gcl2duJH" text="배지 초기화" />
+    <string id="Gcs49qcC" text="클라이언트에 로드된 서버에서 플레이 중인 맵({MAP_NAME})이 없거나 로컬 맵이 동일하지 않습니다." />
+    <string id="gGa3ZhqN" text="이 플레이어는 자동으로 음성 차단됩니다." />
+    <string id="GGseMDd3" text="내구도" />
+    <string id="ghjSIyIL" text="문화 선택" />
+    <string id="gk5dCG1j" text="추방" />
+    <string id="GMhOZGnb" text="사망 상태에서는 명령을 내릴 수 없습니다." />
+    <string id="GmU1to3Y" text="통계" />
+    <string id="goQ0MZhr" text="이 플레이어에게 활성화된 Bannerlord 플레이어 프로필이 없습니다." />
+    <string id="gowlLS2b" text="클랜 간부 직위 해제하기" />
+    <string id="GPfkMajw" text="전투 종료됨" />
+    <string id="gqNxq11A" text="목표" />
+    <string id="GRpGNYHW" text="클랜 지도자로 승격" />
+    <string id="GXosklej" text="일반" />
+    <string id="gzdNEM76" text="게임 생성" />
+    <string id="H1emUb6k" text="연령:" />
+    <string id="H5tiRTya" text="연습" />
+    <string id="hbwp3g3k" text="+{FRIEND_COUNT} {newline} {?PLURAL}친구{?}친구{\?}" />
+    <string id="hCNnqVgK" text="태그에 유효하지 않은 콘텐츠가 있음" />
+    <string id="hdGay8xc" text="맵 커서 이동" />
+    <string id="HEEZhL90" text="키를 눌러 장착" />
+    <string id="HGqvwRJt" text="실버 III" />
+    <string id="HH7LDwlK" text="토글 시간 배속" />
+    <string id="hiKTvBgF" text="이 탭의 모든 변경사항을 초기화하시겠습니까? 변경사항이 사라집니다." />
+    <string id="hometab" text="홈" />
+    <string id="hPbppi6E" text="로비에 없음" />
+    <string id="HUndnpNw" text="강등되었습니다!" />
+    <string id="HXWpxvgT" text="{ACTION} ({SECONDS})" />
+    <string id="HXxNfncd" text="전투 종료" />
+    <string id="i0esOr2l" text="지휘관이 말을 타지 않았습니다!" />
+    <string id="i0OEsfLt" text="사용자 정의 전투 비활성화됨" />
+    <string id="i28Kjuay" text="캐릭터 이동" />
+    <string id="i2mNBaxE" text="획득" />
+    <string id="i3dJSlD0" text="타임아웃까지 우세한 팀이 없었습니다." />
+    <string id="i4Oo6aoM" text="콘텐츠 다운로드 중..." />
+    <string id="iCaRFZpG" text="이 플레이어와 함께" />
+    <string id="Ie9I2Bha" text="찌르기 피해" />
+    <string id="iKtIhlbo" text="라운드" />
+    <string id="imUnCFgZ" text="미리보기 초기화" />
+    <string id="iNqucBor" text="로그인됨" />
+    <string id="iPx4jep6" text="노출" />
+    <string id="IS4SifJG" text="승리" />
+    <string id="Ise5gWw3" text="플레이한 평가전 {PLAYED_GAMES}/{TOTAL_GAMES}" />
+    <string id="Iu2eFSsh" text="보병 승리" />
+    <string id="J0vjDOFO" text="찌르기 속도" />
+    <string id="J2wEawTl" text="카테고리" />
+    <string id="j4F7tTzy" text="클랜" />
+    <string id="j5pLIV91" text="포커스 스타트" />
+    <string id="J5rb5YVV" text="/ {SCORE}" />
+    <string id="JdEiK70R" text="클랜 리더보드" />
+    <string id="JPimShCw" text="게임 유형" />
+    <string id="jPXglGWT" text="적 팀이 전멸했습니다." />
+    <string id="jR237DSU" text="지휘관이 말에 올랐습니다!" />
+    <string id="jS5rrX8M" text="적용할 변경 사항이 없습니다." />
+    <string id="JTMegIk4" text="수락됨" />
+    <string id="JXyxj1J5" text="모듈" />
+    <string id="JY2pBVHQ" text="공지" />
+    <string id="JYIURZLb" text="매치에서 +{LOOT}" />
+    <string id="jyJXcOLe" text="태그에는 공격적인 단어를 사용하면 안 됩니다." />
+    <string id="K1Gb5a5Q" text="치트 방지로 게임을 실행해야 합니다." />
+    <string id="k7fJ7TF0" text="최소" />
+    <string id="K8CGzQYL" text="받은 요청" />
+    <string id="kF3b8cH1" text="내 클랜 창설" />
+    <string id="kftE5nvv" text="말 방어구" />
+    <string id="kG0xuyfE" text="무기고" />
+    <string id="klkYFik9" text="이미 이 플레이어를 신고했습니다." />
+    <string id="KOVHgkVq" text="투표 종료까지:" />
+    <string id="koX9okuG" text="없음" />
+    <string id="kVII0pqT" text="게이머카드 표시" />
+    <string id="Kvqb1lQR" text="{SCORE}점" />
+    <string id="l2CNxPXG" text="치아 유형" />
+    <string id="L3DJHTdY" text="Bannerlord ID 입력" />
+    <string id="L6eaNe2q" text="{MEMBER_NAME}을(를) 클랜에서 추방하시겠습니까?" />
+    <string id="lBn2pSBL" text="구성원" />
+    <string id="lGbrWyEe" text="친구 요청 취소" />
+    <string id="LlrlE199" text="아직 공성 장비를 배치할 수 있습니다.{newline}그냥 시작하시겠습니까?" />
+    <string id="lO1hok44" text="이름에 유효하지 않은 문자가 있음" />
+    <string id="LrE2cUnG" text="현재 비활성화됨" />
+    <string id="lugGPVOb" text="로그인" />
+    <string id="lWDq0Uss" text="참여" />
+    <string id="lX9Qx7Wo" text="다음 게임 시작까지 남은 시간:" />
+    <string id="LzdUwRJo" text="빠른 플레이와 사용자 정의 게임 지역을 선택하세요" />
+    <string id="m7vOLTpp" text="화면 해상도가 변경되었습니다." />
+    <string id="macpKFaG" text="음성" />
+    <string id="mAxXKaXp" text="초기화" />
+    <string id="MceLT3Zg" text="무선 컨트롤러" />
+    <string id="meFS5F4V" text="-{DAMAGE}" />
+    <string id="mFMPj9zg" text="매치 찾는 중" />
+    <string id="MjnlWhih" text="유효하지 않은 태그 길이" />
+    <string id="mOmFzU78" text="올림차순" />
+    <string id="mPCrz4rs" text="상대적 변경에 대해 부대 비율을 고정합니다." />
+    <string id="MPgnsZoo" text="응답 대기 중" />
+    <string id="MS4Ng2iw" text="{MEMBER_NAME}을(를) 클랜 간부로 임명하시겠습니까?" />
+    <string id="MssTzJJb" text="지휘관으로 배정" />
+    <string id="MT4b8H9h" text="알 수 없음" />
+    <string id="mueocuFG" text="지표 표시" />
+    <string id="N0DXasar" text="다시 연결 중" />
+    <string id="n6yb5VCI" text="도전과제 배지" />
+    <string id="NaZ6xg33" text="참여할 서버를 찾을 수 없습니다." />
+    <string id="nEpZvaEl" text="빠른 커서 아래쪽으로 이동" />
+    <string id="ngyMTaqr" text="영웅 부대로 배정" />
+    <string id="NJolh9ye" text="최근 게임" />
+    <string id="nLdQvaRK" text="투기장 환경설정이 {ARENA_TYPE}(으)로 업데이트되었습니다." />
+    <string id="NLKmdNbt" text="검색" />
+    <string id="NMh61YLB" text="종료하시겠습니까?" />
+    <string id="Npqlj5Ln" text="변경 사항 되돌리기" />
+    <string id="NqarFr4P" text="옵션" />
+    <string id="nqYaiEo2" text="내 배지" />
+    <string id="NuMQvQxg" text="외침" />
+    <string id="NUSH5bJu" text="다음 레벨까지 {EXPERIENCE}exp" />
+    <string id="NwiYsUwm" text="클랜에 설명이 없습니다." />
+    <string id="nWJGjCgy" text="캐릭터" />
+    <string id="oBbiVeKE" text="체력" />
+    <string id="oeSrXaKt" text="간부 중 한 명을 해임해야 합니다." />
+    <string id="oF27vprQ" text="다음 문화 투표" />
+    <string id="oFWcihyW" text="클랜 해산" />
+    <string id="oHaWR73d" text="확인" />
+    <string id="oibdTnXP" text="핸들링" />
+    <string id="OiWquyWY" text="부대장만 클랜을 창설할 수 있습니다." />
+    <string id="OJbpmlXu" text="원거리" />
+    <string id="OKUTPdaa" text="레벨" />
+    <string id="ol0rBSrb" text="{STR1}{newline}{STR2}" />
+    <string id="oMiNaY1E" text="게시자:" />
+    <string id="oMYz0PvL" text="{POINTS}점을 잃었습니다." />
+    <string id="ou5KJERr" text="&apos;{KEY}&apos; 키를 눌러 숨기기" />
+    <string id="OUvFT99g" text="태그" />
+    <string id="OVcoYxj1" text="서버 이름" />
+    <string id="ovqtG4LS" text="PlayStation™Network 프로필 표시" />
+    <string id="OwqFpPwa" text="필터" />
+    <string id="oYS9sabI" text="(선택)" />
+    <string id="oyVeCtlg" text="명단" />
+    <string id="oZc8oEAP" text="이 카테고리를 기본값으로 초기화" />
+    <string id="OzifZbSB" text="매치 유형" />
+    <string id="ozREO8ev" text="Bannerlord ID 변경" />
+    <string id="oZrVNUOk" text="오류" />
+    <string id="P1MybNr7" text="공지 삭제" />
+    <string id="P3IWytsr" text="대형이 현재 비어 있습니다" />
+    <string id="P5Z9owOy" text="인장" />
+    <string id="P7moPm3F" text="파티장으로 설정" />
+    <string id="p83IO9ls" text="문화를 선택해야 합니다." />
+    <string id="partykick" text="추방" />
+    <string id="PDdh1sBj" text="이름" />
+    <string id="PE5LqC9O" text="팀 매치" />
+    <string id="peUP9ZZj" text="정말로 나가시겠습니까? 변경 사항이 저장되지 않습니다." />
+    <string id="pguhTmXw" text="전투 결과" />
+    <string id="photomodefocus" text="포커스" />
+    <string id="PjO7oY16" text="스투르지아" />
+    <string id="pK4EyTZC" text="이 설정을 유지하시겠습니까?" />
+    <string id="playgame" text="플레이" />
+    <string id="PmbKYDON" text="함성" />
+    <string id="Po8jNaXb" text="문자만 포함 가능" />
+    <string id="pSb1P6ZA" text="{MEMBER_NAME}을(를) 클랜 간부에서 해임하시겠습니까?" />
+    <string id="pSheKLB4" text="관전자" />
+    <string id="PUjDWe5j" text="문화" />
+    <string id="Pwi1YCjH" text="Bannerlord ID 복사" />
+    <string id="q2Y7aHSF" text="초대 추천" />
+    <string id="Q50X65NB" text="직업" />
+    <string id="q7VcSSbp" text="인장 선택" />
+    <string id="qa9aOxLm" text="이 클랜에 합류하시겠습니까?" />
+    <string id="QDNcl3DH" text="부대 초대" />
+    <string id="qe46yXVJ" text="밸런스 문제로 잠김" />
+    <string id="qFPBhVh4" text="새로고침" />
+    <string id="QfTt7YRB" text="발사 속도" />
+    <string id="qipBkhys" text="기병대 승리" />
+    <string id="qmNeO8FG" text="조작 키 설정" />
+    <string id="QndVFTbx" text="장착 해제" />
+    <string id="qnxJYAs7" text="부대" />
+    <string id="qTYsYJ9V" text="보내기" />
+    <string id="QvDxB57o" text="{STR1} | {STR2}" />
+    <string id="QwbVdMLi" text="요청 보내기" />
+    <string id="qXxpITdc" text="눈 색깔:" />
+    <string id="qyuhC21P" text="{ACTION} 행동을 원합니다" />
+    <string id="r223yChR" text="개요" />
+    <string id="R28ac5ij" text="플레이어 {NUMBER}명" />
+    <string id="r5WzivPb" text="라운드 시간" />
+    <string id="Rc95Kq8r" text="잠시만 기다려 주세요..." />
+    <string id="RCuCoVgd" text="라운드 승리" />
+    <string id="RfXJdNye" text="플레이어" />
+    <string id="rg7OuWS2" text="조작" />
+    <string id="Rhcberxf" text="서버 대기 중" />
+    <string id="RN6zHak0" text="플레이어" />
+    <string id="RNgWFLIO" text="휘두르기 피해" />
+    <string id="Rov73lC3" text="저장되지 않은 변경 사항" />
+    <string id="RSx1e5Wf" text="캐릭터 편집" />
+    <string id="RVIKFCno" text="기본으로 초기화" />
+    <string id="RvKwdXWs" text="지휘관" />
+    <string id="Rvr1bcu8" text="다음" />
+    <string id="rWm5udCd" text="유효한 Bannerlord ID를 입력해야 합니다." />
+    <string id="rx18kyZb" text="전투 로그" />
+    <string id="RzROgBkv" text="부대에 초대" />
+    <string id="S2bKbhTc" text="자동으로 게임 찾기" />
+    <string id="s31DnnAf" text="피해" />
+    <string id="s6qslcQY" text="{PERCENTAGE} ({TROOP_COUNT}/{TOTAL_TROOP_COUNT})" />
+    <string id="S8pZEPni" text="클랜에서 추방" />
+    <string id="saZ1OvPt" text="로그인 버튼을 눌러 연결할 수 있습니다." />
+    <string id="Sbb8YcJM" text="선택한 영웅 전부 선택 해제" />
+    <string id="sEbeLmZP" text="이 서버는 선택형 모듈을 허용하지 않습니다." />
+    <string id="sFDrUfNR" text="차단" />
+    <string id="SfsnlbyK" text="변경 사항이 적용됐습니다." />
+    <string id="SHiA1TRX" text="DedicatedCustomServerHelper 모듈을 활성화하면 지원하는 서버에서 맵을 다운로드할 수 있습니다!" />
+    <string id="SLY8z9fP" text="모든 대형이 선택되었습니다!" />
+    <string id="SoQcsslF" text="현재 팀" />
+    <string id="sPkRekRL" text="꾸미기" />
+    <string id="SQpGQzTI" text="컨트롤러" />
+    <string id="SrfYbg3x" text="지도자" />
+    <string id="SS5WyUWR" text="승리한 결투" />
+    <string id="suyl7WWa" text="장착한 깃발 없음" />
+    <string id="sWnQva5O" text="현재 등급" />
+    <string id="SwSaXwQg" text="경험치" />
+    <string id="SyklU5aP" text="정보" />
+    <string id="SYYOSOoa" text="준비" />
+    <string id="sZLd6VHi" text="쿠자이트" />
+    <string id="SzRVIPeZ" text="모두 음성 차단 해제" />
+    <string id="TAnabTdy" text="정확도" />
+    <string id="tC9C8TLi" text="친구 추가" />
+    <string id="Th8q8wC2" text="전리품" />
+    <string id="tidE1V1k" text="결투 수락" />
+    <string id="tjioq56N" text="친구 목록" />
+    <string id="Tlc2buKG" text="공식 여부" />
+    <string id="tSMckUw3" text="구성원 초대" />
+    <string id="tTwQsP6j" text="플레이어가 존재하지 않음" />
+    <string id="TxphX8Uk" text="배치" />
+    <string id="TzYWE9tA" text="최근 게임을 찾을 수 없음" />
+    <string id="u0HNU5pA" text="저장되지 않은 변경 사항이 있습니다. 계속하기 전에 적용하시겠습니까?" />
+    <string id="U1rHNqOk" text="&apos;{KEY}&apos; 키를 눌러 취소" />
+    <string id="U4dzbzNb" text="서버에 연결하는 동안 잠시만 기다려 주세요." />
+    <string id="u78WUP9W" text="빠른 커서 위쪽으로 이동" />
+    <string id="UEgS8RcB" text="이름에 유효하지 않은 콘텐츠가 있음" />
+    <string id="ulzyykHO" text="이미 존재하는 태그" />
+    <string id="un7poy9x" text="미리보기" />
+    <string id="uOrwqeQl" text="인장 아이콘을 선택해야 합니다." />
+    <string id="uoVKchoC" text="지역" />
+    <string id="usLhlY2j" text="플레이어 데이터가 다운로드될 때까지 기다려 주세요." />
+    <string id="uTXYEAOg" text="[{STR}]" />
+    <string id="uUoSmCBS" text="Bannerlord 플레이 중" />
+    <string id="UwkpJq9N" text="친구로 추가" />
+    <string id="V0bpuzV3" text="다음으로 미리보기" />
+    <string id="V0k0urbO" text="획득한 아이템" />
+    <string id="V2lpn6dc" text="Bannerlord ID 변경 요청을 보냈습니다." />
+    <string id="V305MaOP" text="온라인" />
+    <string id="v4hVLpap" text="플레이어를 클랜에 초대" />
+    <string id="v6J8ILV3" text="비밀번호 없음" />
+    <string id="vBkrw5VV" text="무작위" />
+    <string id="VFqoa6vD" text="이 플레이어를 부대에 초대하시겠습니까?" />
+    <string id="vGF5S2hE" text="리더보드" />
+    <string id="vlACTion" text="모든 배지를 잠금 해제했습니다!" />
+    <string id="vW1VgmaP" text="클랜을 해산하겠습니까?" />
+    <string id="VyMD4iRV" text="영웅 부대" />
+    <string id="W4DLzPSb" text="서버 여유 있음" />
+    <string id="W51HSyXy" text="{VIEW_OPTIONS_KEY} 키를 눌러 옵션 보기" />
+    <string id="w9m11T1y" text="지도" />
+    <string id="wGjQgQlY" text="다음 게임 시작까지 남은 시간:" />
+    <string id="WHKG5Rbq" text="이 팀이 귀하가 생성한 클랜 매치에 참여하고 싶어합니다." />
+    <string id="WiNRdfsm" text="완료" />
+    <string id="wkIVxzV6" text="다시 시작" />
+    <string id="wlz3eQWp" text="플레이어를 초대할 권한이 없습니다." />
+    <string id="wNAl9o4A" text="다음 대상의 초대를 받았습니다." />
+    <string id="wNUcqcJP" text="클랜 이름" />
+    <string id="WOQZBmMx" text="서버" />
+    <string id="wTtyFa89" text="플레이" />
+    <string id="wubDWOlh" text="프로필 선택" />
+    <string id="wuKqRvc3" text="게임: {GAME_TYPES}  |  지역: {REGIONS}" />
+    <string id="WVauJViF" text="게임 종료까지 남은 시간:" />
+    <string id="WW2N3zJf" text="승수" />
+    <string id="wwbIcqsq" text="정복자" />
+    <string id="WXAaWZVf" text="이전" />
+    <string id="wyKhcvbd" text="원거리 승리" />
+    <string id="x1HZy70i" text="타임아웃 상태에서 내 팀이 유리했습니다." />
+    <string id="xebFLnH2" text="오디오" />
+    <string id="XEGaQB2G" text="등급 진행 상황" />
+    <string id="XJTX8w8M" text="준비 단계 - {GAME_MODE}{newline}플레이어의 참여를 기다리는 중" />
+    <string id="xkV9g4le" text="상대로 수락하시겠습니까?" />
+    <string id="XKWGPrYt" text="파괴한 공성 장비" />
+    <string id="Xsq7z0PG" text="브론즈 III" />
+    <string id="xTv4tCbZ" text="모두 내 말을 들어요!" />
+    <string id="XtVZe9cC" text="아이템을 획득할 수 없습니다." />
+    <string id="xXSFaGW8" text="해산" />
+    <string id="xxuzZJ3G" text="내 팀의 사기가 떨어졌습니다." />
+    <string id="y1AGNqyV" text="클랜 생성을 할 수 없습니다." />
+    <string id="Y94H6XnK" text="수락" />
+    <string id="yA45PqFc" text="게임 찾기" />
+    <string id="YAaAlbkX" text="평균 플레이 시간" />
+    <string id="yfa7tpbK" text="모두" />
+    <string id="yI9EV0II" text="특별 배지" />
+    <string id="YjbNtFcw" text="모든 키를 기본값으로 초기화합니다. 이 행동은 취소할 수 없습니다. {newline} {newline}계속하시겠습니까?" />
+    <string id="yJsE4Ayo" text="휘두르기 속도" />
+    <string id="YLPJWgqF" text="도전" />
+    <string id="YLZV7dxI" text="이 경기장 유형은 이미 선호 등록을 한 유형입니다." />
+    <string id="YNkPy4ta" text="클랜 매치" />
+    <string id="yQ0p8Glo" text="문화 선택" />
+    <string id="yQtzabbe" text="닫기" />
+    <string id="yRIPADWl" text="{TROOP_COUNT}/{TOTAL_TROOP_COUNT}" />
+    <string id="yS7PvrTD" text="확인" />
+    <string id="yUpH2mQ4" text="탄약" />
+    <string id="YVGtcLHF" text="기병대" />
+    <string id="YwbymaBc" text="모든 영웅 선택" />
+    <string id="Z0TW2cub" text="{MEMBER_NAME}을(를) 클랜 지도자로 임명하시겠습니까? 지도자 직책을 잃게 됩니다." />
+    <string id="ZAejS7WF" text="클랜에 초대할 플레이어 선택" />
+    <string id="zBld61ck" text="무게:" />
+    <string id="zEMWM4h3" text="이미 클랜에 소속됨" />
+    <string id="ZixS1b4u" text="이 전투를 지휘하고 있지 않습니다." />
+    <string id="zjcZZgUY" text="깃발 효과" />
+    <string id="znKxunbQ" text="다음 캐릭터" />
+    <string id="zpAamvDv" text="실버 II" />
+    <string id="zravuI1b" text="클랜 정보 입력" />
+    <string id="Zv1lg272" text="오프라인" />
+    <string id="ZwN6rzTC" text="권한 없음" />
+    <string id="ZYF2t1VI" text="간부" />
+  </strings>
+</base>

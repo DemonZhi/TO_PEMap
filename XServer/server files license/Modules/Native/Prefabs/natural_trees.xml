@@ -1,0 +1,830 @@
+<prefabs>
+	<game_entity name="forest_ruinous_tree_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_tree_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_ruinous_pine_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_pine_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_ruinous_tree_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_tree_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_ruinous_pine_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_pine_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="tree_olive_a">
+		<physics shape="bo_tree_olive_a"/>
+		<components>
+			<meta_mesh_component name="tree_olive_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="tree_olive_b">
+		<physics shape="bo_tree_olive_b"/>
+		<components>
+			<meta_mesh_component name="tree_olive_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_ruinous_tree_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_tree_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_ruinous_pine_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_pine_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_ruinous_tree_beech_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_beech_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_tree_beech_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_ruinous_tree_beech_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_beech_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_tree_beech_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_ruinous_tree_beech_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_beech_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_tree_beech_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_ruinous_tree_beech_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_beech_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_tree_beech_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_ruinous_tree_beech_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_beech_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_tree_beech_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_ruinous_tree_beech_f" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_beech_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_tree_beech_f"/>
+		</components>
+	</game_entity>
+	<game_entity name="tree_far_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="tree_far_a">
+				<mesh name="tree_far_a" material="tree_far_spring" argument="0.500, 0.000, 0.000, 0.000"/>
+			</meta_mesh_component>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="SummerMaterial" value="tree_far"/>
+					<variable name="FallMaterial" value="tree_far_fall"/>
+					<variable name="WinterMaterial" value="tree_far_winter"/>
+					<variable name="SpringMaterial" value="tree_far_spring"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="flora_tree_high_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tree_high_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tree_high_b" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tree_high_c" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tree_high_d" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_e_aspen" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tree_high_e_aspen" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_e_aspen"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_f_aspen" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tree_high_f_aspen" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_f_aspen"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_g_aspen" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tree_high_g_aspen" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_g_aspen"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_i_poplar_forest" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tree_high_i_poplar_forest" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_i_poplar_forest"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_l_poplar" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tree_high_l_poplar" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_l_poplar"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_j_poplar_forest">
+		<physics shape="bo_tree_high_j_poplar_forest" override_material="wood"/>
+		<components>
+			<meta_mesh_component name="tree_high_j_poplar_forest"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_m_poplar" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tree_high_m_poplar" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_m_poplar"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_n_sprout_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_n_sprout_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_n_sprout_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_n_sprout_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_n_sprout_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_n_sprout_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_o_pine" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tree_high_o_pine" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_o_pine"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_q_pine" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tree_high_q_pine" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_q_pine"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_r_pine" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tree_high_r_pine" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_r_pine"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_t_pine" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tree_high_t_pine" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_t_pine"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_u_pine" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tree_high_u_pine" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_u_pine"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_v_palm_date_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_composite_tree_high_v_palm_date_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_v_palm_date_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_v_palm_date_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_composite_tree_high_v_palm_date_b" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_v_palm_date_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_v_palm_date_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_composite_tree_high_v_palm_date_c" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_v_palm_date_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_v_palm_date_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_composite_tree_high_v_palm_date_d" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_v_palm_date_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_high_v_palm_date_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_composite_tree_high_v_palm_date_e" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_high_v_palm_date_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_forest_beech_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tree_forest_beech_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_forest_beech_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_forest_beech_young_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tree_forest_beech_young_c" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_forest_beech_young_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="flora_tree_forest_beech_young_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tree_forest_beech_young_b" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_forest_beech_young_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_ruinous_tree_beech__broken_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_beech__broken_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_tree_beech__broken_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_ruinous_tree_beech__broken_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_beech__broken_b" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_tree_beech__broken_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_ruinous_tree_beech__broken_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_beech__broken_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_tree_beech__broken_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_ruinous_tree_beech__broken_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_beech__broken_b" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_tree_beech__broken_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_ruinous_tree_beech__cutted_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_beech__cutted_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_tree_beech__cutted_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_ruinous_tree_beech__cutted_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_beech__cutted_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_tree_beech__cutted_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="tree_acacia_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_tree_acacia_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_acacia_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_ruinous_tree_palm_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_palm_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_tree_palm_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_ruinous_tree_palm_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_forest_ruinous_tree_palm_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_ruinous_tree_palm_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="forest_pine" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="forest_pine"/>
+		</components>
+	</game_entity>
+	<game_entity name="dry_tree_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_dry_tree_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="dry_tree_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="dry_tree_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_dry_tree_b" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="dry_tree_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="dry_tree_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_dry_tree_c" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="dry_tree_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="dry_tree_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_dry_tree_d" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="dry_tree_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="dry_tree_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_dry_tree_e" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="dry_tree_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="tree_root_a_acacia" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_tree_root_a_acacia" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_root_a_acacia"/>
+		</components>
+	</game_entity>
+	<game_entity name="tree_root_a_aspen" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_tree_root_a_acacia" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_root_a_aspen"/>
+		</components>
+	</game_entity>
+	<game_entity name="tree_root_a_beech_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_tree_root_a_acacia" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_root_a_beech_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="tree_root_a_pine" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_tree_root_a_acacia" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_root_a_pine"/>
+		</components>
+	</game_entity>
+	<game_entity name="tree_root_a_dry" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_tree_root_a_acacia" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_root_a_dry"/>
+		</components>
+	</game_entity>
+	<game_entity name="tree_root_b_acacia" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_tree_root_b_acacia" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_root_b_acacia"/>
+		</components>
+	</game_entity>
+	<game_entity name="tree_root_b_aspen" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_tree_root_a_acacia" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_root_b_aspen"/>
+		</components>
+	</game_entity>
+	<game_entity name="tree_root_b_beech_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_tree_root_a_acacia" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_root_b_beech_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="tree_root_b_pine" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_tree_root_a_acacia" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_root_b_pine"/>
+		</components>
+	</game_entity>
+	<game_entity name="tree_root_b_dry" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_tree_root_a_acacia" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="tree_root_b_dry"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_e" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_f" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_f" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_f"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_g" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_g" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_g"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_h" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_h" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_h"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_i" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_i" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_i"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_j" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_j" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_j"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_k" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_k" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_k"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_m" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_m" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_m"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_group_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_group_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_group_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_group_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_group_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_group_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_group_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_group_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_group_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_group_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_group_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_group_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_group_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_group_e" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_group_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_group_f" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_group_f" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_group_f"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_group_g" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_group_g" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_group_g"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_group_i" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_group_i" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_group_i"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_group_h" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_group_h" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_group_h"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_group_j" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_group_j" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_group_j"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_group_k" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_group_k" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_group_k"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_pine_group_l" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_pine_group_l" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_pine_group_l"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_tree_high_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_tree_high_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_tree_high_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_tree_high_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_tree_high_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_tree_high_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_tree_high_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_tree_high_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_tree_high_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_tree_high_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_tree_high_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_tree_high_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_tree_high_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_tree_high_e" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_tree_high_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_tree_high_f" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_tree_high_f" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_tree_high_f"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_tree_high_group_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_tree_high_group_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_tree_high_group_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_tree_high_group_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_tree_high_group_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_tree_high_group_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_tree_high_group_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_tree_high_group_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_tree_high_group_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_tree_high_group_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_tree_high_group_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_tree_high_group_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_tree_high_group_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_tree_high_group_e" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_tree_high_group_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_tree_high_group_f" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_tree_high_group_f" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_tree_high_group_f"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_beech_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_beech_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_beech_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_beech_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_beech_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_beech_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_beech_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_beech_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_beech_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_beech_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_beech_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_beech_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_beech_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_beech_e" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_beech_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_beech_f" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_beech_f" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_beech_f"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_beech_group_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_beech_group_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_beech_group_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_beech_group_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_beech_group_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_beech_group_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_beech_group_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_beech_group_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_beech_group_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_beech_group_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_beech_group_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_beech_group_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_beech_group_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_beech_group_e" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_beech_group_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_beech_group_f" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_beech_group_f" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_beech_group_f"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_beech_group_g" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_beech_group_g" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_beech_group_g"/>
+		</components>
+	</game_entity>
+	<game_entity name="log_beech_group_h" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_log_beech_group_h" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="log_beech_group_h"/>
+		</components>
+	</game_entity>
+</prefabs>
+

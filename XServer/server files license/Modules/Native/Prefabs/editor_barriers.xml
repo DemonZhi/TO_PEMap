@@ -1,0 +1,157 @@
+<prefabs>
+	<game_entity name="_barrier_04x04m" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="4.000, 1.000, 4.000"/>
+		<physics shape="bo_barrier" mass="1.000">
+			<body_flags>
+				<body_flag name="barrier"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="barrier"/>
+		</components>
+	</game_entity>
+	<game_entity name="_barrier_08x04m" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="8.000, 1.000, 4.000"/>
+		<physics shape="bo_barrier" mass="1.000">
+			<body_flags>
+				<body_flag name="barrier"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="barrier"/>
+		</components>
+	</game_entity>
+	<game_entity name="_barrier_12x04m" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="12.000, 1.000, 4.000"/>
+		<physics shape="bo_barrier" mass="1.000">
+			<body_flags>
+				<body_flag name="barrier"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="barrier"/>
+		</components>
+	</game_entity>
+	<game_entity name="_barrier_16x04m" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="16.000, 1.000, 4.000"/>
+		<physics shape="bo_barrier" mass="1.000">
+			<body_flags>
+				<body_flag name="barrier"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="barrier"/>
+		</components>
+	</game_entity>
+	<game_entity name="_barrier_ai_04x04m" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="4.000, 1.000, 4.000"/>
+		<physics shape="bo_barrier" mass="1.000">
+			<body_flags>
+				<body_flag name="ai_limiter"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="barrier"/>
+		</components>
+	</game_entity>
+	<game_entity name="_barrier_ai_08x04m" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="8.000, 1.000, 4.000"/>
+		<physics shape="bo_barrier" mass="1.000">
+			<body_flags>
+				<body_flag name="ai_limiter"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="barrier"/>
+		</components>
+	</game_entity>
+	<game_entity name="_barrier_ai_12x04m" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="12.000, 1.000, 4.000"/>
+		<physics shape="bo_barrier" mass="1.000">
+			<body_flags>
+				<body_flag name="barrier"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="barrier"/>
+		</components>
+	</game_entity>
+	<game_entity name="_barrier_ai_16x04m" old_prefab_name="">
+		<visibility_masks>
+			<visibility_mask name="visible_only_when_editing" value="true"/>
+		</visibility_masks>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="16.000, 1.000, 4.000"/>
+		<physics shape="bo_barrier" mass="1.000">
+			<body_flags>
+				<body_flag name="ai_limiter"/>
+			</body_flags>
+		</physics>
+		<components>
+			<meta_mesh_component name="barrier"/>
+		</components>
+	</game_entity>
+	<game_entity name="barrier">
+		<transform rotation="0.000000, 0.000000, -0.285632, 0.958339"/>
+		<physics shape="bo_barrier"/>
+		<components>
+			<meta_mesh_component name="barrier"/>
+		</components>
+	</game_entity>
+	<game_entity name="physics_body" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_editor_plane" mass="1.000"/>
+		<children>
+			<game_entity name="visual" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="editor_plane_low">
+						<mesh name="editor_plane_low" material="barrier"/>
+					</meta_mesh_component>
+				</components>
+				<levels>
+					<level name="base"/>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+					<level name="siege"/>
+					<level name="civilian"/>
+					<level name="sally"/>
+				</levels>
+			</game_entity>
+		</children>
+		<levels>
+			<level name="base"/>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+			<level name="siege"/>
+			<level name="civilian"/>
+			<level name="sally"/>
+		</levels>
+	</game_entity>
+</prefabs>
+

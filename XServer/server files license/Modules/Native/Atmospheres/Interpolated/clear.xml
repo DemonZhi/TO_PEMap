@@ -1,0 +1,661 @@
+<?xml version="1.0"?>
+<atmo>
+	<interpolation_data version="1">
+		<interpolation_element name="CloudShadow#cloud_shadow_amount">
+			<key_frame frame="0" value="0.496" tangent="2.000, 0.000"/>
+			<key_frame frame="51" value="0.350" tangent="-2.000, 0.000"/>
+			<key_frame frame="51" value="0.350" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="0.358" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="0.358" tangent="2.000, 0.000"/>
+			<key_frame frame="118" value="0.500" tangent="-2.000, 0.000"/>
+			<key_frame frame="118" value="0.500" tangent="2.000, 0.000"/>
+			<key_frame frame="192" value="0.350" tangent="-2.000, 0.000"/>
+			<key_frame frame="192" value="0.350" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="0.000" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="CloudShadow#cloud_shadow_begin_height">
+			<key_frame frame="0" value="200.000" tangent="2.000, 0.000"/>
+			<key_frame frame="30" value="200.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="30" value="200.000" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="200.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="200.000" tangent="2.000, 0.000"/>
+			<key_frame frame="90" value="200.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="90" value="200.000" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="200.000" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="CloudShadow#cloud_shadow_contrast">
+			<key_frame frame="0" value="1.277" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="1.277" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="1.277" tangent="2.000, 0.000"/>
+			<key_frame frame="90" value="1.277" tangent="-2.000, 0.000"/>
+			<key_frame frame="90" value="1.277" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="1.277" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="CloudShadow#cloud_shadow_end_height">
+			<key_frame frame="0" value="1000.000" tangent="2.000, 0.000"/>
+			<key_frame frame="30" value="1000.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="30" value="1000.000" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="1000.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="1000.000" tangent="2.000, 0.000"/>
+			<key_frame frame="90" value="1000.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="90" value="1000.000" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="1000.000" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="CloudShadow#cloud_shadow_scale">
+			<key_frame frame="0" value="0.600" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="0.600" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="0.600" tangent="2.000, 0.000"/>
+			<key_frame frame="90" value="0.600" tangent="-2.000, 0.000"/>
+			<key_frame frame="90" value="0.600" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="0.600" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="CloudShadow#cloud_shadow_speed">
+			<key_frame frame="0" value="0.110" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="0.110" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="0.110" tangent="2.000, 0.000"/>
+			<key_frame frame="90" value="0.110" tangent="-2.000, 0.000"/>
+			<key_frame frame="90" value="0.110" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="0.110" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Fog&amp;Scatter#fog_density">
+			<key_frame frame="0" value="1.000" tangent="2.000, 0.000"/>
+			<key_frame frame="39" value="1.298" tangent="-38.594, 0.002"/>
+			<key_frame frame="39" value="1.298" tangent="38.594, -0.002"/>
+			<key_frame frame="55" value="1.278" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="1.278" tangent="2.000, 0.000"/>
+			<key_frame frame="120" value="1.000" tangent="-28.019, 0.000"/>
+			<key_frame frame="120" value="1.000" tangent="28.019, 0.000"/>
+			<key_frame frame="201" value="1.298" tangent="-38.594, -0.002"/>
+			<key_frame frame="201" value="1.298" tangent="38.594, 0.002"/>
+			<key_frame frame="240" value="2.000" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Fog&amp;Scatter#fog_falloff">
+			<key_frame frame="0" value="1.000" tangent="2.000, 0.000"/>
+			<key_frame frame="47" value="0.090" tangent="-14.254, -0.057"/>
+			<key_frame frame="47" value="0.090" tangent="14.254, 0.057"/>
+			<key_frame frame="55" value="0.170" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="0.170" tangent="2.000, 0.000"/>
+			<key_frame frame="75" value="0.500" tangent="-13.582, 0.001"/>
+			<key_frame frame="75" value="0.500" tangent="13.582, -0.001"/>
+			<key_frame frame="90" value="0.242" tangent="-2.000, 0.035"/>
+			<key_frame frame="90" value="0.242" tangent="2.000, -0.035"/>
+			<key_frame frame="120" value="0.100" tangent="-20.297, -0.002"/>
+			<key_frame frame="120" value="0.100" tangent="20.297, 0.002"/>
+			<key_frame frame="150" value="0.242" tangent="-2.000, -0.035"/>
+			<key_frame frame="150" value="0.242" tangent="2.000, 0.035"/>
+			<key_frame frame="165" value="0.500" tangent="-13.582, -0.001"/>
+			<key_frame frame="165" value="0.500" tangent="13.582, 0.001"/>
+			<key_frame frame="193" value="0.090" tangent="-14.254, 0.057"/>
+			<key_frame frame="193" value="0.090" tangent="14.254, -0.057"/>
+			<key_frame frame="240" value="0.019" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Fog&amp;Scatter#fog_falloff_altitude">
+			<key_frame frame="0" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="30" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="30" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="0.000" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Fog&amp;Scatter#fog_scatter_blend">
+			<key_frame frame="0" value="1.000" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="1.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="1.000" tangent="2.000, 0.000"/>
+			<key_frame frame="60" value="1.000" tangent="-22.982, 0.000"/>
+			<key_frame frame="60" value="1.000" tangent="22.982, 0.000"/>
+			<key_frame frame="120" value="1.000" tangent="-33.894, 0.001"/>
+			<key_frame frame="120" value="1.000" tangent="33.894, -0.001"/>
+			<key_frame frame="180" value="1.000" tangent="-22.982, 0.000"/>
+			<key_frame frame="180" value="1.000" tangent="22.982, 0.000"/>
+			<key_frame frame="197" value="0.025" tangent="-2.504, 0.016"/>
+			<key_frame frame="197" value="0.025" tangent="2.504, -0.016"/>
+			<key_frame frame="240" value="0.003" tangent="-31.208, 0.013"/>
+		</interpolation_element>
+		<interpolation_element name="Fog&amp;Scatter#fog_start_distance">
+			<key_frame frame="0" value="40.000" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="40.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="40.000" tangent="2.000, 0.000"/>
+			<key_frame frame="90" value="40.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="90" value="40.000" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="40.000" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Fog&amp;Scatter#horizon_distance">
+			<key_frame frame="0" value="10.000" tangent="2.000, 0.000"/>
+			<key_frame frame="30" value="7500.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="30" value="7500.000" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="7500.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="7500.000" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="7500.000" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Fog&amp;Scatter#min_fog">
+			<key_frame frame="0" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="30" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="30" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="40" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="40" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="60" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="60" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="90" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="90" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="110" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="110" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="120" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="120" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="130" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="130" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="150" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="150" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="180" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="180" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="200" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="200" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="0.000" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Fog&amp;Scatter#scatter_strength">
+			<key_frame frame="0" value="50.000" tangent="2.000, 0.000"/>
+			<key_frame frame="40" value="5.063" tangent="-2.000, 0.000"/>
+			<key_frame frame="40" value="5.063" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="5.995" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="5.995" tangent="2.000, 0.000"/>
+			<key_frame frame="57" value="6.000" tangent="-15.597, 0.000"/>
+			<key_frame frame="57" value="6.000" tangent="15.597, 0.000"/>
+			<key_frame frame="91" value="5.000" tangent="-17.275, 0.290"/>
+			<key_frame frame="91" value="5.000" tangent="17.275, -0.290"/>
+			<key_frame frame="149" value="5.000" tangent="-17.275, -0.290"/>
+			<key_frame frame="149" value="5.000" tangent="17.275, 0.290"/>
+			<key_frame frame="183" value="6.000" tangent="-15.597, 0.000"/>
+			<key_frame frame="183" value="6.000" tangent="15.597, 0.000"/>
+			<key_frame frame="200" value="5.063" tangent="-2.000, 0.000"/>
+			<key_frame frame="200" value="5.063" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="5.000" tangent="-17.108, 0.009"/>
+		</interpolation_element>
+		<interpolation_element name="Fog&amp;Scatter#skybox_altitude">
+			<key_frame frame="0" value="7500.000" tangent="2.000, 0.000"/>
+			<key_frame frame="30" value="7500.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="30" value="7500.000" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="7500.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="7500.000" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="7500.000" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Fog&amp;Scatter#skybox_distance">
+			<key_frame frame="0" value="7500.000" tangent="2.000, 0.000"/>
+			<key_frame frame="30" value="7500.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="30" value="7500.000" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="7500.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="7500.000" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="7500.000" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Fog&amp;Scatter#sun_scatter_focus">
+			<key_frame frame="0" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="42" value="7.082" tangent="-13.561, -0.004"/>
+			<key_frame frame="42" value="7.082" tangent="13.561, 0.004"/>
+			<key_frame frame="55" value="8.435" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="8.435" tangent="2.000, 0.000"/>
+			<key_frame frame="59" value="9.831" tangent="-1.832, -0.150"/>
+			<key_frame frame="59" value="9.831" tangent="1.832, 0.150"/>
+			<key_frame frame="119" value="10.000" tangent="-23.172, 0.010"/>
+			<key_frame frame="119" value="10.000" tangent="23.172, -0.010"/>
+			<key_frame frame="181" value="9.831" tangent="-1.832, 0.150"/>
+			<key_frame frame="181" value="9.831" tangent="1.832, -0.150"/>
+			<key_frame frame="198" value="7.082" tangent="-13.561, 0.004"/>
+			<key_frame frame="198" value="7.082" tangent="13.561, -0.004"/>
+			<key_frame frame="240" value="8.800" tangent="-4.754, -1.668"/>
+		</interpolation_element>
+		<interpolation_element name="Fog&amp;Scatter#sun_scatter_strength">
+			<key_frame frame="0" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="53" value="0.100" tangent="-13.036, 0.000"/>
+			<key_frame frame="53" value="0.100" tangent="13.036, 0.000"/>
+			<key_frame frame="55" value="0.099" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="0.099" tangent="2.000, 0.000"/>
+			<key_frame frame="64" value="0.013" tangent="-2.552, 0.003"/>
+			<key_frame frame="64" value="0.013" tangent="2.552, -0.003"/>
+			<key_frame frame="90" value="0.001" tangent="-2.000, 0.000"/>
+			<key_frame frame="90" value="0.001" tangent="2.000, 0.000"/>
+			<key_frame frame="120" value="0.001" tangent="-26.676, 0.000"/>
+			<key_frame frame="120" value="0.001" tangent="26.676, 0.000"/>
+			<key_frame frame="150" value="0.001" tangent="-2.000, 0.000"/>
+			<key_frame frame="150" value="0.001" tangent="2.000, 0.000"/>
+			<key_frame frame="176" value="0.015" tangent="-2.552, -0.003"/>
+			<key_frame frame="176" value="0.015" tangent="2.552, 0.003"/>
+			<key_frame frame="187" value="0.100" tangent="-13.036, 0.000"/>
+			<key_frame frame="187" value="0.100" tangent="13.036, 0.000"/>
+			<key_frame frame="210" value="0.100" tangent="-2.000, 0.000"/>
+			<key_frame frame="210" value="0.100" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="0.101" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Misc#ambient_multiplier">
+			<key_frame frame="0" value="1.000" tangent="2.000, 0.000"/>
+			<key_frame frame="30" value="1.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="30" value="1.000" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="1.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="1.000" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="1.000" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Misc#envmap_positions">
+			<key_frame frame="0" value="0.000" tangent="0.200, 0.000"/>
+			<key_frame frame="1" value="1.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="1" value="1.000" tangent="0.200, 0.000"/>
+			<key_frame frame="2" value="2.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="2" value="2.000" tangent="0.200, 0.000"/>
+			<key_frame frame="3" value="3.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="3" value="3.000" tangent="0.200, 0.000"/>
+			<key_frame frame="4" value="4.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="4" value="4.000" tangent="0.200, 0.000"/>
+			<key_frame frame="5" value="5.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="5" value="5.000" tangent="0.200, 0.000"/>
+			<key_frame frame="6" value="6.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="6" value="6.000" tangent="0.200, 0.000"/>
+			<key_frame frame="7" value="7.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="7" value="7.000" tangent="0.200, 0.000"/>
+			<key_frame frame="8" value="8.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="8" value="8.000" tangent="0.200, 0.000"/>
+			<key_frame frame="9" value="9.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="9" value="9.000" tangent="0.200, 0.000"/>
+			<key_frame frame="10" value="10.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="10" value="10.000" tangent="0.200, 0.000"/>
+			<key_frame frame="11" value="11.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="11" value="11.000" tangent="0.200, 0.000"/>
+			<key_frame frame="12" value="12.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="12" value="12.000" tangent="0.200, 0.000"/>
+			<key_frame frame="13" value="13.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="13" value="13.000" tangent="0.200, 0.000"/>
+			<key_frame frame="14" value="14.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="14" value="14.000" tangent="0.200, 0.000"/>
+			<key_frame frame="15" value="15.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="15" value="15.000" tangent="0.200, 0.000"/>
+			<key_frame frame="16" value="16.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="16" value="16.000" tangent="0.200, 0.000"/>
+			<key_frame frame="17" value="17.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="17" value="17.000" tangent="0.200, 0.000"/>
+			<key_frame frame="18" value="18.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="18" value="18.000" tangent="0.200, 0.000"/>
+			<key_frame frame="19" value="19.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="19" value="19.000" tangent="0.200, 0.000"/>
+			<key_frame frame="20" value="20.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="20" value="20.000" tangent="0.200, 0.000"/>
+			<key_frame frame="21" value="21.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="21" value="21.000" tangent="0.200, 0.000"/>
+			<key_frame frame="22" value="22.000" tangent="-0.200, 0.000"/>
+			<key_frame frame="22" value="22.000" tangent="0.200, 0.000"/>
+			<key_frame frame="23" value="23.000" tangent="-0.200, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Misc#fog_density_elevation_modifier">
+			<key_frame frame="0" value="1.000" tangent="2.000, 0.000"/>
+			<key_frame frame="26" value="0.259" tangent="-23.159, 0.191"/>
+			<key_frame frame="26" value="0.259" tangent="23.159, -0.191"/>
+			<key_frame frame="239" value="0.000" tangent="-173.469, 0.012"/>
+		</interpolation_element>
+		<interpolation_element name="Misc#scatter_strength_elevation_modifier">
+			<key_frame frame="0" value="1.000" tangent="24.340, -0.007"/>
+			<key_frame frame="33" value="0.034" tangent="-3.374, 0.038"/>
+			<key_frame frame="33" value="0.034" tangent="3.374, -0.038"/>
+			<key_frame frame="239" value="0.000" tangent="-122.249, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Postfx#banding_noise_amount">
+			<key_frame frame="0" value="0.500" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="0.500" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="0.500" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="0.500" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Postfx#bloom_amount">
+			<key_frame frame="0" value="1.000" tangent="2.000, 0.000"/>
+			<key_frame frame="39" value="2.561" tangent="-31.862, 0.021"/>
+			<key_frame frame="39" value="2.561" tangent="31.862, -0.021"/>
+			<key_frame frame="55" value="2.551" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="2.551" tangent="2.000, 0.000"/>
+			<key_frame frame="84" value="2.534" tangent="-3.050, 0.002"/>
+			<key_frame frame="84" value="2.534" tangent="3.050, -0.002"/>
+			<key_frame frame="114" value="2.531" tangent="-14.107, 0.000"/>
+			<key_frame frame="114" value="2.531" tangent="14.107, 0.000"/>
+			<key_frame frame="144" value="2.534" tangent="-3.050, -0.002"/>
+			<key_frame frame="144" value="2.534" tangent="3.050, 0.002"/>
+			<key_frame frame="189" value="2.561" tangent="-31.862, -0.021"/>
+			<key_frame frame="189" value="2.561" tangent="31.862, 0.021"/>
+			<key_frame frame="240" value="1.400" tangent="-30.786, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Postfx#bloom_strength">
+			<key_frame frame="0" value="0.999" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="0.811" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="0.811" tangent="2.000, 0.000"/>
+			<key_frame frame="90" value="0.694" tangent="-2.000, 0.000"/>
+			<key_frame frame="90" value="0.694" tangent="2.000, 0.000"/>
+			<key_frame frame="121" value="1.000" tangent="-13.079, 0.000"/>
+			<key_frame frame="121" value="1.000" tangent="13.079, 0.000"/>
+			<key_frame frame="150" value="0.694" tangent="-2.000, 0.000"/>
+			<key_frame frame="150" value="0.694" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="1.000" tangent="-55.380, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Postfx#brightpass_exposure">
+			<key_frame frame="0" value="0.869" tangent="2.000, 0.000"/>
+			<key_frame frame="43" value="0.745" tangent="-14.757, -0.022"/>
+			<key_frame frame="43" value="0.745" tangent="14.757, 0.022"/>
+			<key_frame frame="55" value="0.773" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="0.773" tangent="2.000, 0.000"/>
+			<key_frame frame="60" value="0.826" tangent="-3.657, -0.047"/>
+			<key_frame frame="60" value="0.826" tangent="3.657, 0.047"/>
+			<key_frame frame="90" value="0.869" tangent="-2.000, 0.000"/>
+			<key_frame frame="90" value="0.869" tangent="2.000, 0.000"/>
+			<key_frame frame="120" value="0.869" tangent="-2.000, 0.000"/>
+			<key_frame frame="120" value="0.869" tangent="2.000, 0.000"/>
+			<key_frame frame="150" value="0.869" tangent="-2.000, 0.000"/>
+			<key_frame frame="150" value="0.869" tangent="2.000, 0.000"/>
+			<key_frame frame="180" value="0.826" tangent="-3.657, 0.047"/>
+			<key_frame frame="180" value="0.826" tangent="3.657, -0.047"/>
+			<key_frame frame="197" value="0.745" tangent="-14.757, 0.022"/>
+			<key_frame frame="197" value="0.745" tangent="14.757, -0.022"/>
+			<key_frame frame="240" value="0.700" tangent="-25.836, -0.015"/>
+		</interpolation_element>
+		<interpolation_element name="Postfx#colorgrade_texture">
+			<key_frame frame="0" value="1.000" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="1.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="17.000" tangent="2.000, 0.000"/>
+			<key_frame frame="185" value="17.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="185" value="1.000" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="1.000" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Postfx#grain_amount">
+			<key_frame frame="0" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="30" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="30" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="40" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="40" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="60" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="60" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="90" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="90" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="110" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="110" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="120" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="120" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="130" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="130" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="150" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="150" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="180" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="180" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="200" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="200" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="0.000" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Postfx#max_exposure">
+			<key_frame frame="0" value="-1.000" tangent="2.000, 0.000"/>
+			<key_frame frame="46" value="-1.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="46" value="-1.000" tangent="2.000, 0.000"/>
+			<key_frame frame="120" value="-5.000" tangent="-59.659, 0.129"/>
+			<key_frame frame="120" value="-5.000" tangent="59.659, -0.129"/>
+			<key_frame frame="194" value="-1.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="194" value="-1.000" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="-1.000" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Postfx#middle_grey">
+			<key_frame frame="0" value="0.048" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="0.052" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="0.052" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="0.060" tangent="-62.670, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Postfx#min_exposure">
+			<key_frame frame="0" value="-4.000" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="-8.254" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="-8.254" tangent="2.000, 0.000"/>
+			<key_frame frame="118" value="-12.000" tangent="-20.801, -0.011"/>
+			<key_frame frame="118" value="-12.000" tangent="20.801, 0.011"/>
+			<key_frame frame="240" value="-5.000" tangent="-19.647, -0.035"/>
+		</interpolation_element>
+		<interpolation_element name="Postfx#target_exposure">
+			<key_frame frame="0" value="-3.500" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="-6.753" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="-6.753" tangent="2.000, 0.000"/>
+			<key_frame frame="120" value="-10.000" tangent="-13.917, -0.007"/>
+			<key_frame frame="120" value="-10.000" tangent="13.917, 0.007"/>
+			<key_frame frame="240" value="-3.200" tangent="-48.496, 0.005"/>
+		</interpolation_element>
+		<interpolation_element name="Sky#sky_brightness">
+			<key_frame frame="0" value="0.020" tangent="2.000, 0.000"/>
+			<key_frame frame="35" value="0.020" tangent="-0.105, 0.017"/>
+			<key_frame frame="35" value="0.020" tangent="0.105, -0.017"/>
+			<key_frame frame="55" value="50.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="50.000" tangent="2.000, 0.000"/>
+			<key_frame frame="120" value="300.000" tangent="-3.721, -1.736"/>
+			<key_frame frame="120" value="300.000" tangent="3.721, 1.736"/>
+			<key_frame frame="185" value="50.000" tangent="-5.022, 26.736"/>
+			<key_frame frame="185" value="50.000" tangent="5.022, -26.736"/>
+			<key_frame frame="205" value="0.020" tangent="-0.105, -0.017"/>
+			<key_frame frame="205" value="0.020" tangent="0.105, 0.017"/>
+			<key_frame frame="240" value="0.020" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Sky#skybox_rotation">
+			<key_frame frame="0" value="180.000" tangent="2.000, 0.000"/>
+			<key_frame frame="35" value="180.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="35" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="120" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="120" value="180.000" tangent="2.000, 0.000"/>
+			<key_frame frame="203" value="180.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="203" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="0.000" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Sky#skybox_texture">
+			<key_frame frame="0" value="15.000" tangent="2.000, 0.000"/>
+			<key_frame frame="39" value="15.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="39" value="26.000" tangent="2.000, 0.000"/>
+			<key_frame frame="66" value="26.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="66" value="11.000" tangent="2.000, 0.000"/>
+			<key_frame frame="78" value="11.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="78" value="12.687" tangent="2.000, 0.000"/>
+			<key_frame frame="95" value="12.676" tangent="-2.000, 0.000"/>
+			<key_frame frame="95" value="13.000" tangent="2.000, 0.000"/>
+			<key_frame frame="120" value="13.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="120" value="13.000" tangent="2.000, 0.000"/>
+			<key_frame frame="148" value="13.000" tangent="2.000, 0.000"/>
+			<key_frame frame="148" value="12.676" tangent="-2.000, 0.000"/>
+			<key_frame frame="160" value="12.676" tangent="2.000, 0.000"/>
+			<key_frame frame="160" value="10.933" tangent="-2.000, 0.000"/>
+			<key_frame frame="175" value="10.933" tangent="2.000, 0.000"/>
+			<key_frame frame="175" value="10.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="203" value="10.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="203" value="14.708" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="14.708" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Sky#sun_rotation">
+			<key_frame frame="0" value="270.000" tangent="2.000, 0.000"/>
+			<key_frame frame="35" value="270.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="35" value="90.404" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="90.308" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="90.308" tangent="2.000, 0.000"/>
+			<key_frame frame="90" value="90.141" tangent="-2.000, 0.000"/>
+			<key_frame frame="90" value="90.141" tangent="2.000, 0.000"/>
+			<key_frame frame="120" value="90.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="120" value="270.000" tangent="2.000, 0.000"/>
+			<key_frame frame="203" value="270.000" tangent="2.000, 0.000"/>
+			<key_frame frame="203" value="90.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="240" value="90.000" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Sun#minimum_ambient">
+			<key_frame frame="0" value="0.300" tangent="2.000, 0.000"/>
+			<key_frame frame="42" value="0.300" tangent="-2.000, 0.000"/>
+			<key_frame frame="42" value="0.300" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="0.074" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="0.074" tangent="2.000, 0.000"/>
+			<key_frame frame="60" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="60" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="180" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="180" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="198" value="0.300" tangent="-2.000, 0.000"/>
+			<key_frame frame="198" value="0.300" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="0.300" tangent="-34.397, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Sun#sun_altitude">
+			<key_frame frame="0" value="90.000" tangent="2.000, 0.000"/>
+			<key_frame frame="35" value="0.000" tangent="-13.414, -0.008"/>
+			<key_frame frame="35" value="0.000" tangent="13.414, 0.008"/>
+			<key_frame frame="55" value="8.194" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="8.194" tangent="2.000, 0.000"/>
+			<key_frame frame="60" value="15.261" tangent="-5.861, -9.779"/>
+			<key_frame frame="60" value="15.261" tangent="5.861, 9.779"/>
+			<key_frame frame="90" value="66.207" tangent="-3.175, -5.606"/>
+			<key_frame frame="90" value="66.207" tangent="3.175, 5.606"/>
+			<key_frame frame="120" value="90.000" tangent="-16.268, 0.061"/>
+			<key_frame frame="120" value="90.000" tangent="16.268, -0.061"/>
+			<key_frame frame="150" value="66.207" tangent="-3.175, 5.606"/>
+			<key_frame frame="150" value="66.207" tangent="3.175, -5.606"/>
+			<key_frame frame="180" value="15.261" tangent="-5.861, 9.779"/>
+			<key_frame frame="180" value="15.261" tangent="5.861, -9.779"/>
+			<key_frame frame="205" value="0.000" tangent="-13.414, 0.008"/>
+			<key_frame frame="205" value="0.000" tangent="13.414, -0.008"/>
+			<key_frame frame="240" value="90.000" tangent="-20.968, 0.490"/>
+		</interpolation_element>
+		<interpolation_element name="Sun#sun_angle">
+			<key_frame frame="0" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="30" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="30" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="40" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="40" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="90" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="90" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="120" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="120" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="130" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="130" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="150" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="150" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="180" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="180" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="200" value="0.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="200" value="0.000" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="0.000" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Sun#sun_intesity">
+			<key_frame frame="0" value="2.000" tangent="2.000, 0.000"/>
+			<key_frame frame="35" value="2.000" tangent="-3.318, -0.143"/>
+			<key_frame frame="35" value="2.000" tangent="3.318, 0.143"/>
+			<key_frame frame="55" value="500.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="500.000" tangent="2.000, 0.000"/>
+			<key_frame frame="120" value="5000.000" tangent="-4.790, -58.648"/>
+			<key_frame frame="120" value="5000.000" tangent="4.790, 58.648"/>
+			<key_frame frame="185" value="500.000" tangent="-7.910, 347.411"/>
+			<key_frame frame="185" value="500.000" tangent="7.910, -347.411"/>
+			<key_frame frame="205" value="2.000" tangent="-3.318, 0.143"/>
+			<key_frame frame="205" value="2.000" tangent="3.318, -0.143"/>
+			<key_frame frame="240" value="2.000" tangent="-2.000, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Sun#sun_shadow_opacity">
+			<key_frame frame="0" value="1.000" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="1.000" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="1.000" tangent="2.000, 0.000"/>
+			<key_frame frame="240" value="1.000" tangent="-10.058, 0.000"/>
+		</interpolation_element>
+		<interpolation_element name="Sun#sun_shafts_intesity">
+			<key_frame frame="0" value="1.016" tangent="2.000, 0.000"/>
+			<key_frame frame="31" value="0.000" tangent="-0.028, 0.000"/>
+			<key_frame frame="31" value="0.000" tangent="0.028, 0.000"/>
+			<key_frame frame="55" value="0.973" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="0.973" tangent="2.000, 0.000"/>
+			<key_frame frame="57" value="1.014" tangent="-3.135, 0.001"/>
+			<key_frame frame="57" value="1.014" tangent="3.135, -0.001"/>
+			<key_frame frame="119" value="1.016" tangent="-64.277, -0.003"/>
+			<key_frame frame="119" value="1.016" tangent="64.277, 0.003"/>
+			<key_frame frame="183" value="1.014" tangent="-3.471, -0.001"/>
+			<key_frame frame="183" value="1.014" tangent="3.471, 0.001"/>
+			<key_frame frame="209" value="0.000" tangent="-0.028, 0.000"/>
+			<key_frame frame="209" value="0.000" tangent="0.028, 0.000"/>
+			<key_frame frame="240" value="1.000" tangent="-18.954, -0.013"/>
+		</interpolation_element>
+		<interpolation_element name="Sun#sun_size">
+			<key_frame frame="0" value="0.100" tangent="2.000, 0.000"/>
+			<key_frame frame="55" value="0.120" tangent="-2.000, 0.000"/>
+			<key_frame frame="55" value="0.120" tangent="2.000, 0.000"/>
+			<key_frame frame="72" value="0.123" tangent="-7.539, 0.004"/>
+			<key_frame frame="72" value="0.123" tangent="7.539, -0.004"/>
+			<key_frame frame="90" value="0.109" tangent="-2.504, 0.003"/>
+			<key_frame frame="90" value="0.109" tangent="2.504, -0.003"/>
+			<key_frame frame="120" value="0.100" tangent="-28.019, 0.000"/>
+			<key_frame frame="120" value="0.100" tangent="28.019, 0.000"/>
+			<key_frame frame="150" value="0.109" tangent="-2.504, -0.003"/>
+			<key_frame frame="150" value="0.109" tangent="2.504, 0.003"/>
+			<key_frame frame="169" value="0.123" tangent="-7.539, -0.004"/>
+			<key_frame frame="169" value="0.123" tangent="7.539, 0.004"/>
+			<key_frame frame="240" value="0.101" tangent="-34.397, 0.000"/>
+		</interpolation_element>
+	</interpolation_data>
+</atmo>
+<sun_color>
+	<color>
+		<keys>
+			<key time="0.000" value="0.494, 0.673, 1.000"/>
+			<key time="0.140" value="0.243, 0.471, 0.710"/>
+			<key time="0.147" value="1.000, 0.431, 0.145"/>
+			<key time="0.229" value="1.000, 0.470, 0.190"/>
+			<key time="0.229" value="1.000, 0.470, 0.190"/>
+			<key time="0.237" value="1.000, 0.459, 0.177"/>
+			<key time="0.278" value="1.000, 0.773, 0.545"/>
+			<key time="0.499" value="1.000, 1.000, 1.000"/>
+			<key time="0.681" value="1.000, 0.831, 0.596"/>
+			<key time="0.732" value="1.000, 0.453, 0.170"/>
+			<key time="0.802" value="1.000, 0.436, 0.151"/>
+			<key time="0.814" value="0.243, 0.471, 0.710"/>
+		</keys>
+	</color>
+	<alpha>
+		<keys/>
+	</alpha>
+</sun_color>
+<fog_color>
+	<color>
+		<keys>
+			<key time="0.000" value="0.972, 0.994, 1.000"/>
+			<key time="0.250" value="0.612, 0.847, 1.000"/>
+			<key time="0.250" value="0.759, 0.867, 1.000"/>
+			<key time="0.250" value="0.759, 0.867, 1.000"/>
+			<key time="0.250" value="0.759, 0.867, 1.000"/>
+			<key time="0.500" value="0.988, 1.000, 1.000"/>
+			<key time="0.712" value="0.514, 0.847, 1.000"/>
+			<key time="0.784" value="0.000, 0.004, 0.012"/>
+			<key time="0.872" value="0.000, 0.004, 0.012"/>
+		</keys>
+	</color>
+	<alpha>
+		<keys/>
+	</alpha>
+</fog_color>
+<fog_ambient_color>
+	<color>
+		<keys>
+			<key time="0.000" value="1.000, 0.884, 0.741"/>
+			<key time="0.167" value="1.000, 0.263, 0.020"/>
+			<key time="0.229" value="1.000, 0.535, 0.285"/>
+			<key time="0.229" value="1.000, 0.535, 0.285"/>
+			<key time="0.278" value="1.000, 0.749, 0.494"/>
+			<key time="0.500" value="1.000, 0.890, 0.753"/>
+			<key time="0.729" value="1.000, 0.752, 0.493"/>
+			<key time="0.835" value="0.827, 0.157, 0.024"/>
+			<key time="0.863" value="0.396, 0.788, 1.000"/>
+		</keys>
+	</color>
+	<alpha>
+		<keys/>
+	</alpha>
+</fog_ambient_color>
+<global_ambient_color>
+	<color>
+		<keys>
+			<key time="0.000" value="0.632, 0.805, 1.000"/>
+			<key time="0.229" value="0.575, 0.669, 0.812"/>
+			<key time="0.229" value="0.575, 0.669, 0.812"/>
+			<key time="0.243" value="0.678, 0.788, 0.957"/>
+			<key time="0.500" value="1.000, 1.000, 1.000"/>
+			<key time="0.750" value="0.678, 0.788, 0.957"/>
+			<key time="0.849" value="0.020, 0.024, 0.031"/>
+		</keys>
+	</color>
+	<alpha>
+		<keys/>
+	</alpha>
+</global_ambient_color>
+

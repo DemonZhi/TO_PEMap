@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<prefabs>
+  <game_entity name="european_sally_door_a" old_prefab_name="">
+    <flags>
+      <flag name="record_to_scene_replay" value="true"/>
+    </flags>
+    <tags>
+      <tag name="inner_gate"/>
+    </tags>
+    <transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+    <physics mass="1.000"/>
+    <scripts>
+      <script name="CastleGate">
+        <variables>
+          <variable name="OwningTeam" value="Defenders"/>
+          <variable name="OpeningAnimationName" value="sally_door_a_opening"/>
+          <variable name="ClosingAnimationName" value="sally_door_a_closing"/>
+          <variable name="HitAnimationName" value=""/>
+          <variable name="PlankHitAnimationName" value=""/>
+          <variable name="HitMeleeAnimationName" value="sally_door_a_hit_melee"/>
+          <variable name="DestroyAnimationName" value=""/>
+          <variable name="NavigationMeshId" value="1000"/>
+          <variable name="NavigationMeshIdToDisableOnOpen" value="-1"/>
+          <variable name="LeftDoorBoneName" value=""/>
+          <variable name="RightDoorBoneName" value="bn_middle_r"/>
+          <variable name="SideTag" value=""/>
+          <variable name="AutoOpen" value="true"/>
+          <variable name="PilotStandingPointTag" value="Pilot"/>
+          <variable name="AmmoPickUpTag" value="ammopickup"/>
+          <variable name="WaitStandingPointTag" value="Wait"/>
+          <variable name="NavMeshPrefabName" value=""/>
+        </variables>
+      </script>
+      <script name="DestructableComponent">
+        <variables>
+          <variable name="DestructionStates" value="european_sally_door_a_state2, european_sally_door_a_state3, european_sally_door_a_state4"/>
+          <variable name="DestroyedByStoneOnly" value="false"/>
+          <variable name="CanBeDestroyedInitially" value="false"/>
+          <variable name="MaxHitPoint" value="10.000"/>
+          <variable name="PassHitOnToParent" value="false"/>
+          <variable name="ReferenceEntityTag" value="gate"/>
+          <variable name="OriginalStateTag" value="state_0"/>
+          <variable name="HeavyHitParticlesTag" value=""/>
+          <variable name="HeavyHitParticlesThreshold" value="5.000"/>
+        </variables>
+      </script>
+    </scripts>
+    <children>
+      <game_entity name="middle_position" old_prefab_name="">
+        <visibility_masks>
+          <visibility_mask name="visible_only_when_editing" value="true"/>
+        </visibility_masks>
+        <tags>
+          <tag name="middle_pos"/>
+          <tag name="wait_pos"/>
+        </tags>
+        <transform position="0.095, -8.498, 0.000"/>
+        <physics mass="1.000"/>
+        <components>
+          <meta_mesh_component name="debug_lod_mesh"/>
+        </components>
+      </game_entity>
+      <game_entity name="side" old_prefab_name="">
+        <tags>
+          <tag name="right"/>
+        </tags>
+        <physics mass="1.000"/>
+        <children>
+          <game_entity name="icon_man" old_prefab_name="">
+            <flags>
+              <flag name="record_to_scene_replay" value="true"/>
+            </flags>
+            <visibility_masks>
+              <visibility_mask name="visible_only_when_editing" value="true"/>
+            </visibility_masks>
+            <tags>
+              <tag name="open"/>
+            </tags>
+            <transform position="-0.888, 1.066, 0.150"/>
+            <physics mass="1.000"/>
+            <components>
+              <meta_mesh_component name="icon_man"/>
+            </components>
+            <scripts>
+              <script name="StandingPointWithTeamLimit">
+                <variables>
+                  <variable name="AutoSheathWeapons" value="false"/>
+                  <variable name="TranslateUser" value="true"/>
+                  <variable name="DescriptionMessage" value=""/>
+                  <variable name="ActionMessage" value=""/>
+                </variables>
+              </script>
+            </scripts>
+          </game_entity>
+          <game_entity name="icon_man" old_prefab_name="">
+            <flags>
+              <flag name="record_to_scene_replay" value="true"/>
+            </flags>
+            <visibility_masks>
+              <visibility_mask name="visible_only_when_editing" value="true"/>
+            </visibility_masks>
+            <tags>
+              <tag name="close"/>
+            </tags>
+            <transform position="-0.890, -1.049, 0.150"/>
+            <physics mass="1.000"/>
+            <components>
+              <meta_mesh_component name="icon_man"/>
+            </components>
+            <scripts>
+              <script name="StandingPoint">
+                <variables>
+                  <variable name="AutoSheathWeapons" value="false"/>
+                  <variable name="TranslateUser" value="true"/>
+                  <variable name="DescriptionMessage" value=""/>
+                  <variable name="ActionMessage" value=""/>
+                </variables>
+              </script>
+            </scripts>
+          </game_entity>
+          <game_entity name="icon_man" old_prefab_name="">
+            <flags>
+              <flag name="record_to_scene_replay" value="true"/>
+            </flags>
+            <visibility_masks>
+              <visibility_mask name="visible_only_when_editing" value="true"/>
+            </visibility_masks>
+            <tags>
+              <tag name="close"/>
+            </tags>
+            <transform position="-0.890, 1.055, 0.150"/>
+            <physics mass="1.000"/>
+            <components>
+              <meta_mesh_component name="icon_man"/>
+            </components>
+            <scripts>
+              <script name="StandingPoint">
+                <variables>
+                  <variable name="AutoSheathWeapons" value="false"/>
+                  <variable name="TranslateUser" value="true"/>
+                  <variable name="DescriptionMessage" value=""/>
+                  <variable name="ActionMessage" value=""/>
+                </variables>
+              </script>
+            </scripts>
+          </game_entity>
+          <game_entity name="icon_man" old_prefab_name="">
+            <flags>
+              <flag name="record_to_scene_replay" value="true"/>
+            </flags>
+            <visibility_masks>
+              <visibility_mask name="visible_only_when_editing" value="true"/>
+            </visibility_masks>
+            <tags>
+              <tag name="open"/>
+            </tags>
+            <transform position="-0.888, -1.063, 0.150"/>
+            <physics mass="1.000"/>
+            <components>
+              <meta_mesh_component name="icon_man"/>
+            </components>
+            <scripts>
+              <script name="StandingPoint">
+                <variables>
+                  <variable name="AutoSheathWeapons" value="false"/>
+                  <variable name="TranslateUser" value="true"/>
+                  <variable name="DescriptionMessage" value=""/>
+                  <variable name="ActionMessage" value=""/>
+                </variables>
+              </script>
+            </scripts>
+          </game_entity>
+        </children>
+      </game_entity>
+      <game_entity name="clean" old_prefab_name="">
+        <flags>
+          <flag name="record_to_scene_replay" value="true"/>
+        </flags>
+        <tags>
+          <tag name="gate"/>
+          <tag name="state_0"/>
+        </tags>
+        <physics mass="1.000"/>
+        <skeleton skeleton_model="european_sally_door_a_skeleton">
+          <components>
+            <meta_mesh_component name="european_sally_door_a_state1">
+              <mesh name="european_sally_door_a_state1.0" factor="3439329279"/>
+              <mesh name="european_sally_door_a_state1.1" factor="3439329279"/>
+            </meta_mesh_component>
+          </components>
+        </skeleton>
+        <scripts>
+          <script name="SynchedMissionObject"/>
+        </scripts>
+        <children>
+          <game_entity name="collider" old_prefab_name="">
+            <flags>
+              <flag name="record_to_scene_replay" value="true"/>
+            </flags>
+            <tags>
+              <tag name="0"/>
+              <tag name="collider_r"/>
+            </tags>
+            <physics shape="bo_european_sally_door_a_state1" mass="1.000"/>
+          </game_entity>
+        </children>
+      </game_entity>
+    </children>
+  </game_entity>
+  <game_entity old_prefab_name="" name="european_sally_door_a_state4">
+    <scripts>
+      <script name="SynchedMissionObject"/>
+    </scripts>
+    <components>
+      <meta_mesh_component name="european_sally_door_a_state4"/>
+    </components>
+    <physics mass="1.000" override_material="wood" shape="bo_european_sally_door_a_state4"/>
+    <edit_mode_data selection_group_mask="0"/>
+    <transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+    <tags>
+      <tag name="state_3"/>
+      <tag name="gate"/>
+    </tags>
+    <flags>
+      <flag value="true" name="destructible"/>
+      <flag value="true" name="record_to_scene_replay"/>
+    </flags>
+  </game_entity>
+  <game_entity old_prefab_name="" name="european_sally_door_a_state3">
+    <children>
+      <game_entity old_prefab_name="" name="collider">
+        <scripts>
+          <script name="SynchedMissionObject"/>
+        </scripts>
+        <physics mass="1.000" shape="bo_european_sally_door_a_state3"/>
+        <edit_mode_data selection_group_mask="0"/>
+        <tags>
+          <tag name="2"/>
+          <tag name="collider_r"/>
+        </tags>
+        <flags>
+          <flag value="true" name="destructible"/>
+          <flag value="true" name="record_to_scene_replay"/>
+        </flags>
+      </game_entity>
+    </children>
+    <scripts>
+      <script name="SynchedMissionObject"/>
+    </scripts>
+    <skeleton skeleton_model="european_sally_door_a_skeleton">
+      <components>
+        <meta_mesh_component name="european_sally_door_a_state3"/>
+      </components>
+    </skeleton>
+    <physics mass="1.000" override_material="wood" shape="bo_european_sally_door_a_state3"/>
+    <edit_mode_data selection_group_mask="0"/>
+    <transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+    <tags>
+      <tag name="gate"/>
+      <tag name="state_2"/>
+    </tags>
+    <flags>
+      <flag value="true" name="destructible"/>
+      <flag value="true" name="record_to_scene_replay"/>
+    </flags>
+  </game_entity>
+  <game_entity old_prefab_name="" name="european_sally_door_a_state2">
+    <children>
+      <game_entity old_prefab_name="" name="collider">
+        <scripts>
+          <script name="SynchedMissionObject"/>
+        </scripts>
+        <physics mass="1.000" shape="bo_european_sally_door_a_state2"/>
+        <edit_mode_data selection_group_mask="0"/>
+        <tags>
+          <tag name="1"/>
+          <tag name="collider_r"/>
+        </tags>
+        <flags>
+          <flag value="true" name="destructible"/>
+          <flag value="true" name="record_to_scene_replay"/>
+        </flags>
+      </game_entity>
+    </children>
+    <scripts>
+      <script name="SynchedMissionObject"/>
+    </scripts>
+    <skeleton skeleton_model="european_sally_door_a_skeleton">
+      <components>
+        <meta_mesh_component name="european_sally_door_a_state2"/>
+      </components>
+    </skeleton>
+    <physics mass="1.000" override_material="wood" shape="bo_castle_gate_g_columns"/>
+    <edit_mode_data selection_group_mask="0"/>
+    <transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+    <tags>
+      <tag name="gate"/>
+      <tag name="state_1"/>
+    </tags>
+    <flags>
+      <flag value="true" name="destructible"/>
+      <flag value="true" name="record_to_scene_replay"/>
+    </flags>
+  </game_entity>
+</prefabs>
+

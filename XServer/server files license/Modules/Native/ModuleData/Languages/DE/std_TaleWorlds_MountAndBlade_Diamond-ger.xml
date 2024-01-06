@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+  <strings>
+    <string id="0MDEP0jy" text="Ihr könnt Euch nicht selbst einladen" />
+    <string id="0XY1VKVB" text="Euer Trupp ist nicht zur Teilnahme an Clanspielen berechtigt." />
+    <string id="1CO3GGEk" text="ID ist zu kurz." />
+    <string id="2BtJYizu" text="Ihr müsst Mitglied eines Trupps sein, um diese Aktion auszuführen." />
+    <string id="2KsbeJHa" text="Ihr habe Eure Wappenpräfenz erfolgreich aktualisiert." />
+    <string id="3cWg0cWt" text="Verbindung zum Server nicht möglich." />
+    <string id="3lNHtNWa" text="Die Offiziersrolle von {ARG1} wird entfernt." />
+    <string id="3NwGpJwe" text="Freundschaftsanfrage angenommen." />
+    <string id="3NxaSDgg" text="Ihr seid kein Offizier." />
+    <string id="4HQNKMUZ" text="Der ausgewählte kosmetische Gegenstand befindet sich nicht in Eurem Besitz." />
+    <string id="4lNl8zS2" text="Ihr könnt dem Trupp keinen Truppführer vorschlagen." />
+    <string id="4XDu4Qcd" text="Nur der Truppführer kann Spieler aus dem Trupp ausschließen." />
+    <string id="4YuWC1Jg" text="Deaktivierte Spieltypen ausgewählt." />
+    <string id="63X8LERm" text="Anmeldedaten konnten nicht vom Server abgerufen werden." />
+    <string id="6cMSAe2Z" text="Spieler konnte nicht gemeldet werden: Der Spieler wurde nicht gefunden." />
+    <string id="6doiovtH" text="Begriffserklärung: {CHATROOMS}" />
+    <string id="6PcEQ5dq" text="Ihr wurdet durch das Anti-&#x200b;Cheat-&#x200b;Tool ausgeschlossen. Grund: {ARG1}" />
+    <string id="7cEXe02I" text="{ARG1} hat die Claneinladung abgelehnt." />
+    <string id="8UmHXSnO" text="Spieler hat keinen Zugang zum Clan-Feature." />
+    <string id="96e2tZea" text="Ihr könnt nicht mehrere kosmetische Gegenstände auf denselben Gegenstand anwenden." />
+    <string id="9kzik0vP" text="{ARG1} für Euren Trupp vorgeschlagen." />
+    <string id="9TxM5UQS" text="Angezeigtes Abzeichen konnte nicht aktualisiert werden." />
+    <string id="a1RXhy6A" text="Eure Truppeinladung ist nicht mehr gültig." />
+    <string id="AAnoAhox" text="Konnte gewählten Spielmodus nicht ändern" />
+    <string id="aId8kA8r" text="Der eingegebene Text ist zu lang." />
+    <string id="AIgw3aFG" text="Ihr könnt Euch nicht zur Schlacht anmelden, da manche Spieler die Spielersuche nicht verwenden dürfen." />
+    <string id="Ajw0d4dW" text="Falsches Passwort." />
+    <string id="APQ0kNVj" text="Clantag ist ungültig." />
+    <string id="ASgVFGs1" text="Eure Freundschaftsanfrage wurde abgelehnt." />
+    <string id="b72mIrOl" text="Ihr müsst Mitglied in einem Trupp sein, um einen Clan zu gründen." />
+    <string id="ba4CJpja" text="Spieler ist bereits in einem Clan." />
+    <string id="baHOuMTb" text="Ankündigung erfolgreich hinzugefügt." />
+    <string id="bB5p8KpK" text="Clanwappen ist ungültig." />
+    <string id="bFSVAiel" text="Bannerlord-&#x200b;ID wurde erfolgreich aktualisiert." />
+    <string id="bivF3RXY" text="Ihr könnt Euch nicht selbst befördern." />
+    <string id="bl2dNFmT" text="Ungültiges Abzeichen." />
+    <string id="bMLqfPRv" text="Ihr gehört keinem Clan an." />
+    <string id="BpwNljJF" text="Bannerlord-ID darf keine vulgären Ausdrücke enthalten." />
+    <string id="bvWo9N6k" text="Das Offizierslimit für den Clan ist erreicht." />
+    <string id="BwBR7TJB" text="Es gehört niemand mehr Eurem Trupp an, daher wurde er aufgelöst!" />
+    <string id="bzcI3ei2" text="Ihr habt bereits eine ausstehende Anfrage an {ARG1}." />
+    <string id="caMylVF7" text="Ihr könnt Euch nicht zur Schlacht anmelden, da Ihr keine Spielmodi ausgewählt habt." />
+    <string id="cwF03dOR" text="Ihr könnt keinen kostenlosen kosmetischen Gegenstand kaufen." />
+    <string id="CyeaniWe" text="Freundschaftsanfrage an {ARG1} verschickt." />
+    <string id="CyrOnYI2" text="Ihr habt nicht genügend Beute." />
+    <string id="dabogDDj" text="Ihr seid bereits Freunde" />
+    <string id="DcbVwkit" text="{ARG1} ist bereits in einem Clan." />
+    <string id="dHlxVbMw" text="Ihr seid bereits Mitglied eines Clans." />
+    <string id="DJFaYeWm" text="Ihr müsst Euch in der Lobby befinden, um diese Aktion auszuführen." />
+    <string id="DMPzhEK0" text="Verbindung zum Chatraum getrennt: /{ARG1}" />
+    <string id="Dmz3JLyp" text="Spieler in Clan eingeladen." />
+    <string id="dnKQbXIZ" text="Spieler konnte nicht gemeldet werden: Spiel existiert nicht." />
+    <string id="DOkblbrz" text="Spieler für Euren Trupp vorgeschlagen." />
+    <string id="Ds01FoSn" text="{ARG1} hat Eure Freundschaftsanfrage abgelehnt." />
+    <string id="E2ILp86t" text="Ihr könnt Euch nicht zur Schlacht anmelden, da die Region nicht verfügbar ist." />
+    <string id="e9LrrgAH" text="Die Ankündigung existiert nicht." />
+    <string id="Ebp5T7vh" text="Abgebrochene Spiele können nicht weitergespielt werden." />
+    <string id="emx7txM9" text="Mitglieder können nur vom Truppführer befördert werden." />
+    <string id="eozBcVaB" text="Ihr könnt Euch nicht selbst zum Clanoffizier befördern." />
+    <string id="fD2SyeA7" text="Ihr könnt Euch nicht selbst in Euren Trupp einladen." />
+    <string id="FEeVGSO6" text="Clanführer kann den Clan nicht verlassen." />
+    <string id="FFPyGnZg" text="{ARG1} erfolgreich zum Clanoffizier befördert." />
+    <string id="fQCaY3da" text="ID enthält ungültige Zeichen." />
+    <string id="fZC7pBba" text="Ihr könnt nur Spieler vorschlagen, die das Anti-&#x200b;Cheat-&#x200b;Tool verwenden." />
+    <string id="gAeQdLU5" text="Zugangsdaten konnten nicht von Plattform abgerufen werden" />
+    <string id="GIiGZOxP" text="Freund kann nicht hinzugefügt werden. Privatsphäre-Einstellungen fehlgeschlagen." />
+    <string id="gQ8deZ17" text="{ARG1} ist nicht online." />
+    <string id="h84jSMrT" text="Ihr seid bis {ARG1} stummgeschaltet. Grund: {ARG2}" />
+    <string id="hav7yZyB" text="Kein Text eingegeben." />
+    <string id="hcJumPEg" text="{ARG1} gehört bereits einem Trupp an." />
+    <string id="hhUKkNR6" text="Der ausgewählte kosmetische Gegenstand befindet sich bereits in Eurem Besitz." />
+    <string id="hqK9565f" text="Ungültiger Spielmodus." />
+    <string id="HTFNfODt" text="Ihr könnt kein Abzeichen auswählen, das Ihr noch nicht erhalten habt." />
+    <string id="i4MNr0bo" text="Verbindung zur Lobby getrennt." />
+    <string id="iG72AMy8" text="Infotext erfolgreich geändert." />
+    <string id="InUAmnX4" text="Ihr wurdet ausgeschlossen, weil Ihr Verbündete verletzt habt." />
+    <string id="IRWReNWu" text="Ihr müsst Anführer Eures Trupps sein, um diese Aktion auszuführen." />
+    <string id="ivKntfNA" text="Beitrittsanfrage bereits gesendet, warte auf Serverantwort." />
+    <string id="IWr2ZmWX" text="{ARG1} wurde zum Truppführer befördert." />
+    <string id="J3dazru7" text="{ARG1} ins Spiel eingeladen" />
+    <string id="jbaOH6qf" text="{ARG1} erfolgreich zum Clanführer befördert." />
+    <string id="JO37PkfW" text="Euer Plattformdienst ist nicht initialisiert." />
+    <string id="K0mSh8Hw" text="Euer Trupp hat nicht genügend Spieler, um einen Clan zu gründen." />
+    <string id="KPMxDIgb" text="Clankultur erfolgreich geändert." />
+    <string id="kuM16dg2" text="{ARG1} wurde gemeldet." />
+    <string id="kVcDXjUx" text="Ungültige Truppe" />
+    <string id="l1YfVXF3" text="Ihr könnt keinen Spieler einladen, der Mods besitzt!" />
+    <string id="l6a9vI9z" text="Nur der Truppführer kann andere Spieler einladen." />
+    <string id="lcq2bKRk" text="Schlacht wird wieder aufgenommen." />
+    <string id="M0Cgjgb0" text="{ARG1} wurde als Freund entfernt." />
+    <string id="M8x38ZZZ" text="Spieler ist nicht Mitglied Eures Clans." />
+    <string id="mdH4S8Kx" text="Ihr müsst Mitglied eines Trupps sein, um Eurem Trupp jemanden vorzuschlagen." />
+    <string id="MgGvnobq" text="Die gewählte Karte ist nicht verfügbar." />
+    <string id="MowSn4ch" text="Spiel nicht gefunden." />
+    <string id="mvQKpHXH" text="Euer Trupp ist voll." />
+    <string id="NaTaGiB1" text="Erfolg." />
+    <string id="ND2abg9k" text="Ihr dürft die Spielersuche {ARG1} Sekunden lang nicht nutzen." />
+    <string id="nlYK3i5a" text="Clanname ist ungültig." />
+    <string id="Np8V0jcX" text="Spieler wurde bereits in einen anderen Clan eingeladen." />
+    <string id="nZlu3Moe" text="Clan verlassen." />
+    <string id="o76rZw0U" text="Der Dienst ist zurzeit nicht verfügbar." />
+    <string id="OByu0fjQ" text="Ihr könnt Euch nicht zur Schlacht anmelden, da nicht alle Spieler in Eurem Trupp bereit sind." />
+    <string id="OfCk5NMA" text="Clanfraktion ist ungültig." />
+    <string id="oFfMEy1S" text="Die Freundschaftsanfrage wurde nicht gefunden." />
+    <string id="olLwOWf8" text="Ihr könnt Euch nicht zur Schlacht anmelden, da nicht alle Spieler das Anti-&#x200b;Cheat-&#x200b;Tool verwenden." />
+    <string id="P0aRStg4" text="Ihr könnt Euch nicht zur Schlacht anmelden, da Ihr die Spielersuche nicht verwenden dürft." />
+    <string id="P3JTNI9P" text="Ihr könnt Euch nicht selbst zum Clanführer befördern." />
+    <string id="Pn13ZKwI" text="Euer Trupp wurde aufgelöst!" />
+    <string id="PzUrwWnO" text="Ihr seid nicht Anführer Eures Clans." />
+    <string id="qHGkxNWJ" text="Ungültiges Clanwappen." />
+    <string id="R7z6X8bT" text="Bannerlord-&#x200b;ID konnte nicht aktualisiert werden." />
+    <string id="rfaIXasP" text="Clanwappen erfolgreich geändert." />
+    <string id="rI8gE2Qh" text="Ankündigung erfolgreich gelöscht." />
+    <string id="RKioOKi4" text="Bannerlord-ID darf nicht leer sein." />
+    <string id="rkxTEFGp" text="Spieler ist nicht online." />
+    <string id="ruC5qF1H" text="Freundschaftsanfrage abgelehnt." />
+    <string id="RuKlb0Li" text="ID ist zu lang." />
+    <string id="rwcA5RMK" text="Ihr habt bereits eine ausstehende Anfrage an diesen Spieler." />
+    <string id="S7Y5Suho" text="Ihr könnt Euch nicht selbst für einen Trupp vorschlagen." />
+    <string id="sa138Btz" text="Ihr müsst dabei sein, ein Clanspiel zu erstellen, um das Erstellen abzubrechen." />
+    <string id="shIV99LZ" text="Freundschaftsanfrage von {ARG1} erhalten." />
+    <string id="SIT1tREw" text="Ihr könnt Euch nicht selbst als Freund hinzufügen." />
+    <string id="SsCPw38T" text="Ausgewählter kosmetischer Gegenstand existiert nicht." />
+    <string id="SvHP9TXr" text="Es sind noch nicht alle Spieler bereit." />
+    <string id="SWZaqPx4" text="{ARG1} ist nicht in der Lobby." />
+    <string id="T2Q35w3d" text="{ARG1} hat die Claneinladung angenommen." />
+    <string id="T5gR6XCJ" text="Das vorgefertigte Spiel existiert nicht mehr." />
+    <string id="t8K21Vmc" text="Spieler konnte nicht gemeldet werden: Inoffizieller Server." />
+    <string id="TaLNjfao" text="Ihr seid jetzt mit {ARG1} befreundet." />
+    <string id="tam7tCdb" text="{ARG1} ist nicht Mitglied Eures Clans." />
+    <string id="taPBAd4c" text="Der eingegebene Befehl beginnt nicht mit /" />
+    <string id="tKlQbZaJ" text="{ARG1} aus dem Clan entfernt." />
+    <string id="TuORvMMq" text="Offiziersrolle abgelegt." />
+    <string id="UcUqJcr9" text="Ihr könnt keinen Onlinespieler in das Spiel einladen" />
+    <string id="uDbGN6fp" text="Spieler ist nicht in der Lobby." />
+    <string id="uJ7527FB" text="{ARG1} wurde bereits in einen anderen Clan eingeladen." />
+    <string id="uqqqWl6f" text="Der Trupp ist nicht zur Teilnahme an diesem Clanspiel berechtigt." />
+    <string id="vd8dEfvZ" text="Ihr könnt keinen Trupp erstellen, solange Ihr Mods besitzt!" />
+    <string id="VDDm5bqb" text="Ihr könnt nur Spieler einladen, die das Anti-&#x200b;Cheat-&#x200b;Tool verwenden." />
+    <string id="VdyJtjSG" text="{ARG1} ist nicht in Eurem Trupp!" />
+    <string id="vfsaTZKg" text="Der Spieler {ARG1} wurde in Euren Trupp eingeladen." />
+    <string id="vi3lFSBW" text="Trupps von {ARG1} sind in der Truppwarteschlange nicht erlaubt." />
+    <string id="w0FSTU2h" text="Ihr könnt kein Abzeichen niedrigeren Ranges auswählen." />
+    <string id="w8WiqZT3" text="Ihr müsst das Anti-&#x200b;Cheat-&#x200b;Tool verwenden, um einen Trupp zu erstellen oder beitreten zu können!" />
+    <string id="wJsR1aGI" text="{ARG1} ist kein Truppmitglied." />
+    <string id="wNubP2BF" text="Nur der Truppführer kann den Trupp für die Schlacht anmelden." />
+    <string id="x5vn4FPi" text="Der Spieler wurde in Euren Trupp eingeladen." />
+    <string id="XgQQPZsn" text="Ihr könnt Euch nicht selbst einladen." />
+    <string id="xHqjCamt" text="Spieler konnte nicht gemeldet werden: Das Spiel wurde nicht gefunden." />
+    <string id="y0dKQ8pL" text="Ankündigung erfolgreich geändert." />
+    <string id="Y7wWhSsO" text="Ihr seid kein privilegiertes Mitglied Eures Clans." />
+    <string id="YGfHWmNS" text="Region konnte nicht geändert werden" />
+    <string id="YOYvBVu1" text="Kein zu {COMMAND} passender Chatraum gefunden" />
+    <string id="yQyozBBX" text="Euer Trupp ist nicht zum Erstellen eines Clanspiels berechtigt." />
+    <string id="yR7avbUg" text="{ARG1} ist kein Offizier." />
+    <string id="yrCBeRMf" text="Ihr könnt den Truppführer nicht ändern, wenn Ihr gerade dabei seid, einen Clan zu gründen." />
+    <string id="ysfEQO6c" text="Spieler wurde nicht gefunden." />
+    <string id="yvT1gK1g" text="Freundschaftsanfrage verschickt." />
+    <string id="ZB6cxznt" text="{ARG1} in Clan eingeladen." />
+    <string id="zKK3LDbF" text="Erstellen eines vorgefertigten Spiels abgebrochen" />
+    <string id="zPvuvrBe" text="{ARG1} wurde zum Truppführer ernannt." />
+  </strings>
+</base>

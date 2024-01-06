@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="3o9AO00M" text="Serwer jest pełen." />
+    <string id="7G7lu7az" text="Nie można wysyłać zaproszeń." />
+    <string id="bjhBPJDF" text="Nie udało się wysłać zaproszenia!" />
+    <string id="BLw3AJjM" text="Nie ma dostępnych znajomych, których możesz zaprosić." />
+    <string id="oZ326SFY" text="Dołączenie do gry było niemożliwe." />
+    <string id="tak1GATd" text="Nie jesteś w trwającej grze." />
+    <string id="vIonllGr" text="Niezgodność lobby" />
+    <string id="x9YcKgLf" text="Nie można wyświetlić listy znajomych." />
+    <string id="XlPML483" text="Wybierz gracza do zaproszenia" />
+    <string id="yS7PvrTD" text="OK" />
+  </strings>
+</base>

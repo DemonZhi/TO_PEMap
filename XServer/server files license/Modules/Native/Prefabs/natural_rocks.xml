@@ -1,0 +1,890 @@
+<?xml version="1.0"?>
+<prefabs>
+	<game_entity name="rock_001" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_001" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_001"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_002" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_002" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_002"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_003" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_003" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_003"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_004" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_004" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_004"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_005" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_005" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_005"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_006" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_006" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_006"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_007" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_007" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_007"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_new_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_new_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_new_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_new_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_new_b" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_new_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_new_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_new_c" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_new_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_new_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_new_d" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_new_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_new_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_new_e" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_new_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_desert_rock_big_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_desert_rock_big_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_desert_rock_big_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_desert_rock_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_desert_rock_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_desert_rock_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_desert_rock_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_desert_rock_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_desert_rock_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_desert_rock_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_desert_rock_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_desert_rock_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_desert_rock_big_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_desert_rock_big_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_desert_rock_big_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_desert_rock_big_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_desert_rock_big_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_desert_rock_big_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_desert_rock_small_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_desert_rock_small_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_desert_rock_small_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_desert_rock_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_desert_rock_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_desert_rock_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_green_rock_big_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_green_rock_big_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_green_rock_big_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_green_rock_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_green_rock_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_green_rock_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_green_rock_big_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_green_rock_big_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_green_rock_big_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_green_rock_big_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_green_rock_big_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_green_rock_big_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_green_rock_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_green_rock_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_green_rock_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_green_rock_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_green_rock_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_green_rock_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_green_rock_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_green_rock_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_green_rock_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_rock_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_rock_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_rock_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_rock_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_rock_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_rock_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_rock_small_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_rock_small_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_rock_small_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_rock_small_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_rock_small_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_rock_small_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_rock_small_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_rock_small_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_rock_small_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_rock_small_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_rock_small_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_rock_small_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_rock_a2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_rock_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_rock_a2"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_rock_b2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_rock_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_rock_b2"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_rock_small_a2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_rock_small_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_rock_small_a2"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_rock_small_b2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_rock_small_b" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_rock_small_b2"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_rock_small_c2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_rock_small_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_rock_small_c2"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_rock_small_d2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_rock_small_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_rock_small_d2"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_cliff_a1" old_prefab_name="" occlusion_body_name="bo_occ_terrain_cliff_a1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_cliff_a1" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_cliff_a1"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_cliff_a2" old_prefab_name="" occlusion_body_name="bo_occ_terrain_cliff_a2">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_cliff_a2" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_cliff_a2"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_cliff_a3" old_prefab_name="" occlusion_body_name="bo_occ_terrain_cliff_a3">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_cliff_a3" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_cliff_a3"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_cliff_a4" old_prefab_name="" occlusion_body_name="bo_occ_terrain_cliff_a4">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_cliff_a4" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_cliff_a4"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_cliff_a5" old_prefab_name="" occlusion_body_name="bo_occ_terrain_cliff_a5">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_cliff_a5" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_cliff_a5"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_cliff_a6" old_prefab_name="" occlusion_body_name="bo_occ_terrain_cliff_a6">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_cliff_a6" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_cliff_a6"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_cliff_a_small_1" old_prefab_name="" occlusion_body_name="bo_occ_terrain_cliff_a_small_1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_cliff_a_small_1" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_cliff_a_small_1"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_cliff_a_small_2" old_prefab_name="" occlusion_body_name="bo_occ_terrain_cliff_a_small_2">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_cliff_a_small_2" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_cliff_a_small_2"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_cliff_a_small_3" old_prefab_name="" occlusion_body_name="bo_occ_terrain_cliff_a_small_3">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_cliff_a_small_3" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_cliff_a_small_3"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_cliff_a_small_4" old_prefab_name="" occlusion_body_name="bo_occ_terrain_cliff_a_small_4">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_cliff_a_small_4" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_cliff_a_small_4"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_ambush_cliff_top_01" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_ambush_cliff_top_01" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_ambush_cliff_top_01"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_ambush_cliff_small" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_ambush_cliff_small" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_ambush_cliff_small"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_ambush_cliff_detail_01" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_ambush_cliff_detail_01" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_ambush_cliff_detail_01"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_ambush_cliff_02" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_ambush_cliff_02" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_ambush_cliff_02"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_ambush_cliff_01" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_ambush_cliff_01" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_ambush_cliff_01"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_ambush_cliff_05" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_ambush_cliff_05" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_ambush_cliff_05"/>
+		</components>
+	</game_entity>
+	<game_entity name="terrain_ambush_cliff_06" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_terrain_ambush_cliff_06" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="terrain_ambush_cliff_06"/>
+		</components>
+	</game_entity>
+	<game_entity name="sand_stone_a1" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sand_stone_a1" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sand_stone_a1"/>
+		</components>
+	</game_entity>
+	<game_entity name="sand_stone_a2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sand_stone_a2" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sand_stone_a2"/>
+		</components>
+	</game_entity>
+	<game_entity name="sand_stone_a3" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sand_stone_a3" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sand_stone_a3"/>
+		</components>
+	</game_entity>
+	<game_entity name="sand_stone_a4_1" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sand_stone_a4" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sand_stone_a4"/>
+		</components>
+	</game_entity>
+	<game_entity name="sand_stone_a4_wo_physics" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="sand_stone_a4"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_floor_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_floor_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_floor_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_cliff_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_cliff_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_cliff_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_cliff_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_cliff_b" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_cliff_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_cliff_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_cliff_c" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_cliff_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_cliff_far_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_cliff_far_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_cliff_far_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_cliff_far_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_cliff_far_b" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_cliff_far_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_cliff_far_grass_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_cliff_far_grass_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_cliff_far_grass_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_new_green_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_new_green_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_new_green_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_new_green_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_new_green_b" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_new_green_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_new_green_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_new_green_c" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_new_green_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_new_green_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_new_green_d" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_new_green_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_new_green_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_new_green_e" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_new_green_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="boulder2" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.500, 1.500, 1.500"/>
+		<physics shape="bo_boulder_2" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="boulder_2"/>
+		</components>
+	</game_entity>
+	<game_entity name="waterfall_a">
+		<transform rotation="0.000000, 0.000000, -0.444192, 0.895932" scale="1.000, 0.626, 1.000"/>
+		<physics shape="bo_waterfall_a" />
+		<components>
+			<meta_mesh_component name="waterfall_a"/>
+		</components>
+		<children>
+			<game_entity name="waterfall_splash_dust">
+				<transform position="-0.620, -14.317, 16.913" rotation_mat="-0.099921, 0.994995, 0.000000, -0.968698, -0.248242, 0.000000, 0.000000, 0.000000, 1.000000" scale="1.585, 1.019, 1.000"/>
+				<physics override_material="default"/>
+				<components>
+					<particle_system_component id="psys_game_blood_1" low_quality_system="" low_quality_system_distance="50.000" collision_plane_normal="0.000, 0.000, 1.000" random_generator_seed="1116609744">
+						<emitters>
+							<emitter name="Emitter" sample_mesh="" not_visible_on_low_config="false" synch_with_master="false" fadeout_distance_level="1721946288" emitter_type="box" collision_event="none" material="prt_shd_waterfall_dust" billboard="3D" particles_per_sec="5.000" burst_length="0.000" particle_life="1.000" particle_life_deviation="0.000" particle_size_deviation="0.600" gravity="0.000, 0.000, -10.000" gravity_weight="1.000" turbulance_size="0.000" turbulance_strength="0.000" starting_scale_time="0.100" starting_scale="1.000" starting_color_time="0.100" starting_alpha_time="0.100" starting_color="1.000, 1.000, 1.000" starting_alpha="0.996" ending_scale_time="0.900" ending_scale="12.000" ending_color_time="0.900" ending_alpha_time="0.900" ending_color="1.000, 1.000, 1.000" ending_alpha="0.200" emit_size="0.000, 2.000, 0.000, 0.000" emit_impulse="0.000, 1.000, 3.000" emit_randomization="0.500, 1.000, 1.000" damping="0.000" rotation_speed="2.000" rotational_damping="0.400" scale_with_velocity_multiplier="2.000" scale_with_emitters_velocity="0.000" activation_delay="0.100" always_emit="true" use_texture_atlas="true" texture_atlas_texture_counts="2.000000, 2.000000" randomize_size="true" randomize_rotation="true" gradient_normals="true" scale_with_velocity="true">
+								<children/>
+							</emitter>
+						</emitters>
+					</particle_system_component>
+				</components>
+			</game_entity>
+			<game_entity name="waterfall_foam_circular">
+				<transform position="-0.628, -9.547, 16.444" rotation_mat="0.099759, -0.994525, 0.031113, 0.005024, -0.078301, -0.996917, 0.968815, 0.247768, -0.002744" scale="1.584, 1.002, 1.019"/>
+				<physics override_material="default"/>
+				<components>
+					<particle_system_component id="psys_game_blood_1" low_quality_system="" low_quality_system_distance="50.000" wind_multiplier="0.000000, 0.000000" collision_plane_normal="0.000, 0.000, 1.000" random_generator_seed="1250633168">
+						<emitters>
+							<emitter name="Emitter" sample_mesh="" not_visible_on_low_config="false" synch_with_master="false" fadeout_distance_level="1722495448" emitter_type="box" collision_event="none" material="prt_shd_water_foam_circular" billboard="3D" particles_per_sec="0.100" burst_length="0.000" particle_life="3.000" particle_life_deviation="0.200" particle_size_deviation="0.300" gravity="0.000, 0.000, 0.000" gravity_weight="0.000" turbulance_size="0.000" turbulance_strength="0.000" starting_scale_time="-0.000" starting_scale="1.000" starting_color_time="0.100" starting_alpha_time="0.100" starting_color="1.000, 1.000, 1.000" starting_alpha="0.996" ending_scale_time="1.000" ending_scale="40.000" ending_color_time="0.900" ending_alpha_time="0.900" ending_color="1.000, 1.000, 1.000" ending_alpha="0.004" emit_size="5.000, 0.000, 5.000, 0.000" emit_impulse="0.000, 0.000, 0.000" emit_randomization="0.000, 0.000, 0.000" damping="0.000" rotation_speed="2.000" rotational_damping="0.400" scale_with_velocity_multiplier="2.000" scale_with_emitters_velocity="0.000" activation_delay="0.000" always_emit="true" use_texture_atlas="true" texture_atlas_texture_counts="1.000000, 1.000000" randomize_size="true" gradient_normals="true" scale_with_velocity="true">
+								<children/>
+							</emitter>
+						</emitters>
+					</particle_system_component>
+				</components>
+			</game_entity>
+			<game_entity name="waterfall_splash_dust_planar">
+				<transform position="0.087, -16.880, 16.605" rotation_mat="0.099759, -0.994525, 0.031113, 0.005024, -0.078301, -0.996917, 0.968815, 0.247768, -0.002744" scale="1.584, 1.002, 1.019"/>
+				<physics override_material="default"/>
+				<components>
+					<particle_system_component id="psys_game_blood_1" low_quality_system="" low_quality_system_distance="50.000" wind_multiplier="0.000000, 0.000000" collision_plane_normal="0.000, 0.000, 1.000" random_generator_seed="1250631600">
+						<emitters>
+							<emitter name="Emitter" sample_mesh="" not_visible_on_low_config="false" synch_with_master="false" fadeout_distance_level="0" emitter_type="box" collision_event="none" material="prt_shd_waterfall_dust" billboard="3D" particles_per_sec="10.000" burst_length="0.000" particle_life="1.400" particle_life_deviation="-0.000" particle_size_deviation="3.000" gravity="0.000, 0.000, -10.000" gravity_weight="0.100" turbulance_size="0.000" turbulance_strength="0.000" starting_scale_time="-0.000" starting_scale="0.100" starting_color_time="0.100" starting_alpha_time="0.100" starting_color="1.000, 1.000, 1.000" starting_alpha="0.996" ending_scale_time="1.000" ending_scale="10.000" ending_color_time="0.900" ending_alpha_time="0.900" ending_color="1.000, 1.000, 1.000" ending_alpha="0.020" emit_size="0.000, 0.000, 0.000, 0.000" emit_impulse="0.000, 0.000, 0.000" emit_randomization="5.000, 0.000, 5.000" damping="0.000" rotation_speed="2.000" rotational_damping="0.400" scale_with_velocity_multiplier="2.000" scale_with_emitters_velocity="0.000" activation_delay="0.100" always_emit="true" use_texture_atlas="true" texture_atlas_texture_counts="2.000000, 2.000000" randomize_size="true" gradient_normals="true" scale_with_velocity="true">
+								<children/>
+							</emitter>
+						</emitters>
+					</particle_system_component>
+				</components>
+			</game_entity>
+			<game_entity name="waterfall">
+				<transform position="0.171, -3.274, 36.081" rotation_mat="0.999384, 0.033027, 0.011819, -0.012326, 0.998610, -0.051246, -0.013402, 0.129418, 0.991500" scale="1.000, 1.594, 1.005"/>
+				<physics override_material="default"/>
+				<components>
+					<particle_system_component id="psys_game_blood_1" low_quality_system="" low_quality_system_distance="50.000" wind_multiplier="0.000000, 0.000000" collision_plane_normal="0.000, 0.000, 1.000" random_generator_seed="1250630816">
+						<emitters>
+							<emitter name="Emitter" sample_mesh="" not_visible_on_low_config="false" synch_with_master="false" fadeout_distance_level="1721946288" emitter_type="box" collision_event="none" material="water_splash_2" billboard="Turn To Velocity Billboard" particles_per_sec="50.000" burst_length="0.000" particle_life="2.000" particle_life_deviation="0.100" particle_size_deviation="0.200" gravity="0.000, 0.000, -10.000" gravity_weight="3.000" turbulance_size="0.000" turbulance_strength="0.000" starting_scale_time="0.500" starting_scale="3.000" starting_color_time="0.100" starting_alpha_time="0.100" starting_color="1.000, 1.000, 1.000" starting_alpha="0.788" ending_scale_time="1.000" ending_scale="10.000" ending_color_time="0.900" ending_alpha_time="0.900" ending_color="1.000, 1.000, 1.000" ending_alpha="0.996" emit_size="2.000, 0.000, 0.000, 0.000" emit_impulse="-0.000, -5.000, 0.000" emit_randomization="0.000, 0.000, 0.000" damping="1.000" rotation_speed="5.000" rotational_damping="1.000" scale_with_velocity_multiplier="0.300" scale_with_emitters_velocity="0.000" activation_delay="0.100" always_emit="true" animated_sprite="true" sprite_count="25" texture_atlas_texture_counts="5.000000, 5.000000" sprite_frame_rate="16.000" randomize_size="true" randomize_rotation="true" scale_with_velocity="true">
+								<children/>
+							</emitter>
+						</emitters>
+					</particle_system_component>
+				</components>
+			</game_entity>
+			<game_entity name="waterfall_dust">
+				<transform position="-0.283, -2.679, 30.192" rotation_mat="0.987381, 0.158361, 0.000000, -0.062727, 0.998031, 0.000000, 0.000000, 0.000000, 1.000000" scale="1.008, 1.593, 1.000"/>
+				<physics override_material="default"/>
+				<components>
+					<particle_system_component id="psys_rain_dust" low_quality_system="" low_quality_system_distance="50.000" wind_multiplier="0.000000, 0.000000" collision_plane_normal="0.000, 0.000, 1.000" random_generator_seed="1250632384">
+						<emitters>
+							<emitter name="waterfall_dust" sample_mesh="" not_visible_on_low_config="false" synch_with_master="false" fadeout_distance_level="1651469428" emitter_type="box" collision_event="none" material="prt_shd_waterfall_dust" billboard="3D" particles_per_sec="5.000" burst_length="0.000" particle_life="1.500" particle_life_deviation="0.000" particle_size_deviation="0.500" gravity="0.000, 0.000, -9.800" gravity_weight="2.000" turbulance_size="10.000" turbulance_strength="5.000" starting_scale_time="0.100" starting_scale="6.000" starting_color_time="0.100" starting_alpha_time="0.100" starting_color="1.000, 1.000, 1.000" starting_alpha="0.396" ending_scale_time="0.900" ending_scale="12.000" ending_color_time="0.900" ending_alpha_time="0.900" ending_color="1.000, 1.000, 1.000" ending_alpha="0.043" emit_size="0.000, 0.000, 5.000, 0.000" emit_impulse="0.000, -4.000, 1.000" emit_randomization="0.000, 0.000, 0.000" damping="0.500" rotation_speed="2.000" rotational_damping="0.200" scale_with_velocity_multiplier="0.000" scale_with_emitters_velocity="0.000" activation_delay="0.000" always_emit="true" use_texture_atlas="true" texture_atlas_texture_counts="2.000000, 2.000000" randomize_size="true" randomize_rotation="true" gradient_normals="true">
+								<children/>
+							</emitter>
+						</emitters>
+					</particle_system_component>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="cliff_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.300, 0.300, 0.300"/>
+		<physics shape="bo_cliff_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cliff_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="cliff_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.300, 0.300, 0.300"/>
+		<physics shape="bo_cliff_b" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cliff_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="cliff_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.300, 0.300, 0.300"/>
+		<physics shape="bo_cliff_c" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cliff_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="cliff_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.300, 0.300, 0.300"/>
+		<physics shape="bo_cliff_d" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cliff_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="cliff_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.300, 0.300, 0.300"/>
+		<physics shape="bo_cliff_e" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cliff_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="cliff_g" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.300, 0.300, 0.300"/>
+		<physics shape="bo_cliff_g" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cliff_g"/>
+		</components>
+	</game_entity>
+	<game_entity name="cliff_f" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.300, 0.300, 0.300"/>
+		<physics shape="bo_cliff_f" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cliff_f"/>
+		</components>
+	</game_entity>
+	<game_entity name="cliff_h" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.300, 0.300, 0.300"/>
+		<physics shape="bo_cliff_h" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cliff_h"/>
+		</components>
+	</game_entity>
+	<game_entity name="cliff_i" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.300, 0.300, 0.300"/>
+		<physics shape="bo_cliff_i" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cliff_i"/>
+		</components>
+	</game_entity>
+	<game_entity name="cliff_j" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.300, 0.300, 0.300"/>
+		<physics shape="bo_cliff_j" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cliff_j"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_cliff_bridge_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_cliff_bridge_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_cliff_bridge_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="waterfall_a_single" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.921" scale="1.000, 0.626, 1.000"/>
+		<physics shape="bo_waterfall_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="waterfall_a"/>
+		</components>
+	</game_entity>
+	<game_entity occlusion_body_name="bo_occ_terrain_cliff_a2" old_prefab_name="" name="terrain_cliff_b2">
+		<components>
+			<meta_mesh_component name="terrain_cliff_a2">
+				<mesh material="rock_cliff_b" name="terrain_cliff_a2.lod6"/>
+				<mesh material="rock_cliff_b" name="terrain_cliff_a2"/>
+			</meta_mesh_component>
+		</components>
+		<physics mass="1.000" override_material="stone" shape="bo_terrain_cliff_a2"/>
+		<edit_mode_data selection_group_mask="0"/>
+	</game_entity>
+	<game_entity name="cave_desert_floor_a">
+		<physics shape="bo_cave_desert_floor_a" override_material="stone"/>
+		<components>
+			<meta_mesh_component name="cave_desert_floor_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="cave_desert_floor_b">
+		<physics shape="bo_cave_desert_floor_b" override_material="stone"/>
+		<components>
+			<meta_mesh_component name="cave_desert_floor_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="cave_desert_rock_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_cave_desert_rock_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cave_desert_rock_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="cave_desert_rock_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_cave_desert_rock_b" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cave_desert_rock_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="cave_desert_rock_small_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cave_desert_rock_small_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="cave_desert_rock_small_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cave_desert_rock_small_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="cave_desert_rock_small_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cave_desert_rock_small_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="cave_desert_rock_small_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cave_desert_rock_small_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="cave_desert_rock_small_e">
+		<components>
+			<meta_mesh_component name="cave_desert_rock_small_e"/>
+		</components>
+	</game_entity>	
+	<game_entity name="cave_desert_rock_small_f">
+		<components>
+			<meta_mesh_component name="cave_desert_rock_small_f"/>
+		</components>
+	</game_entity>	
+	<game_entity name="cave_desert_rock_wall_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_cave_desert_rock_wall_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cave_desert_rock_wall_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="cave_desert_rock_wall_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_cave_desert_rock_wall_b" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cave_desert_rock_wall_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="cave_desert_rock_wall_c">
+		<physics shape="bo_cave_desert_rock_wall_c" override_material="stone"/>
+		<components>
+			<meta_mesh_component name="cave_desert_rock_wall_c"/>
+		</components>
+	</game_entity>		
+	<game_entity name="cave_desert_rock_wall_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_cave_desert_rock_wall_d" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cave_desert_rock_wall_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="cave_desert_rock_wall_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_cave_desert_rock_wall_e" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cave_desert_rock_wall_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="cave_desert_rock_wall_f">
+		<physics shape="bo_cave_desert_rock_wall_f" override_material="stone"/>
+		<components>
+			<meta_mesh_component name="cave_desert_rock_wall_f"/>
+		</components>
+	</game_entity>		
+	<game_entity name="cave_desert_rock_wall_g" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_cave_desert_rock_wall_g" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="cave_desert_rock_wall_g"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_cliff_top_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_cliff_top_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_cliff_top_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_cliff_top_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_cliff_top_b" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_cliff_top_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_cliff_top_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_cliff_top_c" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_cliff_top_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_cliff_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_cliff_d" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_cliff_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="cave_desert_entry_a" occlusion_body_name="bo_occ_cave_desert_entry_a">
+		<physics shape="bo_cave_desert_entry_a" override_material="stone"/>
+		<components>
+			<meta_mesh_component name="cave_desert_entry_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="cave_desert_corridor_a" occlusion_body_name="bo_occ_cave_desert_corridor_a">
+		<physics shape="bo_cave_desert_corridor_a" override_material="stone"/>
+		<components>
+			<meta_mesh_component name="cave_desert_corridor_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_desert_cliff_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_desert_cliff_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_desert_cliff_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_desert_cliff_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_desert_cliff_b" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_desert_cliff_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_desert_cliff_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_desert_cliff_c" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_desert_cliff_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_desert_cliff_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_desert_cliff_d" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_desert_cliff_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_desert_cliff_far_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_desert_cliff_far_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_desert_cliff_far_a"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_desert_cliff_far_b" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_desert_cliff_far_b" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_desert_cliff_far_b"/>
+		</components>
+	</game_entity>
+	<game_entity name="rock_desert_cliff_top_a" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_rock_desert_cliff_top_a" override_material="stone" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="rock_desert_cliff_top_a"/>
+		</components>
+	</game_entity>
+</prefabs>
+

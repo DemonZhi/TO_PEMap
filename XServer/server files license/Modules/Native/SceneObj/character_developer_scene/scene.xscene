@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<scene name="character_developer_scene" version="2">
+	<environment_properties>
+		<property name="physics_world_min" value="0.000, 0.000"/>
+		<property name="physics_world_max_" value="19.561, 41.294"/>
+		<property name="north_angle" value="0.000"/>
+		<property name="is_indoors" value="false"/>
+		<property name="is_fixed_atmosphere" value="false"/>
+		<property name="disable_flora_billboards" value="false"/>
+		<property name="horizon_material_name" value=""/>
+		<property name="ground_color" value="0.000, 0.000, 0.000"/>
+		<atmosphere_properties>
+			<property name="atmosphere_name" value="inventory"/>
+			<property name="wind" value="0.000, 0.000"/>
+			<property name="scene_fog_falloff_offset" value="0.000"/>
+		</atmosphere_properties>
+		<water_properties>
+			<property name="water_level" value="-100.000"/>
+			<property name="water_material" value="water_default"/>
+			<property name="water_shallow_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_deep_color" value="0.000, 0.000, 0.000"/>
+		</water_properties>
+	</environment_properties>
+	<entities>
+		<game_entity name="Character1" old_prefab_name="">
+			<tags>
+				<tag name="agent1_frame"/>
+			</tags>
+			<transform position="11.468, 23.863, -0.018" rotation_euler="0.000, 0.000, -0.736"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<physics mass="1.000"/>
+			<components>
+				<meta_mesh_component name="head_male_a"/>
+				<meta_mesh_component name="hands_male_a" _index_="1"/>
+				<meta_mesh_component name="feet_male_a" _index_="2"/>
+				<meta_mesh_component name="roman_cloth_tunic_a" _index_="3"/>
+			</components>
+		</game_entity>
+		<game_entity name="orange_light" old_prefab_name="">
+			<transform position="12.010, 22.639, 1.168"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<physics mass="1.000"/>
+			<components>
+				<light_component flags="20" color="1.000, 0.526, 0.113" intensity="5.000" radius="4.000" local_frame_rot="4.000000, 0.000000, 0.000000, 0.000000, 4.000000, 0.000000, 0.000000, 0.000000, 4.000000" hotspot_angle="30.000" falloff_angle="45.000"/>
+			</components>
+		</game_entity>
+		<game_entity name="key_light" old_prefab_name="">
+			<transform position="9.594, 21.309, 1.672" rotation_euler="-0.039, -1.336, 0.162"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<physics mass="1.000"/>
+			<components>
+				<light_component flags="128" color="0.796, 0.843, 1.000" intensity="20.000" radius="3.000" local_frame_rot="17.013845, 0.000000, 0.000000, 0.000000, 17.013845, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="10.000" falloff_angle="80.000" ambient_coefficient="0.000" render_mesh=""/>
+			</components>
+		</game_entity>
+		<game_entity name="blue_light" old_prefab_name="">
+			<transform position="9.565, 22.186, 0.846"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<physics mass="1.000"/>
+			<components>
+				<light_component color="0.584, 0.682, 1.000" intensity="10.000" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" hotspot_angle="30.000" falloff_angle="45.000"/>
+			</components>
+		</game_entity>
+		<game_entity name="__empty_object" old_prefab_name="" visible="false">
+			<transform position="10.687, 22.008, -0.012"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<physics mass="1.000"/>
+			<components>
+				<meta_mesh_component name="plane">
+					<mesh name="plane" material="empire_dungeon_floor_c_blend" argument="1.000, 1.000, 1.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity name="blue_light" old_prefab_name="">
+			<transform position="11.868, 21.483, 1.231"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<physics mass="1.000"/>
+			<components>
+				<light_component color="0.584, 0.682, 1.000" intensity="5.000" radius="4.000" local_frame_rot="4.000000, 0.000000, 0.000000, 0.000000, 4.000000, 0.000000, 0.000000, 0.000000, 4.000000" hotspot_angle="30.000" falloff_angle="45.000"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="a_spr_light">
+			<transform position="8.357, 23.481, 1.151"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<components>
+				<light_component flags="20" intensity="20.000" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="aserai_courtyard_floor_a">
+			<transform position="9.890, 21.710, -0.200"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="aserai_courtyard_floor_a.22" material="matte_shadow" argument="220.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="camera_instance">
+			<tags>
+				<tag name="camera_instance"/>
+			</tags>
+			<transform position="12.972, 24.962, 1.522" rotation_euler="1.323, -0.285, 2.499"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<scripts>
+				<script name="camera_instance">
+					<variables>
+						<variable name="Show Display" value="true"/>
+					</variables>
+				</script>
+			</scripts>
+			<children>
+				<game_entity _index_="0">
+					<transform position="0.000, 0.000, 0.000" rotation_euler="-1.571, 1.125, 0.089"/>
+					<edit_mode_data selection_group_mask="0"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="Character2" old_prefab_name="">
+			<tags>
+				<tag name="agent2_frame"/>
+			</tags>
+			<transform position="10.303, 23.716, -0.018" rotation_euler="0.000, 0.000, -1.425"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<physics mass="1.000"/>
+			<components>
+				<meta_mesh_component name="head_male_a"/>
+				<meta_mesh_component name="hands_male_a" _index_="1"/>
+				<meta_mesh_component name="feet_male_a" _index_="2"/>
+				<meta_mesh_component name="roman_cloth_tunic_a" _index_="3"/>
+			</components>
+		</game_entity>
+		<game_entity name="CharacterMain" old_prefab_name="">
+			<tags>
+				<tag name="agent_main_frame"/>
+			</tags>
+			<transform position="11.468, 23.863, -0.018" rotation_euler="0.000, 0.000, -0.736"/>
+			<edit_mode_data selection_group_mask="0"/>
+			<physics mass="1.000"/>
+			<components>
+				<meta_mesh_component name="head_male_a"/>
+				<meta_mesh_component name="hands_male_a" _index_="1"/>
+				<meta_mesh_component name="feet_male_a" _index_="2"/>
+				<meta_mesh_component name="roman_cloth_tunic_a" _index_="3"/>
+			</components>
+		</game_entity>
+	</entities>
+	<terrain enabled="false">
+		<floras/>
+	</terrain>
+	<editor_data editor_camera_position="11.444, 26.528, 2.927" editor_camera_elevation="-0.361" editor_camera_bearing="1.105" editor_camera_forward="0.302, -0.829, -0.470" author="" comment=""/>
+	<camera_data near_plane="0.100" far_plane="1500.000"/>
+	<Paths/>
+</scene>
+

@@ -1,0 +1,70 @@
+<prefabs>
+	<game_entity name="flag_pole_big_cloth" old_prefab_name="" season_mask="255">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+		</flags>
+		<tags>
+			<tag name="area_flag_1"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_flagpole_a" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="flag_pole_big"/>
+		</components>
+		<children>
+			<game_entity name="flag_raising_boundary" old_prefab_name="" season_mask="255">
+				<tags>
+					<tag name="flag_raising_top"/>
+				</tags>
+				<transform position="-0.002, 0.002, 6.073"/>
+				<physics mass="1.000"/>
+			</game_entity>
+			<game_entity name="flag_raising_boundary" old_prefab_name="" season_mask="255">
+				<tags>
+					<tag name="flag_raising_bottom"/>
+				</tags>
+				<transform position="-0.002, 0.002, 2.128"/>
+				<physics mass="1.000"/>
+			</game_entity>
+			<game_entity name="flag_stand_big" old_prefab_name="" mobility="1" season_mask="255">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<tags>
+					<tag name="score_stand"/>
+				</tags>
+				<transform position="0.000, 0.000, 2.125"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="SynchedMissionObject">
+						<variables>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="capture_flag_a" old_prefab_name="" mobility="1" season_mask="255">
+						<tags>
+							<tag name="flag_white"/>
+						</tags>
+						<transform position="0.000, 0.290, 3.576" rotation_euler="0.000, 0.000, 3.141" scale="1.322, 1.322, 1.322"/>
+						<physics mass="1.000"/>
+						<components>
+							<cloth_simulator>
+								<meta_mesh_component name="flag_stand_cloth"/>
+							</cloth_simulator>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

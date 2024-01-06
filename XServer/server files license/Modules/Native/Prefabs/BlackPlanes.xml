@@ -1,0 +1,40 @@
+<prefabs>
+	<game_entity name="BlackPlaneGroup" old_prefab_name="">
+		<transform position="6.004, 4.959, 1.960" rotation_euler="0.000, 0.000, 0.000"/>
+		<children>
+			<game_entity name="_plane_8x8" old_prefab_name="">
+				<transform position="-18.975, 3.291, -1.760" rotation_euler="1.571, -1.571, -3.142" scale="27.510, 20.000, 1.110"/>
+				<components>
+					<meta_mesh_component name="plane_8x8">
+						<mesh name="plane_8x8" material="black"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="_plane_8x8" old_prefab_name="">
+				<transform position="22.831, 3.291, -1.760" rotation_euler="1.571, -1.571, 0.000" scale="27.510, 20.000, 1.110"/>
+				<components>
+					<meta_mesh_component name="plane_8x8">
+						<mesh name="plane_8x8" material="black"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="_plane_8x8" old_prefab_name="">
+				<transform position="1.651, -19.810, -1.758" rotation_euler="1.571, -3.142, 0.000" scale="27.510, 20.000, 1.110"/>
+				<components>
+					<meta_mesh_component name="plane_8x8">
+						<mesh name="plane_8x8" material="black"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="_plane_8x8" old_prefab_name="">
+				<transform position="1.651, 20.191, -1.758" rotation_euler="1.571, -3.142, -3.142" scale="27.510, 20.000, 1.110"/>
+				<components>
+					<meta_mesh_component name="plane_8x8">
+						<mesh name="plane_8x8" material="black"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

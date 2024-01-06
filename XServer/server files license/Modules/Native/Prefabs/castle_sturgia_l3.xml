@@ -1,0 +1,4389 @@
+<prefabs>
+	<game_entity old_prefab_name="" name="debris_sturgia_l3">
+		<children>
+			<game_entity old_prefab_name="" name="sturgia_l3_debris_9">
+				<components>
+					<meta_mesh_component name="sturgia_l3_debris_9"/>
+				</components>
+				<physics mass="1.000" shape="bo_sturgia_l3_debris_9">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 0.030" position="0.400, 0.012, 0.592"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="sturgia_l3_debris_8">
+				<components>
+					<meta_mesh_component name="sturgia_l3_debris_8"/>
+				</components>
+				<physics mass="1.000" shape="bo_sturgia_l3_debris_8">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 0.030" position="1.435, 0.043, -0.333"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="sturgia_l3_debris_7">
+				<components>
+					<meta_mesh_component name="sturgia_l3_debris_7"/>
+				</components>
+				<physics mass="1.000" shape="bo_sturgia_l3_debris_7">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 0.030" position="-1.172, -0.035, -0.471"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="sturgia_l3_debris_6">
+				<components>
+					<meta_mesh_component name="sturgia_l3_debris_6"/>
+				</components>
+				<physics mass="1.000" shape="bo_sturgia_l3_debris_6">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 0.030" position="-0.390, -0.012, 0.721"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="sturgia_l3_debris_5">
+				<components>
+					<meta_mesh_component name="sturgia_l3_debris_5"/>
+				</components>
+				<physics mass="1.000" shape="bo_sturgia_l3_debris_5">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 0.030" position="0.000, 0.000, -1.039"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="sturgia_l3_debris_4">
+				<components>
+					<meta_mesh_component name="sturgia_l3_debris_4"/>
+				</components>
+				<physics mass="1.000" shape="bo_sturgia_l3_debris_4">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 0.030" position="0.684, 0.021, 0.160"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="sturgia_l3_debris_3">
+				<components>
+					<meta_mesh_component name="sturgia_l3_debris_3"/>
+				</components>
+				<physics mass="1.000" shape="bo_sturgia_l3_debris_3">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 0.030" position="0.189, 0.006, 0.280"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="sturgia_l3_debris_2">
+				<components>
+					<meta_mesh_component name="sturgia_l3_debris_2"/>
+				</components>
+				<physics mass="1.000" shape="bo_sturgia_l3_debris_2">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 0.030" position="-0.416, -0.012, 0.189"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="sturgia_l3_debris_1">
+				<components>
+					<meta_mesh_component name="sturgia_l3_debris_1"/>
+				</components>
+				<physics mass="1.000" shape="bo_sturgia_l3_debris_1">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 0.030" position="-0.342, -0.010, -0.391"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="sturgia_l3_debris_0">
+				<components>
+					<meta_mesh_component name="sturgia_l3_debris_0"/>
+				</components>
+				<physics mass="1.000" shape="bo_sturgia_l3_debris_0">
+					<body_flags>
+						<body_flag name="dynamic_convex_hull"/>
+						<body_flag name="dynamic"/>
+					</body_flags>
+				</physics>
+				<edit_mode_data selection_group_mask="0"/>
+				<transform rotation_euler="0.000, 0.000, 0.030" position="0.635, 0.019, -0.522"/>
+			</game_entity>
+		</children>
+		<scripts>
+			<script name="AmbientSoundEmitter">
+				<variables>
+					<variable value="Sphere" name="Trigger Shape"/>
+					<variable value="false" name="Is Triggered"/>
+					<variable value="false" name="Send Mood Parameter"/>
+					<variable value="false" name="Send Snowfall Parameter"/>
+					<variable value="false" name="Send Rainfall Parameter"/>
+					<variable value="false" name="Send Daytime Parameter"/>
+					<variable value="" name="Overrided Event Path (Winter)"/>
+					<variable value="" name="Overrided Event Path (Fall)"/>
+					<variable value="" name="Overrided Event Path (Summer)"/>
+					<variable value="" name="Overrided Event Path (Spring)"/>
+					<variable value="1.000000" name="Overrided Pitch"/>
+					<variable value="0.000000" name="Overrided Volume"/>
+					<variable value="1.500000" name="Overrided Min Distance"/>
+					<variable value="500.000000" name="Overrided Max Distance"/>
+					<variable value="true" name="Play On Startup"/>
+					<variable value="false" name="Overrided Parameters"/>
+					<variable value="event:/mission/siege/merlon/stone_destroy" name="Event Path"/>
+				</variables>
+			</script>
+		</scripts>
+		<components>
+			<particle_system_instanced_component>
+				<effect_ref base_effect="{A6E13DD2-6DE2-4157-867E-46C7271258C8}"/>
+			</particle_system_instanced_component>
+		</components>
+		<physics mass="1.000"/>
+		<edit_mode_data selection_group_mask="0"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.021, 0.027, 0.000"/>
+	</game_entity>
+	<game_entity name="sturgia_castle_wall_a_l3" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="sturgia_castle_wall_a_l3" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_wall_a_l3">
+				<physics shape="bo_sturgia_castle_wall_a_l3" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_wall_a_l3"/>
+				</components>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable name="SideTag" value=""/>
+							<variable name="OnSolidWallNavmeshID1" value="31"/>
+							<variable name="OnSolidWallNavmeshID2" value="41"/>
+							<variable name="SolidWallConnectionNavmeshID1" value="51"/>
+							<variable name="SolidWallConnectionNavmeshID2" value="61"/>
+							<variable name="BrokenWallNavmeshID1" value="71"/>
+							<variable name="BrokenWallNavmeshID2" value="81"/>
+							<variable name="BrokenWallConnectionNavmeshID1" value="28"/>
+							<variable name="BrokenWallConnectionNavmeshID2" value="91"/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="merlon_7" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_wall_a_l3_07" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_a_l3_07"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="8.690, -1.395, 12.611"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_6" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_wall_a_l3_06" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_a_l3_06"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="5.560, -1.341, 12.588"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_5" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_wall_a_l3_05" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_a_l3_05"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="2.490, -1.429, 12.620"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_4" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_wall_a_l3_04" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_a_l3_04"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-0.637, -1.461, 12.469"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_3" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_wall_a_l3_03" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_a_l3_03"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-3.772, -1.423, 12.572"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_2" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_wall_a_l3_02" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_a_l3_02"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-7.020, -1.387, 12.571"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_1" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_wall_a_l3_01" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_a_l3_01"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-10.019, -1.399, 12.471"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity old_prefab_name="" name="sturgia_castle_wall_a_l3_broken">
+		<children>
+			<game_entity occlusion_body_name="bo_occ_sturgia_castle_wall_a_l3_broken" old_prefab_name="" name="sturgia_castle_wall_a_l3_broken">
+				<children>
+					<game_entity old_prefab_name="" name="merlon_3">
+						<children>
+							<game_entity old_prefab_name="" name="debris_holder">
+								<physics mass="1.000"/>
+								<edit_mode_data selection_group_mask="0"/>
+								<transform position="8.585, -1.294, 12.489"/>
+								<tags>
+									<tag name="reference"/>
+								</tags>
+							</game_entity>
+						</children>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+									<variable value="" name="HeavyHitParticlesTag"/>
+									<variable value="" name="OriginalStateTag"/>
+									<variable value="reference" name="ReferenceEntityTag"/>
+									<variable value="false" name="PassHitOnToParent"/>
+									<variable value="1.000" name="MaxHitPoint"/>
+									<variable value="true" name="CanBeDestroyedInitially"/>
+									<variable value="true" name="DestroyedByStoneOnly"/>
+									<variable value="debris_sturgia_l3" name="DestructionStates"/>
+								</variables>
+							</script>
+						</scripts>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_a_l3_07"/>
+						</components>
+						<physics mass="1.000" shape="bo_sturgia_castle_wall_a_l3_07"/>
+						<edit_mode_data selection_group_mask="0"/>
+						<flags>
+							<flag value="true" name="destructible"/>
+						</flags>
+					</game_entity>
+					<game_entity old_prefab_name="" name="merlon_2">
+						<children>
+							<game_entity old_prefab_name="" name="debris_holder">
+								<physics mass="1.000"/>
+								<edit_mode_data selection_group_mask="0"/>
+								<transform position="5.572, -1.288, 12.491"/>
+								<tags>
+									<tag name="reference"/>
+								</tags>
+							</game_entity>
+						</children>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+									<variable value="" name="HeavyHitParticlesTag"/>
+									<variable value="" name="OriginalStateTag"/>
+									<variable value="reference" name="ReferenceEntityTag"/>
+									<variable value="false" name="PassHitOnToParent"/>
+									<variable value="1.000" name="MaxHitPoint"/>
+									<variable value="true" name="CanBeDestroyedInitially"/>
+									<variable value="true" name="DestroyedByStoneOnly"/>
+									<variable value="debris_sturgia_l3" name="DestructionStates"/>
+								</variables>
+							</script>
+						</scripts>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_a_l3_06"/>
+						</components>
+						<physics mass="1.000" shape="bo_sturgia_castle_wall_a_l3_06"/>
+						<edit_mode_data selection_group_mask="0"/>
+						<flags>
+							<flag value="true" name="destructible"/>
+						</flags>
+					</game_entity>
+					<game_entity old_prefab_name="" name="merlon_1">
+						<children>
+							<game_entity old_prefab_name="" name="debris_holder">
+								<physics mass="1.000"/>
+								<edit_mode_data selection_group_mask="0"/>
+								<transform position="-10.298, -1.297, 12.416"/>
+								<tags>
+									<tag name="reference"/>
+								</tags>
+							</game_entity>
+						</children>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+									<variable value="" name="HeavyHitParticlesTag"/>
+									<variable value="" name="OriginalStateTag"/>
+									<variable value="reference" name="ReferenceEntityTag"/>
+									<variable value="false" name="PassHitOnToParent"/>
+									<variable value="1.000" name="MaxHitPoint"/>
+									<variable value="true" name="CanBeDestroyedInitially"/>
+									<variable value="true" name="DestroyedByStoneOnly"/>
+									<variable value="debris_sturgia_l3" name="DestructionStates"/>
+								</variables>
+							</script>
+						</scripts>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_a_l3_01"/>
+						</components>
+						<physics mass="1.000" shape="bo_sturgia_castle_wall_a_l3_01"/>
+						<edit_mode_data selection_group_mask="0"/>
+						<flags>
+							<flag value="true" name="destructible"/>
+						</flags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable value="91" name="BrokenWallConnectionNavmeshID2"/>
+							<variable value="28" name="BrokenWallConnectionNavmeshID1"/>
+							<variable value="81" name="BrokenWallNavmeshID2"/>
+							<variable value="71" name="BrokenWallNavmeshID1"/>
+							<variable value="61" name="SolidWallConnectionNavmeshID2"/>
+							<variable value="51" name="SolidWallConnectionNavmeshID1"/>
+							<variable value="41" name="OnSolidWallNavmeshID2"/>
+							<variable value="31" name="OnSolidWallNavmeshID1"/>
+							<variable value="" name="SideTag"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="sturgia_castle_wall_a_l3_broken"/>
+				</components>
+				<physics mass="1.000" shape="bo_sturgia_castle_wall_a_l3_broken"/>
+				<edit_mode_data selection_group_mask="0"/>
+			</game_entity>
+			<game_entity occlusion_body_name="bo_occ_sturgia_castle_wall_a_l3" old_prefab_name="" name="sturgia_castle_wall_a_l3">
+				<children>
+					<game_entity old_prefab_name="" name="merlon_7">
+						<children>
+							<game_entity old_prefab_name="" name="debris_holder">
+								<physics mass="1.000"/>
+								<edit_mode_data selection_group_mask="0"/>
+								<transform position="8.684, -1.294, 12.514"/>
+								<tags>
+									<tag name="reference"/>
+								</tags>
+							</game_entity>
+						</children>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+									<variable value="" name="HeavyHitParticlesTag"/>
+									<variable value="" name="OriginalStateTag"/>
+									<variable value="reference" name="ReferenceEntityTag"/>
+									<variable value="false" name="PassHitOnToParent"/>
+									<variable value="1.000" name="MaxHitPoint"/>
+									<variable value="true" name="CanBeDestroyedInitially"/>
+									<variable value="true" name="DestroyedByStoneOnly"/>
+									<variable value="debris_sturgia_l3" name="DestructionStates"/>
+								</variables>
+							</script>
+						</scripts>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_a_l3_07"/>
+						</components>
+						<physics mass="1.000" shape="bo_sturgia_castle_wall_a_l3_07"/>
+						<edit_mode_data selection_group_mask="0"/>
+						<flags>
+							<flag value="true" name="destructible"/>
+						</flags>
+					</game_entity>
+					<game_entity old_prefab_name="" name="merlon_6">
+						<children>
+							<game_entity old_prefab_name="" name="debris_holder">
+								<physics mass="1.000"/>
+								<edit_mode_data selection_group_mask="0"/>
+								<transform position="5.572, -1.288, 12.537"/>
+								<tags>
+									<tag name="reference"/>
+								</tags>
+							</game_entity>
+						</children>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+									<variable value="" name="HeavyHitParticlesTag"/>
+									<variable value="" name="OriginalStateTag"/>
+									<variable value="reference" name="ReferenceEntityTag"/>
+									<variable value="false" name="PassHitOnToParent"/>
+									<variable value="1.000" name="MaxHitPoint"/>
+									<variable value="true" name="CanBeDestroyedInitially"/>
+									<variable value="true" name="DestroyedByStoneOnly"/>
+									<variable value="debris_sturgia_l3" name="DestructionStates"/>
+								</variables>
+							</script>
+						</scripts>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_a_l3_06"/>
+						</components>
+						<physics mass="1.000" shape="bo_sturgia_castle_wall_a_l3_06"/>
+						<edit_mode_data selection_group_mask="0"/>
+						<flags>
+							<flag value="true" name="destructible"/>
+						</flags>
+					</game_entity>
+					<game_entity old_prefab_name="" name="merlon_5">
+						<children>
+							<game_entity old_prefab_name="" name="debris_holder">
+								<physics mass="1.000"/>
+								<edit_mode_data selection_group_mask="0"/>
+								<transform position="2.440, -1.355, 12.539"/>
+								<tags>
+									<tag name="reference"/>
+								</tags>
+							</game_entity>
+						</children>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+									<variable value="" name="HeavyHitParticlesTag"/>
+									<variable value="" name="OriginalStateTag"/>
+									<variable value="reference" name="ReferenceEntityTag"/>
+									<variable value="false" name="PassHitOnToParent"/>
+									<variable value="1.000" name="MaxHitPoint"/>
+									<variable value="true" name="CanBeDestroyedInitially"/>
+									<variable value="true" name="DestroyedByStoneOnly"/>
+									<variable value="debris_sturgia_l3" name="DestructionStates"/>
+								</variables>
+							</script>
+						</scripts>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_a_l3_05"/>
+						</components>
+						<physics mass="1.000" shape="bo_sturgia_castle_wall_a_l3_05"/>
+						<edit_mode_data selection_group_mask="0"/>
+						<flags>
+							<flag value="true" name="destructible"/>
+						</flags>
+					</game_entity>
+					<game_entity old_prefab_name="" name="merlon_4">
+						<children>
+							<game_entity old_prefab_name="" name="debris_holder">
+								<physics mass="1.000"/>
+								<edit_mode_data selection_group_mask="0"/>
+								<transform position="-0.693, -1.374, 12.448"/>
+								<tags>
+									<tag name="reference"/>
+								</tags>
+							</game_entity>
+						</children>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+									<variable value="" name="HeavyHitParticlesTag"/>
+									<variable value="" name="OriginalStateTag"/>
+									<variable value="reference" name="ReferenceEntityTag"/>
+									<variable value="false" name="PassHitOnToParent"/>
+									<variable value="1.000" name="MaxHitPoint"/>
+									<variable value="true" name="CanBeDestroyedInitially"/>
+									<variable value="true" name="DestroyedByStoneOnly"/>
+									<variable value="debris_sturgia_l3" name="DestructionStates"/>
+								</variables>
+							</script>
+						</scripts>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_a_l3_04"/>
+						</components>
+						<physics mass="1.000" shape="bo_sturgia_castle_wall_a_l3_04"/>
+						<edit_mode_data selection_group_mask="0"/>
+						<flags>
+							<flag value="true" name="destructible"/>
+						</flags>
+					</game_entity>
+					<game_entity old_prefab_name="" name="merlon_3">
+						<children>
+							<game_entity old_prefab_name="" name="debris_holder">
+								<physics mass="1.000"/>
+								<edit_mode_data selection_group_mask="0"/>
+								<transform position="-3.941, -1.331, 12.483"/>
+								<tags>
+									<tag name="reference"/>
+								</tags>
+							</game_entity>
+						</children>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+									<variable value="" name="HeavyHitParticlesTag"/>
+									<variable value="" name="OriginalStateTag"/>
+									<variable value="reference" name="ReferenceEntityTag"/>
+									<variable value="false" name="PassHitOnToParent"/>
+									<variable value="1.000" name="MaxHitPoint"/>
+									<variable value="true" name="CanBeDestroyedInitially"/>
+									<variable value="true" name="DestroyedByStoneOnly"/>
+									<variable value="debris_sturgia_l3" name="DestructionStates"/>
+								</variables>
+							</script>
+						</scripts>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_a_l3_03"/>
+						</components>
+						<physics mass="1.000" shape="bo_sturgia_castle_wall_a_l3_03"/>
+						<edit_mode_data selection_group_mask="0"/>
+						<flags>
+							<flag value="true" name="destructible"/>
+						</flags>
+					</game_entity>
+					<game_entity old_prefab_name="" name="merlon_2">
+						<children>
+							<game_entity old_prefab_name="" name="debris_holder">
+								<physics mass="1.000"/>
+								<edit_mode_data selection_group_mask="0"/>
+								<transform position="-7.033, -1.303, 12.457"/>
+								<tags>
+									<tag name="reference"/>
+								</tags>
+							</game_entity>
+						</children>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+									<variable value="" name="HeavyHitParticlesTag"/>
+									<variable value="" name="OriginalStateTag"/>
+									<variable value="reference" name="ReferenceEntityTag"/>
+									<variable value="false" name="PassHitOnToParent"/>
+									<variable value="1.000" name="MaxHitPoint"/>
+									<variable value="true" name="CanBeDestroyedInitially"/>
+									<variable value="true" name="DestroyedByStoneOnly"/>
+									<variable value="debris_sturgia_l3" name="DestructionStates"/>
+								</variables>
+							</script>
+						</scripts>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_a_l3_02"/>
+						</components>
+						<physics mass="1.000" shape="bo_sturgia_castle_wall_a_l3_02"/>
+						<edit_mode_data selection_group_mask="0"/>
+						<flags>
+							<flag value="true" name="destructible"/>
+						</flags>
+					</game_entity>
+					<game_entity old_prefab_name="" name="merlon_1">
+						<children>
+							<game_entity old_prefab_name="" name="debris_holder">
+								<physics mass="1.000"/>
+								<edit_mode_data selection_group_mask="0"/>
+								<transform position="-10.298, -1.297, 12.280"/>
+								<tags>
+									<tag name="reference"/>
+								</tags>
+							</game_entity>
+						</children>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+									<variable value="" name="HeavyHitParticlesTag"/>
+									<variable value="" name="OriginalStateTag"/>
+									<variable value="reference" name="ReferenceEntityTag"/>
+									<variable value="false" name="PassHitOnToParent"/>
+									<variable value="1.000" name="MaxHitPoint"/>
+									<variable value="true" name="CanBeDestroyedInitially"/>
+									<variable value="true" name="DestroyedByStoneOnly"/>
+									<variable value="debris_sturgia_l3" name="DestructionStates"/>
+								</variables>
+							</script>
+						</scripts>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_a_l3_01"/>
+						</components>
+						<physics mass="1.000" shape="bo_sturgia_castle_wall_a_l3_01"/>
+						<edit_mode_data selection_group_mask="0"/>
+						<flags>
+							<flag value="true" name="destructible"/>
+						</flags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable value="91" name="BrokenWallConnectionNavmeshID2"/>
+							<variable value="28" name="BrokenWallConnectionNavmeshID1"/>
+							<variable value="81" name="BrokenWallNavmeshID2"/>
+							<variable value="71" name="BrokenWallNavmeshID1"/>
+							<variable value="61" name="SolidWallConnectionNavmeshID2"/>
+							<variable value="51" name="SolidWallConnectionNavmeshID1"/>
+							<variable value="41" name="OnSolidWallNavmeshID2"/>
+							<variable value="31" name="OnSolidWallNavmeshID1"/>
+							<variable value="" name="SideTag"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="sturgia_castle_wall_a_l3"/>
+				</components>
+				<physics mass="1.000" shape="bo_sturgia_castle_wall_a_l3"/>
+				<edit_mode_data selection_group_mask="0"/>
+			</game_entity>
+		</children>
+		<scripts>
+			<script name="WallSegment">
+				<variables>
+					<variable value="91" name="BrokenWallConnectionNavmeshID2"/>
+					<variable value="28" name="BrokenWallConnectionNavmeshID1"/>
+					<variable value="81" name="BrokenWallNavmeshID2"/>
+					<variable value="71" name="BrokenWallNavmeshID1"/>
+					<variable value="61" name="SolidWallConnectionNavmeshID2"/>
+					<variable value="51" name="SolidWallConnectionNavmeshID1"/>
+					<variable value="41" name="OnSolidWallNavmeshID2"/>
+					<variable value="31" name="OnSolidWallNavmeshID1"/>
+					<variable value="" name="SideTag"/>
+				</variables>
+			</script>
+		</scripts>
+		<physics mass="1.000"/>
+		<edit_mode_data selection_group_mask="0"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity name="sturgia_castle_wall_c_l3" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="sturgia_castle_wall_c_l3" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_wall_c_l3">
+				<physics shape="bo_sturgia_castle_wall_c_l3" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_wall_c_l3"/>
+				</components>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable name="SideTag" value=""/>
+							<variable name="OnSolidWallNavmeshID1" value="31"/>
+							<variable name="OnSolidWallNavmeshID2" value="41"/>
+							<variable name="SolidWallConnectionNavmeshID1" value="51"/>
+							<variable name="SolidWallConnectionNavmeshID2" value="61"/>
+							<variable name="BrokenWallNavmeshID1" value="71"/>
+							<variable name="BrokenWallNavmeshID2" value="81"/>
+							<variable name="BrokenWallConnectionNavmeshID1" value="28"/>
+							<variable name="BrokenWallConnectionNavmeshID2" value="91"/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="merlon_1" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_wall_c_l3_01" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_c_l3_01"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-4.153, -1.385, 12.648"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_2" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_wall_c_l3_02" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_c_l3_02"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-1.144, -1.350, 13.094"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_3" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_wall_c_l3_03" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_c_l3_03"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="2.026, -1.377, 13.517"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_4" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_wall_c_l3_04" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_c_l3_04"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="5.096, -1.370, 13.938"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sturgia_castle_wall_d_l3" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="sturgia_castle_wall_d_l3" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_wall_d_l3">
+				<physics shape="bo_sturgia_castle_wall_d_l3" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_wall_d_l3"/>
+				</components>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable name="SideTag" value=""/>
+							<variable name="OnSolidWallNavmeshID1" value="31"/>
+							<variable name="OnSolidWallNavmeshID2" value="41"/>
+							<variable name="SolidWallConnectionNavmeshID1" value="51"/>
+							<variable name="SolidWallConnectionNavmeshID2" value="61"/>
+							<variable name="BrokenWallNavmeshID1" value="71"/>
+							<variable name="BrokenWallNavmeshID2" value="81"/>
+							<variable name="BrokenWallConnectionNavmeshID1" value="28"/>
+							<variable name="BrokenWallConnectionNavmeshID2" value="91"/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="merlon_4" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_wall_d_l3_04" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_d_l3_04"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="5.354, -1.260, 12.361"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_3" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_wall_d_l3_03" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_d_l3_03"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="2.245, -1.311, 12.362"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_2" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_wall_d_l3_02" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_d_l3_02"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-0.916, -1.346, 12.391"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_1" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_wall_d_l3_01" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_d_l3_01"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-4.172, -1.387, 12.402"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sturgia_castle_wall_d_l3_broken" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="WallSegment">
+				<variables>
+					<variable name="SideTag" value=""/>
+					<variable name="OnSolidWallNavmeshID1" value="31"/>
+					<variable name="OnSolidWallNavmeshID2" value="41"/>
+					<variable name="SolidWallConnectionNavmeshID1" value="51"/>
+					<variable name="SolidWallConnectionNavmeshID2" value="61"/>
+					<variable name="BrokenWallNavmeshID1" value="71"/>
+					<variable name="BrokenWallNavmeshID2" value="81"/>
+					<variable name="BrokenWallConnectionNavmeshID1" value="28"/>
+					<variable name="BrokenWallConnectionNavmeshID2" value="91"/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="sturgia_castle_wall_d_l3" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_wall_d_l3">
+				<physics shape="bo_sturgia_castle_wall_d_l3" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_wall_d_l3"/>
+				</components>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable name="SideTag" value=""/>
+							<variable name="OnSolidWallNavmeshID1" value="31"/>
+							<variable name="OnSolidWallNavmeshID2" value="41"/>
+							<variable name="SolidWallConnectionNavmeshID1" value="51"/>
+							<variable name="SolidWallConnectionNavmeshID2" value="61"/>
+							<variable name="BrokenWallNavmeshID1" value="71"/>
+							<variable name="BrokenWallNavmeshID2" value="81"/>
+							<variable name="BrokenWallConnectionNavmeshID1" value="28"/>
+							<variable name="BrokenWallConnectionNavmeshID2" value="91"/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="merlon_1" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_wall_d_l3_01" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_d_l3_01"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-4.414, -1.387, 12.186"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_2" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_wall_d_l3_02" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_d_l3_02"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-0.916, -1.346, 12.097"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_3" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_wall_d_l3_03" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_d_l3_03"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="2.245, -1.311, 12.195"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_4" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_wall_d_l3_04" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_wall_d_l3_04"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="4.995, -1.260, 12.181"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="sturgia_castle_wall_d_l3_broken" old_prefab_name="">
+				<physics shape="bo_sturgia_castle_wall_d_l3_broken" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_wall_d_l3_broken"/>
+				</components>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable name="SideTag" value=""/>
+							<variable name="OnSolidWallNavmeshID1" value="31"/>
+							<variable name="OnSolidWallNavmeshID2" value="41"/>
+							<variable name="SolidWallConnectionNavmeshID1" value="51"/>
+							<variable name="SolidWallConnectionNavmeshID2" value="61"/>
+							<variable name="BrokenWallNavmeshID1" value="71"/>
+							<variable name="BrokenWallNavmeshID2" value="81"/>
+							<variable name="BrokenWallConnectionNavmeshID1" value="28"/>
+							<variable name="BrokenWallConnectionNavmeshID2" value="91"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sturgia_castle_corner_a_l3" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="sturgia_castle_corner_a_l3" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_corner_a_l3">
+				<physics shape="bo_sturgia_castle_corner_a_l3" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_corner_a_l3"/>
+				</components>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable name="SideTag" value=""/>
+							<variable name="OnSolidWallNavmeshID1" value="31"/>
+							<variable name="OnSolidWallNavmeshID2" value="41"/>
+							<variable name="SolidWallConnectionNavmeshID1" value="51"/>
+							<variable name="SolidWallConnectionNavmeshID2" value="61"/>
+							<variable name="BrokenWallNavmeshID1" value="71"/>
+							<variable name="BrokenWallNavmeshID2" value="81"/>
+							<variable name="BrokenWallConnectionNavmeshID1" value="28"/>
+							<variable name="BrokenWallConnectionNavmeshID2" value="91"/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="merlon_5" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_a_l3_05" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_a_l3_05"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="4.035, -2.091, 12.602" rotation_euler="0.000, 0.000, 1.575"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_4" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_a_l3_04" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_a_l3_04"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="3.323, -4.709, 12.560"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_3" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_a_l3_03" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_a_l3_03"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="0.115, -4.842, 12.555"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_2" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_a_l3_02" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_a_l3_02"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-3.153, -4.721, 12.677" rotation_euler="0.000, 0.000, 0.006"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_1" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_a_l3_01" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_a_l3_01"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-4.088, -2.213, 12.599" rotation_euler="0.000, 0.000, -1.539"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity old_prefab_name="" name="sturgia_castle_corner_b_l3">
+		<children>
+			<game_entity occlusion_body_name="bo_occ_sturgia_castle_corner_b_l3" old_prefab_name="" name="sturgia_castle_corner_b_l3">
+				<children>
+					<game_entity name="sturgia_castle_corner_b_l3_stairs" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_b_l3_stairs" mass="1.000">
+							<body_flags>
+								<body_flag name="has_steps"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_b_l3_stairs"/>
+						</components>
+					</game_entity>
+					<game_entity old_prefab_name="" name="merlon_5">
+						<children>
+							<game_entity old_prefab_name="" name="debris_holder">
+								<physics mass="1.000"/>
+								<edit_mode_data selection_group_mask="0"/>
+								<transform rotation_euler="0.000, 0.000, 1.575" position="4.025, -1.867, 12.506"/>
+								<tags>
+									<tag name="reference"/>
+								</tags>
+							</game_entity>
+						</children>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+									<variable value="" name="HeavyHitParticlesTag"/>
+									<variable value="" name="OriginalStateTag"/>
+									<variable value="reference" name="ReferenceEntityTag"/>
+									<variable value="false" name="PassHitOnToParent"/>
+									<variable value="1.000" name="MaxHitPoint"/>
+									<variable value="true" name="CanBeDestroyedInitially"/>
+									<variable value="true" name="DestroyedByStoneOnly"/>
+									<variable value="debris_sturgia_l3" name="DestructionStates"/>
+								</variables>
+							</script>
+						</scripts>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_b_l3_05"/>
+						</components>
+						<physics mass="1.000" shape="bo_sturgia_castle_corner_b_l3_05"/>
+						<edit_mode_data selection_group_mask="0"/>
+						<flags>
+							<flag value="true" name="destructible"/>
+						</flags>
+					</game_entity>
+					<game_entity old_prefab_name="" name="merlon_4">
+						<children>
+							<game_entity old_prefab_name="" name="debris_holder">
+								<physics mass="1.000"/>
+								<edit_mode_data selection_group_mask="0"/>
+								<transform rotation_euler="0.000, 0.000, -0.012" position="3.499, -4.637, 12.508"/>
+								<tags>
+									<tag name="reference"/>
+								</tags>
+							</game_entity>
+						</children>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+									<variable value="" name="HeavyHitParticlesTag"/>
+									<variable value="" name="OriginalStateTag"/>
+									<variable value="reference" name="ReferenceEntityTag"/>
+									<variable value="false" name="PassHitOnToParent"/>
+									<variable value="1.000" name="MaxHitPoint"/>
+									<variable value="true" name="CanBeDestroyedInitially"/>
+									<variable value="true" name="DestroyedByStoneOnly"/>
+									<variable value="debris_sturgia_l3" name="DestructionStates"/>
+								</variables>
+							</script>
+						</scripts>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_b_l3_04"/>
+						</components>
+						<physics mass="1.000" shape="bo_sturgia_castle_corner_b_l3_04"/>
+						<edit_mode_data selection_group_mask="0"/>
+						<flags>
+							<flag value="true" name="destructible"/>
+						</flags>
+					</game_entity>
+					<game_entity old_prefab_name="" name="merlon_3">
+						<children>
+							<game_entity old_prefab_name="" name="debris_holder">
+								<physics mass="1.000"/>
+								<edit_mode_data selection_group_mask="0"/>
+								<transform position="0.189, -4.769, 12.670"/>
+								<tags>
+									<tag name="reference"/>
+								</tags>
+							</game_entity>
+						</children>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+									<variable value="" name="HeavyHitParticlesTag"/>
+									<variable value="" name="OriginalStateTag"/>
+									<variable value="reference" name="ReferenceEntityTag"/>
+									<variable value="false" name="PassHitOnToParent"/>
+									<variable value="1.000" name="MaxHitPoint"/>
+									<variable value="true" name="CanBeDestroyedInitially"/>
+									<variable value="true" name="DestroyedByStoneOnly"/>
+									<variable value="debris_sturgia_l3" name="DestructionStates"/>
+								</variables>
+							</script>
+						</scripts>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_b_l3_03"/>
+						</components>
+						<physics mass="1.000" shape="bo_sturgia_castle_corner_b_l3_03"/>
+						<edit_mode_data selection_group_mask="0"/>
+						<flags>
+							<flag value="true" name="destructible"/>
+						</flags>
+					</game_entity>
+					<game_entity old_prefab_name="" name="merlon_2">
+						<children>
+							<game_entity old_prefab_name="" name="debris_holder">
+								<physics mass="1.000"/>
+								<edit_mode_data selection_group_mask="0"/>
+								<transform position="-3.440, -4.693, 12.517"/>
+								<tags>
+									<tag name="reference"/>
+								</tags>
+							</game_entity>
+						</children>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+									<variable value="" name="HeavyHitParticlesTag"/>
+									<variable value="" name="OriginalStateTag"/>
+									<variable value="reference" name="ReferenceEntityTag"/>
+									<variable value="false" name="PassHitOnToParent"/>
+									<variable value="1.000" name="MaxHitPoint"/>
+									<variable value="true" name="CanBeDestroyedInitially"/>
+									<variable value="true" name="DestroyedByStoneOnly"/>
+									<variable value="debris_sturgia_l3" name="DestructionStates"/>
+								</variables>
+							</script>
+						</scripts>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_b_l3_02"/>
+						</components>
+						<physics mass="1.000" shape="bo_sturgia_castle_corner_b_l3_02"/>
+						<edit_mode_data selection_group_mask="0"/>
+						<flags>
+							<flag value="true" name="destructible"/>
+						</flags>
+					</game_entity>
+					<game_entity old_prefab_name="" name="merlon_1">
+						<children>
+							<game_entity old_prefab_name="" name="debris_holder">
+								<physics mass="1.000"/>
+								<edit_mode_data selection_group_mask="0"/>
+								<transform rotation_euler="0.000, 0.000, -1.569" position="-4.110, -2.001, 12.519"/>
+								<tags>
+									<tag name="reference"/>
+								</tags>
+							</game_entity>
+						</children>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable value="5.000" name="HeavyHitParticlesThreshold"/>
+									<variable value="" name="HeavyHitParticlesTag"/>
+									<variable value="" name="OriginalStateTag"/>
+									<variable value="reference" name="ReferenceEntityTag"/>
+									<variable value="false" name="PassHitOnToParent"/>
+									<variable value="1.000" name="MaxHitPoint"/>
+									<variable value="true" name="CanBeDestroyedInitially"/>
+									<variable value="true" name="DestroyedByStoneOnly"/>
+									<variable value="debris_sturgia_l3" name="DestructionStates"/>
+								</variables>
+							</script>
+						</scripts>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_b_l3_01"/>
+						</components>
+						<physics mass="1.000" shape="bo_sturgia_castle_corner_b_l3_01"/>
+						<edit_mode_data selection_group_mask="0"/>
+						<flags>
+							<flag value="true" name="destructible"/>
+						</flags>
+					</game_entity>
+				</children>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable value="91" name="BrokenWallConnectionNavmeshID2"/>
+							<variable value="28" name="BrokenWallConnectionNavmeshID1"/>
+							<variable value="81" name="BrokenWallNavmeshID2"/>
+							<variable value="71" name="BrokenWallNavmeshID1"/>
+							<variable value="61" name="SolidWallConnectionNavmeshID2"/>
+							<variable value="51" name="SolidWallConnectionNavmeshID1"/>
+							<variable value="41" name="OnSolidWallNavmeshID2"/>
+							<variable value="31" name="OnSolidWallNavmeshID1"/>
+							<variable value="" name="SideTag"/>
+						</variables>
+					</script>
+				</scripts>
+				<components>
+					<meta_mesh_component name="sturgia_castle_corner_b_l3"/>
+				</components>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<physics mass="1.000" shape="bo_sturgia_castle_corner_b_l3"/>
+				<edit_mode_data selection_group_mask="0"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="sound">
+				<children>
+					<game_entity old_prefab_name="" name="sound_reverb">
+						<scripts>
+							<script name="AmbientSoundEmitter">
+								<variables>
+									<variable value="Box" name="Trigger Shape"/>
+									<variable value="true" name="Is Triggered"/>
+									<variable value="false" name="Send Mood Parameter"/>
+									<variable value="false" name="Send Snowfall Parameter"/>
+									<variable value="false" name="Send Rainfall Parameter"/>
+									<variable value="false" name="Send Daytime Parameter"/>
+									<variable value="" name="Overrided Event Path (Winter)"/>
+									<variable value="" name="Overrided Event Path (Fall)"/>
+									<variable value="" name="Overrided Event Path (Summer)"/>
+									<variable value="" name="Overrided Event Path (Spring)"/>
+									<variable value="1.000000" name="Overrided Pitch"/>
+									<variable value="0.000000" name="Overrided Volume"/>
+									<variable value="0.000000" name="Overrided Min Distance"/>
+									<variable value="0.000000" name="Overrided Max Distance"/>
+									<variable value="true" name="Play On Startup"/>
+									<variable value="false" name="Overrided Parameters"/>
+									<variable value="event:/mission/ambient/reverb/stone_interior" name="Event Path"/>
+								</variables>
+							</script>
+							<script name="AmbientSoundEmitter">
+								<variables>
+									<variable value="Box" name="Trigger Shape"/>
+									<variable value="true" name="Is Triggered"/>
+									<variable value="true" name="Send Mood Parameter"/>
+									<variable value="false" name="Send Snowfall Parameter"/>
+									<variable value="false" name="Send Rainfall Parameter"/>
+									<variable value="true" name="Send Daytime Parameter"/>
+									<variable value="" name="Overrided Event Path (Winter)"/>
+									<variable value="" name="Overrided Event Path (Fall)"/>
+									<variable value="" name="Overrided Event Path (Summer)"/>
+									<variable value="" name="Overrided Event Path (Spring)"/>
+									<variable value="1.000000" name="Overrided Pitch"/>
+									<variable value="0.000000" name="Overrided Volume"/>
+									<variable value="0.000000" name="Overrided Min Distance"/>
+									<variable value="0.000000" name="Overrided Max Distance"/>
+									<variable value="true" name="Play On Startup"/>
+									<variable value="false" name="Overrided Parameters"/>
+									<variable value="event:/mission/ambient/area/interior/generic" name="Event Path"/>
+								</variables>
+							</script>
+						</scripts>
+						<physics mass="1.000"/>
+						<edit_mode_data selection_group_mask="0"/>
+						<transform scale="4.300, 4.000, 5.800" rotation_euler="0.000, 0.000, 0.000" position="0.000, -1.000, 5.500"/>
+					</game_entity>
+				</children>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+			</game_entity>
+		</children>
+		<physics mass="1.000"/>
+		<edit_mode_data selection_group_mask="0"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity name="sturgia_castle_gatehouse_a_l3" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<children>
+			<game_entity name="sturgia_castle_gatehouse_a_l3" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_gatehouse_a_l3">
+				<physics shape="bo_sturgia_castle_gatehouse_a_l3"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_castle_gatehouse_a_l3"/>
+				</components>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable name="_properGroundOutsideNavmeshID" value="-1"/>
+							<variable name="_properGroundInsideNavmeshID" value="-1"/>
+							<variable name="_underDebrisOutsideNavmeshID" value="-1"/>
+							<variable name="_underDebrisInsideNavmeshID" value="-1"/>
+							<variable name="_overDebrisOutsideNavmeshID" value="-1"/>
+							<variable name="_overDebrisInsideNavmeshID" value="-1"/>
+							<variable name="_underDebrisGenericNavmeshID" value="-1"/>
+							<variable name="_overDebrisGenericNavmeshID" value="-1"/>
+							<variable name="_onSolidWallGenericNavmeshID" value="-1"/>
+							<variable name="SideTag" value=""/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="merlon_21" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_21"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_21"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-10.307, -5.657, 18.525" rotation_euler="0.000, 0.000, -1.401"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_20" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_20"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_20"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-10.314, -1.879, 18.834" rotation_euler="0.000, 0.000, -1.533"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_19" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_19"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_19"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-10.364, 0.904, 18.820" rotation_euler="0.000, 0.000, -1.557"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_18" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_18"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_18"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-7.427, 4.423, 18.741" rotation_euler="0.000, 0.000, -3.136"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_17" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_17"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_17"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-1.471, 2.170, 18.677" rotation_euler="0.000, 0.000, 3.102"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_16" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_16"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_16"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="1.413, 2.172, 18.779" rotation_euler="0.000, 0.000, -3.139"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_15" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_15"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_15"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="7.258, 4.405, 18.754" rotation_euler="0.000, 0.000, -3.097"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_14" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_14"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_14"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="10.278, 0.941, 18.786" rotation_euler="0.000, 0.000, 1.566"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_13" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_13"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_13"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="10.270, -1.853, 18.796" rotation_euler="0.000, 0.000, 1.566"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_12" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_12"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_12"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="10.082, -5.547, 18.532" rotation_euler="0.000, 0.000, 1.470"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_11" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_11"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_11"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="7.798, -7.585, 18.521" rotation_euler="0.000, 0.000, -0.093"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_10" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_10"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_10"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="3.184, -6.079, 18.809" rotation_euler="0.000, 0.000, 0.024"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_09" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_09"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_09"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="0.043, -6.032, 18.763" rotation_euler="0.000, 0.000, 0.021"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_08" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_08"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_08"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-3.024, -5.987, 18.820" rotation_euler="0.000, 0.000, -0.027"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_07" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_07"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_07"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-7.724, -7.492, 18.530" rotation_euler="0.000, 0.000, 0.030"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_06" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_06"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_06"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="12.540, -7.163, 12.513" rotation_euler="0.000, 0.000, 1.191"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_05" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_05"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_05"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="9.336, -10.066, 12.619" rotation_euler="0.000, 0.000, 0.264"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_04" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_04"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_04"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="5.349, -9.494, 12.598" rotation_euler="0.000, 0.000, -0.594"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_03" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_03"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_03"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-5.310, -9.594, 12.639" rotation_euler="0.000, 0.000, 0.624"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_02" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_02"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_02"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-9.424, -10.153, 12.641" rotation_euler="0.000, 0.000, -0.300"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_01" old_prefab_name="" mobility="1">
+						<physics shape="bo_sturgia_castle_gatehouse_a_l3_01"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_a_l3_01"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="DestroyOnAnyHit" value="false"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+									<variable name="ParticleEffectOnDestroy" value=""/>
+									<variable name="SoundEffectOnDestroy" value=""/>
+									<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+									<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+									<variable name="BattleSide" value="None"/>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-12.506, -7.198, 12.559" rotation_euler="0.000, 0.000, -1.170"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="sturgia_castle_gatehouse_stairs_a_l3" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_gatehouse_stairs_a_l3">
+							<body_flags>
+								<body_flag name="has_steps"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="sturgia_castle_gatehouse_stairs_a_l3"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="reverb_gatehouse" old_prefab_name="">
+				<transform position="0.000, -2.500, 4.500" rotation_euler="0.000, 0.000, 0.000" scale="3.000, 4.500, 6.700"/>
+				<scripts>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/reverb/gatehouse"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Is Static" value="false"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Is Master Sound" value="false"/>
+							<variable name="Is Master Supressor" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Box"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="reverb_stone_interior" old_prefab_name="">
+				<transform position="0.000, -0.800, 14.500" rotation_euler="0.000, 0.000, 0.000" scale="10.600, 5.800, 3.000"/>
+				<scripts>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/reverb/stone_interior"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Is Static" value="false"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Is Master Sound" value="false"/>
+							<variable name="Is Master Supressor" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Box"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="reverb_stone_interior" old_prefab_name="">
+				<transform position="8.000, -3.400, 6.100" rotation_euler="0.000, 0.000, 0.000" scale="5.000, 7.300, 5.200"/>
+				<scripts>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/reverb/stone_interior"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Is Static" value="false"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Is Master Sound" value="false"/>
+							<variable name="Is Master Supressor" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Box"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="reverb_stone_interior" old_prefab_name="">
+				<transform position="-8.000, -3.400, 6.100" rotation_euler="0.000, 0.000, 0.000" scale="5.000, 7.300, 5.200"/>
+				<scripts>
+					<script name="AmbientSoundEmitter">
+						<variables>
+							<variable name="Event Path" value="event:/mission/ambient/reverb/stone_interior"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Is Static" value="false"/>
+							<variable name="Overrided Max Distance" value="0.000000"/>
+							<variable name="Overrided Min Distance" value="0.000000"/>
+							<variable name="Is Master Sound" value="false"/>
+							<variable name="Is Master Supressor" value="false"/>
+							<variable name="Is Triggered" value="true"/>
+							<variable name="Trigger Shape" value="Box"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sturgia_castle_corner_c_l3" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="sturgia_castle_corner_c_l3" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_corner_c_l3">
+				<physics shape="bo_sturgia_castle_corner_c_l3" mass="1.000"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_castle_corner_c_l3"/>
+				</components>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable name="SideTag" value=""/>
+							<variable name="OnSolidWallNavmeshID1" value="31"/>
+							<variable name="OnSolidWallNavmeshID2" value="41"/>
+							<variable name="SolidWallConnectionNavmeshID1" value="51"/>
+							<variable name="SolidWallConnectionNavmeshID2" value="61"/>
+							<variable name="BrokenWallNavmeshID1" value="71"/>
+							<variable name="BrokenWallNavmeshID2" value="81"/>
+							<variable name="BrokenWallConnectionNavmeshID1" value="28"/>
+							<variable name="BrokenWallConnectionNavmeshID2" value="91"/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="merlon_8" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_c_l3_08" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_c_l3_08"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-4.081, -0.979, 17.453" rotation_euler="0.000, 0.000, -1.561"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_7" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_c_l3_07" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_c_l3_07"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-3.728, 2.407, 17.444" rotation_euler="0.000, 0.000, -2.430"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_6" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_c_l3_06" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_c_l3_06"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="0.008, 2.743, 17.478" rotation_euler="0.000, 0.000, 3.133"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_5" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_c_l3_05" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_c_l3_05"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="3.719, 2.396, 17.482" rotation_euler="0.000, 0.000, 2.457"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_4" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_c_l3_04" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_c_l3_04"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="4.134, -1.000, 17.444" rotation_euler="0.000, 0.000, 1.566"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_3" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_c_l3_03" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_c_l3_03"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="3.753, -4.453, 17.492" rotation_euler="0.000, 0.000, 0.684"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_2" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_c_l3_02" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_c_l3_02"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-0.011, -4.710, 17.485" rotation_euler="0.000, 0.000, 0.004"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_1" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_c_l3_01" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_c_l3_01"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-3.660, -4.333, 17.461" rotation_euler="0.000, 0.000, -0.710"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="sturgia_castle_corner_c_l3_stairs" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_c_l3_stairs" mass="1.000">
+							<body_flags>
+								<body_flag name="has_steps"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_c_l3_stairs"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="sound" old_prefab_name="">
+				<physics mass="1.000"/>
+				<children>
+					<game_entity name="sound_reverb" old_prefab_name="">
+						<transform position="0.000, -1.000, 8.000" rotation_euler="0.000, 0.000, 0.000" scale="4.000, 4.000, 8.000"/>
+						<physics mass="1.000"/>
+						<scripts>
+							<script name="AmbientSoundEmitter">
+								<variables>
+									<variable name="Event Path" value="event:/mission/ambient/area/interior/generic"/>
+									<variable name="Overrided Parameters" value="false"/>
+									<variable name="Play On Startup" value="true"/>
+									<variable name="Overrided Max Distance" value="0.000000"/>
+									<variable name="Overrided Min Distance" value="0.000000"/>
+									<variable name="Overrided Volume" value="0.000000"/>
+									<variable name="Overrided Pitch" value="1.000000"/>
+									<variable name="Overrided Event Path (Spring)" value=""/>
+									<variable name="Overrided Event Path (Summer)" value=""/>
+									<variable name="Overrided Event Path (Fall)" value=""/>
+									<variable name="Overrided Event Path (Winter)" value=""/>
+									<variable name="Send Daytime Parameter" value="true"/>
+									<variable name="Send Rainfall Parameter" value="false"/>
+									<variable name="Send Snowfall Parameter" value="false"/>
+									<variable name="Send Mood Parameter" value="true"/>
+									<variable name="Is Triggered" value="true"/>
+									<variable name="Trigger Shape" value="Box"/>
+								</variables>
+							</script>
+							<script name="AmbientSoundEmitter">
+								<variables>
+									<variable name="Event Path" value="event:/mission/ambient/reverb/stone_interior"/>
+									<variable name="Overrided Parameters" value="false"/>
+									<variable name="Play On Startup" value="true"/>
+									<variable name="Overrided Max Distance" value="0.000000"/>
+									<variable name="Overrided Min Distance" value="0.000000"/>
+									<variable name="Overrided Volume" value="0.000000"/>
+									<variable name="Overrided Pitch" value="1.000000"/>
+									<variable name="Overrided Event Path (Spring)" value=""/>
+									<variable name="Overrided Event Path (Summer)" value=""/>
+									<variable name="Overrided Event Path (Fall)" value=""/>
+									<variable name="Overrided Event Path (Winter)" value=""/>
+									<variable name="Send Daytime Parameter" value="false"/>
+									<variable name="Send Rainfall Parameter" value="false"/>
+									<variable name="Send Snowfall Parameter" value="false"/>
+									<variable name="Send Mood Parameter" value="false"/>
+									<variable name="Is Triggered" value="true"/>
+									<variable name="Trigger Shape" value="Box"/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sturgia_castle_corner_d_l3" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="sturgia_castle_corner_d_l3" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_corner_d_l3">
+				<physics shape="bo_sturgia_castle_corner_d_l3" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_corner_d_l3"/>
+				</components>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable name="SideTag" value=""/>
+							<variable name="OnSolidWallNavmeshID1" value="31"/>
+							<variable name="OnSolidWallNavmeshID2" value="41"/>
+							<variable name="SolidWallConnectionNavmeshID1" value="51"/>
+							<variable name="SolidWallConnectionNavmeshID2" value="61"/>
+							<variable name="BrokenWallNavmeshID1" value="71"/>
+							<variable name="BrokenWallNavmeshID2" value="81"/>
+							<variable name="BrokenWallConnectionNavmeshID1" value="28"/>
+							<variable name="BrokenWallConnectionNavmeshID2" value="91"/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="merlon_7" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_d_l3_07" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_d_l3_07"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="1.125, 2.702, 12.606" rotation_euler="0.000, 0.000, -3.133"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_6" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_d_l3_06" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_d_l3_06"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="3.920, 2.473, 12.638" rotation_euler="0.000, 0.000, 1.888"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_5" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_d_l3_05" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_d_l3_05"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="4.062, -1.074, 12.610" rotation_euler="0.000, 0.000, 1.584"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_4" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_d_l3_04" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_d_l3_04"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="3.623, -4.414, 12.609" rotation_euler="0.000, 0.000, 0.693"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_3" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_d_l3_03" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_d_l3_03"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="0.034, -4.693, 12.611" rotation_euler="0.000, 0.000, 0.042"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_2" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_d_l3_02" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_d_l3_02"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-3.322, -4.661, 12.619"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_1" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_d_l3_01" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_d_l3_01"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-4.111, -1.892, 12.586" rotation_euler="0.000, 0.000, -1.566"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sturgia_castle_corner_e_l3" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="sturgia_castle_corner_e_l3" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_corner_e_l3">
+				<physics shape="bo_sturgia_castle_corner_e_l3" mass="1.000"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_castle_corner_e_l3"/>
+				</components>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable name="SideTag" value=""/>
+							<variable name="OnSolidWallNavmeshID1" value="31"/>
+							<variable name="OnSolidWallNavmeshID2" value="41"/>
+							<variable name="SolidWallConnectionNavmeshID1" value="51"/>
+							<variable name="SolidWallConnectionNavmeshID2" value="61"/>
+							<variable name="BrokenWallNavmeshID1" value="71"/>
+							<variable name="BrokenWallNavmeshID2" value="81"/>
+							<variable name="BrokenWallConnectionNavmeshID1" value="28"/>
+							<variable name="BrokenWallConnectionNavmeshID2" value="91"/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="merlon_8" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_e_l3_08" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_e_l3_08"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-4.083, -1.041, 17.516" rotation_euler="0.000, 0.000, -1.555"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_7" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_e_l3_07" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_e_l3_07"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-3.629, 2.425, 17.511" rotation_euler="0.000, 0.000, -2.533"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_6" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_e_l3_06" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_e_l3_06"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-0.015, 2.750, 17.502" rotation_euler="0.000, 0.000, -3.139"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_5" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_e_l3_05" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_e_l3_05"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="3.693, 2.431, 17.484" rotation_euler="0.000, 0.000, 2.422"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_4" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_e_l3_04" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_e_l3_04"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="4.027, -0.982, 17.501" rotation_euler="0.000, 0.000, 1.561"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_3" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_e_l3_03" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_e_l3_03"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="3.880, -4.589, 17.418" rotation_euler="0.000, 0.000, 0.525"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_2" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_e_l3_02" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_e_l3_02"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="0.109, -4.674, 17.491" rotation_euler="0.000, 0.000, -0.006"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_1" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_e_l3_01" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_e_l3_01"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-3.808, -4.485, 17.476" rotation_euler="0.000, 0.000, -0.759"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="sturgia_castle_corner_e_l3_stairs" old_prefab_name="">
+						<transform position="1.931, 1.642, 11.830" rotation_euler="0.000, 0.000, 0.006"/>
+						<physics shape="bo_sturgia_castle_corner_e_l3_stairs" mass="1.000">
+							<body_flags>
+								<body_flag name="has_steps"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_e_l3_stairs"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="sound" old_prefab_name="">
+				<physics mass="1.000"/>
+				<children>
+					<game_entity name="sound_reverb" old_prefab_name="">
+						<transform position="0.000, -1.000, 13.500" rotation_euler="0.000, 0.000, 0.000" scale="4.000, 4.000, 1.800"/>
+						<physics mass="1.000"/>
+						<scripts>
+							<script name="AmbientSoundEmitter">
+								<variables>
+									<variable name="Event Path" value="event:/mission/ambient/area/interior/generic"/>
+									<variable name="Overrided Parameters" value="false"/>
+									<variable name="Play On Startup" value="true"/>
+									<variable name="Overrided Max Distance" value="0.000000"/>
+									<variable name="Overrided Min Distance" value="0.000000"/>
+									<variable name="Overrided Volume" value="0.000000"/>
+									<variable name="Overrided Pitch" value="1.000000"/>
+									<variable name="Overrided Event Path (Spring)" value=""/>
+									<variable name="Overrided Event Path (Summer)" value=""/>
+									<variable name="Overrided Event Path (Fall)" value=""/>
+									<variable name="Overrided Event Path (Winter)" value=""/>
+									<variable name="Send Daytime Parameter" value="true"/>
+									<variable name="Send Rainfall Parameter" value="false"/>
+									<variable name="Send Snowfall Parameter" value="false"/>
+									<variable name="Send Mood Parameter" value="true"/>
+									<variable name="Is Triggered" value="true"/>
+									<variable name="Trigger Shape" value="Box"/>
+								</variables>
+							</script>
+							<script name="AmbientSoundEmitter">
+								<variables>
+									<variable name="Event Path" value="event:/mission/ambient/reverb/stone_interior"/>
+									<variable name="Overrided Parameters" value="false"/>
+									<variable name="Play On Startup" value="true"/>
+									<variable name="Overrided Max Distance" value="0.000000"/>
+									<variable name="Overrided Min Distance" value="0.000000"/>
+									<variable name="Overrided Volume" value="0.000000"/>
+									<variable name="Overrided Pitch" value="1.000000"/>
+									<variable name="Overrided Event Path (Spring)" value=""/>
+									<variable name="Overrided Event Path (Summer)" value=""/>
+									<variable name="Overrided Event Path (Fall)" value=""/>
+									<variable name="Overrided Event Path (Winter)" value=""/>
+									<variable name="Send Daytime Parameter" value="false"/>
+									<variable name="Send Rainfall Parameter" value="false"/>
+									<variable name="Send Snowfall Parameter" value="false"/>
+									<variable name="Send Mood Parameter" value="false"/>
+									<variable name="Is Triggered" value="true"/>
+									<variable name="Trigger Shape" value="Box"/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sturgia_castle_tower_round_a_l3" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="sturgia_castle_tower_round_a_l3" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_tower_round_a_l3">
+				<physics shape="bo_sturgia_castle_tower_round_a_l3" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_tower_round_a_l3"/>
+				</components>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable name="SideTag" value=""/>
+							<variable name="OnSolidWallNavmeshID1" value="31"/>
+							<variable name="OnSolidWallNavmeshID2" value="41"/>
+							<variable name="SolidWallConnectionNavmeshID1" value="51"/>
+							<variable name="SolidWallConnectionNavmeshID2" value="61"/>
+							<variable name="BrokenWallNavmeshID1" value="71"/>
+							<variable name="BrokenWallNavmeshID2" value="81"/>
+							<variable name="BrokenWallConnectionNavmeshID1" value="28"/>
+							<variable name="BrokenWallConnectionNavmeshID2" value="91"/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="sturgia_castle_tower_round_stairs_a_l3" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_tower_round_stairs_a_l3" mass="1.000">
+							<body_flags>
+								<body_flag name="has_steps"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="sturgia_castle_tower_round_stairs_a_l3"/>
+						</components>
+					</game_entity>
+					<game_entity name="merlon_13" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_tower_round_a_l3_13" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_tower_round_a_l3_13"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="3.505, -6.134, 23.019" rotation_euler="0.000, 0.000, 0.450"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_12" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_tower_round_a_l3_12" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_tower_round_a_l3_12"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="5.977, -3.854, 23.070" rotation_euler="0.000, 0.000, 0.984"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_11" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_tower_round_a_l3_11" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_tower_round_a_l3_11"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="7.127, -0.550, 23.045" rotation_euler="0.000, 0.000, 1.444"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_10" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_tower_round_a_l3_10" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_tower_round_a_l3_10"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="6.648, 2.777, 23.068" rotation_euler="0.000, 0.000, 1.939"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_9" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_tower_round_a_l3_09" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_tower_round_a_l3_09"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="4.634, 5.478, 23.024" rotation_euler="0.000, 0.000, 2.419"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_8" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_tower_round_a_l3_08" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_tower_round_a_l3_08"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="1.647, 6.930, 23.050" rotation_euler="0.000, 0.000, 2.932"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_7" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_tower_round_a_l3_07" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_tower_round_a_l3_07"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-1.706, 6.728, 23.053" rotation_euler="0.000, 0.000, -2.865"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_6" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_tower_round_a_l3_06" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_tower_round_a_l3_06"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-4.668, 5.127, 23.047" rotation_euler="0.000, 0.000, -2.451"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_5" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_tower_round_a_l3_05" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_tower_round_a_l3_05"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-6.482, 2.311, 23.045" rotation_euler="0.000, 0.000, -1.941"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_4" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_tower_round_a_l3_04" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_tower_round_a_l3_04"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-6.817, -1.011, 23.089" rotation_euler="0.000, 0.000, -1.458"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_3" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_tower_round_a_l3_03" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_tower_round_a_l3_03"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-5.632, -4.006, 23.041" rotation_euler="0.000, 0.000, -0.945"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_2" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_tower_round_a_l3_02" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_tower_round_a_l3_02"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-3.097, -6.166, 23.065" rotation_euler="0.000, 0.000, -0.453"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_1" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_tower_round_a_l3_01" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_tower_round_a_l3_01"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="0.182, -6.864, 23.078" rotation_euler="0.000, 0.000, 0.033"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="sound" old_prefab_name="">
+				<physics mass="1.000"/>
+				<children>
+					<game_entity name="sound_reverb" old_prefab_name="">
+						<transform position="0.000, 0.000, 14.262" rotation_euler="0.000, 0.000, 0.000" scale="7.582, 1.000, 1.000"/>
+						<physics mass="1.000"/>
+						<scripts>
+							<script name="AmbientSoundEmitter">
+								<variables>
+									<variable name="Event Path" value="event:/mission/ambient/reverb/stone_interior"/>
+									<variable name="Overrided Parameters" value="false"/>
+									<variable name="Play On Startup" value="true"/>
+									<variable name="Overrided Max Distance" value="0.000000"/>
+									<variable name="Overrided Min Distance" value="0.000000"/>
+									<variable name="Overrided Volume" value="0.000000"/>
+									<variable name="Overrided Pitch" value="1.000000"/>
+									<variable name="Overrided Event Path (Spring)" value=""/>
+									<variable name="Overrided Event Path (Summer)" value=""/>
+									<variable name="Overrided Event Path (Fall)" value=""/>
+									<variable name="Overrided Event Path (Winter)" value=""/>
+									<variable name="Send Daytime Parameter" value="false"/>
+									<variable name="Send Rainfall Parameter" value="false"/>
+									<variable name="Send Snowfall Parameter" value="false"/>
+									<variable name="Send Mood Parameter" value="false"/>
+									<variable name="Is Triggered" value="true"/>
+									<variable name="Trigger Shape" value="Sphere"/>
+								</variables>
+							</script>
+							<script name="AmbientSoundEmitter">
+								<variables>
+									<variable name="Event Path" value="event:/mission/ambient/area/interior/generic"/>
+									<variable name="Overrided Parameters" value="false"/>
+									<variable name="Play On Startup" value="true"/>
+									<variable name="Overrided Max Distance" value="0.000000"/>
+									<variable name="Overrided Min Distance" value="0.000000"/>
+									<variable name="Overrided Volume" value="0.000000"/>
+									<variable name="Overrided Pitch" value="1.000000"/>
+									<variable name="Overrided Event Path (Spring)" value=""/>
+									<variable name="Overrided Event Path (Summer)" value=""/>
+									<variable name="Overrided Event Path (Fall)" value=""/>
+									<variable name="Overrided Event Path (Winter)" value=""/>
+									<variable name="Send Daytime Parameter" value="true"/>
+									<variable name="Send Rainfall Parameter" value="false"/>
+									<variable name="Send Snowfall Parameter" value="false"/>
+									<variable name="Send Mood Parameter" value="true"/>
+									<variable name="Is Triggered" value="true"/>
+									<variable name="Trigger Shape" value="Sphere"/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="sound_reverb" old_prefab_name="">
+						<transform position="0.000, 0.000, 6.837" rotation_euler="0.000, 0.000, 0.000" scale="7.582, 1.000, 1.000"/>
+						<physics mass="1.000"/>
+						<scripts>
+							<script name="AmbientSoundEmitter">
+								<variables>
+									<variable name="Event Path" value="event:/mission/ambient/reverb/stone_interior"/>
+									<variable name="Overrided Parameters" value="false"/>
+									<variable name="Play On Startup" value="true"/>
+									<variable name="Overrided Max Distance" value="0.000000"/>
+									<variable name="Overrided Min Distance" value="0.000000"/>
+									<variable name="Overrided Volume" value="0.000000"/>
+									<variable name="Overrided Pitch" value="1.000000"/>
+									<variable name="Overrided Event Path (Spring)" value=""/>
+									<variable name="Overrided Event Path (Summer)" value=""/>
+									<variable name="Overrided Event Path (Fall)" value=""/>
+									<variable name="Overrided Event Path (Winter)" value=""/>
+									<variable name="Send Daytime Parameter" value="false"/>
+									<variable name="Send Rainfall Parameter" value="false"/>
+									<variable name="Send Snowfall Parameter" value="false"/>
+									<variable name="Send Mood Parameter" value="false"/>
+									<variable name="Is Triggered" value="true"/>
+									<variable name="Trigger Shape" value="Sphere"/>
+								</variables>
+							</script>
+							<script name="AmbientSoundEmitter">
+								<variables>
+									<variable name="Event Path" value="event:/mission/ambient/area/interior/generic"/>
+									<variable name="Overrided Parameters" value="false"/>
+									<variable name="Play On Startup" value="true"/>
+									<variable name="Overrided Max Distance" value="0.000000"/>
+									<variable name="Overrided Min Distance" value="0.000000"/>
+									<variable name="Overrided Volume" value="0.000000"/>
+									<variable name="Overrided Pitch" value="1.000000"/>
+									<variable name="Overrided Event Path (Spring)" value=""/>
+									<variable name="Overrided Event Path (Summer)" value=""/>
+									<variable name="Overrided Event Path (Fall)" value=""/>
+									<variable name="Overrided Event Path (Winter)" value=""/>
+									<variable name="Send Daytime Parameter" value="false"/>
+									<variable name="Send Rainfall Parameter" value="false"/>
+									<variable name="Send Snowfall Parameter" value="false"/>
+									<variable name="Send Mood Parameter" value="false"/>
+									<variable name="Is Triggered" value="true"/>
+									<variable name="Trigger Shape" value="Sphere"/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="sturgia_castle_wall_gate_l3" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="sturgia_castle_wall_gate_l3" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_wall_gate_l3">
+				<physics shape="bo_sturgia_castle_wall_gate_l3" mass="1.000"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_castle_wall_gate_l3"/>
+				</components>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable name="SideTag" value=""/>
+							<variable name="OnSolidWallNavmeshID1" value="31"/>
+							<variable name="OnSolidWallNavmeshID2" value="41"/>
+							<variable name="SolidWallConnectionNavmeshID1" value="51"/>
+							<variable name="SolidWallConnectionNavmeshID2" value="61"/>
+							<variable name="BrokenWallNavmeshID1" value="71"/>
+							<variable name="BrokenWallNavmeshID2" value="81"/>
+							<variable name="BrokenWallConnectionNavmeshID1" value="28"/>
+							<variable name="BrokenWallConnectionNavmeshID2" value="91"/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="merlon_8" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_c_l3_08" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_c_l3_08"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-4.081, -0.979, 17.453" rotation_euler="0.000, 0.000, -1.561"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_7" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_c_l3_07" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_c_l3_07"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-3.728, 2.407, 17.444" rotation_euler="0.000, 0.000, -2.430"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_6" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_c_l3_06" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_c_l3_06"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="0.008, 2.743, 17.478" rotation_euler="0.000, 0.000, 3.133"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_5" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_c_l3_05" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_c_l3_05"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="3.719, 2.396, 17.482" rotation_euler="0.000, 0.000, 2.457"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_4" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_c_l3_04" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_c_l3_04"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="4.134, -1.000, 17.444" rotation_euler="0.000, 0.000, 1.566"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_3" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_c_l3_03" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_c_l3_03"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="3.753, -4.453, 17.492" rotation_euler="0.000, 0.000, 0.684"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_2" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_c_l3_02" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_c_l3_02"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-0.011, -4.710, 17.485" rotation_euler="0.000, 0.000, 0.004"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merlon_1" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_corner_c_l3_01" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_c_l3_01"/>
+						</components>
+						<scripts>
+							<script name="DestructableComponent">
+								<variables>
+									<variable name="DestructionStates" value="debris_sturgia_l3"/>
+									<variable name="DestroyedByStoneOnly" value="true"/>
+									<variable name="CanBeDestroyedInitially" value="true"/>
+									<variable name="MaxHitPoint" value="1.000"/>
+									<variable name="PassHitOnToParent" value="false"/>
+									<variable name="ReferenceEntityTag" value="reference"/>
+									<variable name="OriginalStateTag" value=""/>
+									<variable name="HeavyHitParticlesTag" value=""/>
+									<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+								</variables>
+							</script>
+						</scripts>
+						<children>
+							<game_entity name="debris_holder" old_prefab_name="">
+								<tags>
+									<tag name="reference"/>
+								</tags>
+								<transform position="-3.660, -4.333, 17.461" rotation_euler="0.000, 0.000, -0.710"/>
+								<physics mass="1.000"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="sturgia_castle_corner_e_l3_stairs" old_prefab_name="">
+						<transform position="-1.951, 1.628, 11.859" rotation_euler="0.000, 0.000, -3.141"/>
+						<physics shape="bo_sturgia_castle_corner_e_l3_stairs" mass="1.000">
+							<body_flags>
+								<body_flag name="has_steps"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="sturgia_castle_corner_e_l3_stairs"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="sound" old_prefab_name="">
+				<physics mass="1.000"/>
+				<children>
+					<game_entity name="sound_reverb" old_prefab_name="">
+						<transform position="0.000, -1.000, 8.000" rotation_euler="0.000, 0.000, 0.000" scale="4.000, 4.000, 8.000"/>
+						<physics mass="1.000"/>
+						<scripts>
+							<script name="AmbientSoundEmitter">
+								<variables>
+									<variable name="Event Path" value="event:/mission/ambient/area/interior/generic"/>
+									<variable name="Overrided Parameters" value="false"/>
+									<variable name="Play On Startup" value="true"/>
+									<variable name="Overrided Max Distance" value="0.000000"/>
+									<variable name="Overrided Min Distance" value="0.000000"/>
+									<variable name="Overrided Volume" value="0.000000"/>
+									<variable name="Overrided Pitch" value="1.000000"/>
+									<variable name="Overrided Event Path (Spring)" value=""/>
+									<variable name="Overrided Event Path (Summer)" value=""/>
+									<variable name="Overrided Event Path (Fall)" value=""/>
+									<variable name="Overrided Event Path (Winter)" value=""/>
+									<variable name="Send Daytime Parameter" value="true"/>
+									<variable name="Send Rainfall Parameter" value="false"/>
+									<variable name="Send Snowfall Parameter" value="false"/>
+									<variable name="Send Mood Parameter" value="true"/>
+									<variable name="Is Triggered" value="true"/>
+									<variable name="Trigger Shape" value="Box"/>
+								</variables>
+							</script>
+							<script name="AmbientSoundEmitter">
+								<variables>
+									<variable name="Event Path" value="event:/mission/ambient/reverb/stone_interior"/>
+									<variable name="Overrided Parameters" value="false"/>
+									<variable name="Play On Startup" value="true"/>
+									<variable name="Overrided Max Distance" value="0.000000"/>
+									<variable name="Overrided Min Distance" value="0.000000"/>
+									<variable name="Overrided Volume" value="0.000000"/>
+									<variable name="Overrided Pitch" value="1.000000"/>
+									<variable name="Overrided Event Path (Spring)" value=""/>
+									<variable name="Overrided Event Path (Summer)" value=""/>
+									<variable name="Overrided Event Path (Fall)" value=""/>
+									<variable name="Overrided Event Path (Winter)" value=""/>
+									<variable name="Send Daytime Parameter" value="false"/>
+									<variable name="Send Rainfall Parameter" value="false"/>
+									<variable name="Send Snowfall Parameter" value="false"/>
+									<variable name="Send Mood Parameter" value="false"/>
+									<variable name="Is Triggered" value="true"/>
+									<variable name="Trigger Shape" value="Box"/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

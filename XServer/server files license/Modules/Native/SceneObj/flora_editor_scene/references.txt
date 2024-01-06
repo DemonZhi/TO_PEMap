@@ -1,0 +1,12 @@
+11
+texture filmic_color_grade
+texture ground2
+texture ground_grass_b_h
+texture ground_grass_b_n
+texture ground_grass_b_s
+texture lens_dirt
+texture lens_star
+texture no_clouds
+texture sky_clouds_only2_n
+texture sky_photo_clear_02
+texture sun_core2

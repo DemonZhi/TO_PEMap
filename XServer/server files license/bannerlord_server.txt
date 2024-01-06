@@ -1,0 +1,1 @@
+steamcmd.exe +force_install_dir "C:\Users\admin\Desktop\server files license" +login steamid "steampw" +app_update 1863440 validate

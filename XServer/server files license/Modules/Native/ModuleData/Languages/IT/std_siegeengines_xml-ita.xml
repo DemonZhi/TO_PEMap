@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Italiano" />
+  </tags>
+  <strings>
+    <string id="0bPqoNk9" text="Le briccole sono potenti armi d&apos;assedio che possono essere posizionate sulle torri." />
+    <string id="1bbdz9iS" text="Le catapulte sono efficaci contro le macchine d&apos;assedio e le mura dei nemici." />
+    <string id="4lS8cX6c" text="Le baliste da fuoco sono simili a quelle normali, ma sparano proiettili in fiamme che sono più efficaci contro le macchine d&apos;assedio." />
+    <string id="4Skg9QhO" text="{.MS}Trabucco{@Plural}{.MP}Trabucchi{\@}" />
+    <string id="6UPgDokE" text="Torre d&apos;assedio avanzata" />
+    <string id="8VUZPA6Q" text="Una versione più potente dell&apos;ariete da assedio semplice." />
+    <string id="9dKklwiv" text="Le scale sono semplici e veloci da realizzare, ma non offrono protezione dagli aggressori." />
+    <string id="abbALYlp" text="{.FS}Balista{@Plural}{.FP}Baliste{\@}" />
+    <string id="atA20r4C" text="Le baliste sono efficaci contro le armi a distanza nemiche. Inoltre, possono colpire gli individui nemici a distanza." />
+    <string id="aXjlMBiE" text="Torre d&apos;assedio" />
+    <string id="CbnswkEa" text="Gli onagri sono efficaci contro le macchine d&apos;assedio e le mura dei nemici." />
+    <string id="Ew11a1Tx" text="{.FS}Catapulta{@Plural}{.FP}Catapulte{\@}" />
+    <string id="G0AWk1rX" text="Scala" />
+    <string id="GPESFoWD" text="{.MS}Onagro{@Plural}{.MP}Onagri{\@}" />
+    <string id="hhHcHGrO" text="Una torre d&apos;assedio più robusta con una piattaforma per gli arcieri." />
+    <string id="iLD5Lkto" text="{.MS}Onagro infuocato{@Plural}{.MP}Onagri infuocati{\@}" />
+    <string id="jWjnpW52" text="Le torri d&apos;assedio permettono di avvicinarsi alle mura senza esporsi ai colpi lanciati e ridurre il vantaggio di altitudine dei difensori." />
+    <string id="lFl5Ai1a" text="Trabucco da fuoco" />
+    <string id="MaBSSg7I" text="Ariete da assedio" />
+    <string id="NeWvHjCw" text="Balista infuocata" />
+    <string id="nM3ENTEW" text="Le catapulte da fuoco sono simili a quelle normali, ma sparano proiettili incendiari che sono più efficaci contro le macchine d&apos;assedio." />
+    <string id="pa3E7810" text="Preparativi assedio" />
+    <string id="S6odGUh9" text="Gli onagri da fuoco sono efficaci contro le macchine d&apos;assedio e le mura dei nemici e sparano colpi incendiari." />
+    <string id="TlP31w8l" text="{.FS}Briccola{@Plural}{.FP}Briccole{\@}" />
+    <string id="U9MJaX7f" text="Un ariete da assedio che può essere utilizzato per sfondare i cancelli e permettere l&apos;accesso al cortile interno." />
+    <string id="UP0EKlfK" text="I trabucchi richiedono un lungo tempo di costruzione e disposizione, ma riescono a sgretolare qualunque difesa nemica." />
+    <string id="uvUHbHoW" text="Invece di semplici pietre, i trabucchi da fuoco rilasciano colpi incendiari che sono più efficaci contro le macchine d&apos;assedio e i nemici." />
+    <string id="Wg2P3acK" text="Catapulta infuocata" />
+    <string id="xBygO7kH" text="Riempi i fossi, livella il terreno e disponi gli arcieri in preparazione dell&apos;assalto." />
+    <string id="zt0bVSsU" text="Ariete migliorato" />
+  </strings>
+</base>

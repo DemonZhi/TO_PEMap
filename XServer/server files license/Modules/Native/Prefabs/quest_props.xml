@@ -1,0 +1,270 @@
+<prefabs>
+	<game_entity name="quest_default_prefab" old_prefab_name="">
+		<tags>
+			<tag name="quest"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="aaa_skeleton_test" old_prefab_name="">
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="body_male_a"/>
+				</components>
+				<levels>
+					<level name="base"/>
+				</levels>
+			</game_entity>
+			<game_entity name="_to_carry_kitchen_pot_c" old_prefab_name="">
+				<transform position="0.000, 0.000, 0.321"/>
+				<physics shape="bo_kitchen_pot_c" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="kitchen_pot_c"/>
+				</components>
+				<levels>
+					<level name="base"/>
+				</levels>
+			</game_entity>
+			<game_entity name="_to_carry_foods_watermelon_a" old_prefab_name="">
+				<transform position="0.000, 0.000, 1.387"/>
+				<physics shape="bo_foods_watermelon_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="foods_watermelon_a"/>
+				</components>
+				<levels>
+					<level name="base"/>
+				</levels>
+			</game_entity>
+		</children>
+		<levels>
+			<level name="base"/>
+		</levels>
+	</game_entity>
+	<game_entity name="quest_icon_2" old_prefab_name="">
+		<tags>
+			<tag name="quest"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.471"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="bd_log_and_axe" old_prefab_name="">
+				<transform position="0.042, -0.015, 0.000" rotation_euler="0.000, 0.000, 1.408" scale="1.393, 1.393, 1.393"/>
+				<physics shape="bo_bd_log_and_axe" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_log_and_axe"/>
+				</components>
+				<levels>
+					<level name="base"/>
+				</levels>
+			</game_entity>
+		</children>
+		<levels>
+			<level name="base"/>
+		</levels>
+	</game_entity>
+	<game_entity old_prefab_name="" name="parent_test">
+		<levels>
+			<level name="base"/>
+		</levels>
+		<children>
+			<game_entity old_prefab_name="" name="bd_barrel_3">
+				<levels>
+					<level name="base"/>
+				</levels>
+				<components>
+					<meta_mesh_component name="bd_barrel_a"/>
+				</components>
+				<physics mass="1.000" override_material="wood" shape="bo_bd_barrel_a"/>
+				<transform position="5.392, -2.149, -3.785"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="bd_barrel_2">
+				<levels>
+					<level name="base"/>
+				</levels>
+				<components>
+					<meta_mesh_component name="bd_barrel_a"/>
+				</components>
+				<physics mass="1.000" override_material="wood" shape="bo_bd_barrel_a"/>
+				<transform position="1.665, -1.776, -3.785"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="bd_barrel_1">
+				<levels>
+					<level name="base"/>
+				</levels>
+				<components>
+					<meta_mesh_component name="bd_barrel_a"/>
+				</components>
+				<physics mass="1.000" override_material="wood" shape="bo_bd_barrel_a"/>
+				<transform position="-2.976, -1.567, -3.785"/>
+			</game_entity>
+		</children>
+		<physics mass="1.000"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity old_prefab_name="" name="parent_test_2">
+		<levels>
+			<level name="base"/>
+		</levels>
+		<children>
+			<game_entity old_prefab_name="" name="bd_barrel_3">
+				<levels>
+					<level name="base"/>
+				</levels>
+				<components>
+					<meta_mesh_component name="bd_barrel_a"/>
+				</components>
+				<physics mass="1.000" override_material="wood" shape="bo_bd_barrel_a"/>
+				<transform position="2.701, -0.758, 0.000"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="bd_barrel_2">
+				<levels>
+					<level name="base"/>
+				</levels>
+				<components>
+					<meta_mesh_component name="bd_barrel_a"/>
+				</components>
+				<physics mass="1.000" override_material="wood" shape="bo_bd_barrel_a"/>
+				<transform position="-1.584, -2.912, 0.000"/>
+			</game_entity>
+			<game_entity old_prefab_name="" name="bd_barrel_1">
+				<levels>
+					<level name="base"/>
+				</levels>
+				<components>
+					<meta_mesh_component name="bd_barrel_a"/>
+				</components>
+				<physics mass="1.000" override_material="wood" shape="bo_bd_barrel_a"/>
+				<transform position="-4.026, -0.732, 0.000"/>
+			</game_entity>
+		</children>
+		<physics mass="1.000"/>
+		<transform rotation_euler="0.000, 0.000, 0.000" position="0.000, 0.000, 0.000"/>
+	</game_entity>
+	<game_entity name="highlight_beam" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<light_component color="0.667, 0.667, 1.000" intensity="500.000" radius="2.000" flicker_interval="3.000" flicker_magnitude="1.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" hotspot_angle="3.000" falloff_angle="30.000" shadow_size_multiplier="1" shadow_radius="1.600"/>
+			<particle_system_instanced_component _index_="1">
+				<effect_ref base_effect="{117237CC-1048-41BC-AEFA-1B72D17B0EED}"/>
+			</particle_system_instanced_component>
+		</components>
+	</game_entity>
+	<game_entity name="training_weapon_rack_a" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_weapon_rack_a" override_material="wood" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="weapon_rack_a"/>
+		</components>
+		<scripts>
+			<script name="TrainingIcon">
+				<variables>
+					<variable name="_descriptionTextOfIcon" value="bow_training_description"/>
+					<variable name="_trainingSubTypeTag" value="ranged_bow"/>
+					<variable name="PilotStandingPointTag" value="Pilot"/>
+					<variable name="AmmoPickUpTag" value="ammopickup"/>
+					<variable name="WaitStandingPointTag" value="Wait"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="bow_roman_a" old_prefab_name="" mobility="1">
+				<transform position="-0.008, -0.087, 1.140" rotation_euler="0.000, 0.000, 0.377" scale="2.000, 2.000, 2.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bow_roman_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="icon_man" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<transform position="0.000, -0.800, 0.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="StandingPoint">
+						<variables>
+							<variable name="AutoSheathWeapons" value="true"/>
+							<variable name="TranslateUser" value="true"/>
+							<variable name="HasRecentlyBeenRechecked" value="false"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="highlight_beam_white" old_prefab_name="" mobility="1">
+				<transform position="0.000, -0.129, 0.461"/>
+				<physics mass="1.000"/>
+				<components>
+					<particle_system_instanced_component>
+						<effect_ref base_effect="{FA439473-B9BC-4E6D-BAF0-3FDC8F493F4B}"/>
+					</particle_system_instanced_component>
+				</components>
+				<children>
+					<game_entity name="highlight_item_beam" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="no_shadow" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="bow_training_shooting_position"/>
+						</tags>
+						<transform position="0.000, -0.020, -0.240" rotation_euler="0.000, 0.000, 0.000" scale="4.000, 4.000, 4.000"/>
+						<physics mass="1.000"/>
+						<components>
+							<meta_mesh_component name="item_highlight_cylinder" position="0.000, 0.000, -14.900" rotation="0.000, 0.000, 0.000" scale="0.150, 0.150, 10.000">
+								<mesh name="item_highlight_cylinder" factor="4287704319" factor2="4294701823" argument="75.000, 1.000, 0.490, 11.650"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="weapon_spawner_bow" old_prefab_name="">
+		<tags>
+			<tag name="ranged_bow"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="WeaponSpawner"/>
+		</scripts>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="highlight_beam_white" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<components>
+			<particle_system_instanced_component>
+				<effect_ref base_effect="{FA439473-B9BC-4E6D-BAF0-3FDC8F493F4B}"/>
+			</particle_system_instanced_component>
+		</components>
+		<children>
+			<game_entity name="highlight_item_beam" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="no_shadow" value="true"/>
+				</visibility_masks>
+				<transform position="0.000, -0.020, -0.240" rotation_euler="0.000, 0.000, 0.000" scale="4.000, 4.000, 4.000"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="item_highlight_cylinder" position="0.000, 0.000, -14.900" rotation="0.000, 0.000, 0.000" scale="0.150, 0.150, 10.000">
+						<mesh name="item_highlight_cylinder" factor="4287704319" factor2="4294701823" argument="75.000, 1.000, 0.490, 11.650"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

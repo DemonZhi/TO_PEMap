@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Italiano" />
+  </tags>
+  <strings>
+    <string id="3o9AO00M" text="Il server è al completo." />
+    <string id="7G7lu7az" text="Impossibile mandare inviti." />
+    <string id="bjhBPJDF" text="Invito non riuscito!" />
+    <string id="BLw3AJjM" text="Non ci sono amici da invitare." />
+    <string id="oZ326SFY" text="Impossibile unirsi alla partita." />
+    <string id="tak1GATd" text="Non fai parte di una partita in corso." />
+    <string id="vIonllGr" text="Le lobby non corrispondono" />
+    <string id="x9YcKgLf" text="Impossibile visualizzare l&apos;elenco degli amici." />
+    <string id="XlPML483" text="Seleziona un giocatore da invitare" />
+    <string id="yS7PvrTD" text="OK" />
+  </strings>
+</base>

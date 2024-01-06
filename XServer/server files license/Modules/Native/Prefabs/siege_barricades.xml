@@ -1,0 +1,2751 @@
+<prefabs>
+	<game_entity name="siege_barricade_group_a" old_prefab_name="" season_mask="255">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="siege_barricade_a" old_prefab_name="" mobility="1" season_mask="255">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-5.416, -1.738, 0.599" rotation_euler="-1.073, 0.000, 0.000" scale="-1.330, 1.332, 1.332"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable name="DestructionStates" value="state1, state2, state3, state4"/>
+							<variable name="DestroyedByStoneOnly" value="false"/>
+							<variable name="CanBeDestroyedInitially" value="false"/>
+							<variable name="MaxHitPoint" value="200.000"/>
+							<variable name="DestroyOnAnyHit" value="false"/>
+							<variable name="PassHitOnToParent" value="false"/>
+							<variable name="ReferenceEntityTag" value="reference"/>
+							<variable name="HeavyHitParticlesTag" value="light_hit"/>
+							<variable name="HeavyHitParticlesThreshold" value="20.000"/>
+							<variable name="ParticleEffectOnDestroy" value="psys_game_wooden_barricade_destruction"/>
+							<variable name="SoundEffectOnDestroy" value="event:/mission/siege/merlon/wood_destroy"/>
+							<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+							<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+							<variable name="BattleSide" value="None"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="state4" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="gate"/>
+							<tag name="state_4"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_5" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_5"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state3" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_3"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_4" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_4"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="clean" old_prefab_name="" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="operational"/>
+							<tag name="state_0"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_1" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_1"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state2" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_2"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_3" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_3"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state1" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_1"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_2" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_2"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="siege_barricade_a" old_prefab_name="" mobility="1" season_mask="255">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-1.839, -1.738, 0.599" rotation_euler="-1.073, 0.000, 0.000" scale="1.330, 1.332, 1.332"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable name="DestructionStates" value="state1, state2, state3, state4"/>
+							<variable name="DestroyedByStoneOnly" value="false"/>
+							<variable name="CanBeDestroyedInitially" value="false"/>
+							<variable name="MaxHitPoint" value="200.000"/>
+							<variable name="DestroyOnAnyHit" value="false"/>
+							<variable name="PassHitOnToParent" value="false"/>
+							<variable name="ReferenceEntityTag" value="reference"/>
+							<variable name="HeavyHitParticlesTag" value="light_hit"/>
+							<variable name="HeavyHitParticlesThreshold" value="20.000"/>
+							<variable name="ParticleEffectOnDestroy" value="psys_game_wooden_barricade_destruction"/>
+							<variable name="SoundEffectOnDestroy" value="event:/mission/siege/merlon/wood_destroy"/>
+							<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+							<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+							<variable name="BattleSide" value="None"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="state4" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="gate"/>
+							<tag name="state_4"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_5" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_5"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state3" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_3"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_4" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_4"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="clean" old_prefab_name="" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="operational"/>
+							<tag name="state_0"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_1" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_1"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state2" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_2"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_3" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_3"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state1" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_1"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_2" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_2"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="log_pine_a" old_prefab_name="" season_mask="255">
+				<transform position="3.867, 1.703, 0.227" rotation_euler="1.233, 1.554, -3.141"/>
+				<physics shape="bo_log_pine_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="log_pine_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="log_pine_a" old_prefab_name="" season_mask="255">
+				<transform position="-0.140, 1.922, 0.305" rotation_euler="1.233, -1.577, -3.136"/>
+				<physics shape="bo_log_pine_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="log_pine_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="log_pine_a" old_prefab_name="" season_mask="255">
+				<transform position="-2.824, 1.922, 0.304" rotation_euler="1.233, -3.141, -3.141"/>
+				<physics shape="bo_log_pine_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="log_pine_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="log_pine_a" old_prefab_name="" season_mask="255">
+				<transform position="6.943, 1.922, 0.304" rotation_euler="1.233, -3.141, -3.141"/>
+				<physics shape="bo_log_pine_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="log_pine_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="" season_mask="255">
+				<transform position="6.218, -3.171, 0.678" rotation_euler="0.000, 1.937, 1.571" scale="0.694, 0.694, 0.694"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="" season_mask="255">
+				<transform position="-6.546, -3.193, 0.588" rotation_euler="0.000, 1.937, 1.571" scale="0.728, 0.728, 0.728"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="" season_mask="255">
+				<transform position="-0.201, -3.363, 0.175" rotation_euler="0.000, 1.937, 1.571"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="" season_mask="255">
+				<transform position="3.255, -3.407, 0.062" rotation_euler="-0.019, -1.937, -1.578"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="" season_mask="255">
+				<transform position="-3.586, -3.419, 0.066" rotation_euler="-0.003, -1.937, -1.572"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="log_pine_a" old_prefab_name="" season_mask="255">
+				<transform position="-6.789, 1.922, 0.304" rotation_euler="1.233, -3.141, -3.141"/>
+				<physics shape="bo_log_pine_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="log_pine_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="siege_barricade_a" old_prefab_name="" mobility="1" season_mask="255">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="5.137, -1.738, 0.599" rotation_euler="-1.073, 0.000, 0.000" scale="1.330, 1.332, 1.332"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable name="DestructionStates" value="state1, state2, state3, state4"/>
+							<variable name="DestroyedByStoneOnly" value="false"/>
+							<variable name="CanBeDestroyedInitially" value="false"/>
+							<variable name="MaxHitPoint" value="200.000"/>
+							<variable name="DestroyOnAnyHit" value="false"/>
+							<variable name="PassHitOnToParent" value="false"/>
+							<variable name="ReferenceEntityTag" value="reference"/>
+							<variable name="HeavyHitParticlesTag" value="light_hit"/>
+							<variable name="HeavyHitParticlesThreshold" value="20.000"/>
+							<variable name="ParticleEffectOnDestroy" value="psys_game_wooden_barricade_destruction"/>
+							<variable name="SoundEffectOnDestroy" value="event:/mission/siege/merlon/wood_destroy"/>
+							<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+							<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+							<variable name="BattleSide" value="None"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="state4" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="gate"/>
+							<tag name="state_4"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_5" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_5"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state3" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_3"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_4" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_4"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="clean" old_prefab_name="" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="operational"/>
+							<tag name="state_0"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_1" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_1"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state2" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_2"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_3" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_3"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state1" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_1"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_2" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_2"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="siege_barricade_a" old_prefab_name="" mobility="1" season_mask="255">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="1.551, -1.738, 0.599" rotation_euler="-1.073, 0.000, 0.000" scale="-1.330, 1.332, 1.332"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable name="DestructionStates" value="state1, state2, state3, state4"/>
+							<variable name="DestroyedByStoneOnly" value="false"/>
+							<variable name="CanBeDestroyedInitially" value="false"/>
+							<variable name="MaxHitPoint" value="200.000"/>
+							<variable name="DestroyOnAnyHit" value="false"/>
+							<variable name="PassHitOnToParent" value="false"/>
+							<variable name="ReferenceEntityTag" value="reference"/>
+							<variable name="HeavyHitParticlesTag" value="light_hit"/>
+							<variable name="HeavyHitParticlesThreshold" value="20.000"/>
+							<variable name="ParticleEffectOnDestroy" value="psys_game_wooden_barricade_destruction"/>
+							<variable name="SoundEffectOnDestroy" value="event:/mission/siege/merlon/wood_destroy"/>
+							<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+							<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+							<variable name="BattleSide" value="None"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="state4" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="gate"/>
+							<tag name="state_4"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_5" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_5"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state3" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_3"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_4" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_4"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="clean" old_prefab_name="" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="operational"/>
+							<tag name="state_0"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_1" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_1"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state2" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_2"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_3" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_3"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state1" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_1"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_2" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_2"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="siege_barricade_group_b" old_prefab_name="" season_mask="255">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="bd_barrel_d" old_prefab_name="" season_mask="255">
+				<transform position="-3.936, 0.531, 0.340" rotation_euler="-0.570, 0.060, 0.054"/>
+				<physics shape="bo_bd_barrel_d" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_cartbroken_a" old_prefab_name="" season_mask="255">
+				<transform position="-4.373, -0.764, 0.310" rotation_euler="0.193, 0.206, -1.355"/>
+				<physics shape="bo_bd_cartbroken_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_cartbroken_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_cartbroken_b" old_prefab_name="" season_mask="255">
+				<transform position="0.669, 0.192, 0.110" rotation_euler="-0.142, -0.117, -2.831"/>
+				<physics shape="bo_bd_cartbroken_b" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_cartbroken_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_cartbroken_d" old_prefab_name="" season_mask="255">
+				<transform position="3.640, 0.155, -0.010" rotation_euler="0.164, -0.181, -0.650"/>
+				<physics shape="bo_bd_cartbroken_d" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_cartbroken_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_hay_cart_a" old_prefab_name="" season_mask="255">
+				<transform position="-0.408, 0.108, -0.193" rotation_euler="0.541, -0.381, 0.576"/>
+				<physics shape="bo_bd_hay_cart_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_hay_cart_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_cartbroken_a" old_prefab_name="" season_mask="255">
+				<transform position="2.041, -0.627, 0.244" rotation_euler="-0.117, 0.155, -1.979"/>
+				<physics shape="bo_bd_cartbroken_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_cartbroken_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_cart_a" old_prefab_name="" season_mask="255">
+				<transform position="5.158, 1.182, 1.496" rotation_euler="-1.268, -2.804, -1.183"/>
+				<physics shape="bo_bd_cart_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_cart_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="crate_a_empty" old_prefab_name="" season_mask="255">
+				<transform position="1.517, 1.242, 0.319" rotation_euler="-0.387, 0.794, 0.998"/>
+				<physics shape="bo_crate_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="crate_a_empty"/>
+				</components>
+			</game_entity>
+			<game_entity name="siege_barricade_a" old_prefab_name="" mobility="1" season_mask="255">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-6.064, -1.957, 0.028" rotation_euler="0.000, 0.000, -2.556" scale="0.892, 0.892, 0.892"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable name="DestructionStates" value="state1, state2, state3, state4"/>
+							<variable name="DestroyedByStoneOnly" value="false"/>
+							<variable name="CanBeDestroyedInitially" value="false"/>
+							<variable name="MaxHitPoint" value="200.000"/>
+							<variable name="DestroyOnAnyHit" value="false"/>
+							<variable name="PassHitOnToParent" value="false"/>
+							<variable name="ReferenceEntityTag" value="reference"/>
+							<variable name="HeavyHitParticlesTag" value="light_hit"/>
+							<variable name="HeavyHitParticlesThreshold" value="20.000"/>
+							<variable name="ParticleEffectOnDestroy" value="psys_game_wooden_barricade_destruction"/>
+							<variable name="SoundEffectOnDestroy" value="event:/mission/siege/merlon/wood_destroy"/>
+							<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+							<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+							<variable name="BattleSide" value="None"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="state4" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="gate"/>
+							<tag name="state_4"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_5" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_5"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state3" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_3"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_4" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_4"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="clean" old_prefab_name="" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="operational"/>
+							<tag name="state_0"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_1" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_1"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state2" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_2"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_3" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_3"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state1" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_1"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_2" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_2"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="siege_barricade_a" old_prefab_name="" mobility="1" season_mask="255">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="6.614, -2.322, -0.407" rotation_euler="-0.145, -0.062, 2.838"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable name="DestructionStates" value="state1, state2, state3, state4"/>
+							<variable name="DestroyedByStoneOnly" value="false"/>
+							<variable name="CanBeDestroyedInitially" value="false"/>
+							<variable name="MaxHitPoint" value="200.000"/>
+							<variable name="DestroyOnAnyHit" value="false"/>
+							<variable name="PassHitOnToParent" value="false"/>
+							<variable name="ReferenceEntityTag" value="reference"/>
+							<variable name="HeavyHitParticlesTag" value="light_hit"/>
+							<variable name="HeavyHitParticlesThreshold" value="20.000"/>
+							<variable name="ParticleEffectOnDestroy" value="psys_game_wooden_barricade_destruction"/>
+							<variable name="SoundEffectOnDestroy" value="event:/mission/siege/merlon/wood_destroy"/>
+							<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+							<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+							<variable name="BattleSide" value="None"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="state4" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="gate"/>
+							<tag name="state_4"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_5" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_5"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state3" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_3"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_4" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_4"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="clean" old_prefab_name="" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="operational"/>
+							<tag name="state_0"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_1" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_1"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state2" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_2"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_3" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_3"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state1" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_1"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_2" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_2"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="siege_barricade_a" old_prefab_name="" mobility="1" season_mask="255">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="0.985, -0.525, 0.111" rotation_euler="-0.197, 0.260, 2.800"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable name="DestructionStates" value="state1, state2, state3, state4"/>
+							<variable name="DestroyedByStoneOnly" value="false"/>
+							<variable name="CanBeDestroyedInitially" value="false"/>
+							<variable name="MaxHitPoint" value="200.000"/>
+							<variable name="DestroyOnAnyHit" value="false"/>
+							<variable name="PassHitOnToParent" value="false"/>
+							<variable name="ReferenceEntityTag" value="reference"/>
+							<variable name="HeavyHitParticlesTag" value="light_hit"/>
+							<variable name="HeavyHitParticlesThreshold" value="20.000"/>
+							<variable name="ParticleEffectOnDestroy" value="psys_game_wooden_barricade_destruction"/>
+							<variable name="SoundEffectOnDestroy" value="event:/mission/siege/merlon/wood_destroy"/>
+							<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+							<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+							<variable name="BattleSide" value="None"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="state4" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="gate"/>
+							<tag name="state_4"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_5" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_5"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state3" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_3"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_4" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_4"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="clean" old_prefab_name="" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="operational"/>
+							<tag name="state_0"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_1" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_1"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state2" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_2"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_3" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_3"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state1" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_1"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_2" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_2"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="siege_barricade_a" old_prefab_name="" mobility="1" season_mask="255">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-3.839, -1.088, 0.112" rotation_euler="-0.288, 0.144, -3.009"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable name="DestructionStates" value="state1, state2, state3, state4"/>
+							<variable name="DestroyedByStoneOnly" value="false"/>
+							<variable name="CanBeDestroyedInitially" value="false"/>
+							<variable name="MaxHitPoint" value="200.000"/>
+							<variable name="DestroyOnAnyHit" value="false"/>
+							<variable name="PassHitOnToParent" value="false"/>
+							<variable name="ReferenceEntityTag" value="reference"/>
+							<variable name="HeavyHitParticlesTag" value="light_hit"/>
+							<variable name="HeavyHitParticlesThreshold" value="20.000"/>
+							<variable name="ParticleEffectOnDestroy" value="psys_game_wooden_barricade_destruction"/>
+							<variable name="SoundEffectOnDestroy" value="event:/mission/siege/merlon/wood_destroy"/>
+							<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+							<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+							<variable name="BattleSide" value="None"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="state4" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="gate"/>
+							<tag name="state_4"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_5" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_5"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state3" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_3"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_4" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_4"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="clean" old_prefab_name="" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="operational"/>
+							<tag name="state_0"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_1" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_1"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state2" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_2"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_3" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_3"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state1" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_1"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_2" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_2"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="" season_mask="255">
+				<transform position="4.967, 0.832, 0.958" rotation_euler="-1.148, -0.064, -1.027"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="" season_mask="255">
+				<transform position="1.641, 1.852, 0.699" rotation_euler="-0.838, -0.136, 0.041"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_barrel_d" old_prefab_name="" season_mask="255">
+				<transform position="-1.276, 0.923, 0.203" rotation_euler="-0.207, 0.260, 0.788"/>
+				<physics shape="bo_bd_barrel_d" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_barrel_d" old_prefab_name="" season_mask="255">
+				<transform position="-3.049, 0.328, 0.449" rotation_euler="0.039, 0.571, 1.575"/>
+				<physics shape="bo_bd_barrel_d" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_d"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="siege_barricade_group_c" old_prefab_name="" season_mask="255">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="siege_barricade_a" old_prefab_name="" mobility="1" season_mask="255">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-7.441, -0.912, -0.021" rotation_euler="-0.004, -0.014, -2.647"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable name="DestructionStates" value="state1, state2, state3, state4"/>
+							<variable name="DestroyedByStoneOnly" value="false"/>
+							<variable name="CanBeDestroyedInitially" value="false"/>
+							<variable name="MaxHitPoint" value="200.000"/>
+							<variable name="DestroyOnAnyHit" value="false"/>
+							<variable name="PassHitOnToParent" value="false"/>
+							<variable name="ReferenceEntityTag" value="reference"/>
+							<variable name="HeavyHitParticlesTag" value="light_hit"/>
+							<variable name="HeavyHitParticlesThreshold" value="20.000"/>
+							<variable name="ParticleEffectOnDestroy" value="psys_game_wooden_barricade_destruction"/>
+							<variable name="SoundEffectOnDestroy" value="event:/mission/siege/merlon/wood_destroy"/>
+							<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+							<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+							<variable name="BattleSide" value="None"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="state4" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="gate"/>
+							<tag name="state_4"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_5" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_5"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state3" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_3"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_4" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_4"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="clean" old_prefab_name="" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="operational"/>
+							<tag name="state_0"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_1" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_1"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state2" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_2"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_3" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_3"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state1" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_1"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_2" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_2"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="" season_mask="255">
+				<transform position="-0.690, 2.757, 0.885" rotation_euler="-1.414, 0.073, 0.181"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_barrel_e" old_prefab_name="" season_mask="255">
+				<transform position="-0.563, 1.372, 0.748" rotation_euler="-0.210, -0.072, -0.892"/>
+				<physics shape="bo_bd_barrel_e" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_barrel_f" old_prefab_name="" season_mask="255">
+				<transform position="4.407, 1.931, -0.060" rotation_euler="-0.087, -0.002, 2.288"/>
+				<physics shape="bo_bd_barrel_f" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_f"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_barrel_e" old_prefab_name="" season_mask="255">
+				<transform position="3.704, 2.350, -0.051" rotation_euler="0.000, 0.108, -0.855"/>
+				<physics shape="bo_bd_barrel_e" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_cart_a" old_prefab_name="" season_mask="255">
+				<transform position="-2.878, 0.524, 0.200" rotation_euler="0.127, -0.296, 0.487"/>
+				<physics shape="bo_bd_cart_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_cart_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_cartbroken_b" old_prefab_name="" season_mask="255">
+				<transform position="-5.473, -1.191, 0.058" rotation_euler="-0.009, 0.015, -0.154"/>
+				<physics shape="bo_bd_cartbroken_b" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_cartbroken_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_hay_cart_a" old_prefab_name="" season_mask="255">
+				<transform position="-0.409, 1.004, -0.087" rotation_euler="0.018, 0.139, 1.400" scale="0.905, 0.905, 0.905"/>
+				<physics shape="bo_bd_hay_cart_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_hay_cart_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_cartbroken_a" old_prefab_name="" season_mask="255">
+				<transform position="1.664, 1.211, -0.203" rotation_euler="0.138, 0.083, -2.630"/>
+				<physics shape="bo_bd_cartbroken_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_cartbroken_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="" season_mask="255">
+				<transform position="3.247, 1.384, 0.903" rotation_euler="0.064, -0.945, -2.613"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_cart_c" old_prefab_name="" season_mask="255">
+				<transform position="-5.100, -0.158, -0.045" rotation_euler="-0.415, 0.367, -2.628"/>
+				<physics shape="bo_winery_wine_cart_empty" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="winery_wine_cart_empty"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_cartbroken_a" old_prefab_name="" season_mask="255">
+				<transform position="-4.625, 2.447, -0.274" rotation_euler="-0.009, -0.204, 2.415"/>
+				<physics shape="bo_bd_cartbroken_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_cartbroken_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_cartbroken_c" old_prefab_name="" season_mask="255">
+				<transform position="3.640, -0.117, -0.073" rotation_euler="-0.091, 0.114, 0.298"/>
+				<physics shape="bo_bd_cartbroken_c" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_cartbroken_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_barrel_d" old_prefab_name="" season_mask="255">
+				<transform position="-1.286, 1.416, 0.860" rotation_euler="0.118, -0.188, -1.389"/>
+				<physics shape="bo_bd_barrel_d" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_barrel_f" old_prefab_name="" season_mask="255">
+				<transform position="1.339, 0.972, 0.286" rotation_euler="0.065, -0.212, -1.130"/>
+				<physics shape="bo_bd_barrel_f" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_f"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_barrel_f" old_prefab_name="" season_mask="255">
+				<transform position="2.161, 0.802, 0.641" rotation_euler="-0.414, -0.371, 0.622"/>
+				<physics shape="bo_bd_barrel_f" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_f"/>
+				</components>
+			</game_entity>
+			<game_entity name="siege_barricade_a" old_prefab_name="" mobility="1" season_mask="255">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="5.470, -0.440, 0.010" rotation_euler="0.017, 0.009, 2.400"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable name="DestructionStates" value="state1, state2, state3, state4"/>
+							<variable name="DestroyedByStoneOnly" value="false"/>
+							<variable name="CanBeDestroyedInitially" value="false"/>
+							<variable name="MaxHitPoint" value="200.000"/>
+							<variable name="DestroyOnAnyHit" value="false"/>
+							<variable name="PassHitOnToParent" value="false"/>
+							<variable name="ReferenceEntityTag" value="reference"/>
+							<variable name="HeavyHitParticlesTag" value="light_hit"/>
+							<variable name="HeavyHitParticlesThreshold" value="20.000"/>
+							<variable name="ParticleEffectOnDestroy" value="psys_game_wooden_barricade_destruction"/>
+							<variable name="SoundEffectOnDestroy" value="event:/mission/siege/merlon/wood_destroy"/>
+							<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+							<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+							<variable name="BattleSide" value="None"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="state4" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="gate"/>
+							<tag name="state_4"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_5" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_5"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state3" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_3"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_4" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_4"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="clean" old_prefab_name="" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="operational"/>
+							<tag name="state_0"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_1" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_1"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state2" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_2"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_3" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_3"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state1" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_1"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_2" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_2"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="siege_barricade_group_d" old_prefab_name="" season_mask="255">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="siege_barricade_a" old_prefab_name="" mobility="1" season_mask="255">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-2.143, -0.314, 0.351" rotation_euler="-0.228, -0.059, -3.095"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable name="DestructionStates" value="state1, state2, state3, state4"/>
+							<variable name="DestroyedByStoneOnly" value="false"/>
+							<variable name="CanBeDestroyedInitially" value="false"/>
+							<variable name="MaxHitPoint" value="200.000"/>
+							<variable name="DestroyOnAnyHit" value="false"/>
+							<variable name="PassHitOnToParent" value="false"/>
+							<variable name="ReferenceEntityTag" value="reference"/>
+							<variable name="HeavyHitParticlesTag" value="light_hit"/>
+							<variable name="HeavyHitParticlesThreshold" value="20.000"/>
+							<variable name="ParticleEffectOnDestroy" value="psys_game_wooden_barricade_destruction"/>
+							<variable name="SoundEffectOnDestroy" value="event:/mission/siege/merlon/wood_destroy"/>
+							<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+							<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+							<variable name="BattleSide" value="None"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="state4" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="gate"/>
+							<tag name="state_4"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_5" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_5"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state3" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_3"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_4" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_4"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="clean" old_prefab_name="" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="operational"/>
+							<tag name="state_0"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_1" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_1"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state2" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_2"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_3" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_3"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state1" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_1"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_2" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_2"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="bd_hay_cart_a" old_prefab_name="" season_mask="255">
+				<transform position="-5.081, -0.439, -0.402" rotation_euler="0.229, -0.106, -1.121"/>
+				<physics shape="bo_bd_hay_cart_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_hay_cart_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_cartbroken_b" old_prefab_name="" season_mask="255">
+				<transform position="-2.403, -0.470, 0.080" rotation_euler="-0.097, 0.058, 0.048"/>
+				<physics shape="bo_bd_cartbroken_b" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_cartbroken_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_cartbroken_a" old_prefab_name="" season_mask="255">
+				<transform position="-2.697, 0.272, 0.301" rotation_euler="-0.058, -0.003, -1.466"/>
+				<physics shape="bo_bd_cartbroken_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_cartbroken_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_cartbroken_a" old_prefab_name="" season_mask="255">
+				<transform position="-1.347, 0.800, -0.306" rotation_euler="0.050, -0.056, 3.015"/>
+				<physics shape="bo_bd_cartbroken_a" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_cartbroken_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_hay_cart_a" old_prefab_name="" season_mask="255">
+				<transform position="1.785, 0.410, -0.480" rotation_euler="0.258, -0.705, 0.231"/>
+				<physics shape="bo_bd_hay_cart_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_hay_cart_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_cart_spoke" old_prefab_name="" season_mask="255">
+				<transform position="3.341, -0.606, -0.286" rotation_euler="-0.310, 0.006, 1.470" scale="0.827, 0.827, 0.827"/>
+				<physics shape="bo_bd_cart_spoke" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_cart_spoke"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_barrel_a" old_prefab_name="" season_mask="255">
+				<transform position="2.790, 1.433, -0.336" rotation_euler="-0.932, -0.051, -1.995"/>
+				<physics shape="bo_bd_barrel_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_barrel_a" old_prefab_name="" season_mask="255">
+				<transform position="-1.593, 1.963, 0.108" rotation_euler="0.721, 0.038, -0.922"/>
+				<physics shape="bo_bd_barrel_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_barrel_a" old_prefab_name="" season_mask="255">
+				<transform position="1.894, 0.977, 0.495" rotation_euler="-0.843, -1.765, -1.331"/>
+				<physics shape="bo_bd_barrel_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_barrel_a" old_prefab_name="" season_mask="255">
+				<transform position="4.147, -1.019, -0.042" rotation_euler="0.233, 0.029, -0.902"/>
+				<physics shape="bo_bd_barrel_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_barrel_b" old_prefab_name="" season_mask="255">
+				<transform position="0.723, 0.948, 0.356" rotation_euler="1.124, 0.066, -0.957"/>
+				<physics shape="bo_bd_barrel_b" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_barrel_b" old_prefab_name="" season_mask="255">
+				<transform position="0.678, 0.486, 0.214" rotation_euler="-1.410, -0.627, 3.131" scale="0.756, 0.756, 0.756"/>
+				<physics shape="bo_bd_barrel_b" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_barrel_d" old_prefab_name="" season_mask="255">
+				<transform position="0.252, -0.365, -0.062" rotation_euler="-0.023, -0.054, -2.578"/>
+				<physics shape="bo_bd_barrel_d" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_barrel_e" old_prefab_name="" season_mask="255">
+				<transform position="3.081, -1.280, -0.104" rotation_euler="-0.003, 0.058, 0.117" scale="0.894, 0.894, 0.894"/>
+				<physics shape="bo_bd_barrel_e" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_barrel_f" old_prefab_name="" season_mask="255">
+				<transform position="-2.682, -1.807, -0.009" rotation_euler="-0.028, -0.051, -2.468"/>
+				<physics shape="bo_bd_barrel_f" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_f"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_barrel_f" old_prefab_name="" season_mask="255">
+				<transform position="-4.407, -1.653, 0.061" rotation_euler="0.005, 0.058, 0.250"/>
+				<physics shape="bo_bd_barrel_f" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_f"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_barrel_b" old_prefab_name="" season_mask="255">
+				<transform position="-6.861, -1.306, -0.161" rotation_euler="-0.304, 0.307, -0.816"/>
+				<physics shape="bo_bd_barrel_b" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="siege_barricade_a" old_prefab_name="" mobility="1" season_mask="255">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="4.963, -0.844, -0.132" rotation_euler="-0.010, 0.041, 2.789"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable name="DestructionStates" value="state1, state2, state3, state4"/>
+							<variable name="DestroyedByStoneOnly" value="false"/>
+							<variable name="CanBeDestroyedInitially" value="false"/>
+							<variable name="MaxHitPoint" value="200.000"/>
+							<variable name="DestroyOnAnyHit" value="false"/>
+							<variable name="PassHitOnToParent" value="false"/>
+							<variable name="ReferenceEntityTag" value="reference"/>
+							<variable name="HeavyHitParticlesTag" value="light_hit"/>
+							<variable name="HeavyHitParticlesThreshold" value="20.000"/>
+							<variable name="ParticleEffectOnDestroy" value="psys_game_wooden_barricade_destruction"/>
+							<variable name="SoundEffectOnDestroy" value="event:/mission/siege/merlon/wood_destroy"/>
+							<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+							<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+							<variable name="BattleSide" value="None"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="state4" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="gate"/>
+							<tag name="state_4"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_5" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_5"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state3" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_3"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_4" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_4"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="clean" old_prefab_name="" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="operational"/>
+							<tag name="state_0"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_1" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_1"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state2" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_2"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_3" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_3"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state1" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_1"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_2" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_2"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="siege_barricade_a" old_prefab_name="" mobility="1" season_mask="255">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<transform position="-4.254, -0.936, 0.354" rotation_euler="-0.130, 0.095, -2.801"/>
+				<physics mass="1.000"/>
+				<scripts>
+					<script name="DestructableComponent">
+						<variables>
+							<variable name="DestructionStates" value="state1, state2, state3, state4"/>
+							<variable name="DestroyedByStoneOnly" value="false"/>
+							<variable name="CanBeDestroyedInitially" value="false"/>
+							<variable name="MaxHitPoint" value="200.000"/>
+							<variable name="DestroyOnAnyHit" value="false"/>
+							<variable name="PassHitOnToParent" value="false"/>
+							<variable name="ReferenceEntityTag" value="reference"/>
+							<variable name="HeavyHitParticlesTag" value="light_hit"/>
+							<variable name="HeavyHitParticlesThreshold" value="20.000"/>
+							<variable name="ParticleEffectOnDestroy" value="psys_game_wooden_barricade_destruction"/>
+							<variable name="SoundEffectOnDestroy" value="event:/mission/siege/merlon/wood_destroy"/>
+							<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+							<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+							<variable name="BattleSide" value="None"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="state4" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="gate"/>
+							<tag name="state_4"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_5" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_5"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state3" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_3"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_4" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_4"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="clean" old_prefab_name="" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="operational"/>
+							<tag name="state_0"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_1" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_1"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state2" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_2"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_3" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_3"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+					<game_entity name="state1" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="state_1"/>
+							<tag name="gate"/>
+							<tag name="reference"/>
+						</tags>
+						<physics shape="bo_siege_barricade_a_state_2" override_material="wood" mass="1.000"/>
+						<components>
+							<meta_mesh_component name="siege_barricade_a_state_2"/>
+						</components>
+						<scripts>
+							<script name="SynchedMissionObject">
+								<variables>
+									<variable name="NavMeshPrefabName" value=""/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="barricade_f" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="log_pine_m" old_prefab_name="">
+				<transform position="-4.011, 7.507, 0.264" rotation_euler="-0.572, 0.029, -0.662" scale="0.597, 0.597, 0.597"/>
+				<physics shape="bo_log_pine_m" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="log_pine_m"/>
+				</components>
+			</game_entity>
+			<game_entity name="log_pine_m" old_prefab_name="">
+				<transform position="-5.859, 9.244, 0.156" rotation_euler="-0.572, 0.029, -0.662" scale="0.597, 0.597, 0.597"/>
+				<physics shape="bo_log_pine_m" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="log_pine_m"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_wall_c" old_prefab_name="">
+				<transform position="-1.239, 9.314, -9.000" rotation_euler="0.223, -0.007, -0.787"/>
+				<physics shape="bo_castle_plank_wall_c" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="castle_plank_wall_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="log_pine_m" old_prefab_name="">
+				<transform position="-1.721, 5.267, 0.300" rotation_euler="-0.572, 0.218, -0.662" scale="0.597, 0.597, 0.597"/>
+				<physics shape="bo_log_pine_m" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="log_pine_m"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="">
+				<transform position="-1.043, 4.196, -0.020" rotation_euler="0.158, -0.057, -0.852" scale="1.325, 1.325, 1.325"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_wall_a" old_prefab_name="" mobility="1">
+				<transform position="4.973, 0.038, -9.640" rotation_euler="-0.291, 0.022, 1.591"/>
+				<physics shape="bo_castle_plank_wall_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="castle_plank_wall_a">
+						<mesh name="castle_plank_wall_a.15" material="plank_stake_a" argument2="-4.453, 4.598, 0.072, 0.781"/>
+						<mesh name="castle_plank_wall_a.lod3.15" material="plank_stake_a" argument2="-4.453, 4.598, 0.072, 0.781"/>
+						<mesh name="castle_plank_wall_a.lod5.15" material="plank_stake_a" argument2="-4.453, 4.598, 0.072, 0.781"/>
+					</meta_mesh_component>
+				</components>
+				<scripts>
+					<script name="mesh_bender">
+						<variables>
+							<variable name="Bend Amount" value="-20.000000"/>
+							<variable name="Bend Center Ratio" value="0.500000"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="">
+				<transform position="-1.148, 1.424, 0.026" rotation_euler="-0.070, -0.208, 0.149" scale="1.325, 1.325, 1.325"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="">
+				<transform position="-1.100, -0.760, 0.078" rotation_euler="0.050, 0.213, -3.086" scale="1.325, 1.325, 1.325"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="">
+				<transform position="-0.590, -3.430, 0.132" rotation_euler="-0.227, -0.020, 1.361" scale="1.325, 1.325, 1.325"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="castle_plank_wall_c" old_prefab_name="">
+				<transform position="2.867, -8.956, -8.702" rotation_euler="0.339, -0.043, -1.793"/>
+				<physics shape="bo_castle_plank_wall_c" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="castle_plank_wall_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="log_pine_m" old_prefab_name="">
+				<transform position="-0.856, -4.819, 0.329" rotation_euler="-0.147, 0.458, -0.750" scale="0.597, 0.597, 0.597"/>
+				<physics shape="bo_log_pine_m" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="log_pine_m"/>
+				</components>
+			</game_entity>
+			<game_entity name="log_pine_m" old_prefab_name="">
+				<transform position="-1.602, -7.772, 0.093" rotation_euler="-0.301, 0.476, -0.671" scale="0.597, 0.597, 0.597"/>
+				<physics shape="bo_log_pine_m" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="log_pine_m"/>
+				</components>
+			</game_entity>
+			<game_entity name="log_pine_m" old_prefab_name="">
+				<transform position="-2.360, -10.626, 0.082" rotation_euler="-0.232, 0.796, -0.710" scale="0.597, 0.597, 0.597"/>
+				<physics shape="bo_log_pine_m" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="log_pine_m"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="breach_filler" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="9.125, 4.171, 4.207"/>
+		<physics shape="bo_editor_cube" mass="1.000"/>
+		<scripts>
+			<script name="DestructableComponent">
+				<variables>
+					<variable name="DestructionStates" value=""/>
+					<variable name="DestroyedByStoneOnly" value="true"/>
+					<variable name="CanBeDestroyedInitially" value="true"/>
+					<variable name="MaxHitPoint" value="2000.000"/>
+					<variable name="PassHitOnToParent" value="false"/>
+					<variable name="ReferenceEntityTag" value=""/>
+					<variable name="HeavyHitParticlesTag" value=""/>
+					<variable name="HeavyHitParticlesThreshold" value="5.000"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="sturgia_castle_log_b" old_prefab_name="">
+				<transform position="0.325, -0.370, 0.257" rotation_euler="-0.170, -1.133, 0.014" scale="0.140, 0.144, 0.118"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_log_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_castle_log_b" old_prefab_name="">
+				<transform position="0.101, -0.245, 1.145" rotation_euler="-0.044, 2.994, -0.051" scale="0.077, 0.143, 0.229"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_log_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_castle_log_b" old_prefab_name="">
+				<transform position="0.038, -0.235, 1.060" rotation_euler="-0.030, -3.130, -0.048" scale="0.067, 0.143, 0.238"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_log_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_castle_log_b" old_prefab_name="">
+				<transform position="-0.087, 0.307, 1.185" rotation_euler="-0.144, 2.988, 3.101" scale="0.128, 0.239, 0.229"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_log_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_castle_log_b" old_prefab_name="">
+				<transform position="-0.337, 0.415, 0.635" rotation_euler="-0.274, -1.403, 3.138" scale="0.237, 0.240, 0.111"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_log_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_castle_log_b" old_prefab_name="">
+				<transform position="-0.313, 0.507, 0.314" rotation_euler="-0.269, -1.143, -3.116" scale="0.234, 0.239, 0.118"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_log_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_castle_log_b" old_prefab_name="">
+				<transform position="0.200, 0.264, 1.114" rotation_euler="-0.128, 3.068, 3.139" scale="0.115, 0.240, 0.235"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_log_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_castle_log_b" old_prefab_name="">
+				<transform position="-0.185, -0.247, 1.082" rotation_euler="-0.028, 3.070, -0.013" scale="0.069, 0.144, 0.235"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_log_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_castle_log_b" old_prefab_name="">
+				<transform position="-0.345, 0.354, 0.847" rotation_euler="-0.049, -1.431, -3.115" scale="0.237, 0.239, 0.111"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_log_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_castle_log_b" old_prefab_name="">
+				<transform position="0.351, -0.311, 0.586" rotation_euler="-0.175, -1.387, -0.014" scale="0.142, 0.144, 0.111"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_log_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_castle_log_b" old_prefab_name="">
+				<transform position="0.359, -0.272, 0.803" rotation_euler="0.052, -1.429, 0.016" scale="0.142, 0.144, 0.111"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_log_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_castle_log_b" old_prefab_name="">
+				<transform position="-0.299, 0.316, 1.089" rotation_euler="-0.144, -2.198, 3.101" scale="0.228, 0.239, 0.129"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_log_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_castle_log_b" old_prefab_name="">
+				<transform position="-0.024, 0.307, 1.098" rotation_euler="-0.129, -3.135, 3.104" scale="0.111, 0.239, 0.238"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_log_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="sturgia_castle_log_b" old_prefab_name="">
+				<transform position="0.313, -0.256, 1.048" rotation_euler="-0.044, -2.185, -0.051" scale="0.229, 0.239, 0.129"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_log_b"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="stone_pile_wall_desert_g" old_prefab_name="">
+				<transform position="0.012, -0.324, 0.142" rotation_euler="0.170, 0.004, -0.024" scale="0.110, 0.239, 0.238"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="stone_pile_wall_desert_g">
+						<mesh name="stone_pile_wall_desert_g" factor="4290427578"/>
+						<mesh name="stone_pile_wall_desert_g.lod5" factor="4290427578"/>
+						<mesh name="stone_pile_wall_desert_g.lod3" factor="4290427578"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="true">
+						<factor value="0.730, 0.730, 0.730, 1.000"/>
+					</feature>
+				</additional_features>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="">
+				<transform position="-0.158, 0.040, 1.044" rotation_euler="0.089, 0.104, -0.010" scale="0.119, 0.258, 0.233"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="stone_pile_wall_desert_g" old_prefab_name="">
+				<transform position="0.023, -0.228, 0.271" rotation_euler="0.061, 0.002, -3.134" scale="0.110, 0.240, 0.238"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="stone_pile_wall_desert_g">
+						<mesh name="stone_pile_wall_desert_g" factor="4290427578"/>
+						<mesh name="stone_pile_wall_desert_g.lod5" factor="4290427578"/>
+						<mesh name="stone_pile_wall_desert_g.lod3" factor="4290427578"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="true">
+						<factor value="0.730, 0.730, 0.730, 1.000"/>
+					</feature>
+				</additional_features>
+			</game_entity>
+			<game_entity name="castle_plank_ramp_a" old_prefab_name="">
+				<transform position="0.148, 0.067, 1.050" rotation_euler="0.138, -0.090, 0.002" scale="0.117, 0.240, 0.234"/>
+				<physics shape="bo_castle_plank_ramp_a" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="castle_plank_ramp_a"/>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="false"/>
+				</additional_features>
+			</game_entity>
+			<game_entity name="stone_pile_wall_desert_g" old_prefab_name="">
+				<transform position="-0.037, 0.330, 0.570" rotation_euler="0.204, 0.000, 0.050" scale="0.112, 0.239, 0.238"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="stone_pile_wall_desert_g">
+						<mesh name="stone_pile_wall_desert_g" factor="4290427578"/>
+						<mesh name="stone_pile_wall_desert_g.lod5" factor="4290427578"/>
+						<mesh name="stone_pile_wall_desert_g.lod3" factor="4290427578"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="true">
+						<factor value="0.730, 0.730, 0.730, 1.000"/>
+					</feature>
+				</additional_features>
+			</game_entity>
+			<game_entity name="stone_pile_wall_desert_g" old_prefab_name="">
+				<transform position="-0.026, 0.421, 0.316" rotation_euler="0.201, -0.003, 0.055" scale="0.112, 0.238, 0.238"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="stone_pile_wall_desert_g">
+						<mesh name="stone_pile_wall_desert_g" factor="4290427578"/>
+						<mesh name="stone_pile_wall_desert_g.lod5" factor="4290427578"/>
+						<mesh name="stone_pile_wall_desert_g.lod3" factor="4290427578"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="true">
+						<factor value="0.730, 0.730, 0.730, 1.000"/>
+					</feature>
+				</additional_features>
+			</game_entity>
+			<game_entity name="stone_pile_wall_desert_g" old_prefab_name="">
+				<transform position="-0.020, 0.535, 0.202" rotation_euler="0.031, 0.003, -3.119" scale="0.110, 0.240, 0.238"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="stone_pile_wall_desert_g">
+						<mesh name="stone_pile_wall_desert_g" factor="4290427578"/>
+						<mesh name="stone_pile_wall_desert_g.lod5" factor="4290427578"/>
+						<mesh name="stone_pile_wall_desert_g.lod3" factor="4290427578"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="true">
+						<factor value="0.730, 0.730, 0.730, 1.000"/>
+					</feature>
+				</additional_features>
+			</game_entity>
+			<game_entity name="stone_pile_wall_desert_g" old_prefab_name="">
+				<transform position="0.088, 0.178, 0.765" rotation_euler="0.819, 0.002, -3.124" scale="0.110, 0.239, 0.239"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="stone_pile_wall_desert_g">
+						<mesh name="stone_pile_wall_desert_g" factor="4290427578"/>
+						<mesh name="stone_pile_wall_desert_g.lod5" factor="4290427578"/>
+						<mesh name="stone_pile_wall_desert_g.lod3" factor="4290427578"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="true">
+						<factor value="0.730, 0.730, 0.730, 1.000"/>
+					</feature>
+				</additional_features>
+			</game_entity>
+			<game_entity name="stone_pile_wall_desert_g" old_prefab_name="">
+				<transform position="-0.081, -0.027, 0.751" rotation_euler="0.960, 0.003, -0.030" scale="0.110, 0.238, 0.239"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="stone_pile_wall_desert_g">
+						<mesh name="stone_pile_wall_desert_g" factor="4290427578"/>
+						<mesh name="stone_pile_wall_desert_g.lod5" factor="4290427578"/>
+						<mesh name="stone_pile_wall_desert_g.lod3" factor="4290427578"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="true">
+						<factor value="0.730, 0.730, 0.730, 1.000"/>
+					</feature>
+				</additional_features>
+			</game_entity>
+			<game_entity name="stone_pile_wall_desert_g" old_prefab_name="">
+				<transform position="0.037, -0.175, 0.513" rotation_euler="0.064, 0.003, -3.139" scale="0.110, 0.240, 0.238"/>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="stone_pile_wall_desert_g">
+						<mesh name="stone_pile_wall_desert_g" factor="4290427578"/>
+						<mesh name="stone_pile_wall_desert_g.lod5" factor="4290427578"/>
+						<mesh name="stone_pile_wall_desert_g.lod3" factor="4290427578"/>
+					</meta_mesh_component>
+				</components>
+				<additional_features>
+					<feature name="apply_factor_color_to_all_components" value="true">
+						<factor value="0.730, 0.730, 0.730, 1.000"/>
+					</feature>
+				</additional_features>
+			</game_entity>
+		</children>
+		<additional_features>
+			<feature name="apply_factor_color_to_all_components" value="false"/>
+		</additional_features>
+	</game_entity>
+	<game_entity name="siege_barricade_c" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_siege_barricade_c" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="siege_barricade_c"/>
+		</components>
+	</game_entity>
+	<game_entity name="siege_barricade_d" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_siege_barricade_d" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="siege_barricade_d"/>
+		</components>
+	</game_entity>
+	<game_entity name="siege_barricade_e" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.579"/>
+		<physics shape="bo_siege_barricade_e" mass="1.000"/>
+		<components>
+			<meta_mesh_component name="siege_barricade_e"/>
+		</components>
+	</game_entity>
+	<game_entity name="siege_barricade_a" old_prefab_name="" mobility="1" season_mask="255">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="DestructableComponent">
+				<variables>
+					<variable name="DestructionStates" value="state1, state2, state3, state4"/>
+					<variable name="DestroyedByStoneOnly" value="false"/>
+					<variable name="CanBeDestroyedInitially" value="false"/>
+					<variable name="MaxHitPoint" value="200.000"/>
+					<variable name="DestroyOnAnyHit" value="false"/>
+					<variable name="PassHitOnToParent" value="false"/>
+					<variable name="ReferenceEntityTag" value="reference"/>
+					<variable name="HeavyHitParticlesTag" value="light_hit"/>
+					<variable name="HeavyHitParticlesThreshold" value="20.000"/>
+					<variable name="ParticleEffectOnDestroy" value="psys_game_wooden_barricade_destruction"/>
+					<variable name="SoundEffectOnDestroy" value="event:/mission/siege/merlon/wood_destroy"/>
+					<variable name="SoundAndParticleEffectHeightOffset" value="0.600"/>
+					<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+					<variable name="BattleSide" value="None"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="state4" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<tags>
+					<tag name="gate"/>
+					<tag name="state_4"/>
+					<tag name="reference"/>
+				</tags>
+				<physics shape="bo_siege_barricade_a_state_5" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="siege_barricade_a_state_5"/>
+				</components>
+				<scripts>
+					<script name="SynchedMissionObject">
+						<variables>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="state3" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<tags>
+					<tag name="state_3"/>
+					<tag name="gate"/>
+					<tag name="reference"/>
+				</tags>
+				<physics shape="bo_siege_barricade_a_state_4" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="siege_barricade_a_state_4"/>
+				</components>
+				<scripts>
+					<script name="SynchedMissionObject">
+						<variables>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="clean" old_prefab_name="" mobility="1" season_mask="255">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<tags>
+					<tag name="operational"/>
+					<tag name="state_0"/>
+					<tag name="gate"/>
+					<tag name="reference"/>
+				</tags>
+				<physics shape="bo_siege_barricade_a_state_1" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="siege_barricade_a_state_1"/>
+				</components>
+				<scripts>
+					<script name="SynchedMissionObject">
+						<variables>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="state2" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<tags>
+					<tag name="state_2"/>
+					<tag name="gate"/>
+					<tag name="reference"/>
+				</tags>
+				<physics shape="bo_siege_barricade_a_state_3" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="siege_barricade_a_state_3"/>
+				</components>
+				<scripts>
+					<script name="SynchedMissionObject">
+						<variables>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="state1" old_prefab_name="" visible="false" mobility="1" season_mask="255">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<tags>
+					<tag name="state_1"/>
+					<tag name="gate"/>
+					<tag name="reference"/>
+				</tags>
+				<physics shape="bo_siege_barricade_a_state_2" override_material="wood" mass="1.000"/>
+				<components>
+					<meta_mesh_component name="siege_barricade_a_state_2"/>
+				</components>
+				<scripts>
+					<script name="SynchedMissionObject">
+						<variables>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

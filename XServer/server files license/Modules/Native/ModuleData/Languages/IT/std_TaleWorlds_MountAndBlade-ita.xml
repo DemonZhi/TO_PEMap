@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Italiano" />
+  </tags>
+  <strings>
+    <string id="0B27RrYJ" text="{.FS}Battania" />
+    <string id="1cnJtNTt" text="{KEY} Tira" />
+    <string id="1CPdu9K0" text="{.FS}Pietra{@Plural}{.FP}Pietre{\@}" />
+    <string id="1nKa4pQX" text="Il resto del contenuto di gioco è stato scaricato." />
+    <string id="2zcrC0h1" text="Gioco" />
+    <string id="3PP01vFv" text="Non avvicinarti a quell&apos;arma." />
+    <string id="4FVIuqsl" text="{ALIVE}/{TOTAL}" />
+    <string id="4Skg9QhO" text="{.MS}Trabucco{@Plural}{.MP}Trabucchi{\@}" />
+    <string id="5oozsaIb" text="{KEY} Apri" />
+    <string id="5wx4BF5h" text="{KEY} Ruota" />
+    <string id="6wZUG0ev" text="Cancello" />
+    <string id="8OkPHu4f" text="No" />
+    <string id="abbALYlp" text="{.FS}Balista{@Plural}{.FP}Baliste{\@}" />
+    <string id="aeouhelq" text="Sì" />
+    <string id="aseraifaction" text="{.FN}Aserai" />
+    <string id="aXjlMBiE" text="Torre d&apos;assedio" />
+    <string id="BFhMw4bl" text="Il resto del contenuto di gioco è stato scaricato. Vuoi tornare al menu principale?" />
+    <string id="bNYm3K6b" text="{KEY} Raccogli" />
+    <string id="bWi4aMO9" text="Barile di frecce" />
+    <string id="CaSafuAH" text="Scaricamento del contenuto completato" />
+    <string id="cS0Hafjl" text="Il giocatore non ha accesso alla modalità multigiocatore." />
+    <string id="DRNDtkP2" text="Dai preferenza alle truppe di grado più elevato" />
+    <string id="DWWa3aIb" text="Dai preferenza alle truppe con armi da lancio" />
+    <string id="DzAkCzwd" text="Grado elevato" />
+    <string id="Ea3K1PVR" text="Armi da lancio" />
+    <string id="EgTUzWUz" text="Il campo del nome non può essere vuoto!" />
+    <string id="empirefaction" text="Impero" />
+    <string id="f83FU4X6" text="Armi inastate" />
+    <string id="F9AQxCax" text="Bivio" />
+    <string id="fEQAPJ2e" text="{KEY} Usa" />
+    <string id="FjwRsf1C" text="{.FN}Vlandia" />
+    <string id="FNLfNWH3" text="Cavalleria e arciere a cavallo" />
+    <string id="G0AWk1rX" text="Scala" />
+    <string id="gAfbULHM" text="Visuale" />
+    <string id="gqQPSAQZ" text="{KEY} Abbandona l&apos;area" />
+    <string id="H5tiRTya" text="Allenamento" />
+    <string id="hvQSOi79" text="Bot" />
+    <string id="ibC4xPoo" text="{KEY} Carica munizioni" />
+    <string id="j4F7tTzy" text="{.MS}Clan{@Plural}{.MP}Clan{\@}" />
+    <string id="jfcceEoE" text="Pila {PILE_TYPE}" />
+    <string id="Jw0GMgzv" text="Armature pesanti" />
+    <string id="K3Cr70PY" text="Dai preferenza alle truppe con armi inastate" />
+    <string id="kbNcm68J" text="{KEY} Solleva" />
+    <string id="L91XKoMD" text="{TEAM_LEADER}: {PLAYER_NAME}, {BEHAVIOR}" />
+    <string id="ljHPjjmX" text="Impossibile invitare il giocatore alla partita" />
+    <string id="lVfmVHbz" text="Accesso non riuscito" />
+    <string id="m9KoYCv5" text="Comandi" />
+    <string id="MaBSSg7I" text="Ariete da assedio" />
+    <string id="mBDj5uG5" text="Fanteria e truppe da distanza" />
+    <string id="MbXatV1Q" text="Disconnesso" />
+    <string id="MdQJxiGz" text="{KEY} Spingi" />
+    <string id="MVOPbhNj" text="Dai preferenza alle truppe con scudo" />
+    <string id="Na81xuXn" text="{KEY} Riarma" />
+    <string id="NbpcDXtJ" text="Manganella" />
+    <string id="oPOa77dI" text="Disconnesso dalla piattaforma" />
+    <string id="oZrVNUOk" text="Errore" />
+    <string id="PfnS8HUd" text="Tipo di partita non valido!" />
+    <string id="pgw7LMRo" text="Server sovraccarico." />
+    <string id="PjO7oY16" text="{.FS}Sturgia" />
+    <string id="PSN8IaIg" text="{.MP}Scudi" />
+    <string id="pzfbPbWW" text="Masso" />
+    <string id="Q1Ga032B" text="Non dare preferenza ad alcun tipo di truppa." />
+    <string id="qaPgbwZv" text="Grado basso" />
+    <string id="RN6zHak0" text="Giocatore" />
+    <string id="rwZAZSvX" text="{KEY} Sposta" />
+    <string id="sRTd3RI5" text="Grafica" />
+    <string id="sZLd6VHi" text="{.MP}Khuzato{@Plural}{.MP}Khuzati{\@}" />
+    <string id="TJj71hPO" text="{KEY} Chiudi" />
+    <string id="uNrXwGzr" text="Il tuo gruppo può giocare solo incontri amichevoli. Tutti i membri devono far parte dello stesso clan per giocare una partita tra clan." />
+    <string id="ush8OHIw" text="Dai preferenza alle truppe con armature pesanti" />
+    <string id="uZ6q4Qs2" text="Grafica" />
+    <string id="v5EqMSlD" text="Non puoi cambiare le preferenze dell&apos;arena durante un duello." />
+    <string id="vBkrw5VV" text="Casuale" />
+    <string id="vDMe8SCV" text="Scala di risoluzione" />
+    <string id="w7Yrbi5t" text="Non impostato" />
+    <string id="WRMyiiYJ" text="Interfaccia utente" />
+    <string id="wY1qP2qj" text="{KEY} Seleziona" />
+    <string id="xebFLnH2" text="Audio" />
+    <string id="XvSRoOzM" text="Giocatori recentemente utilizzati" />
+    <string id="YNkPy4ta" text="Partita tra clan" />
+    <string id="yS7PvrTD" text="OK" />
+    <string id="ys9baYiQ" text="Campagna" />
+    <string id="zbpCRmuJ" text="Dai preferenza alle truppe di grado più basso" />
+  </strings>
+</base>

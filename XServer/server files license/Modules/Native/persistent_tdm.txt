@@ -1,0 +1,15 @@
+ServerName [EU] Persistent Empires
+GameType TeamDeathmatch
+Map mp_tdm_map_003
+CultureTeam1 vlandia
+CultureTeam2 vlandia
+AllowPollsToKickPlayers False
+AllowPollsToBanPlayers False
+AllowPollsToChangeMaps False
+MapTimeLimit 30
+RespawnPeriodTeam1 5
+RespawnPeriodTeam1 5
+MinNumberOfPlayersForMatchStart 0
+MaxNumberOfPlayers 1000
+end_game_after_mission_is_over
+start_game_and_mission

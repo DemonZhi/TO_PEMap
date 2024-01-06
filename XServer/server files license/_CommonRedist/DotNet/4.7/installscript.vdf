@@ -1,0 +1,26 @@
+"InstallScript"
+{
+	"Run Process"
+	{
+		"4.7.2"
+		{
+			"HasRunKey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\.NET\\4.7.2"
+			"process 1"		"%INSTALLDIR%\\_CommonRedist\\DotNet\\4.7\\noop.cmd"
+			"NoCleanUp"		"1"
+			"Requirement_OS"
+			{
+				"OSType"		"Windows XP"
+			}
+		}
+		"4.7.2"
+		{
+			"HasRunKey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\.NET\\4.7.2"
+			"process 1"		"%INSTALLDIR%\\_CommonRedist\\DotNet\\4.7\\Microsoft .NET Framework 4.7.2.cmd"
+			"NoCleanUp"		"1"
+		}
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"0286da62909043b1974bd7af2e6b38330df088d24996f2071ab2ef6ae19605019417e1f7add92333b1bad35a99fafc129e49fd9be4f0c0fc81672345a48c0a3cf28150d1823d968d751df009d9494ba0503f614372af2380f21eca8a1236ea198c9d2778c240e6b2481d2e95329ae74eeec73931048c728253070dba34ccbd15"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <strings>
+    <string id="3o9AO00M" text="Sunucu dolu." />
+    <string id="7G7lu7az" text="Davet gönderilemiyor." />
+    <string id="bjhBPJDF" text="Davet Başarısız!" />
+    <string id="BLw3AJjM" text="Davet edilmeye uygun arkadaş yok." />
+	<string id="oZ326SFY" text="Oyuna katılım başarısız." />
+    <string id="tak1GATd" text="Devam eden bir oyunda değilsin." />
+    <string id="vIonllGr" text="Lobi Uyumsuz" />
+    <string id="x9YcKgLf" text="Arkadaş listesi gösterilemiyor." />
+    <string id="XlPML483" text="Davet edilecek bir oyuncu seç" />
+	<string id="yS7PvrTD" text="Tamam" />
+  </strings>
+</base>

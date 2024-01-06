@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="leU2EiDo" text="로비 서버에서 X&#8288;b&#8288;o&#8288;x&#8288; L&#8288;i&#8288;v&#8288;e 플레이어를 초기화할 수 없습니다" />
+  </strings>
+</base>

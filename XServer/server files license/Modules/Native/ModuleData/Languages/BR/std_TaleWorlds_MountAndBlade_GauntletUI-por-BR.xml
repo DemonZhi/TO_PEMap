@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Português (BR)" />
+  </tags>
+  <strings>
+    <string id="074YAjOk" text="Você foi expulso(a) por inatividade" />
+    <string id="1e12bdjj" text="A captura de tela foi salva em {PATH}" />
+    <string id="2SEofGth" text="Mudar de equipe" />
+    <string id="3CsACce8" text="Sair" />
+    <string id="4mMySbxI" text="Erro não especificado" />
+    <string id="79bODbwZ" text="O Modo Foto já está ativo." />
+    <string id="a0IHtkoa" text="O host do jogo excluiu você" />
+    <string id="aGGq9lJT" text="Mudar cultura" />
+    <string id="ajKnHI1s" text="Tirar foto" />
+    <string id="aKjpbRP5" text="Motivo desconhecido" />
+    <string id="aogZyZlR" text="É preciso esperar {SECONDS} s para poder saudar/gritar de novo." />
+    <string id="asCeKZXx" text="Reativar Interface de Batalha" />
+    <string id="controllerDisconnectedDescriptionPS" text="Reconecte o controle sem fio para continuar" />
+    <string id="controllerDisconnectedDescriptionXB" text="Reconecte o controle para continuar" />
+    <string id="controllerDisconnectedTitlePS" text="Controle sem fio desconectado" />
+    <string id="controllerDisconnectedTitleXB" text="Controle desconectado" />
+    <string id="dismissnotification" text="Dispensar" />
+    <string id="e139gKZc" text="Retornar ao jogo" />
+    <string id="EzeFJo65" text="Você foi desconectado(a) do servidor!" />
+    <string id="hvaDkG4w" text="Pressione qualquer tecla." />
+    <string id="HzWaGn3y" text="Nem todos os jogadores estão executando o jogo com antitrapaça" />
+    <string id="ImQnhIQ5" text="Não é possível usar o Modo Foto conversando." />
+    <string id="InGwtrWt" text="Sair" />
+    <string id="InUAmnX4" text="Você foi expulso(a) devido a dano a aliados" />
+    <string id="ivKntfNA" text="Pedido de entrada realizado, aguardando resposta do servidor" />
+    <string id="IzJ7f5SQ" text="Servidor cheio" />
+    <string id="JluTW3Qw" text="O jogo acabou" />
+    <string id="JQVixeQs" text="Não foi possível acessar o servidor do jogo" />
+    <string id="KO2adj2I" text="Você precisa estar na sala de esperar para entrar num jogo personalizado." />
+    <string id="KQrpWV1n" text="Você precisa ser líder do grupo para entrar num jogo personalizado" />
+    <string id="KRNdlbkq" text="Jogo personalizado está acabando" />
+    <string id="LCzAvLUB" text="Os módulos dos jogadores não correspondem todos ao servidor" />
+    <string id="lxq6SaQn" text="Quer mesmo sair?" />
+    <string id="Mm1Kb1bS" text="Senha incorreta" />
+    <string id="mO9bh5sy" text="Não foi possível entrar no jogo personalizado" />
+    <string id="MVLleAaZ" text="Convidar amigos" />
+    <string id="n4UUrd1p" text="Em uso" />
+    <string id="NqarFr4P" text="Opções" />
+    <string id="O1bGoaE8" text="Não foi possível recuperar o estado do servidor. Tente outra vez." />
+    <string id="OhF7NqSb" text="Você foi banido(a) do jogo por votação" />
+    <string id="RamV6yLM" text="Sair para o Menu Principal" />
+    <string id="RGzyUTzm" text="Arranjo de formação alternado para {ARRANGEMENT_ORDER}" />
+    <string id="rZSjkCpw" text="Não é possível usar o Modo Foto durante o despacho." />
+    <string id="srAJw3Tg" text="Jogador banido do servidor" />
+    <string id="T8IniCKU" text="Servidor indisponível" />
+    <string id="tKSxGy5p" text="Servidor não responde" />
+    <string id="tlsmbvQX" text="Nem todos jogadores estão prontos para entrar" />
+    <string id="TR1B2RWB" text="Você foi expulso(a) do jogo pelo antitrapaça" />
+    <string id="V8BXjyYq" text="Desativado durante a instalação." />
+    <string id="VklN5Wm6" text="Modo Foto" />
+    <string id="vkpMgobZ" text="Erro de servidor" />
+    <string id="wbFB3N72" text="Você foi expulso(a) do jogo por votação" />
+    <string id="wLpJEkKY" text="Servidor travou" />
+    <string id="WvGviFgt" text="Tempo de conexão com o servidor excedido" />
+    <string id="yS7PvrTD" text="OK" />
+    <string id="Yza0JYJt" text="Mudar tropa" />
+  </strings>
+</base>

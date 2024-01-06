@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="0B27RrYJ" text="바타니아" />
+    <string id="1cnJtNTt" text="{KEY} 당기기" />
+    <string id="1CPdu9K0" text="돌" />
+    <string id="1nKa4pQX" text="나머지 게임 콘텐츠가 다운로드되었습니다." />
+    <string id="2zcrC0h1" text="게임플레이" />
+    <string id="3PP01vFv" text="저 무기 근처에 가지 마세요." />
+    <string id="4FVIuqsl" text="{ALIVE}/{TOTAL}" />
+    <string id="4Skg9QhO" text="트레뷰셋" />
+    <string id="5oozsaIb" text="{KEY} 열기" />
+    <string id="5wx4BF5h" text="{KEY} 회전" />
+    <string id="6wZUG0ev" text="관문" />
+    <string id="8OkPHu4f" text="아니요" />
+    <string id="abbALYlp" text="발리스타" />
+    <string id="aeouhelq" text="예" />
+    <string id="aseraifaction" text="아세라이" />
+    <string id="aXjlMBiE" text="공성탑" />
+    <string id="BFhMw4bl" text="나머지 게임 콘텐츠가 다운로드되었습니다. 기본 메뉴로 돌아가시겠습니까?" />
+    <string id="bNYm3K6b" text="{KEY} 줍기" />
+    <string id="bWi4aMO9" text="화살통" />
+    <string id="CaSafuAH" text="콘텐츠 다운로드 완료" />
+    <string id="cS0Hafjl" text="플레이어가 멀티 플레이어에 액세스할 수 없습니다." />
+    <string id="DRNDtkP2" text="높은 등급의 부대에 우선권 부여" />
+    <string id="DWWa3aIb" text="투척 무기를 사용하는 부대에 우선권 부여" />
+    <string id="DzAkCzwd" text="높은 등급" />
+    <string id="Ea3K1PVR" text="투척 무기" />
+    <string id="EgTUzWUz" text="이름은 비워둘 수 없습니다!" />
+    <string id="empirefaction" text="제국" />
+    <string id="f83FU4X6" text="폴암" />
+    <string id="F9AQxCax" text="쇠스랑" />
+    <string id="fEQAPJ2e" text="{KEY} 사용" />
+    <string id="FjwRsf1C" text="블란디아" />
+    <string id="FNLfNWH3" text="기병대 및 궁기병" />
+    <string id="G0AWk1rX" text="사다리" />
+    <string id="gAfbULHM" text="카메라" />
+    <string id="gqQPSAQZ" text="{KEY} 지역에서 나가기" />
+    <string id="H5tiRTya" text="연습" />
+    <string id="hvQSOi79" text="봇" />
+    <string id="ibC4xPoo" text="{KEY} 탄약 장전" />
+    <string id="j4F7tTzy" text="클랜" />
+    <string id="jfcceEoE" text="{PILE_TYPE} 더미" />
+    <string id="Jw0GMgzv" text="중장갑" />
+    <string id="K3Cr70PY" text="폴암을 사용하는 부대에 우선권 부여" />
+    <string id="kbNcm68J" text="{KEY} 들기" />
+    <string id="L91XKoMD" text="{TEAM_LEADER}: {PLAYER_NAME}, {BEHAVIOR}" />
+    <string id="ljHPjjmX" text="플레이어를 게임에 초대하지 못했습니다." />
+    <string id="lVfmVHbz" text="로그인 실패" />
+    <string id="m9KoYCv5" text="컨트롤" />
+    <string id="MaBSSg7I" text="공성추" />
+    <string id="mBDj5uG5" text="보병 및 원거리" />
+    <string id="MbXatV1Q" text="연결 끊김" />
+    <string id="MdQJxiGz" text="{KEY} 밀기" />
+    <string id="MVOPbhNj" text="방패를 사용하는 부대에 우선권 부여" />
+    <string id="Na81xuXn" text="{KEY} 재장전" />
+    <string id="NbpcDXtJ" text="망고넬" />
+    <string id="oPOa77dI" text="플랫폼에서 로그아웃됨" />
+    <string id="oZrVNUOk" text="오류" />
+    <string id="PfnS8HUd" text="잘못된 사전 설정 게임 유형입니다!" />
+    <string id="pgw7LMRo" text="서버 정원을 초과했습니다." />
+    <string id="PjO7oY16" text="스투르지아" />
+    <string id="PSN8IaIg" text="방패" />
+    <string id="pzfbPbWW" text="바위" />
+    <string id="Q1Ga032B" text="어떤 유형의 부대에도 우선권을 주지 않음" />
+    <string id="qaPgbwZv" text="낮은 등급" />
+    <string id="RN6zHak0" text="플레이어" />
+    <string id="rwZAZSvX" text="{KEY} 이동" />
+    <string id="sRTd3RI5" text="그래픽" />
+    <string id="sZLd6VHi" text="쿠자이트" />
+    <string id="TJj71hPO" text="{KEY} 닫기" />
+    <string id="uNrXwGzr" text="현재 부대로는 연습 매치만 가능합니다. 클랜 매치를 진행하려면 모든 부대원이 같은 클랜이어야 합니다." />
+    <string id="ush8OHIw" text="중장갑을 사용하는 부대에 우선권 부여" />
+    <string id="uZ6q4Qs2" text="비주얼" />
+    <string id="v5EqMSlD" text="결투 중에 투기장 환경을 변경할 수 없습니다." />
+    <string id="vBkrw5VV" text="무작위" />
+    <string id="vDMe8SCV" text="해상도 조정" />
+    <string id="w7Yrbi5t" text="설정 없음" />
+    <string id="WRMyiiYJ" text="사용자 인터페이스" />
+    <string id="wY1qP2qj" text="{KEY} 선택" />
+    <string id="xebFLnH2" text="오디오" />
+    <string id="XvSRoOzM" text="최근 같이 플레이한 사람" />
+    <string id="YNkPy4ta" text="클랜 매치" />
+    <string id="yS7PvrTD" text="확인" />
+    <string id="ys9baYiQ" text="캠페인" />
+    <string id="zbpCRmuJ" text="낮은 등급의 부대에 우선권 부여" />
+  </strings>
+</base>

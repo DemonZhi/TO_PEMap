@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<scene name="scn_character_creation_scene" version="2">
+	<environment_properties>
+		<property name="physics_world_min" value="-11.599340, -1.285311"/>
+		<property name="physics_world_max_" value="13.609340, 24.067875"/>
+		<property name="north_angle" value="0.000"/>
+		<property name="is_indoors" value="false"/>
+		<property name="is_fixed_atmosphere" value="false"/>
+		<property name="horizon_material_name" value=""/>
+		<property name="ground_color" value="0.000, 0.000, 0.000"/>
+		<sound_properties>
+			<property name="reverb_definition" value=""/>
+			<property name="reverb_wetness" value="0.500"/>
+			<property name="ambient_sound" value=""/>
+			<property name="ambient_sound_uses_scene_params" value="true"/>
+		</sound_properties>
+		<atmosphere_properties>
+			<property name="atmosphere_name" value="TOD_06_00_Clear"/>
+			<property name="wind" value="0.000000, 0.000000"/>
+		</atmosphere_properties>
+		<water_properties>
+			<property name="water_level" value="-100.000"/>
+			<property name="water_texture_tile" value="1.000"/>
+			<property name="water_normalmap_speed" value="1.000"/>
+			<property name="water_detail_normalmap_scale" value="1.000"/>
+			<property name="water_detail_normalmap_speed" value="1.000"/>
+			<property name="water_detail_normalmap_power" value="1.000"/>
+			<property name="water_material" value="river_flow"/>
+			<property name="water_color" value="0.000, 0.000, 0.000"/>
+			<property name="water_color_density" value="0.000"/>
+			<property name="river_diffuse_color" value="0.000, 0.000, 0.000"/>
+			<property name="river_transperancy" value="0.000"/>
+			<property name="water_displacement" value="0.000"/>
+		</water_properties>
+	</environment_properties>
+	<entities>
+		<game_entity prefab="european_castle_gatehouse_a_l1">
+			<transform position="0.595, 14.740, 0.000"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantarmory_heavy_c">
+			<tags>
+				<tag name="shop_prop"/>
+				<tag name="c"/>
+			</tags>
+			<transform position="1.000, 4.000, -1.000"/>
+		</game_entity>
+		<game_entity prefab="shop_prop_merchantarmory_b">
+			<tags>
+				<tag name="shop_prop"/>
+				<tag name="b"/>
+			</tags>
+			<transform position="-1.000, 3.000, -1.050"/>
+		</game_entity>
+		<game_entity name="icon_camera" old_prefab_name="icon_camera">
+			<visibility_masks>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<tags>
+				<tag name="cameraHolder"/>
+			</tags>
+			<transform position="0.010, 0.000, 0.000"/>
+			<physics mass="1.000"/>
+			<components>
+				<meta_mesh_component name="icon_camera"/>
+				<light_component intensity="0.000" hotspot_angle="30.000" falloff_angle="45.000" _index_="1"/>
+			</components>
+		</game_entity>
+	</entities>
+	<terrain enabled="false">
+		<floras/>
+	</terrain>
+	<editor_data editor_camera_position="3.023, -6.273, 2.511" editor_camera_elevation="-0.198" editor_camera_bearing="0.352" author="" comment=""/>
+	<camera_data near_plane="0.100" far_plane="1500.000"/>
+	<Paths/>
+</scene>
+

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Italiano" />
+  </tags>
+  <strings>
+    <string id="09gOOa0h" text="Guardaboschi" />
+    <string id="4C4WiTb2" text="{.MS}Variago" />
+    <string id="8ba4tpRU" text="{.MP}Jawwal" />
+    <string id="8qg72H8Z" text="{.MS}Guerriero tribale" />
+    <string id="afhXdjBU" text="{.MS}Nomade" />
+    <string id="bHx8jaeI" text="{?NPC.GENDER}Guerriera{?}Guerriero{\?}" />
+    <string id="brigandmptroop" text="{.MS}Brigante" />
+    <string id="CAYZDsAj" text="{.MS}Legionario" />
+    <string id="cbnvgVhH" text="{.MS}Predone" />
+    <string id="coursercavalryman" text="{.MS}Corsiero" />
+    <string id="Cp7dI87a" text="Avanguardia" />
+    <string id="Dq1sCO1y" text="{.MS}Balestriere" />
+    <string id="eFWJjaBC" text="{.MS}Personaggio multigiocatore" />
+    <string id="eIk6jaOG" text="{.MS}Fante lanciere" />
+    <string id="eM1qFKNs" text="{.MS}Tiratore scelto" />
+    <string id="eU0uANvZ" text="{.MS}Arciere a cavallo" />
+    <string id="fS5BIf3J" text="{.MS}Guerriero giurato" />
+    <string id="ft6QaIms" text="{.MS}Catafratto" />
+    <string id="g9VIbA9s" text="Sergente" />
+    <string id="gLlheMwd" text="{.MS}Contadino coscritto" />
+    <string id="guardnoun" text="{.FS}Guardia{@Plural}{.FP}Guardie{\@}" />
+    <string id="gytrdYMU" text="{.MS}Mamelucco" />
+    <string id="hchDYAKL" text="Cavaliere lanciere" />
+    <string id="HCzbW0hE" text="{.MS}Guerriero del clan" />
+    <string id="huntertroop" text="{.MS}Cacciatore" />
+    <string id="ieiqOaZp" text="{.MS}Arciere" />
+    <string id="ixqTFMVA" text="Guerriero a cavallo" />
+    <string id="j5I7tYSd" text="{.MS}Fianna" />
+    <string id="k1Xr4rKn" text="Druzhinnik" />
+    <string id="lar4lfKR" text="{.FS}Guardia del khan" />
+    <string id="LLKreyq7" text="{.MS}Bruto" />
+    <string id="My0a4Miq" text="{.MS}Volgiere" />
+    <string id="naBbiK9v" text="{.MS}Plebeo" />
+    <string id="NJRUb0C1" text="{.FS}Guardia Palatina" />
+    <string id="recruitTroopType" text="{.FS}Recluta" />
+    <string id="RssJTUpL" text="Berserker" />
+    <string id="s9oED1IR" text="Incursore" />
+    <string id="steppebowtroop" text="{.MS}Arco della steppa" />
+    <string id="TNQaD5p2" text="{.MS}Miliziano arciere" />
+    <string id="veterantroop" text="{.MS}Veterano" />
+    <string id="WtEoXblx" text="Cavaliere" />
+    <string id="XeXJAB6a" text="{.MS}Menavlatoi" />
+    <string id="yDiWi6SO" text="{.MS}Barbaro" />
+  </strings>
+</base>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Français" />
+  </tags>
+  <strings>
+    <string id="0W4dgUho" text="Banni(e) de la partie jusqu&apos;à {BANNEDUNTIL}, cause : {BANREASON}." />
+    <string id="39f0eu3Y" text="Le jeton d&apos;authentification fourni a expiré." />
+    <string id="dbLB0tuT" text="Le partage familial n&apos;est pas autorisé." />
+    <string id="iWLq9hMg" text="Aucun jeton d&apos;authentification fourni." />
+    <string id="kY2oXMng" text="Connexion impossible." />
+    <string id="p5K0ATtZ" text="Suppression de votre ancienne session impossible." />
+    <string id="Rj8RhD7F" text="Échec" />
+    <string id="satFJMMu" text="Le serveur de bataille personnalisée possède une version incompatible." />
+    <string id="Tauk2JzA" text="Version incompatible. Version du serveur : {SERVERVERSION}. Votre version : {CLIENTVERSION}." />
+    <string id="X6N9nSn0" text="Vous n&apos;avez pas l&apos;autorisation de vous connecter à ce serveur. Essayez les serveurs publics officiels." />
+    <string id="xMa4QqvL" text="Joueurs actuels dans le groupe : {PLAYERS}" />
+    <string id="xriaEwgN" text="Vous n&apos;avez plus le droit d&apos;héberger des serveurs pendant {BAN_EXPIRATION_TIME}. Motif : {BAN_REASON}." />
+    <string id="YmPyx3qi" text="Vous avez atteint le nombre maximum autorisé de serveurs de bataille personnalisée." />
+  </strings>
+</base>

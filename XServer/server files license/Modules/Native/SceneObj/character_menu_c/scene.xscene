@@ -1,0 +1,619 @@
+<?xml version="1.0" ?>
+<scene name="character_menu_c" version="2">
+    <environment_properties>
+        <property name="physics_world_min" value="-6.768088, -3.746222" />
+        <property name="physics_world_max_" value="25.923241, 27.957726" />
+        <property name="north_angle" value="0.000" />
+        <property name="is_indoors" value="false" />
+        <property name="horizon_material_name" value="" />
+        <property name="ground_color" value="0.000, 0.000, 0.000" />
+        <sound_properties>
+            <property name="reverb_definition" value="" />
+            <property name="reverb_wetness" value="0.500" />
+            <property name="ambient_sound" value="" />
+            <property name="ambient_sound_uses_scene_params" value="true" />
+        </sound_properties>
+        <atmosphere_properties>
+            <property name="atmosphere_name" value="interior" />
+            <property name="wind" value="0.000000, 0.000000" />
+        </atmosphere_properties>
+        <water_properties>
+            <property name="water_level" value="-100.000" />
+            <property name="water_texture_tile" value="1.000" />
+            <property name="water_normalmap_speed" value="1.000" />
+            <property name="water_detail_normalmap_scale" value="1.000" />
+            <property name="water_detail_normalmap_speed" value="1.000" />
+            <property name="water_detail_normalmap_power" value="1.000" />
+            <property name="water_material" value="river_flow" />
+            <property name="water_color" value="0.000, 0.000, 0.000" />
+            <property name="water_color_density" value="0.000" />
+            <property name="river_diffuse_color" value="0.000, 0.000, 0.000" />
+            <property name="river_transperancy" value="0.000" />
+            <property name="water_displacement" value="0.000" />
+        </water_properties>
+    </environment_properties>
+    <entities>
+        <game_entity prefab="sturgia_town_house_b_interior">
+            <transform position="6.163, 7.308, 0.000" rotation="0.000000, -0.000000, -0.013287, 0.999912" />
+            <edit_mode_data locked_for_selection="true" />
+        </game_entity>
+        <game_entity prefab="a_spr_light">
+            <transform position="6.528, 8.003, 1.855" rotation="-0.000000, 0.000000, -0.360460, 0.932775" scale="0.785, 0.785, 0.785" />
+            <components>
+                <light_component flags="20" diffuse_color="0.059, 0.029, 0.007" radius="1.500" local_frame_rot="1.500000, 0.000000, 0.000000, 0.000000, 1.500000, 0.000000, 0.000000, 0.000000, 1.500000" />
+            </components>
+        </game_entity>
+        <game_entity prefab="wooden_platform_plank_e">
+            <transform position="8.296, 2.984, 5.080" rotation="-0.005372, 0.005234, 0.696010, 0.717993" />
+        </game_entity>
+        <game_entity prefab="wooden_platform_plank_e">
+            <transform position="3.417, 2.984, 5.080" rotation="-0.005372, 0.005234, 0.696010, 0.717993" />
+        </game_entity>
+        <game_entity prefab="wooden_platform_plank_e">
+            <transform position="3.575, 8.050, 5.004" rotation="-0.005372, 0.005234, 0.696010, 0.717993" />
+        </game_entity>
+        <game_entity prefab="wooden_platform_plank_e">
+            <transform position="3.730, 13.029, 4.929" rotation="-0.005372, 0.005234, 0.696010, 0.717993" />
+        </game_entity>
+        <game_entity prefab="bd_kitchen_stove_sturgia">
+            <transform position="10.289, 12.861, 0.000" rotation="0.000000, 0.000000, -0.010796, 0.999942" />
+        </game_entity>
+        <game_entity prefab="stone_pile_e">
+            <transform position="2.290, 13.310, 0.000" rotation="0.000000, 0.000000, 0.243371, 0.969933" />
+        </game_entity>
+        <game_entity prefab="stone_pile_e">
+            <transform position="10.620, 11.519, 0.097" rotation="0.000000, 0.000000, 0.966932, -0.255033" />
+        </game_entity>
+        <game_entity prefab="stone_pile_e">
+            <transform position="8.866, 12.967, 0.097" rotation="0.000000, 0.000000, -0.819227, 0.573469" />
+        </game_entity>
+        <game_entity prefab="stone_pile_b">
+            <transform position="10.518, 1.462, 0.052" rotation="0.000000, 0.000000, -0.855627, 0.517593" />
+        </game_entity>
+        <game_entity prefab="stone_pile_b">
+            <transform position="1.481, 11.204, 0.052" rotation="0.000000, 0.000000, -0.855627, 0.517593" />
+        </game_entity>
+        <game_entity prefab="stone_pile_b">
+            <transform position="4.915, 13.512, 0.052" rotation="0.000000, 0.000000, -0.855627, 0.517593" />
+        </game_entity>
+        <game_entity prefab="stone_pile_b">
+            <transform position="10.857, 5.289, 0.052" rotation="0.000000, 0.000000, -0.855627, 0.517593" />
+        </game_entity>
+        <game_entity prefab="stone_pile_b">
+            <transform position="1.211, 1.232, 0.052" rotation="0.000000, 0.000000, -0.855627, 0.517593" />
+        </game_entity>
+        <game_entity prefab="bd_straw_h">
+            <transform position="7.180, 7.537, 0.012" rotation="0.000000, 0.000000, 0.925414, -0.378957" scale="0.754, 0.754, 0.754" />
+        </game_entity>
+        <game_entity prefab="dirty_b">
+            <transform position="4.177, 9.536, 0.015" rotation="0.000000, 0.000000, 0.987051, 0.160408" scale="0.626, 0.626, 0.626" />
+        </game_entity>
+        <game_entity prefab="wooden_platform_plank_e">
+            <transform position="8.608, 13.029, 4.929" rotation="-0.005372, 0.005234, 0.696010, 0.717993" />
+        </game_entity>
+        <game_entity prefab="a_spr_light">
+            <transform position="5.248, 8.290, 1.012" rotation="-0.000000, 0.000000, -0.643994, 0.765031" />
+            <components>
+                <light_component diffuse_color="0.023, 0.014, 0.007" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" />
+            </components>
+        </game_entity>
+        <game_entity prefab="wooden_platform_plank_e">
+            <transform position="8.453, 8.050, 5.004" rotation="-0.005372, 0.005234, 0.696010, 0.717993" />
+        </game_entity>
+        <game_entity prefab="a_spr_light">
+            <transform position="2.829, 9.427, 1.879" rotation="0.000000, 0.000000, -0.646286, 0.763095" />
+            <components>
+                <light_component flags="20" diffuse_color="0.015, 0.011, 0.003" radius="5.000" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" />
+            </components>
+        </game_entity>
+        <game_entity prefab="stone_pile_e">
+            <transform position="5.531, 7.364, 0.014" rotation="0.000000, 0.000000, 0.117831, 0.993034" scale="0.357, 0.357, 0.357" />
+        </game_entity>
+        <game_entity prefab="rock_003">
+            <transform position="6.994, 7.307, 0.000" rotation="0.000000, 0.000000, 0.152095, 0.988366" />
+        </game_entity>
+        <game_entity prefab="rock_007">
+            <transform position="6.504, 6.689, -0.009" rotation="0.000000, 0.000000, 0.161988, 0.986793" />
+        </game_entity>
+        <game_entity prefab="rock_004">
+            <transform position="5.887, 7.379, 0.000" rotation="0.000000, 0.000000, 0.159065, 0.987268" />
+        </game_entity>
+        <game_entity prefab="rock_004">
+            <transform position="5.071, 6.153, 0.000" rotation="0.000000, 0.000000, 0.159065, 0.987268" />
+        </game_entity>
+        <game_entity prefab="rock_004">
+            <transform position="6.683, 8.145, 0.000" rotation="0.000000, 0.000000, 0.159065, 0.987268" />
+        </game_entity>
+        <game_entity prefab="rock_004">
+            <transform position="7.926, 7.246, 0.000" rotation="0.000000, 0.000000, 0.159065, 0.987268" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="7.221, 7.497, 0.000" rotation="-0.000000, 0.000000, -0.024949, 0.999689" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="3.980, 6.820, 0.000" rotation="-0.000000, 0.000000, -0.024949, 0.999689" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="4.399, 8.635, -0.000" rotation="-0.000000, 0.000000, -0.024949, 0.999689" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="7.412, 9.127, 0.000" rotation="0.000000, 0.000000, 0.586916, 0.809648" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="7.871, 7.027, 0.000" rotation="0.000000, 0.000000, 0.586916, 0.809648" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="5.647, 4.832, 0.000" rotation="0.000000, 0.000000, 0.586916, 0.809648" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="5.174, 5.282, 0.000" rotation="0.000000, 0.000000, 0.999724, -0.023494" />
+        </game_entity>
+        <game_entity prefab="rock_006">
+            <transform position="4.259, 5.884, 0.000" rotation="0.000000, 0.000000, 0.193322, 0.981135" />
+        </game_entity>
+        <game_entity prefab="rock_006">
+            <transform position="5.919, 4.738, 0.000" rotation="0.000000, 0.000000, 0.193322, 0.981135" />
+        </game_entity>
+        <game_entity prefab="rock_006">
+            <transform position="8.218, 7.476, 0.000" rotation="0.000000, 0.000000, 0.193322, 0.981135" />
+        </game_entity>
+        <game_entity prefab="rock_006">
+            <transform position="5.059, 9.581, 0.000" rotation="0.000000, 0.000000, 0.193322, 0.981135" />
+        </game_entity>
+        <game_entity prefab="rock_006">
+            <transform position="6.941, 9.455, 0.000" rotation="0.000000, 0.000000, 0.193322, 0.981135" />
+        </game_entity>
+        <game_entity prefab="rock_006">
+            <transform position="9.182, 11.344, 0.000" rotation="0.000000, 0.000000, 0.193322, 0.981135" />
+        </game_entity>
+        <game_entity prefab="rock_006">
+            <transform position="8.753, 11.958, 0.000" rotation="0.000000, 0.000000, 0.193322, 0.981135" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="8.616, 11.653, 0.000" rotation="0.000000, 0.000000, 0.342737, 0.939431" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="2.245, 5.954, 0.000" rotation="0.000000, 0.000000, 0.342737, 0.939431" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="8.657, 2.434, 0.000" rotation="0.000000, 0.000000, 0.693454, 0.720501" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="10.436, 2.422, 0.000" rotation="0.000000, -0.000000, -0.047210, 0.998885" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="8.236, 0.953, 0.023" rotation="0.000000, -0.000000, -0.047210, 0.998885" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="8.985, 0.933, 0.010" rotation="0.000000, 0.000000, 0.737839, 0.674977" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="10.765, 3.314, 0.000" rotation="0.000000, 0.000000, 0.737839, 0.674977" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="1.328, 8.175, 0.096" rotation="0.000000, 0.000000, 0.737839, 0.674977" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="1.234, 4.645, 0.073" rotation="0.000000, 0.000000, 0.737839, 0.674977" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="1.187, 2.880, 0.028" rotation="0.000000, 0.000000, 0.420125, 0.907466" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="1.371, 9.782, 0.093" rotation="0.000000, 0.000000, 0.420125, 0.907466" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="1.438, 12.325, 0.022" rotation="0.000000, 0.000000, 0.420125, 0.907466" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="6.945, 13.587, 0.033" rotation="0.000000, 0.000000, 0.420125, 0.907466" />
+        </game_entity>
+        <game_entity prefab="rock_006">
+            <transform position="5.935, 5.001, 0.000" rotation="0.000000, 0.000000, 0.079738, 0.996816" />
+        </game_entity>
+        <game_entity prefab="rock_006">
+            <transform position="5.954, 8.506, 0.000" rotation="0.000000, 0.000000, 0.079738, 0.996816" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="10.858, 1.008, 2.806" rotation="0.501722, 0.535421, -0.509524, -0.449427" scale="1.385, 1.385, 1.385" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="10.810, 0.982, 0.521" rotation="-0.392148, -0.607673, -0.436820, 0.534922" scale="2.228, 2.228, 2.228" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="10.752, 0.924, 3.155" rotation="-0.710107, -0.137093, 0.084195, 0.685467" scale="1.385, 1.385, 1.385" />
+        </game_entity>
+        <game_entity prefab="rock_007">
+            <transform position="10.670, 0.822, 4.449" rotation="0.019737, 0.704463, 0.708337, 0.040002" scale="2.418, 2.418, 2.418" />
+            <physics override_material="default" />
+        </game_entity>
+        <game_entity prefab="rock_007">
+            <transform position="10.746, 0.809, 1.664" rotation="0.016674, 0.702488, 0.711304, 0.016705" scale="1.406, 1.406, 1.406" />
+            <physics override_material="default" />
+        </game_entity>
+        <game_entity prefab="rock_007">
+            <transform position="10.870, 0.933, 1.935" rotation="0.605233, 0.452125, 0.425085, 0.498577" scale="1.406, 1.406, 1.406" />
+            <physics override_material="default" />
+        </game_entity>
+        <game_entity prefab="rock_007">
+            <transform position="10.886, 1.014, 4.934" rotation="0.602019, 0.438931, 0.505166, 0.435569" scale="2.418, 2.418, 2.418" />
+            <physics override_material="default" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="11.209, 12.930, 1.058" rotation="0.464567, -0.544410, -0.470249, 0.516392" scale="1.799, 1.799, 1.799" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="11.068, 13.532, 2.785" rotation="0.659611, -0.064304, -0.043250, 0.747601" scale="1.799, 1.799, 1.799" />
+        </game_entity>
+        <game_entity prefab="rock_005">
+            <transform position="11.270, 13.242, 3.149" rotation="0.464567, -0.544410, -0.470249, 0.516392" scale="1.799, 1.799, 1.799" />
+        </game_entity>
+        <game_entity prefab="rock_006">
+            <transform position="10.773, 13.396, 1.711" rotation="-0.000000, 0.000000, -0.189521, 0.981877" />
+        </game_entity>
+        <game_entity prefab="rock_007">
+            <transform position="9.622, 13.484, 1.777" rotation="0.754416, -0.102830, -0.087556, 0.642352" />
+        </game_entity>
+        <game_entity prefab="rock_007">
+            <transform position="11.209, 11.836, 0.695" rotation="-0.455472, 0.505930, 0.539876, -0.495090" scale="2.057, 2.057, 2.057" />
+            <physics override_material="default" />
+        </game_entity>
+        <game_entity prefab="rock_007">
+            <transform position="9.148, 13.666, 0.906" rotation="0.711653, -0.072595, -0.057022, 0.696440" scale="2.057, 2.057, 2.057" />
+            <physics override_material="default" />
+        </game_entity>
+        <game_entity prefab="bd_wood_heap_c">
+            <transform position="10.784, 10.006, 0.000" rotation="0.000000, 0.000000, -0.706364, 0.707849" scale="0.601, 0.601, 0.601" />
+        </game_entity>
+        <game_entity prefab="bd_wood_heap_a">
+            <transform position="8.942, 1.412, 0.000" rotation="0.000000, 0.000000, 0.999701, -0.024453" />
+        </game_entity>
+        <game_entity prefab="bd_rope_b">
+            <transform position="9.904, 2.164, 0.000" rotation="0.000000, 0.000000, 0.921606, -0.388126" />
+        </game_entity>
+        <game_entity prefab="bd_rope_c">
+            <transform position="9.090, 3.027, 0.000" rotation="0.000000, 0.000000, 0.930726, -0.365718" />
+        </game_entity>
+        <game_entity prefab="bd_sack_b">
+            <transform position="10.446, 1.622, 0.195" rotation="-0.058478, -0.232506, 0.879444, -0.411217" />
+        </game_entity>
+        <game_entity prefab="crate_b">
+            <transform position="10.368, 3.199, 0.000" rotation="0.000000, 0.000000, -0.717007, 0.697066" />
+        </game_entity>
+        <game_entity prefab="crate_b">
+            <transform position="10.298, 4.367, 0.023" rotation="0.000000, 0.000000, -0.751730, 0.659471" />
+        </game_entity>
+        <game_entity prefab="crate_b_empty">
+            <transform position="10.418, 3.710, 0.619" rotation="0.000000, -0.000000, -0.695233, 0.718784" />
+            <physics override_material="default" />
+        </game_entity>
+        <game_entity prefab="crate_b">
+            <transform position="3.971, 1.618, 0.000" rotation="0.000000, 0.000000, 0.999997, -0.002237" />
+        </game_entity>
+        <game_entity prefab="crate_b_empty">
+            <transform position="3.777, 1.607, 0.696" rotation="0.000000, 0.000000, 0.998362, 0.057208" />
+        </game_entity>
+        <game_entity prefab="crate_b">
+            <transform position="1.627, 5.461, 0.000" rotation="0.000000, 0.000000, -0.711962, 0.702218" />
+        </game_entity>
+        <game_entity prefab="crate_b_empty">
+            <transform position="1.686, 6.694, 0.004" rotation="0.000000, -0.000000, -0.682666, 0.730731" />
+        </game_entity>
+        <game_entity prefab="crate_b_empty">
+            <transform position="1.641, 6.066, 0.644" rotation="0.000000, 0.000000, -0.742299, 0.670069" />
+            <physics override_material="default" />
+        </game_entity>
+        <game_entity prefab="crate_b_lid">
+            <transform position="1.645, 7.389, 0.351" rotation="-0.290624, 0.297404, 0.635617, 0.650446" />
+        </game_entity>
+        <game_entity prefab="bd_straw_h">
+            <transform position="2.130, 4.684, 0.000" rotation="0.000000, 0.000000, -0.310142, 0.950690" scale="0.540, 0.540, 0.540" />
+        </game_entity>
+        <game_entity prefab="bd_straw_h">
+            <transform position="2.237, 6.778, 0.000" rotation="0.000000, 0.000000, 0.400587, 0.916259" scale="0.540, 0.540, 0.540" />
+        </game_entity>
+        <game_entity prefab="armor_merchant_clothes_c">
+            <transform position="1.580, 5.139, 0.702" rotation="0.000000, 0.000000, 0.222371, 0.974962" />
+        </game_entity>
+        <game_entity prefab="armor_merchant_clothes_b">
+            <transform position="2.351, 6.063, 0.004" rotation="0.000000, 0.000000, 0.937766, 0.347269" />
+        </game_entity>
+        <game_entity prefab="armor_merchant_clothes_d">
+            <transform position="2.390, 6.716, -0.000" rotation="0.000000, -0.000000, -0.592122, 0.805848" />
+        </game_entity>
+        <game_entity prefab="armor_merchant_epaulet_a">
+            <transform position="2.406, 5.445, 0.000" rotation="0.000000, 0.000000, 0.472315, 0.881430" />
+        </game_entity>
+        <game_entity prefab="armor_merchant_helmet_a">
+            <transform position="1.833, 5.383, 0.702" rotation="0.000000, 0.000000, 0.574770, 0.818315" />
+        </game_entity>
+        <game_entity prefab="armor_merchant_clothes_f">
+            <transform position="2.381, 7.386, 0.000" rotation="0.000000, 0.000000, 0.279925, 0.960022" />
+        </game_entity>
+        <game_entity prefab="armor_merchant_shoe_a">
+            <transform position="2.180, 5.105, 0.000" rotation="0.000000, 0.000000, 0.609293, 0.792945" />
+        </game_entity>
+        <game_entity prefab="armor_merchant_shoe_b">
+            <transform position="1.612, 4.776, 0.000" rotation="0.000000, 0.000000, 0.030162, 0.999545" />
+        </game_entity>
+        <game_entity prefab="weapon_rack_aserai_a">
+            <transform position="1.689, 8.680, 0.000" rotation="0.000000, 0.000000, 0.688210, 0.725511" />
+        </game_entity>
+        <game_entity prefab="weapon_heap_sword_a">
+            <transform position="2.104, 8.464, 0.000" rotation="0.000000, 0.000000, 0.501286, 0.865282" />
+        </game_entity>
+        <game_entity prefab="weapon_heap_crossbow_a">
+            <transform position="2.988, 8.340, 0.000" rotation="0.000000, 0.000000, 0.019010, 0.999819" />
+        </game_entity>
+        <game_entity prefab="weapon_rack_a">
+            <transform position="2.134, 10.370, 0.000" rotation="0.000000, 0.000000, -0.839494, 0.543369" />
+        </game_entity>
+        <game_entity prefab="weapon_rack_a">
+            <transform position="10.551, 6.898, 0.000" rotation="0.000000, -0.000000, -0.670245, 0.742140" />
+        </game_entity>
+        <game_entity prefab="weapon_rack_sturgia_a">
+            <transform position="2.831, 10.684, 0.000" rotation="0.000000, 0.000000, 0.915987, -0.401207" />
+        </game_entity>
+        <game_entity prefab="bd_chest_c">
+            <transform position="1.949, 12.773, 0.036" rotation="0.000000, 0.000000, 0.712982, 0.701182" />
+        </game_entity>
+        <game_entity prefab="bd_chest_c">
+            <transform position="3.296, 13.367, 0.082" rotation="0.000000, 0.000000, 0.036071, 0.999349" />
+        </game_entity>
+        <game_entity prefab="bd_chest_c">
+            <transform position="7.374, 13.068, 0.082" rotation="0.000000, -0.000000, -0.014329, 0.999897" />
+        </game_entity>
+        <game_entity prefab="chest_empire_b">
+            <transform position="7.797, 12.395, 0.000" rotation="-0.000000, 0.000000, -0.014111, 0.999900" />
+        </game_entity>
+        <game_entity prefab="chest_empire_c">
+            <transform position="7.201, 12.282, 0.000" rotation="0.000000, 0.000000, 0.118303, 0.992977" />
+        </game_entity>
+        <game_entity prefab="chest_empire_b">
+            <transform position="7.525, 12.008, 0.000" rotation="0.000000, 0.000000, 0.019188, 0.999816" />
+        </game_entity>
+        <game_entity prefab="bd_barrel_a">
+            <transform position="6.136, 13.318, 0.000" rotation="0.000000, 0.000000, 0.290825, 0.956776" />
+        </game_entity>
+        <game_entity prefab="bd_barrel_a">
+            <transform position="3.048, 12.412, 0.000" rotation="0.000000, 0.000000, 0.290825, 0.956776" />
+        </game_entity>
+        <game_entity prefab="bd_barrel_a">
+            <transform position="2.759, 1.393, 0.000" rotation="0.000000, 0.000000, 0.290825, 0.956776" />
+        </game_entity>
+        <game_entity prefab="bd_barrel_a">
+            <transform position="1.486, 2.483, 0.000" rotation="0.000000, 0.000000, 0.290825, 0.956776" />
+        </game_entity>
+        <game_entity prefab="bd_barrel_a">
+            <transform position="2.354, 2.252, 0.000" rotation="0.000000, -0.000000, -0.477887, 0.878421" />
+        </game_entity>
+        <game_entity prefab="bd_rope_a">
+            <transform position="9.929, 8.283, 0.000" rotation="0.000000, 0.000000, 0.228481, 0.973548" />
+        </game_entity>
+        <game_entity prefab="bd_rope_a">
+            <transform position="3.991, 12.498, 0.000" rotation="0.000000, 0.000000, 0.503404, 0.864051" />
+        </game_entity>
+        <game_entity prefab="bd_rope_b">
+            <transform position="2.543, 9.405, 0.000" rotation="0.000000, 0.000000, 0.115461, 0.993312" />
+        </game_entity>
+        <game_entity prefab="bd_rope_b">
+            <transform position="3.094, 2.387, 0.000" rotation="0.000000, 0.000000, 0.115461, 0.993312" />
+        </game_entity>
+        <game_entity prefab="bd_rope_c">
+            <transform position="6.075, 12.200, 0.000" rotation="0.000000, 0.000000, 0.479480, 0.877553" />
+        </game_entity>
+        <game_entity prefab="bd_rope_c">
+            <transform position="2.024, 4.123, 0.000" rotation="0.000000, -0.000000, -0.524639, 0.851325" />
+        </game_entity>
+        <game_entity prefab="mat_fur_a">
+            <transform position="4.095, 3.794, -0.000" rotation="0.000000, 0.000000, 0.962128, 0.272599" />
+            <physics override_material="default" />
+        </game_entity>
+        <game_entity prefab="mat_fur_c">
+            <transform position="5.299, 10.965, 0.000" rotation="0.000000, 0.000000, 0.232391, 0.972622" />
+        </game_entity>
+        <game_entity prefab="mat_fur_b">
+            <transform position="8.483, 10.375, 0.000" rotation="0.000000, 0.000000, 0.964887, 0.262667" />
+            <physics override_material="default" />
+        </game_entity>
+        <game_entity prefab="mat_fur_a">
+            <transform position="8.491, 5.153, 0.000" rotation="0.000000, 0.000000, -0.786397, 0.617722" />
+            <physics override_material="default" />
+        </game_entity>
+        <game_entity prefab="bd_cart_wheel_a">
+            <transform position="10.888, 2.326, 0.006" rotation="0.000000, 0.000000, 0.713139, 0.701023" />
+        </game_entity>
+        <game_entity prefab="bd_cart_wheel_a">
+            <transform position="1.758, 1.474, 0.157" rotation="-0.018015, -0.097450, 0.978498, 0.180886" />
+        </game_entity>
+        <game_entity prefab="mat_fur_a">
+            <transform position="1.305, 10.339, 2.134" rotation="0.002343, 0.707004, 0.002956, 0.707199" />
+            <physics override_material="default" />
+        </game_entity>
+        <game_entity prefab="mat_fur_c">
+            <transform position="10.977, 3.574, 2.569" rotation="-0.000165, -0.710280, -0.018080, 0.703687" />
+        </game_entity>
+        <game_entity prefab="bd_skull_antilope_a">
+            <transform position="1.183, 7.320, 2.682" rotation="0.000000, 0.000000, 0.701565, 0.712605" />
+        </game_entity>
+        <game_entity prefab="bd_skull_ram">
+            <transform position="3.947, 1.008, 2.819" rotation="0.000000, 0.000000, 0.999997, 0.002217" />
+        </game_entity>
+        <game_entity prefab="bd_skull_antilope_b">
+            <transform position="10.969, 2.018, 2.971" rotation="0.000000, 0.000000, -0.733674, 0.679502" />
+        </game_entity>
+        <game_entity prefab="bd_skull_antilope_b">
+            <transform position="11.147, 11.184, 3.074" rotation="-0.000000, 0.000000, -0.703362, 0.710832" />
+        </game_entity>
+        <game_entity prefab="bd_wall_pouches">
+            <transform position="1.159, 5.011, 1.341" rotation="0.000000, 0.000000, 0.708868, 0.705341" />
+        </game_entity>
+        <game_entity prefab="bd_wall_pouches_b">
+            <transform position="11.100, 10.292, 1.316" rotation="0.000000, 0.000000, -0.708709, 0.705501" />
+        </game_entity>
+        <game_entity prefab="bd_wall_pouches">
+            <transform position="11.078, 9.441, 1.391" rotation="0.000000, 0.000000, -0.708709, 0.705501" />
+        </game_entity>
+        <game_entity prefab="bd_wall_bucket">
+            <transform position="8.100, 0.900, 1.284" rotation="0.000000, 0.000000, 0.999326, -0.036717" />
+        </game_entity>
+        <game_entity prefab="envmap_prop">
+            <transform position="4.885, 10.600, 1.403" rotation="-0.000000, 0.000000, -0.032075, 0.999485" />
+        </game_entity>
+        <game_entity prefab="armor_merchant_clothes_a">
+            <transform position="9.644, 3.587, 0.000" rotation="0.000000, 0.000000, -0.746514, 0.665370" />
+        </game_entity>
+        <game_entity prefab="armor_merchant_clothes_c">
+            <transform position="9.514, 4.281, 0.050" rotation="0.000000, 0.000000, 0.869185, -0.494487" />
+        </game_entity>
+        <game_entity prefab="armor_merchant_epaulet_a">
+            <transform position="10.205, 4.587, 0.725" rotation="0.000000, 0.000000, 0.968103, -0.250551" />
+        </game_entity>
+        <game_entity prefab="a_spr_light">
+            <transform position="5.986, 6.377, 1.970" rotation="-0.000000, 0.000000, -0.010606, 0.999944" />
+            <components>
+                <light_component flags="52" diffuse_color="0.941, 0.573, 0.306" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" />
+            </components>
+        </game_entity>
+        <game_entity prefab="battania_castle_wall_a">
+            <transform position="19.639, 14.864, 0.000" rotation="0.000000, 0.000000, -0.711419, 0.702768" />
+            <edit_mode_data locked_for_selection="true" />
+        </game_entity>
+        <game_entity prefab="battania_castle_wall_a">
+            <transform position="5.759, 21.504, 0.000" rotation="-0.000000, 0.000000, -0.013015, 0.999915" />
+            <edit_mode_data locked_for_selection="true" />
+        </game_entity>
+        <game_entity prefab="_dark_light">
+            <transform position="11.545, 10.595, 0.000" rotation="0.000000, 0.000000, -0.742036, 0.670360" scale="6.173, 1.000, 1.000" />
+            <components>
+                <meta_mesh_component>
+                    <mesh name="negative_light_mesh" factor="1728053247" argument="0.700, 0.700, 0.700" />
+                </meta_mesh_component>
+            </components>
+            <scripts>
+                <script name="ScenePropNegativeLight">
+                    <variables>
+                        <variable name="Flatness_X" value="0.700" />
+                        <variable name="Flatness_Y" value="0.700" />
+                        <variable name="Flatness_Z" value="0.700" />
+                        <variable name="Alpha" value="0.400" />
+                    </variables>
+                </script>
+            </scripts>
+        </game_entity>
+        <game_entity prefab="wooden_platform_plank_e">
+            <transform position="6.386, 13.029, 4.929" rotation="-0.005372, 0.005234, 0.696010, 0.717993" />
+        </game_entity>
+        <game_entity prefab="wooden_platform_plank_e">
+            <transform position="6.073, 2.984, 5.080" rotation="-0.005372, 0.005234, 0.696010, 0.717993" />
+        </game_entity>
+        <game_entity prefab="wooden_platform_plank_e">
+            <transform position="6.231, 8.050, 5.004" rotation="-0.005372, 0.005234, 0.696010, 0.717993" />
+        </game_entity>
+        <game_entity prefab="wooden_platform_plank_e">
+            <transform position="1.403, 12.969, 4.643" rotation="-0.005372, 0.005234, 0.696010, 0.717993" />
+        </game_entity>
+        <game_entity prefab="wooden_platform_plank_e">
+            <transform position="1.248, 7.990, 4.718" rotation="-0.005372, 0.005234, 0.696010, 0.717993" />
+        </game_entity>
+        <game_entity prefab="wooden_platform_plank_e">
+            <transform position="1.090, 2.924, 4.794" rotation="-0.005372, 0.005234, 0.696010, 0.717993" />
+        </game_entity>
+        <game_entity prefab="wooden_platform_plank_e">
+            <transform position="11.179, 13.029, 4.615" rotation="-0.005372, 0.005234, 0.696010, 0.717993" />
+        </game_entity>
+        <game_entity prefab="wooden_platform_plank_e">
+            <transform position="11.025, 8.050, 4.690" rotation="-0.005372, 0.005234, 0.696010, 0.717993" />
+        </game_entity>
+        <game_entity prefab="wooden_platform_plank_e">
+            <transform position="10.867, 2.984, 4.766" rotation="-0.005372, 0.005234, 0.696010, 0.717993" />
+        </game_entity>
+        <game_entity name="a_spr_light">
+            <transform position="7.518, 7.309, 2.408" rotation="-0.000000, 0.000000, -0.360460, 0.932775" scale="0.880, 0.880, 0.880" />
+            <components>
+                <light_component flags="20" diffuse_color="0.055, 0.069, 0.251" radius="3.000" local_frame_rot="3.000000, 0.000000, 0.000000, 0.000000, 3.000000, 0.000000, 0.000000, 0.000000, 3.000000" hotspot_angle="30.000" falloff_angle="45.000" ambient_coefficient="0.000" />
+            </components>
+        </game_entity>
+        <game_entity name="a_spr_light">
+            <transform position="7.027, 11.887, 1.879" rotation="0.000000, 0.000000, -0.647430, 0.762125" />
+            <components>
+                <light_component diffuse_color="0.006, 0.004, 0.002" radius="5.000" local_frame_rot="5.000000, 0.000000, 0.000000, 0.000000, 5.000000, 0.000000, 0.000000, 0.000000, 5.000000" hotspot_angle="30.000" falloff_angle="45.000" ambient_coefficient="0.000" />
+            </components>
+        </game_entity>
+        <game_entity prefab="a_spr_light">
+            <transform position="6.674, 6.794, 0.635" rotation="-0.000000, 0.000000, -0.643994, 0.765031" />
+            <components>
+                <light_component diffuse_color="0.019, 0.012, 0.006" radius="2.000" local_frame_rot="2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 2.000000" />
+            </components>
+        </game_entity>
+        <game_entity prefab="sp_player">
+            <transform position="6.364, 7.307, -0.006" rotation="0.000000, 0.000000, 0.999238, -0.039024" scale="1.000, 1.000, 1.000" />
+        </game_entity>
+        <game_entity prefab="_dark_light">
+            <transform position="0.734, 9.922, 0.000" rotation="0.000000, 0.000000, 0.712390, 0.701784" scale="6.173, 1.000, 1.000" />
+            <components>
+                <meta_mesh_component>
+                    <mesh name="negative_light_mesh" factor="1728053247" argument="0.700, 0.700, 0.700" />
+                </meta_mesh_component>
+            </components>
+            <scripts>
+                <script name="ScenePropNegativeLight">
+                    <variables>
+                        <variable name="Flatness_X" value="0.700" />
+                        <variable name="Flatness_Y" value="0.700" />
+                        <variable name="Flatness_Z" value="0.700" />
+                        <variable name="Alpha" value="0.400" />
+                    </variables>
+                </script>
+            </scripts>
+        </game_entity>
+        <game_entity prefab="_dark_light">
+            <transform position="6.059, 13.399, 0.000" rotation="0.000000, 0.000000, 0.036889, 0.999319" scale="6.173, 1.000, 1.000" />
+            <components>
+                <meta_mesh_component>
+                    <mesh name="negative_light_mesh" factor="1728053247" argument="0.700, 0.700, 0.700" />
+                </meta_mesh_component>
+            </components>
+            <scripts>
+                <script name="ScenePropNegativeLight">
+                    <variables>
+                        <variable name="Flatness_X" value="0.700" />
+                        <variable name="Flatness_Y" value="0.700" />
+                        <variable name="Flatness_Z" value="0.700" />
+                        <variable name="Alpha" value="0.400" />
+                    </variables>
+                </script>
+            </scripts>
+        </game_entity>
+        <game_entity prefab="adam2">
+            <visibility_masks>
+                <visibility_mask name="visible_only_when_editing" value="true" />
+            </visibility_masks>
+            <transform position="6.334, 7.508, 0.000" rotation="0.000000, 0.000000, 0.042476, 0.999097" />
+        </game_entity>
+        <game_entity prefab="a_spr_light">
+            <transform position="7.209, 8.417, 2.274" rotation="-0.000000, 0.000000, -0.360460, 0.932775" scale="0.785, 0.785, 0.785" />
+            <components>
+                <light_component flags="20" diffuse_color="0.118, 0.058, 0.013" radius="3.500" local_frame_rot="3.500000, 0.000000, 0.000000, 0.000000, 3.500000, 0.000000, 0.000000, 0.000000, 3.500000" />
+            </components>
+        </game_entity>
+        <game_entity name="_dark_ambient_light">
+            <transform position="38.261, 6.913, -0.058" rotation="-0.000000, 0.000000, -0.006991, 0.999976" scale="10.964, 10.964, 10.964" />
+            <edit_mode_data locked_for_selection="true" />
+            <components>
+                <meta_mesh_component name="negative_light_mesh">
+                    <mesh name="negative_light_mesh" material="deferred_dark_ambient_lighting_material" factor="3858759679" argument="0.900, 0.900, 0.900" />
+                </meta_mesh_component>
+            </components>
+        </game_entity>
+        <game_entity prefab="_dark_light">
+            <transform position="6.289, 7.203, -0.006" rotation="0.000000, 0.000000, 0.058191, 0.998305" scale="0.757, 0.757, 0.073" />
+        </game_entity>
+    </entities>
+    <terrain enabled="false">
+        <floras />
+    </terrain>
+    <editor_data editor_camera_position="7.970, 4.785, 2.588" editor_camera_elevation="-0.227" editor_camera_bearing="170.177" author="" comment="" />
+    <camera_data near_plane="0.100" far_plane="1500.000" />
+    <Paths />
+</scene>

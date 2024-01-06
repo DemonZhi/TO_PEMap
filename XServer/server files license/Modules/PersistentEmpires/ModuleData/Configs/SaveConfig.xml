@@ -1,0 +1,5 @@
+<DatabaseConfig>
+	<ConnectionString>
+		Server=localhost;User ID=root;Password=root;Database=pe_database
+	</ConnectionString>
+</DatabaseConfig>

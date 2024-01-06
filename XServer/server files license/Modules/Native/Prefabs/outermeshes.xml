@@ -1,0 +1,1322 @@
+<prefabs>
+	<game_entity name="outermesh_desert_a" old_prefab_name="">
+		<flags>
+			<flag name="not_affected_by_season" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="center" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_a_center"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_a" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_a_inner_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_b" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_a_inner_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_c" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_a_inner_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_d" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_a_inner_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_e" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_a_inner_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_f" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_a_inner_f"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_g" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_a_inner_g"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_h" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_a_inner_h"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_a" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_a_outer_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_b" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_a_outer_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_c" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_a_outer_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_d" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_a_outer_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_e" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_a_outer_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_f" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_a_outer_f"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_g" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_a_outer_g"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_h" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_a_outer_h"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity old_prefab_name="" name="outermesh_X">
+		<children>
+			<game_entity old_prefab_name="" name="center">
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="inner_a">
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="inner_b">
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="inner_c">
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="inner_d">
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="inner_e">
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="inner_f">
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="inner_g">
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="inner_h">
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="outer_a">
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="outer_b">
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="outer_c">
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="outer_d">
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="outer_e">
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="outer_f">
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="outer_g">
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="outer_h">
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+		</children>
+		<physics mass="1.000"/>
+		<edit_mode_data selection_group_mask="0"/>
+		<flags>
+			<flag value="true" name="not_affected_by_season"/>
+		</flags>
+	</game_entity>
+	<game_entity name="outermesh_desert_b" old_prefab_name="">
+		<flags>
+			<flag name="not_affected_by_season" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<children>
+			<game_entity name="outer_h" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+			</game_entity>
+			<game_entity name="outer_g" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_b_outer_g"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_f" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_b_outer_f"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_e" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_b_outer_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_d" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_b_outer_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_c" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_b_outer_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_b" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_b_outer_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_a" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_b_outer_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_d" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_b_inner_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_c" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_b_inner_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_b" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_b_inner_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_a" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_desert_b_inner_a"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="outermesh_mountains_a" old_prefab_name="">
+		<flags>
+			<flag name="not_affected_by_season" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="SummerMaterial" value="outermesh_mountains_a_mat"/>
+					<variable name="FallMaterial" value="outermesh_mountains_a_mat"/>
+					<variable name="WinterMaterial" value="outermesh_mountains_a_winter_mat"/>
+					<variable name="SpringMaterial" value="outermesh_mountains_a_mat"/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="center" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermehs_mountains_a_center"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_a" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_a_inner_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_b" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_a_inner_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_c" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_a_inner_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_d" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_a_inner_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_e" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_a_inner_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_f" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_a_inner_f"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_g" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_a_inner_g"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_h" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_a_inner_h"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_a" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_a_outer_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_b" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_a_outer_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_c" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_a_outer_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_d" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_a_outer_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_e" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_a_outer_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_f" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_a_outer_f"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_g" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_a_outer_g"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_h" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_a_outer_h"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="outermesh_mountains_b">
+		<flags>
+			<flag name="not_affected_by_season" value="true"/>
+		</flags>
+		<transform position="333.075, 744.441, 105.334" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.000, 0.600"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="SummerMaterial" value="outermesh_mountains_b_mat"/>
+					<variable name="FallMaterial" value="outermesh_mountains_b_mat"/>
+					<variable name="WinterMaterial" value="outermesh_mountains_b_winter_mat"/>
+					<variable name="SpringMaterial" value="outermesh_mountains_b_mat"/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="outer_h" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_b_outer_h"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_g" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_b_outer_g"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_f" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_b_outer_f"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_e" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_b_outer_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_d" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_b_outer_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_c" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_b_outer_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_b" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_b_outer_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_a" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_b_outer_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_h" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_b_inner_h"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_g" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_b_inner_g"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_f" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_b_inner_f"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_e" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_b_inner_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_d" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_b_inner_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_c" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_b_inner_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_b" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_b_inner_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_a" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_b_inner_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="center" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_b_center"/>
+				</components>
+			</game_entity>
+		</children>
+		<levels>
+			<level name="base"/>
+			<level name="level_1"/>
+			<level name="level_2"/>
+			<level name="level_3"/>
+		</levels>
+	</game_entity>
+	<game_entity name="outermesh_mountains_c" old_prefab_name="">
+		<flags>
+			<flag name="not_affected_by_season" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics mass="1.000"/>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="SummerMaterial" value="outermesh_mountains_c_mat"/>
+					<variable name="FallMaterial" value="outermesh_mountains_c_mat"/>
+					<variable name="WinterMaterial" value="outermesh_mountains_c_winter_mat"/>
+					<variable name="SpringMaterial" value="outermesh_mountains_c_mat"/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="outer_h" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_c_outer_h"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_g" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_c_outer_g"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_f" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_c_outer_f"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_e" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_c_outer_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_d" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_c_outer_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_c" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_c_outer_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_b" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_c_outer_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="outer_a" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_c_outer_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_h" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_c_inner_h"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_g" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_c_inner_g"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_f" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_c_inner_f"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_e" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_c_inner_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_d" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_c_inner_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_c" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_c_inner_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_b" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_c_inner_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="inner_a" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_c_inner_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="center" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<physics mass="1.000"/>
+				<components>
+					<meta_mesh_component name="outermesh_mountains_c_center"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity old_prefab_name="" name="outermesh_steppe_a">
+		<children>
+			<game_entity old_prefab_name="" name="outer_h">
+				<components>
+					<meta_mesh_component name="outermesh_steppe_a_outer_h"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="outer_g">
+				<components>
+					<meta_mesh_component name="outermesh_steppe_a_outer_g"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="outer_f">
+				<components>
+					<meta_mesh_component name="outermesh_steppe_a_outer_f"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="outer_e">
+				<components>
+					<meta_mesh_component name="outermesh_steppe_a_outer_e"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="outer_d">
+				<components>
+					<meta_mesh_component name="outermesh_steppe_a_outer_d"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="outer_c">
+				<components>
+					<meta_mesh_component name="outermesh_steppe_a_outer_c"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="outer_b">
+				<components>
+					<meta_mesh_component name="outermesh_steppe_a_outer_b"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="outer_a">
+				<components>
+					<meta_mesh_component name="outermesh_steppe_a_outer_a"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="inner_h">
+				<components>
+					<meta_mesh_component name="outermesh_steppe_a_inner_h"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="inner_g">
+				<components>
+					<meta_mesh_component name="outermesh_steppe_a_inner_g"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="inner_f">
+				<components>
+					<meta_mesh_component name="outermesh_steppe_a_inner_f"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="inner_e">
+				<components>
+					<meta_mesh_component name="outermesh_steppe_a_inner_e"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="inner_d">
+				<components>
+					<meta_mesh_component name="outermesh_steppe_a_inner_d"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="inner_c">
+				<components>
+					<meta_mesh_component name="outermesh_steppe_a_inner_c"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="inner_b">
+				<components>
+					<meta_mesh_component name="outermesh_steppe_a_inner_b"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="inner_a">
+				<components>
+					<meta_mesh_component name="outermesh_steppe_a_inner_a"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+			<game_entity old_prefab_name="" name="center">
+				<components>
+					<meta_mesh_component name="outermesh_steppe_a_center"/>
+				</components>
+				<physics mass="1.000"/>
+				<edit_mode_data selection_group_mask="0"/>
+				<flags>
+					<flag value="true" name="not_affected_by_season"/>
+				</flags>
+			</game_entity>
+		</children>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable value="outermesh_steppe_a_mat" name="SpringMaterial"/>
+					<variable value="outermesh_steppe_a_winter_mat" name="WinterMaterial"/>
+					<variable value="outermesh_steppe_a_mat" name="FallMaterial"/>
+					<variable value="outermesh_steppe_a_mat" name="SummerMaterial"/>
+				</variables>
+			</script>
+		</scripts>
+		<physics mass="1.000"/>
+		<edit_mode_data selection_group_mask="0"/>
+		<flags>
+			<flag value="true" name="not_affected_by_season"/>
+		</flags>
+	</game_entity>
+	<game_entity name="outermesh_001" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="outermesh_001">
+				<mesh name="outermesh_001" material="outermesh_001_winter"/>
+			</meta_mesh_component>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="SummerMaterial" value="outermesh_001"/>
+					<variable name="FallMaterial" value="outermesh_001"/>
+					<variable name="WinterMaterial" value="outermesh_001_winter"/>
+					<variable name="SpringMaterial" value="outermesh_001"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="outermesh_002" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="outermesh_002">
+				<mesh name="outermesh_002" material="outermesh_002_winter"/>
+			</meta_mesh_component>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="SummerMaterial" value="outermesh_002"/>
+					<variable name="FallMaterial" value="outermesh_002"/>
+					<variable name="WinterMaterial" value="outermesh_002_winter"/>
+					<variable name="SpringMaterial" value="outermesh_002"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="outermesh_003" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="outermesh_003">
+				<mesh name="outermesh_003" material="outermesh_003_winter"/>
+			</meta_mesh_component>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="SummerMaterial" value="outermesh_003"/>
+					<variable name="FallMaterial" value="outermesh_003"/>
+					<variable name="WinterMaterial" value="outermesh_003_winter"/>
+					<variable name="SpringMaterial" value="outermesh_003"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="outermesh_004" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="outermesh_004">
+				<mesh name="outermesh_004" material="outermesh_004_winter"/>
+			</meta_mesh_component>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="SummerMaterial" value="outermesh_004"/>
+					<variable name="FallMaterial" value="outermesh_004"/>
+					<variable name="WinterMaterial" value="outermesh_004_winter"/>
+					<variable name="SpringMaterial" value="outermesh_004"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="outermesh_005" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="outermesh_005"/>
+		</components>
+	</game_entity>
+	<game_entity name="outermesh_006" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="outermesh_006">
+				<mesh name="outermesh_006.001" material="outermesh_006_winter"/>
+			</meta_mesh_component>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="SummerMaterial" value="outermesh_006"/>
+					<variable name="FallMaterial" value="outermesh_006"/>
+					<variable name="WinterMaterial" value="outermesh_006_winter"/>
+					<variable name="SpringMaterial" value="outermesh_006"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="outermesh_012" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="outermesh_012">
+				<mesh name="outermesh_012" material="outermesh_012_winter"/>
+			</meta_mesh_component>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="SummerMaterial" value="outermesh_012"/>
+					<variable name="FallMaterial" value="outermesh_012"/>
+					<variable name="WinterMaterial" value="outermesh_012_winter"/>
+					<variable name="SpringMaterial" value="outermesh_012"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="outermesh_011" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="outermesh_011">
+				<mesh name="outermesh_011" material="outermesh_011_winter"/>
+			</meta_mesh_component>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="SummerMaterial" value="outermesh_011"/>
+					<variable name="FallMaterial" value="outermesh_011"/>
+					<variable name="WinterMaterial" value="outermesh_011_winter"/>
+					<variable name="SpringMaterial" value="outermesh_011"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="outermesh_010" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="outermesh_010">
+				<mesh name="outermesh_010.001" material="outermesh_010_winter"/>
+			</meta_mesh_component>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="SummerMaterial" value="outermesh_010"/>
+					<variable name="FallMaterial" value="outermesh_010"/>
+					<variable name="WinterMaterial" value="outermesh_010_winter"/>
+					<variable name="SpringMaterial" value="outermesh_010"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="outermesh_009" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="outermesh_009">
+				<mesh name="outermesh_009" material="outermesh_009_winter"/>
+			</meta_mesh_component>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="SummerMaterial" value="outermesh_009"/>
+					<variable name="FallMaterial" value="outermesh_009"/>
+					<variable name="WinterMaterial" value="outermesh_009_winter"/>
+					<variable name="SpringMaterial" value="outermesh_009"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="outermesh_008" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="outermesh_008">
+				<mesh name="outermesh_008" material="outermesh_008_winter"/>
+			</meta_mesh_component>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="SummerMaterial" value="outermesh_008"/>
+					<variable name="FallMaterial" value="outermesh_008"/>
+					<variable name="WinterMaterial" value="outermesh_008_winter"/>
+					<variable name="SpringMaterial" value="outermesh_008"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+	<game_entity name="outermesh_007" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<components>
+			<meta_mesh_component name="outermesh_007">
+				<mesh name="outermesh_007" material="outermesh_007_winter"/>
+			</meta_mesh_component>
+		</components>
+		<scripts>
+			<script name="mesh_seasonal_material">
+				<variables>
+					<variable name="SummerMaterial" value="outermesh_007"/>
+					<variable name="FallMaterial" value="outermesh_007"/>
+					<variable name="WinterMaterial" value="outermesh_007_winter"/>
+					<variable name="SpringMaterial" value="outermesh_007"/>
+				</variables>
+			</script>
+		</scripts>
+	</game_entity>
+</prefabs>
+

@@ -1,0 +1,817 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="07OrsbVH" text="강력한 볼트" />
+    <string id="0a6Vz7wi" text="가죽 타바드" />
+    <string id="0e17RZrZ" text="아발리스트" />
+    <string id="0LoGEHxz" text="사막 사슬 코이프" />
+    <string id="0PSC0Vkf" text="가죽 위 안대형 투구" />
+    <string id="0Pxq8UqX" text="하이랜드 클록" />
+    <string id="0rzKQbWy" text="초원 하프 바딩" />
+    <string id="0SsLGsXk" text="덧댄 긴 로브" />
+    <string id="1A57qBlx" text="바타니아 장창" />
+    <string id="1aotLA6v" text="하이랜드 파이크" />
+    <string id="1bdDdwub" text="사슬 위 코받이 투구" />
+    <string id="1BXuUR3s" text="보병용 긴 갬비슨" />
+    <string id="1CPdu9K0" text="돌" />
+    <string id="1cYka5tR" text="민소매 털 코트" />
+    <string id="1GpTOIqU" text="덧댄 코이프 위 케틀 헬멧" />
+    <string id="1iS91QJH" text="바타니아 양손검" />
+    <string id="1jX7yxSW" text="허스칼 사슬 셔츠" />
+    <string id="1LHNLYqc" text="무거운 시미터" />
+    <string id="1pjTjmHR" text="MP 테스트 폴암" />
+    <string id="1tABvwsL" text="긴 파라메리온" />
+    <string id="1X2X0Qe4" text="바브종" />
+    <string id="1yvsiaZ6" text="무거운 바타니아 메이스" />
+    <string id="1yzNGUJH" text="제국 도끼" />
+    <string id="1zFYpSSY" text="술이 달렸고 장식된 강철 뺨 보호대 모자" />
+    <string id="20moIxs1" text="끈 달린 코이프 위 케틀" />
+    <string id="2AcfBbCR" text="군용 튜닉" />
+    <string id="2BlJHSeu" text="제국 가죽 갑옷" />
+    <string id="2cSOn9qb" text="사슬 갑옷 위 갬비슨" />
+    <string id="2FwUtU6h" text="스투르지아 투척 도끼" />
+    <string id="2iaLi16f" text="하이랜드 가죽 투구" />
+    <string id="2iDtlgM0" text="밀폐된 군벌 투구" />
+    <string id="2KHcAWiq" text="천 띠 두른 케피예" />
+    <string id="2m1kWsao" text="얇은 가죽 위 징 박힌 가죽 투구" />
+    <string id="2MdVVkVL" text="덧댄 코이프 위 케틀 햇" />
+    <string id="2N0ZP2GB" text="터번과 코이프를 단 투구" />
+    <string id="2PN7ddKx" text="거대한 창" />
+    <string id="2Q0m5CG0" text="사막 천 마구" />
+    <string id="2qisE5ys" text="덧댄 모자 위 케틀 헬멧" />
+    <string id="2u4RneKh" text="북부인 벨트 튜닉" />
+    <string id="2w09rN4S" text="사슬 위 무거운 청동 라멜라" />
+    <string id="2XEbqNQz" text="제국 장식 건틀렛" />
+    <string id="2xvB6XQP" text="강인한 초원 말" />
+    <string id="3aPKkyd2" text="블란디아 단검" />
+    <string id="3bqwOJ8z" text="뒤집어진 털모자" />
+    <string id="3c3uqW3d" text="바타니아 단검" />
+    <string id="3DV3GoHb" text="뾰족한 사슬 스컬캡" />
+    <string id="3eb3ZyiU" text="상급 활" />
+    <string id="3iq3rOh8" text="아밍 코이프 위 케틀 헬멧" />
+    <string id="3lauB1HH" text="갬비슨 위 청동 라멜라 조끼" />
+    <string id="3qF14kaR" text="제국 견갑 망토" />
+    <string id="3UxfT9Bu" text="감싼 가죽 모자" />
+    <string id="3WdXljdt" text="튼튼한 나하산" />
+    <string id="3Wzhxkn1" text="냄비" />
+    <string id="3XSuOAYT" text="주목나무 장궁" />
+    <string id="3Z91Nxbf" text="가죽 스팡겐헬름" />
+    <string id="42KNket2" text="하이랜드 장화" />
+    <string id="46orXtt0" text="삼림지대 의복" />
+    <string id="4a99jSHC" text="초원 가죽 견갑" />
+    <string id="4AfHO0BA" text="징 박힌 민소매 털 갑옷" />
+    <string id="4aFPp5hj" text="가벼운 타원형 방패" />
+    <string id="4B2i8oxo" text="코트와 호심경 벨트" />
+    <string id="4BfbPgkY" text="덧댄 모자 위 코받이 케벨리에르" />
+    <string id="4cHMe6H2" text="장식된 호버크" />
+    <string id="4eOHPops" text="거친 미늘 갑옷" />
+    <string id="4HcrY0S2" text="털 두른 가죽 장갑" />
+    <string id="4iqTIpAs" text="귀족의 투구와 모피" />
+    <string id="4KYF5iCd" text="다층 가죽 튜닉" />
+    <string id="4n6n3KL7" text="사막 쓰개" />
+    <string id="4OT8Re4a" text="사막 일반 마구" />
+    <string id="4pqIsPhp" text="덧댄 짧은 코트" />
+    <string id="4Q4JVfuT" text="곰가죽" />
+    <string id="4wdgiTta" text="낫" />
+    <string id="4xUR2kAj" text="무거운 제국 메이스" />
+    <string id="4YxbZlbi" text="감싼 신발" />
+    <string id="51EcVnzd" text="끈 달린 코이프 위 얼굴가리개 투구" />
+    <string id="564PHXk3" text="장식된 가죽 마구" />
+    <string id="5bEHZ2z1" text="제국 안대형 투구" />
+    <string id="5c4cHL9Z" text="쿠자이트 전투 왕관" />
+    <string id="5DVBFbLV" text="귀족의 대검" />
+    <string id="5n4rWI9T" text="가시 박힌 투구와 면갑" />
+    <string id="5YGP047h" text="파라메리온" />
+    <string id="607BAdXw" text="서부 장창" />
+    <string id="6Db7aDbF" text="발리스타 화살" />
+    <string id="6Dk7LClc" text="고급 투구 위 터번" />
+    <string id="6eO6QDoE" text="무거운 스투르지아 랜스" />
+    <string id="6fA31IxF" text="무거운 사슬 조끼" />
+    <string id="6hwZwODh" text="글레이브" />
+    <string id="6n44BIll" text="끈 달린 코이프 위 뾰족한 스컬캡" />
+    <string id="6XxiMU52" text="사슬 위 가죽 타바드" />
+    <string id="73U5RElj" text="털모자" />
+    <string id="7566s7pt" text="벗겨낸 가죽 위 보병 갑옷" />
+    <string id="7b8Cwogx" text="아케톤" />
+    <string id="7D3jvAfS" text="가죽 모자" />
+    <string id="7dAy51ln" text="아밍 코이프 위 케벨리에르" />
+    <string id="7EAEIUIY" text="무거운 고리 갑옷" />
+    <string id="7HbspP6x" text="화려한 군단병 미늘 갑옷" />
+    <string id="7jemQg2V" text="무거운 가시 박힌 화살" />
+    <string id="7LmUe8fQ" text="메나울리온" />
+    <string id="7R8r1WvR" text="MP 테스트 양손 도끼" />
+    <string id="7rhZlXdO" text="사냥용 장궁" />
+    <string id="7zIWNagP" text="무거운 일드" />
+    <string id="84gnexLb" text="사막마" />
+    <string id="8bH8n3Aq" text="긴 경량 히터 실드" />
+    <string id="8DnJls9z" text="초원 가죽 완갑" />
+    <string id="8dvj7xik" text="스투르지아인 검" />
+    <string id="8frVbv2b" text="북부인 라멜라 견갑" />
+    <string id="8hDoWBIa" text="평민의 셔츠" />
+    <string id="8nNLS96w" text="강화된 타원형 방패" />
+    <string id="8nObGQqW" text="롬파이아" />
+    <string id="8nuXQ9F9" text="털 코트" />
+    <string id="8oKVhtth" text="죔쇠 달린 브리간딘 갑옷" />
+    <string id="8qwg1gr3" text="늙은 기수의 카이트 실드" />
+    <string id="8SNS2wF9" text="터번" />
+    <string id="8Sy6nZPs" text="초원 전투마" />
+    <string id="8tHbqjmB" text="챙 있는 털 후드" />
+    <string id="8uBew3nD" text="징 박힌 완갑" />
+    <string id="927d3urB" text="타원형 나무 방패" />
+    <string id="9aehD627" text="고급 튜닉" />
+    <string id="9aVMFixc" text="스투르지아 긴 랜스" />
+    <string id="9BENgwRK" text="끈 달린 천 위 라운드케틀" />
+    <string id="9cHyHQ7a" text="라멜라 판금 장화" />
+    <string id="9Eyd2qGo" text="강화된 스웨이드 장화" />
+    <string id="9FgxK9se" text="긴 투구" />
+    <string id="9GCPcCss" text="빠른 사냥용 활" />
+    <string id="9NW9y1ll" text="MP 테스트 메이스" />
+    <string id="9rXUVscR" text="투아레그" />
+    <string id="9XhksMzN" text="서부 창" />
+    <string id="a1BGHdaU" text="단단한 팔싸개" />
+    <string id="A1zFbFta" text="강화된 납작한 카이트 실드" />
+    <string id="a3vHlztg" text="판금 천 건틀렛" />
+    <string id="a4hyzv3f" text="타팬" />
+    <string id="A6llHL9s" text="저지대 장궁" />
+    <string id="A8MJWbhf" text="덧댄 천 위 얼굴가리개 투구" />
+    <string id="a8ycVmwU" text="바디쉬" />
+    <string id="AB1mV5Pg" text="끈 달린 코이프 위 케틀 헬멧" />
+    <string id="abGJeb3q" text="스투르지아 라멜라 갑옷" />
+    <string id="acufJvyn" text="긴 메나울리온" />
+    <string id="AdafHtud" text="사슬 코이프 위 챙투구" />
+    <string id="aDEjwU8L" text="장작용 도끼" />
+    <string id="aDeVl2EL" text="스투르지아 재블린" />
+    <string id="Ae9L1a9g" text="대형 망치" />
+    <string id="aGbTPme1" text="대낫" />
+    <string id="agqzAXa9" text="덧댄 코이프 위 얼굴가리개 투구" />
+    <string id="aGvBKCG8" text="늑대머리" />
+    <string id="aGxtOTB8" text="하이랜드 도끼" />
+    <string id="AHel76R6" text="무거운 쿠자이트 메이스" />
+    <string id="aHQCG5Tn" text="사슬 바딩" />
+    <string id="Ai7qIb9I" text="작은 히터 실드" />
+    <string id="AIu3kKvz" text="승용마" />
+    <string id="ajifXc8I" text="플룸바타" />
+    <string id="AJjEnCGN" text="미늘 갑옷" />
+    <string id="AK0lNDmN" text="보석 박힌 깃털 전투 왕관" />
+    <string id="AO5LPmQf" text="무거운 콘토스" />
+    <string id="AobNdBBU" text="싸구려 누비" />
+    <string id="aoPbMKwB" text="사슬 위 깃털 스팡겐헬름" />
+    <string id="aOwcs7Un" text="가죽 위 라운드케틀" />
+    <string id="aQeOcLX4" text="두 가닥 청동 왕관" />
+    <string id="aQN4Dlx2" text="무거운 아케톤" />
+    <string id="aR1Tl119" text="코서 장화" />
+    <string id="arabgbEK" text="바타니아 기병대 검" />
+    <string id="ArbBALwc" text="기사 투구와 청동 안면 보호대" />
+    <string id="ArPvuBYK" text="직물 터번" />
+    <string id="aT7w4Npp" text="가시 박힌 바타니아 메이스" />
+    <string id="aVGSZhCN" text="파비스 방패" />
+    <string id="AWlrtbep" text="북부 물고기 작살" />
+    <string id="axaK9y6E" text="밀폐된 기사 투구" />
+    <string id="aYoIrpe0" text="줄이 달린 사슬 쇼스" />
+    <string id="b0pyML1S" text="스투르지아 창" />
+    <string id="b1pqUQju" text="덧댄 천 위 결속된 스컬캡" />
+    <string id="b2EDkbhD" text="감싼 팔보호대" />
+    <string id="b5dkMbBp" text="스투르지아 단창" />
+    <string id="B8p6E8GJ" text="타바르" />
+    <string id="bAidg8fV" text="허스칼 장식 사슬 셔츠" />
+    <string id="BavVxSoC" text="물들인 싸구려 의복" />
+    <string id="bAXuK5eG" text="아세라이 라멜라 갑옷" />
+    <string id="BbhGL8XT" text="브리간딘 조끼" />
+    <string id="bcnknjPD" text="바타니아 메이스" />
+    <string id="bDfKz5SZ" text="슬링" />
+    <string id="BDGbu59Q" text="자쿨란 말" />
+    <string id="bdgTtBDq" text="양손 철제 메이스" />
+    <string id="bdpjqoGe" text="사슬 위 결속된 케밸리에르" />
+    <string id="beMSPAOG" text="머리수건 위 징 박힌 가죽 투구" />
+    <string id="bKBa7ahF" text="단순한 긴 로브" />
+    <string id="bkg0kWHH" text="쿠자이트 보병의 곤봉" />
+    <string id="Bl72Ribb" text="덧댄 가죽 견갑" />
+    <string id="BLeQnEKZ" text="가죽 장화" />
+    <string id="BlTREYCY" text="단단한 군주의 투구" />
+    <string id="bOPllY2F" text="스투르지아 기병대 검" />
+    <string id="brmba4ca" text="가벼운 재블린" />
+    <string id="Bruzcqbm" text="무거운 글레이브" />
+    <string id="BryUh6yQ" text="강철 모자" />
+    <string id="btoJTO9G" text="습격대 도끼" />
+    <string id="bTUGfbH5" text="거친 갬비슨" />
+    <string id="bubcrmTC" text="덧댄 천 위 코받이 투구" />
+    <string id="bVzkrtUc" text="푸기오" />
+    <string id="BwOZwFxm" text="아세라이 파이크" />
+    <string id="bxa4JHlU" text="징 박힌 가죽 완갑" />
+    <string id="bYmKOh4p" text="테스트 창" />
+    <string id="ByxdPJzA" text="귀덮개 달린 털모자" />
+    <string id="bYxnCJjq" text="보병 갬비슨" />
+    <string id="bZ0aUz2b" text="아세라이 무거운 메이스" />
+    <string id="bz5lXkHS" text="덧댄 짧은 민소매 코트" />
+    <string id="bzCoIgk7" text="군용 빌" />
+    <string id="bzr6vtXi" text="무거운 메나울리온" />
+    <string id="bzrVXGAl" text="가죽 위 청동 깃털 스팡겐헬름" />
+    <string id="bZSQpada" text="무거운 제국 도끼" />
+    <string id="C077yplu" text="장식된 쿠자이트 방패" />
+    <string id="c1a5Pt8j" text="사슬 위 청동 코받이 투구" />
+    <string id="c6dK068V" text="쿠자이트 긴 랜스" />
+    <string id="c7UNJSNi" text="직물 가죽 견갑" />
+    <string id="C8bVbM65" text="튜닉과 가족 조끼" />
+    <string id="CAO0bycV" text="무거운 튜닉" />
+    <string id="CBUdkmIw" text="물들인 카프탄" />
+    <string id="cBZ6OlKW" text="재블린" />
+    <string id="cCaHNMwf" text="하이랜드 다리 보호대" />
+    <string id="CcWpkREW" text="무거운 사슬 셔츠와 넓은 벨트" />
+    <string id="cDetN1Ao" text="임시변통 카이트 스파링 실드" />
+    <string id="cEhDJAQp" text="보병용 갬비슨과 치마" />
+    <string id="CEk1LX84" text="스투르지아 장창" />
+    <string id="cEUqPott" text="아세라이 장창" />
+    <string id="CgG2aRyh" text="반미늘 바딩" />
+    <string id="CIDdPt1I" text="사슬 위 청동 라멜라" />
+    <string id="CJCatm7j" text="더 가벼운 참나무 카이트 실드" />
+    <string id="cjH1WFwy" text="털 두른 모자" />
+    <string id="cjhhuTZD" text="경화 가죽 라멜라 갑옷" />
+    <string id="cjHygHb0" text="누비 위 가시 박힌 케틀" />
+    <string id="CLTk2CMs" text="줄 달린 보병 갬비슨" />
+    <string id="CLYcnUra" text="띠를 두른 가죽 흉갑" />
+    <string id="cMdtLfGB" text="술 달린 로브" />
+    <string id="courserhorse" text="코서" />
+    <string id="CPI0wkaZ" text="히코리 석궁" />
+    <string id="cQMDVJnE" text="제국 전투 도끼" />
+    <string id="Csfcw8G7" text="지저분한 가죽" />
+    <string id="CtJPuRDa" text="덧댄 가죽 외투" />
+    <string id="CtzzoSBc" text="짧은 스콜데른 양손 도끼" />
+    <string id="CuZ2eWxn" text="바타니아 바스타드 소드" />
+    <string id="cVYVpeBS" text="사슬 위 습격대 투구" />
+    <string id="Cw5N7rK6" text="전투 코서" />
+    <string id="cwC8Jp99" text="하이랜드 털 견갑" />
+    <string id="CXnhFf1t" text="강화된 가죽 완갑" />
+    <string id="CyJiWngO" text="청동 미늘 견갑" />
+    <string id="D358wBWJ" text="호버크 위 무거운 라멜라" />
+    <string id="d8DrtmwP" text="사슬 코이프 위 얼굴가리개 투구" />
+    <string id="D9JrTpwU" text="굽은 장화" />
+    <string id="dacwWKE2" text="낡은 카이트 실드" />
+    <string id="DbavaIis" text="사슬 위 철 코받이 투구" />
+    <string id="Dc4ia4m9" text="덧댄 모자" />
+    <string id="dK4f8ArH" text="제국 폴암" />
+    <string id="DnhVJl4d" text="긴 사막 로브" />
+    <string id="DoiwC1Qa" text="사슬 쇼스" />
+    <string id="DOYS7dmq" text="줄 달린 팔목보호대" />
+    <string id="dPQGxmJ7" text="강화된 사슬 장갑" />
+    <string id="dS4zm0UT" text="아케톤 위 징 박힌 가죽" />
+    <string id="DScCbmoS" text="바타니아 귀족의 팔목보호대" />
+    <string id="dVekhkIU" text="튜닉 위 털코트" />
+    <string id="dWr3nuBq" text="강화된 마구리테 카이트 실드" />
+    <string id="DxRrAuRo" text="바타니아 창" />
+    <string id="DyXDcO36" text="아세라이 장식 사슬 갑옷" />
+    <string id="e0SDWwmU" text="견고한 초원 갑옷" />
+    <string id="e4lKZhgv" text="대충 묶은 가죽 팔목보호대" />
+    <string id="Eb106Xg8" text="스투르지아 단검" />
+    <string id="ebHdQfbX" text="스팡겐헬름과 덧댄 옷" />
+    <string id="eDMDUUfw" text="아세라이 사슬 갑옷" />
+    <string id="eEMgc7yU" text="강화된 바타니아 대형 방패" />
+    <string id="EezWSI6v" text="강화된 용병 갑옷" />
+    <string id="efW2XbK8" text="에미르의 투구" />
+    <string id="Ejx5lXjk" text="스투르지아 추격자" />
+    <string id="eN1eFdhF" text="장식된 미늘 가죽 마구" />
+    <string id="EOplBvKz" text="제국 깃털 투구" />
+    <string id="EOz0edW4" text="초원 투구" />
+    <string id="EPehLvzV" text="제국 재블린" />
+    <string id="EpkGO9qE" text="금속 쇠스랑" />
+    <string id="eQBDt5Wk" text="펠 포니" />
+    <string id="erlrhK2a" text="군벌의 미늘 갑옷" />
+    <string id="eso5zk60" text="아세라이 군주의 투구" />
+    <string id="eTKxlDl1" text="하이랜드 군벌의 장화" />
+    <string id="eWf7bFGo" text="줄 달린 털갑옷" />
+    <string id="EWR2MNeM" text="코받이 투구와 사슬" />
+    <string id="ewSpZ10R" text="덧댄 거친 모자" />
+    <string id="EXLY9mEb" text="강화된 커다란 원형 방패" />
+    <string id="F4xD8gjJ" text="프란세스카" />
+    <string id="F9HQABfN" text="강화된 고리버들 사각형 방패" />
+    <string id="FAPHmzxQ" text="싸웁" />
+    <string id="Fb7PrJuc" text="부목 장화" />
+    <string id="fBAf3OWb" text="화려한 사막 전투 왕관" />
+    <string id="FDEIHpIN" text="호심경 달린 브리간딘 갑옷" />
+    <string id="FexNLsO5" text="제국 재블린" />
+    <string id="FHakBPXw" text="호버크" />
+    <string id="fk42FxCE" text="다층 로브" />
+    <string id="FktkkUMK" text="강철 원형 방패" />
+    <string id="FLBYsvxp" text="장검" />
+    <string id="FmN4ryxu" text="대검" />
+    <string id="FOx5vZSJ" text="무장 곰가죽" />
+    <string id="fptsl0Qn" text="판금 가죽 위 킬트" />
+    <string id="frwBm3Oh" text="천 머리싸개" />
+    <string id="FsDZC8Yl" text="사슬 코이프 위 풀 헬름" />
+    <string id="fUmehyHq" text="직물 가죽 팔목보호대" />
+    <string id="FWFDkjBk" text="끈 달린 코이프 위 코받이 투구" />
+    <string id="fwxHsC1h" text="튜닉 위 짧은 갬비슨" />
+    <string id="FxnFBhrF" text="기병대 카이트 실드" />
+    <string id="FyXM8Iob" text="사막 천 어깨보호대" />
+    <string id="g51zVsKU" text="사슬 장갑" />
+    <string id="g5BPd0Oc" text="천 코이프" />
+    <string id="G7AEWZ6c" text="장식된 타원형 방패" />
+    <string id="G8FQ2exX" text="판금 강화 장갑" />
+    <string id="Gbfot0SN" text="아세라이 기병대 메이스" />
+    <string id="GEHTam8H" text="바타니아 정찰병의 방패" />
+    <string id="GFKPrrb8" text="아세라이 귀족의 투구" />
+    <string id="gfvG04SP" text="사막 가죽 어깨보호대" />
+    <string id="GghHAbIT" text="손도끼" />
+    <string id="gKhpLiyg" text="사슬 및 판금 바딩" />
+    <string id="GNdVXMue" text="스카프" />
+    <string id="Goloz0Vm" text="허슨프리" />
+    <string id="gT8WENO3" text="더미 평균 높음" />
+    <string id="GTaxqBcv" text="부속 갑옷" />
+    <string id="gTptIfxY" text="사막 모자" />
+    <string id="GTWUtUFj" text="사슬 말 마구" />
+    <string id="gUTqDROO" text="밀폐형 머리수건" />
+    <string id="gXbmGrGL" text="장식된 제국 장화" />
+    <string id="GXmDq2KR" text="곰머리" />
+    <string id="gXu0brD7" text="블란디아 도끼" />
+    <string id="GzgUzrFY" text="사슬 셔츠" />
+    <string id="H41qKfaL" text="하이랜더 귀족의 깃털 투구" />
+    <string id="h5IlkYck" text="무거운 코트" />
+    <string id="h5kfaD4v" text="돌진마" />
+    <string id="h6UXvU3B" text="끈 달린 코이프 위 코받이 케벨리에르" />
+    <string id="h9PP7EWc" text="목덮개 달린 모자" />
+    <string id="hab2DsOW" text="하이랜드 바지 위 타르탄 킬트" />
+    <string id="HBaSQlSJ" text="술이 달린 청동 뺨 보호대 모자" />
+    <string id="hCBCLp0e" text="하프 메일 및 판금 바딩" />
+    <string id="hE8s9bpP" text="굽은 원형 방패" />
+    <string id="hELN8VXv" text="찢어진 로브" />
+    <string id="HEsETRqw" text="강화된 기수의 카이트 실드" />
+    <string id="hF11nBki" text="블란디아 기병대 검" />
+    <string id="HFIsOSHl" text="습격대 양손 도끼" />
+    <string id="hj563EZr" text="징 박힌 원형 방패" />
+    <string id="HKPCngu0" text="습격대 기병대 도끼" />
+    <string id="HKRGEXqy" text="레인저 갑옷" />
+    <string id="HkwJao2z" text="술이 달린 강철 뺨 보호대 모자" />
+    <string id="Hm7D4Z6v" text="북부인 고리 바딩" />
+    <string id="hRHPPQQP" text="감싼 머리수건" />
+    <string id="hTRaPvRa" text="하이랜드 가죽 장화" />
+    <string id="hunterhorse" text="수렵마" />
+    <string id="HVJ9ax8Z" text="초원 로브" />
+    <string id="HvjviTTW" text="강철 뺨 보호대 모자" />
+    <string id="hXB6gvD2" text="경화 가죽 라멜라 셔츠 " />
+    <string id="hXijcZyp" text="굵은 베 쇼트 코트" />
+    <string id="HXNb6Cqz" text="고급 카프칸과 허리띠" />
+    <string id="Hy4uQ7d5" text="블란디아 기병대 메이스" />
+    <string id="I0vRCZ7U" text="군벌의 미늘 팔목보호대" />
+    <string id="I1faIdpc" text="브롤러" />
+    <string id="I1ZBVhON" text="징 박힌 초원 견갑" />
+    <string id="I2yl5DWj" text="무거운 쿠자이트 화살" />
+    <string id="I8zNQS7i" text="스콜데른 양손 도끼" />
+    <string id="Ia7K4egV" text="품위 있는 투구" />
+    <string id="iauvbwL3" text="근위병의 활" />
+    <string id="iAWzr8Q0" text="사슬 위 줄무늬 가죽" />
+    <string id="ICsecuVv" text="경화 가죽 견갑" />
+    <string id="iD0ePqi7" text="단추 달린 가죽 팔목보호대" />
+    <string id="igAT9Eqb" text="초원 돌진마" />
+    <string id="IGazuB9B" text="사슬 코받이 투구" />
+    <string id="IH9GsYzv" text="헐거운 바지" />
+    <string id="ihN5JZ9h" text="가죽 위 코받이 투구" />
+    <string id="IJjrSbiV" text="곡궁" />
+    <string id="IKhu13vZ" text="가벼운 원형 방패" />
+    <string id="ilLE877K" text="초원 털 안장 " />
+    <string id="iNJr5HOM" text="올 파이크" />
+    <string id="inquCxkd" text="아세라이 창" />
+    <string id="inr9Mt1i" text="쿠자이트 랜스" />
+    <string id="INWSxn7C" text="청동 라멜라 견갑" />
+    <string id="inYBaDwu" text="사슬 위 강철 깃털 스팡겐헬름" />
+    <string id="IOt4KTHs" text="중부 팔프레이" />
+    <string id="iPfZpGHK" text="무거운 타원형 방패" />
+    <string id="IPp2QGwE" text="건초 낫" />
+    <string id="Is7j0Ir8" text="바타니아 귀족의 양손검" />
+    <string id="ISQ0cdOc" text="사슬 위 무거운 코받이 투구" />
+    <string id="isuBaIqQ" text="마구리테 카이트 실드" />
+    <string id="it3sDnGw" text="스투르지아 원형 방패" />
+    <string id="Ita1lG33" text="가죽 결속된 카이트 실드" />
+    <string id="ITKKkoXI" text="습격대 무거운 도끼" />
+    <string id="IuD9SaQM" text="벌랩 드레스" />
+    <string id="iVataLxL" text="덧댄 로브 위 가죽 스트립" />
+    <string id="IWv37ncp" text="북부인 경량 마구" />
+    <string id="IX3kafcb" text="사슬 위 가시 박힌 철 케틀" />
+    <string id="J00AF9Qv" text="직물 가죽 장화" />
+    <string id="j1pFE61w" text="삼림지대 천 갑옷" />
+    <string id="j2IVY6G6" text="조잡한 생가죽 갑옷" />
+    <string id="J3YHMkL3" text="덧댄 장갑" />
+    <string id="J4fgemze" text="스투르지아 랜스" />
+    <string id="J4YgK18g" text="긴 팔크스" />
+    <string id="ja2rER65" text="테스트 랜스" />
+    <string id="jakLnIQv" text="거친 미늘 투구" />
+    <string id="JbTCDDb0" text="볼트" />
+    <string id="JbV0WoO7" text="장인의 남부 미늘 갑옷" />
+    <string id="JBVAeXx3" text="쇠스랑" />
+    <string id="JCdVJYnQ" text="가벼운 튜닉" />
+    <string id="jEHLd5gm" text="킬리지" />
+    <string id="JfPqJbK6" text="더 빠른 돌진마" />
+    <string id="jhgVsWKr" text="타이얼 말" />
+    <string id="Jhshwa48" text="얼룩진 갬비슨" />
+    <string id="jimBaHvz" text="강화된 가죽 갑옷" />
+    <string id="jIwjYOVj" text="누더기 팔싸개" />
+    <string id="jjHpXY4d" text="털 후드" />
+    <string id="JjLQ2VdT" text="덧댄 코이프 위 코받이 케벨리에르" />
+    <string id="JkLoAelJ" text="사슬 견갑" />
+    <string id="JKRQ8RDA" text="덧댄 옷과 스트립" />
+    <string id="Jm3AiUo3" text="단순한 망토" />
+    <string id="jm9CnURw" text="무거운 돗바늘 화살" />
+    <string id="joroqAbR" text="플리사" />
+    <string id="Jt0Mcn4D" text="미개인의 방어구" />
+    <string id="JvhvtKsT" text="사슬 위 챙투구" />
+    <string id="JW1mE68R" text="다층 사막 로브" />
+    <string id="jy1VQ7Yg" text="쿠자이트 기병대 메이스" />
+    <string id="K1UFTirG" text="경석궁" />
+    <string id="K2xGw3Oo" text="더미 평균 낮음" />
+    <string id="k71X3WNK" text="사슬 호버크 위 로브" />
+    <string id="kaR27kWL" text="긴 하이랜드 타르탄" />
+    <string id="KD4pxN2C" text="아세라이 귀족의 검" />
+    <string id="KdbHrcQx" text="짧은 튜닉" />
+    <string id="Kgnm0FkE" text="가죽 신발" />
+    <string id="KIxX6dH2" text="사슬 위 거친 털가죽" />
+    <string id="KKWEkA4P" text="거친 곰가죽" />
+    <string id="kmdjRAoG" text="끈 달린 천 코이프" />
+    <string id="kOV5t7Yx" text="다누스티카 말" />
+    <string id="KoyU5yeY" text="술이 달렸고 장식된 청동 뺨 보호대 모자" />
+    <string id="KpyTaAwL" text="하이랜드 판금 귀족 투구" />
+    <string id="Kr8b1bxY" text="보병용 사슬 조끼" />
+    <string id="KTegaNPW" text="장궁" />
+    <string id="KVG0Tzaa" text="강화된 호심경 갑옷" />
+    <string id="KwbnODoT" text="호버크 위 브리간딘" />
+    <string id="L0aYVd65" text="평민의 튜닉" />
+    <string id="l2j9CAQn" text="바스타드 소드" />
+    <string id="l2pEOHk6" text="아세라이 도끼" />
+    <string id="l5JDrvbW" text="타르탄 튜닉" />
+    <string id="l5PPS5lG" text="가죽 위 보병 갑옷" />
+    <string id="l69aXkKH" text="사다리 제거 쇠스랑" />
+    <string id="l91l1TJo" text="물들인 터번" />
+    <string id="lB4UF1GT" text="긴 튜닉" />
+    <string id="Lbm7asY3" text="긴 히터 실드" />
+    <string id="lbVB6KPl" text="후드" />
+    <string id="Ldqb9oAF" text="하이랜드 군벌의 견갑" />
+    <string id="LgftnHPs" text="직물 가죽 조끼" />
+    <string id="LI3rc6S2" text="아세라이 투척 도끼" />
+    <string id="lIJ1EVBh" text="가죽 장갑" />
+    <string id="LMo6MaQS" text="캐터프랙트 라멜라 갑옷" />
+    <string id="LOPavWRp" text="줄 달린 신발" />
+    <string id="lPeLZge5" text="무장용 헐거운 바지" />
+    <string id="LqA9uBH9" text="천 머리띠 위 뾰족한 스컬캡" />
+    <string id="LRbGXEw2" text="깃털과 장식이 달린 사슬 코받이 투구" />
+    <string id="lspv3mUE" text="징 박힌 초원 바딩" />
+    <string id="Lt8nT1hb" text="라멜라 견갑" />
+    <string id="luoXhz19" text="무거운 라멜라 조끼" />
+    <string id="lVtoBMhp" text="타르탄 망토" />
+    <string id="LwxELoZL" text="하이랜드 반미늘 말 마구" />
+    <string id="lwxOPEPx" text="글라디우스" />
+    <string id="lxDZyKbU" text="무거운 아세라이 랜스" />
+    <string id="LyaWykYa" text="귀족의 투구와 목보호대" />
+    <string id="lZ93DOrn" text="덧댄 민소매 코트" />
+    <string id="lZZOQsxc" text="거친 기병대 안장" />
+    <string id="M0n609ut" text="사슬 어깨보호대" />
+    <string id="M2wvaObX" text="스파타" />
+    <string id="m3Nv9rt2" text="유목민 깃털 투구" />
+    <string id="MamotK0a" text="덧댄 완갑" />
+    <string id="Mbf8qAxs" text="긴 양손 도끼" />
+    <string id="mbT1uNPa" text="단검" />
+    <string id="mBVCyRY5" text="장식된 군단병 사슬 갑옷" />
+    <string id="MChutiV6" text="천 위 라운드케틀" />
+    <string id="mDHMOUdx" text="경보병의 고리버들 방패" />
+    <string id="mfeM775z" text="클리버" />
+    <string id="mkoMUmLh" text="벌랩 조끼" />
+    <string id="MKT5IzWm" text="굵은 소매 로브" />
+    <string id="mlJKNbbn" text="가죽 코이프" />
+    <string id="MnmUBlbL" text="타지" />
+    <string id="MQ8LCvCE" text="결속된 천 튜닉" />
+    <string id="mRGIxvYh" text="사슬 코이프 위 코받이 케벨리에르" />
+    <string id="MS1gaKXk" text="바타니아 투척 도끼" />
+    <string id="ms4AKynl" text="판금 장화" />
+    <string id="mStaaxFF" text="사슬 고리 견갑" />
+    <string id="MTB2BunA" text="타르탄 위 강화된 하이랜드 메일" />
+    <string id="mTsEaNKb" text="털 망토" />
+    <string id="mU5CY4bz" text="밀폐된 허스칼 투구" />
+    <string id="MUdwS6jH" text="더 강인한 타이얼 말" />
+    <string id="mVAaWp5U" text="제국 돌진마" />
+    <string id="mvTueU1y" text="판금 가죽 완갑" />
+    <string id="mXQsNAmZ" text="돗바늘 화살" />
+    <string id="n1A47HcZ" text="귀족 창기병의 투구" />
+    <string id="n21mBbbR" text="청구서" />
+    <string id="n7c7tnx9" text="군벌 투구와 코 보호대" />
+    <string id="nbjUGjaZ" text="스투르지아 기수의 방패" />
+    <string id="ndfDy5B8" text="결속된 머리싸개" />
+    <string id="newiAaR9" text="장식된 안대형 투구" />
+    <string id="nhoDWrVf" text="MP 테스트 양손검" />
+    <string id="NiBDR9ld" text="장식된 청동 투구와 뺨 보호대" />
+    <string id="Nk7bQUWJ" text="아세라이 양손검" />
+    <string id="NKZ0P4aU" text="블란디아 긴 랜스" />
+    <string id="nmLZEjYg" text="MP 테스트 양손 메이스" />
+    <string id="Np2OoVNd" text="스투르지아 가벼운 메이스" />
+    <string id="nPSYRs2Q" text="테스트 파이크" />
+    <string id="NSo8tGhT" text="바타니아 랜스" />
+    <string id="NTaol1uQ" text="고리 갑옷" />
+    <string id="nTjEUF9z" text="투박한 커다란 원형 방패" />
+    <string id="NTPmtaaN" text="사슬 위 붉은 코트" />
+    <string id="NUHzapSv" text="긴 삼베 튜닉" />
+    <string id="NUmDuEqI" text="제국 승마용 마구" />
+    <string id="Nv0eZmGL" text="강철 코받이 모자" />
+    <string id="O37kzdXO" text="경량 마구" />
+    <string id="O4agNHhn" text="민첩한 바브종" />
+    <string id="OdsXaOjG" text="쿠자이트 화살" />
+    <string id="OEbGMbG2" text="하이랜드 미늘 말 마구" />
+    <string id="oeE1E3FJ" text="블란디아 바스타드 소드" />
+    <string id="oEJnxsQ1" text="팔싸개" />
+    <string id="OeKwbpM7" text="초원 승용마" />
+    <string id="oEvhhNNR" text="기병의 가죽 장화" />
+    <string id="OGqTKRVm" text="대나무 랜스" />
+    <string id="oH8iFEv7" text="접힌 도시 장화" />
+    <string id="OhEQUMk0" text="넓은 히터 실드" />
+    <string id="OJIRIm4j" text="단순한 천 튜닉" />
+    <string id="oJKXjRJ3" text="하이랜드 천 위 미늘 갑옷" />
+    <string id="OL1oJ9j5" text="데일 포니" />
+    <string id="olamAwhb" text="천 머리띠 위 코받이 투구" />
+    <string id="OM9achAa" text="강화된 참나무 카이트 실드" />
+    <string id="omLMiX89" text="사슬 위 꿰맨 가죽" />
+    <string id="ONaWEKSy" text="가죽 위 코받이 투구" />
+    <string id="OnpIGPEG" text="바타니아 대형 청동 방패" />
+    <string id="Oo0baNaq" text="대충 결속된 장화" />
+    <string id="oppGd4nH" text="원형 쿠자이트 방패" />
+    <string id="OpYdqPWs" text="개방형 사슬 코이프" />
+    <string id="oQSZ0XgP" text="장식된 강화 튜닉" />
+    <string id="OrEgjXZ1" text="거친 케피예" />
+    <string id="OuD7PfvY" text="제국 곡궁" />
+    <string id="OvlG2Vu1" text="거친 브리간딘" />
+    <string id="Oyeu738O" text="북부인 군주의 투구" />
+    <string id="p2gPB04v" text="초원 가죽 견갑" />
+    <string id="p6NIgRpk" text="거친 가죽 모자" />
+    <string id="P8GrNSkF" text="사슬 코이프 위 결속된 스컬캡" />
+    <string id="p9cQARqf" text="귀족 사슬 갑옷" />
+    <string id="pEaYQqG9" text="고리버들 사각형 방패" />
+    <string id="PeozdF9h" text="꿰맨 경화 가죽 코트" />
+    <string id="PF7sPCYq" text="재블린" />
+    <string id="PL5SG9hI" text="가죽 미늘 갑옷" />
+    <string id="PLtQdf23" text="강화된 덧댄 장갑" />
+    <string id="PPpvY6BZ" text="쿠자이트 기병대 방패" />
+    <string id="PtfbqMeg" text="사슬 위 브리간딘" />
+    <string id="PTKyNh2O" text="군단병 사슬 갑옷" />
+    <string id="pTtFr5Iw" text="블란디아 전투 낫" />
+    <string id="PVgSGCYK" text="사슬 코이프 위 코받이 헬멧" />
+    <string id="PxVFJaEM" text="왕관형 판금 투구" />
+    <string id="PyeZ22FL" text="청동 뺨 보호대 모자" />
+    <string id="pyupZxJK" text="콘토스" />
+    <string id="pzfbPbWW" text="바위" />
+    <string id="PZPphq6H" text="초원 군마" />
+    <string id="q1z4FQub" text="낙타 안장" />
+    <string id="Q2F2uqRE" text="블란디아 견갑 망토" />
+    <string id="Q50hfNjW" text="얇은 가죽 코이프" />
+    <string id="qaKGuHSt" text="장식된 누비 가죽 마구" />
+    <string id="QaysED62" text="천을 접어 올린 튜닉" />
+    <string id="QbfOXJas" text="덧댄 경보병 코트" />
+    <string id="qc0P0b2r" text="사슬 위 안대형 투구" />
+    <string id="QcCC59DA" text="징 박힌 천 견갑" />
+    <string id="QCOWP3E9" text="초원 습격대 투구" />
+    <string id="Qd0tQLpA" text="징 박힌 가죽 갑옷" />
+    <string id="qdMP2qWG" text="강화 사슬 견갑" />
+    <string id="qEcDWNci" text="가시 박힌 화살" />
+    <string id="qFL0VxZX" text="끈 달린 코이프" />
+    <string id="qFV7uqVW" text="단창" />
+    <string id="qH5VV8In" text="마을 주민 가죽 튜닉" />
+    <string id="qILO0HdK" text="감싸 덧댄 민소매 의복" />
+    <string id="QLcP8bIs" text="팔크스" />
+    <string id="QlvnKQbc" text="하이랜드 미늘 갑옷 위 사슬 갑옷" />
+    <string id="qo8hwDNU" text="거친 가죽 갑옷" />
+    <string id="qsVRoGUv" text="개방된 머리수건" />
+    <string id="qT6jIu3v" text="털치마와 튜닉" />
+    <string id="QtuZSbG9" text="코이프 위 깃털 스팡겐헬름" />
+    <string id="QUGDr6Te" text="시미터" />
+    <string id="QVGL3eB0" text="개방된 사막 투구" />
+    <string id="qVj5NqrL" text="덧댄 모자 위 풀 헬름" />
+    <string id="QxzcuhmA" text="표범 가죽" />
+    <string id="Qywm0F8B" text="사슬 코이프와 투구 누비" />
+    <string id="QzAvlan7" text="덧댄 짧은 로브" />
+    <string id="r07M9xbT" text="무거운 석궁" />
+    <string id="R45H8quo" text="토가" />
+    <string id="radJHwRW" text="무거운 기수 카이트 실드" />
+    <string id="RDbqA36B" text="홈이 패였고 장식된 청동 뺨 보호대 모자" />
+    <string id="RddFH0BA" text="철을 두른 커다란 원형 방패" />
+    <string id="RF7uVEGp" text="대나무 창" />
+    <string id="rF7Xm7C0" text="무거운 히터 실드" />
+    <string id="RGwcnlmQ" text="장작패기용 양손 도끼" />
+    <string id="Rhfp7ath" text="끈 달린 코이프 위 챙투구" />
+    <string id="RIswqnuJ" text="안대형 투구" />
+    <string id="rLFdje27" text="쿠자이트 단창" />
+    <string id="RmUJJelp" text="허스칼 호버크" />
+    <string id="rq5FMLVI" text="유목민 단궁" />
+    <string id="rSEXAMUx" text="군단병 투구" />
+    <string id="RTIzskq1" text="전신 사슬 위 렌드맨 투구" />
+    <string id="RtlqkbZ9" text="MP 테스트 도끼" />
+    <string id="RVkS0Mt3" text="바타니아 귀족의 검" />
+    <string id="RXDyumYz" text="망토 씌운 가죽 마구" />
+    <string id="rysPCUOp" text="북부인 투구" />
+    <string id="rzhIJ8Yh" text="순례자의 후드" />
+    <string id="s03kaATW" text="쿠자이트 창" />
+    <string id="S1SUK8zk" text="사슬 코이프 위 케틀" />
+    <string id="S1XL4KJh" text="두꺼운 고급 코트" />
+    <string id="S9htzkbe" text="상인의 모자" />
+    <string id="sAml91Z3" text="고급 브리간딘" />
+    <string id="sbbNL1qF" text="강화된 미늘 폴드런" />
+    <string id="SGa04hNj" text="무거운 블란디아 랜스" />
+    <string id="SHZ0P7Iu" text="덧댄 가죽 망토" />
+    <string id="SIdCIRfG" text="황동 미늘 견갑" />
+    <string id="sJ1R62Tn" text="깃털 투구" />
+    <string id="smHA8Apa" text="장식된 유목민 모자" />
+    <string id="smKogclC" text="베옷 튜닉" />
+    <string id="spcj3XIw" text="감싼 케피예" />
+    <string id="SRZzySbP" text="하이랜드 삼림지대 장화" />
+    <string id="SUKemgo6" text="바타니아 기병대 창" />
+    <string id="SvYpE52J" text="다듬은 털 그립" />
+    <string id="SW3lkPHe" text="물들인 비시트" />
+    <string id="SYvBTD0p" text="천 머리띠 위 풀 헬름" />
+    <string id="SZmyhMO2" text="바타니아 기병대 방패" />
+    <string id="sZsOeSQ4" text="기병대 메나울리온" />
+    <string id="Szuxa9Bs" text="누더기 장화" />
+    <string id="t1HEYuSD" text="결속된 아다르가" />
+    <string id="T2POVRtg" text="줄 달린 부속 갑옷" />
+    <string id="t68bkisr" text="망치" />
+    <string id="TB6NGI82" text="부족의 쿠자이트 방패" />
+    <string id="TeIcf3Cd" text="무거운 사슬 갑옷 위 라멜라" />
+    <string id="tEimkEsU" text="노르딕 단궁" />
+    <string id="TfDFlmpb" text="혐오스러운 털 갑옷" />
+    <string id="TFT2Xapz" text="덧댄 천 위 챙투구" />
+    <string id="tG1Q8r2u" text="창기병 라멜라 갑옷" />
+    <string id="TGpFbISX" text="징 박힌 가죽 투구" />
+    <string id="tiSffNik" text="가죽 위 아이언레임 깃털 스팡겐헬름" />
+    <string id="tiTTWhpW" text="덧댄 가죽 셔츠" />
+    <string id="Tj1Zb47Q" text="초원 가죽 장화" />
+    <string id="TjoKgbV6" text="밀폐된 안대형 투구" />
+    <string id="tKODIU0F" text="가죽 라멜라 견갑" />
+    <string id="TmJubG8W" text="바타니아 가죽끈 후드 망토" />
+    <string id="tMLH04n4" text="사슬 코이프 위 케틀 햇" />
+    <string id="tMwsE9IR" text="줄 달린 가죽 장화" />
+    <string id="Tp7zXWGa" text="덧댄 코이프 위 코받이 투구" />
+    <string id="tpQLvMSM" text="사슬 위 코받이 헬멧" />
+    <string id="TTWL7RLe" text="석궁" />
+    <string id="TV02bZ4t" text="지친 기수 카이트 실드" />
+    <string id="tVyuxl8e" text="누더기 로브" />
+    <string id="tWfAPrPa" text="기병의 사슬 장화" />
+    <string id="TwuAVsCn" text="털모자" />
+    <string id="TxAYmCjr" text="코받이 투구와 가죽" />
+    <string id="tXbRb3QO" text="징 박힌 털 갑옷" />
+    <string id="tYmOCuuQ" text="사슬 위 라운드케틀" />
+    <string id="TziEtAIK" text="블란디아 체인메일" />
+    <string id="u2QRZy2x" text="MP 테스트 검" />
+    <string id="U4n0uSlg" text="딱 붙는 머리수건" />
+    <string id="U8QfF3Gw" text="긴 양털 튜닉" />
+    <string id="UC2XfY7V" text="천 후드" />
+    <string id="UCvfcokJ" text="삽" />
+    <string id="uEcbnd5D" text="원형 방패" />
+    <string id="uEPRE33m" text="대충 결속된 팔목보호대" />
+    <string id="uF4IqQIK" text="카스카라" />
+    <string id="UG8aeEQH" text="제국 군마" />
+    <string id="UHcXARc6" text="일드" />
+    <string id="UHItyOQY" text="징 박힌 초원 가죽" />
+    <string id="ujB7Eq9S" text="아세라이 메이스" />
+    <string id="UkR3F9lV" text="블란디아 귀족의 검" />
+    <string id="uLpnmNkZ" text="가죽 모자" />
+    <string id="UoHZGyZa" text="투구와 안면 보호대" />
+    <string id="uqO6e6vN" text="카이트 실드" />
+    <string id="Ur3Q4U5x" text="무거운 타르탄 망토" />
+    <string id="uUGAMReu" text="고급 도시 장화" />
+    <string id="uvmmBd41" text="결속된 사막 원형 방패" />
+    <string id="UvOa4elc" text="초록색 후드" />
+    <string id="uwkGsgxJ" text="쿠자이트 투창" />
+    <string id="UxTD6XGA" text="감싼 스카프" />
+    <string id="uxVG86DF" text="쿠자이트 장창" />
+    <string id="v1CIJWs1" text="하이랜드 재블린" />
+    <string id="v23z53yg" text="코받이 투구" />
+    <string id="v3lIxLvX" text="필라스" />
+    <string id="v4THTk5O" text="카프칸과 가죽 벨트" />
+    <string id="VaqBBaQu" text="다듬은 털 짧은 튜닉" />
+    <string id="vAQJvloo" text="긴 스파타" />
+    <string id="VbAHQ1BS" text="긴 털 코트" />
+    <string id="vbPBXiPC" text="비싼 튜닉" />
+    <string id="VcbEaV7T" text="덧댄 천 위 케틀 헬멧" />
+    <string id="vCywYDmp" text="덧댄 경갑옷" />
+    <string id="Vdi0vZV7" text="하이랜드 망토" />
+    <string id="VDMkVMxt" text="무거운 사슬 장갑" />
+    <string id="veB9S1OI" text="민첩한 데일 포니" />
+    <string id="VEufDIXI" text="서부 랜스" />
+    <string id="vh1x8VWw" text="제국 메이스" />
+    <string id="vimhFdZp" text="가죽 위 무거운 코받이 투구" />
+    <string id="VIVfoHRj" text="물푸레나무 투창" />
+    <string id="VkRIefyW" text="고급 미늘 갑옷" />
+    <string id="vmJLhccb" text="장식된 투구" />
+    <string id="VQSdhQE3" text="사슬 호버크 위 무거운 미늘 갑옷" />
+    <string id="vsavMoLZ" text="덧댄 천 위 결속된 케벨리에르" />
+    <string id="VSMpadvq" text="털 갑옷" />
+    <string id="VTMc9pMS" text="바타니아 장검" />
+    <string id="vw9qbiER" text="초원 마구" />
+    <string id="vwVFF1XJ" text="하이랜드 털 장화" />
+    <string id="VylHwqVq" text="끈 달린 코이프 위 결속된 스컬캡" />
+    <string id="w4RuDABQ" text="판금 코팅" />
+    <string id="W58TN2g5" text="바랴그 튜닉" />
+    <string id="WahziEXA" text="감싼 가죽 장화" />
+    <string id="wBfGpcCO" text="덧댄 천 위 케틀 햇" />
+    <string id="WbjNNE8Z" text="강화된 하이랜드 피안 메일" />
+    <string id="wD3Yuvfc" text="초원 꿰맨 가죽" />
+    <string id="wE7RWmIF" text="멧돼지 가죽 코트" />
+    <string id="wEfZyccm" text="끈 달린 코이프 위 풀 헬름" />
+    <string id="wG582fzT" text="덧댄 모자 위 케벨리에르" />
+    <string id="whvMZZba" text="단단한 덧댄 완갑" />
+    <string id="WiPJqTXv" text="밀폐된 사막 투구" />
+    <string id="wKucIANJ" text="천 위 가죽 코트" />
+    <string id="WLJOnehi" text="두꺼운 강화 튜닉" />
+    <string id="wltdyF2j" text="사냥용 활" />
+    <string id="WMqHlEvb" text="사슬 코이프 위 결속된 케밸리에르" />
+    <string id="Wo5RbJia" text="하이랜드 삼림지대 망토" />
+    <string id="WOzcBg62" text="강화된 북부 물고기 작살" />
+    <string id="wQY1oqdK" text="홈이 패였고 장식된 강철 뺨 보호대 모자" />
+    <string id="wrM9Km0n" text="하이랜드 말 마구" />
+    <string id="WrwO8xsN" text="꿰맨 가죽 견갑" />
+    <string id="wSUN0Dmo" text="더미 최대 방어구" />
+    <string id="WsUvpBwM" text="빠른 단궁" />
+    <string id="WUArer5A" text="개방된 덧댄 코이프" />
+    <string id="WvDZMmaj" text="유목민의 투구" />
+    <string id="wwAFqJE3" text="아밍 소드" />
+    <string id="wWqavjat" text="덧댄 긴 경갑옷" />
+    <string id="WXjQNIJW" text="헐겁게 감싼 사막 투구" />
+    <string id="WYFDXE82" text="커다란 원형 방패" />
+    <string id="WyxIVvhe" text="아세라이 타원형 방패" />
+    <string id="WYytQbvS" text="아밍 코이프 위 풀 헬름" />
+    <string id="x1kf94SW" text="움푹 파인 투구" />
+    <string id="X1Wn0sBa" text="거친 미늘 위 징 박힌 가죽 투구" />
+    <string id="x3lcf2Do" text="가죽 위 고급 라멜라 조끼" />
+    <string id="xa7KRSCy" text="꿰맨 가죽 조끼" />
+    <string id="xb2tMFSz" text="단궁" />
+    <string id="XcWJyWlF" text="블란디아 메이스" />
+    <string id="XGX6DbFL" text="라멜라 판금 건틀렛" />
+    <string id="XGytILlt" text="포도탄 탄약" />
+    <string id="XH9f3yOX" text="튜닉 위 털 조끼" />
+    <string id="XiI81DUa" text="부족원의 장궁" />
+    <string id="XiwTesky" text="비단 카프탄" />
+    <string id="XkL1Re8b" text="징 박힌 가죽 코트" />
+    <string id="xl5MgK49" text="스투르지아 중기병대 투구" />
+    <string id="xn5CfwON" text="덧댄 전사 견갑" />
+    <string id="xnoAJwoy" text="덧댄 천 위 풀 헬름" />
+    <string id="XNQPPIaA" text="가죽 재킷 위 보병의 갬비슨" />
+    <string id="XOC81pVz" text="밀폐된 사막 투구와 사슬" />
+    <string id="xODbCO6k" text="합성궁" />
+    <string id="xQUi0F0k" text="줄무늬 코트" />
+    <string id="Xrb43Fv4" text="청동 팔목보호대" />
+    <string id="xS7m37o7" text="사슬 위 뾰족한 스컬캡" />
+    <string id="XU9WgcIO" text="강화된 스웨이드 갑옷" />
+    <string id="XuwQvSDo" text="사슬 위 철 라운드케틀" />
+    <string id="xW2NPgay" text="동부 낫" />
+    <string id="xYC1bkr7" text="스투르지아 카이트 실드" />
+    <string id="XzoyPCvS" text="쿠자이트 파이크" />
+    <string id="y1YTxkmn" text="어깨 마구" />
+    <string id="y3CwqUDR" text="하이랜드 사슬 셔츠" />
+    <string id="y3oIzUEp" text="튜닉과 어깨보호대" />
+    <string id="y3RNBGtv" text="제국 기병대 메이스" />
+    <string id="Y7wtGUKA" text="무거운 스투르지아 랜스" />
+    <string id="y9uMjAKT" text="강화된 스웨이드 견갑" />
+    <string id="y9uZrJv2" text="스투르지아 군벌의 투구" />
+    <string id="YAYhozbN" text="초원마" />
+    <string id="YDibTDob" text="왕관형 하이랜드 투구" />
+    <string id="yDykmlS7" text="타르탄 토가" />
+    <string id="YEUFtX4G" text="늑대 견갑" />
+    <string id="yf3zokFF" text="서부 기병대 창" />
+    <string id="ygfhbfr0" text="가시 박힌 투구" />
+    <string id="YGQ6UXCo" text="산 사냥용 활" />
+    <string id="Yh7Dorsr" text="줄무늬 가죽 마구" />
+    <string id="YHWqNIYu" text="바타니아 재블린" />
+    <string id="ykCJ3hDB" text="징 박힌 목보호대" />
+    <string id="yMi4ijgI" text="덧댄 유목민 후드" />
+    <string id="Yms2FQ7g" text="하프 체인 바딩" />
+    <string id="yPeC0Vgs" text="나하산" />
+    <string id="YQd9C8u2" text="덧댄 코이프 위 케틀" />
+    <string id="YqhOxb1Z" text="깃털 달린 라멜라 투구" />
+    <string id="yQqsd0bh" text="제국 볼트" />
+    <string id="ys3kQM0R" text="제국 라멜라 갑옷" />
+    <string id="yTWOMSmv" text="삼베 튜닉" />
+    <string id="YUWhHQmz" text="아이언레임 깃털 스팡겐헬름" />
+    <string id="YxglkaXU" text="사슬 호버크 위 흰색 타바드" />
+    <string id="Z6Ak3H6G" text="제리드" />
+    <string id="z6eTba5h" text="끈 달린 천 위 무거운 코받이 투구" />
+    <string id="z7oMeRl3" text="두꺼운 브리간딘 조끼" />
+    <string id="z8d2uyY1" text="끈 달린 코이프 위 결속된 케밸리에르" />
+    <string id="Z9RlnXrD" text="털 치마" />
+    <string id="zAvb7WKe" text="덧댄 코이프 위 결속된 스컬캡" />
+    <string id="zBRB0P5M" text="장식된 닫힌 안대형 투구" />
+    <string id="zbsajPMp" text="불지" />
+    <string id="ZeU1fvdz" text="포도탄 뭉치" />
+    <string id="ZFde57gC" text="거친 하이랜드 안장" />
+    <string id="ZFETxZKP" text="케피예와 비단띠" />
+    <string id="ZFwKlHIJ" text="삼림지대 장궁" />
+    <string id="zGXZJFOb" text="라멜라와 미늘 치마" />
+    <string id="ZJweh5Oh" text="바스타드 액스" />
+    <string id="zKJtr0MV" text="마케브 말" />
+    <string id="zmEnxUpL" text="제국 미늘 바딩" />
+    <string id="zNoDVcHg" text="트로터" />
+    <string id="Zo7jJbQj" text="사막 헬멧과 사슬" />
+    <string id="ZOa7p47T" text="끈 달린 굽은 장화" />
+    <string id="ZqTFQeai" text="가죽 튜닉" />
+    <string id="zQv3w264" text="덧댄 하프 코이프" />
+    <string id="ZRDoABz9" text="털가죽을 댄 깃털 투구" />
+    <string id="ztgczd7L" text="쿠자이트 기병대 창" />
+    <string id="ZV1bKLUn" text="케틀 헬멧과 가죽" />
+    <string id="ZvMcHde3" text="곡괭이" />
+    <string id="Zx4h7jDy" text="더미 최소 방어구" />
+    <string id="zZ2G7uIO" text="사슬 위 케틀 헬멧" />
+    <string id="ZzzUQjna" text="귀족의 도끼" />
+  </strings>
+</base>

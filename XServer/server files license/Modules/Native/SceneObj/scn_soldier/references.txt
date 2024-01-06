@@ -1,0 +1,7 @@
+6
+mesh icon_camera
+texture cg_75c_5b
+texture lens_dirt
+texture lens_star
+texture sky_clear_tod_24
+texture sun_core2

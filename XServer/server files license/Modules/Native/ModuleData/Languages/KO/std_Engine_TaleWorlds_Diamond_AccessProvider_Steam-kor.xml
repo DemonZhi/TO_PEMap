@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="uunRVBPN" text="Steam이 실행 상태가 아닙니다." />
+    <string id="XSU8Bbbb" text="유효하지 않은 Steam 세션입니다." />
+  </strings>
+</base>

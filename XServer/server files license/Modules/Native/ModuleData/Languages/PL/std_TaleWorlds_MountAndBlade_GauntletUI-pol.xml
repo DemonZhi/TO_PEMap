@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="074YAjOk" text="Wyrzucono cię ze względu na nieaktywność" />
+    <string id="1e12bdjj" text="Zrzut ekranu zapisano w katalogu {PATH}" />
+    <string id="2SEofGth" text="Zmień drużynę" />
+    <string id="3CsACce8" text="Wyjdź" />
+    <string id="4mMySbxI" text="Nieokreślony błąd" />
+    <string id="79bODbwZ" text="Tryb fotograficzny został już uruchomiony." />
+    <string id="a0IHtkoa" text="Wyrzucił cię gospodarz gry" />
+    <string id="aGGq9lJT" text="Zmień kulturę" />
+    <string id="ajKnHI1s" text="Zrób zdjęcie" />
+    <string id="aKjpbRP5" text="Nieznany powód" />
+    <string id="aogZyZlR" text="Musisz odczekać {SECONDS} sek. przed kolejnym wiwatem lub okrzykiem." />
+    <string id="asCeKZXx" text="Włącz ponownie interfejs bitwy" />
+    <string id="controllerDisconnectedDescriptionPS" text="Podłącz ponownie kontroler bezprzewodowy, by kontynuować" />
+    <string id="controllerDisconnectedDescriptionXB" text="Podłącz ponownie kontroler, by kontynuować" />
+    <string id="controllerDisconnectedTitlePS" text="Rozłączono kontroler bezprzewodowy" />
+    <string id="controllerDisconnectedTitleXB" text="Rozłączono kontroler" />
+    <string id="dismissnotification" text="Zamknij" />
+    <string id="e139gKZc" text="Wróć do gry" />
+    <string id="EzeFJo65" text="Utracono połączenie z serwerem!" />
+    <string id="hvaDkG4w" text="Wciśnij dowolny przycisk." />
+    <string id="HzWaGn3y" text="Nie wszyscy gracze mają włączoną funkcję anti-cheat" />
+    <string id="ImQnhIQ5" text="Nie można korzystać z trybu fotograficznego podczas rozmowy." />
+    <string id="InGwtrWt" text="Wyjdź" />
+    <string id="InUAmnX4" text="Wyrzucono cię ze względu na obrażenia zadawane sojusznikom" />
+    <string id="ivKntfNA" text="Prośba o dołączenie już wysłana, trwa oczekiwanie na odpowiedź serwera" />
+    <string id="IzJ7f5SQ" text="Serwer jest pełen" />
+    <string id="JluTW3Qw" text="Gra dobiegła końca" />
+    <string id="JQVixeQs" text="Dostęp do serwera gry nie powiódł się" />
+    <string id="KO2adj2I" text="Musisz być w lobby, by dołączyć do niestandardowej gry" />
+    <string id="KQrpWV1n" text="Musisz być dowódcą grupy, by dołączyć do niestandardowej gry" />
+    <string id="KRNdlbkq" text="Gra niestandardowa dobiega końca" />
+    <string id="LCzAvLUB" text="Moduły niektórych graczy nie są zgodne z serwerem" />
+    <string id="lxq6SaQn" text="Czy na pewno chcesz wyjść?" />
+    <string id="Mm1Kb1bS" text="Niewłaściwe hasło" />
+    <string id="mO9bh5sy" text="Nie udało się dołączyć do gry niestandardowej" />
+    <string id="MVLleAaZ" text="Zaproś znajomych" />
+    <string id="n4UUrd1p" text="Już w użyciu" />
+    <string id="NqarFr4P" text="Opcje" />
+    <string id="O1bGoaE8" text="Nie można ustalić statusu serwera. Spróbuj ponownie." />
+    <string id="OhF7NqSb" text="Zbanowano cię w grze na podstawie ankiety" />
+    <string id="RamV6yLM" text="Wyjdź do menu głównego" />
+    <string id="RGzyUTzm" text="Zmiana formacji na {._}{ARRANGEMENT_ORDER}{.a}" />
+    <string id="rZSjkCpw" text="Nie można korzystać z trybu fotograficznego podczas rozmieszczania wojsk." />
+    <string id="srAJw3Tg" text="Gracz jest zbanowany na serwerze" />
+    <string id="T8IniCKU" text="Serwer gry nie jest dostępny" />
+    <string id="tKSxGy5p" text="Serwer nie odpowiada" />
+    <string id="tlsmbvQX" text="Nie wszyscy gracze są gotowi, by dołączyć" />
+    <string id="TR1B2RWB" text="Wyrzucono cię z gry na podstawie funkcji anti-cheat" />
+    <string id="V8BXjyYq" text="Wyłączono podczas instalacji." />
+    <string id="VklN5Wm6" text="Tryb fotograficzny" />
+    <string id="vkpMgobZ" text="Błąd serwera gry" />
+    <string id="wbFB3N72" text="Wyrzucono cię z gry na podstawie ankiety" />
+    <string id="wLpJEkKY" text="Wystąpił błąd serwera bitewnego" />
+    <string id="WvGviFgt" text="Upłynął czas połączenia z serwerem" />
+    <string id="yS7PvrTD" text="OK" />
+    <string id="Yza0JYJt" text="Zmień jednostkę" />
+  </strings>
+</base>

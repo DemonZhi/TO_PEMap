@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+    <string id="3rcPHq9a" text="P&#8288;l&#8288;a&#8288;y&#8288;S&#8288;t&#8288;a&#8288;t&#8288;i&#8288;o&#8288;n&#8288;™&#8288;N&#8288;e&#8288;t&#8288;w&#8288;o&#8288;r&#8288;kにサインインしていません。オンライン機能を利用するには、サインインする必要があります。" />
+    <string id="8BV4hDK6" text="システムソフトウェアのアップデートが必要です。" />
+    <string id="8yk50Ba5" text="マルチプレイヤーをプレイするにはP&#8288;l&#8288;a&#8288;y&#8288;S&#8288;t&#8288;a&#8288;t&#8288;i&#8288;o&#8288;n&#8288;®&#8288;P&#8288;l&#8288;u&#8288;sが必要です。" />
+    <string id="g56TVkLF" text="マルチプレイヤーをプレイすることができません。コンテンツ制限の設定をご確認ください。" />
+    <string id="i0QuqXWk" text="ユーザーが見つかりませんでした。" />
+    <string id="kS9dxNIk" text="プラットフォームサービスに失敗しました。" />
+    <string id="oe39dfge" text="ネットワーク接続に失敗しました。" />
+    <string id="PQbtrqBl" text="ゲームのアップデートが必要です。" />
+    <string id="rYbxXReN" text="ユーザーはログアウトされました。" />
+    <string id="Udt1Ua7r" text="ゲームのアップデートが確認できませんでした。" />
+    <string id="UhUvwvkh" text="P&#8288;l&#8288;a&#8288;y&#8288;S&#8288;t&#8288;a&#8288;t&#8288;i&#8288;o&#8288;n&#8288;™&#8288;N&#8288;e&#8288;t&#8288;w&#8288;o&#8288;r&#8288;kから切断されています。オンライン機能は利用できません。" />
+  </strings>
+</base>

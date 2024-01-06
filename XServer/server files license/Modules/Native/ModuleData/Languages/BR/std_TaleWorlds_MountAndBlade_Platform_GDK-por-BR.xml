@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Português (BR)" />
+  </tags>
+  <strings>
+    <string id="3o9AO00M" text="Servidor cheio." />
+    <string id="7G7lu7az" text="Não é possível enviar convites." />
+    <string id="bjhBPJDF" text="Falha ao convidar!" />
+    <string id="BLw3AJjM" text="Não há amigos disponíveis para convidar." />
+    <string id="oZ326SFY" text="Não foi possível entrar no jogo." />
+    <string id="tak1GATd" text="Você não está em um jogo em andamento." />
+    <string id="vIonllGr" text="Incompatibilidade de Sala de Espera" />
+    <string id="x9YcKgLf" text="A lista de amigos não pode ser exibida." />
+    <string id="XlPML483" text="Selecione um jogador para convidar" />
+    <string id="yS7PvrTD" text="OK" />
+  </strings>
+</base>

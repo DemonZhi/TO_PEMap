@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="0W4dgUho" text="{BANNEDUNTIL}까지 게임에서 차단됨, 사유: {BANREASON}" />
+    <string id="39f0eu3Y" text="제공된 AuthToken이 만료되었습니다." />
+    <string id="dbLB0tuT" text="가문 공유가 허용되지 않습니다." />
+    <string id="iWLq9hMg" text="인증 토큰이 제공되지 않았습니다." />
+    <string id="kY2oXMng" text="로그인할 수 없습니다." />
+    <string id="p5K0ATtZ" text="이전 세션을 삭제할 수 없습니다." />
+    <string id="Rj8RhD7F" text="실패" />
+    <string id="satFJMMu" text="사용자 정의 전투 서버에 호환되지 않는 버전이 있습니다." />
+    <string id="Tauk2JzA" text="버전 불일치, 서버 버전: {SERVERVERSION} - 플레이어 버전: {CLIENTVERSION}." />
+    <string id="X6N9nSn0" text="이 서버에 로그인할 수 없습니다. 공식 공개 서버를 이용해 보세요." />
+    <string id="xMa4QqvL" text="현재 파티에 속한 플레이어: {PLAYERS}" />
+    <string id="xriaEwgN" text="{BAN_EXPIRATION_TIME}까지 서버 호스팅이 금지되었습니다. 사유: {BAN_REASON}." />
+    <string id="YmPyx3qi" text="사용자 정의 전투 서버에서 허용하는 최대 플레이어 수에 도달했습니다." />
+  </strings>
+</base>
